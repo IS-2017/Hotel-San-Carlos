@@ -15,3 +15,9 @@ C:\Users\ottog\Documents\Visual Studio 2015\Projects\FuncionesNavegador 3\Funcio
 C:\Users\ottog\Documents\Visual Studio 2015\Projects\FuncionesNavegador 3\FuncionesNavegador\obj\Debug\FuncionesNavegador.csprojResolveAssemblyReference.cache
 C:\Users\ottog\Documents\Visual Studio 2015\Projects\FuncionesNavegador 3\FuncionesNavegador\obj\Debug\FuncionesNavegador.dll
 C:\Users\ottog\Documents\Visual Studio 2015\Projects\FuncionesNavegador 3\FuncionesNavegador\obj\Debug\FuncionesNavegador.pdb
+C:\Users\javie\Documents\GitHub\Hotel-San-Carlos\Grupo1\DLL Navegador\FuncionesNavegador\bin\Debug\FuncionesNavegador.pdb
+C:\Users\javie\Documents\GitHub\Hotel-San-Carlos\Grupo1\DLL Navegador\FuncionesNavegador\bin\Debug\MySql.Data.dll
+C:\Users\javie\Documents\GitHub\Hotel-San-Carlos\Grupo1\DLL Navegador\FuncionesNavegador\bin\Debug\MySql.Data.xml
+C:\Users\javie\Documents\GitHub\Hotel-San-Carlos\Grupo1\DLL Navegador\FuncionesNavegador\obj\Debug\FuncionesNavegador.csprojResolveAssemblyReference.cache
+C:\Users\javie\Documents\GitHub\Hotel-San-Carlos\Grupo1\DLL Navegador\FuncionesNavegador\obj\Debug\FuncionesNavegador.dll
+C:\Users\javie\Documents\GitHub\Hotel-San-Carlos\Grupo1\DLL Navegador\FuncionesNavegador\obj\Debug\FuncionesNavegador.pdb
