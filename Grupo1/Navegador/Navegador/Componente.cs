@@ -17,33 +17,30 @@ namespace Navegador
         {
             InitializeComponent();
         }
+        FuncionDeControles fdc = new FuncionDeControles();
+
         String Codigo;
         Boolean Editar;
         String atributo;
        
         private void btn_nuevo_Click(object sender, EventArgs e)
         {
-            FunNavegador obj = new FunNavegador();
-            obj.activartextbox(textBox1);
-            obj.activartextbox(textBox2);
-            obj.activartextbox(textBox3);
+            fdc.ActivarControles(this);
         }
 
         private void Componente_Load(object sender, EventArgs e)
         {
-            textBox1.Enabled = false;
-            textBox2.Enabled = false;
-            textBox3.Enabled = false;
+            fdc.InhabilitarComponentes(this);
             FunNavegador fn = new FunNavegador();
             fn.ActualizarGrid(this.dataGridView1, "Select * from empleado WHERE estado <> 'INACTIVO' ");
 
         }
-        public void limpiarcajas()
+        /*public void limpiarcajas()
         {
             textBox1.Text = "";
             textBox2.Text = "";
             textBox3.Text = "";
-        }
+        }*/
             
 
         private void btn_guardar_Click(object sender, EventArgs e)
@@ -66,7 +63,7 @@ namespace Navegador
                 fn.insertar(datos, tabla);
             }
             fn.ActualizarGrid(this.dataGridView1, "Select * from empleado ");
-            limpiarcajas();
+            //limpiarcajas();
         }
         private DataTable construirDataTable(TextBox[] textbox)
         {
@@ -116,6 +113,12 @@ namespace Navegador
                 fn.eliminar(tabla, atributo2, codigo2);
 
             }
+        }
+
+        private void btn_cancelar_Click(object sender, EventArgs e)
+        {
+            fdc.LimpiarComponentes(this);
+            fdc.InhabilitarComponentes(this);
         }
     }
 }
