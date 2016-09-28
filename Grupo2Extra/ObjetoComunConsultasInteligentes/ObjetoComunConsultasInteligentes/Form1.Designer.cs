@@ -28,37 +28,35 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btn_add3 = new System.Windows.Forms.Button();
+            this.components = new System.ComponentModel.Container();
             this.chb_check2 = new System.Windows.Forms.CheckBox();
             this.cbo_from3 = new System.Windows.Forms.ComboBox();
             this.cbo_select3 = new System.Windows.Forms.ComboBox();
             this.chb_check1 = new System.Windows.Forms.CheckBox();
             this.cbo_from2 = new System.Windows.Forms.ComboBox();
             this.cbo_select2 = new System.Windows.Forms.ComboBox();
-            this.btn_add2 = new System.Windows.Forms.Button();
-            this.btn_add1 = new System.Windows.Forms.Button();
             this.cbo_from1 = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
             this.cbo_select1 = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.btn_add4 = new System.Windows.Forms.Button();
             this.chb_check3 = new System.Windows.Forms.CheckBox();
             this.cbo_from4 = new System.Windows.Forms.ComboBox();
             this.cbo_select4 = new System.Windows.Forms.ComboBox();
-            this.btn_add5 = new System.Windows.Forms.Button();
             this.chb_check4 = new System.Windows.Forms.CheckBox();
             this.cbo_from5 = new System.Windows.Forms.ComboBox();
             this.cbo_select5 = new System.Windows.Forms.ComboBox();
-            this.label3 = new System.Windows.Forms.Label();
+            this.lbl_titulo = new System.Windows.Forms.Label();
             this.btn_consAlmacen = new System.Windows.Forms.Button();
             this.rdb_sinwhere = new System.Windows.Forms.RadioButton();
             this.rdb_conwhere = new System.Windows.Forms.RadioButton();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
+            this.cbo_indicador = new System.Windows.Forms.ComboBox();
+            this.cbo_simbolo = new System.Windows.Forms.ComboBox();
+            this.cbo_cond2_campo = new System.Windows.Forms.ComboBox();
+            this.cbo_cond2_tabla = new System.Windows.Forms.ComboBox();
+            this.rdb_cond2 = new System.Windows.Forms.RadioButton();
+            this.rdb_cond1 = new System.Windows.Forms.RadioButton();
             this.cbo_tabla_condicion1 = new System.Windows.Forms.ComboBox();
             this.cbo_tabla_condicion3 = new System.Windows.Forms.ComboBox();
             this.btn_crear_condicion = new System.Windows.Forms.Button();
@@ -67,30 +65,27 @@
             this.cbo_condicion3 = new System.Windows.Forms.ComboBox();
             this.cbo_condicion2 = new System.Windows.Forms.ComboBox();
             this.cbo_condicion1 = new System.Windows.Forms.ComboBox();
-            this.btn_generarConsulta = new System.Windows.Forms.Button();
-            this.btn_limpiar = new System.Windows.Forms.Button();
             this.lbl_vistapreviaconsulta = new System.Windows.Forms.Label();
-            this.tabControl1 = new System.Windows.Forms.TabControl();
+            this.tcl_consulta = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.button1 = new System.Windows.Forms.Button();
+            this.btn_limpiar = new System.Windows.Forms.Button();
+            this.btn_generarConsulta = new System.Windows.Forms.Button();
+            this.btn_add5 = new System.Windows.Forms.Button();
+            this.btn_add4 = new System.Windows.Forms.Button();
+            this.btn_add3 = new System.Windows.Forms.Button();
+            this.btn_add2 = new System.Windows.Forms.Button();
+            this.btn_add1 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
-            this.tabControl1.SuspendLayout();
+            this.tcl_consulta.SuspendLayout();
             this.tabPage1.SuspendLayout();
+            this.tabPage2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // btn_add3
-            // 
-            this.btn_add3.BackgroundImage = global::ObjetoComunConsultasInteligentes.Properties.Resources.Button_Add_icon;
-            this.btn_add3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_add3.Location = new System.Drawing.Point(533, 146);
-            this.btn_add3.Name = "btn_add3";
-            this.btn_add3.Size = new System.Drawing.Size(25, 23);
-            this.btn_add3.TabIndex = 40;
-            this.btn_add3.UseVisualStyleBackColor = true;
-            this.btn_add3.Click += new System.EventHandler(this.btn_add3_Click);
             // 
             // chb_check2
             // 
@@ -107,33 +102,22 @@
             // 
             this.cbo_from3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbo_from3.FormattingEnabled = true;
-            this.cbo_from3.Items.AddRange(new object[] {
-            "tabla 1 ",
-            "tabla 2",
-            "tabla 3",
-            "tabla 4"});
             this.cbo_from3.Location = new System.Drawing.Point(412, 119);
             this.cbo_from3.Name = "cbo_from3";
             this.cbo_from3.Size = new System.Drawing.Size(121, 21);
             this.cbo_from3.TabIndex = 38;
+            this.toolTip1.SetToolTip(this.cbo_from3, "Tabla");
             this.cbo_from3.SelectedIndexChanged += new System.EventHandler(this.cbo_from3_SelectedIndexChanged);
             // 
             // cbo_select3
             // 
             this.cbo_select3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbo_select3.FormattingEnabled = true;
-            this.cbo_select3.Items.AddRange(new object[] {
-            "Campo 1",
-            "campo 2 ",
-            "campo 3",
-            "campo 4",
-            "campo 5",
-            "campo 6",
-            "*"});
             this.cbo_select3.Location = new System.Drawing.Point(412, 147);
             this.cbo_select3.Name = "cbo_select3";
             this.cbo_select3.Size = new System.Drawing.Size(121, 21);
             this.cbo_select3.TabIndex = 37;
+            this.toolTip1.SetToolTip(this.cbo_select3, "Fila");
             // 
             // chb_check1
             // 
@@ -150,69 +134,32 @@
             // 
             this.cbo_from2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbo_from2.FormattingEnabled = true;
-            this.cbo_from2.Items.AddRange(new object[] {
-            "tabla 1 ",
-            "tabla 2",
-            "tabla 3",
-            "tabla 4"});
             this.cbo_from2.Location = new System.Drawing.Point(244, 119);
             this.cbo_from2.Name = "cbo_from2";
             this.cbo_from2.Size = new System.Drawing.Size(121, 21);
             this.cbo_from2.TabIndex = 35;
+            this.toolTip1.SetToolTip(this.cbo_from2, "Tabla");
             this.cbo_from2.SelectedIndexChanged += new System.EventHandler(this.cbo_from2_SelectedIndexChanged);
             // 
             // cbo_select2
             // 
             this.cbo_select2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbo_select2.FormattingEnabled = true;
-            this.cbo_select2.Items.AddRange(new object[] {
-            "Campo 1",
-            "campo 2 ",
-            "campo 3",
-            "campo 4",
-            "campo 5",
-            "campo 6",
-            "*"});
             this.cbo_select2.Location = new System.Drawing.Point(244, 147);
             this.cbo_select2.Name = "cbo_select2";
             this.cbo_select2.Size = new System.Drawing.Size(121, 21);
             this.cbo_select2.TabIndex = 34;
-            // 
-            // btn_add2
-            // 
-            this.btn_add2.BackgroundImage = global::ObjetoComunConsultasInteligentes.Properties.Resources.Button_Add_icon;
-            this.btn_add2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_add2.Location = new System.Drawing.Point(365, 146);
-            this.btn_add2.Name = "btn_add2";
-            this.btn_add2.Size = new System.Drawing.Size(25, 23);
-            this.btn_add2.TabIndex = 33;
-            this.btn_add2.UseVisualStyleBackColor = true;
-            this.btn_add2.Click += new System.EventHandler(this.btn_add2_Click);
-            // 
-            // btn_add1
-            // 
-            this.btn_add1.BackgroundImage = global::ObjetoComunConsultasInteligentes.Properties.Resources.Button_Add_icon;
-            this.btn_add1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_add1.Location = new System.Drawing.Point(190, 146);
-            this.btn_add1.Name = "btn_add1";
-            this.btn_add1.Size = new System.Drawing.Size(25, 23);
-            this.btn_add1.TabIndex = 32;
-            this.btn_add1.UseVisualStyleBackColor = true;
-            this.btn_add1.Click += new System.EventHandler(this.btn_add1_Click);
+            this.toolTip1.SetToolTip(this.cbo_select2, "Fila");
             // 
             // cbo_from1
             // 
             this.cbo_from1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbo_from1.FormattingEnabled = true;
-            this.cbo_from1.Items.AddRange(new object[] {
-            "tabla 1 ",
-            "tabla 2",
-            "tabla 3",
-            "tabla 4"});
             this.cbo_from1.Location = new System.Drawing.Point(69, 119);
             this.cbo_from1.Name = "cbo_from1";
             this.cbo_from1.Size = new System.Drawing.Size(121, 21);
             this.cbo_from1.TabIndex = 31;
+            this.toolTip1.SetToolTip(this.cbo_from1, "Tabla");
             this.cbo_from1.SelectedIndexChanged += new System.EventHandler(this.cbo_from1_SelectedIndexChanged);
             // 
             // label2
@@ -228,18 +175,11 @@
             // 
             this.cbo_select1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbo_select1.FormattingEnabled = true;
-            this.cbo_select1.Items.AddRange(new object[] {
-            "Campo 1",
-            "campo 2 ",
-            "campo 3",
-            "campo 4",
-            "campo 5",
-            "campo 6",
-            "*"});
             this.cbo_select1.Location = new System.Drawing.Point(69, 147);
             this.cbo_select1.Name = "cbo_select1";
             this.cbo_select1.Size = new System.Drawing.Size(121, 21);
             this.cbo_select1.TabIndex = 29;
+            this.toolTip1.SetToolTip(this.cbo_select1, "Fila");
             this.cbo_select1.SelectedIndexChanged += new System.EventHandler(this.cbo_select1_SelectedIndexChanged);
             // 
             // label1
@@ -250,17 +190,6 @@
             this.label1.Size = new System.Drawing.Size(48, 13);
             this.label1.TabIndex = 28;
             this.label1.Text = "SELECT";
-            // 
-            // btn_add4
-            // 
-            this.btn_add4.BackgroundImage = global::ObjetoComunConsultasInteligentes.Properties.Resources.Button_Add_icon;
-            this.btn_add4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_add4.Location = new System.Drawing.Point(701, 146);
-            this.btn_add4.Name = "btn_add4";
-            this.btn_add4.Size = new System.Drawing.Size(25, 23);
-            this.btn_add4.TabIndex = 44;
-            this.btn_add4.UseVisualStyleBackColor = true;
-            this.btn_add4.Click += new System.EventHandler(this.btn_add4_Click);
             // 
             // chb_check3
             // 
@@ -286,35 +215,18 @@
             this.cbo_from4.Name = "cbo_from4";
             this.cbo_from4.Size = new System.Drawing.Size(121, 21);
             this.cbo_from4.TabIndex = 42;
+            this.toolTip1.SetToolTip(this.cbo_from4, "Tabla");
             this.cbo_from4.SelectedIndexChanged += new System.EventHandler(this.cbo_from4_SelectedIndexChanged);
             // 
             // cbo_select4
             // 
             this.cbo_select4.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbo_select4.FormattingEnabled = true;
-            this.cbo_select4.Items.AddRange(new object[] {
-            "Campo 1",
-            "campo 2 ",
-            "campo 3",
-            "campo 4",
-            "campo 5",
-            "campo 6",
-            "*"});
             this.cbo_select4.Location = new System.Drawing.Point(580, 147);
             this.cbo_select4.Name = "cbo_select4";
             this.cbo_select4.Size = new System.Drawing.Size(121, 21);
             this.cbo_select4.TabIndex = 41;
-            // 
-            // btn_add5
-            // 
-            this.btn_add5.BackgroundImage = global::ObjetoComunConsultasInteligentes.Properties.Resources.Button_Add_icon;
-            this.btn_add5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_add5.Location = new System.Drawing.Point(873, 146);
-            this.btn_add5.Name = "btn_add5";
-            this.btn_add5.Size = new System.Drawing.Size(25, 23);
-            this.btn_add5.TabIndex = 48;
-            this.btn_add5.UseVisualStyleBackColor = true;
-            this.btn_add5.Click += new System.EventHandler(this.btn_add5_Click);
+            this.toolTip1.SetToolTip(this.cbo_select4, "Fila");
             // 
             // chb_check4
             // 
@@ -340,44 +252,39 @@
             this.cbo_from5.Name = "cbo_from5";
             this.cbo_from5.Size = new System.Drawing.Size(121, 21);
             this.cbo_from5.TabIndex = 46;
+            this.toolTip1.SetToolTip(this.cbo_from5, "Tabla");
             this.cbo_from5.SelectedIndexChanged += new System.EventHandler(this.cbo_from5_SelectedIndexChanged);
             // 
             // cbo_select5
             // 
             this.cbo_select5.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbo_select5.FormattingEnabled = true;
-            this.cbo_select5.Items.AddRange(new object[] {
-            "Campo 1",
-            "campo 2 ",
-            "campo 3",
-            "campo 4",
-            "campo 5",
-            "campo 6",
-            "*"});
             this.cbo_select5.Location = new System.Drawing.Point(752, 147);
             this.cbo_select5.Name = "cbo_select5";
             this.cbo_select5.Size = new System.Drawing.Size(121, 21);
             this.cbo_select5.TabIndex = 45;
+            this.toolTip1.SetToolTip(this.cbo_select5, "Fila");
             // 
-            // label3
+            // lbl_titulo
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Calibri", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(394, 19);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(178, 45);
-            this.label3.TabIndex = 49;
-            this.label3.Text = "Consultas ";
+            this.lbl_titulo.AutoSize = true;
+            this.lbl_titulo.Font = new System.Drawing.Font("Calibri", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_titulo.Location = new System.Drawing.Point(269, 10);
+            this.lbl_titulo.Name = "lbl_titulo";
+            this.lbl_titulo.Size = new System.Drawing.Size(420, 45);
+            this.lbl_titulo.TabIndex = 49;
+            this.lbl_titulo.Text = "CONSULTAS INTELIGENTES";
             // 
             // btn_consAlmacen
             // 
+            this.btn_consAlmacen.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.btn_consAlmacen.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_consAlmacen.Location = new System.Drawing.Point(814, 29);
             this.btn_consAlmacen.Name = "btn_consAlmacen";
             this.btn_consAlmacen.Size = new System.Drawing.Size(128, 23);
             this.btn_consAlmacen.TabIndex = 50;
             this.btn_consAlmacen.Text = "Consultas Almacenadas";
-            this.btn_consAlmacen.UseVisualStyleBackColor = true;
+            this.btn_consAlmacen.UseVisualStyleBackColor = false;
             this.btn_consAlmacen.Click += new System.EventHandler(this.button1_Click);
             // 
             // rdb_sinwhere
@@ -415,10 +322,12 @@
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.label7);
-            this.groupBox2.Controls.Add(this.label6);
-            this.groupBox2.Controls.Add(this.label5);
-            this.groupBox2.Controls.Add(this.label4);
+            this.groupBox2.Controls.Add(this.cbo_indicador);
+            this.groupBox2.Controls.Add(this.cbo_simbolo);
+            this.groupBox2.Controls.Add(this.cbo_cond2_campo);
+            this.groupBox2.Controls.Add(this.cbo_cond2_tabla);
+            this.groupBox2.Controls.Add(this.rdb_cond2);
+            this.groupBox2.Controls.Add(this.rdb_cond1);
             this.groupBox2.Controls.Add(this.cbo_tabla_condicion1);
             this.groupBox2.Controls.Add(this.cbo_tabla_condicion3);
             this.groupBox2.Controls.Add(this.btn_crear_condicion);
@@ -429,95 +338,132 @@
             this.groupBox2.Controls.Add(this.cbo_condicion1);
             this.groupBox2.Location = new System.Drawing.Point(12, 234);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(659, 118);
+            this.groupBox2.Size = new System.Drawing.Size(733, 127);
             this.groupBox2.TabIndex = 54;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Condición";
             this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
             // 
-            // label7
+            // cbo_indicador
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(319, 32);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(23, 13);
-            this.label7.TabIndex = 40;
-            this.label7.Text = "Fila";
+            this.cbo_indicador.FormattingEnabled = true;
+            this.cbo_indicador.Location = new System.Drawing.Point(265, 86);
+            this.cbo_indicador.Name = "cbo_indicador";
+            this.cbo_indicador.Size = new System.Drawing.Size(144, 21);
+            this.cbo_indicador.TabIndex = 58;
+            this.toolTip1.SetToolTip(this.cbo_indicador, "Condicion");
             // 
-            // label6
+            // cbo_simbolo
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(110, 33);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(23, 13);
-            this.label6.TabIndex = 39;
-            this.label6.Text = "Fila";
+            this.cbo_simbolo.DisplayMember = "=";
+            this.cbo_simbolo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbo_simbolo.FormattingEnabled = true;
+            this.cbo_simbolo.Items.AddRange(new object[] {
+            "<",
+            ">",
+            "="});
+            this.cbo_simbolo.Location = new System.Drawing.Point(212, 86);
+            this.cbo_simbolo.Name = "cbo_simbolo";
+            this.cbo_simbolo.Size = new System.Drawing.Size(47, 21);
+            this.cbo_simbolo.TabIndex = 57;
+            this.toolTip1.SetToolTip(this.cbo_simbolo, "Simbolo");
+            this.cbo_simbolo.ValueMember = "=";
             // 
-            // label5
+            // cbo_cond2_campo
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(245, 33);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(34, 13);
-            this.label5.TabIndex = 38;
-            this.label5.Text = "Tabla";
+            this.cbo_cond2_campo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbo_cond2_campo.FormattingEnabled = true;
+            this.cbo_cond2_campo.Location = new System.Drawing.Point(128, 86);
+            this.cbo_cond2_campo.Name = "cbo_cond2_campo";
+            this.cbo_cond2_campo.Size = new System.Drawing.Size(77, 21);
+            this.cbo_cond2_campo.TabIndex = 56;
+            this.toolTip1.SetToolTip(this.cbo_cond2_campo, "Fila");
             // 
-            // label4
+            // cbo_cond2_tabla
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(31, 33);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(34, 13);
-            this.label4.TabIndex = 37;
-            this.label4.Text = "Tabla";
+            this.cbo_cond2_tabla.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbo_cond2_tabla.FormattingEnabled = true;
+            this.cbo_cond2_tabla.Location = new System.Drawing.Point(49, 86);
+            this.cbo_cond2_tabla.Name = "cbo_cond2_tabla";
+            this.cbo_cond2_tabla.Size = new System.Drawing.Size(80, 21);
+            this.cbo_cond2_tabla.TabIndex = 55;
+            this.toolTip1.SetToolTip(this.cbo_cond2_tabla, "Tabla");
+            this.cbo_cond2_tabla.SelectedIndexChanged += new System.EventHandler(this.cbo_cond2_tabla_SelectedIndexChanged);
+            // 
+            // rdb_cond2
+            // 
+            this.rdb_cond2.AutoSize = true;
+            this.rdb_cond2.Location = new System.Drawing.Point(19, 94);
+            this.rdb_cond2.Name = "rdb_cond2";
+            this.rdb_cond2.Size = new System.Drawing.Size(14, 13);
+            this.rdb_cond2.TabIndex = 54;
+            this.rdb_cond2.TabStop = true;
+            this.rdb_cond2.UseVisualStyleBackColor = true;
+            this.rdb_cond2.CheckedChanged += new System.EventHandler(this.rdb_cond2_CheckedChanged);
+            // 
+            // rdb_cond1
+            // 
+            this.rdb_cond1.AutoSize = true;
+            this.rdb_cond1.Location = new System.Drawing.Point(20, 52);
+            this.rdb_cond1.Name = "rdb_cond1";
+            this.rdb_cond1.Size = new System.Drawing.Size(14, 13);
+            this.rdb_cond1.TabIndex = 53;
+            this.rdb_cond1.TabStop = true;
+            this.rdb_cond1.UseVisualStyleBackColor = true;
+            this.rdb_cond1.CheckedChanged += new System.EventHandler(this.rdb_cond1_CheckedChanged);
             // 
             // cbo_tabla_condicion1
             // 
             this.cbo_tabla_condicion1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbo_tabla_condicion1.FormattingEnabled = true;
-            this.cbo_tabla_condicion1.Location = new System.Drawing.Point(12, 49);
+            this.cbo_tabla_condicion1.Location = new System.Drawing.Point(49, 49);
             this.cbo_tabla_condicion1.Name = "cbo_tabla_condicion1";
             this.cbo_tabla_condicion1.Size = new System.Drawing.Size(77, 21);
             this.cbo_tabla_condicion1.TabIndex = 36;
+            this.toolTip1.SetToolTip(this.cbo_tabla_condicion1, "Tabla");
             this.cbo_tabla_condicion1.SelectedIndexChanged += new System.EventHandler(this.cbo_tabla_condicion1_SelectedIndexChanged);
             // 
             // cbo_tabla_condicion3
             // 
             this.cbo_tabla_condicion3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbo_tabla_condicion3.FormattingEnabled = true;
-            this.cbo_tabla_condicion3.Location = new System.Drawing.Point(228, 48);
+            this.cbo_tabla_condicion3.Location = new System.Drawing.Point(265, 48);
             this.cbo_tabla_condicion3.Name = "cbo_tabla_condicion3";
             this.cbo_tabla_condicion3.Size = new System.Drawing.Size(68, 21);
             this.cbo_tabla_condicion3.TabIndex = 35;
+            this.toolTip1.SetToolTip(this.cbo_tabla_condicion3, "Tabla");
             this.cbo_tabla_condicion3.SelectedIndexChanged += new System.EventHandler(this.cbo_tabla_condicion3_SelectedIndexChanged);
             // 
             // btn_crear_condicion
             // 
-            this.btn_crear_condicion.Location = new System.Drawing.Point(390, 49);
+            this.btn_crear_condicion.Location = new System.Drawing.Point(427, 49);
             this.btn_crear_condicion.Name = "btn_crear_condicion";
             this.btn_crear_condicion.Size = new System.Drawing.Size(75, 23);
             this.btn_crear_condicion.TabIndex = 34;
             this.btn_crear_condicion.Text = "CREAR";
+            this.toolTip1.SetToolTip(this.btn_crear_condicion, "Crear");
             this.btn_crear_condicion.UseVisualStyleBackColor = true;
             this.btn_crear_condicion.Click += new System.EventHandler(this.btn_crear_condicion_Click);
             // 
             // btn_and
             // 
-            this.btn_and.Location = new System.Drawing.Point(554, 49);
+            this.btn_and.Location = new System.Drawing.Point(591, 49);
             this.btn_and.Name = "btn_and";
             this.btn_and.Size = new System.Drawing.Size(75, 23);
             this.btn_and.TabIndex = 33;
             this.btn_and.Text = "AND";
+            this.toolTip1.SetToolTip(this.btn_and, "AND");
             this.btn_and.UseVisualStyleBackColor = true;
             this.btn_and.Click += new System.EventHandler(this.btn_and_Click);
             // 
             // btn_or
             // 
-            this.btn_or.Location = new System.Drawing.Point(471, 49);
+            this.btn_or.Location = new System.Drawing.Point(508, 49);
             this.btn_or.Name = "btn_or";
             this.btn_or.Size = new System.Drawing.Size(75, 23);
             this.btn_or.TabIndex = 32;
             this.btn_or.Text = "OR";
+            this.toolTip1.SetToolTip(this.btn_or, "OR");
             this.btn_or.UseVisualStyleBackColor = true;
             this.btn_or.Click += new System.EventHandler(this.btn_or_Click);
             // 
@@ -525,17 +471,11 @@
             // 
             this.cbo_condicion3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbo_condicion3.FormattingEnabled = true;
-            this.cbo_condicion3.Items.AddRange(new object[] {
-            "Campo 1",
-            "campo 2 ",
-            "campo 3",
-            "campo 4",
-            "campo 5",
-            "campo 6"});
-            this.cbo_condicion3.Location = new System.Drawing.Point(295, 48);
+            this.cbo_condicion3.Location = new System.Drawing.Point(332, 48);
             this.cbo_condicion3.Name = "cbo_condicion3";
             this.cbo_condicion3.Size = new System.Drawing.Size(77, 21);
             this.cbo_condicion3.TabIndex = 30;
+            this.toolTip1.SetToolTip(this.cbo_condicion3, "Fila");
             // 
             // cbo_condicion2
             // 
@@ -546,65 +486,41 @@
             "<",
             ">",
             "="});
-            this.cbo_condicion2.Location = new System.Drawing.Point(175, 49);
+            this.cbo_condicion2.Location = new System.Drawing.Point(212, 49);
             this.cbo_condicion2.Name = "cbo_condicion2";
             this.cbo_condicion2.Size = new System.Drawing.Size(47, 21);
             this.cbo_condicion2.TabIndex = 29;
+            this.toolTip1.SetToolTip(this.cbo_condicion2, "Simbolo");
             this.cbo_condicion2.ValueMember = "=";
             // 
             // cbo_condicion1
             // 
             this.cbo_condicion1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbo_condicion1.FormattingEnabled = true;
-            this.cbo_condicion1.Items.AddRange(new object[] {
-            "Campo 1",
-            "campo 2 ",
-            "campo 3",
-            "campo 4",
-            "campo 5",
-            "campo 6"});
-            this.cbo_condicion1.Location = new System.Drawing.Point(88, 49);
+            this.cbo_condicion1.Location = new System.Drawing.Point(125, 49);
             this.cbo_condicion1.Name = "cbo_condicion1";
             this.cbo_condicion1.Size = new System.Drawing.Size(80, 21);
             this.cbo_condicion1.TabIndex = 28;
-            // 
-            // btn_generarConsulta
-            // 
-            this.btn_generarConsulta.Location = new System.Drawing.Point(782, 267);
-            this.btn_generarConsulta.Name = "btn_generarConsulta";
-            this.btn_generarConsulta.Size = new System.Drawing.Size(101, 23);
-            this.btn_generarConsulta.TabIndex = 55;
-            this.btn_generarConsulta.Text = "Generar Consulta";
-            this.btn_generarConsulta.UseVisualStyleBackColor = true;
-            this.btn_generarConsulta.Click += new System.EventHandler(this.btn_generarConsulta_Click);
-            // 
-            // btn_limpiar
-            // 
-            this.btn_limpiar.Location = new System.Drawing.Point(782, 296);
-            this.btn_limpiar.Name = "btn_limpiar";
-            this.btn_limpiar.Size = new System.Drawing.Size(101, 23);
-            this.btn_limpiar.TabIndex = 56;
-            this.btn_limpiar.Text = "Limpiar Campos";
-            this.btn_limpiar.UseVisualStyleBackColor = true;
-            this.btn_limpiar.Click += new System.EventHandler(this.btn_limpiar_Click);
+            this.toolTip1.SetToolTip(this.cbo_condicion1, "Fila");
             // 
             // lbl_vistapreviaconsulta
             // 
             this.lbl_vistapreviaconsulta.AutoSize = true;
-            this.lbl_vistapreviaconsulta.Location = new System.Drawing.Point(13, 16);
+            this.lbl_vistapreviaconsulta.Location = new System.Drawing.Point(6, 59);
             this.lbl_vistapreviaconsulta.Name = "lbl_vistapreviaconsulta";
             this.lbl_vistapreviaconsulta.Size = new System.Drawing.Size(106, 13);
             this.lbl_vistapreviaconsulta.TabIndex = 57;
             this.lbl_vistapreviaconsulta.Text = "Consulta vista Previa";
             // 
-            // tabControl1
+            // tcl_consulta
             // 
-            this.tabControl1.Controls.Add(this.tabPage1);
-            this.tabControl1.Location = new System.Drawing.Point(12, 358);
-            this.tabControl1.Name = "tabControl1";
-            this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(908, 89);
-            this.tabControl1.TabIndex = 58;
+            this.tcl_consulta.Controls.Add(this.tabPage1);
+            this.tcl_consulta.Controls.Add(this.tabPage2);
+            this.tcl_consulta.Location = new System.Drawing.Point(14, 367);
+            this.tcl_consulta.Name = "tcl_consulta";
+            this.tcl_consulta.SelectedIndex = 0;
+            this.tcl_consulta.Size = new System.Drawing.Size(908, 174);
+            this.tcl_consulta.TabIndex = 58;
             // 
             // tabPage1
             // 
@@ -614,28 +530,143 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(900, 63);
+            this.tabPage1.Size = new System.Drawing.Size(900, 148);
             this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = " ";
+            this.tabPage1.Text = " QUERY";
             this.tabPage1.Click += new System.EventHandler(this.tabPage1_Click);
+            // 
+            // tabPage2
+            // 
+            this.tabPage2.AutoScroll = true;
+            this.tabPage2.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.tabPage2.Controls.Add(this.dataGridView1);
+            this.tabPage2.Location = new System.Drawing.Point(4, 22);
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage2.Size = new System.Drawing.Size(900, 148);
+            this.tabPage2.TabIndex = 1;
+            this.tabPage2.Text = "CONSULTA";
             // 
             // dataGridView1
             // 
+            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(12, 453);
+            this.dataGridView1.Location = new System.Drawing.Point(3, 3);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(908, 150);
+            this.dataGridView1.Size = new System.Drawing.Size(894, 142);
             this.dataGridView1.TabIndex = 59;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(782, 238);
+            this.button1.BackgroundImage = global::ObjetoComunConsultasInteligentes.Properties.Resources.File_New_icon;
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Location = new System.Drawing.Point(844, 187);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(101, 23);
+            this.button1.Size = new System.Drawing.Size(75, 55);
             this.button1.TabIndex = 60;
-            this.button1.Text = "guardar";
+            this.toolTip1.SetToolTip(this.button1, "Guardar");
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click_1);
+            // 
+            // btn_limpiar
+            // 
+            this.btn_limpiar.BackgroundImage = global::ObjetoComunConsultasInteligentes.Properties.Resources.Button_Close_icon;
+            this.btn_limpiar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_limpiar.FlatAppearance.BorderSize = 0;
+            this.btn_limpiar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_limpiar.Location = new System.Drawing.Point(844, 309);
+            this.btn_limpiar.Name = "btn_limpiar";
+            this.btn_limpiar.Size = new System.Drawing.Size(75, 55);
+            this.btn_limpiar.TabIndex = 56;
+            this.toolTip1.SetToolTip(this.btn_limpiar, "Nueva Consulta");
+            this.btn_limpiar.UseVisualStyleBackColor = true;
+            this.btn_limpiar.Click += new System.EventHandler(this.btn_limpiar_Click);
+            // 
+            // btn_generarConsulta
+            // 
+            this.btn_generarConsulta.BackgroundImage = global::ObjetoComunConsultasInteligentes.Properties.Resources.play;
+            this.btn_generarConsulta.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_generarConsulta.FlatAppearance.BorderSize = 0;
+            this.btn_generarConsulta.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_generarConsulta.Location = new System.Drawing.Point(844, 250);
+            this.btn_generarConsulta.Name = "btn_generarConsulta";
+            this.btn_generarConsulta.Size = new System.Drawing.Size(75, 55);
+            this.btn_generarConsulta.TabIndex = 55;
+            this.toolTip1.SetToolTip(this.btn_generarConsulta, "Generar Consulta");
+            this.btn_generarConsulta.UseVisualStyleBackColor = true;
+            this.btn_generarConsulta.Click += new System.EventHandler(this.btn_generarConsulta_Click);
+            // 
+            // btn_add5
+            // 
+            this.btn_add5.BackgroundImage = global::ObjetoComunConsultasInteligentes.Properties.Resources.Button_Add_icon;
+            this.btn_add5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_add5.FlatAppearance.BorderSize = 0;
+            this.btn_add5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_add5.Location = new System.Drawing.Point(873, 146);
+            this.btn_add5.Name = "btn_add5";
+            this.btn_add5.Size = new System.Drawing.Size(25, 23);
+            this.btn_add5.TabIndex = 48;
+            this.toolTip1.SetToolTip(this.btn_add5, "Agregar");
+            this.btn_add5.UseVisualStyleBackColor = true;
+            this.btn_add5.Click += new System.EventHandler(this.btn_add5_Click);
+            // 
+            // btn_add4
+            // 
+            this.btn_add4.BackgroundImage = global::ObjetoComunConsultasInteligentes.Properties.Resources.Button_Add_icon;
+            this.btn_add4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_add4.FlatAppearance.BorderSize = 0;
+            this.btn_add4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_add4.Location = new System.Drawing.Point(701, 146);
+            this.btn_add4.Name = "btn_add4";
+            this.btn_add4.Size = new System.Drawing.Size(25, 23);
+            this.btn_add4.TabIndex = 44;
+            this.toolTip1.SetToolTip(this.btn_add4, "Agregar");
+            this.btn_add4.UseVisualStyleBackColor = true;
+            this.btn_add4.Click += new System.EventHandler(this.btn_add4_Click);
+            // 
+            // btn_add3
+            // 
+            this.btn_add3.BackgroundImage = global::ObjetoComunConsultasInteligentes.Properties.Resources.Button_Add_icon;
+            this.btn_add3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_add3.FlatAppearance.BorderSize = 0;
+            this.btn_add3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_add3.Location = new System.Drawing.Point(533, 146);
+            this.btn_add3.Name = "btn_add3";
+            this.btn_add3.Size = new System.Drawing.Size(25, 23);
+            this.btn_add3.TabIndex = 40;
+            this.toolTip1.SetToolTip(this.btn_add3, "Agregar");
+            this.btn_add3.UseVisualStyleBackColor = true;
+            this.btn_add3.Click += new System.EventHandler(this.btn_add3_Click);
+            // 
+            // btn_add2
+            // 
+            this.btn_add2.BackgroundImage = global::ObjetoComunConsultasInteligentes.Properties.Resources.Button_Add_icon;
+            this.btn_add2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_add2.FlatAppearance.BorderSize = 0;
+            this.btn_add2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_add2.Location = new System.Drawing.Point(365, 146);
+            this.btn_add2.Name = "btn_add2";
+            this.btn_add2.Size = new System.Drawing.Size(25, 23);
+            this.btn_add2.TabIndex = 33;
+            this.toolTip1.SetToolTip(this.btn_add2, "Agregar");
+            this.btn_add2.UseVisualStyleBackColor = true;
+            this.btn_add2.Click += new System.EventHandler(this.btn_add2_Click);
+            // 
+            // btn_add1
+            // 
+            this.btn_add1.BackgroundImage = global::ObjetoComunConsultasInteligentes.Properties.Resources.Button_Add_icon;
+            this.btn_add1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_add1.FlatAppearance.BorderSize = 0;
+            this.btn_add1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_add1.Location = new System.Drawing.Point(190, 146);
+            this.btn_add1.Name = "btn_add1";
+            this.btn_add1.Size = new System.Drawing.Size(25, 23);
+            this.btn_add1.TabIndex = 32;
+            this.toolTip1.SetToolTip(this.btn_add1, "Agregar");
+            this.btn_add1.UseVisualStyleBackColor = true;
+            this.btn_add1.Click += new System.EventHandler(this.btn_add1_Click);
             // 
             // Form1
             // 
@@ -645,14 +676,13 @@
             this.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.ClientSize = new System.Drawing.Size(954, 545);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.tabControl1);
+            this.Controls.Add(this.tcl_consulta);
             this.Controls.Add(this.btn_limpiar);
             this.Controls.Add(this.btn_generarConsulta);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.btn_consAlmacen);
-            this.Controls.Add(this.label3);
+            this.Controls.Add(this.lbl_titulo);
             this.Controls.Add(this.btn_add5);
             this.Controls.Add(this.chb_check4);
             this.Controls.Add(this.cbo_from5);
@@ -674,16 +704,18 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.cbo_select1);
             this.Controls.Add(this.label1);
+            this.MaximizeBox = false;
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
-            this.tabControl1.ResumeLayout(false);
+            this.tcl_consulta.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
+            this.tabPage2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -713,7 +745,7 @@
         private System.Windows.Forms.CheckBox chb_check4;
         private System.Windows.Forms.ComboBox cbo_from5;
         private System.Windows.Forms.ComboBox cbo_select5;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label lbl_titulo;
         private System.Windows.Forms.Button btn_consAlmacen;
         private System.Windows.Forms.RadioButton rdb_sinwhere;
         private System.Windows.Forms.RadioButton rdb_conwhere;
@@ -728,16 +760,20 @@
         private System.Windows.Forms.Button btn_limpiar;
         private System.Windows.Forms.Label lbl_vistapreviaconsulta;
         private System.Windows.Forms.Button btn_crear_condicion;
-        private System.Windows.Forms.TabControl tabControl1;
+        private System.Windows.Forms.TabControl tcl_consulta;
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.ComboBox cbo_tabla_condicion1;
         private System.Windows.Forms.ComboBox cbo_tabla_condicion3;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.RadioButton rdb_cond2;
+        private System.Windows.Forms.RadioButton rdb_cond1;
+        private System.Windows.Forms.ComboBox cbo_indicador;
+        private System.Windows.Forms.ComboBox cbo_simbolo;
+        private System.Windows.Forms.ComboBox cbo_cond2_campo;
+        private System.Windows.Forms.ComboBox cbo_cond2_tabla;
+        private System.Windows.Forms.TabPage tabPage2;
+        private System.Windows.Forms.ToolTip toolTip1;
     }
 }
 

@@ -47,9 +47,15 @@ namespace ObjetoComunConsultasInteligentes
             cbo_tabla_condicion3.Enabled = false;
             btn_crear_condicion.Enabled = false;
             chb_check1.Enabled = false;
+            rdb_cond1.Enabled = false;
+            rdb_cond2.Enabled = false;
             chb_check2.Enabled = false;
             chb_check3.Enabled = false;
             chb_check4.Enabled = false;
+            cbo_cond2_tabla.Enabled = false;
+            cbo_cond2_campo.Enabled = false;
+            cbo_simbolo.Enabled = false;
+            cbo_indicador.Enabled = false;
         }
 
         public void limpiarQuery()
@@ -60,6 +66,9 @@ namespace ObjetoComunConsultasInteligentes
             cc = "";
             dd = "";
             oo = "";
+            cont = 0;
+            desctivarCampos();
+            rdb_sinwhere.Checked = true;
             cbo_condicion1.ResetText();
             cbo_from1.ResetText();
             cbo_from2.ResetText();
@@ -299,10 +308,12 @@ namespace ObjetoComunConsultasInteligentes
         string SelectCompleto;
         private void button1_Click(object sender, EventArgs e)
         {
-            select = "SELECT";
-            SelectCadena = ss + aa + bb + cc + dd;
-            SelectCompleto = select + " " + SelectCadena;
-            MessageBox.Show(SelectCompleto);
+            //select = "SELECT";
+            //SelectCadena = ss + aa + bb + cc + dd;
+            //SelectCompleto = select + " " + SelectCadena;
+            //MessageBox.Show(SelectCompleto);
+            cargaConsulta guardar = new cargaConsulta();
+            guardar.Show();
         }
 
         private void groupBox2_Enter(object sender, EventArgs e)
@@ -318,62 +329,121 @@ namespace ObjetoComunConsultasInteligentes
         string o4;
         private void btn_or_Click(object sender, EventArgs e)
         {
-            if (cbo_condicion1.Text == "" || cbo_condicion2.Text == "" || cbo_condicion3.Text == "")
+            if (rdb_cond1.Checked == true)
             {
-                MessageBox.Show("Llene los campos correspondientes", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                if (cbo_condicion1.Text == "" || cbo_condicion2.Text == "" || cbo_condicion3.Text == "")
+                {
+                    MessageBox.Show("Llene los campos correspondientes", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
+                else
+                {
+                    String prefijo1 = "";
+                    string prefijo2 = "";
+                    //prefijo1
+                    if (cbo_tabla_condicion1.Text == cbo_from1.Text)
+                    {
+                        prefijo1 = "a.";
+                    }
+                    if (cbo_tabla_condicion1.Text == cbo_from2.Text)
+                    {
+                        prefijo1 = "b.";
+                    }
+                    if (cbo_tabla_condicion1.Text == cbo_from3.Text)
+                    {
+                        prefijo1 = "c.";
+                    }
+                    if (cbo_tabla_condicion1.Text == cbo_from4.Text)
+                    {
+                        prefijo1 = "d.";
+                    }
+                    if (cbo_tabla_condicion1.Text == cbo_from5.Text)
+                    {
+                        prefijo1 = "e.";
+                    }
+                    else
+                    {
+                        MessageBox.Show("No esta seleccionada la tabla");
+
+                    }
+                    //prefijo2
+                    if (cbo_tabla_condicion3.Text == cbo_from1.Text)
+                    {
+                        prefijo2 = "a.";
+                    }
+                    if (cbo_tabla_condicion3.Text == cbo_from2.Text)
+                    {
+                        prefijo2 = "b.";
+                    }
+                    if (cbo_tabla_condicion3.Text == cbo_from3.Text)
+                    {
+                        prefijo2 = "c.";
+                    }
+                    if (cbo_tabla_condicion3.Text == cbo_from4.Text)
+                    {
+                        prefijo2 = "d.";
+                    }
+                    if (cbo_tabla_condicion3.Text == cbo_from5.Text)
+                    {
+                        prefijo2 = "e.";
+                    }
+                    else
+                    {
+                        MessageBox.Show("No esta seleccionada la tabla");
+
+                    }
+                    string o3 = "" + o2 + "" + prefijo1 + cbo_condicion1.Text + " " + cbo_condicion2.Text + " " + prefijo2 + cbo_condicion3.Text + " ";
+                    o1 = o3;
+                    o4 = o3;
+                    oo = oo + " " + o4;
+                    //MessageBox.Show(oo);
+                    CrearConsultas();
+                }
             }
-            else
+            if (rdb_cond2.Checked==true)
             {
-                String prefijo1 = "";
-                string prefijo2 = "";
-                //prefijo1
-                if (cbo_tabla_condicion1.Text == cbo_from1.Text)
+                if (cbo_cond2_campo.Text == "" || cbo_simbolo.Text == "" || cbo_indicador.Text == "")
                 {
-                    prefijo1 = "a.";
+                    MessageBox.Show("Llene los campos correspondientes", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 }
-                if (cbo_tabla_condicion1.Text == cbo_from2.Text)
+                else
                 {
-                    prefijo1 = "b.";
+                    String prefijo = "";
+                    
+                    //prefijo1
+                    if (cbo_cond2_tabla.Text == cbo_from1.Text)
+                    {
+                        prefijo = "a.";
+                    }
+                    if (cbo_cond2_tabla.Text == cbo_from2.Text)
+                    {
+                        prefijo = "b.";
+                    }
+                    if (cbo_cond2_tabla.Text == cbo_from3.Text)
+                    {
+                        prefijo = "c.";
+                    }
+                    if (cbo_cond2_tabla.Text == cbo_from4.Text)
+                    {
+                        prefijo = "d.";
+                    }
+                    if (cbo_cond2_tabla.Text == cbo_from5.Text)
+                    {
+                        prefijo = "e.";
+                    }
+                    else
+                    {
+                        MessageBox.Show("No esta seleccionada la tabla");
+
+                    }
+
+                    string o3 = "" + o2 + "" + prefijo + cbo_cond2_campo.Text + " " + cbo_simbolo.Text +" "+ cbo_indicador.Text + " ";
+                    o1 = o3;
+                    o4 = o3;
+                    oo = oo + " " + o4;
+                    //MessageBox.Show(oo);
+                    CrearConsultas();
                 }
-                if (cbo_tabla_condicion1.Text == cbo_from3.Text)
-                {
-                    prefijo1 = "c.";
-                }
-                if (cbo_tabla_condicion1.Text == cbo_from4.Text)
-                {
-                    prefijo1 = "d.";
-                }
-                if (cbo_tabla_condicion1.Text == cbo_from5.Text)
-                {
-                    prefijo1 = "e.";
-                }
-                //prefijo2
-                if (cbo_tabla_condicion3.Text == cbo_from1.Text)
-                {
-                    prefijo2 = "a.";
-                }
-                if (cbo_tabla_condicion3.Text == cbo_from2.Text)
-                {
-                    prefijo2 = "b.";
-                }
-                if (cbo_tabla_condicion3.Text == cbo_from3.Text)
-                {
-                    prefijo2 = "c.";
-                }
-                if (cbo_tabla_condicion3.Text == cbo_from4.Text)
-                {
-                    prefijo2 = "d.";
-                }
-                if (cbo_tabla_condicion3.Text == cbo_from5.Text)
-                {
-                    prefijo2 = "e.";
-                }
-                string o3 = "" + o2 + "" + prefijo1 + cbo_condicion1.Text + " " + cbo_condicion2.Text + " " + prefijo2 + cbo_condicion3.Text + " ";
-                o1 = o3;
-                o4 = o3;
-                oo = oo + " " + o4;
-                //MessageBox.Show(oo);
-                CrearConsultas();
+
             }
         }
 
@@ -381,62 +451,120 @@ namespace ObjetoComunConsultasInteligentes
         string n2 = "AND ";
         private void btn_and_Click(object sender, EventArgs e)
         {
-            if (cbo_condicion1.Text == "" || cbo_condicion2.Text == "" || cbo_condicion3.Text == "")
+            if (rdb_cond1.Checked == true)
             {
-                MessageBox.Show("Llene los campos correspondientes", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                if (cbo_condicion1.Text == "" || cbo_condicion2.Text == "" || cbo_condicion3.Text == "")
+                {
+                    MessageBox.Show("Llene los campos correspondientes", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
+                else
+                {
+                    String prefijo1 = "";
+                    string prefijo2 = "";
+                    //prefijo1
+                    if (cbo_tabla_condicion1.Text == cbo_from1.Text)
+                    {
+                        prefijo1 = "a.";
+                    }
+                    if (cbo_tabla_condicion1.Text == cbo_from2.Text)
+                    {
+                        prefijo1 = "b.";
+                    }
+                    if (cbo_tabla_condicion1.Text == cbo_from3.Text)
+                    {
+                        prefijo1 = "c.";
+                    }
+                    if (cbo_tabla_condicion1.Text == cbo_from4.Text)
+                    {
+                        prefijo1 = "d.";
+                    }
+                    if (cbo_tabla_condicion1.Text == cbo_from5.Text)
+                    {
+                        prefijo1 = "e.";
+                    }
+                    else
+                    {
+                        MessageBox.Show("No esta seleccionada la tabla");
+
+                    }
+                    //prefijo2
+                    if (cbo_tabla_condicion3.Text == cbo_from1.Text)
+                    {
+                        prefijo2 = "a.";
+                    }
+                    if (cbo_tabla_condicion3.Text == cbo_from2.Text)
+                    {
+                        prefijo2 = "b.";
+                    }
+                    if (cbo_tabla_condicion3.Text == cbo_from3.Text)
+                    {
+                        prefijo2 = "c.";
+                    }
+                    if (cbo_tabla_condicion3.Text == cbo_from4.Text)
+                    {
+                        prefijo2 = "d.";
+                    }
+                    if (cbo_tabla_condicion3.Text == cbo_from5.Text)
+                    {
+                        prefijo2 = "e.";
+                    }
+                    else
+                    {
+                        MessageBox.Show("No esta seleccionada la tabla");
+
+                    }
+                    string o3 = "" + n2 + "" + prefijo1 + cbo_condicion1.Text + " " + cbo_condicion2.Text + " " + prefijo2 + cbo_condicion3.Text + " ";
+                    o1 = o3;
+                    o4 = o3;
+                    oo = oo + " " + o4;
+                    //MessageBox.Show(oo);
+                    CrearConsultas();
+                }
             }
-            else
+            if (rdb_cond2.Checked==true)
             {
-                String prefijo1 = "";
-                string prefijo2 = "";
-                //prefijo1
-                if (cbo_tabla_condicion1.Text == cbo_from1.Text)
+                if (cbo_cond2_campo.Text == "" || cbo_simbolo.Text == "" || cbo_indicador.Text == "")
                 {
-                    prefijo1 = "a.";
+                    MessageBox.Show("Llene los campos correspondientes", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 }
-                if (cbo_tabla_condicion1.Text == cbo_from2.Text)
+                else
                 {
-                    prefijo1 = "b.";
+                    String prefijo = "";
+                    
+                    //prefijo1
+                    if (cbo_tabla_condicion1.Text == cbo_from1.Text)
+                    {
+                        prefijo = "a.";
+                    }
+                    if (cbo_tabla_condicion1.Text == cbo_from2.Text)
+                    {
+                        prefijo = "b.";
+                    }
+                    if (cbo_tabla_condicion1.Text == cbo_from3.Text)
+                    {
+                        prefijo = "c.";
+                    }
+                    if (cbo_tabla_condicion1.Text == cbo_from4.Text)
+                    {
+                        prefijo = "d.";
+                    }
+                    if (cbo_tabla_condicion1.Text == cbo_from5.Text)
+                    {
+                        prefijo = "e.";
+                    }
+                    else
+                    {
+                        MessageBox.Show("No esta seleccionada la tabla");
+
+                    }
+
+                    string o3 = "" + n2 + "" + prefijo + cbo_cond2_campo.Text + " " + cbo_simbolo.Text + " " + cbo_indicador.Text + " ";
+                    o1 = o3;
+                    o4 = o3;
+                    oo = oo + " " + o4;
+                    //MessageBox.Show(oo);
+                    CrearConsultas();
                 }
-                if (cbo_tabla_condicion1.Text == cbo_from3.Text)
-                {
-                    prefijo1 = "c.";
-                }
-                if (cbo_tabla_condicion1.Text == cbo_from4.Text)
-                {
-                    prefijo1 = "d.";
-                }
-                if (cbo_tabla_condicion1.Text == cbo_from5.Text)
-                {
-                    prefijo1 = "e.";
-                }
-                //prefijo2
-                if (cbo_tabla_condicion3.Text == cbo_from1.Text)
-                {
-                    prefijo2 = "a.";
-                }
-                if (cbo_tabla_condicion3.Text == cbo_from2.Text)
-                {
-                    prefijo2 = "b.";
-                }
-                if (cbo_tabla_condicion3.Text == cbo_from3.Text)
-                {
-                    prefijo2 = "c.";
-                }
-                if (cbo_tabla_condicion3.Text == cbo_from4.Text)
-                {
-                    prefijo2 = "d.";
-                }
-                if (cbo_tabla_condicion3.Text == cbo_from5.Text)
-                {
-                    prefijo2 = "e.";
-                }
-                string o3 = "" + n2 + "" + prefijo1 + cbo_condicion1.Text + " " + cbo_condicion2.Text + " " + prefijo2 + cbo_condicion3.Text + " ";
-                o1 = o3;
-                o4 = o3;
-                oo = oo + " " + o4;
-                //MessageBox.Show(oo);
-                CrearConsultas();
             }
         }
 
@@ -446,12 +574,8 @@ namespace ObjetoComunConsultasInteligentes
         {
             if (rdb_conwhere.Checked == true)
             {
-                cbo_condicion1.Enabled = true;
-                cbo_condicion2.Enabled = true;
-                cbo_condicion3.Enabled = true;
-                cbo_tabla_condicion1.Enabled = true;
-                cbo_tabla_condicion3.Enabled = true;
-                btn_crear_condicion.Enabled = true;
+                rdb_cond1.Enabled = true;
+                rdb_cond2.Enabled = true;
 
             }
             else
@@ -464,15 +588,19 @@ namespace ObjetoComunConsultasInteligentes
                 cbo_tabla_condicion1.Enabled = false;
                 cbo_tabla_condicion3.Enabled = false;
                 btn_crear_condicion.Enabled = false;
+                rdb_cond1.Enabled = false;
+                rdb_cond2.Enabled = false;
+                rdb_cond1.Checked = false;
+                rdb_cond2.Checked = false;
+                cbo_cond2_tabla.Enabled = false;
+                cbo_cond2_campo.Enabled = false;
+                cbo_simbolo.Enabled = false;
+                cbo_indicador.Enabled = false;
             }
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            Frm_ConsultaInteligente frm2 = new Frm_ConsultaInteligente();
-            Form1 frm = new Form1();
-            frm.Hide();
-            frm2.Show();
             combobox_carga_filas1();
         }
 
@@ -487,6 +615,7 @@ namespace ObjetoComunConsultasInteligentes
             Parametro_query = lbl_vistapreviaconsulta.Text + ";";
             MessageBox.Show(Parametro_query);
             manipulacion.actualizargrid(Parametro_query, dataGridView1);
+            
 
         }
 
@@ -588,61 +717,122 @@ namespace ObjetoComunConsultasInteligentes
         //--------------------------------------Complemento de creacion de where-----------------------------------------------
         private void btn_crear_condicion_Click(object sender, EventArgs e)
         {
-            if (cbo_condicion1.Text == "" || cbo_condicion2.Text == "" || cbo_condicion3.Text=="")
+
+            if (rdb_cond1.Checked == true || rdb_cond2.Checked == false)
             {
-                MessageBox.Show("Llene los campos correspondientes", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                if (cbo_condicion1.Text == "" || cbo_condicion2.Text == "" || cbo_condicion3.Text == "")
+                {
+                    MessageBox.Show("Llene los campos correspondientes", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
+                else
+                {
+                    String prefijo1 = "";
+                    string prefijo2 = "";
+                    //prefijo1
+                    if (cbo_tabla_condicion1.Text == cbo_from1.Text)
+                    {
+                        prefijo1 = "a.";
+                    }
+                    if (cbo_tabla_condicion1.Text == cbo_from2.Text)
+                    {
+                        prefijo1 = "b.";
+                    }
+                    if (cbo_tabla_condicion1.Text == cbo_from3.Text)
+                    {
+                        prefijo1 = "c.";
+                    }
+                    if (cbo_tabla_condicion1.Text == cbo_from4.Text)
+                    {
+                        prefijo1 = "d.";
+                    }
+                    if (cbo_tabla_condicion1.Text == cbo_from5.Text)
+                    {
+                        prefijo1 = "e.";
+                    }
+                    else
+                    {
+                        MessageBox.Show("No esta seleccionada la tabla");
+                        
+                    }
+                    //prefijo2
+                    if (cbo_tabla_condicion3.Text == cbo_from1.Text)
+                    {
+                        prefijo2 = "a.";
+                    }
+                    if (cbo_tabla_condicion3.Text == cbo_from2.Text)
+                    {
+                        prefijo2 = "b.";
+                    }
+                    if (cbo_tabla_condicion3.Text == cbo_from3.Text)
+                    {
+                        prefijo2 = "c.";
+                    }
+                    if (cbo_tabla_condicion3.Text == cbo_from4.Text)
+                    {
+                        prefijo2 = "d.";
+                    }
+                    if (cbo_tabla_condicion3.Text == cbo_from5.Text)
+                    {
+                        prefijo2 = "e.";
+                    }
+                    else
+                    {
+                        MessageBox.Show("No esta seleccionada la tabla");
+
+                    }
+                    oo = prefijo1 + cbo_condicion1.Text + " " + cbo_condicion2.Text + " " + prefijo2 + cbo_condicion3.Text;
+                    btn_or.Enabled = true;
+                    btn_and.Enabled = true;
+                    CrearConsultas();
+                }
             }
-            else
-            {
-                String prefijo1 = "";
-                string prefijo2 = "";
-                //prefijo1
-                if (cbo_tabla_condicion1.Text == cbo_from1.Text)
-                {
-                    prefijo1 = "a.";
-                }
-                if (cbo_tabla_condicion1.Text == cbo_from2.Text)
-                {
-                    prefijo1 = "b.";
-                }
-                if (cbo_tabla_condicion1.Text == cbo_from3.Text)
-                {
-                    prefijo1 = "c.";
-                }
-                if (cbo_tabla_condicion1.Text == cbo_from4.Text)
-                {
-                    prefijo1 = "d.";
-                }
-                if (cbo_tabla_condicion1.Text == cbo_from5.Text)
-                {
-                    prefijo1 = "e.";
-                }
-                //prefijo2
-                if (cbo_tabla_condicion3.Text == cbo_from1.Text)
-                {
-                    prefijo2 = "a.";
-                }
-                if (cbo_tabla_condicion3.Text == cbo_from2.Text)
-                {
-                    prefijo2 = "b.";
-                }
-                if (cbo_tabla_condicion3.Text == cbo_from3.Text)
-                {
-                    prefijo2 = "c.";
-                }
-                if (cbo_tabla_condicion3.Text == cbo_from4.Text)
-                {
-                    prefijo2= "d.";
-                }
-                if (cbo_tabla_condicion3.Text == cbo_from5.Text)
-                {
-                    prefijo2 = "e.";
-                }
-                oo = prefijo1 + cbo_condicion1.Text + " " + cbo_condicion2.Text + " " + prefijo2 + cbo_condicion3.Text;
-                btn_or.Enabled = true;
-                btn_and.Enabled = true;
-                CrearConsultas();
-            }
+                    if (rdb_cond2.Checked == true)
+                    {
+                        if (cbo_cond2_campo.Text == "" || cbo_simbolo.Text == "" || cbo_indicador.Text == "")
+                        {
+                            MessageBox.Show("Llene los campos correspondientes", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                        }
+                        else
+                        {
+                            String prefijo = "";
+                        MessageBox.Show("si entra");
+                            //prefijo1
+                            if (cbo_cond2_tabla.Text == cbo_from1.Text)
+                            {
+                                prefijo = "a.";
+                            }
+                            if (cbo_cond2_tabla.Text == cbo_from2.Text)
+                            {
+                                prefijo = "b.";
+                            }
+                            if (cbo_cond2_tabla.Text == cbo_from3.Text)
+                            {
+                                prefijo = "c.";
+                            }
+                            if (cbo_cond2_tabla.Text == cbo_from4.Text)
+                            {
+                                prefijo = "d.";
+                            }
+                            if (cbo_cond2_tabla.Text == cbo_from5.Text)
+                            {
+                                prefijo = "e.";
+                            }
+                    else
+                    {
+                        MessageBox.Show("No esta seleccionada la tabla");
+
+                    }
+
+                    oo = prefijo + cbo_cond2_campo.Text + " " + cbo_simbolo.Text + " " + cbo_indicador.Text;
+                            btn_or.Enabled = true;
+                            btn_and.Enabled = true;
+                            CrearConsultas();
+                        }
+
+                    }
+                
+                
+            
         }
 
         private void groupBox3_Enter(object sender, EventArgs e)
@@ -675,6 +865,7 @@ namespace ObjetoComunConsultasInteligentes
                 cbo_from5.Items.Add(dr[0]);
                 cbo_tabla_condicion1.Items.Add(dr[0]);
                 cbo_tabla_condicion3.Items.Add(dr[0]);
+                cbo_cond2_tabla.Items.Add(dr[0]);
             }
             dr.Close();
         }
@@ -822,6 +1013,26 @@ namespace ObjetoComunConsultasInteligentes
 
         }
 
+        public void combobox_carga_filas8()
+        {
+            if (cbo_cond2_tabla.Text == "")
+            {
+
+            }
+            else
+            {
+                ObtieneColumna obtienecol = new ObtieneColumna();
+                ArrayList columnas;
+
+                columnas = obtienecol.getColumnas(cbo_cond2_tabla.Text);
+                for (int i = 0; i < columnas.Count; i++)
+                {
+                    cbo_cond2_campo.Items.Add(columnas[i].ToString());
+                }
+            }
+
+        }
+
 
         private void cbo_select1_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -866,13 +1077,75 @@ namespace ObjetoComunConsultasInteligentes
 
         private void btn_limpiar_Click(object sender, EventArgs e)
         {
+            //limpiarQuery();
+            //this.Hide();
+            //Form1 r = new Form1();
+            //r.ShowDialog();
             limpiarQuery();
         }
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-           
-  
+            if (lbl_vistapreviaconsulta.Text == "Consulta vista Previa")
+            {
+                MessageBox.Show("No Hay Consulta\n Agregue Una Consulta", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+            else
+            {
+                string queru;
+                queru = lbl_vistapreviaconsulta.Text;
+                MessageBox.Show(queru);
+                guardarNombre guardar = new guardarNombre(queru);
+                guardar.Show();
+            }  
+        }
+
+        private void cbo_cond2_tabla_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            cbo_cond2_campo.Items.Clear();
+            combobox_carga_filas8();
+        }
+
+        private void rdb_cond2_CheckedChanged(object sender, EventArgs e)
+        {
+            if (rdb_cond2.Checked == true)
+            {
+                cbo_cond2_tabla.Enabled = true;
+                cbo_cond2_campo.Enabled = true;
+                cbo_simbolo.Enabled = true;
+                cbo_indicador.Enabled = true;
+                btn_crear_condicion.Enabled = true;
+            }
+            else
+            {
+                cbo_cond2_tabla.Enabled = false;
+                cbo_cond2_campo.Enabled = false;
+                cbo_simbolo.Enabled = false;
+                cbo_indicador.Enabled = false;
+            }
+        }
+
+        private void rdb_cond1_CheckedChanged(object sender, EventArgs e)
+        {
+            if (rdb_cond1.Checked == true)
+            {
+                cbo_condicion1.Enabled = true;
+                cbo_condicion2.Enabled = true;
+                cbo_condicion3.Enabled = true;
+                cbo_tabla_condicion1.Enabled = true;
+                cbo_tabla_condicion3.Enabled = true;
+                btn_crear_condicion.Enabled = true;
+            }
+            else
+            {
+                cbo_condicion1.Enabled = false;
+                cbo_condicion2.Enabled = false;
+                cbo_condicion3.Enabled = false;
+                cbo_tabla_condicion1.Enabled = false;
+                cbo_tabla_condicion3.Enabled = false;
+                             
+                
+            }
         }
     }
 }

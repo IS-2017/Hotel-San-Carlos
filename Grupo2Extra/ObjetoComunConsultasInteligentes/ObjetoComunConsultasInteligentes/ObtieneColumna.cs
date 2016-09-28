@@ -48,21 +48,30 @@ namespace ObjetoComunConsultasInteligentes
         }
         public void actualizargrid( string query,DataGridView datagrid)
         {
-               
-       Conectar();
+           try
+            {
+                Conectar();
 
-            MySqlCommand peticion_dgv = new MySqlCommand(query, rutaconectada());
+                MySqlCommand peticion_dgv = new MySqlCommand(query, rutaconectada());
 
-            MySqlDataAdapter conn = new MySqlDataAdapter(peticion_dgv);
-            DataSet ds = new DataSet();
-            conn.Fill(ds);
+                MySqlDataAdapter conn = new MySqlDataAdapter(peticion_dgv);
+                DataSet ds = new DataSet();
+                conn.Fill(ds);
 
 
-            datagrid.DataSource = ds.Tables[0];
-           Desconectar();
+                datagrid.DataSource = ds.Tables[0];
+                Desconectar();
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Consulta Incorrecta\n Verifique Manual de Uso", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Error);
 
-        
-    }
+
+            }
+
+
+
+        }
 
     }
    
