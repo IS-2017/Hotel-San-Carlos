@@ -36,5 +36,8 @@ namespace FuncionesNavegador
                 MessageBox.Show("No se pudo realizar la modificacion de la base de datos", "Error del sistema", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+       
+
     }
 }
