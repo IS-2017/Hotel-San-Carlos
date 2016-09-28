@@ -17,7 +17,10 @@ namespace Navegador
         {
             InitializeComponent();
         }
-
+        String Codigo;
+        Boolean Editar;
+        String atributo;
+       
         private void btn_nuevo_Click(object sender, EventArgs e)
         {
             FunNavegador obj = new FunNavegador();
@@ -31,10 +34,21 @@ namespace Navegador
             textBox1.Enabled = false;
             textBox2.Enabled = false;
             textBox3.Enabled = false;
+            FunNavegador fn = new FunNavegador();
+            fn.ActualizarGrid(this.dataGridView1, "Select * from empleado WHERE estado <> 'INACTIVO' ");
+
         }
+        public void limpiarcajas()
+        {
+            textBox1.Text = "";
+            textBox2.Text = "";
+            textBox3.Text = "";
+        }
+            
 
         private void btn_guardar_Click(object sender, EventArgs e)
         {
+
             FunNavegador fn = new FunNavegador();
             TextBox[] textbox = { textBox1, textBox2, textBox3 };
             DataTable datos = construirDataTable(textbox);
@@ -43,7 +57,16 @@ namespace Navegador
                 MessageBox.Show("Hay campos vacios", "Favor Verificar",MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             string tabla = "empleado";
-            fn.insertar(datos,tabla);
+            if (Editar)
+            {
+                fn.modificar(datos, tabla,atributo, Codigo);
+            }
+            else
+            {
+                fn.insertar(datos, tabla);
+            }
+            fn.ActualizarGrid(this.dataGridView1, "Select * from empleado ");
+            limpiarcajas();
         }
         private DataTable construirDataTable(TextBox[] textbox)
         {
@@ -64,6 +87,35 @@ namespace Navegador
                 datos.Rows.Add(fila);
             }
             return datos;
+        }
+
+        private void btn_editar_Click(object sender, EventArgs e)
+        {
+            Editar = true;
+            atributo = "codigo";
+            Codigo = this.dataGridView1.CurrentRow.Cells[0].Value.ToString();
+            textBox1.Text = this.dataGridView1.CurrentRow.Cells[1].Value.ToString();
+            textBox2.Text = this.dataGridView1.CurrentRow.Cells[2].Value.ToString();
+            textBox3.Text = this.dataGridView1.CurrentRow.Cells[3].Value.ToString();
+           
+        }
+
+        private void btn_eliminar_Click(object sender, EventArgs e)
+        {
+            String codigo2 = this.dataGridView1.CurrentRow.Cells[0].Value.ToString();
+            String atributo2 = "codigo";
+            //String campo = "estado";
+            var resultado = MessageBox.Show("DESEA BORRAR EL REGISTRO SELECCIONADO", "CONFIRME SU ACCION", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            
+            if (resultado == DialogResult.Yes)
+            {
+
+                FunNavegador fn = new FunNavegador();
+                string tabla = "empleado";
+
+                fn.eliminar(tabla, atributo2, codigo2);
+
+            }
         }
     }
 }
