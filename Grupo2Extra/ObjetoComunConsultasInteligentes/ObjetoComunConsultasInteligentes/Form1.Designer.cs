@@ -55,6 +55,12 @@
             this.rdb_conwhere = new System.Windows.Forms.RadioButton();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.cbo_tabla_condicion1 = new System.Windows.Forms.ComboBox();
+            this.cbo_tabla_condicion3 = new System.Windows.Forms.ComboBox();
             this.btn_crear_condicion = new System.Windows.Forms.Button();
             this.btn_and = new System.Windows.Forms.Button();
             this.btn_or = new System.Windows.Forms.Button();
@@ -66,11 +72,13 @@
             this.lbl_vistapreviaconsulta = new System.Windows.Forms.Label();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.button1 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // btn_add3
@@ -108,6 +116,7 @@
             this.cbo_from3.Name = "cbo_from3";
             this.cbo_from3.Size = new System.Drawing.Size(121, 21);
             this.cbo_from3.TabIndex = 38;
+            this.cbo_from3.SelectedIndexChanged += new System.EventHandler(this.cbo_from3_SelectedIndexChanged);
             // 
             // cbo_select3
             // 
@@ -150,6 +159,7 @@
             this.cbo_from2.Name = "cbo_from2";
             this.cbo_from2.Size = new System.Drawing.Size(121, 21);
             this.cbo_from2.TabIndex = 35;
+            this.cbo_from2.SelectedIndexChanged += new System.EventHandler(this.cbo_from2_SelectedIndexChanged);
             // 
             // cbo_select2
             // 
@@ -203,6 +213,7 @@
             this.cbo_from1.Name = "cbo_from1";
             this.cbo_from1.Size = new System.Drawing.Size(121, 21);
             this.cbo_from1.TabIndex = 31;
+            this.cbo_from1.SelectedIndexChanged += new System.EventHandler(this.cbo_from1_SelectedIndexChanged);
             // 
             // label2
             // 
@@ -229,6 +240,7 @@
             this.cbo_select1.Name = "cbo_select1";
             this.cbo_select1.Size = new System.Drawing.Size(121, 21);
             this.cbo_select1.TabIndex = 29;
+            this.cbo_select1.SelectedIndexChanged += new System.EventHandler(this.cbo_select1_SelectedIndexChanged);
             // 
             // label1
             // 
@@ -328,6 +340,7 @@
             this.cbo_from5.Name = "cbo_from5";
             this.cbo_from5.Size = new System.Drawing.Size(121, 21);
             this.cbo_from5.TabIndex = 46;
+            this.cbo_from5.SelectedIndexChanged += new System.EventHandler(this.cbo_from5_SelectedIndexChanged);
             // 
             // cbo_select5
             // 
@@ -402,6 +415,12 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.label7);
+            this.groupBox2.Controls.Add(this.label6);
+            this.groupBox2.Controls.Add(this.label5);
+            this.groupBox2.Controls.Add(this.label4);
+            this.groupBox2.Controls.Add(this.cbo_tabla_condicion1);
+            this.groupBox2.Controls.Add(this.cbo_tabla_condicion3);
             this.groupBox2.Controls.Add(this.btn_crear_condicion);
             this.groupBox2.Controls.Add(this.btn_and);
             this.groupBox2.Controls.Add(this.btn_or);
@@ -415,6 +434,62 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Condición";
             this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(319, 32);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(23, 13);
+            this.label7.TabIndex = 40;
+            this.label7.Text = "Fila";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(110, 33);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(23, 13);
+            this.label6.TabIndex = 39;
+            this.label6.Text = "Fila";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(245, 33);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(34, 13);
+            this.label5.TabIndex = 38;
+            this.label5.Text = "Tabla";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(31, 33);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(34, 13);
+            this.label4.TabIndex = 37;
+            this.label4.Text = "Tabla";
+            // 
+            // cbo_tabla_condicion1
+            // 
+            this.cbo_tabla_condicion1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbo_tabla_condicion1.FormattingEnabled = true;
+            this.cbo_tabla_condicion1.Location = new System.Drawing.Point(12, 49);
+            this.cbo_tabla_condicion1.Name = "cbo_tabla_condicion1";
+            this.cbo_tabla_condicion1.Size = new System.Drawing.Size(77, 21);
+            this.cbo_tabla_condicion1.TabIndex = 36;
+            this.cbo_tabla_condicion1.SelectedIndexChanged += new System.EventHandler(this.cbo_tabla_condicion1_SelectedIndexChanged);
+            // 
+            // cbo_tabla_condicion3
+            // 
+            this.cbo_tabla_condicion3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbo_tabla_condicion3.FormattingEnabled = true;
+            this.cbo_tabla_condicion3.Location = new System.Drawing.Point(228, 48);
+            this.cbo_tabla_condicion3.Name = "cbo_tabla_condicion3";
+            this.cbo_tabla_condicion3.Size = new System.Drawing.Size(68, 21);
+            this.cbo_tabla_condicion3.TabIndex = 35;
+            this.cbo_tabla_condicion3.SelectedIndexChanged += new System.EventHandler(this.cbo_tabla_condicion3_SelectedIndexChanged);
             // 
             // btn_crear_condicion
             // 
@@ -448,6 +523,7 @@
             // 
             // cbo_condicion3
             // 
+            this.cbo_condicion3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbo_condicion3.FormattingEnabled = true;
             this.cbo_condicion3.Items.AddRange(new object[] {
             "Campo 1",
@@ -456,9 +532,9 @@
             "campo 4",
             "campo 5",
             "campo 6"});
-            this.cbo_condicion3.Location = new System.Drawing.Point(228, 49);
+            this.cbo_condicion3.Location = new System.Drawing.Point(295, 48);
             this.cbo_condicion3.Name = "cbo_condicion3";
-            this.cbo_condicion3.Size = new System.Drawing.Size(102, 21);
+            this.cbo_condicion3.Size = new System.Drawing.Size(77, 21);
             this.cbo_condicion3.TabIndex = 30;
             // 
             // cbo_condicion2
@@ -487,9 +563,9 @@
             "campo 4",
             "campo 5",
             "campo 6"});
-            this.cbo_condicion1.Location = new System.Drawing.Point(67, 49);
+            this.cbo_condicion1.Location = new System.Drawing.Point(88, 49);
             this.cbo_condicion1.Name = "cbo_condicion1";
-            this.cbo_condicion1.Size = new System.Drawing.Size(102, 21);
+            this.cbo_condicion1.Size = new System.Drawing.Size(80, 21);
             this.cbo_condicion1.TabIndex = 28;
             // 
             // btn_generarConsulta
@@ -527,7 +603,7 @@
             this.tabControl1.Location = new System.Drawing.Point(12, 358);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(913, 89);
+            this.tabControl1.Size = new System.Drawing.Size(908, 89);
             this.tabControl1.TabIndex = 58;
             // 
             // tabPage1
@@ -538,24 +614,38 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(905, 63);
+            this.tabPage1.Size = new System.Drawing.Size(900, 63);
             this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "QUERY";
+            this.tabPage1.Text = " ";
+            this.tabPage1.Click += new System.EventHandler(this.tabPage1_Click);
             // 
-            // panel1
+            // dataGridView1
             // 
-            this.panel1.Location = new System.Drawing.Point(469, 477);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(200, 100);
-            this.panel1.TabIndex = 59;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(12, 453);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(908, 150);
+            this.dataGridView1.TabIndex = 59;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(782, 238);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(101, 23);
+            this.button1.TabIndex = 60;
+            this.button1.Text = "guardar";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScroll = true;
             this.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.ClientSize = new System.Drawing.Size(954, 545);
-            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.btn_limpiar);
             this.Controls.Add(this.btn_generarConsulta);
@@ -590,9 +680,11 @@
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -638,7 +730,14 @@
         private System.Windows.Forms.Button btn_crear_condicion;
         private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.TabPage tabPage1;
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.ComboBox cbo_tabla_condicion1;
+        private System.Windows.Forms.ComboBox cbo_tabla_condicion3;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Button button1;
     }
 }
 
