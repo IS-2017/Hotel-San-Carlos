@@ -1,0 +1,17 @@
+C:\Users\ottog\Documents\Visual Studio 2015\Projects\FuncionesNavegador\FuncionesNavegador\obj\Debug\FuncionesNavegador.csprojResolveAssemblyReference.cache
+C:\Users\ottog\Documents\Visual Studio 2015\Projects\FuncionesNavegador\FuncionesNavegador\bin\Debug\FuncionesNavegador.dll
+C:\Users\ottog\Documents\Visual Studio 2015\Projects\FuncionesNavegador\FuncionesNavegador\bin\Debug\FuncionesNavegador.pdb
+C:\Users\ottog\Documents\Visual Studio 2015\Projects\FuncionesNavegador\FuncionesNavegador\obj\Debug\FuncionesNavegador.dll
+C:\Users\ottog\Documents\Visual Studio 2015\Projects\FuncionesNavegador\FuncionesNavegador\obj\Debug\FuncionesNavegador.pdb
+C:\Users\ottog\Documents\Visual Studio 2015\Projects\FuncionesNavegador - copia\FuncionesNavegador\bin\Debug\FuncionesNavegador.dll
+C:\Users\ottog\Documents\Visual Studio 2015\Projects\FuncionesNavegador - copia\FuncionesNavegador\bin\Debug\FuncionesNavegador.pdb
+C:\Users\ottog\Documents\Visual Studio 2015\Projects\FuncionesNavegador - copia\FuncionesNavegador\bin\Debug\MySql.Data.dll
+C:\Users\ottog\Documents\Visual Studio 2015\Projects\FuncionesNavegador - copia\FuncionesNavegador\obj\Debug\FuncionesNavegador.csprojResolveAssemblyReference.cache
+C:\Users\ottog\Documents\Visual Studio 2015\Projects\FuncionesNavegador - copia\FuncionesNavegador\obj\Debug\FuncionesNavegador.dll
+C:\Users\ottog\Documents\Visual Studio 2015\Projects\FuncionesNavegador - copia\FuncionesNavegador\obj\Debug\FuncionesNavegador.pdb
+C:\Users\ottog\Documents\Visual Studio 2015\Projects\FuncionesNavegador 3\FuncionesNavegador\bin\Debug\FuncionesNavegador.dll
+C:\Users\ottog\Documents\Visual Studio 2015\Projects\FuncionesNavegador 3\FuncionesNavegador\bin\Debug\FuncionesNavegador.pdb
+C:\Users\ottog\Documents\Visual Studio 2015\Projects\FuncionesNavegador 3\FuncionesNavegador\bin\Debug\MySql.Data.dll
+C:\Users\ottog\Documents\Visual Studio 2015\Projects\FuncionesNavegador 3\FuncionesNavegador\obj\Debug\FuncionesNavegador.csprojResolveAssemblyReference.cache
+C:\Users\ottog\Documents\Visual Studio 2015\Projects\FuncionesNavegador 3\FuncionesNavegador\obj\Debug\FuncionesNavegador.dll
+C:\Users\ottog\Documents\Visual Studio 2015\Projects\FuncionesNavegador 3\FuncionesNavegador\obj\Debug\FuncionesNavegador.pdb
