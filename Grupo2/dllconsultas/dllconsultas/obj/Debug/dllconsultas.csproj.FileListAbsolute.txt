@@ -1,0 +1,13 @@
+E:\Escritorio\dllconsultas\dllconsultas\bin\Debug\dllconsultas.dll
+E:\Escritorio\dllconsultas\dllconsultas\bin\Debug\dllconsultas.pdb
+E:\Escritorio\dllconsultas\dllconsultas\bin\Debug\MySql.Data.dll
+E:\Escritorio\dllconsultas\dllconsultas\bin\Debug\Google.ProtocolBuffers.dll
+E:\Escritorio\dllconsultas\dllconsultas\bin\Debug\MySql.Data.xml
+E:\Escritorio\dllconsultas\dllconsultas\obj\Debug\dllconsultas.csprojResolveAssemblyReference.cache
+E:\Escritorio\dllconsultas\dllconsultas\obj\Debug\dllconsultas.frm_consulta.resources
+E:\Escritorio\dllconsultas\dllconsultas\obj\Debug\dllconsultas.csproj.GenerateResource.Cache
+E:\Escritorio\dllconsultas\dllconsultas\obj\Debug\dllconsultas.dll
+E:\Escritorio\dllconsultas\dllconsultas\obj\Debug\dllconsultas.pdb
+E:\Escritorio\dllconsultas\dllconsultas\obj\Debug\dllconsultas.frm_guardar.resources
+E:\Escritorio\dllconsultas\dllconsultas\obj\Debug\dllconsultas.frm_almacenadas.resources
+E:\Escritorio\dllconsultas\dllconsultas\obj\Debug\dllconsultas.Properties.Resources.resources
