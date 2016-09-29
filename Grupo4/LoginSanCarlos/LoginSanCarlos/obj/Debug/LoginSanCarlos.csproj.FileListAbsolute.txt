@@ -1,0 +1,13 @@
+C:\Users\Chrix\Documents\Visual Studio 2015\Projects\LoginSanCarlos\LoginSanCarlos\bin\Debug\LoginSanCarlos.exe.config
+C:\Users\Chrix\Documents\Visual Studio 2015\Projects\LoginSanCarlos\LoginSanCarlos\bin\Debug\LoginSanCarlos.exe
+C:\Users\Chrix\Documents\Visual Studio 2015\Projects\LoginSanCarlos\LoginSanCarlos\bin\Debug\LoginSanCarlos.pdb
+C:\Users\Chrix\Documents\Visual Studio 2015\Projects\LoginSanCarlos\LoginSanCarlos\bin\Debug\Conexion.dll
+C:\Users\Chrix\Documents\Visual Studio 2015\Projects\LoginSanCarlos\LoginSanCarlos\bin\Debug\MySql.Data.dll
+C:\Users\Chrix\Documents\Visual Studio 2015\Projects\LoginSanCarlos\LoginSanCarlos\bin\Debug\Conexion.pdb
+C:\Users\Chrix\Documents\Visual Studio 2015\Projects\LoginSanCarlos\LoginSanCarlos\obj\Debug\LoginSanCarlos.csprojResolveAssemblyReference.cache
+C:\Users\Chrix\Documents\Visual Studio 2015\Projects\LoginSanCarlos\LoginSanCarlos\obj\Debug\LoginSanCarlos.Properties.Resources.resources
+C:\Users\Chrix\Documents\Visual Studio 2015\Projects\LoginSanCarlos\LoginSanCarlos\obj\Debug\LoginSanCarlos.csproj.GenerateResource.Cache
+C:\Users\Chrix\Documents\Visual Studio 2015\Projects\LoginSanCarlos\LoginSanCarlos\obj\Debug\LoginSanCarlos.exe
+C:\Users\Chrix\Documents\Visual Studio 2015\Projects\LoginSanCarlos\LoginSanCarlos\obj\Debug\LoginSanCarlos.pdb
+C:\Users\Chrix\Documents\Visual Studio 2015\Projects\LoginSanCarlos\LoginSanCarlos\obj\Debug\LoginSanCarlos.form2.resources
+C:\Users\Chrix\Documents\Visual Studio 2015\Projects\LoginSanCarlos\LoginSanCarlos\obj\Debug\LoginSanCarlos.Form_login.resources
