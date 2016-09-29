@@ -41,8 +41,8 @@ namespace dllconsultasgeneraless
 
                 try
                 {
-                    
-                    String Squery = "insert into  consultaguardada (idform,nombre,descripcion,tabla) values( 'C','" + textBox1.Text + "', '" + consulta + "','Joins');";
+                    string traduccion = consulta.Replace("'", "$");
+                    String Squery = "insert into  consultaguardada (idform,nombre,descripcion,tabla) values( 'C','" + textBox1.Text + "', '" + traduccion + "','Joins');";
                     ejecutar.EjecutarQuery(Squery);
                     this.Close();
                     //this.Hide();

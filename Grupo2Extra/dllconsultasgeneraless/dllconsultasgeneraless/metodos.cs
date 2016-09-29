@@ -100,8 +100,10 @@ namespace dllconsultasgeneraless
             adaptador.Fill(dt);
             DataRow fila = dt.Rows[0];
             string sid = Convert.ToString(fila[0]);
+            string traduccion = sid.Replace("$", "'");
+            //MessageBox.Show(traduccion);
             Desconectar();
-            actualizargrid(sid, dg);
+            actualizargrid(traduccion, dg);
         }
 
     }

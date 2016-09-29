@@ -86,7 +86,10 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <None Include="ayuda.chm" />
+    <None Include="nuevo.chm" />
     <None Include="Resources\Button-Add-icon.png" />
+    <None Include="Title of this help project.chm" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Button-Close-icon.png" />
@@ -105,6 +108,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Button-Refresh-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Button-Help-icon.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

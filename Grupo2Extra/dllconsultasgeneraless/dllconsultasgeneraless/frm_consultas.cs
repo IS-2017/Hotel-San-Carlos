@@ -442,7 +442,7 @@ namespace dllconsultasgeneraless
                 else
                 {
                     String prefijo = "";
-                    MessageBox.Show("si entra");
+                    //MessageBox.Show("si entra");
                     //prefijo1
                     if (cbo_cond2_tabla.Text == cbo_from1.Text)
                     {
@@ -736,7 +736,7 @@ namespace dllconsultasgeneraless
             {
                 string queru;
                 queru = lbl_vistapreviaconsulta.Text;
-                MessageBox.Show(queru);
+                //MessageBox.Show(queru);
                 frm_gurdar guardar = new frm_gurdar(queru);
                 guardar.Show();
             }
@@ -746,7 +746,7 @@ namespace dllconsultasgeneraless
         {
             string Parametro_query;
             Parametro_query = lbl_vistapreviaconsulta.Text + ";";
-            MessageBox.Show(Parametro_query);
+            //MessageBox.Show(Parametro_query);
             manipulacion.actualizargrid(Parametro_query, dataGridView1);
         }
 
@@ -1110,6 +1110,11 @@ namespace dllconsultasgeneraless
         private void cbo_cond2_campo_SelectedIndexChanged(object sender, EventArgs e)
         {
 
+        }
+        private const string ayudacinetopiaadministrativa = "nuevo.chm";
+        private void btn_ayuda_Click(object sender, EventArgs e)
+        {
+            System.Windows.Forms.Help.ShowHelp(this, Application.StartupPath + @"/" + ayudacinetopiaadministrativa);
         }
     }
 }

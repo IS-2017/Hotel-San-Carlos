@@ -69,6 +69,7 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.rdb_conwhere = new System.Windows.Forms.RadioButton();
             this.rdb_sinwhere = new System.Windows.Forms.RadioButton();
+            this.btn_ayuda = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.btn_limpiar = new System.Windows.Forms.Button();
             this.btn_generarConsulta = new System.Windows.Forms.Button();
@@ -535,6 +536,19 @@
             this.rdb_sinwhere.Text = "SIN WHERE";
             this.rdb_sinwhere.UseVisualStyleBackColor = true;
             // 
+            // btn_ayuda
+            // 
+            this.btn_ayuda.BackgroundImage = global::dllconsultasgeneraless.Properties.Resources.Button_Help_icon;
+            this.btn_ayuda.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_ayuda.FlatAppearance.BorderSize = 0;
+            this.btn_ayuda.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_ayuda.Location = new System.Drawing.Point(3, 2);
+            this.btn_ayuda.Name = "btn_ayuda";
+            this.btn_ayuda.Size = new System.Drawing.Size(25, 23);
+            this.btn_ayuda.TabIndex = 80;
+            this.btn_ayuda.UseVisualStyleBackColor = true;
+            this.btn_ayuda.Click += new System.EventHandler(this.btn_ayuda_Click);
+            // 
             // button1
             // 
             this.button1.BackgroundImage = global::dllconsultasgeneraless.Properties.Resources.File_New_icon;
@@ -646,6 +660,7 @@
             this.AutoScroll = true;
             this.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.ClientSize = new System.Drawing.Size(933, 562);
+            this.Controls.Add(this.btn_ayuda);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.tcl_consulta);
             this.Controls.Add(this.btn_limpiar);
@@ -743,5 +758,6 @@
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.RadioButton rdb_conwhere;
         private System.Windows.Forms.RadioButton rdb_sinwhere;
+        private System.Windows.Forms.Button btn_ayuda;
     }
 }
