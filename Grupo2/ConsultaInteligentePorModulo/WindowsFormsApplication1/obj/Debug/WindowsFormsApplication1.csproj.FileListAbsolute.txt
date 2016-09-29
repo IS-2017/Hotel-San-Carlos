@@ -1,0 +1,12 @@
+C:\Users\Roberto Carlos\Documents\octavo semestre\Hotel San Carlos\objeto comun\ConsultaInteligentePorModulo\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\Roberto Carlos\Documents\octavo semestre\Hotel San Carlos\objeto comun\ConsultaInteligentePorModulo\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Roberto Carlos\Documents\octavo semestre\Hotel San Carlos\objeto comun\ConsultaInteligentePorModulo\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.WindowsFormsApplication1.exe.config
+C:\Users\Roberto Carlos\Documents\octavo semestre\Hotel San Carlos\objeto comun\ConsultaInteligentePorModulo\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\Roberto Carlos\Documents\octavo semestre\Hotel San Carlos\objeto comun\ConsultaInteligentePorModulo\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.vista_general.resources
+C:\Users\Roberto Carlos\Documents\octavo semestre\Hotel San Carlos\objeto comun\ConsultaInteligentePorModulo\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+C:\Users\Roberto Carlos\Documents\octavo semestre\Hotel San Carlos\objeto comun\ConsultaInteligentePorModulo\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\Roberto Carlos\Documents\octavo semestre\Hotel San Carlos\objeto comun\ConsultaInteligentePorModulo\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\Roberto Carlos\Documents\octavo semestre\Hotel San Carlos\objeto comun\ConsultaInteligentePorModulo\WindowsFormsApplication1\bin\Debug\MySql.Data.dll
+C:\Users\Roberto Carlos\Documents\octavo semestre\Hotel San Carlos\objeto comun\ConsultaInteligentePorModulo\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\Roberto Carlos\Documents\octavo semestre\Hotel San Carlos\objeto comun\ConsultaInteligentePorModulo\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\Roberto Carlos\Documents\octavo semestre\Hotel San Carlos\objeto comun\ConsultaInteligentePorModulo\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.detalle.resources
