@@ -1,0 +1,13 @@
+E:\Escritorio\dllconsultasgeneraless\dllconsultasgeneraless\obj\Debug\dllconsultasgeneraless.csprojResolveAssemblyReference.cache
+E:\Escritorio\dllconsultasgeneraless\dllconsultasgeneraless\obj\Debug\dllconsultasgeneraless.frm_consultas.resources
+E:\Escritorio\dllconsultasgeneraless\dllconsultasgeneraless\obj\Debug\dllconsultasgeneraless.frm_extraer.resources
+E:\Escritorio\dllconsultasgeneraless\dllconsultasgeneraless\obj\Debug\dllconsultasgeneraless.frm_gurdar.resources
+E:\Escritorio\dllconsultasgeneraless\dllconsultasgeneraless\obj\Debug\dllconsultasgeneraless.Properties.Resources.resources
+E:\Escritorio\dllconsultasgeneraless\dllconsultasgeneraless\obj\Debug\dllconsultasgeneraless.csproj.GenerateResource.Cache
+E:\Escritorio\dllconsultasgeneraless\dllconsultasgeneraless\bin\Debug\dllconsultasgeneraless.dll
+E:\Escritorio\dllconsultasgeneraless\dllconsultasgeneraless\bin\Debug\dllconsultasgeneraless.pdb
+E:\Escritorio\dllconsultasgeneraless\dllconsultasgeneraless\bin\Debug\MySql.Data.dll
+E:\Escritorio\dllconsultasgeneraless\dllconsultasgeneraless\bin\Debug\Google.ProtocolBuffers.dll
+E:\Escritorio\dllconsultasgeneraless\dllconsultasgeneraless\bin\Debug\MySql.Data.xml
+E:\Escritorio\dllconsultasgeneraless\dllconsultasgeneraless\obj\Debug\dllconsultasgeneraless.dll
+E:\Escritorio\dllconsultasgeneraless\dllconsultasgeneraless\obj\Debug\dllconsultasgeneraless.pdb
