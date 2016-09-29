@@ -1,0 +1,27 @@
+C:\Users\USER\Documents\Visual Studio 2015\Projects\Calculadora\PdfPDF\PdfPDF\bin\Debug\PdfPDF.exe.config
+C:\Users\USER\Documents\Visual Studio 2015\Projects\Calculadora\PdfPDF\PdfPDF\obj\Debug\PdfPDF.csprojResolveAssemblyReference.cache
+C:\Users\USER\Documents\Visual Studio 2015\Projects\Calculadora\PdfPDF\PdfPDF\obj\Debug\PdfPDF.Form1.resources
+C:\Users\USER\Documents\Visual Studio 2015\Projects\Calculadora\PdfPDF\PdfPDF\obj\Debug\PdfPDF.Properties.Resources.resources
+C:\Users\USER\Documents\Visual Studio 2015\Projects\Calculadora\PdfPDF\PdfPDF\obj\Debug\PdfPDF.csproj.GenerateResource.Cache
+C:\Users\USER\Documents\Visual Studio 2015\Projects\Calculadora\PdfPDF\PdfPDF\bin\Debug\PdfPDF.exe
+C:\Users\USER\Documents\Visual Studio 2015\Projects\Calculadora\PdfPDF\PdfPDF\bin\Debug\PdfPDF.pdb
+C:\Users\USER\Documents\Visual Studio 2015\Projects\Calculadora\PdfPDF\PdfPDF\obj\Debug\PdfPDF.exe
+C:\Users\USER\Documents\Visual Studio 2015\Projects\Calculadora\PdfPDF\PdfPDF\obj\Debug\PdfPDF.pdb
+C:\Users\USER\Documents\Visual Studio 2015\Projects\Calculadora\PdfPDF\PdfPDF\bin\Debug\itextsharp.dll
+C:\Users\USER\Documents\Visual Studio 2015\Projects\Calculadora\PdfPDF\PdfPDF\bin\Debug\itextsharp.pdfa.dll
+C:\Users\USER\Documents\Visual Studio 2015\Projects\Calculadora\PdfPDF\PdfPDF\bin\Debug\itextsharp.xtra.dll
+C:\Users\USER\Desktop\PdfPDF\PdfPDF\bin\Debug\PdfPDF.exe.config
+C:\Users\USER\Desktop\PdfPDF\PdfPDF\obj\Debug\PdfPDF.exe
+C:\Users\USER\Desktop\PdfPDF\PdfPDF\obj\Debug\PdfPDF.pdb
+C:\Users\USER\Desktop\PdfPDF - con library\PdfPDF\bin\Debug\PdfPDF.exe.config
+C:\Users\USER\Desktop\PdfPDF - con library\PdfPDF\obj\Debug\PdfPDF.exe
+C:\Users\USER\Desktop\PdfPDF - con library\PdfPDF\obj\Debug\PdfPDF.pdb
+C:\Users\USER\Desktop\PdfPDF - con library\PdfPDF\obj\Debug\PdfPDF.csprojResolveAssemblyReference.cache
+C:\Users\USER\Desktop\PdfPDF - con library\PdfPDF\obj\Debug\PdfPDF.Form1.resources
+C:\Users\USER\Desktop\PdfPDF - con library\PdfPDF\obj\Debug\PdfPDF.Properties.Resources.resources
+C:\Users\USER\Desktop\PdfPDF - con library\PdfPDF\obj\Debug\PdfPDF.csproj.GenerateResource.Cache
+C:\Users\USER\Desktop\PdfPDF - con library\PdfPDF\bin\Debug\PdfPDF.exe
+C:\Users\USER\Desktop\PdfPDF - con library\PdfPDF\bin\Debug\PdfPDF.pdb
+C:\Users\USER\Desktop\PdfPDF - con library\PdfPDF\bin\Debug\TamanioDatagrid.dll
+C:\Users\USER\Desktop\PdfPDF - con library\PdfPDF\bin\Debug\TamanioDatagrid.pdb
+C:\Users\USER\Desktop\PdfPDF - con library\PdfPDF\bin\Debug\MySql.Data.dll
