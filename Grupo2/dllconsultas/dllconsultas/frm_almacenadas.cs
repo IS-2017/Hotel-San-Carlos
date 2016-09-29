@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using MySql.Data.MySqlClient;
 
+//ana lilian: almacen de consultas
 namespace dllconsultas
 {
     public partial class frm_almacenadas : Form
@@ -26,7 +27,7 @@ namespace dllconsultas
         private void frm_almacenadas_Load(object sender, EventArgs e)
         {
             String guardad = "select * from consultaguardada where idform = 1 and tabla='" + tabla + "';";
-            ejecutar.actualizargrid(guardad, dataGridView1);
+            ejecutar.actualizargrid(guardad, dgv_Almacenadas);
             nombrecolumna();
         }
         public void nombrecolumna()
@@ -34,11 +35,11 @@ namespace dllconsultas
             try
             {
                 //    creador:rodrigo
-                this.dataGridView1.Columns[1].Visible = false;
-                this.dataGridView1.Columns[0].HeaderText = "No";
-                this.dataGridView1.Columns[2].HeaderText = "Nombre";
-                this.dataGridView1.Columns[3].HeaderText = "Consulta";
-                this.dataGridView1.Columns[3].HeaderText = "Tabla";
+                this.dgv_Almacenadas.Columns[1].Visible = false;
+                this.dgv_Almacenadas.Columns[0].HeaderText = "No";
+                this.dgv_Almacenadas.Columns[2].HeaderText = "Nombre";
+                this.dgv_Almacenadas.Columns[3].HeaderText = "Consulta";
+                this.dgv_Almacenadas.Columns[3].HeaderText = "Tabla";
             }
             catch (Exception ex)
             {
@@ -58,9 +59,9 @@ namespace dllconsultas
 
         private void btn_buscar_Click(object sender, EventArgs e)
         {
-            String Squerys = ("Select * from consultaguardada where nombre like'" + textBox1.Text + "%'or descripcion like'" + textBox1.Text + "%';");
+            String Squerys = ("Select * from consultaguardada where nombre like'" + txt_buscar.Text + "%'or descripcion like'" + txt_buscar.Text + "%';");
             ejecutar.buscarquery(Squerys);
-            ejecutar.actualizargrid(Squerys, dataGridView1);
+            ejecutar.actualizargrid(Squerys, dgv_Almacenadas);
             nombrecolumna();
         }
 
@@ -70,7 +71,7 @@ namespace dllconsultas
         {
             try
             {
-                string queryss = this.dataGridView1.CurrentRow.Cells[0].Value.ToString();
+                string queryss = this.dgv_Almacenadas.CurrentRow.Cells[0].Value.ToString();
                 ejecutar.extraeryejecutar(queryss, dg);
                 this.Close();
             }

@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using System.Collections;
 
 //rodrigo:convertir a dll
+//ana lilian: creacion de constructor de consultas
 namespace dllconsultas
 {
     public partial class frm_consulta : Form
@@ -63,10 +64,10 @@ namespace dllconsultas
         {
             try
             {
-                button2.Enabled = true;
-                button3.Enabled = true;
-                button7.Enabled = true;
-                consulta1 = "SELECT * FROM " + tabla + " WHERE " + comboBox1.Text + comboBox2.Text + comboBox3.Text;
+                btn_And.Enabled = true;
+                btn_Or.Enabled = true;
+                btn_mas.Enabled = true;
+                consulta1 = "SELECT * FROM " + tabla + " WHERE " + cbo_Campo1.Text + cbo_Campo2.Text + cbo_Campo3.Text;
                 generar(1);
             }
             catch(Exception ex)
@@ -84,7 +85,7 @@ namespace dllconsultas
                 }
                 else if (opcion == 2)
                 {
-                    consultaand = " AND " + comboBox1.Text + comboBox2.Text + comboBox3.Text;
+                    consultaand = " AND " + cbo_Campo1.Text + cbo_Campo2.Text + cbo_Campo3.Text;
 
                     MessageBox.Show(consultaand);
                 }
@@ -92,7 +93,7 @@ namespace dllconsultas
                 else if (opcion == 3)
                 {
 
-                    consultaor = " OR " + comboBox1.Text + comboBox2.Text + comboBox3.Text;
+                    consultaor = " OR " + cbo_Campo1.Text + cbo_Campo2.Text + cbo_Campo3.Text;
 
                     MessageBox.Show(consultaor);
 
@@ -101,7 +102,7 @@ namespace dllconsultas
                 else if (opcion == 4)
                 {
 
-                    consultabet = " AND " + comboBox1.Text + " BETWEEN " + "'" + b1 + "' AND '" + b2 + "'";
+                    consultabet = " AND " + cbo_Campo1.Text + " BETWEEN " + "'" + b1 + "' AND '" + b2 + "'";
 
                     MessageBox.Show(consultabet);
 
@@ -138,6 +139,12 @@ namespace dllconsultas
             consultal.Show();
         }
 
+        private const string ayuda = "Ayuda Consultas Inteligentes.chm";
+        private void btn_ayuda_Click(object sender, EventArgs e)
+        {
+            System.Windows.Forms.Help.ShowHelp(this, Application.StartupPath + @"/" + ayuda);
+        }
+
         private void textBox3_TextChanged(object sender, EventArgs e)
         {
 
@@ -150,48 +157,48 @@ namespace dllconsultas
 
         private void button4_Click(object sender, EventArgs e)
         {
-            b1 = textBox2.Text;
-            b2 = textBox3.Text;
+            b1 = txt_campo1.Text;
+            b2 = txt_campo2.Text;
             generar(4);
         }
 
         private void button7_Click(object sender, EventArgs e)
         {
-            button4.Enabled = true;
-            comboBox4.Enabled = true;
-            textBox2.Enabled = true;
-            textBox3.Enabled = true;
+            btn_between.Enabled = true;
+            cbo_Campo4.Enabled = true;
+            txt_campo1.Enabled = true;
+            txt_campo2.Enabled = true;
         }
 
         private void frm_consulta_Load(object sender, EventArgs e)
         {try
             {
-                textBox1.Text = tabla;
+                txt_NombreTabla.Text = tabla;
 
 
                 ArrayList columnas;
                 columnas = obtienecol.getColumnas(tabla);
-                comboBox1.Items.Clear();
-                comboBox3.Items.Clear();
-                comboBox4.Items.Clear();
+                cbo_Campo1.Items.Clear();
+                cbo_Campo3.Items.Clear();
+                cbo_Campo4.Items.Clear();
 
                 for (int i = 0; i < columnas.Count; i++)
                 {
-                    comboBox1.Items.Add(columnas[i].ToString());
-                    comboBox3.Items.Add(columnas[i].ToString());
-                    comboBox4.Items.Add(columnas[i].ToString());
+                    cbo_Campo1.Items.Add(columnas[i].ToString());
+                    cbo_Campo3.Items.Add(columnas[i].ToString());
+                    cbo_Campo4.Items.Add(columnas[i].ToString());
 
                 }
 
-                button2.Enabled = false;
-                button3.Enabled = false;
-                button4.Enabled = false;
+                btn_And.Enabled = false;
+                btn_Or.Enabled = false;
+                btn_between.Enabled = false;
                 //button5.Enabled = false;
-                button7.Enabled = false;
-                comboBox4.Enabled = false;
-                textBox2.Enabled = false;
-                textBox3.Enabled = false;
-                button7.Enabled = false;
+                btn_mas.Enabled = false;
+                cbo_Campo4.Enabled = false;
+                txt_campo1.Enabled = false;
+                txt_campo2.Enabled = false;
+                btn_mas.Enabled = false;
             }
             catch(Exception ex)
             {

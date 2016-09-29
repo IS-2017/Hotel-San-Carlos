@@ -52,9 +52,10 @@
             // lbl_consulta
             // 
             this.lbl_consulta.AutoSize = true;
+            this.lbl_consulta.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_consulta.Location = new System.Drawing.Point(24, 41);
             this.lbl_consulta.Name = "lbl_consulta";
-            this.lbl_consulta.Size = new System.Drawing.Size(63, 13);
+            this.lbl_consulta.Size = new System.Drawing.Size(65, 18);
             this.lbl_consulta.TabIndex = 8;
             this.lbl_consulta.Text = "FILTRAR:";
             // 
@@ -97,7 +98,7 @@
             this.btn_buscar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_buscar.FlatAppearance.BorderSize = 0;
             this.btn_buscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_buscar.Location = new System.Drawing.Point(555, 13);
+            this.btn_buscar.Location = new System.Drawing.Point(569, 13);
             this.btn_buscar.Name = "btn_buscar";
             this.btn_buscar.Size = new System.Drawing.Size(87, 55);
             this.btn_buscar.TabIndex = 9;

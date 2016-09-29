@@ -24,3 +24,16 @@ C:\Users\Walter\Desktop\dllconsultasgeneraless\dllconsultasgeneraless\obj\Debug\
 C:\Users\Walter\Desktop\dllconsultasgeneraless\dllconsultasgeneraless\obj\Debug\dllconsultasgeneraless.csproj.GenerateResource.Cache
 C:\Users\Walter\Desktop\dllconsultasgeneraless\dllconsultasgeneraless\obj\Debug\dllconsultasgeneraless.dll
 C:\Users\Walter\Desktop\dllconsultasgeneraless\dllconsultasgeneraless\obj\Debug\dllconsultasgeneraless.pdb
+C:\Users\Ana Lilian\Documents\GitHub\Hotel-San-Carlos\Grupo2Extra\dllconsultasgeneraless\dllconsultasgeneraless\bin\Debug\dllconsultasgeneraless.dll
+C:\Users\Ana Lilian\Documents\GitHub\Hotel-San-Carlos\Grupo2Extra\dllconsultasgeneraless\dllconsultasgeneraless\bin\Debug\dllconsultasgeneraless.pdb
+C:\Users\Ana Lilian\Documents\GitHub\Hotel-San-Carlos\Grupo2Extra\dllconsultasgeneraless\dllconsultasgeneraless\bin\Debug\MySql.Data.dll
+C:\Users\Ana Lilian\Documents\GitHub\Hotel-San-Carlos\Grupo2Extra\dllconsultasgeneraless\dllconsultasgeneraless\bin\Debug\Google.ProtocolBuffers.dll
+C:\Users\Ana Lilian\Documents\GitHub\Hotel-San-Carlos\Grupo2Extra\dllconsultasgeneraless\dllconsultasgeneraless\bin\Debug\MySql.Data.xml
+C:\Users\Ana Lilian\Documents\GitHub\Hotel-San-Carlos\Grupo2Extra\dllconsultasgeneraless\dllconsultasgeneraless\obj\Debug\dllconsultasgeneraless.csprojResolveAssemblyReference.cache
+C:\Users\Ana Lilian\Documents\GitHub\Hotel-San-Carlos\Grupo2Extra\dllconsultasgeneraless\dllconsultasgeneraless\obj\Debug\dllconsultasgeneraless.frm_consultas.resources
+C:\Users\Ana Lilian\Documents\GitHub\Hotel-San-Carlos\Grupo2Extra\dllconsultasgeneraless\dllconsultasgeneraless\obj\Debug\dllconsultasgeneraless.frm_extraer.resources
+C:\Users\Ana Lilian\Documents\GitHub\Hotel-San-Carlos\Grupo2Extra\dllconsultasgeneraless\dllconsultasgeneraless\obj\Debug\dllconsultasgeneraless.frm_gurdar.resources
+C:\Users\Ana Lilian\Documents\GitHub\Hotel-San-Carlos\Grupo2Extra\dllconsultasgeneraless\dllconsultasgeneraless\obj\Debug\dllconsultasgeneraless.Properties.Resources.resources
+C:\Users\Ana Lilian\Documents\GitHub\Hotel-San-Carlos\Grupo2Extra\dllconsultasgeneraless\dllconsultasgeneraless\obj\Debug\dllconsultasgeneraless.csproj.GenerateResource.Cache
+C:\Users\Ana Lilian\Documents\GitHub\Hotel-San-Carlos\Grupo2Extra\dllconsultasgeneraless\dllconsultasgeneraless\obj\Debug\dllconsultasgeneraless.dll
+C:\Users\Ana Lilian\Documents\GitHub\Hotel-San-Carlos\Grupo2Extra\dllconsultasgeneraless\dllconsultasgeneraless\obj\Debug\dllconsultasgeneraless.pdb
