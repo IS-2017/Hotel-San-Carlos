@@ -84,7 +84,7 @@ namespace FuncionesNavegador
             Conexionmysql.EjecutarMySql(query);
             Conexionmysql.Desconectar();
         }
-        public void ActualizarGrid(DataGridView dg, String Query)
+        public void ActualizarGrid(DataGridView dg, String Query, string tabla)
         {
             Conexionmysql.ObtenerConexion();
             //crear DataSet
@@ -92,10 +92,10 @@ namespace FuncionesNavegador
             //Crear Adaptador de datos
             MySqlDataAdapter MiDataAdapter = new MySqlDataAdapter(Query, Conexionmysql.ObtenerConexion());
             //LLenar el DataSet
-            MiDataAdapter.Fill(MiDataSet, "empleado");
+            MiDataAdapter.Fill(MiDataSet, tabla);
             //Asignarle el valor adecuado a las propiedades del DataGrid
             dg.DataSource = MiDataSet;
-            dg.DataMember = "empleado";
+            dg.DataMember = tabla;
             //nos desconectamos de la base de datos...
             Conexionmysql.Desconectar();
         }
