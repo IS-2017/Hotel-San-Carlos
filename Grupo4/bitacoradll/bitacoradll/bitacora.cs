@@ -12,7 +12,7 @@ namespace bitacoradll
     public class bitacora
     {
         // --------------- Metodo para registrar en la bitacora lo que se esta insertando ----------------------- 
-        public void Insertar(string encargado, string accion)
+        public void Insertar( string accion)
         {
             accion = "Insertar: " + accion;
             try
@@ -40,7 +40,7 @@ namespace bitacoradll
         // --------------- Metodo para registrar en la bitacora lo que se esta Modificando ----------------------- 
 
 
-        public void Modificar(string encargado, string accion)
+        public void Modificar(string accion)
         {
             accion = "Modificar: " + accion;
             try
@@ -67,7 +67,7 @@ namespace bitacoradll
         // --------------- Metodo para registrar en la bitacora lo que se esta Eliminando ----------------------- 
 
 
-        public void Eliminar(string encargado, string accion)
+        public void Eliminar(string accion)
         {
             accion = "Eliminar: " + accion;
             try
