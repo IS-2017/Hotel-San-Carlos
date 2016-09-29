@@ -29,10 +29,10 @@
         private void InitializeComponent()
         {
             this.btn_cancelarGuardar = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.lbl_titulo = new System.Windows.Forms.Label();
+            this.btn_guardar = new System.Windows.Forms.Button();
+            this.lbl_nombre = new System.Windows.Forms.Label();
+            this.txt_Nombre = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // btn_cancelarGuardar
@@ -41,63 +41,74 @@
             this.btn_cancelarGuardar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_cancelarGuardar.FlatAppearance.BorderSize = 0;
             this.btn_cancelarGuardar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_cancelarGuardar.Location = new System.Drawing.Point(156, 135);
+            this.btn_cancelarGuardar.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_cancelarGuardar.Location = new System.Drawing.Point(106, 124);
+            this.btn_cancelarGuardar.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.btn_cancelarGuardar.Name = "btn_cancelarGuardar";
-            this.btn_cancelarGuardar.Size = new System.Drawing.Size(75, 55);
+            this.btn_cancelarGuardar.Size = new System.Drawing.Size(82, 58);
             this.btn_cancelarGuardar.TabIndex = 9;
             this.btn_cancelarGuardar.UseVisualStyleBackColor = true;
             // 
-            // label2
+            // lbl_titulo
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(124, 33);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(281, 25);
-            this.label2.TabIndex = 8;
-            this.label2.Text = "ALMACENAR CONSULTA";
+            this.lbl_titulo.AutoSize = true;
+            this.lbl_titulo.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_titulo.Location = new System.Drawing.Point(121, 9);
+            this.lbl_titulo.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.lbl_titulo.Name = "lbl_titulo";
+            this.lbl_titulo.Size = new System.Drawing.Size(205, 21);
+            this.lbl_titulo.TabIndex = 8;
+            this.lbl_titulo.Text = "ALMACENAR CONSULTA";
             // 
-            // button1
+            // btn_guardar
             // 
-            this.button1.BackgroundImage = global::dllconsultasgeneraless.Properties.Resources.Save_icon;
-            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(287, 135);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 55);
-            this.button1.TabIndex = 7;
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btn_guardar.BackgroundImage = global::dllconsultasgeneraless.Properties.Resources.Save_icon;
+            this.btn_guardar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_guardar.FlatAppearance.BorderSize = 0;
+            this.btn_guardar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_guardar.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_guardar.Location = new System.Drawing.Point(223, 124);
+            this.btn_guardar.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.btn_guardar.Name = "btn_guardar";
+            this.btn_guardar.Size = new System.Drawing.Size(94, 58);
+            this.btn_guardar.TabIndex = 7;
+            this.btn_guardar.UseVisualStyleBackColor = true;
+            this.btn_guardar.Click += new System.EventHandler(this.button1_Click);
             // 
-            // label1
+            // lbl_nombre
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(75, 94);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(57, 13);
-            this.label1.TabIndex = 6;
-            this.label1.Text = "NOMBRE:";
+            this.lbl_nombre.AutoSize = true;
+            this.lbl_nombre.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_nombre.Location = new System.Drawing.Point(14, 78);
+            this.lbl_nombre.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.lbl_nombre.Name = "lbl_nombre";
+            this.lbl_nombre.Size = new System.Drawing.Size(83, 21);
+            this.lbl_nombre.TabIndex = 6;
+            this.lbl_nombre.Text = "NOMBRE:";
             // 
-            // textBox1
+            // txt_Nombre
             // 
-            this.textBox1.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.textBox1.Location = new System.Drawing.Point(138, 91);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(300, 20);
-            this.textBox1.TabIndex = 5;
+            this.txt_Nombre.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.txt_Nombre.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_Nombre.Location = new System.Drawing.Point(106, 78);
+            this.txt_Nombre.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.txt_Nombre.Name = "txt_Nombre";
+            this.txt_Nombre.Size = new System.Drawing.Size(332, 27);
+            this.txt_Nombre.TabIndex = 5;
             // 
             // frm_gurdar
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.ClientSize = new System.Drawing.Size(512, 226);
+            this.ClientSize = new System.Drawing.Size(456, 214);
             this.Controls.Add(this.btn_cancelarGuardar);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.lbl_titulo);
+            this.Controls.Add(this.btn_guardar);
+            this.Controls.Add(this.lbl_nombre);
+            this.Controls.Add(this.txt_Nombre);
+            this.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.Name = "frm_gurdar";
             this.Text = "frm_gurdar";
             this.Load += new System.EventHandler(this.frm_gurdar_Load);
@@ -109,9 +120,9 @@
         #endregion
 
         private System.Windows.Forms.Button btn_cancelarGuardar;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label lbl_titulo;
+        private System.Windows.Forms.Button btn_guardar;
+        private System.Windows.Forms.Label lbl_nombre;
+        private System.Windows.Forms.TextBox txt_Nombre;
     }
 }

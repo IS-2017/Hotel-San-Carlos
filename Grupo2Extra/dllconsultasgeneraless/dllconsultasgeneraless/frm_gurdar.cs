@@ -31,7 +31,7 @@ namespace dllconsultasgeneraless
         }
         private void insert()
         {
-            if (textBox1.Text == "")
+            if (txt_Nombre.Text == "")
             {
                 MessageBox.Show("Llene los campos por favor");
                 MessageBox.Show(consulta);
@@ -42,7 +42,7 @@ namespace dllconsultasgeneraless
                 try
                 {
                     string traduccion = consulta.Replace("'", "$");
-                    String Squery = "insert into  consultaguardada (idform,nombre,descripcion,tabla) values( 'C','" + textBox1.Text + "', '" + traduccion + "','Joins');";
+                    String Squery = "insert into  consultaguardada (idform,nombre,descripcion,tabla) values( 'C','" + txt_Nombre.Text + "', '" + traduccion + "','Joins');";
                     ejecutar.EjecutarQuery(Squery);
                     this.Close();
                     //this.Hide();

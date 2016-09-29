@@ -90,12 +90,13 @@ namespace dllconsultas
             //creador: walter
             Conectar();
             DataTable dt = new DataTable();
-            String sQuery = "SELECT descripcion FROM consultaguardada WHERE idconsulta= '" + query+ "'";
+            String sQuery = "SELECT descripcion FROM consultaguardada WHERE idconsulta= '" + query + "'";
             MySqlCommand comando = new MySqlCommand(sQuery, rutaconectada());
             MySqlDataAdapter adaptador = new MySqlDataAdapter(comando);
             adaptador.Fill(dt);
             DataRow fila = dt.Rows[0];
             string sid = Convert.ToString(fila[0]);
+            string traduccion = sid.Replace("$", "'");
             Desconectar();
            actualizargrid(sid, dg);
         }

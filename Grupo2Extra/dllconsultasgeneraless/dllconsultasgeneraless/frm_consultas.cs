@@ -169,14 +169,14 @@ namespace dllconsultasgeneraless
 
                 cbo_from2.Enabled = true;
                 cbo_select2.Enabled = true;
-                btn_add2.Enabled = true;
+                btn_mas1.Enabled = true;
                 chb_check2.Enabled = true;
             }
             else
             {
                 cbo_from2.Enabled = false;
                 cbo_select2.Enabled = false;
-                btn_add2.Enabled = false;
+                btn_mas1.Enabled = false;
                 chb_check2.Enabled = false;
                 chb_check2.Checked = false;
             }
@@ -1083,7 +1083,7 @@ namespace dllconsultasgeneraless
             cbo_select4.Enabled = false;
             cbo_from5.Enabled = false;
             cbo_select5.Enabled = false;
-            btn_add2.Enabled = false;
+            btn_mas1.Enabled = false;
             btn_add3.Enabled = false;
             btn_add4.Enabled = false;
             btn_add5.Enabled = false;
