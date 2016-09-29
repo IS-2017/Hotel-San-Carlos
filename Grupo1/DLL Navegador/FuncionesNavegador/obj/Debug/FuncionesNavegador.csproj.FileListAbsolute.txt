@@ -38,3 +38,10 @@ D:\Universidad\8vo semestre\diseño de sistemas\nav 0.1\FuncionesNavegador - cop
 D:\Universidad\8vo semestre\diseño de sistemas\nav 0.1\FuncionesNavegador - copia - copia\FuncionesNavegador\obj\Debug\FuncionesNavegador.csprojResolveAssemblyReference.cache
 D:\Universidad\8vo semestre\diseño de sistemas\nav 0.1\FuncionesNavegador - copia - copia\FuncionesNavegador\obj\Debug\FuncionesNavegador.dll
 D:\Universidad\8vo semestre\diseño de sistemas\nav 0.1\FuncionesNavegador - copia - copia\FuncionesNavegador\obj\Debug\FuncionesNavegador.pdb
+C:\Users\Cristian\Documents\GitHub\Hotel-San-Carlos\Grupo1\DLL Navegador\FuncionesNavegador\bin\Debug\FuncionesNavegador.dll
+C:\Users\Cristian\Documents\GitHub\Hotel-San-Carlos\Grupo1\DLL Navegador\FuncionesNavegador\bin\Debug\FuncionesNavegador.pdb
+C:\Users\Cristian\Documents\GitHub\Hotel-San-Carlos\Grupo1\DLL Navegador\FuncionesNavegador\bin\Debug\MySql.Data.dll
+C:\Users\Cristian\Documents\GitHub\Hotel-San-Carlos\Grupo1\DLL Navegador\FuncionesNavegador\bin\Debug\MySql.Data.xml
+C:\Users\Cristian\Documents\GitHub\Hotel-San-Carlos\Grupo1\DLL Navegador\FuncionesNavegador\obj\Debug\FuncionesNavegador.csprojResolveAssemblyReference.cache
+C:\Users\Cristian\Documents\GitHub\Hotel-San-Carlos\Grupo1\DLL Navegador\FuncionesNavegador\obj\Debug\FuncionesNavegador.dll
+C:\Users\Cristian\Documents\GitHub\Hotel-San-Carlos\Grupo1\DLL Navegador\FuncionesNavegador\obj\Debug\FuncionesNavegador.pdb

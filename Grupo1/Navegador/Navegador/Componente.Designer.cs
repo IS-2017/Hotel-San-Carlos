@@ -251,6 +251,7 @@
             this.btn_actualizar.TabIndex = 6;
             this.toolTip1.SetToolTip(this.btn_actualizar, "Actualizar");
             this.btn_actualizar.UseVisualStyleBackColor = true;
+            this.btn_actualizar.Click += new System.EventHandler(this.btn_actualizar_Click);
             // 
             // btn_cancelar
             // 

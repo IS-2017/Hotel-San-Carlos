@@ -221,5 +221,12 @@ namespace Navegador
                 MessageBox.Show("Es el final de la lista");
             }
         }
+
+        private void btn_actualizar_Click(object sender, EventArgs e)
+        {
+            FunNavegador fn = new FunNavegador();
+            string tabla = "empleado";
+            fn.ActualizarGrid(this.dataGridView1, "Select * from empleado WHERE estado <> 'INACTIVO' ", tabla);
+        }
     }
 }
