@@ -99,5 +99,102 @@ namespace FuncionesNavegador
             //nos desconectamos de la base de datos...
             Conexionmysql.Desconectar();
         }
+
+        public string[] Rsiguiente(int codigo, string tabla)
+        {
+            string codigon, nombre, apellido, descripcion = "";
+
+            string conexion = "server=localhost; database=ejemplodll; uid=root; pwd=;";
+
+            MySqlConnection conn = new MySqlConnection(conexion);
+
+            conn.Open();
+            string query = "SELECT * FROM "+tabla+" LIMIT " + codigo + " , 1";
+            MySqlCommand mycomand = new MySqlCommand(query, conn);
+
+            MySqlDataReader myreader = mycomand.ExecuteReader();
+
+            myreader.Read();
+            codigon = myreader["codigo"].ToString();
+            nombre = myreader["nombre"].ToString();
+            apellido = myreader["apellido"].ToString();
+            descripcion = myreader["descripcion"].ToString();
+            string[] datos = new string[4] { codigon, nombre, apellido, descripcion };
+
+            return datos;
+            conn.Close();
+        }
+
+        public string[] Ranterior(int codigo, string dato, string tabla) {
+            string codigon, nombre, apellido, descripcion = "";
+
+            string conexion = "server=localhost; database=ejemplodll; uid=root; pwd=;";
+
+            MySqlConnection conn = new MySqlConnection(conexion);
+
+            conn.Open();
+            string query = "SELECT * FROM "+tabla+" WHERE "+dato+"<"+codigo+" ORDER BY codigo DESC LIMIT 1";
+            MySqlCommand mycomand = new MySqlCommand(query, conn);
+
+            MySqlDataReader myreader = mycomand.ExecuteReader();
+
+            myreader.Read();
+            codigon = myreader["codigo"].ToString();
+            nombre = myreader["nombre"].ToString();
+            apellido = myreader["apellido"].ToString();
+            descripcion = myreader["descripcion"].ToString();
+            string[] datos = new string[4] { codigon, nombre, apellido, descripcion };
+            // MessageBox.Show("* " + datos[1] + " /");
+            return datos;
+            conn.Close();
+        }
+
+        public string[] Tsiguiente(string tabla) {
+            string codigon, nombre, apellido, descripcion = "";
+
+            string conexion = "server=localhost; database=ejemplodll; uid=root; pwd=;";
+
+            MySqlConnection conn = new MySqlConnection(conexion);
+
+            conn.Open();
+            string query = "SELECT * FROM "+tabla+" ORDER BY codigo DESC LIMIT 1";
+            MySqlCommand mycomand = new MySqlCommand(query, conn);
+
+            MySqlDataReader myreader = mycomand.ExecuteReader();
+
+            myreader.Read();
+            codigon = myreader["codigo"].ToString();
+            nombre = myreader["nombre"].ToString();
+            apellido = myreader["apellido"].ToString();
+            descripcion = myreader["descripcion"].ToString();
+            string[] datos = new string[4] { codigon, nombre, apellido, descripcion };
+            // MessageBox.Show("* " + datos[1] + " /");
+            return datos;
+            conn.Close();
+        }
+
+        public string[] Tanterior(string tabla) {
+            string codigon, nombre, apellido, descripcion = "";
+
+            string conexion = "server=localhost; database=ejemplodll; uid=root; pwd=;";
+
+            MySqlConnection conn = new MySqlConnection(conexion);
+
+            conn.Open();
+            string query = "SELECT * FROM " + tabla + " ORDER BY codigo ASC LIMIT 1";
+            MySqlCommand mycomand = new MySqlCommand(query, conn);
+
+            MySqlDataReader myreader = mycomand.ExecuteReader();
+
+            myreader.Read();
+            codigon = myreader["codigo"].ToString();
+            nombre = myreader["nombre"].ToString();
+            apellido = myreader["apellido"].ToString();
+            descripcion = myreader["descripcion"].ToString();
+            string[] datos = new string[4] { codigon, nombre, apellido, descripcion };
+            // MessageBox.Show("* " + datos[1] + " /");
+            return datos;
+            conn.Close();
+        }
     }
 }
