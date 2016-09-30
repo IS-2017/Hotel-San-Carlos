@@ -74,3 +74,6 @@ D:\Universidad\8vo semestre\diseño de sistemas\nav 0.1\Navegador - copia - copi
 C:\Users\Cristian\Documents\GitHub\Hotel-San-Carlos\Grupo1\Navegador\Navegador\bin\Debug\Navegador.exe.config
 C:\Users\Cristian\Documents\GitHub\Hotel-San-Carlos\Grupo1\Navegador\Navegador\obj\Debug\Navegador.exe
 C:\Users\Cristian\Documents\GitHub\Hotel-San-Carlos\Grupo1\Navegador\Navegador\obj\Debug\Navegador.pdb
+C:\Users\ottog\Documents\GitHub\Hotel-San-Carlos\Grupo1\Navegador\Navegador\bin\Debug\Navegador.exe.config
+C:\Users\ottog\Documents\GitHub\Hotel-San-Carlos\Grupo1\Navegador\Navegador\obj\Debug\Navegador.exe
+C:\Users\ottog\Documents\GitHub\Hotel-San-Carlos\Grupo1\Navegador\Navegador\obj\Debug\Navegador.pdb
