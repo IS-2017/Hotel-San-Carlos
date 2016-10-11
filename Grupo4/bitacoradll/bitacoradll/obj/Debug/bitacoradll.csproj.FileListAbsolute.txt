@@ -1,0 +1,8 @@
+c:\users\marvin\documents\visual studio 2015\Projects\bitacoradll\bitacoradll\bin\Debug\bitacoradll.dll
+c:\users\marvin\documents\visual studio 2015\Projects\bitacoradll\bitacoradll\bin\Debug\bitacoradll.pdb
+c:\users\marvin\documents\visual studio 2015\Projects\bitacoradll\bitacoradll\bin\Debug\Conexion.dll
+c:\users\marvin\documents\visual studio 2015\Projects\bitacoradll\bitacoradll\bin\Debug\MySql.Data.dll
+c:\users\marvin\documents\visual studio 2015\Projects\bitacoradll\bitacoradll\bin\Debug\Conexion.pdb
+c:\users\marvin\documents\visual studio 2015\Projects\bitacoradll\bitacoradll\obj\Debug\bitacoradll.csprojResolveAssemblyReference.cache
+c:\users\marvin\documents\visual studio 2015\Projects\bitacoradll\bitacoradll\obj\Debug\bitacoradll.dll
+c:\users\marvin\documents\visual studio 2015\Projects\bitacoradll\bitacoradll\obj\Debug\bitacoradll.pdb

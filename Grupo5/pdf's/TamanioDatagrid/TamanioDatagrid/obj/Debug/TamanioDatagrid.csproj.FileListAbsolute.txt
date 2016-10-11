@@ -1,0 +1,5 @@
+C:\Users\USER\Documents\Visual Studio 2015\Projects\TamanioDatagrid\TamanioDatagrid\bin\Debug\TamanioDatagrid.dll
+C:\Users\USER\Documents\Visual Studio 2015\Projects\TamanioDatagrid\TamanioDatagrid\bin\Debug\TamanioDatagrid.pdb
+C:\Users\USER\Documents\Visual Studio 2015\Projects\TamanioDatagrid\TamanioDatagrid\obj\Debug\TamanioDatagrid.csprojResolveAssemblyReference.cache
+C:\Users\USER\Documents\Visual Studio 2015\Projects\TamanioDatagrid\TamanioDatagrid\obj\Debug\TamanioDatagrid.dll
+C:\Users\USER\Documents\Visual Studio 2015\Projects\TamanioDatagrid\TamanioDatagrid\obj\Debug\TamanioDatagrid.pdb

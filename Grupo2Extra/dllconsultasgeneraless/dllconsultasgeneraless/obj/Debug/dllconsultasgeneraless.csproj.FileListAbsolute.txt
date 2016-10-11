@@ -1,0 +1,39 @@
+E:\Escritorio\dllconsultasgeneraless\dllconsultasgeneraless\obj\Debug\dllconsultasgeneraless.csprojResolveAssemblyReference.cache
+E:\Escritorio\dllconsultasgeneraless\dllconsultasgeneraless\obj\Debug\dllconsultasgeneraless.frm_consultas.resources
+E:\Escritorio\dllconsultasgeneraless\dllconsultasgeneraless\obj\Debug\dllconsultasgeneraless.frm_extraer.resources
+E:\Escritorio\dllconsultasgeneraless\dllconsultasgeneraless\obj\Debug\dllconsultasgeneraless.frm_gurdar.resources
+E:\Escritorio\dllconsultasgeneraless\dllconsultasgeneraless\obj\Debug\dllconsultasgeneraless.Properties.Resources.resources
+E:\Escritorio\dllconsultasgeneraless\dllconsultasgeneraless\obj\Debug\dllconsultasgeneraless.csproj.GenerateResource.Cache
+E:\Escritorio\dllconsultasgeneraless\dllconsultasgeneraless\bin\Debug\dllconsultasgeneraless.dll
+E:\Escritorio\dllconsultasgeneraless\dllconsultasgeneraless\bin\Debug\dllconsultasgeneraless.pdb
+E:\Escritorio\dllconsultasgeneraless\dllconsultasgeneraless\bin\Debug\MySql.Data.dll
+E:\Escritorio\dllconsultasgeneraless\dllconsultasgeneraless\bin\Debug\Google.ProtocolBuffers.dll
+E:\Escritorio\dllconsultasgeneraless\dllconsultasgeneraless\bin\Debug\MySql.Data.xml
+E:\Escritorio\dllconsultasgeneraless\dllconsultasgeneraless\obj\Debug\dllconsultasgeneraless.dll
+E:\Escritorio\dllconsultasgeneraless\dllconsultasgeneraless\obj\Debug\dllconsultasgeneraless.pdb
+C:\Users\Walter\Desktop\dllconsultasgeneraless\dllconsultasgeneraless\bin\Debug\dllconsultasgeneraless.dll
+C:\Users\Walter\Desktop\dllconsultasgeneraless\dllconsultasgeneraless\bin\Debug\dllconsultasgeneraless.pdb
+C:\Users\Walter\Desktop\dllconsultasgeneraless\dllconsultasgeneraless\bin\Debug\MySql.Data.dll
+C:\Users\Walter\Desktop\dllconsultasgeneraless\dllconsultasgeneraless\bin\Debug\Google.ProtocolBuffers.dll
+C:\Users\Walter\Desktop\dllconsultasgeneraless\dllconsultasgeneraless\bin\Debug\MySql.Data.xml
+C:\Users\Walter\Desktop\dllconsultasgeneraless\dllconsultasgeneraless\obj\Debug\dllconsultasgeneraless.csprojResolveAssemblyReference.cache
+C:\Users\Walter\Desktop\dllconsultasgeneraless\dllconsultasgeneraless\obj\Debug\dllconsultasgeneraless.frm_consultas.resources
+C:\Users\Walter\Desktop\dllconsultasgeneraless\dllconsultasgeneraless\obj\Debug\dllconsultasgeneraless.frm_extraer.resources
+C:\Users\Walter\Desktop\dllconsultasgeneraless\dllconsultasgeneraless\obj\Debug\dllconsultasgeneraless.frm_gurdar.resources
+C:\Users\Walter\Desktop\dllconsultasgeneraless\dllconsultasgeneraless\obj\Debug\dllconsultasgeneraless.Properties.Resources.resources
+C:\Users\Walter\Desktop\dllconsultasgeneraless\dllconsultasgeneraless\obj\Debug\dllconsultasgeneraless.csproj.GenerateResource.Cache
+C:\Users\Walter\Desktop\dllconsultasgeneraless\dllconsultasgeneraless\obj\Debug\dllconsultasgeneraless.dll
+C:\Users\Walter\Desktop\dllconsultasgeneraless\dllconsultasgeneraless\obj\Debug\dllconsultasgeneraless.pdb
+C:\Users\Ana Lilian\Documents\GitHub\Hotel-San-Carlos\Grupo2Extra\dllconsultasgeneraless\dllconsultasgeneraless\bin\Debug\dllconsultasgeneraless.dll
+C:\Users\Ana Lilian\Documents\GitHub\Hotel-San-Carlos\Grupo2Extra\dllconsultasgeneraless\dllconsultasgeneraless\bin\Debug\dllconsultasgeneraless.pdb
+C:\Users\Ana Lilian\Documents\GitHub\Hotel-San-Carlos\Grupo2Extra\dllconsultasgeneraless\dllconsultasgeneraless\bin\Debug\MySql.Data.dll
+C:\Users\Ana Lilian\Documents\GitHub\Hotel-San-Carlos\Grupo2Extra\dllconsultasgeneraless\dllconsultasgeneraless\bin\Debug\Google.ProtocolBuffers.dll
+C:\Users\Ana Lilian\Documents\GitHub\Hotel-San-Carlos\Grupo2Extra\dllconsultasgeneraless\dllconsultasgeneraless\bin\Debug\MySql.Data.xml
+C:\Users\Ana Lilian\Documents\GitHub\Hotel-San-Carlos\Grupo2Extra\dllconsultasgeneraless\dllconsultasgeneraless\obj\Debug\dllconsultasgeneraless.csprojResolveAssemblyReference.cache
+C:\Users\Ana Lilian\Documents\GitHub\Hotel-San-Carlos\Grupo2Extra\dllconsultasgeneraless\dllconsultasgeneraless\obj\Debug\dllconsultasgeneraless.frm_consultas.resources
+C:\Users\Ana Lilian\Documents\GitHub\Hotel-San-Carlos\Grupo2Extra\dllconsultasgeneraless\dllconsultasgeneraless\obj\Debug\dllconsultasgeneraless.frm_extraer.resources
+C:\Users\Ana Lilian\Documents\GitHub\Hotel-San-Carlos\Grupo2Extra\dllconsultasgeneraless\dllconsultasgeneraless\obj\Debug\dllconsultasgeneraless.frm_gurdar.resources
+C:\Users\Ana Lilian\Documents\GitHub\Hotel-San-Carlos\Grupo2Extra\dllconsultasgeneraless\dllconsultasgeneraless\obj\Debug\dllconsultasgeneraless.Properties.Resources.resources
+C:\Users\Ana Lilian\Documents\GitHub\Hotel-San-Carlos\Grupo2Extra\dllconsultasgeneraless\dllconsultasgeneraless\obj\Debug\dllconsultasgeneraless.csproj.GenerateResource.Cache
+C:\Users\Ana Lilian\Documents\GitHub\Hotel-San-Carlos\Grupo2Extra\dllconsultasgeneraless\dllconsultasgeneraless\obj\Debug\dllconsultasgeneraless.dll
+C:\Users\Ana Lilian\Documents\GitHub\Hotel-San-Carlos\Grupo2Extra\dllconsultasgeneraless\dllconsultasgeneraless\obj\Debug\dllconsultasgeneraless.pdb

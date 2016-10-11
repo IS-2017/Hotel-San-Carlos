@@ -1,0 +1,121 @@
+c:\users\walter\documents\visual studio 2015\Projects\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\bin\Debug\ObjetoComunConsultasInteligentes.exe.config
+c:\users\walter\documents\visual studio 2015\Projects\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\bin\Debug\ObjetoComunConsultasInteligentes.exe
+c:\users\walter\documents\visual studio 2015\Projects\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\bin\Debug\ObjetoComunConsultasInteligentes.pdb
+c:\users\walter\documents\visual studio 2015\Projects\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\obj\Debug\ObjetoComunConsultasInteligentes.Form1.resources
+c:\users\walter\documents\visual studio 2015\Projects\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\obj\Debug\ObjetoComunConsultasInteligentes.Properties.Resources.resources
+c:\users\walter\documents\visual studio 2015\Projects\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\obj\Debug\ObjetoComunConsultasInteligentes.csproj.GenerateResource.Cache
+c:\users\walter\documents\visual studio 2015\Projects\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\obj\Debug\ObjetoComunConsultasInteligentes.exe
+c:\users\walter\documents\visual studio 2015\Projects\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\obj\Debug\ObjetoComunConsultasInteligentes.pdb
+c:\users\walter\documents\visual studio 2015\Projects\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\obj\Debug\ObjetoComunConsultasInteligentes.csprojResolveAssemblyReference.cache
+C:\Users\Walter\Documents\GitHub\Hotel-San-Carlos\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\bin\Debug\ObjetoComunConsultasInteligentes.exe.config
+C:\Users\Walter\Documents\GitHub\Hotel-San-Carlos\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\obj\Debug\ObjetoComunConsultasInteligentes.exe
+C:\Users\Walter\Documents\GitHub\Hotel-San-Carlos\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\obj\Debug\ObjetoComunConsultasInteligentes.pdb
+C:\Users\Walter\Documents\GitHub\Hotel-San-Carlos\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\bin\Debug\ObjetoComunConsultasInteligentes.exe
+C:\Users\Walter\Documents\GitHub\Hotel-San-Carlos\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\bin\Debug\ObjetoComunConsultasInteligentes.pdb
+C:\Users\Walter\Documents\GitHub\Hotel-San-Carlos\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\obj\Debug\ObjetoComunConsultasInteligentes.csprojResolveAssemblyReference.cache
+C:\Users\Walter\Documents\GitHub\Hotel-San-Carlos\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\obj\Debug\ObjetoComunConsultasInteligentes.Form1.resources
+C:\Users\Walter\Documents\GitHub\Hotel-San-Carlos\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\obj\Debug\ObjetoComunConsultasInteligentes.Properties.Resources.resources
+C:\Users\Walter\Documents\GitHub\Hotel-San-Carlos\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\obj\Debug\ObjetoComunConsultasInteligentes.csproj.GenerateResource.Cache
+C:\Users\Walter\Desktop\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\bin\Debug\ObjetoComunConsultasInteligentes.exe.config
+C:\Users\Walter\Desktop\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\obj\Debug\ObjetoComunConsultasInteligentes.exe
+C:\Users\Walter\Desktop\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\obj\Debug\ObjetoComunConsultasInteligentes.pdb
+C:\Users\Walter\Desktop\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\bin\Debug\ObjetoComunConsultasInteligentes.exe
+C:\Users\Walter\Desktop\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\bin\Debug\ObjetoComunConsultasInteligentes.pdb
+C:\Users\Walter\Desktop\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\obj\Debug\ObjetoComunConsultasInteligentes.csprojResolveAssemblyReference.cache
+C:\Users\Walter\Desktop\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\obj\Debug\ObjetoComunConsultasInteligentes.Form1.resources
+C:\Users\Walter\Desktop\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\obj\Debug\ObjetoComunConsultasInteligentes.Properties.Resources.resources
+C:\Users\Walter\Desktop\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\obj\Debug\ObjetoComunConsultasInteligentes.csproj.GenerateResource.Cache
+C:\Users\Ana Lilian\Documents\GitHub\Hotel-San-Carlos\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\bin\Debug\ObjetoComunConsultasInteligentes.exe.config
+C:\Users\Ana Lilian\Documents\GitHub\Hotel-San-Carlos\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\obj\Debug\ObjetoComunConsultasInteligentes.exe
+C:\Users\Ana Lilian\Documents\GitHub\Hotel-San-Carlos\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\obj\Debug\ObjetoComunConsultasInteligentes.pdb
+C:\Users\Ana Lilian\Documents\GitHub\Hotel-San-Carlos\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\bin\Debug\ObjetoComunConsultasInteligentes.exe
+C:\Users\Ana Lilian\Documents\GitHub\Hotel-San-Carlos\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\bin\Debug\ObjetoComunConsultasInteligentes.pdb
+C:\Users\Ana Lilian\Documents\GitHub\Hotel-San-Carlos\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\obj\Debug\ObjetoComunConsultasInteligentes.csprojResolveAssemblyReference.cache
+C:\Users\Ana Lilian\Documents\GitHub\Hotel-San-Carlos\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\obj\Debug\ObjetoComunConsultasInteligentes.Form1.resources
+C:\Users\Ana Lilian\Documents\GitHub\Hotel-San-Carlos\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\obj\Debug\ObjetoComunConsultasInteligentes.Frm_ConsultaInteligente.resources
+C:\Users\Ana Lilian\Documents\GitHub\Hotel-San-Carlos\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\obj\Debug\ObjetoComunConsultasInteligentes.Properties.Resources.resources
+C:\Users\Ana Lilian\Documents\GitHub\Hotel-San-Carlos\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\obj\Debug\ObjetoComunConsultasInteligentes.csproj.GenerateResource.Cache
+C:\Users\Ana Lilian\Documents\GitHub\Hotel-San-Carlos\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\bin\Debug\MySql.Data.dll
+C:\Users\Walter\Desktop\Hotel-San-Carlos\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\bin\Debug\ObjetoComunConsultasInteligentes.exe.config
+C:\Users\Walter\Desktop\Hotel-San-Carlos\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\obj\Debug\ObjetoComunConsultasInteligentes.exe
+C:\Users\Walter\Desktop\Hotel-San-Carlos\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\obj\Debug\ObjetoComunConsultasInteligentes.pdb
+C:\Users\Walter\Desktop\Hotel-San-Carlos\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\bin\Debug\ObjetoComunConsultasInteligentes.exe
+C:\Users\Walter\Desktop\Hotel-San-Carlos\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\bin\Debug\ObjetoComunConsultasInteligentes.pdb
+C:\Users\Walter\Desktop\Hotel-San-Carlos\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\bin\Debug\MySql.Data.dll
+C:\Users\Walter\Desktop\Hotel-San-Carlos\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\bin\Debug\Google.ProtocolBuffers.dll
+C:\Users\Walter\Desktop\Hotel-San-Carlos\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\bin\Debug\MySql.Data.xml
+C:\Users\Walter\Desktop\Hotel-San-Carlos\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\obj\Debug\ObjetoComunConsultasInteligentes.csprojResolveAssemblyReference.cache
+C:\Users\Walter\Desktop\Hotel-San-Carlos\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\obj\Debug\ObjetoComunConsultasInteligentes.Form1.resources
+C:\Users\Walter\Desktop\Hotel-San-Carlos\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\obj\Debug\ObjetoComunConsultasInteligentes.Frm_ConsultaInteligente.resources
+C:\Users\Walter\Desktop\Hotel-San-Carlos\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\obj\Debug\ObjetoComunConsultasInteligentes.Properties.Resources.resources
+C:\Users\Walter\Desktop\Hotel-San-Carlos\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\obj\Debug\ObjetoComunConsultasInteligentes.csproj.GenerateResource.Cache
+E:\Escritorio\Hotel-San-Carlos\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\bin\Debug\ObjetoComunConsultasInteligentes.exe.config
+E:\Escritorio\Hotel-San-Carlos\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\obj\Debug\ObjetoComunConsultasInteligentes.exe
+E:\Escritorio\Hotel-San-Carlos\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\obj\Debug\ObjetoComunConsultasInteligentes.pdb
+E:\Escritorio\Hotel-San-Carlos\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\bin\Debug\ObjetoComunConsultasInteligentes.exe
+E:\Escritorio\Hotel-San-Carlos\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\bin\Debug\ObjetoComunConsultasInteligentes.pdb
+E:\Escritorio\Hotel-San-Carlos\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\bin\Debug\MySql.Data.dll
+E:\Escritorio\Hotel-San-Carlos\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\bin\Debug\Google.ProtocolBuffers.dll
+E:\Escritorio\Hotel-San-Carlos\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\bin\Debug\MySql.Data.xml
+E:\Escritorio\Hotel-San-Carlos\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\obj\Debug\ObjetoComunConsultasInteligentes.csprojResolveAssemblyReference.cache
+E:\Escritorio\Hotel-San-Carlos\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\obj\Debug\ObjetoComunConsultasInteligentes.Form1.resources
+E:\Escritorio\Hotel-San-Carlos\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\obj\Debug\ObjetoComunConsultasInteligentes.Frm_ConsultaInteligente.resources
+E:\Escritorio\Hotel-San-Carlos\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\obj\Debug\ObjetoComunConsultasInteligentes.Properties.Resources.resources
+E:\Escritorio\Hotel-San-Carlos\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\obj\Debug\ObjetoComunConsultasInteligentes.csproj.GenerateResource.Cache
+C:\Users\Walter\Desktop\UMG- walter\OCTAVO SEMESTRE\DISEÑO DE SISTEMAS\Objeto comun\proy 3\Hotel-San-Carlos\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\bin\Debug\ObjetoComunConsultasInteligentes.exe.config
+C:\Users\Walter\Desktop\UMG- walter\OCTAVO SEMESTRE\DISEÑO DE SISTEMAS\Objeto comun\proy 3\Hotel-San-Carlos\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\obj\Debug\ObjetoComunConsultasInteligentes.exe
+C:\Users\Walter\Desktop\UMG- walter\OCTAVO SEMESTRE\DISEÑO DE SISTEMAS\Objeto comun\proy 3\Hotel-San-Carlos\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\obj\Debug\ObjetoComunConsultasInteligentes.pdb
+C:\Users\Walter\Desktop\UMG- walter\OCTAVO SEMESTRE\DISEÑO DE SISTEMAS\Objeto comun\proy 3\Hotel-San-Carlos\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\bin\Debug\ObjetoComunConsultasInteligentes.exe
+C:\Users\Walter\Desktop\UMG- walter\OCTAVO SEMESTRE\DISEÑO DE SISTEMAS\Objeto comun\proy 3\Hotel-San-Carlos\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\bin\Debug\ObjetoComunConsultasInteligentes.pdb
+C:\Users\Walter\Desktop\UMG- walter\OCTAVO SEMESTRE\DISEÑO DE SISTEMAS\Objeto comun\proy 3\Hotel-San-Carlos\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\bin\Debug\MySql.Data.dll
+C:\Users\Walter\Desktop\UMG- walter\OCTAVO SEMESTRE\DISEÑO DE SISTEMAS\Objeto comun\proy 3\Hotel-San-Carlos\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\bin\Debug\Google.ProtocolBuffers.dll
+C:\Users\Walter\Desktop\UMG- walter\OCTAVO SEMESTRE\DISEÑO DE SISTEMAS\Objeto comun\proy 3\Hotel-San-Carlos\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\bin\Debug\MySql.Data.xml
+C:\Users\Walter\Desktop\UMG- walter\OCTAVO SEMESTRE\DISEÑO DE SISTEMAS\Objeto comun\proy 3\Hotel-San-Carlos\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\obj\Debug\ObjetoComunConsultasInteligentes.csprojResolveAssemblyReference.cache
+C:\Users\Walter\Desktop\UMG- walter\OCTAVO SEMESTRE\DISEÑO DE SISTEMAS\Objeto comun\proy 3\Hotel-San-Carlos\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\obj\Debug\ObjetoComunConsultasInteligentes.Form1.resources
+C:\Users\Walter\Desktop\UMG- walter\OCTAVO SEMESTRE\DISEÑO DE SISTEMAS\Objeto comun\proy 3\Hotel-San-Carlos\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\obj\Debug\ObjetoComunConsultasInteligentes.Frm_ConsultaInteligente.resources
+C:\Users\Walter\Desktop\UMG- walter\OCTAVO SEMESTRE\DISEÑO DE SISTEMAS\Objeto comun\proy 3\Hotel-San-Carlos\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\obj\Debug\ObjetoComunConsultasInteligentes.Properties.Resources.resources
+C:\Users\Walter\Desktop\UMG- walter\OCTAVO SEMESTRE\DISEÑO DE SISTEMAS\Objeto comun\proy 3\Hotel-San-Carlos\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\obj\Debug\ObjetoComunConsultasInteligentes.csproj.GenerateResource.Cache
+C:\Users\Walter\Desktop\UMG- walter\OCTAVO SEMESTRE\DISEÑO DE SISTEMAS\Objeto comun\proy 4\Hotel-San-Carlos\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\bin\Debug\ObjetoComunConsultasInteligentes.exe.config
+C:\Users\Walter\Desktop\UMG- walter\OCTAVO SEMESTRE\DISEÑO DE SISTEMAS\Objeto comun\proy 4\Hotel-San-Carlos\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\obj\Debug\ObjetoComunConsultasInteligentes.exe
+C:\Users\Walter\Desktop\UMG- walter\OCTAVO SEMESTRE\DISEÑO DE SISTEMAS\Objeto comun\proy 4\Hotel-San-Carlos\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\obj\Debug\ObjetoComunConsultasInteligentes.pdb
+C:\Users\Walter\Desktop\UMG- walter\OCTAVO SEMESTRE\DISEÑO DE SISTEMAS\Objeto comun\proy 4\Hotel-San-Carlos\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\bin\Debug\ObjetoComunConsultasInteligentes.exe
+C:\Users\Walter\Desktop\UMG- walter\OCTAVO SEMESTRE\DISEÑO DE SISTEMAS\Objeto comun\proy 4\Hotel-San-Carlos\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\bin\Debug\ObjetoComunConsultasInteligentes.pdb
+C:\Users\Walter\Desktop\UMG- walter\OCTAVO SEMESTRE\DISEÑO DE SISTEMAS\Objeto comun\proy 4\Hotel-San-Carlos\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\bin\Debug\MySql.Data.dll
+C:\Users\Walter\Desktop\UMG- walter\OCTAVO SEMESTRE\DISEÑO DE SISTEMAS\Objeto comun\proy 4\Hotel-San-Carlos\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\bin\Debug\Google.ProtocolBuffers.dll
+C:\Users\Walter\Desktop\UMG- walter\OCTAVO SEMESTRE\DISEÑO DE SISTEMAS\Objeto comun\proy 4\Hotel-San-Carlos\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\bin\Debug\MySql.Data.xml
+C:\Users\Walter\Desktop\UMG- walter\OCTAVO SEMESTRE\DISEÑO DE SISTEMAS\Objeto comun\proy 4\Hotel-San-Carlos\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\obj\Debug\ObjetoComunConsultasInteligentes.csprojResolveAssemblyReference.cache
+C:\Users\Walter\Desktop\UMG- walter\OCTAVO SEMESTRE\DISEÑO DE SISTEMAS\Objeto comun\proy 4\Hotel-San-Carlos\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\obj\Debug\ObjetoComunConsultasInteligentes.Form1.resources
+C:\Users\Walter\Desktop\UMG- walter\OCTAVO SEMESTRE\DISEÑO DE SISTEMAS\Objeto comun\proy 4\Hotel-San-Carlos\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\obj\Debug\ObjetoComunConsultasInteligentes.Frm_ConsultaInteligente.resources
+C:\Users\Walter\Desktop\UMG- walter\OCTAVO SEMESTRE\DISEÑO DE SISTEMAS\Objeto comun\proy 4\Hotel-San-Carlos\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\obj\Debug\ObjetoComunConsultasInteligentes.Properties.Resources.resources
+C:\Users\Walter\Desktop\UMG- walter\OCTAVO SEMESTRE\DISEÑO DE SISTEMAS\Objeto comun\proy 4\Hotel-San-Carlos\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\obj\Debug\ObjetoComunConsultasInteligentes.csproj.GenerateResource.Cache
+C:\Users\Walter\Desktop\UMG- walter\OCTAVO SEMESTRE\DISEÑO DE SISTEMAS\Objeto comun\proy 4\Hotel-San-Carlos\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\obj\Debug\ObjetoComunConsultasInteligentes.guardarNombre.resources
+C:\Users\Walter\Desktop\UMG- walter\OCTAVO SEMESTRE\DISEÑO DE SISTEMAS\Objeto comun\proy 4\Hotel-San-Carlos\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\obj\Debug\ObjetoComunConsultasInteligentes.cargaConsulta.resources
+C:\Users\Walter\Desktop\UMG- walter\OCTAVO SEMESTRE\DISEÑO DE SISTEMAS\Objeto comun\proy5\Hotel-San-Carlos\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\bin\Debug\ObjetoComunConsultasInteligentes.exe.config
+C:\Users\Walter\Desktop\UMG- walter\OCTAVO SEMESTRE\DISEÑO DE SISTEMAS\Objeto comun\proy5\Hotel-San-Carlos\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\obj\Debug\ObjetoComunConsultasInteligentes.exe
+C:\Users\Walter\Desktop\UMG- walter\OCTAVO SEMESTRE\DISEÑO DE SISTEMAS\Objeto comun\proy5\Hotel-San-Carlos\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\obj\Debug\ObjetoComunConsultasInteligentes.pdb
+C:\Users\Walter\Desktop\UMG- walter\OCTAVO SEMESTRE\DISEÑO DE SISTEMAS\Objeto comun\proy5\Hotel-San-Carlos\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\bin\Debug\ObjetoComunConsultasInteligentes.exe
+C:\Users\Walter\Desktop\UMG- walter\OCTAVO SEMESTRE\DISEÑO DE SISTEMAS\Objeto comun\proy5\Hotel-San-Carlos\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\bin\Debug\ObjetoComunConsultasInteligentes.pdb
+C:\Users\Walter\Desktop\UMG- walter\OCTAVO SEMESTRE\DISEÑO DE SISTEMAS\Objeto comun\proy5\Hotel-San-Carlos\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\bin\Debug\MySql.Data.dll
+C:\Users\Walter\Desktop\UMG- walter\OCTAVO SEMESTRE\DISEÑO DE SISTEMAS\Objeto comun\proy5\Hotel-San-Carlos\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\bin\Debug\Google.ProtocolBuffers.dll
+C:\Users\Walter\Desktop\UMG- walter\OCTAVO SEMESTRE\DISEÑO DE SISTEMAS\Objeto comun\proy5\Hotel-San-Carlos\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\bin\Debug\MySql.Data.xml
+C:\Users\Walter\Desktop\UMG- walter\OCTAVO SEMESTRE\DISEÑO DE SISTEMAS\Objeto comun\proy5\Hotel-San-Carlos\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\obj\Debug\ObjetoComunConsultasInteligentes.csprojResolveAssemblyReference.cache
+C:\Users\Walter\Desktop\UMG- walter\OCTAVO SEMESTRE\DISEÑO DE SISTEMAS\Objeto comun\proy5\Hotel-San-Carlos\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\obj\Debug\ObjetoComunConsultasInteligentes.cargaConsulta.resources
+C:\Users\Walter\Desktop\UMG- walter\OCTAVO SEMESTRE\DISEÑO DE SISTEMAS\Objeto comun\proy5\Hotel-San-Carlos\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\obj\Debug\ObjetoComunConsultasInteligentes.Form1.resources
+C:\Users\Walter\Desktop\UMG- walter\OCTAVO SEMESTRE\DISEÑO DE SISTEMAS\Objeto comun\proy5\Hotel-San-Carlos\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\obj\Debug\ObjetoComunConsultasInteligentes.Frm_ConsultaInteligente.resources
+C:\Users\Walter\Desktop\UMG- walter\OCTAVO SEMESTRE\DISEÑO DE SISTEMAS\Objeto comun\proy5\Hotel-San-Carlos\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\obj\Debug\ObjetoComunConsultasInteligentes.guardarNombre.resources
+C:\Users\Walter\Desktop\UMG- walter\OCTAVO SEMESTRE\DISEÑO DE SISTEMAS\Objeto comun\proy5\Hotel-San-Carlos\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\obj\Debug\ObjetoComunConsultasInteligentes.Properties.Resources.resources
+C:\Users\Walter\Desktop\UMG- walter\OCTAVO SEMESTRE\DISEÑO DE SISTEMAS\Objeto comun\proy5\Hotel-San-Carlos\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\obj\Debug\ObjetoComunConsultasInteligentes.csproj.GenerateResource.Cache
+C:\Users\Walter\Desktop\UMG- walter\OCTAVO SEMESTRE\DISEÑO DE SISTEMAS\Objeto comun\proy6\Hotel-San-Carlos\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\bin\Debug\ObjetoComunConsultasInteligentes.exe.config
+C:\Users\Walter\Desktop\UMG- walter\OCTAVO SEMESTRE\DISEÑO DE SISTEMAS\Objeto comun\proy6\Hotel-San-Carlos\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\obj\Debug\ObjetoComunConsultasInteligentes.exe
+C:\Users\Walter\Desktop\UMG- walter\OCTAVO SEMESTRE\DISEÑO DE SISTEMAS\Objeto comun\proy6\Hotel-San-Carlos\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\obj\Debug\ObjetoComunConsultasInteligentes.pdb
+C:\Users\Walter\Desktop\UMG- walter\OCTAVO SEMESTRE\DISEÑO DE SISTEMAS\Objeto comun\proy6\Hotel-San-Carlos\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\bin\Debug\ObjetoComunConsultasInteligentes.exe
+C:\Users\Walter\Desktop\UMG- walter\OCTAVO SEMESTRE\DISEÑO DE SISTEMAS\Objeto comun\proy6\Hotel-San-Carlos\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\bin\Debug\ObjetoComunConsultasInteligentes.pdb
+C:\Users\Walter\Desktop\UMG- walter\OCTAVO SEMESTRE\DISEÑO DE SISTEMAS\Objeto comun\proy6\Hotel-San-Carlos\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\bin\Debug\MySql.Data.dll
+C:\Users\Walter\Desktop\UMG- walter\OCTAVO SEMESTRE\DISEÑO DE SISTEMAS\Objeto comun\proy6\Hotel-San-Carlos\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\bin\Debug\Google.ProtocolBuffers.dll
+C:\Users\Walter\Desktop\UMG- walter\OCTAVO SEMESTRE\DISEÑO DE SISTEMAS\Objeto comun\proy6\Hotel-San-Carlos\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\bin\Debug\MySql.Data.xml
+C:\Users\Walter\Desktop\UMG- walter\OCTAVO SEMESTRE\DISEÑO DE SISTEMAS\Objeto comun\proy6\Hotel-San-Carlos\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\obj\Debug\ObjetoComunConsultasInteligentes.csprojResolveAssemblyReference.cache
+C:\Users\Walter\Desktop\UMG- walter\OCTAVO SEMESTRE\DISEÑO DE SISTEMAS\Objeto comun\proy6\Hotel-San-Carlos\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\obj\Debug\ObjetoComunConsultasInteligentes.cargaConsulta.resources
+C:\Users\Walter\Desktop\UMG- walter\OCTAVO SEMESTRE\DISEÑO DE SISTEMAS\Objeto comun\proy6\Hotel-San-Carlos\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\obj\Debug\ObjetoComunConsultasInteligentes.Form1.resources
+C:\Users\Walter\Desktop\UMG- walter\OCTAVO SEMESTRE\DISEÑO DE SISTEMAS\Objeto comun\proy6\Hotel-San-Carlos\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\obj\Debug\ObjetoComunConsultasInteligentes.guardarNombre.resources
+C:\Users\Walter\Desktop\UMG- walter\OCTAVO SEMESTRE\DISEÑO DE SISTEMAS\Objeto comun\proy6\Hotel-San-Carlos\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\obj\Debug\ObjetoComunConsultasInteligentes.Properties.Resources.resources
+C:\Users\Walter\Desktop\UMG- walter\OCTAVO SEMESTRE\DISEÑO DE SISTEMAS\Objeto comun\proy6\Hotel-San-Carlos\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\obj\Debug\ObjetoComunConsultasInteligentes.csproj.GenerateResource.Cache
