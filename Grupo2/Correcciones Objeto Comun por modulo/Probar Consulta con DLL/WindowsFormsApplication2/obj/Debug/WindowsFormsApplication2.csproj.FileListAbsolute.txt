@@ -1,0 +1,83 @@
+E:\Escritorio\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe.config
+E:\Escritorio\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe
+E:\Escritorio\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.pdb
+E:\Escritorio\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\MySql.Data.dll
+E:\Escritorio\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\Google.ProtocolBuffers.dll
+E:\Escritorio\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\MySql.Data.xml
+E:\Escritorio\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.csprojResolveAssemblyReference.cache
+E:\Escritorio\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Form1.resources
+E:\Escritorio\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Properties.Resources.resources
+E:\Escritorio\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.csproj.GenerateResource.Cache
+E:\Escritorio\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.exe
+E:\Escritorio\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.pdb
+E:\Escritorio\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\pruebaconexion.dll
+E:\Escritorio\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\pruebaconexion.pdb
+E:\Escritorio\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\dllconsultas.dll
+E:\Escritorio\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\dllconsultas.pdb
+E:\Escritorio\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\dllconsultasgeneraless.dll
+E:\Escritorio\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\dllconsultasgeneraless.pdb
+C:\Users\Walter\Desktop\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe.config
+C:\Users\Walter\Desktop\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.exe
+C:\Users\Walter\Desktop\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.pdb
+C:\Users\Walter\Desktop\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe
+C:\Users\Walter\Desktop\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.pdb
+C:\Users\Walter\Desktop\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\dllconsultasgeneraless.dll
+C:\Users\Walter\Desktop\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\MySql.Data.dll
+C:\Users\Walter\Desktop\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\Google.ProtocolBuffers.dll
+C:\Users\Walter\Desktop\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\dllconsultas.pdb
+C:\Users\Walter\Desktop\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\dllconsultasgeneraless.pdb
+C:\Users\Walter\Desktop\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\MySql.Data.xml
+C:\Users\Walter\Desktop\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\pruebaconexion.pdb
+C:\Users\Walter\Desktop\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.csprojResolveAssemblyReference.cache
+C:\Users\Walter\Desktop\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Form1.resources
+C:\Users\Walter\Desktop\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Properties.Resources.resources
+C:\Users\Walter\Desktop\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.csproj.GenerateResource.Cache
+C:\Users\Ana Lilian\Desktop\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe.config
+C:\Users\Ana Lilian\Desktop\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.exe
+C:\Users\Ana Lilian\Desktop\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.pdb
+C:\Users\Ana Lilian\Desktop\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.csprojResolveAssemblyReference.cache
+C:\Users\Ana Lilian\Desktop\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Form1.resources
+C:\Users\Ana Lilian\Desktop\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Properties.Resources.resources
+C:\Users\Ana Lilian\Desktop\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.csproj.GenerateResource.Cache
+C:\Users\Ana Lilian\Desktop\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe
+C:\Users\Ana Lilian\Desktop\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.pdb
+C:\Users\Ana Lilian\Desktop\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\MySql.Data.dll
+C:\Users\Ana Lilian\Desktop\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\Google.ProtocolBuffers.dll
+C:\Users\Ana Lilian\Desktop\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\dllconsultas.pdb
+C:\Users\Ana Lilian\Desktop\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\dllconsultasgeneraless.pdb
+C:\Users\Ana Lilian\Desktop\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\MySql.Data.xml
+C:\Users\Ana Lilian\Desktop\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\pruebaconexion.pdb
+C:\Users\Ana Lilian\Desktop\Objeto Comun\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe.config
+C:\Users\Ana Lilian\Desktop\Objeto Comun\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.exe
+C:\Users\Ana Lilian\Desktop\Objeto Comun\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.pdb
+C:\Users\Ana Lilian\Desktop\Objeto Comun\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe
+C:\Users\Ana Lilian\Desktop\Objeto Comun\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.pdb
+C:\Users\Ana Lilian\Desktop\Objeto Comun\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\dllconsultas.dll
+C:\Users\Ana Lilian\Desktop\Objeto Comun\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\MySql.Data.dll
+C:\Users\Ana Lilian\Desktop\Objeto Comun\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\Google.ProtocolBuffers.dll
+C:\Users\Ana Lilian\Desktop\Objeto Comun\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\dllconsultas.pdb
+C:\Users\Ana Lilian\Desktop\Objeto Comun\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\dllconsultasgeneraless.pdb
+C:\Users\Ana Lilian\Desktop\Objeto Comun\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\MySql.Data.xml
+C:\Users\Ana Lilian\Desktop\Objeto Comun\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\pruebaconexion.pdb
+C:\Users\Ana Lilian\Desktop\Objeto Comun\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.csprojResolveAssemblyReference.cache
+C:\Users\Ana Lilian\Desktop\Objeto Comun\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Form1.resources
+C:\Users\Ana Lilian\Desktop\Objeto Comun\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Properties.Resources.resources
+C:\Users\Ana Lilian\Desktop\Objeto Comun\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.csproj.GenerateResource.Cache
+C:\Users\Roberto Carlos\Documents\GitHub\Hotel-San-Carlos\Grupo2\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe.config
+C:\Users\Roberto Carlos\Documents\GitHub\Hotel-San-Carlos\Grupo2\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.exe
+C:\Users\Roberto Carlos\Documents\GitHub\Hotel-San-Carlos\Grupo2\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.pdb
+C:\Users\Roberto Carlos\Documents\GitHub\Hotel-San-Carlos\Grupo2\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe
+C:\Users\Roberto Carlos\Documents\GitHub\Hotel-San-Carlos\Grupo2\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.pdb
+C:\Users\Roberto Carlos\Documents\GitHub\Hotel-San-Carlos\Grupo2\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\Google.ProtocolBuffers.dll
+C:\Users\Roberto Carlos\Documents\GitHub\Hotel-San-Carlos\Grupo2\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\dllconsultas.pdb
+C:\Users\Roberto Carlos\Documents\GitHub\Hotel-San-Carlos\Grupo2\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\dllconsultasgeneraless.pdb
+C:\Users\Roberto Carlos\Documents\GitHub\Hotel-San-Carlos\Grupo2\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\MySql.Data.xml
+C:\Users\Roberto Carlos\Documents\GitHub\Hotel-San-Carlos\Grupo2\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\pruebaconexion.pdb
+C:\Users\Roberto Carlos\Documents\GitHub\Hotel-San-Carlos\Grupo2\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.csprojResolveAssemblyReference.cache
+C:\Users\Roberto Carlos\Documents\GitHub\Hotel-San-Carlos\Grupo2\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Form1.resources
+C:\Users\Roberto Carlos\Documents\GitHub\Hotel-San-Carlos\Grupo2\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Properties.Resources.resources
+C:\Users\Roberto Carlos\Documents\GitHub\Hotel-San-Carlos\Grupo2\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.csproj.GenerateResource.Cache
+C:\Users\Roberto Carlos\Documents\GitHub\Hotel-San-Carlos\Grupo2\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\dllconsultas.dll
+C:\Users\Roberto Carlos\Documents\GitHub\Hotel-San-Carlos\Grupo2\Correcciones Objeto Comun por modulo\Probar Consulta con DLL\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe.config
+C:\Users\Roberto Carlos\Documents\GitHub\Hotel-San-Carlos\Grupo2\Correcciones Objeto Comun por modulo\Probar Consulta con DLL\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.exe
+C:\Users\Roberto Carlos\Documents\GitHub\Hotel-San-Carlos\Grupo2\Correcciones Objeto Comun por modulo\Probar Consulta con DLL\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.pdb
