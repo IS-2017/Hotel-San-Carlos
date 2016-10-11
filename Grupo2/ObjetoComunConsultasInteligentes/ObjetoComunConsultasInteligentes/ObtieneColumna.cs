@@ -13,7 +13,7 @@ namespace ObjetoComunConsultasInteligentes
 {
     class ObtieneColumna
     {
-        MySqlConnection conexion = new MySqlConnection("server=localhost; database=prueba; Uid=root ; pwd=;");
+        MySqlConnection conexion = new MySqlConnection("server=localhost; database=prueba; pwd=;");
         String connect = "server=localhost; database=prueba; Uid=root ; pwd=;";
 
         public ArrayList getColumnas(String tabla)
