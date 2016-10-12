@@ -1,22 +1,25 @@
-CREATE DATABASE pruebas;
-use pruebas;
+CREATE DATABASE sancarlos2;
+use sancarlos2;
 
 create table usuario(
 usuario char(10) NOT NULL PRIMARY KEY,
 contraseña char(15) NOT NULL
 );
 
+
 create table bitacora (
 id_bit varchar(10) PRIMARY KEY NOT NULL,
+hora time,
+fecha date,
 usuario varchar(100),
 descripcion varchar(100),
 accion varchar(100),
-ip varchar(100),
-hora_y_fecha varchar(100));
+ip varchar(100)
+);
 
 DROP FUNCTION IF EXISTS `generador_correlativo`;
 DELIMITER $$
-USE `pruebas`$$
+USE `sancarlos2`$$
 create FUNCTION `generador_correlativo` () RETURNS nvarchar(10)
 BEGIN
     DECLARE ultimo_correlativo nvarchar(10) default (SELECT YEAR(curdate()));
@@ -38,20 +41,25 @@ BEGIN
 END$$
 DELIMITER ;
 
-DROP FUNCTION IF EXISTS `ValidarContraseña`;
+DROP FUNCTION IF EXISTS `ValidarContrasena`;
 DELIMITER $$
-USE `pruebas`$$
-create function `ValidarContraseña`(iusuario nvarchar(20), icon nvarchar(20), iip nvarchar(20)) RETURNS nvarchar(20)
+USE `sancarlos2`$$
+create function `ValidarContrasena`(iusuario nvarchar(20), icon nvarchar(20), iip nvarchar(20)) RETURNS int(2)
+IF EXISTS (select usuario from usuario where iusuario = usuario) THEN
 BEGIN
 DECLARE psw char(20);
-SELECT contraseña into psw FROM usuario WHERE username=iusuario;
-IF icon <> psw THEN
-insert into bitacora values(generador_correlativo(),current_time(),curdate(),iusuario,'Fallo loggeo','Login',iip);
+SELECT contraseña into psw FROM usuario WHERE usuario=iusuario;
+	IF icon != psw THEN
+	insert into bitacora values(generador_correlativo(),current_time(),curdate(),iusuario,'Fallo loggeo','Login',iip);
+	return 0;
+	else
+	insert into bitacora values(generador_correlativo(),current_time(),curdate(),iusuario,'Loggeo exitoso','Login',iip);
+	return 1;
+	END IF;
+END;
+ELSE 
 return 0;
-else
-insert into bitacora values(generador_correlativo(),current_time(),curdate(),iusuario,'Loggeo exitoso','Login',iip);
-return 1;
-end if;
-END$$
+insert into bitacora values(generador_correlativo(),current_time(),curdate(),iusuario,'Fallo loggeo','Login',iip);
+END IF;
 
-INSERT into usuario values ('johnny2','holis');
+INSERT into usuario values ('johnny','holis');
