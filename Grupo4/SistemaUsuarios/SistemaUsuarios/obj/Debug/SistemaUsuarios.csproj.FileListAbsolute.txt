@@ -1,0 +1,13 @@
+C:\Users\Chrix\Documents\Visual Studio 2015\Projects\SistemaUsuarios\SistemaUsuarios\bin\Debug\SistemaUsuarios.exe.config
+C:\Users\Chrix\Documents\Visual Studio 2015\Projects\SistemaUsuarios\SistemaUsuarios\bin\Debug\SistemaUsuarios.exe
+C:\Users\Chrix\Documents\Visual Studio 2015\Projects\SistemaUsuarios\SistemaUsuarios\bin\Debug\SistemaUsuarios.pdb
+C:\Users\Chrix\Documents\Visual Studio 2015\Projects\SistemaUsuarios\SistemaUsuarios\bin\Debug\Conexion.dll
+C:\Users\Chrix\Documents\Visual Studio 2015\Projects\SistemaUsuarios\SistemaUsuarios\bin\Debug\MySql.Data.dll
+C:\Users\Chrix\Documents\Visual Studio 2015\Projects\SistemaUsuarios\SistemaUsuarios\bin\Debug\Conexion.pdb
+C:\Users\Chrix\Documents\Visual Studio 2015\Projects\SistemaUsuarios\SistemaUsuarios\obj\Debug\SistemaUsuarios.csprojResolveAssemblyReference.cache
+C:\Users\Chrix\Documents\Visual Studio 2015\Projects\SistemaUsuarios\SistemaUsuarios\obj\Debug\SistemaUsuarios.Form1.resources
+C:\Users\Chrix\Documents\Visual Studio 2015\Projects\SistemaUsuarios\SistemaUsuarios\obj\Debug\SistemaUsuarios.Properties.Resources.resources
+C:\Users\Chrix\Documents\Visual Studio 2015\Projects\SistemaUsuarios\SistemaUsuarios\obj\Debug\SistemaUsuarios.csproj.GenerateResource.Cache
+C:\Users\Chrix\Documents\Visual Studio 2015\Projects\SistemaUsuarios\SistemaUsuarios\obj\Debug\SistemaUsuarios.exe
+C:\Users\Chrix\Documents\Visual Studio 2015\Projects\SistemaUsuarios\SistemaUsuarios\obj\Debug\SistemaUsuarios.pdb
+C:\Users\Chrix\Documents\Visual Studio 2015\Projects\SistemaUsuarios\SistemaUsuarios\obj\Debug\SistemaUsuarios.FormAsignacionPerfil.resources
