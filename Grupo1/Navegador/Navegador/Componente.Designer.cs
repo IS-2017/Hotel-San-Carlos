@@ -445,6 +445,7 @@
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.panel1);
+            this.MaximizeBox = false;
             this.Name = "Componente";
             this.Text = "Componente";
             this.Load += new System.EventHandler(this.Componente_Load);

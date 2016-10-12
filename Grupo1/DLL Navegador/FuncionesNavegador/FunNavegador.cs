@@ -44,6 +44,7 @@ namespace FuncionesNavegador
             }
             string query = query1 + ") " + query2 + ");";
             Conexionmysql.EjecutarMySql(query);
+            MessageBox.Show("Se inserto el registro", "Confirmado", MessageBoxButtons.OK, MessageBoxIcon.Information);
             Conexionmysql.Desconectar();
         }
 
@@ -92,6 +93,7 @@ namespace FuncionesNavegador
             string query = query1 + query2 + "'" + comparar+"'"+ ";";
             //MessageBox.Show(query);
             Conexionmysql.EjecutarMySql(query);
+            MessageBox.Show("Se realizo la modificacion del registro", "Confirmado", MessageBoxButtons.OK, MessageBoxIcon.Information);
             Conexionmysql.Desconectar();
         }
 
@@ -103,6 +105,7 @@ namespace FuncionesNavegador
             string query = "UPDATE " + tabla + " SET estado =" + "'" + estado +"'" + " WHERE " + comillas +atributo + igual +comillas+ "'"+codigo +"'"+";";
            // MessageBox.Show(query);
             Conexionmysql.EjecutarMySql(query);
+            MessageBox.Show("Se realizo la eliminacion del registro", "Confirmado", MessageBoxButtons.OK, MessageBoxIcon.Information);
             Conexionmysql.Desconectar();
         }
         public void ActualizarGrid(DataGridView dg, String Query, string tabla)

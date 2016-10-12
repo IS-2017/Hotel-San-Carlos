@@ -263,7 +263,7 @@ namespace Navegador
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            textBox4.Text = comboBox1.SelectedValue.ToString();
+            //textBox4.Text = comboBox1.SelectedValue.ToString();
         }
     }
 }
