@@ -407,7 +407,11 @@
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.gpb_pigss);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "Planilla_IGSS";
+            this.ShowIcon = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Planilla_IGSS";
             this.groupBox1.ResumeLayout(false);
             this.gpb_pigss.ResumeLayout(false);

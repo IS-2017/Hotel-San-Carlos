@@ -16,7 +16,7 @@ namespace Prototipo__RRHH
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MenuMDI());
+            Application.Run(new Login_Prueba());
         }
     }
 }

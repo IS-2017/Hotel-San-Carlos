@@ -44,13 +44,13 @@
             this.lbl_vendedor = new System.Windows.Forms.Label();
             this.cbo_vendedor = new System.Windows.Forms.ComboBox();
             this.gpb_com_ven = new System.Windows.Forms.GroupBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.lbl_total_com = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.lbl_comi = new System.Windows.Forms.Label();
             this.txt_nom_ved = new System.Windows.Forms.TextBox();
             this.lbl_nom_ved = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.lbl_total_com = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.gpb_com_ven.SuspendLayout();
             this.SuspendLayout();
@@ -278,6 +278,22 @@
             this.gpb_com_ven.TabStop = false;
             this.gpb_com_ven.Text = "Datos";
             // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(127, 169);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(190, 27);
+            this.textBox2.TabIndex = 166;
+            // 
+            // lbl_total_com
+            // 
+            this.lbl_total_com.AutoSize = true;
+            this.lbl_total_com.Location = new System.Drawing.Point(38, 169);
+            this.lbl_total_com.Name = "lbl_total_com";
+            this.lbl_total_com.Size = new System.Drawing.Size(49, 21);
+            this.lbl_total_com.TabIndex = 165;
+            this.lbl_total_com.Text = "Total";
+            // 
             // textBox1
             // 
             this.textBox1.Location = new System.Drawing.Point(127, 130);
@@ -320,22 +336,6 @@
             this.label1.TabIndex = 162;
             this.label1.Text = "Comisiones de Vendedor";
             // 
-            // lbl_total_com
-            // 
-            this.lbl_total_com.AutoSize = true;
-            this.lbl_total_com.Location = new System.Drawing.Point(38, 169);
-            this.lbl_total_com.Name = "lbl_total_com";
-            this.lbl_total_com.Size = new System.Drawing.Size(49, 21);
-            this.lbl_total_com.TabIndex = 165;
-            this.lbl_total_com.Text = "Total";
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(127, 169);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(190, 27);
-            this.textBox2.TabIndex = 166;
-            // 
             // Comisiones_Vendedor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -345,8 +345,12 @@
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.gpb_com_ven);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "Comisiones_Vendedor";
-            this.Text = "Comisiones_Vendedor";
+            this.ShowIcon = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Comisiones Vendedor";
             this.groupBox1.ResumeLayout(false);
             this.gpb_com_ven.ResumeLayout(false);
             this.gpb_com_ven.PerformLayout();
