@@ -33,6 +33,7 @@
             this.menuStrip = new System.Windows.Forms.MenuStrip();
             this.bancosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.documentosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.chequeVoucherToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.helpMenu = new System.Windows.Forms.ToolStripMenuItem();
             this.contentsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.indexToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -40,7 +41,7 @@
             this.toolStripSeparator8 = new System.Windows.Forms.ToolStripSeparator();
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolTip = new System.Windows.Forms.ToolTip(this.components);
-            this.chequeVoucherToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.dispBancariaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -59,7 +60,8 @@
             // 
             this.bancosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.documentosToolStripMenuItem,
-            this.chequeVoucherToolStripMenuItem});
+            this.chequeVoucherToolStripMenuItem,
+            this.dispBancariaToolStripMenuItem});
             this.bancosToolStripMenuItem.Name = "bancosToolStripMenuItem";
             this.bancosToolStripMenuItem.Size = new System.Drawing.Size(57, 20);
             this.bancosToolStripMenuItem.Text = "Bancos";
@@ -70,6 +72,13 @@
             this.documentosToolStripMenuItem.Size = new System.Drawing.Size(161, 22);
             this.documentosToolStripMenuItem.Text = "Documentos";
             this.documentosToolStripMenuItem.Click += new System.EventHandler(this.documentosToolStripMenuItem_Click);
+            // 
+            // chequeVoucherToolStripMenuItem
+            // 
+            this.chequeVoucherToolStripMenuItem.Name = "chequeVoucherToolStripMenuItem";
+            this.chequeVoucherToolStripMenuItem.Size = new System.Drawing.Size(161, 22);
+            this.chequeVoucherToolStripMenuItem.Text = "Cheque Voucher";
+            this.chequeVoucherToolStripMenuItem.Click += new System.EventHandler(this.chequeVoucherToolStripMenuItem_Click);
             // 
             // helpMenu
             // 
@@ -117,12 +126,12 @@
             this.aboutToolStripMenuItem.Size = new System.Drawing.Size(176, 22);
             this.aboutToolStripMenuItem.Text = "&Acerca de... ...";
             // 
-            // chequeVoucherToolStripMenuItem
+            // dispBancariaToolStripMenuItem
             // 
-            this.chequeVoucherToolStripMenuItem.Name = "chequeVoucherToolStripMenuItem";
-            this.chequeVoucherToolStripMenuItem.Size = new System.Drawing.Size(161, 22);
-            this.chequeVoucherToolStripMenuItem.Text = "Cheque Voucher";
-            this.chequeVoucherToolStripMenuItem.Click += new System.EventHandler(this.chequeVoucherToolStripMenuItem_Click);
+            this.dispBancariaToolStripMenuItem.Name = "dispBancariaToolStripMenuItem";
+            this.dispBancariaToolStripMenuItem.Size = new System.Drawing.Size(161, 22);
+            this.dispBancariaToolStripMenuItem.Text = "Disp. Bancaria";
+            this.dispBancariaToolStripMenuItem.Click += new System.EventHandler(this.dispBancariaToolStripMenuItem_Click);
             // 
             // MDIBancos
             // 
@@ -157,6 +166,7 @@
         private System.Windows.Forms.ToolStripMenuItem bancosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem documentosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem chequeVoucherToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem dispBancariaToolStripMenuItem;
     }
 }
 

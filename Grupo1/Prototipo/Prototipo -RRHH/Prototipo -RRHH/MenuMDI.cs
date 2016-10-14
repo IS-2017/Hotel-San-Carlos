@@ -16,6 +16,7 @@ namespace Prototipo__RRHH
 
 
         frm_Prestamos frm_prest;
+        Empleados frm_empleados;
         
 
         public MenuMDI()
@@ -113,6 +114,16 @@ namespace Prototipo__RRHH
         private void rRHHToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void empleadosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (frm_empleados == null)
+            {
+                frm_empleados = new Empleados();
+                frm_empleados.MdiParent = this;
+                frm_empleados.Show();
+            }
         }
     }
 }
