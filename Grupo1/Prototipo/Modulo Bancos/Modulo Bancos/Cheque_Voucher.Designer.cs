@@ -46,17 +46,17 @@
             this.lbl_fecha = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.btn_cancelar = new System.Windows.Forms.Button();
-            this.btn_actualizar = new System.Windows.Forms.Button();
-            this.btn_buscar = new System.Windows.Forms.Button();
-            this.btn_anterior = new System.Windows.Forms.Button();
-            this.btn_eliminar = new System.Windows.Forms.Button();
-            this.btn_siguiente = new System.Windows.Forms.Button();
-            this.btn_editar = new System.Windows.Forms.Button();
-            this.btn_primero = new System.Windows.Forms.Button();
-            this.btn_guardar = new System.Windows.Forms.Button();
-            this.btn_ultimo = new System.Windows.Forms.Button();
             this.btn_nuevo = new System.Windows.Forms.Button();
+            this.btn_ultimo = new System.Windows.Forms.Button();
+            this.btn_guardar = new System.Windows.Forms.Button();
+            this.btn_primero = new System.Windows.Forms.Button();
+            this.btn_editar = new System.Windows.Forms.Button();
+            this.btn_siguiente = new System.Windows.Forms.Button();
+            this.btn_eliminar = new System.Windows.Forms.Button();
+            this.btn_anterior = new System.Windows.Forms.Button();
+            this.btn_buscar = new System.Windows.Forms.Button();
+            this.btn_actualizar = new System.Windows.Forms.Button();
+            this.btn_cancelar = new System.Windows.Forms.Button();
             this.gpb_cheque_v.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -241,140 +241,20 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Navegador";
             // 
-            // btn_cancelar
+            // btn_nuevo
             // 
-            this.btn_cancelar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_cancelar.BackgroundImage")));
-            this.btn_cancelar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_cancelar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_cancelar.FlatAppearance.BorderSize = 0;
-            this.btn_cancelar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.btn_cancelar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
-            this.btn_cancelar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_cancelar.Location = new System.Drawing.Point(372, 18);
-            this.btn_cancelar.Name = "btn_cancelar";
-            this.btn_cancelar.Size = new System.Drawing.Size(65, 65);
-            this.btn_cancelar.TabIndex = 5;
-            this.btn_cancelar.UseVisualStyleBackColor = true;
-            // 
-            // btn_actualizar
-            // 
-            this.btn_actualizar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_actualizar.BackgroundImage")));
-            this.btn_actualizar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_actualizar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_actualizar.FlatAppearance.BorderSize = 0;
-            this.btn_actualizar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.btn_actualizar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
-            this.btn_actualizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_actualizar.Location = new System.Drawing.Point(443, 19);
-            this.btn_actualizar.Name = "btn_actualizar";
-            this.btn_actualizar.Size = new System.Drawing.Size(65, 65);
-            this.btn_actualizar.TabIndex = 6;
-            this.btn_actualizar.UseVisualStyleBackColor = true;
-            // 
-            // btn_buscar
-            // 
-            this.btn_buscar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_buscar.BackgroundImage")));
-            this.btn_buscar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_buscar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_buscar.FlatAppearance.BorderSize = 0;
-            this.btn_buscar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.btn_buscar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
-            this.btn_buscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_buscar.Location = new System.Drawing.Point(301, 18);
-            this.btn_buscar.Name = "btn_buscar";
-            this.btn_buscar.Size = new System.Drawing.Size(65, 65);
-            this.btn_buscar.TabIndex = 4;
-            this.btn_buscar.UseVisualStyleBackColor = true;
-            // 
-            // btn_anterior
-            // 
-            this.btn_anterior.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_anterior.BackgroundImage")));
-            this.btn_anterior.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_anterior.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_anterior.FlatAppearance.BorderSize = 0;
-            this.btn_anterior.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.btn_anterior.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
-            this.btn_anterior.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_anterior.Location = new System.Drawing.Point(529, 18);
-            this.btn_anterior.Name = "btn_anterior";
-            this.btn_anterior.Size = new System.Drawing.Size(33, 33);
-            this.btn_anterior.TabIndex = 7;
-            this.btn_anterior.UseVisualStyleBackColor = true;
-            // 
-            // btn_eliminar
-            // 
-            this.btn_eliminar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_eliminar.BackgroundImage")));
-            this.btn_eliminar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_eliminar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_eliminar.FlatAppearance.BorderSize = 0;
-            this.btn_eliminar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.btn_eliminar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
-            this.btn_eliminar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_eliminar.Location = new System.Drawing.Point(230, 19);
-            this.btn_eliminar.Name = "btn_eliminar";
-            this.btn_eliminar.Size = new System.Drawing.Size(65, 65);
-            this.btn_eliminar.TabIndex = 3;
-            this.btn_eliminar.UseVisualStyleBackColor = true;
-            // 
-            // btn_siguiente
-            // 
-            this.btn_siguiente.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_siguiente.BackgroundImage")));
-            this.btn_siguiente.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_siguiente.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_siguiente.FlatAppearance.BorderSize = 0;
-            this.btn_siguiente.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.btn_siguiente.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
-            this.btn_siguiente.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_siguiente.Location = new System.Drawing.Point(565, 18);
-            this.btn_siguiente.Name = "btn_siguiente";
-            this.btn_siguiente.Size = new System.Drawing.Size(33, 33);
-            this.btn_siguiente.TabIndex = 8;
-            this.btn_siguiente.UseVisualStyleBackColor = true;
-            // 
-            // btn_editar
-            // 
-            this.btn_editar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_editar.BackgroundImage")));
-            this.btn_editar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_editar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_editar.FlatAppearance.BorderSize = 0;
-            this.btn_editar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.btn_editar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
-            this.btn_editar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_editar.Location = new System.Drawing.Point(159, 19);
-            this.btn_editar.Name = "btn_editar";
-            this.btn_editar.Size = new System.Drawing.Size(65, 65);
-            this.btn_editar.TabIndex = 2;
-            this.btn_editar.UseVisualStyleBackColor = true;
-            // 
-            // btn_primero
-            // 
-            this.btn_primero.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_primero.BackgroundImage")));
-            this.btn_primero.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_primero.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_primero.FlatAppearance.BorderSize = 0;
-            this.btn_primero.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.btn_primero.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
-            this.btn_primero.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_primero.Location = new System.Drawing.Point(529, 53);
-            this.btn_primero.Name = "btn_primero";
-            this.btn_primero.Size = new System.Drawing.Size(33, 33);
-            this.btn_primero.TabIndex = 9;
-            this.btn_primero.UseVisualStyleBackColor = true;
-            // 
-            // btn_guardar
-            // 
-            this.btn_guardar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_guardar.BackgroundImage")));
-            this.btn_guardar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_guardar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_guardar.FlatAppearance.BorderSize = 0;
-            this.btn_guardar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.btn_guardar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
-            this.btn_guardar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_guardar.Location = new System.Drawing.Point(88, 19);
-            this.btn_guardar.Name = "btn_guardar";
-            this.btn_guardar.Size = new System.Drawing.Size(65, 65);
-            this.btn_guardar.TabIndex = 1;
-            this.btn_guardar.UseVisualStyleBackColor = true;
+            this.btn_nuevo.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_nuevo.BackgroundImage")));
+            this.btn_nuevo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_nuevo.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_nuevo.FlatAppearance.BorderSize = 0;
+            this.btn_nuevo.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btn_nuevo.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
+            this.btn_nuevo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_nuevo.Location = new System.Drawing.Point(17, 25);
+            this.btn_nuevo.Name = "btn_nuevo";
+            this.btn_nuevo.Size = new System.Drawing.Size(65, 65);
+            this.btn_nuevo.TabIndex = 0;
+            this.btn_nuevo.UseVisualStyleBackColor = true;
             // 
             // btn_ultimo
             // 
@@ -391,20 +271,140 @@
             this.btn_ultimo.TabIndex = 10;
             this.btn_ultimo.UseVisualStyleBackColor = true;
             // 
-            // btn_nuevo
+            // btn_guardar
             // 
-            this.btn_nuevo.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_nuevo.BackgroundImage")));
-            this.btn_nuevo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_nuevo.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_nuevo.FlatAppearance.BorderSize = 0;
-            this.btn_nuevo.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.btn_nuevo.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
-            this.btn_nuevo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_nuevo.Location = new System.Drawing.Point(17, 25);
-            this.btn_nuevo.Name = "btn_nuevo";
-            this.btn_nuevo.Size = new System.Drawing.Size(65, 65);
-            this.btn_nuevo.TabIndex = 0;
-            this.btn_nuevo.UseVisualStyleBackColor = true;
+            this.btn_guardar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_guardar.BackgroundImage")));
+            this.btn_guardar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_guardar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_guardar.FlatAppearance.BorderSize = 0;
+            this.btn_guardar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btn_guardar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
+            this.btn_guardar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_guardar.Location = new System.Drawing.Point(88, 19);
+            this.btn_guardar.Name = "btn_guardar";
+            this.btn_guardar.Size = new System.Drawing.Size(65, 65);
+            this.btn_guardar.TabIndex = 1;
+            this.btn_guardar.UseVisualStyleBackColor = true;
+            // 
+            // btn_primero
+            // 
+            this.btn_primero.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_primero.BackgroundImage")));
+            this.btn_primero.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_primero.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_primero.FlatAppearance.BorderSize = 0;
+            this.btn_primero.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btn_primero.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
+            this.btn_primero.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_primero.Location = new System.Drawing.Point(529, 53);
+            this.btn_primero.Name = "btn_primero";
+            this.btn_primero.Size = new System.Drawing.Size(33, 33);
+            this.btn_primero.TabIndex = 9;
+            this.btn_primero.UseVisualStyleBackColor = true;
+            // 
+            // btn_editar
+            // 
+            this.btn_editar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_editar.BackgroundImage")));
+            this.btn_editar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_editar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_editar.FlatAppearance.BorderSize = 0;
+            this.btn_editar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btn_editar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
+            this.btn_editar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_editar.Location = new System.Drawing.Point(159, 19);
+            this.btn_editar.Name = "btn_editar";
+            this.btn_editar.Size = new System.Drawing.Size(65, 65);
+            this.btn_editar.TabIndex = 2;
+            this.btn_editar.UseVisualStyleBackColor = true;
+            // 
+            // btn_siguiente
+            // 
+            this.btn_siguiente.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_siguiente.BackgroundImage")));
+            this.btn_siguiente.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_siguiente.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_siguiente.FlatAppearance.BorderSize = 0;
+            this.btn_siguiente.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btn_siguiente.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
+            this.btn_siguiente.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_siguiente.Location = new System.Drawing.Point(565, 18);
+            this.btn_siguiente.Name = "btn_siguiente";
+            this.btn_siguiente.Size = new System.Drawing.Size(33, 33);
+            this.btn_siguiente.TabIndex = 8;
+            this.btn_siguiente.UseVisualStyleBackColor = true;
+            // 
+            // btn_eliminar
+            // 
+            this.btn_eliminar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_eliminar.BackgroundImage")));
+            this.btn_eliminar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_eliminar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_eliminar.FlatAppearance.BorderSize = 0;
+            this.btn_eliminar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btn_eliminar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
+            this.btn_eliminar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_eliminar.Location = new System.Drawing.Point(230, 19);
+            this.btn_eliminar.Name = "btn_eliminar";
+            this.btn_eliminar.Size = new System.Drawing.Size(65, 65);
+            this.btn_eliminar.TabIndex = 3;
+            this.btn_eliminar.UseVisualStyleBackColor = true;
+            // 
+            // btn_anterior
+            // 
+            this.btn_anterior.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_anterior.BackgroundImage")));
+            this.btn_anterior.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_anterior.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_anterior.FlatAppearance.BorderSize = 0;
+            this.btn_anterior.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btn_anterior.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
+            this.btn_anterior.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_anterior.Location = new System.Drawing.Point(529, 18);
+            this.btn_anterior.Name = "btn_anterior";
+            this.btn_anterior.Size = new System.Drawing.Size(33, 33);
+            this.btn_anterior.TabIndex = 7;
+            this.btn_anterior.UseVisualStyleBackColor = true;
+            // 
+            // btn_buscar
+            // 
+            this.btn_buscar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_buscar.BackgroundImage")));
+            this.btn_buscar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_buscar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_buscar.FlatAppearance.BorderSize = 0;
+            this.btn_buscar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btn_buscar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
+            this.btn_buscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_buscar.Location = new System.Drawing.Point(301, 18);
+            this.btn_buscar.Name = "btn_buscar";
+            this.btn_buscar.Size = new System.Drawing.Size(65, 65);
+            this.btn_buscar.TabIndex = 4;
+            this.btn_buscar.UseVisualStyleBackColor = true;
+            // 
+            // btn_actualizar
+            // 
+            this.btn_actualizar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_actualizar.BackgroundImage")));
+            this.btn_actualizar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_actualizar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_actualizar.FlatAppearance.BorderSize = 0;
+            this.btn_actualizar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btn_actualizar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
+            this.btn_actualizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_actualizar.Location = new System.Drawing.Point(443, 19);
+            this.btn_actualizar.Name = "btn_actualizar";
+            this.btn_actualizar.Size = new System.Drawing.Size(65, 65);
+            this.btn_actualizar.TabIndex = 6;
+            this.btn_actualizar.UseVisualStyleBackColor = true;
+            // 
+            // btn_cancelar
+            // 
+            this.btn_cancelar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_cancelar.BackgroundImage")));
+            this.btn_cancelar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_cancelar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_cancelar.FlatAppearance.BorderSize = 0;
+            this.btn_cancelar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btn_cancelar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
+            this.btn_cancelar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_cancelar.Location = new System.Drawing.Point(372, 18);
+            this.btn_cancelar.Name = "btn_cancelar";
+            this.btn_cancelar.Size = new System.Drawing.Size(65, 65);
+            this.btn_cancelar.TabIndex = 5;
+            this.btn_cancelar.UseVisualStyleBackColor = true;
             // 
             // Cheque_Voucher
             // 
@@ -417,6 +417,7 @@
             this.Controls.Add(this.gpb_cheque_v);
             this.Name = "Cheque_Voucher";
             this.Text = "Cheque_Voucher";
+            this.Load += new System.EventHandler(this.Cheque_Voucher_Load);
             this.gpb_cheque_v.ResumeLayout(false);
             this.gpb_cheque_v.PerformLayout();
             this.groupBox1.ResumeLayout(false);
