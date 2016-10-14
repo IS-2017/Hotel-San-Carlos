@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace Modulo_Bancos
 {
-    public partial class Cheque_Voucher : Form
+    public partial class Conciliacion_Bancaria : Form
     {
-        public Cheque_Voucher()
+        public Conciliacion_Bancaria()
         {
             InitializeComponent();
-        }
-
-        private void Cheque_Voucher_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

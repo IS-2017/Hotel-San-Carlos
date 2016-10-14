@@ -15,6 +15,7 @@ namespace Modulo_Bancos
         private int childFormNumber = 0;
         Documento doc;
         Cheque_Voucher che_Vo;
+        Conciliacion_Bancaria con_ban;
 
         public MDIBancos()
         {
@@ -126,6 +127,28 @@ namespace Modulo_Bancos
         void cheque_voucher_FormClosed(object sender, EventArgs e)
         {
             che_Vo = null;
+        }
+
+        private void MDIBancos_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void conciliacionBancariaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (con_ban == null)
+            {
+                con_ban = new Conciliacion_Bancaria();
+                con_ban.MdiParent = this;
+                con_ban.FormClosed += new FormClosedEventHandler(Conciliacion_Bancaria_FormClosed);
+                con_ban.Show();
+                
+            }
+        }
+
+        private void Conciliacion_Bancaria_FormClosed(object sender, EventArgs e)
+        {
+
         }
     }
 }

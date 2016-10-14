@@ -59,6 +59,12 @@
     <Compile Include="Cheque_Voucher.designer.cs">
       <DependentUpon>Cheque_Voucher.cs</DependentUpon>
     </Compile>
+    <Compile Include="Conciliacion_Bancaria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Conciliacion_Bancaria.Designer.cs">
+      <DependentUpon>Conciliacion_Bancaria.cs</DependentUpon>
+    </Compile>
     <Compile Include="Documento.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -78,6 +84,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Cheque_Voucher.resx">
       <DependentUpon>Cheque_Voucher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Conciliacion_Bancaria.resx">
+      <DependentUpon>Conciliacion_Bancaria.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Documento.resx">
       <DependentUpon>Documento.cs</DependentUpon>
