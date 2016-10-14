@@ -34,6 +34,7 @@
             this.rRHHToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.nominasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolTip = new System.Windows.Forms.ToolTip(this.components);
+            this.empleadosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -50,7 +51,8 @@
             // rRHHToolStripMenuItem
             // 
             this.rRHHToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.nominasToolStripMenuItem});
+            this.nominasToolStripMenuItem,
+            this.empleadosToolStripMenuItem});
             this.rRHHToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("rRHHToolStripMenuItem.Image")));
             this.rRHHToolStripMenuItem.Name = "rRHHToolStripMenuItem";
             this.rRHHToolStripMenuItem.Size = new System.Drawing.Size(67, 20);
@@ -64,6 +66,13 @@
             this.nominasToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.nominasToolStripMenuItem.Text = "Prestamos";
             this.nominasToolStripMenuItem.Click += new System.EventHandler(this.nominasToolStripMenuItem_Click);
+            // 
+            // empleadosToolStripMenuItem
+            // 
+            this.empleadosToolStripMenuItem.Name = "empleadosToolStripMenuItem";
+            this.empleadosToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.empleadosToolStripMenuItem.Text = "Empleados";
+            this.empleadosToolStripMenuItem.Click += new System.EventHandler(this.empleadosToolStripMenuItem_Click);
             // 
             // MenuMDI
             // 
@@ -91,6 +100,7 @@
         private System.Windows.Forms.ToolTip toolTip;
         private System.Windows.Forms.ToolStripMenuItem rRHHToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem nominasToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem empleadosToolStripMenuItem;
     }
 }
 

@@ -18,3 +18,21 @@ C:\Users\beto\Desktop\2do proyecto diseño de sistemas\prototipos\Prototipo -RRH
 C:\Users\beto\Desktop\2do proyecto diseño de sistemas\prototipos\Prototipo -RRHH\Prototipo -RRHH\obj\Debug\Prototipo__RRHH.MenuMDI.resources
 C:\Users\beto\Desktop\2do proyecto diseño de sistemas\prototipos\Prototipo -RRHH\Prototipo -RRHH\obj\Debug\Prototipo__RRHH.Properties.Resources.resources
 C:\Users\beto\Desktop\2do proyecto diseño de sistemas\prototipos\Prototipo -RRHH\Prototipo -RRHH\obj\Debug\Prototipo -RRHH.csproj.GenerateResource.Cache
+D:\Universidad\8vosemestre\diseñodesistemas\prototipo bancos y rrhh\Prototipo -RRHH\Prototipo -RRHH\bin\Debug\Prototipo -RRHH.exe.config
+D:\Universidad\8vosemestre\diseñodesistemas\prototipo bancos y rrhh\Prototipo -RRHH\Prototipo -RRHH\obj\Debug\Prototipo -RRHH.exe
+D:\Universidad\8vosemestre\diseñodesistemas\prototipo bancos y rrhh\Prototipo -RRHH\Prototipo -RRHH\obj\Debug\Prototipo -RRHH.pdb
+D:\Universidad\8vosemestre\diseñodesistemas\prototipo bancos y rrhh\Prototipo -RRHH\Prototipo -RRHH\bin\Debug\Prototipo -RRHH.exe
+D:\Universidad\8vosemestre\diseñodesistemas\prototipo bancos y rrhh\Prototipo -RRHH\Prototipo -RRHH\bin\Debug\Prototipo -RRHH.pdb
+D:\Universidad\8vosemestre\diseñodesistemas\prototipo bancos y rrhh\Prototipo -RRHH\Prototipo -RRHH\bin\Debug\mscorlib.dll
+D:\Universidad\8vosemestre\diseñodesistemas\prototipo bancos y rrhh\Prototipo -RRHH\Prototipo -RRHH\bin\Debug\es\mscorlib.resources.dll
+D:\Universidad\8vosemestre\diseñodesistemas\prototipo bancos y rrhh\Prototipo -RRHH\Prototipo -RRHH\bin\Debug\normidna.nlp
+D:\Universidad\8vosemestre\diseñodesistemas\prototipo bancos y rrhh\Prototipo -RRHH\Prototipo -RRHH\bin\Debug\normnfc.nlp
+D:\Universidad\8vosemestre\diseñodesistemas\prototipo bancos y rrhh\Prototipo -RRHH\Prototipo -RRHH\bin\Debug\normnfd.nlp
+D:\Universidad\8vosemestre\diseñodesistemas\prototipo bancos y rrhh\Prototipo -RRHH\Prototipo -RRHH\bin\Debug\normnfkc.nlp
+D:\Universidad\8vosemestre\diseñodesistemas\prototipo bancos y rrhh\Prototipo -RRHH\Prototipo -RRHH\bin\Debug\normnfkd.nlp
+D:\Universidad\8vosemestre\diseñodesistemas\prototipo bancos y rrhh\Prototipo -RRHH\Prototipo -RRHH\obj\Debug\Prototipo -RRHH.csprojResolveAssemblyReference.cache
+D:\Universidad\8vosemestre\diseñodesistemas\prototipo bancos y rrhh\Prototipo -RRHH\Prototipo -RRHH\obj\Debug\Prototipo__RRHH.Empleados.resources
+D:\Universidad\8vosemestre\diseñodesistemas\prototipo bancos y rrhh\Prototipo -RRHH\Prototipo -RRHH\obj\Debug\Prototipo__RRHH.frm_Prestamos.resources
+D:\Universidad\8vosemestre\diseñodesistemas\prototipo bancos y rrhh\Prototipo -RRHH\Prototipo -RRHH\obj\Debug\Prototipo__RRHH.MenuMDI.resources
+D:\Universidad\8vosemestre\diseñodesistemas\prototipo bancos y rrhh\Prototipo -RRHH\Prototipo -RRHH\obj\Debug\Prototipo__RRHH.Properties.Resources.resources
+D:\Universidad\8vosemestre\diseñodesistemas\prototipo bancos y rrhh\Prototipo -RRHH\Prototipo -RRHH\obj\Debug\Prototipo -RRHH.csproj.GenerateResource.Cache

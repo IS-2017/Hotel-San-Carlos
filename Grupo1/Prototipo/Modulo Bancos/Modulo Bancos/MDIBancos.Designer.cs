@@ -34,7 +34,10 @@
             this.bancosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.documentosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.chequeVoucherToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+<<<<<<< HEAD
             this.conciliacionBancariaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+=======
+>>>>>>> origin/Grupo1
             this.helpMenu = new System.Windows.Forms.ToolStripMenuItem();
             this.contentsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.indexToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -42,6 +45,10 @@
             this.toolStripSeparator8 = new System.Windows.Forms.ToolStripSeparator();
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolTip = new System.Windows.Forms.ToolTip(this.components);
+<<<<<<< HEAD
+=======
+            this.dispBancariaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+>>>>>>> origin/Grupo1
             this.menuStrip.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -61,7 +68,11 @@
             this.bancosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.documentosToolStripMenuItem,
             this.chequeVoucherToolStripMenuItem,
+<<<<<<< HEAD
             this.conciliacionBancariaToolStripMenuItem});
+=======
+            this.dispBancariaToolStripMenuItem});
+>>>>>>> origin/Grupo1
             this.bancosToolStripMenuItem.Name = "bancosToolStripMenuItem";
             this.bancosToolStripMenuItem.Size = new System.Drawing.Size(57, 20);
             this.bancosToolStripMenuItem.Text = "Bancos";
@@ -76,6 +87,7 @@
             // chequeVoucherToolStripMenuItem
             // 
             this.chequeVoucherToolStripMenuItem.Name = "chequeVoucherToolStripMenuItem";
+<<<<<<< HEAD
             this.chequeVoucherToolStripMenuItem.Size = new System.Drawing.Size(188, 22);
             this.chequeVoucherToolStripMenuItem.Text = "Cheque Voucher";
             this.chequeVoucherToolStripMenuItem.Click += new System.EventHandler(this.chequeVoucherToolStripMenuItem_Click);
@@ -87,6 +99,12 @@
             this.conciliacionBancariaToolStripMenuItem.Text = "Conciliacion Bancaria";
             this.conciliacionBancariaToolStripMenuItem.Click += new System.EventHandler(this.conciliacionBancariaToolStripMenuItem_Click);
             // 
+=======
+            this.chequeVoucherToolStripMenuItem.Size = new System.Drawing.Size(161, 22);
+            this.chequeVoucherToolStripMenuItem.Text = "Cheque Voucher";
+            this.chequeVoucherToolStripMenuItem.Click += new System.EventHandler(this.chequeVoucherToolStripMenuItem_Click);
+            // 
+>>>>>>> origin/Grupo1
             // helpMenu
             // 
             this.helpMenu.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -133,6 +151,16 @@
             this.aboutToolStripMenuItem.Size = new System.Drawing.Size(176, 22);
             this.aboutToolStripMenuItem.Text = "&Acerca de... ...";
             // 
+<<<<<<< HEAD
+=======
+            // dispBancariaToolStripMenuItem
+            // 
+            this.dispBancariaToolStripMenuItem.Name = "dispBancariaToolStripMenuItem";
+            this.dispBancariaToolStripMenuItem.Size = new System.Drawing.Size(161, 22);
+            this.dispBancariaToolStripMenuItem.Text = "Disp. Bancaria";
+            this.dispBancariaToolStripMenuItem.Click += new System.EventHandler(this.dispBancariaToolStripMenuItem_Click);
+            // 
+>>>>>>> origin/Grupo1
             // MDIBancos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -167,7 +195,11 @@
         private System.Windows.Forms.ToolStripMenuItem bancosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem documentosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem chequeVoucherToolStripMenuItem;
+<<<<<<< HEAD
         private System.Windows.Forms.ToolStripMenuItem conciliacionBancariaToolStripMenuItem;
+=======
+        private System.Windows.Forms.ToolStripMenuItem dispBancariaToolStripMenuItem;
+>>>>>>> origin/Grupo1
     }
 }
 
