@@ -1,0 +1,11 @@
+C:\Users\ottog\Documents\Visual Studio 2015\Projects\Modulo Bancos\Modulo Bancos\bin\Debug\Modulo Bancos.exe.config
+C:\Users\ottog\Documents\Visual Studio 2015\Projects\Modulo Bancos\Modulo Bancos\bin\Debug\Modulo Bancos.exe
+C:\Users\ottog\Documents\Visual Studio 2015\Projects\Modulo Bancos\Modulo Bancos\bin\Debug\Modulo Bancos.pdb
+C:\Users\ottog\Documents\Visual Studio 2015\Projects\Modulo Bancos\Modulo Bancos\obj\Debug\Modulo Bancos.csprojResolveAssemblyReference.cache
+C:\Users\ottog\Documents\Visual Studio 2015\Projects\Modulo Bancos\Modulo Bancos\obj\Debug\Modulo_Bancos.Busqueda_Documento.resources
+C:\Users\ottog\Documents\Visual Studio 2015\Projects\Modulo Bancos\Modulo Bancos\obj\Debug\Modulo_Bancos.Documento.resources
+C:\Users\ottog\Documents\Visual Studio 2015\Projects\Modulo Bancos\Modulo Bancos\obj\Debug\Modulo_Bancos.Properties.Resources.resources
+C:\Users\ottog\Documents\Visual Studio 2015\Projects\Modulo Bancos\Modulo Bancos\obj\Debug\Modulo Bancos.csproj.GenerateResource.Cache
+C:\Users\ottog\Documents\Visual Studio 2015\Projects\Modulo Bancos\Modulo Bancos\obj\Debug\Modulo Bancos.exe
+C:\Users\ottog\Documents\Visual Studio 2015\Projects\Modulo Bancos\Modulo Bancos\obj\Debug\Modulo Bancos.pdb
+C:\Users\ottog\Documents\Visual Studio 2015\Projects\Modulo Bancos\Modulo Bancos\obj\Debug\Modulo_Bancos.MDIBancos.resources
