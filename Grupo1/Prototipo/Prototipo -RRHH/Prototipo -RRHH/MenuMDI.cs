@@ -17,6 +17,8 @@ namespace Prototipo__RRHH
 
         frm_Prestamos frm_prest;
         Empleados frm_empleados;
+        Comisiones_Vendedor comi_ve;
+        Planilla_IGSS plan_igss;
         
 
         public MenuMDI()
@@ -123,6 +125,26 @@ namespace Prototipo__RRHH
                 frm_empleados = new Empleados();
                 frm_empleados.MdiParent = this;
                 frm_empleados.Show();
+            }
+        }
+
+        private void comisionDeVendedorToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (comi_ve == null)
+            {
+                comi_ve = new Comisiones_Vendedor();
+                comi_ve.MdiParent = this;
+                comi_ve.Show();
+            }
+        }
+
+        private void planillaIGSSToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (plan_igss == null)
+            {
+                plan_igss = new Planilla_IGSS();
+                plan_igss.MdiParent = this;
+                plan_igss.Show();
             }
         }
     }

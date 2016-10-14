@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Comisiones_Vendedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Comisiones_Vendedor.designer.cs">
+      <DependentUpon>Comisiones_Vendedor.cs</DependentUpon>
+    </Compile>
     <Compile Include="Empleados.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -64,8 +70,17 @@
     <Compile Include="MenuMDI.Designer.cs">
       <DependentUpon>MenuMDI.cs</DependentUpon>
     </Compile>
+    <Compile Include="Planilla_IGSS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Planilla_IGSS.designer.cs">
+      <DependentUpon>Planilla_IGSS.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Comisiones_Vendedor.resx">
+      <DependentUpon>Comisiones_Vendedor.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Empleados.resx">
       <DependentUpon>Empleados.cs</DependentUpon>
     </EmbeddedResource>
@@ -74,6 +89,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="MenuMDI.resx">
       <DependentUpon>MenuMDI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Planilla_IGSS.resx">
+      <DependentUpon>Planilla_IGSS.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

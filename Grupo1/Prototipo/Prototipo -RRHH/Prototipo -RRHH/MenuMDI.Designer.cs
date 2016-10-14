@@ -33,8 +33,10 @@
             this.menuStrip = new System.Windows.Forms.MenuStrip();
             this.rRHHToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.nominasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolTip = new System.Windows.Forms.ToolTip(this.components);
             this.empleadosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolTip = new System.Windows.Forms.ToolTip(this.components);
+            this.comisionDeVendedorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.planillaIGSSToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -52,7 +54,9 @@
             // 
             this.rRHHToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.nominasToolStripMenuItem,
-            this.empleadosToolStripMenuItem});
+            this.empleadosToolStripMenuItem,
+            this.comisionDeVendedorToolStripMenuItem,
+            this.planillaIGSSToolStripMenuItem});
             this.rRHHToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("rRHHToolStripMenuItem.Image")));
             this.rRHHToolStripMenuItem.Name = "rRHHToolStripMenuItem";
             this.rRHHToolStripMenuItem.Size = new System.Drawing.Size(67, 20);
@@ -63,16 +67,30 @@
             // 
             this.nominasToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("nominasToolStripMenuItem.Image")));
             this.nominasToolStripMenuItem.Name = "nominasToolStripMenuItem";
-            this.nominasToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.nominasToolStripMenuItem.Size = new System.Drawing.Size(194, 22);
             this.nominasToolStripMenuItem.Text = "Prestamos";
             this.nominasToolStripMenuItem.Click += new System.EventHandler(this.nominasToolStripMenuItem_Click);
             // 
             // empleadosToolStripMenuItem
             // 
             this.empleadosToolStripMenuItem.Name = "empleadosToolStripMenuItem";
-            this.empleadosToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.empleadosToolStripMenuItem.Size = new System.Drawing.Size(194, 22);
             this.empleadosToolStripMenuItem.Text = "Empleados";
             this.empleadosToolStripMenuItem.Click += new System.EventHandler(this.empleadosToolStripMenuItem_Click);
+            // 
+            // comisionDeVendedorToolStripMenuItem
+            // 
+            this.comisionDeVendedorToolStripMenuItem.Name = "comisionDeVendedorToolStripMenuItem";
+            this.comisionDeVendedorToolStripMenuItem.Size = new System.Drawing.Size(194, 22);
+            this.comisionDeVendedorToolStripMenuItem.Text = "Comision de vendedor";
+            this.comisionDeVendedorToolStripMenuItem.Click += new System.EventHandler(this.comisionDeVendedorToolStripMenuItem_Click);
+            // 
+            // planillaIGSSToolStripMenuItem
+            // 
+            this.planillaIGSSToolStripMenuItem.Name = "planillaIGSSToolStripMenuItem";
+            this.planillaIGSSToolStripMenuItem.Size = new System.Drawing.Size(194, 22);
+            this.planillaIGSSToolStripMenuItem.Text = "Planilla IGSS";
+            this.planillaIGSSToolStripMenuItem.Click += new System.EventHandler(this.planillaIGSSToolStripMenuItem_Click);
             // 
             // MenuMDI
             // 
@@ -101,6 +119,8 @@
         private System.Windows.Forms.ToolStripMenuItem rRHHToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem nominasToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem empleadosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem comisionDeVendedorToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem planillaIGSSToolStripMenuItem;
     }
 }
 
