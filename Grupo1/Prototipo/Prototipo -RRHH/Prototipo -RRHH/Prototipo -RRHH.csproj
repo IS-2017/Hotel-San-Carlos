@@ -58,11 +58,20 @@
     <Compile Include="Empleados.Designer.cs">
       <DependentUpon>Empleados.cs</DependentUpon>
     </Compile>
+    <Compile Include="frm_Nominas.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frm_Prestamos.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frm_Prestamos.Designer.cs">
       <DependentUpon>frm_Prestamos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login_Prueba.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login_Prueba.Designer.cs">
+      <DependentUpon>Login_Prueba.cs</DependentUpon>
     </Compile>
     <Compile Include="MenuMDI.cs">
       <SubType>Form</SubType>
@@ -84,8 +93,14 @@
     <EmbeddedResource Include="Empleados.resx">
       <DependentUpon>Empleados.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frm_Nominas.resx">
+      <DependentUpon>frm_Nominas.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frm_Prestamos.resx">
       <DependentUpon>frm_Prestamos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login_Prueba.resx">
+      <DependentUpon>Login_Prueba.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MenuMDI.resx">
       <DependentUpon>MenuMDI.cs</DependentUpon>

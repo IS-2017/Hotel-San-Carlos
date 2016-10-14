@@ -29,14 +29,8 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_Nominas));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle16 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle17 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle18 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle13 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle14 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle15 = new System.Windows.Forms.DataGridViewCellStyle();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.pnl_navegador = new System.Windows.Forms.Panel();
+            this.gpb_navegador = new System.Windows.Forms.GroupBox();
             this.btn_nuevo = new System.Windows.Forms.Button();
             this.btn_ultimo = new System.Windows.Forms.Button();
             this.btn_guardar = new System.Windows.Forms.Button();
@@ -49,73 +43,67 @@
             this.btn_actualizar = new System.Windows.Forms.Button();
             this.btn_cancelar = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.tabControl1 = new System.Windows.Forms.TabControl();
+            this.tbc_nomina = new System.Windows.Forms.TabControl();
             this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.ltp_fech_egreso = new System.Windows.Forms.DateTimePicker();
+            this.ltp_fech_ingreso = new System.Windows.Forms.DateTimePicker();
+            this.cbo_sueldo_bs = new System.Windows.Forms.ComboBox();
+            this.cbo_bonificacion = new System.Windows.Forms.ComboBox();
+            this.txt_sueldo = new System.Windows.Forms.TextBox();
+            this.lbl_sueldo = new System.Windows.Forms.Label();
+            this.lbl_bonificacion = new System.Windows.Forms.Label();
+            this.lbl_sueldo_bs = new System.Windows.Forms.Label();
+            this.lbl_fech_egreso = new System.Windows.Forms.Label();
+            this.lbl_fech_ingreso = new System.Windows.Forms.Label();
+            this.lbl_fech_nacimient = new System.Windows.Forms.Label();
+            this.ltp_fech_nacimient = new System.Windows.Forms.DateTimePicker();
+            this.txt_no_afil_igss = new System.Windows.Forms.TextBox();
+            this.lbl_no_afil_igss = new System.Windows.Forms.Label();
+            this.txt_telefono = new System.Windows.Forms.TextBox();
+            this.lbl_telefono = new System.Windows.Forms.Label();
+            this.txt_direccion = new System.Windows.Forms.TextBox();
+            this.lbl_direccion = new System.Windows.Forms.Label();
+            this.txt_apellido = new System.Windows.Forms.TextBox();
+            this.lbl_apellido = new System.Windows.Forms.Label();
+            this.txt_nombre = new System.Windows.Forms.TextBox();
+            this.lbl_nombre = new System.Windows.Forms.Label();
+            this.txt_codigo = new System.Windows.Forms.TextBox();
+            this.lbl_codigo = new System.Windows.Forms.Label();
             this.tabPage4 = new System.Windows.Forms.TabPage();
-            this.label12 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.gb2 = new System.Windows.Forms.GroupBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.comboBox4 = new System.Windows.Forms.ComboBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.dataGridView2 = new System.Windows.Forms.DataGridView();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.panel1.SuspendLayout();
-            this.groupBox1.SuspendLayout();
-            this.tabControl1.SuspendLayout();
+            this.pnl_navegador.SuspendLayout();
+            this.gpb_navegador.SuspendLayout();
+            this.tbc_nomina.SuspendLayout();
             this.tabPage3.SuspendLayout();
-            this.tabPage4.SuspendLayout();
-            this.gb2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.SuspendLayout();
             // 
-            // panel1
+            // pnl_navegador
             // 
-            this.panel1.Controls.Add(this.groupBox1);
-            this.panel1.Location = new System.Drawing.Point(77, 12);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(716, 115);
-            this.panel1.TabIndex = 158;
+            this.pnl_navegador.Controls.Add(this.gpb_navegador);
+            this.pnl_navegador.Location = new System.Drawing.Point(77, 12);
+            this.pnl_navegador.Name = "pnl_navegador";
+            this.pnl_navegador.Size = new System.Drawing.Size(716, 115);
+            this.pnl_navegador.TabIndex = 158;
             // 
-            // groupBox1
+            // gpb_navegador
             // 
-            this.groupBox1.Controls.Add(this.btn_nuevo);
-            this.groupBox1.Controls.Add(this.btn_ultimo);
-            this.groupBox1.Controls.Add(this.btn_guardar);
-            this.groupBox1.Controls.Add(this.btn_primero);
-            this.groupBox1.Controls.Add(this.btn_editar);
-            this.groupBox1.Controls.Add(this.btn_siguiente);
-            this.groupBox1.Controls.Add(this.btn_eliminar);
-            this.groupBox1.Controls.Add(this.btn_anterior);
-            this.groupBox1.Controls.Add(this.btn_buscar);
-            this.groupBox1.Controls.Add(this.btn_actualizar);
-            this.groupBox1.Controls.Add(this.btn_cancelar);
-            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(43, 3);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(636, 100);
-            this.groupBox1.TabIndex = 11;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Navegador";
+            this.gpb_navegador.Controls.Add(this.btn_nuevo);
+            this.gpb_navegador.Controls.Add(this.btn_ultimo);
+            this.gpb_navegador.Controls.Add(this.btn_guardar);
+            this.gpb_navegador.Controls.Add(this.btn_primero);
+            this.gpb_navegador.Controls.Add(this.btn_editar);
+            this.gpb_navegador.Controls.Add(this.btn_siguiente);
+            this.gpb_navegador.Controls.Add(this.btn_eliminar);
+            this.gpb_navegador.Controls.Add(this.btn_anterior);
+            this.gpb_navegador.Controls.Add(this.btn_buscar);
+            this.gpb_navegador.Controls.Add(this.btn_actualizar);
+            this.gpb_navegador.Controls.Add(this.btn_cancelar);
+            this.gpb_navegador.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gpb_navegador.Location = new System.Drawing.Point(43, 3);
+            this.gpb_navegador.Name = "gpb_navegador";
+            this.gpb_navegador.Size = new System.Drawing.Size(636, 100);
+            this.gpb_navegador.TabIndex = 11;
+            this.gpb_navegador.TabStop = false;
+            this.gpb_navegador.Text = "Navegador";
             // 
             // btn_nuevo
             // 
@@ -291,141 +279,69 @@
             this.label1.Size = new System.Drawing.Size(0, 29);
             this.label1.TabIndex = 159;
             // 
-            // tabControl1
+            // tbc_nomina
             // 
-            this.tabControl1.Controls.Add(this.tabPage3);
-            this.tabControl1.Controls.Add(this.tabPage4);
-            this.tabControl1.Location = new System.Drawing.Point(12, 133);
-            this.tabControl1.Name = "tabControl1";
-            this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(846, 295);
-            this.tabControl1.TabIndex = 160;
+            this.tbc_nomina.Controls.Add(this.tabPage3);
+            this.tbc_nomina.Controls.Add(this.tabPage4);
+            this.tbc_nomina.Location = new System.Drawing.Point(12, 133);
+            this.tbc_nomina.Name = "tbc_nomina";
+            this.tbc_nomina.SelectedIndex = 0;
+            this.tbc_nomina.Size = new System.Drawing.Size(846, 252);
+            this.tbc_nomina.TabIndex = 160;
             // 
             // tabPage3
             // 
             this.tabPage3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(204)))), ((int)(((byte)(150)))));
-            this.tabPage3.Controls.Add(this.label13);
-            this.tabPage3.Controls.Add(this.label9);
-            this.tabPage3.Controls.Add(this.textBox3);
-            this.tabPage3.Controls.Add(this.textBox1);
-            this.tabPage3.Controls.Add(this.dataGridView2);
-            this.tabPage3.Controls.Add(this.dataGridView1);
-            this.tabPage3.Controls.Add(this.gb2);
-            this.tabPage3.Controls.Add(this.label4);
-            this.tabPage3.Controls.Add(this.comboBox1);
-            this.tabPage3.Controls.Add(this.textBox7);
-            this.tabPage3.Controls.Add(this.label8);
-            this.tabPage3.Controls.Add(this.label6);
-            this.tabPage3.Controls.Add(this.textBox4);
-            this.tabPage3.Controls.Add(this.label5);
-            this.tabPage3.Controls.Add(this.textBox2);
-            this.tabPage3.Controls.Add(this.label3);
-            this.tabPage3.Controls.Add(this.label2);
+            this.tabPage3.Controls.Add(this.ltp_fech_egreso);
+            this.tabPage3.Controls.Add(this.ltp_fech_ingreso);
+            this.tabPage3.Controls.Add(this.cbo_sueldo_bs);
+            this.tabPage3.Controls.Add(this.cbo_bonificacion);
+            this.tabPage3.Controls.Add(this.txt_sueldo);
+            this.tabPage3.Controls.Add(this.lbl_sueldo);
+            this.tabPage3.Controls.Add(this.lbl_bonificacion);
+            this.tabPage3.Controls.Add(this.lbl_sueldo_bs);
+            this.tabPage3.Controls.Add(this.lbl_fech_egreso);
+            this.tabPage3.Controls.Add(this.lbl_fech_ingreso);
+            this.tabPage3.Controls.Add(this.lbl_fech_nacimient);
+            this.tabPage3.Controls.Add(this.ltp_fech_nacimient);
+            this.tabPage3.Controls.Add(this.txt_no_afil_igss);
+            this.tabPage3.Controls.Add(this.lbl_no_afil_igss);
+            this.tabPage3.Controls.Add(this.txt_telefono);
+            this.tabPage3.Controls.Add(this.lbl_telefono);
+            this.tabPage3.Controls.Add(this.txt_direccion);
+            this.tabPage3.Controls.Add(this.lbl_direccion);
+            this.tabPage3.Controls.Add(this.txt_apellido);
+            this.tabPage3.Controls.Add(this.lbl_apellido);
+            this.tabPage3.Controls.Add(this.txt_nombre);
+            this.tabPage3.Controls.Add(this.lbl_nombre);
+            this.tabPage3.Controls.Add(this.txt_codigo);
+            this.tabPage3.Controls.Add(this.lbl_codigo);
             this.tabPage3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tabPage3.Location = new System.Drawing.Point(4, 22);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Size = new System.Drawing.Size(838, 269);
+            this.tabPage3.Size = new System.Drawing.Size(838, 226);
             this.tabPage3.TabIndex = 0;
             this.tabPage3.Text = "Datos Generales";
             // 
-            // textBox7
+            // ltp_fech_egreso
             // 
-            this.textBox7.Location = new System.Drawing.Point(162, 96);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(242, 20);
-            this.textBox7.TabIndex = 11;
+            this.ltp_fech_egreso.Location = new System.Drawing.Point(162, 152);
+            this.ltp_fech_egreso.Name = "ltp_fech_egreso";
+            this.ltp_fech_egreso.Size = new System.Drawing.Size(200, 20);
+            this.ltp_fech_egreso.TabIndex = 33;
             // 
-            // label8
+            // ltp_fech_ingreso
             // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(3, 96);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(70, 18);
-            this.label8.TabIndex = 10;
-            this.label8.Text = "Telefono:";
+            this.ltp_fech_ingreso.Location = new System.Drawing.Point(162, 126);
+            this.ltp_fech_ingreso.Name = "ltp_fech_ingreso";
+            this.ltp_fech_ingreso.Size = new System.Drawing.Size(200, 20);
+            this.ltp_fech_ingreso.TabIndex = 32;
             // 
-            // label6
+            // cbo_sueldo_bs
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(429, 24);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(146, 18);
-            this.label6.TabIndex = 8;
-            this.label6.Text = "Detalle de Prestamo:";
-            this.label6.Click += new System.EventHandler(this.label6_Click);
-            // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(162, 70);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(242, 20);
-            this.textBox4.TabIndex = 5;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(3, 72);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(63, 18);
-            this.label5.TabIndex = 4;
-            this.label5.Text = "Apellido:";
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(162, 44);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(242, 20);
-            this.textBox2.TabIndex = 3;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(3, 46);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(66, 18);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Nombre:";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(3, 20);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(131, 18);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "Código Empleado:";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
-            // 
-            // tabPage4
-            // 
-            this.tabPage4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(204)))), ((int)(((byte)(150)))));
-            this.tabPage4.Controls.Add(this.label12);
-            this.tabPage4.Location = new System.Drawing.Point(4, 22);
-            this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Size = new System.Drawing.Size(838, 226);
-            this.tabPage4.TabIndex = 1;
-            this.tabPage4.Text = "Otros Datos";
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(195, 9);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(271, 25);
-            this.label12.TabIndex = 0;
-            this.label12.Text = "Por si se necesitan mas datos";
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.cbo_sueldo_bs.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbo_sueldo_bs.FormattingEnabled = true;
+            this.cbo_sueldo_bs.Items.AddRange(new object[] {
             "2500",
             "4800",
             "6300",
@@ -433,242 +349,234 @@
             "8900",
             "11000",
             "12750"});
-            this.comboBox1.Location = new System.Drawing.Point(162, 17);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(200, 21);
-            this.comboBox1.TabIndex = 34;
+            this.cbo_sueldo_bs.Location = new System.Drawing.Point(588, 149);
+            this.cbo_sueldo_bs.Name = "cbo_sueldo_bs";
+            this.cbo_sueldo_bs.Size = new System.Drawing.Size(200, 21);
+            this.cbo_sueldo_bs.TabIndex = 31;
             // 
-            // label4
+            // cbo_bonificacion
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(429, 147);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(132, 18);
-            this.label4.TabIndex = 36;
-            this.label4.Text = "Detalle de Abonos:";
+            this.cbo_bonificacion.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbo_bonificacion.FormattingEnabled = true;
+            this.cbo_bonificacion.Items.AddRange(new object[] {
+            "500",
+            "1000",
+            "1500",
+            "2000",
+            "2500",
+            "3000"});
+            this.cbo_bonificacion.Location = new System.Drawing.Point(588, 177);
+            this.cbo_bonificacion.Name = "cbo_bonificacion";
+            this.cbo_bonificacion.Size = new System.Drawing.Size(200, 21);
+            this.cbo_bonificacion.TabIndex = 30;
             // 
-            // gb2
+            // txt_sueldo
             // 
-            this.gb2.Controls.Add(this.label11);
-            this.gb2.Controls.Add(this.label10);
-            this.gb2.Controls.Add(this.label7);
-            this.gb2.Controls.Add(this.comboBox4);
-            this.gb2.Controls.Add(this.radioButton2);
-            this.gb2.Controls.Add(this.comboBox3);
-            this.gb2.Controls.Add(this.radioButton1);
-            this.gb2.Controls.Add(this.comboBox2);
-            this.gb2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.gb2.Location = new System.Drawing.Point(6, 122);
-            this.gb2.Name = "gb2";
-            this.gb2.Size = new System.Drawing.Size(189, 144);
-            this.gb2.TabIndex = 37;
-            this.gb2.TabStop = false;
-            this.gb2.Text = "Fecha de Movimiento";
+            this.txt_sueldo.Location = new System.Drawing.Point(588, 123);
+            this.txt_sueldo.Name = "txt_sueldo";
+            this.txt_sueldo.Size = new System.Drawing.Size(242, 20);
+            this.txt_sueldo.TabIndex = 25;
             // 
-            // comboBox2
+            // lbl_sueldo
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(75, 19);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(105, 21);
-            this.comboBox2.TabIndex = 0;
+            this.lbl_sueldo.AutoSize = true;
+            this.lbl_sueldo.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_sueldo.Location = new System.Drawing.Point(429, 125);
+            this.lbl_sueldo.Name = "lbl_sueldo";
+            this.lbl_sueldo.Size = new System.Drawing.Size(58, 18);
+            this.lbl_sueldo.TabIndex = 24;
+            this.lbl_sueldo.Text = "Sueldo:";
             // 
-            // comboBox3
+            // lbl_bonificacion
             // 
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(75, 46);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(105, 21);
-            this.comboBox3.TabIndex = 1;
+            this.lbl_bonificacion.AutoSize = true;
+            this.lbl_bonificacion.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_bonificacion.Location = new System.Drawing.Point(429, 177);
+            this.lbl_bonificacion.Name = "lbl_bonificacion";
+            this.lbl_bonificacion.Size = new System.Drawing.Size(109, 18);
+            this.lbl_bonificacion.TabIndex = 22;
+            this.lbl_bonificacion.Text = "Bonificaciones:";
             // 
-            // comboBox4
+            // lbl_sueldo_bs
             // 
-            this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Location = new System.Drawing.Point(75, 72);
-            this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(105, 21);
-            this.comboBox4.TabIndex = 2;
+            this.lbl_sueldo_bs.AutoSize = true;
+            this.lbl_sueldo_bs.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_sueldo_bs.Location = new System.Drawing.Point(429, 151);
+            this.lbl_sueldo_bs.Name = "lbl_sueldo_bs";
+            this.lbl_sueldo_bs.Size = new System.Drawing.Size(96, 18);
+            this.lbl_sueldo_bs.TabIndex = 20;
+            this.lbl_sueldo_bs.Text = "Sueldo Base:";
             // 
-            // label7
+            // lbl_fech_egreso
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(6, 22);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(34, 18);
-            this.label7.TabIndex = 38;
-            this.label7.Text = "Dia:";
+            this.lbl_fech_egreso.AutoSize = true;
+            this.lbl_fech_egreso.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_fech_egreso.Location = new System.Drawing.Point(3, 153);
+            this.lbl_fech_egreso.Name = "lbl_fech_egreso";
+            this.lbl_fech_egreso.Size = new System.Drawing.Size(125, 18);
+            this.lbl_fech_egreso.TabIndex = 19;
+            this.lbl_fech_egreso.Text = "Fecha de Egreso:";
             // 
-            // label10
+            // lbl_fech_ingreso
             // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(6, 45);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(41, 18);
-            this.label10.TabIndex = 39;
-            this.label10.Text = "Mes:";
+            this.lbl_fech_ingreso.AutoSize = true;
+            this.lbl_fech_ingreso.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_fech_ingreso.Location = new System.Drawing.Point(3, 126);
+            this.lbl_fech_ingreso.Name = "lbl_fech_ingreso";
+            this.lbl_fech_ingreso.Size = new System.Drawing.Size(122, 18);
+            this.lbl_fech_ingreso.TabIndex = 17;
+            this.lbl_fech_ingreso.Text = "Fecha de Ingreso";
             // 
-            // label11
+            // lbl_fech_nacimient
             // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(6, 70);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(38, 18);
-            this.label11.TabIndex = 40;
-            this.label11.Text = "Año:";
+            this.lbl_fech_nacimient.AutoSize = true;
+            this.lbl_fech_nacimient.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_fech_nacimient.Location = new System.Drawing.Point(3, 99);
+            this.lbl_fech_nacimient.Name = "lbl_fech_nacimient";
+            this.lbl_fech_nacimient.Size = new System.Drawing.Size(152, 18);
+            this.lbl_fech_nacimient.TabIndex = 15;
+            this.lbl_fech_nacimient.Text = "Fecha de Nacimiento:";
             // 
-            // dataGridView1
+            // ltp_fech_nacimient
             // 
-            dataGridViewCellStyle16.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle16.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle16.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle16.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle16.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle16.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle16.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle16;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle17.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle17.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle17.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle17.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle17.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle17.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle17.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridView1.DefaultCellStyle = dataGridViewCellStyle17;
-            this.dataGridView1.Location = new System.Drawing.Point(433, 44);
-            this.dataGridView1.Name = "dataGridView1";
-            dataGridViewCellStyle18.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle18.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle18.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle18.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle18.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle18.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle18.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView1.RowHeadersDefaultCellStyle = dataGridViewCellStyle18;
-            this.dataGridView1.Size = new System.Drawing.Size(381, 94);
-            this.dataGridView1.TabIndex = 38;
+            this.ltp_fech_nacimient.Location = new System.Drawing.Point(162, 97);
+            this.ltp_fech_nacimient.Name = "ltp_fech_nacimient";
+            this.ltp_fech_nacimient.Size = new System.Drawing.Size(200, 20);
+            this.ltp_fech_nacimient.TabIndex = 14;
             // 
-            // dataGridView2
+            // txt_no_afil_igss
             // 
-            dataGridViewCellStyle13.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle13.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle13.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle13.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle13.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle13.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle13.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView2.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle13;
-            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle14.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle14.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle14.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle14.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle14.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle14.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle14.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridView2.DefaultCellStyle = dataGridViewCellStyle14;
-            this.dataGridView2.Location = new System.Drawing.Point(433, 165);
-            this.dataGridView2.Name = "dataGridView2";
-            dataGridViewCellStyle15.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle15.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle15.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle15.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle15.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle15.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle15.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView2.RowHeadersDefaultCellStyle = dataGridViewCellStyle15;
-            this.dataGridView2.Size = new System.Drawing.Size(381, 94);
-            this.dataGridView2.TabIndex = 39;
+            this.txt_no_afil_igss.Location = new System.Drawing.Point(588, 97);
+            this.txt_no_afil_igss.Name = "txt_no_afil_igss";
+            this.txt_no_afil_igss.Size = new System.Drawing.Size(242, 20);
+            this.txt_no_afil_igss.TabIndex = 13;
             // 
-            // radioButton1
+            // lbl_no_afil_igss
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton1.Location = new System.Drawing.Point(9, 108);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(84, 20);
-            this.radioButton1.TabIndex = 40;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Prestamo";
-            this.radioButton1.UseVisualStyleBackColor = true;
-            this.radioButton1.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
+            this.lbl_no_afil_igss.AutoSize = true;
+            this.lbl_no_afil_igss.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_no_afil_igss.Location = new System.Drawing.Point(429, 99);
+            this.lbl_no_afil_igss.Name = "lbl_no_afil_igss";
+            this.lbl_no_afil_igss.Size = new System.Drawing.Size(137, 18);
+            this.lbl_no_afil_igss.TabIndex = 12;
+            this.lbl_no_afil_igss.Text = "No. Afiliación IGSS:";
             // 
-            // radioButton2
+            // txt_telefono
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton2.Location = new System.Drawing.Point(115, 108);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(66, 20);
-            this.radioButton2.TabIndex = 41;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "Abono";
-            this.radioButton2.UseVisualStyleBackColor = true;
+            this.txt_telefono.Location = new System.Drawing.Point(162, 177);
+            this.txt_telefono.Name = "txt_telefono";
+            this.txt_telefono.Size = new System.Drawing.Size(242, 20);
+            this.txt_telefono.TabIndex = 11;
             // 
-            // textBox1
+            // lbl_telefono
             // 
-            this.textBox1.Location = new System.Drawing.Point(214, 167);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(198, 20);
-            this.textBox1.TabIndex = 42;
+            this.lbl_telefono.AutoSize = true;
+            this.lbl_telefono.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_telefono.Location = new System.Drawing.Point(3, 179);
+            this.lbl_telefono.Name = "lbl_telefono";
+            this.lbl_telefono.Size = new System.Drawing.Size(70, 18);
+            this.lbl_telefono.TabIndex = 10;
+            this.lbl_telefono.Text = "Telefono:";
             // 
-            // textBox3
+            // txt_direccion
             // 
-            this.textBox3.Location = new System.Drawing.Point(214, 211);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(198, 20);
-            this.textBox3.TabIndex = 43;
+            this.txt_direccion.Location = new System.Drawing.Point(588, 21);
+            this.txt_direccion.Multiline = true;
+            this.txt_direccion.Name = "txt_direccion";
+            this.txt_direccion.Size = new System.Drawing.Size(242, 70);
+            this.txt_direccion.TabIndex = 9;
             // 
-            // label9
+            // lbl_direccion
             // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(211, 147);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(46, 18);
-            this.label9.TabIndex = 44;
-            this.label9.Text = "Valor:";
-            this.label9.Click += new System.EventHandler(this.label9_Click);
+            this.lbl_direccion.AutoSize = true;
+            this.lbl_direccion.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_direccion.Location = new System.Drawing.Point(429, 24);
+            this.lbl_direccion.Name = "lbl_direccion";
+            this.lbl_direccion.Size = new System.Drawing.Size(124, 18);
+            this.lbl_direccion.TabIndex = 8;
+            this.lbl_direccion.Text = "Dirección Exacta:";
             // 
-            // label13
+            // txt_apellido
             // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(211, 190);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(97, 18);
-            this.label13.TabIndex = 45;
-            this.label13.Text = "Nuevo Saldo:";
+            this.txt_apellido.Location = new System.Drawing.Point(162, 70);
+            this.txt_apellido.Name = "txt_apellido";
+            this.txt_apellido.Size = new System.Drawing.Size(242, 20);
+            this.txt_apellido.TabIndex = 5;
+            // 
+            // lbl_apellido
+            // 
+            this.lbl_apellido.AutoSize = true;
+            this.lbl_apellido.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_apellido.Location = new System.Drawing.Point(3, 72);
+            this.lbl_apellido.Name = "lbl_apellido";
+            this.lbl_apellido.Size = new System.Drawing.Size(63, 18);
+            this.lbl_apellido.TabIndex = 4;
+            this.lbl_apellido.Text = "Apellido:";
+            // 
+            // txt_nombre
+            // 
+            this.txt_nombre.Location = new System.Drawing.Point(162, 44);
+            this.txt_nombre.Name = "txt_nombre";
+            this.txt_nombre.Size = new System.Drawing.Size(242, 20);
+            this.txt_nombre.TabIndex = 3;
+            // 
+            // lbl_nombre
+            // 
+            this.lbl_nombre.AutoSize = true;
+            this.lbl_nombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_nombre.Location = new System.Drawing.Point(3, 46);
+            this.lbl_nombre.Name = "lbl_nombre";
+            this.lbl_nombre.Size = new System.Drawing.Size(66, 18);
+            this.lbl_nombre.TabIndex = 2;
+            this.lbl_nombre.Text = "Nombre:";
+            // 
+            // txt_codigo
+            // 
+            this.txt_codigo.Enabled = false;
+            this.txt_codigo.Location = new System.Drawing.Point(162, 18);
+            this.txt_codigo.Name = "txt_codigo";
+            this.txt_codigo.Size = new System.Drawing.Size(158, 20);
+            this.txt_codigo.TabIndex = 1;
+            this.txt_codigo.Text = "NOM-0001";
+            // 
+            // lbl_codigo
+            // 
+            this.lbl_codigo.AutoSize = true;
+            this.lbl_codigo.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_codigo.Location = new System.Drawing.Point(3, 20);
+            this.lbl_codigo.Name = "lbl_codigo";
+            this.lbl_codigo.Size = new System.Drawing.Size(60, 18);
+            this.lbl_codigo.TabIndex = 0;
+            this.lbl_codigo.Text = "Código:";
+            // 
+            // tabPage4
+            // 
+            this.tabPage4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(204)))), ((int)(((byte)(150)))));
+            this.tabPage4.Location = new System.Drawing.Point(4, 22);
+            this.tabPage4.Name = "tabPage4";
+            this.tabPage4.Size = new System.Drawing.Size(838, 226);
+            this.tabPage4.TabIndex = 1;
+            this.tabPage4.Text = "Otros Datos";
             // 
             // frm_Nominas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(204)))), ((int)(((byte)(150)))));
-            this.ClientSize = new System.Drawing.Size(871, 440);
-            this.Controls.Add(this.tabControl1);
+            this.ClientSize = new System.Drawing.Size(871, 402);
+            this.Controls.Add(this.tbc_nomina);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.pnl_navegador);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frm_Nominas";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Prestamos de Empleados";
+            this.Text = "Nominas de Empleados";
             this.Load += new System.EventHandler(this.Nominas_Load);
-            this.panel1.ResumeLayout(false);
-            this.groupBox1.ResumeLayout(false);
-            this.tabControl1.ResumeLayout(false);
+            this.pnl_navegador.ResumeLayout(false);
+            this.gpb_navegador.ResumeLayout(false);
+            this.tbc_nomina.ResumeLayout(false);
             this.tabPage3.ResumeLayout(false);
             this.tabPage3.PerformLayout();
-            this.tabPage4.ResumeLayout(false);
-            this.tabPage4.PerformLayout();
-            this.gb2.ResumeLayout(false);
-            this.gb2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -676,8 +584,8 @@
 
         #endregion
 
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.Panel pnl_navegador;
+        private System.Windows.Forms.GroupBox gpb_navegador;
         private System.Windows.Forms.Button btn_nuevo;
         private System.Windows.Forms.Button btn_ultimo;
         private System.Windows.Forms.Button btn_guardar;
@@ -690,34 +598,32 @@
         private System.Windows.Forms.Button btn_actualizar;
         private System.Windows.Forms.Button btn_cancelar;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TabControl tabControl1;
+        private System.Windows.Forms.TabControl tbc_nomina;
         private System.Windows.Forms.TabPage tabPage3;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label lbl_fech_egreso;
+        private System.Windows.Forms.Label lbl_fech_ingreso;
+        private System.Windows.Forms.Label lbl_fech_nacimient;
+        private System.Windows.Forms.DateTimePicker ltp_fech_nacimient;
+        private System.Windows.Forms.TextBox txt_no_afil_igss;
+        private System.Windows.Forms.Label lbl_no_afil_igss;
+        private System.Windows.Forms.TextBox txt_telefono;
+        private System.Windows.Forms.Label lbl_telefono;
+        private System.Windows.Forms.TextBox txt_direccion;
+        private System.Windows.Forms.Label lbl_direccion;
+        private System.Windows.Forms.TextBox txt_apellido;
+        private System.Windows.Forms.Label lbl_apellido;
+        private System.Windows.Forms.TextBox txt_nombre;
+        private System.Windows.Forms.Label lbl_nombre;
+        private System.Windows.Forms.TextBox txt_codigo;
+        private System.Windows.Forms.Label lbl_codigo;
         private System.Windows.Forms.TabPage tabPage4;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.RadioButton radioButton1;
-        private System.Windows.Forms.DataGridView dataGridView2;
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.GroupBox gb2;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.ComboBox comboBox4;
-        private System.Windows.Forms.ComboBox comboBox3;
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.ComboBox cbo_sueldo_bs;
+        private System.Windows.Forms.ComboBox cbo_bonificacion;
+        private System.Windows.Forms.TextBox txt_sueldo;
+        private System.Windows.Forms.Label lbl_sueldo;
+        private System.Windows.Forms.Label lbl_bonificacion;
+        private System.Windows.Forms.Label lbl_sueldo_bs;
+        private System.Windows.Forms.DateTimePicker ltp_fech_egreso;
+        private System.Windows.Forms.DateTimePicker ltp_fech_ingreso;
     }
 }
