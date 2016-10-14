@@ -1,0 +1,30 @@
+c:\users\pamela coronado\documents\visual studio 2015\Projects\WindowsFormsApplication5\WindowsFormsApplication5\bin\Debug\WindowsFormsApplication5.exe.config
+C:\Users\Pamela Coronado\Documents\Visual Studio 2015\Projects\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.csprojResolveAssemblyReference.cache
+C:\Users\Pamela Coronado\Documents\Visual Studio 2015\Projects\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\ComprasProveedores.ComprasProveedores.resources
+C:\Users\Pamela Coronado\Documents\Visual Studio 2015\Projects\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\ComprasProveedores.DetalleCompra.resources
+C:\Users\Pamela Coronado\Documents\Visual Studio 2015\Projects\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.DetalleOrdenCompra.resources
+C:\Users\Pamela Coronado\Documents\Visual Studio 2015\Projects\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\Principal.Form1.resources
+C:\Users\Pamela Coronado\Documents\Visual Studio 2015\Projects\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\ComprasProveedores.GastosImportacion.resources
+C:\Users\Pamela Coronado\Documents\Visual Studio 2015\Projects\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\ComprasProveedores.InsertarCompra.resources
+C:\Users\Pamela Coronado\Documents\Visual Studio 2015\Projects\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.OrdenCompra.resources
+C:\Users\Pamela Coronado\Documents\Visual Studio 2015\Projects\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.ModuloProveedores.resources
+C:\Users\Pamela Coronado\Documents\Visual Studio 2015\Projects\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.frm_inicio.resources
+C:\Users\Pamela Coronado\Documents\Visual Studio 2015\Projects\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.Properties.Resources.resources
+C:\Users\Pamela Coronado\Documents\Visual Studio 2015\Projects\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.csproj.GenerateResource.Cache
+C:\Users\beto\Desktop\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\bin\Debug\WindowsFormsApplication5.exe.config
+C:\Users\beto\Desktop\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.csprojResolveAssemblyReference.cache
+C:\Users\beto\Desktop\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\ComprasProveedores.ComprasProveedores.resources
+C:\Users\beto\Desktop\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\ComprasProveedores.DetalleCompra.resources
+C:\Users\beto\Desktop\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.DetalleOrdenCompra.resources
+C:\Users\beto\Desktop\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\Principal.Form1.resources
+C:\Users\beto\Desktop\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\ComprasProveedores.GastosImportacion.resources
+C:\Users\beto\Desktop\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\ComprasProveedores.InsertarCompra.resources
+C:\Users\beto\Desktop\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.OrdenCompra.resources
+C:\Users\beto\Desktop\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.ModuloProveedores.resources
+C:\Users\beto\Desktop\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.frm_inicio.resources
+C:\Users\beto\Desktop\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.Properties.Resources.resources
+C:\Users\beto\Desktop\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.csproj.GenerateResource.Cache
+C:\Users\beto\Desktop\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\bin\Debug\WindowsFormsApplication5.exe
+C:\Users\beto\Desktop\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\bin\Debug\WindowsFormsApplication5.pdb
+C:\Users\beto\Desktop\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.exe
+C:\Users\beto\Desktop\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.pdb
