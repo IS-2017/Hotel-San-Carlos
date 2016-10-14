@@ -9,3 +9,15 @@ C:\Users\ottog\Documents\Visual Studio 2015\Projects\Modulo Bancos\Modulo Bancos
 C:\Users\ottog\Documents\Visual Studio 2015\Projects\Modulo Bancos\Modulo Bancos\obj\Debug\Modulo Bancos.exe
 C:\Users\ottog\Documents\Visual Studio 2015\Projects\Modulo Bancos\Modulo Bancos\obj\Debug\Modulo Bancos.pdb
 C:\Users\ottog\Documents\Visual Studio 2015\Projects\Modulo Bancos\Modulo Bancos\obj\Debug\Modulo_Bancos.MDIBancos.resources
+C:\Users\Cristian\Documents\GitHub\Hotel-San-Carlos\Grupo1\Prototipo\Modulo Bancos\Modulo Bancos\bin\Debug\Modulo Bancos.exe.config
+C:\Users\Cristian\Documents\GitHub\Hotel-San-Carlos\Grupo1\Prototipo\Modulo Bancos\Modulo Bancos\obj\Debug\Modulo Bancos.exe
+C:\Users\Cristian\Documents\GitHub\Hotel-San-Carlos\Grupo1\Prototipo\Modulo Bancos\Modulo Bancos\obj\Debug\Modulo Bancos.pdb
+C:\Users\Cristian\Documents\GitHub\Hotel-San-Carlos\Grupo1\Prototipo\Modulo Bancos\Modulo Bancos\bin\Debug\Modulo Bancos.exe
+C:\Users\Cristian\Documents\GitHub\Hotel-San-Carlos\Grupo1\Prototipo\Modulo Bancos\Modulo Bancos\bin\Debug\Modulo Bancos.pdb
+C:\Users\Cristian\Documents\GitHub\Hotel-San-Carlos\Grupo1\Prototipo\Modulo Bancos\Modulo Bancos\obj\Debug\Modulo Bancos.csprojResolveAssemblyReference.cache
+C:\Users\Cristian\Documents\GitHub\Hotel-San-Carlos\Grupo1\Prototipo\Modulo Bancos\Modulo Bancos\obj\Debug\Modulo_Bancos.Busqueda_Documento.resources
+C:\Users\Cristian\Documents\GitHub\Hotel-San-Carlos\Grupo1\Prototipo\Modulo Bancos\Modulo Bancos\obj\Debug\Modulo_Bancos.Documento.resources
+C:\Users\Cristian\Documents\GitHub\Hotel-San-Carlos\Grupo1\Prototipo\Modulo Bancos\Modulo Bancos\obj\Debug\Modulo_Bancos.MDIBancos.resources
+C:\Users\Cristian\Documents\GitHub\Hotel-San-Carlos\Grupo1\Prototipo\Modulo Bancos\Modulo Bancos\obj\Debug\Modulo_Bancos.Properties.Resources.resources
+C:\Users\Cristian\Documents\GitHub\Hotel-San-Carlos\Grupo1\Prototipo\Modulo Bancos\Modulo Bancos\obj\Debug\Modulo Bancos.csproj.GenerateResource.Cache
+C:\Users\Cristian\Documents\GitHub\Hotel-San-Carlos\Grupo1\Prototipo\Modulo Bancos\Modulo Bancos\obj\Debug\Modulo_Bancos.Cheque_Voucher.resources

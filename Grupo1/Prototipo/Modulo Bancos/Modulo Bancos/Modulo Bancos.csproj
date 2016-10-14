@@ -53,6 +53,12 @@
     <Compile Include="Busqueda Documento.Designer.cs">
       <DependentUpon>Busqueda Documento.cs</DependentUpon>
     </Compile>
+    <Compile Include="Cheque_Voucher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cheque_Voucher.designer.cs">
+      <DependentUpon>Cheque_Voucher.cs</DependentUpon>
+    </Compile>
     <Compile Include="Documento.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -69,6 +75,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Busqueda Documento.resx">
       <DependentUpon>Busqueda Documento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cheque_Voucher.resx">
+      <DependentUpon>Cheque_Voucher.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Documento.resx">
       <DependentUpon>Documento.cs</DependentUpon>
