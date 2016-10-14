@@ -1,3 +1,0 @@
-C:\Users\Ludwing\Documents\GitHub\Hotel-San-Carlos\Grupo5\Prototipo\WindowsFormsApplication5\bin\Debug\WindowsFormsApplication5.exe.config
-C:\Users\Ludwing\Documents\GitHub\Hotel-San-Carlos\Grupo5\Prototipo\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.exe
-C:\Users\Ludwing\Documents\GitHub\Hotel-San-Carlos\Grupo5\Prototipo\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.pdb
