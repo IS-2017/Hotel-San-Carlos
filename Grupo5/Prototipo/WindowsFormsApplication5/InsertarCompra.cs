@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 
-namespace ComprasProveedores
+namespace WindowsFormsApplication5
 {
     public partial class InsertarCompra : Form
     {

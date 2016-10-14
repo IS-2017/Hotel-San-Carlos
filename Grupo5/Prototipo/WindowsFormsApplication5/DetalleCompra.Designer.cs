@@ -1,4 +1,4 @@
-﻿namespace ComprasProveedores
+﻿namespace WindowsFormsApplication5
 {
     partial class DetalleCompra
     {
