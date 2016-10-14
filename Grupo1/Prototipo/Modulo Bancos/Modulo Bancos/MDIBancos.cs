@@ -15,6 +15,7 @@ namespace Modulo_Bancos
         private int childFormNumber = 0;
         Documento doc;
         Cheque_Voucher che_Vo;
+        Control_bancario disp_bancario;
 
         public MDIBancos()
         {
@@ -127,5 +128,22 @@ namespace Modulo_Bancos
         {
             che_Vo = null;
         }
+
+        private void dispBancariaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (disp_bancario == null)
+            {
+                disp_bancario = new Control_bancario();
+                disp_bancario.MdiParent = this;
+                disp_bancario.FormClosed += new FormClosedEventHandler(disp_bancaria_FormClosed);
+                disp_bancario.Show();
+            }
+        }
+
+        void disp_bancaria_FormClosed(object sender, EventArgs e)
+        {
+            disp_bancario = null;
+        }
+
     }
 }
