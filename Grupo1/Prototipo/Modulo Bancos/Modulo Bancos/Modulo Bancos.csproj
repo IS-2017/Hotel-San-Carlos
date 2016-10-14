@@ -59,11 +59,19 @@
     <Compile Include="Cheque_Voucher.designer.cs">
       <DependentUpon>Cheque_Voucher.cs</DependentUpon>
     </Compile>
+<<<<<<< HEAD
+    <Compile Include="Conciliacion_Bancaria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Conciliacion_Bancaria.Designer.cs">
+      <DependentUpon>Conciliacion_Bancaria.cs</DependentUpon>
+=======
     <Compile Include="Control_bancario.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Control_bancario.Designer.cs">
       <DependentUpon>Control_bancario.cs</DependentUpon>
+>>>>>>> origin/Grupo1
     </Compile>
     <Compile Include="Documento.cs">
       <SubType>Form</SubType>
@@ -85,8 +93,13 @@
     <EmbeddedResource Include="Cheque_Voucher.resx">
       <DependentUpon>Cheque_Voucher.cs</DependentUpon>
     </EmbeddedResource>
+<<<<<<< HEAD
+    <EmbeddedResource Include="Conciliacion_Bancaria.resx">
+      <DependentUpon>Conciliacion_Bancaria.cs</DependentUpon>
+=======
     <EmbeddedResource Include="Control_bancario.resx">
       <DependentUpon>Control_bancario.cs</DependentUpon>
+>>>>>>> origin/Grupo1
     </EmbeddedResource>
     <EmbeddedResource Include="Documento.resx">
       <DependentUpon>Documento.cs</DependentUpon>
