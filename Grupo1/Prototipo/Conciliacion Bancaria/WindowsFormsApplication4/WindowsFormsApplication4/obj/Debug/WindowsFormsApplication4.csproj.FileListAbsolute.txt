@@ -1,0 +1,3 @@
+C:\Users\beto\Documents\diseño sistemas\WindowsFormsApplication4\WindowsFormsApplication4\bin\Debug\WindowsFormsApplication4.exe.config
+C:\Users\beto\Documents\diseño sistemas\WindowsFormsApplication4\WindowsFormsApplication4\bin\Debug\Conciliacion Bancaria.exe.config
+C:\Users\beto\Desktop\2do proyecto diseño de sistemas\prototipos\prototipo bancos conciliacion\WindowsFormsApplication4\WindowsFormsApplication4\bin\Debug\Conciliacion Bancaria.exe.config
