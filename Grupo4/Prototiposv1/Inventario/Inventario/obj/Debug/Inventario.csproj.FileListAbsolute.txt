@@ -1,0 +1,33 @@
+C:\Users\Chrix\Documents\Visual Studio 2015\Projects\Inventario\Inventario\bin\Debug\Inventario.exe.config
+C:\Users\Chrix\Documents\Visual Studio 2015\Projects\Inventario\Inventario\obj\Debug\Inventario.csprojResolveAssemblyReference.cache
+C:\Users\Chrix\Documents\Visual Studio 2015\Projects\Inventario\Inventario\obj\Debug\Inventario.FormInventarioInicio.resources
+C:\Users\Chrix\Documents\Visual Studio 2015\Projects\Inventario\Inventario\obj\Debug\Inventario.Properties.Resources.resources
+C:\Users\Chrix\Documents\Visual Studio 2015\Projects\Inventario\Inventario\obj\Debug\Inventario.csproj.GenerateResource.Cache
+C:\Users\Chrix\Documents\Visual Studio 2015\Projects\Inventario\Inventario\bin\Debug\Inventario.exe
+C:\Users\Chrix\Documents\Visual Studio 2015\Projects\Inventario\Inventario\bin\Debug\Inventario.pdb
+C:\Users\Chrix\Documents\Visual Studio 2015\Projects\Inventario\Inventario\obj\Debug\Inventario.exe
+C:\Users\Chrix\Documents\Visual Studio 2015\Projects\Inventario\Inventario\obj\Debug\Inventario.pdb
+C:\Users\Chrix\Documents\Visual Studio 2015\Projects\Inventario\Inventario\obj\Debug\Inventario.FormAgregarArticulo.resources
+C:\Users\GABRIELA\Desktop\Inventario\Inventario\bin\Debug\Inventario.exe.config
+C:\Users\GABRIELA\Desktop\Inventario\Inventario\obj\Debug\Inventario.exe
+C:\Users\GABRIELA\Desktop\Inventario\Inventario\obj\Debug\Inventario.pdb
+C:\Users\GABRIELA\Desktop\Inventario\Inventario\bin\Debug\Inventario.exe
+C:\Users\GABRIELA\Desktop\Inventario\Inventario\bin\Debug\Inventario.pdb
+C:\Users\GABRIELA\Desktop\Inventario\Inventario\obj\Debug\Inventario.csprojResolveAssemblyReference.cache
+C:\Users\GABRIELA\Desktop\Inventario\Inventario\obj\Debug\Inventario.FormAgregarArticulo.resources
+C:\Users\GABRIELA\Desktop\Inventario\Inventario\obj\Debug\Inventario.FormInventarioInicio.resources
+C:\Users\GABRIELA\Desktop\Inventario\Inventario\obj\Debug\Inventario.marca.resources
+C:\Users\GABRIELA\Desktop\Inventario\Inventario\obj\Debug\Inventario.Properties.Resources.resources
+C:\Users\GABRIELA\Desktop\Inventario\Inventario\obj\Debug\Inventario.csproj.GenerateResource.Cache
+C:\Users\GABRIELA\Desktop\Inventario\Inventario\obj\Debug\Inventario.Bodega.resources
+C:\Users\GABRIELA\Desktop\Inventario\Inventario\obj\Debug\Inventario.Categoria.resources
+C:\Users\GABRIELA\Desktop\Inventario\Inventario\obj\Debug\Inventario.Kardex_materia_prima.resources
+C:\Users\GABRIELA\Desktop\Inventario\Inventario\obj\Debug\Inventario.Materia_prima.resources
+C:\Users\GABRIELA\Desktop\Inventario\Inventario\obj\Debug\Inventario.Muestreo_producto_terminado.resources
+C:\Users\GABRIELA\Desktop\Inventario\Inventario\obj\Debug\Inventario.Muestreo_materia_prima.resources
+C:\Users\GABRIELA\Desktop\Inventario\Inventario\obj\Debug\Inventario.Producto_terminado.resources
+C:\Users\GABRIELA\Desktop\Inventario\Inventario\obj\Debug\Inventario.Reporte_de_existencias.resources
+C:\Users\GABRIELA\Desktop\Inventario\Inventario\obj\Debug\Inventario.contenedor.resources
+C:\Users\GABRIELA\Music\Inventario\Inventario\bin\Debug\Inventario.exe.config
+C:\Users\GABRIELA\Music\Inventario\Inventario\obj\Debug\Inventario.exe
+C:\Users\GABRIELA\Music\Inventario\Inventario\obj\Debug\Inventario.pdb
