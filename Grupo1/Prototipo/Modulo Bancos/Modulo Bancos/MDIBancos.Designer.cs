@@ -42,6 +42,7 @@
             this.toolStripSeparator8 = new System.Windows.Forms.ToolStripSeparator();
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolTip = new System.Windows.Forms.ToolTip(this.components);
+            this.disponibilidadBancariaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -61,7 +62,8 @@
             this.bancosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.documentosToolStripMenuItem,
             this.chequeVoucherToolStripMenuItem,
-            this.conciliacionBancariaToolStripMenuItem});
+            this.conciliacionBancariaToolStripMenuItem,
+            this.disponibilidadBancariaToolStripMenuItem});
             this.bancosToolStripMenuItem.Name = "bancosToolStripMenuItem";
             this.bancosToolStripMenuItem.Size = new System.Drawing.Size(57, 20);
             this.bancosToolStripMenuItem.Text = "Bancos";
@@ -69,21 +71,21 @@
             // documentosToolStripMenuItem
             // 
             this.documentosToolStripMenuItem.Name = "documentosToolStripMenuItem";
-            this.documentosToolStripMenuItem.Size = new System.Drawing.Size(188, 22);
+            this.documentosToolStripMenuItem.Size = new System.Drawing.Size(198, 22);
             this.documentosToolStripMenuItem.Text = "Documentos";
             this.documentosToolStripMenuItem.Click += new System.EventHandler(this.documentosToolStripMenuItem_Click);
             // 
             // chequeVoucherToolStripMenuItem
             // 
             this.chequeVoucherToolStripMenuItem.Name = "chequeVoucherToolStripMenuItem";
-            this.chequeVoucherToolStripMenuItem.Size = new System.Drawing.Size(188, 22);
+            this.chequeVoucherToolStripMenuItem.Size = new System.Drawing.Size(198, 22);
             this.chequeVoucherToolStripMenuItem.Text = "Cheque Voucher";
             this.chequeVoucherToolStripMenuItem.Click += new System.EventHandler(this.chequeVoucherToolStripMenuItem_Click);
             // 
             // conciliacionBancariaToolStripMenuItem
             // 
             this.conciliacionBancariaToolStripMenuItem.Name = "conciliacionBancariaToolStripMenuItem";
-            this.conciliacionBancariaToolStripMenuItem.Size = new System.Drawing.Size(188, 22);
+            this.conciliacionBancariaToolStripMenuItem.Size = new System.Drawing.Size(198, 22);
             this.conciliacionBancariaToolStripMenuItem.Text = "Conciliacion Bancaria";
             this.conciliacionBancariaToolStripMenuItem.Click += new System.EventHandler(this.conciliacionBancariaToolStripMenuItem_Click);
             // 
@@ -133,6 +135,13 @@
             this.aboutToolStripMenuItem.Size = new System.Drawing.Size(176, 22);
             this.aboutToolStripMenuItem.Text = "&Acerca de... ...";
             // 
+            // disponibilidadBancariaToolStripMenuItem
+            // 
+            this.disponibilidadBancariaToolStripMenuItem.Name = "disponibilidadBancariaToolStripMenuItem";
+            this.disponibilidadBancariaToolStripMenuItem.Size = new System.Drawing.Size(198, 22);
+            this.disponibilidadBancariaToolStripMenuItem.Text = "Disponibilidad Bancaria";
+            this.disponibilidadBancariaToolStripMenuItem.Click += new System.EventHandler(this.disponibilidadBancariaToolStripMenuItem_Click);
+            // 
             // MDIBancos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -168,6 +177,7 @@
         private System.Windows.Forms.ToolStripMenuItem documentosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem chequeVoucherToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem conciliacionBancariaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem disponibilidadBancariaToolStripMenuItem;
     }
 }
 

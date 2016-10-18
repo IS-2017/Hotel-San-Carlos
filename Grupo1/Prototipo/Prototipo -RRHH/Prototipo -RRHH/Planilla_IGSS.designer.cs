@@ -41,24 +41,18 @@
             this.btn_buscar = new System.Windows.Forms.Button();
             this.btn_actualizar = new System.Windows.Forms.Button();
             this.btn_cancelar = new System.Windows.Forms.Button();
-            this.cbo_emp = new System.Windows.Forms.ComboBox();
-            this.lbl_emp = new System.Windows.Forms.Label();
             this.gpb_pigss = new System.Windows.Forms.GroupBox();
-            this.lbl_total = new System.Windows.Forms.Label();
-            this.txt_total_s = new System.Windows.Forms.TextBox();
-            this.txt_igss = new System.Windows.Forms.TextBox();
-            this.lbl_igss = new System.Windows.Forms.Label();
-            this.lbl_sueldo = new System.Windows.Forms.Label();
-            this.txt_sueldo = new System.Windows.Forms.TextBox();
             this.txt_nom_emp = new System.Windows.Forms.TextBox();
             this.lbl_nombre_emp = new System.Windows.Forms.Label();
             this.cbo_empres = new System.Windows.Forms.ComboBox();
             this.lbl_empres = new System.Windows.Forms.Label();
-            this.lbl_nomina = new System.Windows.Forms.Label();
-            this.cbo_nomina = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.label2 = new System.Windows.Forms.Label();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.groupBox1.SuspendLayout();
             this.gpb_pigss.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -75,7 +69,7 @@
             this.groupBox1.Controls.Add(this.btn_actualizar);
             this.groupBox1.Controls.Add(this.btn_cancelar);
             this.groupBox1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(34, 80);
+            this.groupBox1.Location = new System.Drawing.Point(125, 78);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(649, 102);
             this.groupBox1.TabIndex = 11;
@@ -247,117 +241,44 @@
             this.btn_cancelar.TabIndex = 5;
             this.btn_cancelar.UseVisualStyleBackColor = true;
             // 
-            // cbo_emp
-            // 
-            this.cbo_emp.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cbo_emp.FormattingEnabled = true;
-            this.cbo_emp.Location = new System.Drawing.Point(126, 123);
-            this.cbo_emp.Name = "cbo_emp";
-            this.cbo_emp.Size = new System.Drawing.Size(121, 29);
-            this.cbo_emp.TabIndex = 160;
-            // 
-            // lbl_emp
-            // 
-            this.lbl_emp.AutoSize = true;
-            this.lbl_emp.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_emp.Location = new System.Drawing.Point(33, 123);
-            this.lbl_emp.Name = "lbl_emp";
-            this.lbl_emp.Size = new System.Drawing.Size(90, 21);
-            this.lbl_emp.TabIndex = 161;
-            this.lbl_emp.Text = "Empleado";
-            // 
             // gpb_pigss
             // 
-            this.gpb_pigss.Controls.Add(this.lbl_total);
-            this.gpb_pigss.Controls.Add(this.txt_total_s);
-            this.gpb_pigss.Controls.Add(this.txt_igss);
-            this.gpb_pigss.Controls.Add(this.lbl_igss);
-            this.gpb_pigss.Controls.Add(this.lbl_sueldo);
-            this.gpb_pigss.Controls.Add(this.txt_sueldo);
+            this.gpb_pigss.Controls.Add(this.dataGridView1);
+            this.gpb_pigss.Controls.Add(this.label2);
+            this.gpb_pigss.Controls.Add(this.dateTimePicker1);
             this.gpb_pigss.Controls.Add(this.txt_nom_emp);
             this.gpb_pigss.Controls.Add(this.lbl_nombre_emp);
             this.gpb_pigss.Controls.Add(this.cbo_empres);
             this.gpb_pigss.Controls.Add(this.lbl_empres);
-            this.gpb_pigss.Controls.Add(this.lbl_nomina);
-            this.gpb_pigss.Controls.Add(this.cbo_nomina);
-            this.gpb_pigss.Controls.Add(this.cbo_emp);
-            this.gpb_pigss.Controls.Add(this.lbl_emp);
             this.gpb_pigss.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gpb_pigss.Location = new System.Drawing.Point(34, 202);
+            this.gpb_pigss.Location = new System.Drawing.Point(24, 202);
             this.gpb_pigss.Name = "gpb_pigss";
-            this.gpb_pigss.Size = new System.Drawing.Size(649, 291);
+            this.gpb_pigss.Size = new System.Drawing.Size(815, 291);
             this.gpb_pigss.TabIndex = 162;
             this.gpb_pigss.TabStop = false;
             this.gpb_pigss.Text = "Datos";
             // 
-            // lbl_total
-            // 
-            this.lbl_total.AutoSize = true;
-            this.lbl_total.Location = new System.Drawing.Point(33, 249);
-            this.lbl_total.Name = "lbl_total";
-            this.lbl_total.Size = new System.Drawing.Size(49, 21);
-            this.lbl_total.TabIndex = 173;
-            this.lbl_total.Text = "Total";
-            // 
-            // txt_total_s
-            // 
-            this.txt_total_s.Location = new System.Drawing.Point(131, 243);
-            this.txt_total_s.Name = "txt_total_s";
-            this.txt_total_s.Size = new System.Drawing.Size(100, 27);
-            this.txt_total_s.TabIndex = 172;
-            // 
-            // txt_igss
-            // 
-            this.txt_igss.Location = new System.Drawing.Point(344, 202);
-            this.txt_igss.Name = "txt_igss";
-            this.txt_igss.Size = new System.Drawing.Size(100, 27);
-            this.txt_igss.TabIndex = 171;
-            // 
-            // lbl_igss
-            // 
-            this.lbl_igss.AutoSize = true;
-            this.lbl_igss.Location = new System.Drawing.Point(290, 205);
-            this.lbl_igss.Name = "lbl_igss";
-            this.lbl_igss.Size = new System.Drawing.Size(45, 21);
-            this.lbl_igss.TabIndex = 170;
-            this.lbl_igss.Text = "IGSS";
-            // 
-            // lbl_sueldo
-            // 
-            this.lbl_sueldo.AutoSize = true;
-            this.lbl_sueldo.Location = new System.Drawing.Point(33, 202);
-            this.lbl_sueldo.Name = "lbl_sueldo";
-            this.lbl_sueldo.Size = new System.Drawing.Size(62, 21);
-            this.lbl_sueldo.TabIndex = 169;
-            this.lbl_sueldo.Text = "Sueldo";
-            // 
-            // txt_sueldo
-            // 
-            this.txt_sueldo.Location = new System.Drawing.Point(131, 202);
-            this.txt_sueldo.Name = "txt_sueldo";
-            this.txt_sueldo.Size = new System.Drawing.Size(100, 27);
-            this.txt_sueldo.TabIndex = 168;
-            // 
             // txt_nom_emp
             // 
-            this.txt_nom_emp.Location = new System.Drawing.Point(196, 159);
+            this.txt_nom_emp.Location = new System.Drawing.Point(402, 38);
             this.txt_nom_emp.Name = "txt_nom_emp";
-            this.txt_nom_emp.Size = new System.Drawing.Size(437, 27);
+            this.txt_nom_emp.Size = new System.Drawing.Size(85, 27);
             this.txt_nom_emp.TabIndex = 167;
             // 
             // lbl_nombre_emp
             // 
             this.lbl_nombre_emp.AutoSize = true;
-            this.lbl_nombre_emp.Location = new System.Drawing.Point(33, 165);
+            this.lbl_nombre_emp.Location = new System.Drawing.Point(331, 41);
             this.lbl_nombre_emp.Name = "lbl_nombre_emp";
-            this.lbl_nombre_emp.Size = new System.Drawing.Size(157, 21);
+            this.lbl_nombre_emp.Size = new System.Drawing.Size(65, 21);
             this.lbl_nombre_emp.TabIndex = 166;
-            this.lbl_nombre_emp.Text = "Nombre Empleado";
+            this.lbl_nombre_emp.Text = "% IGSS:";
             // 
             // cbo_empres
             // 
+            this.cbo_empres.Enabled = false;
             this.cbo_empres.FormattingEnabled = true;
-            this.cbo_empres.Location = new System.Drawing.Point(126, 82);
+            this.cbo_empres.Location = new System.Drawing.Point(101, 37);
             this.cbo_empres.Name = "cbo_empres";
             this.cbo_empres.Size = new System.Drawing.Size(197, 29);
             this.cbo_empres.TabIndex = 165;
@@ -365,45 +286,52 @@
             // lbl_empres
             // 
             this.lbl_empres.AutoSize = true;
-            this.lbl_empres.Location = new System.Drawing.Point(33, 82);
+            this.lbl_empres.Location = new System.Drawing.Point(18, 37);
             this.lbl_empres.Name = "lbl_empres";
             this.lbl_empres.Size = new System.Drawing.Size(77, 21);
             this.lbl_empres.TabIndex = 164;
             this.lbl_empres.Text = "Empresa";
             // 
-            // lbl_nomina
-            // 
-            this.lbl_nomina.AutoSize = true;
-            this.lbl_nomina.Location = new System.Drawing.Point(33, 39);
-            this.lbl_nomina.Name = "lbl_nomina";
-            this.lbl_nomina.Size = new System.Drawing.Size(71, 21);
-            this.lbl_nomina.TabIndex = 163;
-            this.lbl_nomina.Text = "Nomina";
-            // 
-            // cbo_nomina
-            // 
-            this.cbo_nomina.FormattingEnabled = true;
-            this.cbo_nomina.Location = new System.Drawing.Point(126, 39);
-            this.cbo_nomina.Name = "cbo_nomina";
-            this.cbo_nomina.Size = new System.Drawing.Size(339, 29);
-            this.cbo_nomina.TabIndex = 162;
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(294, 19);
+            this.label1.Location = new System.Drawing.Point(404, 23);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(184, 36);
             this.label1.TabIndex = 163;
             this.label1.Text = "Planilla IGSS";
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Location = new System.Drawing.Point(582, 35);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(200, 27);
+            this.dateTimePicker1.TabIndex = 174;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(513, 40);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(63, 21);
+            this.label2.TabIndex = 175;
+            this.label2.Text = "Fecha:";
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(22, 83);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(760, 190);
+            this.dataGridView1.TabIndex = 176;
             // 
             // Planilla_IGSS
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(204)))), ((int)(((byte)(150)))));
-            this.ClientSize = new System.Drawing.Size(731, 533);
+            this.ClientSize = new System.Drawing.Size(877, 533);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.gpb_pigss);
@@ -416,6 +344,7 @@
             this.groupBox1.ResumeLayout(false);
             this.gpb_pigss.ResumeLayout(false);
             this.gpb_pigss.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -434,21 +363,14 @@
         private System.Windows.Forms.Button btn_buscar;
         private System.Windows.Forms.Button btn_actualizar;
         private System.Windows.Forms.Button btn_cancelar;
-        private System.Windows.Forms.ComboBox cbo_emp;
-        private System.Windows.Forms.Label lbl_emp;
         private System.Windows.Forms.GroupBox gpb_pigss;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ComboBox cbo_empres;
         private System.Windows.Forms.Label lbl_empres;
-        private System.Windows.Forms.Label lbl_nomina;
-        private System.Windows.Forms.ComboBox cbo_nomina;
-        private System.Windows.Forms.Label lbl_total;
-        private System.Windows.Forms.TextBox txt_total_s;
-        private System.Windows.Forms.TextBox txt_igss;
-        private System.Windows.Forms.Label lbl_igss;
-        private System.Windows.Forms.Label lbl_sueldo;
-        private System.Windows.Forms.TextBox txt_sueldo;
         private System.Windows.Forms.TextBox txt_nom_emp;
         private System.Windows.Forms.Label lbl_nombre_emp;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.DataGridView dataGridView1;
     }
 }

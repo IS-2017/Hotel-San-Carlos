@@ -43,34 +43,37 @@
             this.btn_actualizar = new System.Windows.Forms.Button();
             this.btn_cancelar = new System.Windows.Forms.Button();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
-            this.cbo_tipo_documento = new System.Windows.Forms.ComboBox();
-            this.txt_no_documento = new System.Windows.Forms.TextBox();
-            this.lbl_tipo_documento = new System.Windows.Forms.Label();
-            this.lbl_no_documento = new System.Windows.Forms.Label();
-            this.dtp_fecha_documento = new System.Windows.Forms.DateTimePicker();
-            this.lbl_fecha_documento = new System.Windows.Forms.Label();
-            this.txt_destinatario = new System.Windows.Forms.TextBox();
-            this.lbl_destinatario = new System.Windows.Forms.Label();
-            this.txt_debe = new System.Windows.Forms.TextBox();
-            this.lbl_descripcion = new System.Windows.Forms.Label();
-            this.lbl_conciliado = new System.Windows.Forms.Label();
-            this.txt_haber = new System.Windows.Forms.TextBox();
-            this.lbl_estado = new System.Windows.Forms.Label();
-            this.cbo_conciliado = new System.Windows.Forms.ComboBox();
-            this.txt_valor_total = new System.Windows.Forms.TextBox();
-            this.lbl_valor_total = new System.Windows.Forms.Label();
-            this.lbl_codigo_cuenta = new System.Windows.Forms.Label();
-            this.txt_codigo_cuenta = new System.Windows.Forms.TextBox();
-            this.txt_nombre_cuenta = new System.Windows.Forms.TextBox();
-            this.lbl_nombre_cuenta = new System.Windows.Forms.Label();
-            this.txt_descripcion = new System.Windows.Forms.TextBox();
-            this.txt_estado = new System.Windows.Forms.TextBox();
-            this.debe_debe = new System.Windows.Forms.Label();
-            this.lbl_haber = new System.Windows.Forms.Label();
-            this.gpb_datos_documento = new System.Windows.Forms.GroupBox();
             this.lbl_documento = new System.Windows.Forms.Label();
+            this.tabControl = new System.Windows.Forms.TabControl();
+            this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.lbl_empre = new System.Windows.Forms.Label();
+            this.cbo_empre = new System.Windows.Forms.ComboBox();
+            this.lbl_ctn_bac = new System.Windows.Forms.Label();
+            this.cbo_ctn_bac = new System.Windows.Forms.ComboBox();
+            this.txt_monto = new System.Windows.Forms.TextBox();
+            this.lbl_mt = new System.Windows.Forms.Label();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.lbl_fecha = new System.Windows.Forms.Label();
+            this.lbl_referido = new System.Windows.Forms.Label();
+            this.txt_ref = new System.Windows.Forms.TextBox();
+            this.lbl_no_documento = new System.Windows.Forms.Label();
+            this.lbl_tipo_documento = new System.Windows.Forms.Label();
+            this.txt_no_documento = new System.Windows.Forms.TextBox();
+            this.cbo_tipo_documento = new System.Windows.Forms.ComboBox();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.Cuenta = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Debe = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Haber = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.gpb_navegador.SuspendLayout();
-            this.gpb_datos_documento.SuspendLayout();
+            this.tabControl.SuspendLayout();
+            this.tabPage1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.tabPage2.SuspendLayout();
             this.SuspendLayout();
             // 
             // gpb_navegador
@@ -272,248 +275,6 @@
             this.toolTip1.SetToolTip(this.btn_cancelar, "Cancelar");
             this.btn_cancelar.UseVisualStyleBackColor = true;
             // 
-            // cbo_tipo_documento
-            // 
-            this.cbo_tipo_documento.FormattingEnabled = true;
-            this.cbo_tipo_documento.Location = new System.Drawing.Point(169, 58);
-            this.cbo_tipo_documento.Name = "cbo_tipo_documento";
-            this.cbo_tipo_documento.Size = new System.Drawing.Size(178, 29);
-            this.cbo_tipo_documento.TabIndex = 13;
-            // 
-            // txt_no_documento
-            // 
-            this.txt_no_documento.Location = new System.Drawing.Point(168, 94);
-            this.txt_no_documento.Name = "txt_no_documento";
-            this.txt_no_documento.Size = new System.Drawing.Size(178, 27);
-            this.txt_no_documento.TabIndex = 14;
-            // 
-            // lbl_tipo_documento
-            // 
-            this.lbl_tipo_documento.AutoSize = true;
-            this.lbl_tipo_documento.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lbl_tipo_documento.Location = new System.Drawing.Point(2, 60);
-            this.lbl_tipo_documento.Name = "lbl_tipo_documento";
-            this.lbl_tipo_documento.Size = new System.Drawing.Size(164, 21);
-            this.lbl_tipo_documento.TabIndex = 15;
-            this.lbl_tipo_documento.Text = "Tipo de documento";
-            // 
-            // lbl_no_documento
-            // 
-            this.lbl_no_documento.AutoSize = true;
-            this.lbl_no_documento.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lbl_no_documento.Location = new System.Drawing.Point(36, 99);
-            this.lbl_no_documento.Name = "lbl_no_documento";
-            this.lbl_no_documento.Size = new System.Drawing.Size(130, 21);
-            this.lbl_no_documento.TabIndex = 16;
-            this.lbl_no_documento.Text = "No Documento";
-            // 
-            // dtp_fecha_documento
-            // 
-            this.dtp_fecha_documento.Location = new System.Drawing.Point(531, 65);
-            this.dtp_fecha_documento.Name = "dtp_fecha_documento";
-            this.dtp_fecha_documento.Size = new System.Drawing.Size(208, 27);
-            this.dtp_fecha_documento.TabIndex = 17;
-            // 
-            // lbl_fecha_documento
-            // 
-            this.lbl_fecha_documento.AutoSize = true;
-            this.lbl_fecha_documento.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lbl_fecha_documento.Location = new System.Drawing.Point(358, 66);
-            this.lbl_fecha_documento.Name = "lbl_fecha_documento";
-            this.lbl_fecha_documento.Size = new System.Drawing.Size(157, 21);
-            this.lbl_fecha_documento.TabIndex = 18;
-            this.lbl_fecha_documento.Text = "Fecha Documento";
-            // 
-            // txt_destinatario
-            // 
-            this.txt_destinatario.Location = new System.Drawing.Point(168, 133);
-            this.txt_destinatario.Name = "txt_destinatario";
-            this.txt_destinatario.Size = new System.Drawing.Size(178, 27);
-            this.txt_destinatario.TabIndex = 19;
-            // 
-            // lbl_destinatario
-            // 
-            this.lbl_destinatario.AutoSize = true;
-            this.lbl_destinatario.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lbl_destinatario.Location = new System.Drawing.Point(58, 136);
-            this.lbl_destinatario.Name = "lbl_destinatario";
-            this.lbl_destinatario.Size = new System.Drawing.Size(105, 21);
-            this.lbl_destinatario.TabIndex = 20;
-            this.lbl_destinatario.Text = "Destinatario";
-            // 
-            // txt_debe
-            // 
-            this.txt_debe.Location = new System.Drawing.Point(529, 212);
-            this.txt_debe.Name = "txt_debe";
-            this.txt_debe.Size = new System.Drawing.Size(208, 27);
-            this.txt_debe.TabIndex = 21;
-            // 
-            // lbl_descripcion
-            // 
-            this.lbl_descripcion.AutoSize = true;
-            this.lbl_descripcion.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lbl_descripcion.Location = new System.Drawing.Point(55, 171);
-            this.lbl_descripcion.Name = "lbl_descripcion";
-            this.lbl_descripcion.Size = new System.Drawing.Size(100, 21);
-            this.lbl_descripcion.TabIndex = 22;
-            this.lbl_descripcion.Text = "Descripcion";
-            // 
-            // lbl_conciliado
-            // 
-            this.lbl_conciliado.AutoSize = true;
-            this.lbl_conciliado.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lbl_conciliado.Location = new System.Drawing.Point(415, 101);
-            this.lbl_conciliado.Name = "lbl_conciliado";
-            this.lbl_conciliado.Size = new System.Drawing.Size(94, 21);
-            this.lbl_conciliado.TabIndex = 23;
-            this.lbl_conciliado.Text = "Conciliado";
-            // 
-            // txt_haber
-            // 
-            this.txt_haber.Location = new System.Drawing.Point(529, 248);
-            this.txt_haber.Name = "txt_haber";
-            this.txt_haber.Size = new System.Drawing.Size(208, 27);
-            this.txt_haber.TabIndex = 24;
-            // 
-            // lbl_estado
-            // 
-            this.lbl_estado.AutoSize = true;
-            this.lbl_estado.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lbl_estado.Location = new System.Drawing.Point(91, 207);
-            this.lbl_estado.Name = "lbl_estado";
-            this.lbl_estado.Size = new System.Drawing.Size(64, 21);
-            this.lbl_estado.TabIndex = 25;
-            this.lbl_estado.Text = "Estado";
-            // 
-            // cbo_conciliado
-            // 
-            this.cbo_conciliado.FormattingEnabled = true;
-            this.cbo_conciliado.Location = new System.Drawing.Point(530, 99);
-            this.cbo_conciliado.Name = "cbo_conciliado";
-            this.cbo_conciliado.Size = new System.Drawing.Size(208, 29);
-            this.cbo_conciliado.TabIndex = 26;
-            // 
-            // txt_valor_total
-            // 
-            this.txt_valor_total.Location = new System.Drawing.Point(166, 236);
-            this.txt_valor_total.Name = "txt_valor_total";
-            this.txt_valor_total.Size = new System.Drawing.Size(181, 27);
-            this.txt_valor_total.TabIndex = 27;
-            // 
-            // lbl_valor_total
-            // 
-            this.lbl_valor_total.AutoSize = true;
-            this.lbl_valor_total.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lbl_valor_total.Location = new System.Drawing.Point(62, 242);
-            this.lbl_valor_total.Name = "lbl_valor_total";
-            this.lbl_valor_total.Size = new System.Drawing.Size(93, 21);
-            this.lbl_valor_total.TabIndex = 28;
-            this.lbl_valor_total.Text = "Valor Total";
-            // 
-            // lbl_codigo_cuenta
-            // 
-            this.lbl_codigo_cuenta.AutoSize = true;
-            this.lbl_codigo_cuenta.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lbl_codigo_cuenta.Location = new System.Drawing.Point(379, 139);
-            this.lbl_codigo_cuenta.Name = "lbl_codigo_cuenta";
-            this.lbl_codigo_cuenta.Size = new System.Drawing.Size(133, 21);
-            this.lbl_codigo_cuenta.TabIndex = 30;
-            this.lbl_codigo_cuenta.Text = "Codigo Cuenta";
-            // 
-            // txt_codigo_cuenta
-            // 
-            this.txt_codigo_cuenta.Location = new System.Drawing.Point(529, 141);
-            this.txt_codigo_cuenta.Name = "txt_codigo_cuenta";
-            this.txt_codigo_cuenta.Size = new System.Drawing.Size(208, 27);
-            this.txt_codigo_cuenta.TabIndex = 31;
-            this.txt_codigo_cuenta.TextChanged += new System.EventHandler(this.textBox6_TextChanged);
-            // 
-            // txt_nombre_cuenta
-            // 
-            this.txt_nombre_cuenta.Location = new System.Drawing.Point(529, 178);
-            this.txt_nombre_cuenta.Name = "txt_nombre_cuenta";
-            this.txt_nombre_cuenta.Size = new System.Drawing.Size(208, 27);
-            this.txt_nombre_cuenta.TabIndex = 32;
-            // 
-            // lbl_nombre_cuenta
-            // 
-            this.lbl_nombre_cuenta.AutoSize = true;
-            this.lbl_nombre_cuenta.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lbl_nombre_cuenta.Location = new System.Drawing.Point(377, 178);
-            this.lbl_nombre_cuenta.Name = "lbl_nombre_cuenta";
-            this.lbl_nombre_cuenta.Size = new System.Drawing.Size(138, 21);
-            this.lbl_nombre_cuenta.TabIndex = 33;
-            this.lbl_nombre_cuenta.Text = "Nombre Cuenta";
-            // 
-            // txt_descripcion
-            // 
-            this.txt_descripcion.Location = new System.Drawing.Point(166, 168);
-            this.txt_descripcion.Name = "txt_descripcion";
-            this.txt_descripcion.Size = new System.Drawing.Size(180, 27);
-            this.txt_descripcion.TabIndex = 34;
-            // 
-            // txt_estado
-            // 
-            this.txt_estado.Location = new System.Drawing.Point(166, 201);
-            this.txt_estado.Name = "txt_estado";
-            this.txt_estado.Size = new System.Drawing.Size(180, 27);
-            this.txt_estado.TabIndex = 35;
-            // 
-            // debe_debe
-            // 
-            this.debe_debe.AutoSize = true;
-            this.debe_debe.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.debe_debe.Location = new System.Drawing.Point(448, 210);
-            this.debe_debe.Name = "debe_debe";
-            this.debe_debe.Size = new System.Drawing.Size(53, 21);
-            this.debe_debe.TabIndex = 36;
-            this.debe_debe.Text = "Debe";
-            // 
-            // lbl_haber
-            // 
-            this.lbl_haber.AutoSize = true;
-            this.lbl_haber.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lbl_haber.Location = new System.Drawing.Point(445, 254);
-            this.lbl_haber.Name = "lbl_haber";
-            this.lbl_haber.Size = new System.Drawing.Size(58, 21);
-            this.lbl_haber.TabIndex = 37;
-            this.lbl_haber.Text = "Haber";
-            // 
-            // gpb_datos_documento
-            // 
-            this.gpb_datos_documento.Controls.Add(this.dtp_fecha_documento);
-            this.gpb_datos_documento.Controls.Add(this.lbl_valor_total);
-            this.gpb_datos_documento.Controls.Add(this.lbl_haber);
-            this.gpb_datos_documento.Controls.Add(this.txt_valor_total);
-            this.gpb_datos_documento.Controls.Add(this.lbl_fecha_documento);
-            this.gpb_datos_documento.Controls.Add(this.lbl_estado);
-            this.gpb_datos_documento.Controls.Add(this.debe_debe);
-            this.gpb_datos_documento.Controls.Add(this.txt_haber);
-            this.gpb_datos_documento.Controls.Add(this.lbl_conciliado);
-            this.gpb_datos_documento.Controls.Add(this.lbl_descripcion);
-            this.gpb_datos_documento.Controls.Add(this.txt_estado);
-            this.gpb_datos_documento.Controls.Add(this.txt_debe);
-            this.gpb_datos_documento.Controls.Add(this.cbo_conciliado);
-            this.gpb_datos_documento.Controls.Add(this.lbl_destinatario);
-            this.gpb_datos_documento.Controls.Add(this.txt_descripcion);
-            this.gpb_datos_documento.Controls.Add(this.txt_destinatario);
-            this.gpb_datos_documento.Controls.Add(this.lbl_codigo_cuenta);
-            this.gpb_datos_documento.Controls.Add(this.lbl_no_documento);
-            this.gpb_datos_documento.Controls.Add(this.lbl_nombre_cuenta);
-            this.gpb_datos_documento.Controls.Add(this.lbl_tipo_documento);
-            this.gpb_datos_documento.Controls.Add(this.txt_no_documento);
-            this.gpb_datos_documento.Controls.Add(this.txt_codigo_cuenta);
-            this.gpb_datos_documento.Controls.Add(this.cbo_tipo_documento);
-            this.gpb_datos_documento.Controls.Add(this.txt_nombre_cuenta);
-            this.gpb_datos_documento.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gpb_datos_documento.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.gpb_datos_documento.Location = new System.Drawing.Point(12, 146);
-            this.gpb_datos_documento.Name = "gpb_datos_documento";
-            this.gpb_datos_documento.Size = new System.Drawing.Size(749, 302);
-            this.gpb_datos_documento.TabIndex = 38;
-            this.gpb_datos_documento.TabStop = false;
-            this.gpb_datos_documento.Text = "Datos Documento";
-            // 
             // lbl_documento
             // 
             this.lbl_documento.AutoSize = true;
@@ -525,14 +286,249 @@
             this.lbl_documento.TabIndex = 38;
             this.lbl_documento.Text = "Documento";
             // 
+            // tabControl
+            // 
+            this.tabControl.Controls.Add(this.tabPage1);
+            this.tabControl.Controls.Add(this.tabPage2);
+            this.tabControl.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tabControl.Location = new System.Drawing.Point(12, 159);
+            this.tabControl.Margin = new System.Windows.Forms.Padding(1);
+            this.tabControl.Name = "tabControl";
+            this.tabControl.SelectedIndex = 0;
+            this.tabControl.Size = new System.Drawing.Size(736, 300);
+            this.tabControl.TabIndex = 39;
+            // 
+            // tabPage1
+            // 
+            this.tabPage1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(105)))), ((int)(((byte)(143)))));
+            this.tabPage1.Controls.Add(this.dataGridView1);
+            this.tabPage1.Controls.Add(this.lbl_empre);
+            this.tabPage1.Controls.Add(this.cbo_empre);
+            this.tabPage1.Controls.Add(this.lbl_ctn_bac);
+            this.tabPage1.Controls.Add(this.cbo_ctn_bac);
+            this.tabPage1.Controls.Add(this.txt_monto);
+            this.tabPage1.Controls.Add(this.lbl_mt);
+            this.tabPage1.Controls.Add(this.dateTimePicker1);
+            this.tabPage1.Controls.Add(this.lbl_fecha);
+            this.tabPage1.Controls.Add(this.lbl_referido);
+            this.tabPage1.Controls.Add(this.txt_ref);
+            this.tabPage1.Controls.Add(this.lbl_no_documento);
+            this.tabPage1.Controls.Add(this.lbl_tipo_documento);
+            this.tabPage1.Controls.Add(this.txt_no_documento);
+            this.tabPage1.Controls.Add(this.cbo_tipo_documento);
+            this.tabPage1.Location = new System.Drawing.Point(4, 29);
+            this.tabPage1.Name = "tabPage1";
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage1.Size = new System.Drawing.Size(728, 267);
+            this.tabPage1.TabIndex = 0;
+            this.tabPage1.Text = "tabPage1";
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Cuenta,
+            this.Debe,
+            this.Haber});
+            this.dataGridView1.Location = new System.Drawing.Point(206, 166);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(354, 90);
+            this.dataGridView1.TabIndex = 44;
+            // 
+            // lbl_empre
+            // 
+            this.lbl_empre.AutoSize = true;
+            this.lbl_empre.ForeColor = System.Drawing.Color.White;
+            this.lbl_empre.Location = new System.Drawing.Point(46, 14);
+            this.lbl_empre.Name = "lbl_empre";
+            this.lbl_empre.Size = new System.Drawing.Size(77, 20);
+            this.lbl_empre.TabIndex = 43;
+            this.lbl_empre.Text = "Empresa:";
+            // 
+            // cbo_empre
+            // 
+            this.cbo_empre.FormattingEnabled = true;
+            this.cbo_empre.Location = new System.Drawing.Point(129, 11);
+            this.cbo_empre.Name = "cbo_empre";
+            this.cbo_empre.Size = new System.Drawing.Size(163, 28);
+            this.cbo_empre.TabIndex = 42;
+            // 
+            // lbl_ctn_bac
+            // 
+            this.lbl_ctn_bac.AutoSize = true;
+            this.lbl_ctn_bac.ForeColor = System.Drawing.Color.White;
+            this.lbl_ctn_bac.Location = new System.Drawing.Point(356, 14);
+            this.lbl_ctn_bac.Name = "lbl_ctn_bac";
+            this.lbl_ctn_bac.Size = new System.Drawing.Size(128, 20);
+            this.lbl_ctn_bac.TabIndex = 41;
+            this.lbl_ctn_bac.Text = "Cuenta Bancaria";
+            // 
+            // cbo_ctn_bac
+            // 
+            this.cbo_ctn_bac.FormattingEnabled = true;
+            this.cbo_ctn_bac.Location = new System.Drawing.Point(502, 11);
+            this.cbo_ctn_bac.Name = "cbo_ctn_bac";
+            this.cbo_ctn_bac.Size = new System.Drawing.Size(163, 28);
+            this.cbo_ctn_bac.TabIndex = 40;
+            // 
+            // txt_monto
+            // 
+            this.txt_monto.Location = new System.Drawing.Point(509, 129);
+            this.txt_monto.Name = "txt_monto";
+            this.txt_monto.Size = new System.Drawing.Size(51, 26);
+            this.txt_monto.TabIndex = 39;
+            // 
+            // lbl_mt
+            // 
+            this.lbl_mt.AutoSize = true;
+            this.lbl_mt.ForeColor = System.Drawing.Color.White;
+            this.lbl_mt.Location = new System.Drawing.Point(444, 132);
+            this.lbl_mt.Name = "lbl_mt";
+            this.lbl_mt.Size = new System.Drawing.Size(58, 20);
+            this.lbl_mt.TabIndex = 38;
+            this.lbl_mt.Text = "Monto:";
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Location = new System.Drawing.Point(114, 90);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(285, 26);
+            this.dateTimePicker1.TabIndex = 37;
+            // 
+            // lbl_fecha
+            // 
+            this.lbl_fecha.AutoSize = true;
+            this.lbl_fecha.ForeColor = System.Drawing.Color.White;
+            this.lbl_fecha.Location = new System.Drawing.Point(46, 95);
+            this.lbl_fecha.Name = "lbl_fecha";
+            this.lbl_fecha.Size = new System.Drawing.Size(58, 20);
+            this.lbl_fecha.TabIndex = 36;
+            this.lbl_fecha.Text = "Fecha:";
+            // 
+            // lbl_referido
+            // 
+            this.lbl_referido.AutoSize = true;
+            this.lbl_referido.ForeColor = System.Drawing.Color.White;
+            this.lbl_referido.Location = new System.Drawing.Point(46, 132);
+            this.lbl_referido.Name = "lbl_referido";
+            this.lbl_referido.Size = new System.Drawing.Size(89, 20);
+            this.lbl_referido.TabIndex = 35;
+            this.lbl_referido.Text = "Paguese a:";
+            // 
+            // txt_ref
+            // 
+            this.txt_ref.Location = new System.Drawing.Point(148, 129);
+            this.txt_ref.Name = "txt_ref";
+            this.txt_ref.Size = new System.Drawing.Size(239, 26);
+            this.txt_ref.TabIndex = 34;
+            // 
+            // lbl_no_documento
+            // 
+            this.lbl_no_documento.AutoSize = true;
+            this.lbl_no_documento.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lbl_no_documento.Location = new System.Drawing.Point(401, 57);
+            this.lbl_no_documento.Name = "lbl_no_documento";
+            this.lbl_no_documento.Size = new System.Drawing.Size(120, 20);
+            this.lbl_no_documento.TabIndex = 33;
+            this.lbl_no_documento.Text = "No Documento:";
+            // 
+            // lbl_tipo_documento
+            // 
+            this.lbl_tipo_documento.AutoSize = true;
+            this.lbl_tipo_documento.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lbl_tipo_documento.Location = new System.Drawing.Point(46, 55);
+            this.lbl_tipo_documento.Name = "lbl_tipo_documento";
+            this.lbl_tipo_documento.Size = new System.Drawing.Size(149, 20);
+            this.lbl_tipo_documento.TabIndex = 32;
+            this.lbl_tipo_documento.Text = "Tipo de documento:";
+            // 
+            // txt_no_documento
+            // 
+            this.txt_no_documento.Location = new System.Drawing.Point(536, 52);
+            this.txt_no_documento.Name = "txt_no_documento";
+            this.txt_no_documento.Size = new System.Drawing.Size(129, 26);
+            this.txt_no_documento.TabIndex = 31;
+            // 
+            // cbo_tipo_documento
+            // 
+            this.cbo_tipo_documento.FormattingEnabled = true;
+            this.cbo_tipo_documento.Location = new System.Drawing.Point(216, 52);
+            this.cbo_tipo_documento.Name = "cbo_tipo_documento";
+            this.cbo_tipo_documento.Size = new System.Drawing.Size(129, 28);
+            this.cbo_tipo_documento.TabIndex = 30;
+            // 
+            // tabPage2
+            // 
+            this.tabPage2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(105)))), ((int)(((byte)(143)))));
+            this.tabPage2.Controls.Add(this.textBox1);
+            this.tabPage2.Controls.Add(this.label1);
+            this.tabPage2.Controls.Add(this.label2);
+            this.tabPage2.Controls.Add(this.textBox2);
+            this.tabPage2.Location = new System.Drawing.Point(4, 29);
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage2.Size = new System.Drawing.Size(728, 267);
+            this.tabPage2.TabIndex = 1;
+            this.tabPage2.Text = "tabPage2";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(96, 68);
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(576, 175);
+            this.textBox1.TabIndex = 43;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(32, 68);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(63, 20);
+            this.label1.TabIndex = 42;
+            this.label1.Text = "Detalle:";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(29, 26);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(153, 20);
+            this.label2.TabIndex = 41;
+            this.label2.Text = "Nombre documento:";
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(188, 23);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(239, 26);
+            this.textBox2.TabIndex = 40;
+            // 
+            // Cuenta
+            // 
+            this.Cuenta.HeaderText = "Cuenta";
+            this.Cuenta.Name = "Cuenta";
+            // 
+            // Debe
+            // 
+            this.Debe.HeaderText = "Debe";
+            this.Debe.Name = "Debe";
+            // 
+            // Haber
+            // 
+            this.Haber.HeaderText = "Haber";
+            this.Haber.Name = "Haber";
+            // 
             // Documento
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(105)))), ((int)(((byte)(143)))));
             this.ClientSize = new System.Drawing.Size(782, 471);
+            this.Controls.Add(this.tabControl);
             this.Controls.Add(this.lbl_documento);
-            this.Controls.Add(this.gpb_datos_documento);
             this.Controls.Add(this.gpb_navegador);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
@@ -540,8 +536,12 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Documento";
             this.gpb_navegador.ResumeLayout(false);
-            this.gpb_datos_documento.ResumeLayout(false);
-            this.gpb_datos_documento.PerformLayout();
+            this.tabControl.ResumeLayout(false);
+            this.tabPage1.ResumeLayout(false);
+            this.tabPage1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.tabPage2.ResumeLayout(false);
+            this.tabPage2.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -562,32 +562,32 @@
         private System.Windows.Forms.Button btn_actualizar;
         private System.Windows.Forms.Button btn_cancelar;
         private System.Windows.Forms.ToolTip toolTip1;
-        private System.Windows.Forms.ComboBox cbo_tipo_documento;
-        private System.Windows.Forms.TextBox txt_no_documento;
-        private System.Windows.Forms.Label lbl_tipo_documento;
-        private System.Windows.Forms.Label lbl_no_documento;
-        private System.Windows.Forms.DateTimePicker dtp_fecha_documento;
-        private System.Windows.Forms.Label lbl_fecha_documento;
-        private System.Windows.Forms.TextBox txt_destinatario;
-        private System.Windows.Forms.Label lbl_destinatario;
-        private System.Windows.Forms.TextBox txt_debe;
-        private System.Windows.Forms.Label lbl_descripcion;
-        private System.Windows.Forms.Label lbl_conciliado;
-        private System.Windows.Forms.TextBox txt_haber;
-        private System.Windows.Forms.Label lbl_estado;
-        private System.Windows.Forms.ComboBox cbo_conciliado;
-        private System.Windows.Forms.TextBox txt_valor_total;
-        private System.Windows.Forms.Label lbl_valor_total;
-        private System.Windows.Forms.Label lbl_codigo_cuenta;
-        private System.Windows.Forms.TextBox txt_codigo_cuenta;
-        private System.Windows.Forms.TextBox txt_nombre_cuenta;
-        private System.Windows.Forms.Label lbl_nombre_cuenta;
-        private System.Windows.Forms.TextBox txt_descripcion;
-        private System.Windows.Forms.TextBox txt_estado;
-        private System.Windows.Forms.Label debe_debe;
-        private System.Windows.Forms.Label lbl_haber;
-        private System.Windows.Forms.GroupBox gpb_datos_documento;
         private System.Windows.Forms.Label lbl_documento;
+        private System.Windows.Forms.TabControl tabControl;
+        private System.Windows.Forms.TabPage tabPage1;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Label lbl_empre;
+        private System.Windows.Forms.ComboBox cbo_empre;
+        private System.Windows.Forms.Label lbl_ctn_bac;
+        private System.Windows.Forms.ComboBox cbo_ctn_bac;
+        private System.Windows.Forms.TextBox txt_monto;
+        private System.Windows.Forms.Label lbl_mt;
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.Label lbl_fecha;
+        private System.Windows.Forms.Label lbl_referido;
+        private System.Windows.Forms.TextBox txt_ref;
+        private System.Windows.Forms.Label lbl_no_documento;
+        private System.Windows.Forms.Label lbl_tipo_documento;
+        private System.Windows.Forms.TextBox txt_no_documento;
+        private System.Windows.Forms.ComboBox cbo_tipo_documento;
+        private System.Windows.Forms.TabPage tabPage2;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Cuenta;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Debe;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Haber;
     }
 }
 
