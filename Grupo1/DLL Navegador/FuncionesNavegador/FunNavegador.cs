@@ -44,7 +44,29 @@ namespace FuncionesNavegador
             }
             string query = query1 + ") " + query2 + ");";
             Conexionmysql.EjecutarMySql(query);
+            MessageBox.Show("Se inserto el registro", "Confirmado", MessageBoxButtons.OK, MessageBoxIcon.Information);
             Conexionmysql.Desconectar();
+        }
+
+        public DataTable construirDataTable(TextBox[] textbox)
+        {
+            DataTable datos = new DataTable();
+            datos.Columns.Add("Columna", typeof(string));
+            datos.Columns.Add("Valor", typeof(string));
+            DataRow fila;
+            foreach (TextBox tb in textbox)
+            {
+                fila = datos.NewRow();
+                fila["Columna"] = tb.Tag.ToString();
+                fila["Valor"] = tb.Text;
+                if (tb.Text == "")
+                {
+                    datos.Clear();
+                    return datos;
+                }
+                datos.Rows.Add(fila);
+            }
+            return datos;
         }
 
         public void modificar(DataTable datos, string tabla,string atributo,string comparar)
@@ -71,6 +93,7 @@ namespace FuncionesNavegador
             string query = query1 + query2 + "'" + comparar+"'"+ ";";
             //MessageBox.Show(query);
             Conexionmysql.EjecutarMySql(query);
+            MessageBox.Show("Se realizo la modificacion del registro", "Confirmado", MessageBoxButtons.OK, MessageBoxIcon.Information);
             Conexionmysql.Desconectar();
         }
 
@@ -80,8 +103,9 @@ namespace FuncionesNavegador
             string igual = "=";
             string comillas = "";
             string query = "UPDATE " + tabla + " SET estado =" + "'" + estado +"'" + " WHERE " + comillas +atributo + igual +comillas+ "'"+codigo +"'"+";";
-            MessageBox.Show(query);
+           // MessageBox.Show(query);
             Conexionmysql.EjecutarMySql(query);
+            MessageBox.Show("Se realizo la eliminacion del registro", "Confirmado", MessageBoxButtons.OK, MessageBoxIcon.Information);
             Conexionmysql.Desconectar();
         }
         public void ActualizarGrid(DataGridView dg, String Query, string tabla)
@@ -195,6 +219,35 @@ namespace FuncionesNavegador
             // MessageBox.Show("* " + datos[1] + " /");
             return datos;
             conn.Close();
+        }
+
+        public void LimpiarTextbox(TextBox textbox)
+        {
+            textbox.Text = "";
+        }
+
+        public void LimpiarCombobox(ComboBox combobox)
+        {
+            combobox.Text = "";
+        }
+
+        public ComboBox llenarCbo(string Query, string tabla, ComboBox cbo, string valor, string mostrar)
+        {
+            //se realiza la conexión a la base de datos
+            Conexionmysql.ObtenerConexion();
+            //se inicia un DataSet
+            DataSet ds = new DataSet();
+            //se indica la consulta en sql
+            String Query1 = Query;
+            MySqlDataAdapter dad = new MySqlDataAdapter(Query1, Conexionmysql.ObtenerConexion());
+            //se indica con quu tabla se llena
+            dad.Fill(ds, tabla);
+            cbo.DataSource = ds.Tables[0].DefaultView;
+            //indicamos el valor de los miembros
+            cbo.ValueMember = (valor);
+            //se indica el valor a desplegar en el combobox
+            cbo.DisplayMember = (mostrar);
+            return cbo;
         }
     }
 }

@@ -23,8 +23,23 @@ namespace Navegador
         public string[] codigo;
         private void btn_nuevo_Click(object sender, EventArgs e)
         {
+            Editar = false; 
             FuncionDeControles ctl = new FuncionDeControles();
+            FunNavegador fn = new FunNavegador();
             ctl.ActivarControles(this);
+            fn.LimpiarTextbox(textBox1);
+            fn.LimpiarTextbox(textBox2);
+            fn.LimpiarTextbox(textBox3);
+        }
+
+        public void llenarCbo1()
+        {
+            FunNavegador obj = new FunNavegador();
+            string query = "select codigo,nombre from empleado;";
+            string tabla = "empleado";
+            string valor = "nombre";
+            string mostrar = "nombre";
+            comboBox1 = obj.llenarCbo(query, tabla, comboBox1, valor, mostrar);
         }
 
         private void Componente_Load(object sender, EventArgs e)
@@ -32,99 +47,107 @@ namespace Navegador
             /*textBox1.Enabled = false;
             textBox2.Enabled = false;
             textBox3.Enabled = false; */
+            textBox4.Visible = false;
+            textBox5.Visible = false;
             FuncionDeControles ctl = new FuncionDeControles();
             ctl.InhabilitarComponentes(this);
 
             FunNavegador fn = new FunNavegador();
-            fn.ActualizarGrid(this.dataGridView1, "Select * from empleado WHERE estado <> 'INACTIVO' ");
+            llenarCbo1();
+            //fn.ActualizarGrid(this.dataGridView1, "Select * from empleado WHERE estado <> 'INACTIVO' ");
 
         }
-        public void limpiarcajas()
-        {
-            textBox1.Text = "";
-            textBox2.Text = "";
-            textBox3.Text = "";
-        }
+
             
 
         private void btn_guardar_Click(object sender, EventArgs e)
         {
-
-            FunNavegador fn = new FunNavegador();
-            TextBox[] textbox = { textBox1, textBox2, textBox3 };
-            DataTable datos = construirDataTable(textbox);
-            if (datos.Rows.Count==0)
-            {
-                MessageBox.Show("Hay campos vacios", "Favor Verificar",MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            string tabla = "empleado";
-            if (Editar)
-            {
-                fn.modificar(datos, tabla,atributo, Codigo);
-            }
-            else
-            {
-                fn.insertar(datos, tabla);
-            }
-            fn.ActualizarGrid(this.dataGridView1, "Select * from empleado ");
-            limpiarcajas();
-        }
-        private DataTable construirDataTable(TextBox[] textbox)
-        {
-            DataTable datos = new DataTable();
-            datos.Columns.Add("Columna", typeof(string));
-            datos.Columns.Add("Valor", typeof(string));
-            DataRow fila;
-            foreach (TextBox tb in textbox)
-            {
-                fila = datos.NewRow();
-                fila["Columna"] = tb.Tag.ToString();
-                fila["Valor"] = tb.Text;
-                if (tb.Text == "")
+            /*try
+            {*/
+                textBox4.Text = comboBox1.SelectedValue.ToString();
+                textBox5.Text = dateTimePicker1.Value.ToString("yyyy-MM-dd");
+                FunNavegador fn = new FunNavegador();
+                TextBox[] textbox = { textBox2, textBox3, textBox4, textBox5 };
+                DataTable datos = fn.construirDataTable(textbox);
+                if (datos.Rows.Count == 0)
                 {
-                    datos.Clear();
-                    return datos;
+                    MessageBox.Show("Hay campos vacios", "Favor Verificar", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
-                datos.Rows.Add(fila);
-            }
-            return datos;
+                string tabla = "empleado";
+                if (Editar)
+                {
+                    fn.modificar(datos, tabla, atributo, Codigo);
+                }
+                else
+                {
+                    fn.insertar(datos, tabla);
+                }
+                // fn.ActualizarGrid(this.dataGridView1, "Select * from empleado ");
+                fn.LimpiarTextbox(textBox1);
+                fn.LimpiarTextbox(textBox2);
+                fn.LimpiarTextbox(textBox3);
+                fn.LimpiarCombobox(comboBox1);
+           /* }
+            catch
+            {
+                MessageBox.Show("Ocurrio un error durante el proceso...", "Favor Verificar", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }*/
         }
+        
 
         private void btn_editar_Click(object sender, EventArgs e)
         {
-            Editar = true;
-            atributo = "codigo";
-            Codigo = this.dataGridView1.CurrentRow.Cells[0].Value.ToString();
-            label2.Text = Codigo;
-            textBox1.Text = this.dataGridView1.CurrentRow.Cells[1].Value.ToString();
-            textBox2.Text = this.dataGridView1.CurrentRow.Cells[2].Value.ToString();
-            textBox3.Text = this.dataGridView1.CurrentRow.Cells[3].Value.ToString();
+            try
+            {
+                Editar = true;
+                atributo = "codigo";
+                Codigo = this.dataGridView1.CurrentRow.Cells[0].Value.ToString();
+                label2.Text = Codigo;
+                textBox1.Text = this.dataGridView1.CurrentRow.Cells[1].Value.ToString();
+                textBox2.Text = this.dataGridView1.CurrentRow.Cells[2].Value.ToString();
+                textBox3.Text = this.dataGridView1.CurrentRow.Cells[3].Value.ToString();
+            }
+            catch
+            {
+                MessageBox.Show("No se ha seleccionado ningun registro a editar", "Favor Verificar", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
            
         }
 
         private void btn_eliminar_Click(object sender, EventArgs e)
         {
-            String codigo2 = this.dataGridView1.CurrentRow.Cells[0].Value.ToString();
-            String atributo2 = "codigo";
-            //String campo = "estado";
-            var resultado = MessageBox.Show("DESEA BORRAR EL REGISTRO SELECCIONADO", "CONFIRME SU ACCION", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-            
-            if (resultado == DialogResult.Yes)
+            try
             {
+                String codigo2 = this.dataGridView1.CurrentRow.Cells[0].Value.ToString();
+                String atributo2 = "codigo";
+                //String campo = "estado";
+                var resultado = MessageBox.Show("DESEA BORRAR EL REGISTRO SELECCIONADO", "CONFIRME SU ACCION", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
 
-                FunNavegador fn = new FunNavegador();
-                string tabla = "empleado";
+                if (resultado == DialogResult.Yes)
+                {
 
-                fn.eliminar(tabla, atributo2, codigo2);
+                    FunNavegador fn = new FunNavegador();
+                    string tabla = "empleado";
+                    fn.eliminar(tabla, atributo2, codigo2);
 
+                }
+            }
+            catch
+            {
+                MessageBox.Show("No se ha seleccionado ningun registro a eliminar", "Favor Verificar", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
         private void btn_cancelar_Click(object sender, EventArgs e)
         {
+            Editar = false;
             FuncionDeControles ctl = new FuncionDeControles();
+            FunNavegador fn = new FunNavegador();
             ctl.LimpiarComponentes(this);
             ctl.InhabilitarComponentes(this);
+            fn.LimpiarTextbox(textBox1);
+            fn.LimpiarTextbox(textBox2);
+            fn.LimpiarTextbox(textBox3);
         }
 
         private void userControl11_Load(object sender, EventArgs e)
@@ -227,6 +250,20 @@ namespace Navegador
             FunNavegador fn = new FunNavegador();
             string tabla = "empleado";
             fn.ActualizarGrid(this.dataGridView1, "Select * from empleado WHERE estado <> 'INACTIVO' ", tabla);
+        }
+
+        private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
+        {
+        }
+
+        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
+        {
+            textBox5.Text = dateTimePicker1.Value.ToString("yyyy-MM-dd");
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            //textBox4.Text = comboBox1.SelectedValue.ToString();
         }
     }
 }
