@@ -35,7 +35,7 @@ namespace WindowsFormsApplication5
             if (Login == null)
             {
                 Login = new frm_inicio();
-                 Login.MdiParent = this;
+                //Login.MdiParent = this;
                 Login.Show();
 
             }
@@ -44,6 +44,18 @@ namespace WindowsFormsApplication5
         private void rRHHToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void cuentaCorrienteToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CuentaCorriente frm = new CuentaCorriente();
+            frm.Show();
+        }
+
+        private void comprasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ComprasProveedores frm = new ComprasProveedores();
+            frm.Show();
         }
     }
     }

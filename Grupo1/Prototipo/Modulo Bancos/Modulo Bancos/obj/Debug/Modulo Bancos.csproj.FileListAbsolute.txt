@@ -1,0 +1,57 @@
+C:\Users\ottog\Documents\Visual Studio 2015\Projects\Modulo Bancos\Modulo Bancos\bin\Debug\Modulo Bancos.exe.config
+C:\Users\ottog\Documents\Visual Studio 2015\Projects\Modulo Bancos\Modulo Bancos\bin\Debug\Modulo Bancos.exe
+C:\Users\ottog\Documents\Visual Studio 2015\Projects\Modulo Bancos\Modulo Bancos\bin\Debug\Modulo Bancos.pdb
+C:\Users\ottog\Documents\Visual Studio 2015\Projects\Modulo Bancos\Modulo Bancos\obj\Debug\Modulo Bancos.csprojResolveAssemblyReference.cache
+C:\Users\ottog\Documents\Visual Studio 2015\Projects\Modulo Bancos\Modulo Bancos\obj\Debug\Modulo_Bancos.Busqueda_Documento.resources
+C:\Users\ottog\Documents\Visual Studio 2015\Projects\Modulo Bancos\Modulo Bancos\obj\Debug\Modulo_Bancos.Documento.resources
+C:\Users\ottog\Documents\Visual Studio 2015\Projects\Modulo Bancos\Modulo Bancos\obj\Debug\Modulo_Bancos.Properties.Resources.resources
+C:\Users\ottog\Documents\Visual Studio 2015\Projects\Modulo Bancos\Modulo Bancos\obj\Debug\Modulo Bancos.csproj.GenerateResource.Cache
+C:\Users\ottog\Documents\Visual Studio 2015\Projects\Modulo Bancos\Modulo Bancos\obj\Debug\Modulo Bancos.exe
+C:\Users\ottog\Documents\Visual Studio 2015\Projects\Modulo Bancos\Modulo Bancos\obj\Debug\Modulo Bancos.pdb
+C:\Users\ottog\Documents\Visual Studio 2015\Projects\Modulo Bancos\Modulo Bancos\obj\Debug\Modulo_Bancos.MDIBancos.resources
+C:\Users\Cristian\Documents\GitHub\Hotel-San-Carlos\Grupo1\Prototipo\Modulo Bancos\Modulo Bancos\bin\Debug\Modulo Bancos.exe.config
+C:\Users\Cristian\Documents\GitHub\Hotel-San-Carlos\Grupo1\Prototipo\Modulo Bancos\Modulo Bancos\obj\Debug\Modulo Bancos.exe
+C:\Users\Cristian\Documents\GitHub\Hotel-San-Carlos\Grupo1\Prototipo\Modulo Bancos\Modulo Bancos\obj\Debug\Modulo Bancos.pdb
+C:\Users\Cristian\Documents\GitHub\Hotel-San-Carlos\Grupo1\Prototipo\Modulo Bancos\Modulo Bancos\bin\Debug\Modulo Bancos.exe
+C:\Users\Cristian\Documents\GitHub\Hotel-San-Carlos\Grupo1\Prototipo\Modulo Bancos\Modulo Bancos\bin\Debug\Modulo Bancos.pdb
+C:\Users\Cristian\Documents\GitHub\Hotel-San-Carlos\Grupo1\Prototipo\Modulo Bancos\Modulo Bancos\obj\Debug\Modulo Bancos.csprojResolveAssemblyReference.cache
+C:\Users\Cristian\Documents\GitHub\Hotel-San-Carlos\Grupo1\Prototipo\Modulo Bancos\Modulo Bancos\obj\Debug\Modulo_Bancos.Busqueda_Documento.resources
+C:\Users\Cristian\Documents\GitHub\Hotel-San-Carlos\Grupo1\Prototipo\Modulo Bancos\Modulo Bancos\obj\Debug\Modulo_Bancos.Documento.resources
+C:\Users\Cristian\Documents\GitHub\Hotel-San-Carlos\Grupo1\Prototipo\Modulo Bancos\Modulo Bancos\obj\Debug\Modulo_Bancos.MDIBancos.resources
+C:\Users\Cristian\Documents\GitHub\Hotel-San-Carlos\Grupo1\Prototipo\Modulo Bancos\Modulo Bancos\obj\Debug\Modulo_Bancos.Properties.Resources.resources
+C:\Users\Cristian\Documents\GitHub\Hotel-San-Carlos\Grupo1\Prototipo\Modulo Bancos\Modulo Bancos\obj\Debug\Modulo Bancos.csproj.GenerateResource.Cache
+C:\Users\Cristian\Documents\GitHub\Hotel-San-Carlos\Grupo1\Prototipo\Modulo Bancos\Modulo Bancos\obj\Debug\Modulo_Bancos.Cheque_Voucher.resources
+C:\Users\beto\Desktop\UNION\Modulo Bancos\Modulo Bancos\bin\Debug\Modulo Bancos.exe.config
+C:\Users\beto\Desktop\UNION\Modulo Bancos\Modulo Bancos\obj\Debug\Modulo Bancos.exe
+C:\Users\beto\Desktop\UNION\Modulo Bancos\Modulo Bancos\obj\Debug\Modulo Bancos.pdb
+C:\Users\beto\Desktop\UNION\Modulo Bancos\Modulo Bancos\bin\Debug\Modulo Bancos.exe
+C:\Users\beto\Desktop\UNION\Modulo Bancos\Modulo Bancos\bin\Debug\Modulo Bancos.pdb
+C:\Users\beto\Desktop\UNION\Modulo Bancos\Modulo Bancos\obj\Debug\Modulo Bancos.csprojResolveAssemblyReference.cache
+C:\Users\beto\Desktop\UNION\Modulo Bancos\Modulo Bancos\obj\Debug\Modulo_Bancos.Busqueda_Documento.resources
+C:\Users\beto\Desktop\UNION\Modulo Bancos\Modulo Bancos\obj\Debug\Modulo_Bancos.Cheque_Voucher.resources
+C:\Users\beto\Desktop\UNION\Modulo Bancos\Modulo Bancos\obj\Debug\Modulo_Bancos.Documento.resources
+C:\Users\beto\Desktop\UNION\Modulo Bancos\Modulo Bancos\obj\Debug\Modulo_Bancos.MDIBancos.resources
+C:\Users\beto\Desktop\UNION\Modulo Bancos\Modulo Bancos\obj\Debug\Modulo_Bancos.Properties.Resources.resources
+C:\Users\beto\Desktop\UNION\Modulo Bancos\Modulo Bancos\obj\Debug\Modulo Bancos.csproj.GenerateResource.Cache
+C:\Users\beto\Desktop\UNION\Modulo Bancos\Modulo Bancos\obj\Debug\Modulo_Bancos.Conciliacion_Bancaria.resources
+D:\Universidad\cv\Modulo Bancos\Modulo Bancos\bin\Debug\Modulo Bancos.exe.config
+D:\Universidad\cv\Modulo Bancos\Modulo Bancos\obj\Debug\Modulo Bancos.exe
+D:\Universidad\cv\Modulo Bancos\Modulo Bancos\obj\Debug\Modulo Bancos.pdb
+D:\Universidad\cv\Modulo Bancos\Modulo Bancos\bin\Debug\Modulo Bancos.exe
+D:\Universidad\cv\Modulo Bancos\Modulo Bancos\bin\Debug\Modulo Bancos.pdb
+D:\Universidad\cv\Modulo Bancos\Modulo Bancos\bin\Debug\mscorlib.dll
+D:\Universidad\cv\Modulo Bancos\Modulo Bancos\bin\Debug\es\mscorlib.resources.dll
+D:\Universidad\cv\Modulo Bancos\Modulo Bancos\bin\Debug\normidna.nlp
+D:\Universidad\cv\Modulo Bancos\Modulo Bancos\bin\Debug\normnfc.nlp
+D:\Universidad\cv\Modulo Bancos\Modulo Bancos\bin\Debug\normnfd.nlp
+D:\Universidad\cv\Modulo Bancos\Modulo Bancos\bin\Debug\normnfkc.nlp
+D:\Universidad\cv\Modulo Bancos\Modulo Bancos\bin\Debug\normnfkd.nlp
+D:\Universidad\cv\Modulo Bancos\Modulo Bancos\obj\Debug\Modulo Bancos.csprojResolveAssemblyReference.cache
+D:\Universidad\cv\Modulo Bancos\Modulo Bancos\obj\Debug\Modulo_Bancos.Busqueda_Documento.resources
+D:\Universidad\cv\Modulo Bancos\Modulo Bancos\obj\Debug\Modulo_Bancos.Cheque_Voucher.resources
+D:\Universidad\cv\Modulo Bancos\Modulo Bancos\obj\Debug\Modulo_Bancos.Conciliacion_Bancaria.resources
+D:\Universidad\cv\Modulo Bancos\Modulo Bancos\obj\Debug\Modulo_Bancos.Disponibilidad_bancaria.resources
+D:\Universidad\cv\Modulo Bancos\Modulo Bancos\obj\Debug\Modulo_Bancos.Documento.resources
+D:\Universidad\cv\Modulo Bancos\Modulo Bancos\obj\Debug\Modulo_Bancos.MDIBancos.resources
+D:\Universidad\cv\Modulo Bancos\Modulo Bancos\obj\Debug\Modulo_Bancos.Properties.Resources.resources
+D:\Universidad\cv\Modulo Bancos\Modulo Bancos\obj\Debug\Modulo Bancos.csproj.GenerateResource.Cache
