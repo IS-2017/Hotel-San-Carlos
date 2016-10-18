@@ -41,9 +41,10 @@
             this.btn_buscar = new System.Windows.Forms.Button();
             this.btn_actualizar = new System.Windows.Forms.Button();
             this.btn_cancelar = new System.Windows.Forms.Button();
-            this.lbl_vendedor = new System.Windows.Forms.Label();
-            this.cbo_vendedor = new System.Windows.Forms.ComboBox();
             this.gpb_com_ven = new System.Windows.Forms.GroupBox();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.label2 = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.lbl_total_com = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
@@ -53,6 +54,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.gpb_com_ven.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -241,90 +243,98 @@
             this.btn_cancelar.TabIndex = 5;
             this.btn_cancelar.UseVisualStyleBackColor = true;
             // 
-            // lbl_vendedor
-            // 
-            this.lbl_vendedor.AutoSize = true;
-            this.lbl_vendedor.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_vendedor.Location = new System.Drawing.Point(38, 55);
-            this.lbl_vendedor.Name = "lbl_vendedor";
-            this.lbl_vendedor.Size = new System.Drawing.Size(88, 21);
-            this.lbl_vendedor.TabIndex = 159;
-            this.lbl_vendedor.Text = "Vendedor";
-            // 
-            // cbo_vendedor
-            // 
-            this.cbo_vendedor.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cbo_vendedor.FormattingEnabled = true;
-            this.cbo_vendedor.Location = new System.Drawing.Point(127, 52);
-            this.cbo_vendedor.Name = "cbo_vendedor";
-            this.cbo_vendedor.Size = new System.Drawing.Size(86, 29);
-            this.cbo_vendedor.TabIndex = 160;
-            // 
             // gpb_com_ven
             // 
+            this.gpb_com_ven.Controls.Add(this.dataGridView1);
+            this.gpb_com_ven.Controls.Add(this.dateTimePicker1);
+            this.gpb_com_ven.Controls.Add(this.label2);
             this.gpb_com_ven.Controls.Add(this.textBox2);
             this.gpb_com_ven.Controls.Add(this.lbl_total_com);
             this.gpb_com_ven.Controls.Add(this.textBox1);
             this.gpb_com_ven.Controls.Add(this.lbl_comi);
             this.gpb_com_ven.Controls.Add(this.txt_nom_ved);
             this.gpb_com_ven.Controls.Add(this.lbl_nom_ved);
-            this.gpb_com_ven.Controls.Add(this.cbo_vendedor);
-            this.gpb_com_ven.Controls.Add(this.lbl_vendedor);
             this.gpb_com_ven.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gpb_com_ven.Location = new System.Drawing.Point(37, 228);
+            this.gpb_com_ven.Location = new System.Drawing.Point(12, 199);
             this.gpb_com_ven.Name = "gpb_com_ven";
-            this.gpb_com_ven.Size = new System.Drawing.Size(636, 230);
+            this.gpb_com_ven.Size = new System.Drawing.Size(714, 273);
             this.gpb_com_ven.TabIndex = 161;
             this.gpb_com_ven.TabStop = false;
             this.gpb_com_ven.Text = "Datos";
             // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(25, 111);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(662, 150);
+            this.dataGridView1.TabIndex = 169;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Location = new System.Drawing.Point(85, 66);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(200, 27);
+            this.dateTimePicker1.TabIndex = 168;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(21, 66);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(63, 21);
+            this.label2.TabIndex = 167;
+            this.label2.Text = "Fecha:";
+            // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(127, 169);
+            this.textBox2.Location = new System.Drawing.Point(487, 72);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(190, 27);
+            this.textBox2.Size = new System.Drawing.Size(185, 27);
             this.textBox2.TabIndex = 166;
             // 
             // lbl_total_com
             // 
             this.lbl_total_com.AutoSize = true;
-            this.lbl_total_com.Location = new System.Drawing.Point(38, 169);
+            this.lbl_total_com.Location = new System.Drawing.Point(350, 72);
             this.lbl_total_com.Name = "lbl_total_com";
-            this.lbl_total_com.Size = new System.Drawing.Size(49, 21);
+            this.lbl_total_com.Size = new System.Drawing.Size(144, 21);
             this.lbl_total_com.TabIndex = 165;
-            this.lbl_total_com.Text = "Total";
+            this.lbl_total_com.Text = "Total comisiones: ";
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(127, 130);
+            this.textBox1.Location = new System.Drawing.Point(454, 27);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(190, 27);
+            this.textBox1.Size = new System.Drawing.Size(156, 27);
             this.textBox1.TabIndex = 164;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // lbl_comi
             // 
             this.lbl_comi.AutoSize = true;
-            this.lbl_comi.Location = new System.Drawing.Point(38, 133);
+            this.lbl_comi.Location = new System.Drawing.Point(350, 30);
             this.lbl_comi.Name = "lbl_comi";
-            this.lbl_comi.Size = new System.Drawing.Size(80, 21);
+            this.lbl_comi.Size = new System.Drawing.Size(100, 21);
             this.lbl_comi.TabIndex = 163;
-            this.lbl_comi.Text = "Comision";
+            this.lbl_comi.Text = "% Comision:";
             // 
             // txt_nom_ved
             // 
-            this.txt_nom_ved.Location = new System.Drawing.Point(127, 93);
+            this.txt_nom_ved.Location = new System.Drawing.Point(138, 27);
             this.txt_nom_ved.Name = "txt_nom_ved";
-            this.txt_nom_ved.Size = new System.Drawing.Size(347, 27);
+            this.txt_nom_ved.Size = new System.Drawing.Size(147, 27);
             this.txt_nom_ved.TabIndex = 162;
             // 
             // lbl_nom_ved
             // 
             this.lbl_nom_ved.AutoSize = true;
-            this.lbl_nom_ved.Location = new System.Drawing.Point(38, 96);
+            this.lbl_nom_ved.Location = new System.Drawing.Point(21, 30);
             this.lbl_nom_ved.Name = "lbl_nom_ved";
-            this.lbl_nom_ved.Size = new System.Drawing.Size(73, 21);
+            this.lbl_nom_ved.Size = new System.Drawing.Size(111, 21);
             this.lbl_nom_ved.TabIndex = 161;
-            this.lbl_nom_ved.Text = "Nombre";
+            this.lbl_nom_ved.Text = "Total ventas:";
             // 
             // label1
             // 
@@ -354,6 +364,7 @@
             this.groupBox1.ResumeLayout(false);
             this.gpb_com_ven.ResumeLayout(false);
             this.gpb_com_ven.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -372,8 +383,6 @@
         private System.Windows.Forms.Button btn_buscar;
         private System.Windows.Forms.Button btn_actualizar;
         private System.Windows.Forms.Button btn_cancelar;
-        private System.Windows.Forms.Label lbl_vendedor;
-        private System.Windows.Forms.ComboBox cbo_vendedor;
         private System.Windows.Forms.GroupBox gpb_com_ven;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox textBox1;
@@ -382,5 +391,8 @@
         private System.Windows.Forms.Label lbl_nom_ved;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label lbl_total_com;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.Label label2;
     }
 }

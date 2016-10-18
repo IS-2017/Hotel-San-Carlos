@@ -16,6 +16,7 @@ namespace Modulo_Bancos
         Documento doc;
         Cheque_Voucher che_Vo;
         Conciliacion_Bancaria con_ban;
+        Disponibilidad_bancaria disp_ban;
 
         public MDIBancos()
         {
@@ -149,6 +150,22 @@ namespace Modulo_Bancos
         private void Conciliacion_Bancaria_FormClosed(object sender, EventArgs e)
         {
 
+        }
+
+        private void disponibilidadBancariaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (disp_ban == null)
+            {
+                disp_ban = new Disponibilidad_bancaria();
+                disp_ban.MdiParent = this;
+                disp_ban.FormClosed += new FormClosedEventHandler(disp_ban_FormClosed);
+                disp_ban.Show();
+
+            }
+        }
+        void disp_ban_FormClosed(object sender, EventArgs e)
+        {
+            disp_ban = null;
         }
     }
 }

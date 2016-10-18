@@ -61,6 +61,12 @@
     <Compile Include="frm_Nominas.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frm_prestaciones_lab.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_prestaciones_lab.Designer.cs">
+      <DependentUpon>frm_prestaciones_lab.cs</DependentUpon>
+    </Compile>
     <Compile Include="frm_Prestamos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -95,6 +101,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frm_Nominas.resx">
       <DependentUpon>frm_Nominas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_prestaciones_lab.resx">
+      <DependentUpon>frm_prestaciones_lab.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frm_Prestamos.resx">
       <DependentUpon>frm_Prestamos.cs</DependentUpon>

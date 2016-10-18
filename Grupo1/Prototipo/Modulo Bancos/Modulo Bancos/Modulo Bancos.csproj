@@ -65,6 +65,12 @@
     <Compile Include="Conciliacion_Bancaria.Designer.cs">
       <DependentUpon>Conciliacion_Bancaria.cs</DependentUpon>
     </Compile>
+    <Compile Include="Disponibilidad_bancaria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Disponibilidad_bancaria.Designer.cs">
+      <DependentUpon>Disponibilidad_bancaria.cs</DependentUpon>
+    </Compile>
     <Compile Include="Documento.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -87,6 +93,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Conciliacion_Bancaria.resx">
       <DependentUpon>Conciliacion_Bancaria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Disponibilidad_bancaria.resx">
+      <DependentUpon>Disponibilidad_bancaria.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Documento.resx">
       <DependentUpon>Documento.cs</DependentUpon>

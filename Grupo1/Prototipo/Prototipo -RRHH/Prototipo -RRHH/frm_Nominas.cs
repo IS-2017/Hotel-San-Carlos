@@ -12,33 +12,6 @@ namespace Prototipo__RRHH
 {
     public partial class frm_Nominas : Form
     {
-        private TabControl tbc_nomina;
-        private TabPage tabPage3;
-        private DateTimePicker ltp_fech_egreso;
-        private DateTimePicker ltp_fech_ingreso;
-        private ComboBox cbo_sueldo_bs;
-        private ComboBox cbo_bonificacion;
-        private TextBox txt_sueldo;
-        private Label lbl_sueldo;
-        private Label lbl_bonificacion;
-        private Label lbl_sueldo_bs;
-        private Label lbl_fech_egreso;
-        private Label lbl_fech_ingreso;
-        private Label lbl_fech_nacimient;
-        private DateTimePicker ltp_fech_nacimient;
-        private TextBox txt_no_afil_igss;
-        private Label lbl_no_afil_igss;
-        private TextBox txt_telefono;
-        private Label lbl_telefono;
-        private TextBox txt_direccion;
-        private Label lbl_direccion;
-        private TextBox txt_apellido;
-        private Label lbl_apellido;
-        private TextBox txt_nombre;
-        private Label lbl_nombre;
-        private TextBox txt_codigo;
-        private Label lbl_codigo;
-        private TabPage tabPage4;
         private Label label1;
         private Panel pnl_navegador;
         private GroupBox gpb_navegador;
@@ -52,6 +25,21 @@ namespace Prototipo__RRHH
         private Button btn_anterior;
         private Button btn_buscar;
         private Button btn_actualizar;
+        private GroupBox groupBox1;
+        private DataGridView dataGridView1;
+        private ComboBox cbo_sueldo_bs;
+        private Label lbl_sueldo_bs;
+        private Label lbl_fech_nacimient;
+        private DateTimePicker ltp_fech_nacimient;
+        private TextBox txt_codigo;
+        private Label lbl_codigo;
+        private DataGridViewTextBoxColumn Empleados;
+        private DataGridViewTextBoxColumn Sueldo_base;
+        private DataGridViewTextBoxColumn id_deduccion;
+        private DataGridViewTextBoxColumn detalle_deduccion;
+        private DataGridViewTextBoxColumn deduccion;
+        private DataGridViewTextBoxColumn id_devengo;
+        private DataGridViewTextBoxColumn devengo;
         private Button btn_cancelar;
 
         public frm_Nominas()
@@ -67,33 +55,6 @@ namespace Prototipo__RRHH
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_Nominas));
-            this.tbc_nomina = new System.Windows.Forms.TabControl();
-            this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.ltp_fech_egreso = new System.Windows.Forms.DateTimePicker();
-            this.ltp_fech_ingreso = new System.Windows.Forms.DateTimePicker();
-            this.cbo_sueldo_bs = new System.Windows.Forms.ComboBox();
-            this.cbo_bonificacion = new System.Windows.Forms.ComboBox();
-            this.txt_sueldo = new System.Windows.Forms.TextBox();
-            this.lbl_sueldo = new System.Windows.Forms.Label();
-            this.lbl_bonificacion = new System.Windows.Forms.Label();
-            this.lbl_sueldo_bs = new System.Windows.Forms.Label();
-            this.lbl_fech_egreso = new System.Windows.Forms.Label();
-            this.lbl_fech_ingreso = new System.Windows.Forms.Label();
-            this.lbl_fech_nacimient = new System.Windows.Forms.Label();
-            this.ltp_fech_nacimient = new System.Windows.Forms.DateTimePicker();
-            this.txt_no_afil_igss = new System.Windows.Forms.TextBox();
-            this.lbl_no_afil_igss = new System.Windows.Forms.Label();
-            this.txt_telefono = new System.Windows.Forms.TextBox();
-            this.lbl_telefono = new System.Windows.Forms.Label();
-            this.txt_direccion = new System.Windows.Forms.TextBox();
-            this.lbl_direccion = new System.Windows.Forms.Label();
-            this.txt_apellido = new System.Windows.Forms.TextBox();
-            this.lbl_apellido = new System.Windows.Forms.Label();
-            this.txt_nombre = new System.Windows.Forms.TextBox();
-            this.lbl_nombre = new System.Windows.Forms.Label();
-            this.txt_codigo = new System.Windows.Forms.TextBox();
-            this.lbl_codigo = new System.Windows.Forms.Label();
-            this.tabPage4 = new System.Windows.Forms.TabPage();
             this.label1 = new System.Windows.Forms.Label();
             this.pnl_navegador = new System.Windows.Forms.Panel();
             this.gpb_navegador = new System.Windows.Forms.GroupBox();
@@ -108,290 +69,26 @@ namespace Prototipo__RRHH
             this.btn_buscar = new System.Windows.Forms.Button();
             this.btn_actualizar = new System.Windows.Forms.Button();
             this.btn_cancelar = new System.Windows.Forms.Button();
-            this.tbc_nomina.SuspendLayout();
-            this.tabPage3.SuspendLayout();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.cbo_sueldo_bs = new System.Windows.Forms.ComboBox();
+            this.lbl_sueldo_bs = new System.Windows.Forms.Label();
+            this.lbl_fech_nacimient = new System.Windows.Forms.Label();
+            this.ltp_fech_nacimient = new System.Windows.Forms.DateTimePicker();
+            this.txt_codigo = new System.Windows.Forms.TextBox();
+            this.lbl_codigo = new System.Windows.Forms.Label();
+            this.Empleados = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Sueldo_base = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.id_deduccion = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.detalle_deduccion = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.deduccion = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.id_devengo = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.devengo = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.pnl_navegador.SuspendLayout();
             this.gpb_navegador.SuspendLayout();
+            this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // tbc_nomina
-            // 
-            this.tbc_nomina.Controls.Add(this.tabPage3);
-            this.tbc_nomina.Controls.Add(this.tabPage4);
-            this.tbc_nomina.Location = new System.Drawing.Point(13, 133);
-            this.tbc_nomina.Name = "tbc_nomina";
-            this.tbc_nomina.SelectedIndex = 0;
-            this.tbc_nomina.Size = new System.Drawing.Size(846, 252);
-            this.tbc_nomina.TabIndex = 163;
-            // 
-            // tabPage3
-            // 
-            this.tabPage3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(204)))), ((int)(((byte)(150)))));
-            this.tabPage3.Controls.Add(this.ltp_fech_egreso);
-            this.tabPage3.Controls.Add(this.ltp_fech_ingreso);
-            this.tabPage3.Controls.Add(this.cbo_sueldo_bs);
-            this.tabPage3.Controls.Add(this.cbo_bonificacion);
-            this.tabPage3.Controls.Add(this.txt_sueldo);
-            this.tabPage3.Controls.Add(this.lbl_sueldo);
-            this.tabPage3.Controls.Add(this.lbl_bonificacion);
-            this.tabPage3.Controls.Add(this.lbl_sueldo_bs);
-            this.tabPage3.Controls.Add(this.lbl_fech_egreso);
-            this.tabPage3.Controls.Add(this.lbl_fech_ingreso);
-            this.tabPage3.Controls.Add(this.lbl_fech_nacimient);
-            this.tabPage3.Controls.Add(this.ltp_fech_nacimient);
-            this.tabPage3.Controls.Add(this.txt_no_afil_igss);
-            this.tabPage3.Controls.Add(this.lbl_no_afil_igss);
-            this.tabPage3.Controls.Add(this.txt_telefono);
-            this.tabPage3.Controls.Add(this.lbl_telefono);
-            this.tabPage3.Controls.Add(this.txt_direccion);
-            this.tabPage3.Controls.Add(this.lbl_direccion);
-            this.tabPage3.Controls.Add(this.txt_apellido);
-            this.tabPage3.Controls.Add(this.lbl_apellido);
-            this.tabPage3.Controls.Add(this.txt_nombre);
-            this.tabPage3.Controls.Add(this.lbl_nombre);
-            this.tabPage3.Controls.Add(this.txt_codigo);
-            this.tabPage3.Controls.Add(this.lbl_codigo);
-            this.tabPage3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tabPage3.Location = new System.Drawing.Point(4, 22);
-            this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Size = new System.Drawing.Size(838, 226);
-            this.tabPage3.TabIndex = 0;
-            this.tabPage3.Text = "Datos Generales";
-            // 
-            // ltp_fech_egreso
-            // 
-            this.ltp_fech_egreso.Location = new System.Drawing.Point(162, 152);
-            this.ltp_fech_egreso.Name = "ltp_fech_egreso";
-            this.ltp_fech_egreso.Size = new System.Drawing.Size(200, 20);
-            this.ltp_fech_egreso.TabIndex = 33;
-            // 
-            // ltp_fech_ingreso
-            // 
-            this.ltp_fech_ingreso.Location = new System.Drawing.Point(162, 126);
-            this.ltp_fech_ingreso.Name = "ltp_fech_ingreso";
-            this.ltp_fech_ingreso.Size = new System.Drawing.Size(200, 20);
-            this.ltp_fech_ingreso.TabIndex = 32;
-            // 
-            // cbo_sueldo_bs
-            // 
-            this.cbo_sueldo_bs.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbo_sueldo_bs.FormattingEnabled = true;
-            this.cbo_sueldo_bs.Items.AddRange(new object[] {
-            "2500",
-            "4800",
-            "6300",
-            "8000",
-            "8900",
-            "11000",
-            "12750"});
-            this.cbo_sueldo_bs.Location = new System.Drawing.Point(588, 149);
-            this.cbo_sueldo_bs.Name = "cbo_sueldo_bs";
-            this.cbo_sueldo_bs.Size = new System.Drawing.Size(200, 21);
-            this.cbo_sueldo_bs.TabIndex = 31;
-            // 
-            // cbo_bonificacion
-            // 
-            this.cbo_bonificacion.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbo_bonificacion.FormattingEnabled = true;
-            this.cbo_bonificacion.Items.AddRange(new object[] {
-            "500",
-            "1000",
-            "1500",
-            "2000",
-            "2500",
-            "3000"});
-            this.cbo_bonificacion.Location = new System.Drawing.Point(588, 177);
-            this.cbo_bonificacion.Name = "cbo_bonificacion";
-            this.cbo_bonificacion.Size = new System.Drawing.Size(200, 21);
-            this.cbo_bonificacion.TabIndex = 30;
-            // 
-            // txt_sueldo
-            // 
-            this.txt_sueldo.Location = new System.Drawing.Point(588, 123);
-            this.txt_sueldo.Name = "txt_sueldo";
-            this.txt_sueldo.Size = new System.Drawing.Size(242, 20);
-            this.txt_sueldo.TabIndex = 25;
-            // 
-            // lbl_sueldo
-            // 
-            this.lbl_sueldo.AutoSize = true;
-            this.lbl_sueldo.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_sueldo.Location = new System.Drawing.Point(429, 125);
-            this.lbl_sueldo.Name = "lbl_sueldo";
-            this.lbl_sueldo.Size = new System.Drawing.Size(58, 18);
-            this.lbl_sueldo.TabIndex = 24;
-            this.lbl_sueldo.Text = "Sueldo:";
-            // 
-            // lbl_bonificacion
-            // 
-            this.lbl_bonificacion.AutoSize = true;
-            this.lbl_bonificacion.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_bonificacion.Location = new System.Drawing.Point(429, 177);
-            this.lbl_bonificacion.Name = "lbl_bonificacion";
-            this.lbl_bonificacion.Size = new System.Drawing.Size(109, 18);
-            this.lbl_bonificacion.TabIndex = 22;
-            this.lbl_bonificacion.Text = "Bonificaciones:";
-            // 
-            // lbl_sueldo_bs
-            // 
-            this.lbl_sueldo_bs.AutoSize = true;
-            this.lbl_sueldo_bs.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_sueldo_bs.Location = new System.Drawing.Point(429, 151);
-            this.lbl_sueldo_bs.Name = "lbl_sueldo_bs";
-            this.lbl_sueldo_bs.Size = new System.Drawing.Size(96, 18);
-            this.lbl_sueldo_bs.TabIndex = 20;
-            this.lbl_sueldo_bs.Text = "Sueldo Base:";
-            // 
-            // lbl_fech_egreso
-            // 
-            this.lbl_fech_egreso.AutoSize = true;
-            this.lbl_fech_egreso.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_fech_egreso.Location = new System.Drawing.Point(3, 153);
-            this.lbl_fech_egreso.Name = "lbl_fech_egreso";
-            this.lbl_fech_egreso.Size = new System.Drawing.Size(125, 18);
-            this.lbl_fech_egreso.TabIndex = 19;
-            this.lbl_fech_egreso.Text = "Fecha de Egreso:";
-            // 
-            // lbl_fech_ingreso
-            // 
-            this.lbl_fech_ingreso.AutoSize = true;
-            this.lbl_fech_ingreso.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_fech_ingreso.Location = new System.Drawing.Point(3, 126);
-            this.lbl_fech_ingreso.Name = "lbl_fech_ingreso";
-            this.lbl_fech_ingreso.Size = new System.Drawing.Size(122, 18);
-            this.lbl_fech_ingreso.TabIndex = 17;
-            this.lbl_fech_ingreso.Text = "Fecha de Ingreso";
-            // 
-            // lbl_fech_nacimient
-            // 
-            this.lbl_fech_nacimient.AutoSize = true;
-            this.lbl_fech_nacimient.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_fech_nacimient.Location = new System.Drawing.Point(3, 99);
-            this.lbl_fech_nacimient.Name = "lbl_fech_nacimient";
-            this.lbl_fech_nacimient.Size = new System.Drawing.Size(152, 18);
-            this.lbl_fech_nacimient.TabIndex = 15;
-            this.lbl_fech_nacimient.Text = "Fecha de Nacimiento:";
-            // 
-            // ltp_fech_nacimient
-            // 
-            this.ltp_fech_nacimient.Location = new System.Drawing.Point(162, 97);
-            this.ltp_fech_nacimient.Name = "ltp_fech_nacimient";
-            this.ltp_fech_nacimient.Size = new System.Drawing.Size(200, 20);
-            this.ltp_fech_nacimient.TabIndex = 14;
-            // 
-            // txt_no_afil_igss
-            // 
-            this.txt_no_afil_igss.Location = new System.Drawing.Point(588, 97);
-            this.txt_no_afil_igss.Name = "txt_no_afil_igss";
-            this.txt_no_afil_igss.Size = new System.Drawing.Size(242, 20);
-            this.txt_no_afil_igss.TabIndex = 13;
-            // 
-            // lbl_no_afil_igss
-            // 
-            this.lbl_no_afil_igss.AutoSize = true;
-            this.lbl_no_afil_igss.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_no_afil_igss.Location = new System.Drawing.Point(429, 99);
-            this.lbl_no_afil_igss.Name = "lbl_no_afil_igss";
-            this.lbl_no_afil_igss.Size = new System.Drawing.Size(137, 18);
-            this.lbl_no_afil_igss.TabIndex = 12;
-            this.lbl_no_afil_igss.Text = "No. Afiliación IGSS:";
-            // 
-            // txt_telefono
-            // 
-            this.txt_telefono.Location = new System.Drawing.Point(162, 177);
-            this.txt_telefono.Name = "txt_telefono";
-            this.txt_telefono.Size = new System.Drawing.Size(242, 20);
-            this.txt_telefono.TabIndex = 11;
-            // 
-            // lbl_telefono
-            // 
-            this.lbl_telefono.AutoSize = true;
-            this.lbl_telefono.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_telefono.Location = new System.Drawing.Point(3, 179);
-            this.lbl_telefono.Name = "lbl_telefono";
-            this.lbl_telefono.Size = new System.Drawing.Size(70, 18);
-            this.lbl_telefono.TabIndex = 10;
-            this.lbl_telefono.Text = "Telefono:";
-            // 
-            // txt_direccion
-            // 
-            this.txt_direccion.Location = new System.Drawing.Point(588, 21);
-            this.txt_direccion.Multiline = true;
-            this.txt_direccion.Name = "txt_direccion";
-            this.txt_direccion.Size = new System.Drawing.Size(242, 70);
-            this.txt_direccion.TabIndex = 9;
-            // 
-            // lbl_direccion
-            // 
-            this.lbl_direccion.AutoSize = true;
-            this.lbl_direccion.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_direccion.Location = new System.Drawing.Point(429, 24);
-            this.lbl_direccion.Name = "lbl_direccion";
-            this.lbl_direccion.Size = new System.Drawing.Size(124, 18);
-            this.lbl_direccion.TabIndex = 8;
-            this.lbl_direccion.Text = "Dirección Exacta:";
-            // 
-            // txt_apellido
-            // 
-            this.txt_apellido.Location = new System.Drawing.Point(162, 70);
-            this.txt_apellido.Name = "txt_apellido";
-            this.txt_apellido.Size = new System.Drawing.Size(242, 20);
-            this.txt_apellido.TabIndex = 5;
-            // 
-            // lbl_apellido
-            // 
-            this.lbl_apellido.AutoSize = true;
-            this.lbl_apellido.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_apellido.Location = new System.Drawing.Point(3, 72);
-            this.lbl_apellido.Name = "lbl_apellido";
-            this.lbl_apellido.Size = new System.Drawing.Size(63, 18);
-            this.lbl_apellido.TabIndex = 4;
-            this.lbl_apellido.Text = "Apellido:";
-            // 
-            // txt_nombre
-            // 
-            this.txt_nombre.Location = new System.Drawing.Point(162, 44);
-            this.txt_nombre.Name = "txt_nombre";
-            this.txt_nombre.Size = new System.Drawing.Size(242, 20);
-            this.txt_nombre.TabIndex = 3;
-            // 
-            // lbl_nombre
-            // 
-            this.lbl_nombre.AutoSize = true;
-            this.lbl_nombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_nombre.Location = new System.Drawing.Point(3, 46);
-            this.lbl_nombre.Name = "lbl_nombre";
-            this.lbl_nombre.Size = new System.Drawing.Size(66, 18);
-            this.lbl_nombre.TabIndex = 2;
-            this.lbl_nombre.Text = "Nombre:";
-            // 
-            // txt_codigo
-            // 
-            this.txt_codigo.Enabled = false;
-            this.txt_codigo.Location = new System.Drawing.Point(162, 18);
-            this.txt_codigo.Name = "txt_codigo";
-            this.txt_codigo.Size = new System.Drawing.Size(158, 20);
-            this.txt_codigo.TabIndex = 1;
-            this.txt_codigo.Text = "NOM-0001";
-            // 
-            // lbl_codigo
-            // 
-            this.lbl_codigo.AutoSize = true;
-            this.lbl_codigo.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_codigo.Location = new System.Drawing.Point(3, 20);
-            this.lbl_codigo.Name = "lbl_codigo";
-            this.lbl_codigo.Size = new System.Drawing.Size(60, 18);
-            this.lbl_codigo.TabIndex = 0;
-            this.lbl_codigo.Text = "Código:";
-            // 
-            // tabPage4
-            // 
-            this.tabPage4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(204)))), ((int)(((byte)(150)))));
-            this.tabPage4.Location = new System.Drawing.Point(4, 22);
-            this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Size = new System.Drawing.Size(838, 226);
-            this.tabPage4.TabIndex = 1;
-            this.tabPage4.Text = "Otros Datos";
             // 
             // label1
             // 
@@ -596,11 +293,142 @@ namespace Prototipo__RRHH
             this.btn_cancelar.TabIndex = 5;
             this.btn_cancelar.UseVisualStyleBackColor = true;
             // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.dataGridView1);
+            this.groupBox1.Controls.Add(this.cbo_sueldo_bs);
+            this.groupBox1.Controls.Add(this.lbl_sueldo_bs);
+            this.groupBox1.Controls.Add(this.lbl_fech_nacimient);
+            this.groupBox1.Controls.Add(this.ltp_fech_nacimient);
+            this.groupBox1.Controls.Add(this.txt_codigo);
+            this.groupBox1.Controls.Add(this.lbl_codigo);
+            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox1.Location = new System.Drawing.Point(27, 154);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(816, 336);
+            this.groupBox1.TabIndex = 163;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Nomina";
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Empleados,
+            this.Sueldo_base,
+            this.id_deduccion,
+            this.detalle_deduccion,
+            this.deduccion,
+            this.id_devengo,
+            this.devengo});
+            this.dataGridView1.Location = new System.Drawing.Point(19, 76);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(776, 239);
+            this.dataGridView1.TabIndex = 38;
+            // 
+            // cbo_sueldo_bs
+            // 
+            this.cbo_sueldo_bs.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbo_sueldo_bs.FormattingEnabled = true;
+            this.cbo_sueldo_bs.Items.AddRange(new object[] {
+            "2500",
+            "4800",
+            "6300",
+            "8000",
+            "8900",
+            "11000",
+            "12750"});
+            this.cbo_sueldo_bs.Location = new System.Drawing.Point(94, 28);
+            this.cbo_sueldo_bs.Name = "cbo_sueldo_bs";
+            this.cbo_sueldo_bs.Size = new System.Drawing.Size(200, 28);
+            this.cbo_sueldo_bs.TabIndex = 37;
+            // 
+            // lbl_sueldo_bs
+            // 
+            this.lbl_sueldo_bs.AutoSize = true;
+            this.lbl_sueldo_bs.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_sueldo_bs.Location = new System.Drawing.Point(16, 28);
+            this.lbl_sueldo_bs.Name = "lbl_sueldo_bs";
+            this.lbl_sueldo_bs.Size = new System.Drawing.Size(72, 18);
+            this.lbl_sueldo_bs.TabIndex = 36;
+            this.lbl_sueldo_bs.Text = "Empresa:";
+            // 
+            // lbl_fech_nacimient
+            // 
+            this.lbl_fech_nacimient.AutoSize = true;
+            this.lbl_fech_nacimient.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_fech_nacimient.Location = new System.Drawing.Point(536, 27);
+            this.lbl_fech_nacimient.Name = "lbl_fech_nacimient";
+            this.lbl_fech_nacimient.Size = new System.Drawing.Size(53, 18);
+            this.lbl_fech_nacimient.TabIndex = 35;
+            this.lbl_fech_nacimient.Text = "Fecha:";
+            // 
+            // ltp_fech_nacimient
+            // 
+            this.ltp_fech_nacimient.Location = new System.Drawing.Point(595, 25);
+            this.ltp_fech_nacimient.Name = "ltp_fech_nacimient";
+            this.ltp_fech_nacimient.Size = new System.Drawing.Size(200, 26);
+            this.ltp_fech_nacimient.TabIndex = 34;
+            // 
+            // txt_codigo
+            // 
+            this.txt_codigo.Enabled = false;
+            this.txt_codigo.Location = new System.Drawing.Point(368, 28);
+            this.txt_codigo.Name = "txt_codigo";
+            this.txt_codigo.Size = new System.Drawing.Size(158, 26);
+            this.txt_codigo.TabIndex = 33;
+            this.txt_codigo.Text = "NOM-0001";
+            // 
+            // lbl_codigo
+            // 
+            this.lbl_codigo.AutoSize = true;
+            this.lbl_codigo.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_codigo.Location = new System.Drawing.Point(302, 27);
+            this.lbl_codigo.Name = "lbl_codigo";
+            this.lbl_codigo.Size = new System.Drawing.Size(60, 18);
+            this.lbl_codigo.TabIndex = 32;
+            this.lbl_codigo.Text = "Código:";
+            // 
+            // Empleados
+            // 
+            this.Empleados.HeaderText = "Empleados";
+            this.Empleados.Name = "Empleados";
+            // 
+            // Sueldo_base
+            // 
+            this.Sueldo_base.HeaderText = "Sueldo_base";
+            this.Sueldo_base.Name = "Sueldo_base";
+            // 
+            // id_deduccion
+            // 
+            this.id_deduccion.HeaderText = "id_deduccion";
+            this.id_deduccion.Name = "id_deduccion";
+            // 
+            // detalle_deduccion
+            // 
+            this.detalle_deduccion.HeaderText = "detalle_deduccion";
+            this.detalle_deduccion.Name = "detalle_deduccion";
+            // 
+            // deduccion
+            // 
+            this.deduccion.HeaderText = "deduccion";
+            this.deduccion.Name = "deduccion";
+            // 
+            // id_devengo
+            // 
+            this.id_devengo.HeaderText = "id_devengo";
+            this.id_devengo.Name = "id_devengo";
+            // 
+            // devengo
+            // 
+            this.devengo.HeaderText = "devengo";
+            this.devengo.Name = "devengo";
+            // 
             // frm_Nominas
             // 
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(204)))), ((int)(((byte)(150)))));
-            this.ClientSize = new System.Drawing.Size(868, 392);
-            this.Controls.Add(this.tbc_nomina);
+            this.ClientSize = new System.Drawing.Size(868, 502);
+            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pnl_navegador);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
@@ -609,11 +437,11 @@ namespace Prototipo__RRHH
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Nomina";
-            this.tbc_nomina.ResumeLayout(false);
-            this.tabPage3.ResumeLayout(false);
-            this.tabPage3.PerformLayout();
             this.pnl_navegador.ResumeLayout(false);
             this.gpb_navegador.ResumeLayout(false);
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

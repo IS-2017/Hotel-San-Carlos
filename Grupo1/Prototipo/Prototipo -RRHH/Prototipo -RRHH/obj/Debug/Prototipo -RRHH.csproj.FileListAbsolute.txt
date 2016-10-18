@@ -64,3 +64,26 @@ C:\Users\javie\Documents\GitHub\Hotel-San-Carlos\Grupo1\Prototipo\Prototipo -RRH
 C:\Users\javie\Documents\GitHub\Hotel-San-Carlos\Grupo1\Prototipo\Prototipo -RRHH\Prototipo -RRHH\obj\Debug\Prototipo -RRHH.csproj.GenerateResource.Cache
 C:\Users\javie\Documents\GitHub\Hotel-San-Carlos\Grupo1\Prototipo\Prototipo -RRHH\Prototipo -RRHH\obj\Debug\Prototipo__RRHH.frm_Nominas.resources
 C:\Users\javie\Documents\GitHub\Hotel-San-Carlos\Grupo1\Prototipo\Prototipo -RRHH\Prototipo -RRHH\obj\Debug\Prototipo__RRHH.Login_Prueba.resources
+D:\Universidad\cv\Prototipo -RRHH\Prototipo -RRHH\bin\Debug\Prototipo -RRHH.exe.config
+D:\Universidad\cv\Prototipo -RRHH\Prototipo -RRHH\obj\Debug\Prototipo -RRHH.exe
+D:\Universidad\cv\Prototipo -RRHH\Prototipo -RRHH\obj\Debug\Prototipo -RRHH.pdb
+D:\Universidad\cv\Prototipo -RRHH\Prototipo -RRHH\bin\Debug\Prototipo -RRHH.exe
+D:\Universidad\cv\Prototipo -RRHH\Prototipo -RRHH\bin\Debug\Prototipo -RRHH.pdb
+D:\Universidad\cv\Prototipo -RRHH\Prototipo -RRHH\bin\Debug\mscorlib.dll
+D:\Universidad\cv\Prototipo -RRHH\Prototipo -RRHH\bin\Debug\es\mscorlib.resources.dll
+D:\Universidad\cv\Prototipo -RRHH\Prototipo -RRHH\bin\Debug\normidna.nlp
+D:\Universidad\cv\Prototipo -RRHH\Prototipo -RRHH\bin\Debug\normnfc.nlp
+D:\Universidad\cv\Prototipo -RRHH\Prototipo -RRHH\bin\Debug\normnfd.nlp
+D:\Universidad\cv\Prototipo -RRHH\Prototipo -RRHH\bin\Debug\normnfkc.nlp
+D:\Universidad\cv\Prototipo -RRHH\Prototipo -RRHH\bin\Debug\normnfkd.nlp
+D:\Universidad\cv\Prototipo -RRHH\Prototipo -RRHH\obj\Debug\Prototipo -RRHH.csprojResolveAssemblyReference.cache
+D:\Universidad\cv\Prototipo -RRHH\Prototipo -RRHH\obj\Debug\Prototipo__RRHH.Comisiones_Vendedor.resources
+D:\Universidad\cv\Prototipo -RRHH\Prototipo -RRHH\obj\Debug\Prototipo__RRHH.Empleados.resources
+D:\Universidad\cv\Prototipo -RRHH\Prototipo -RRHH\obj\Debug\Prototipo__RRHH.frm_Nominas.resources
+D:\Universidad\cv\Prototipo -RRHH\Prototipo -RRHH\obj\Debug\Prototipo__RRHH.frm_prestaciones_lab.resources
+D:\Universidad\cv\Prototipo -RRHH\Prototipo -RRHH\obj\Debug\Prototipo__RRHH.frm_Prestamos.resources
+D:\Universidad\cv\Prototipo -RRHH\Prototipo -RRHH\obj\Debug\Prototipo__RRHH.Login_Prueba.resources
+D:\Universidad\cv\Prototipo -RRHH\Prototipo -RRHH\obj\Debug\Prototipo__RRHH.MenuMDI.resources
+D:\Universidad\cv\Prototipo -RRHH\Prototipo -RRHH\obj\Debug\Prototipo__RRHH.Planilla_IGSS.resources
+D:\Universidad\cv\Prototipo -RRHH\Prototipo -RRHH\obj\Debug\Prototipo__RRHH.Properties.Resources.resources
+D:\Universidad\cv\Prototipo -RRHH\Prototipo -RRHH\obj\Debug\Prototipo -RRHH.csproj.GenerateResource.Cache
