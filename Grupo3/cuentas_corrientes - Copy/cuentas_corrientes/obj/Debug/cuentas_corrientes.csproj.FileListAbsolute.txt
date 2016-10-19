@@ -1,0 +1,55 @@
+C:\Users\ale_\Desktop\modulo cliente\prototipos\cuentas_corrientes\cuentas_corrientes\bin\Debug\cuentas_corrientes.exe.config
+C:\Users\ale_\Desktop\modulo cliente\prototipos\cuentas_corrientes - Copy\cuentas_corrientes\bin\Debug\cuentas_corrientes.exe.config
+C:\Users\ale_\Desktop\modulos\modulo cliente\prototipos\cuentas_corrientes - Copy\cuentas_corrientes\bin\Debug\cuentas_corrientes.exe.config
+C:\Users\ale_\Desktop\modulos\modulo cliente\prototipos\cuentas_corrientes - Copy\cuentas_corrientes\bin\Debug\cuentas_corrientes.exe
+C:\Users\ale_\Desktop\modulos\modulo cliente\prototipos\cuentas_corrientes - Copy\cuentas_corrientes\bin\Debug\cuentas_corrientes.pdb
+C:\Users\ale_\Desktop\modulos\modulo cliente\prototipos\cuentas_corrientes - Copy\cuentas_corrientes\obj\Debug\cuentas_corrientes.csprojResolveAssemblyReference.cache
+C:\Users\ale_\Desktop\modulos\modulo cliente\prototipos\cuentas_corrientes - Copy\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscarPaquete.resources
+C:\Users\ale_\Desktop\modulos\modulo cliente\prototipos\cuentas_corrientes - Copy\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscarProducto.resources
+C:\Users\ale_\Desktop\modulos\modulo cliente\prototipos\cuentas_corrientes - Copy\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscarPromociones.resources
+C:\Users\ale_\Desktop\modulos\modulo cliente\prototipos\cuentas_corrientes - Copy\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmcliente.resources
+C:\Users\ale_\Desktop\modulos\modulo cliente\prototipos\cuentas_corrientes - Copy\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmCotizacion.resources
+C:\Users\ale_\Desktop\modulos\modulo cliente\prototipos\cuentas_corrientes - Copy\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmdeuda.resources
+C:\Users\ale_\Desktop\modulos\modulo cliente\prototipos\cuentas_corrientes - Copy\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmoperacion.resources
+C:\Users\ale_\Desktop\modulos\modulo cliente\prototipos\cuentas_corrientes - Copy\cuentas_corrientes\obj\Debug\cuentas_corrientes.Frm_Login.resources
+C:\Users\ale_\Desktop\modulos\modulo cliente\prototipos\cuentas_corrientes - Copy\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmmenu.resources
+C:\Users\ale_\Desktop\modulos\modulo cliente\prototipos\cuentas_corrientes - Copy\cuentas_corrientes\obj\Debug\cuentas_corrientes.Properties.Resources.resources
+C:\Users\ale_\Desktop\modulos\modulo cliente\prototipos\cuentas_corrientes - Copy\cuentas_corrientes\obj\Debug\cuentas_corrientes.csproj.GenerateResource.Cache
+C:\Users\ale_\Desktop\modulos\modulo cliente\prototipos\cuentas_corrientes - Copy\cuentas_corrientes\obj\Debug\cuentas_corrientes.exe
+C:\Users\ale_\Desktop\modulos\modulo cliente\prototipos\cuentas_corrientes - Copy\cuentas_corrientes\obj\Debug\cuentas_corrientes.pdb
+C:\Users\ale_\Desktop\modulos\modulo cliente\prototipos\cuentas_corrientes - Copy\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmbuscliente.resources
+C:\Users\ale_\Desktop\modulos\modulo cliente\prototipos\cuentas_corrientes - Copy\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscarFactura.resources
+C:\Users\ale_\Desktop\modulos\modulo cliente\prototipos\cuentas_corrientes - Copy\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscImpuesto.resources
+C:\Users\ale_\Desktop\modulos\modulo cliente\prototipos\cuentas_corrientes - Copy\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscTipoPrecio.resources
+C:\Users\ale_\Desktop\modulos\modulo cliente\prototipos\cuentas_corrientes - Copy\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmFactura.resources
+C:\Users\ale_\Desktop\modulos\modulo cliente\prototipos\cuentas_corrientes - Copy\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmFormaDePago.resources
+C:\Users\ale_\Desktop\modulos\modulo cliente\prototipos\cuentas_corrientes - Copy\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmImpuesto.resources
+C:\Users\ale_\Desktop\modulos\modulo cliente\prototipos\cuentas_corrientes - Copy\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmListadoPrecio.resources
+C:\Users\ale_\Desktop\modulos\modulo cliente\prototipos\cuentas_corrientes - Copy\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmRegistroContribuyente.resources
+D:\Merlyn c\Desktop\Informes de Proyecto DS\cuentas_corrientes - Copy\cuentas_corrientes\bin\Debug\cuentas_corrientes.exe.config
+D:\Merlyn c\Desktop\Informes de Proyecto DS\cuentas_corrientes - Copy\cuentas_corrientes\obj\Debug\cuentas_corrientes.exe
+D:\Merlyn c\Desktop\Informes de Proyecto DS\cuentas_corrientes - Copy\cuentas_corrientes\obj\Debug\cuentas_corrientes.pdb
+D:\Merlyn c\Desktop\Informes de Proyecto DS\cuentas_corrientes - Copy\cuentas_corrientes\bin\Debug\cuentas_corrientes.exe
+D:\Merlyn c\Desktop\Informes de Proyecto DS\cuentas_corrientes - Copy\cuentas_corrientes\bin\Debug\cuentas_corrientes.pdb
+D:\Merlyn c\Desktop\Informes de Proyecto DS\cuentas_corrientes - Copy\cuentas_corrientes\obj\Debug\cuentas_corrientes.csprojResolveAssemblyReference.cache
+D:\Merlyn c\Desktop\Informes de Proyecto DS\cuentas_corrientes - Copy\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscarFactura.resources
+D:\Merlyn c\Desktop\Informes de Proyecto DS\cuentas_corrientes - Copy\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscarPaquete.resources
+D:\Merlyn c\Desktop\Informes de Proyecto DS\cuentas_corrientes - Copy\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscarProducto.resources
+D:\Merlyn c\Desktop\Informes de Proyecto DS\cuentas_corrientes - Copy\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscarPromociones.resources
+D:\Merlyn c\Desktop\Informes de Proyecto DS\cuentas_corrientes - Copy\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscImpuesto.resources
+D:\Merlyn c\Desktop\Informes de Proyecto DS\cuentas_corrientes - Copy\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmbuscliente.resources
+D:\Merlyn c\Desktop\Informes de Proyecto DS\cuentas_corrientes - Copy\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscTipoPrecio.resources
+D:\Merlyn c\Desktop\Informes de Proyecto DS\cuentas_corrientes - Copy\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmcliente.resources
+D:\Merlyn c\Desktop\Informes de Proyecto DS\cuentas_corrientes - Copy\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmCotizacion.resources
+D:\Merlyn c\Desktop\Informes de Proyecto DS\cuentas_corrientes - Copy\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmdeuda.resources
+D:\Merlyn c\Desktop\Informes de Proyecto DS\cuentas_corrientes - Copy\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmFactura.resources
+D:\Merlyn c\Desktop\Informes de Proyecto DS\cuentas_corrientes - Copy\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmFormaDePago.resources
+D:\Merlyn c\Desktop\Informes de Proyecto DS\cuentas_corrientes - Copy\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmImpuesto.resources
+D:\Merlyn c\Desktop\Informes de Proyecto DS\cuentas_corrientes - Copy\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmListadoPrecio.resources
+D:\Merlyn c\Desktop\Informes de Proyecto DS\cuentas_corrientes - Copy\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmoperacion.resources
+D:\Merlyn c\Desktop\Informes de Proyecto DS\cuentas_corrientes - Copy\cuentas_corrientes\obj\Debug\cuentas_corrientes.Frm_Login.resources
+D:\Merlyn c\Desktop\Informes de Proyecto DS\cuentas_corrientes - Copy\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmmenu.resources
+D:\Merlyn c\Desktop\Informes de Proyecto DS\cuentas_corrientes - Copy\cuentas_corrientes\obj\Debug\cuentas_corrientes.Properties.Resources.resources
+D:\Merlyn c\Desktop\Informes de Proyecto DS\cuentas_corrientes - Copy\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmRegistroContribuyente.resources
+D:\Merlyn c\Desktop\Informes de Proyecto DS\cuentas_corrientes - Copy\cuentas_corrientes\obj\Debug\cuentas_corrientes.csproj.GenerateResource.Cache
+D:\Merlyn c\Desktop\Informes de Proyecto DS\cuentas_corrientes - Copy\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmPedido.resources

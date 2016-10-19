@@ -73,3 +73,16 @@ C:\Users\ale_\Desktop\graficador_3\graficador_2\prueba_dllgraf\prueba_dllgraf\ob
 C:\Users\ale_\Desktop\graficador_3\graficador_2\prueba_dllgraf\prueba_dllgraf\obj\Debug\prueba_dllgraf.Form1.resources
 C:\Users\ale_\Desktop\graficador_3\graficador_2\prueba_dllgraf\prueba_dllgraf\obj\Debug\prueba_dllgraf.Properties.Resources.resources
 C:\Users\ale_\Desktop\graficador_3\graficador_2\prueba_dllgraf\prueba_dllgraf\obj\Debug\prueba_dllgraf.csproj.GenerateResource.Cache
+D:\Merlyn c\Documents\GitHub\Hotel-San-Carlos\Grupo3\graficador_2\prueba_dllgraf\prueba_dllgraf\bin\Debug\prueba_dllgraf.exe.config
+D:\Merlyn c\Documents\GitHub\Hotel-San-Carlos\Grupo3\graficador_2\prueba_dllgraf\prueba_dllgraf\obj\Debug\prueba_dllgraf.exe
+D:\Merlyn c\Documents\GitHub\Hotel-San-Carlos\Grupo3\graficador_2\prueba_dllgraf\prueba_dllgraf\obj\Debug\prueba_dllgraf.pdb
+D:\Merlyn c\Documents\GitHub\Hotel-San-Carlos\Grupo3\graficador_2\prueba_dllgraf\prueba_dllgraf\bin\Debug\prueba_dllgraf.exe
+D:\Merlyn c\Documents\GitHub\Hotel-San-Carlos\Grupo3\graficador_2\prueba_dllgraf\prueba_dllgraf\bin\Debug\prueba_dllgraf.pdb
+D:\Merlyn c\Documents\GitHub\Hotel-San-Carlos\Grupo3\graficador_2\prueba_dllgraf\prueba_dllgraf\bin\Debug\dll_grafica.dll
+D:\Merlyn c\Documents\GitHub\Hotel-San-Carlos\Grupo3\graficador_2\prueba_dllgraf\prueba_dllgraf\bin\Debug\MySql.Data.dll
+D:\Merlyn c\Documents\GitHub\Hotel-San-Carlos\Grupo3\graficador_2\prueba_dllgraf\prueba_dllgraf\bin\Debug\itextsharp.dll
+D:\Merlyn c\Documents\GitHub\Hotel-San-Carlos\Grupo3\graficador_2\prueba_dllgraf\prueba_dllgraf\bin\Debug\dll_grafica.pdb
+D:\Merlyn c\Documents\GitHub\Hotel-San-Carlos\Grupo3\graficador_2\prueba_dllgraf\prueba_dllgraf\obj\Debug\prueba_dllgraf.csprojResolveAssemblyReference.cache
+D:\Merlyn c\Documents\GitHub\Hotel-San-Carlos\Grupo3\graficador_2\prueba_dllgraf\prueba_dllgraf\obj\Debug\prueba_dllgraf.Form1.resources
+D:\Merlyn c\Documents\GitHub\Hotel-San-Carlos\Grupo3\graficador_2\prueba_dllgraf\prueba_dllgraf\obj\Debug\prueba_dllgraf.Properties.Resources.resources
+D:\Merlyn c\Documents\GitHub\Hotel-San-Carlos\Grupo3\graficador_2\prueba_dllgraf\prueba_dllgraf\obj\Debug\prueba_dllgraf.csproj.GenerateResource.Cache
