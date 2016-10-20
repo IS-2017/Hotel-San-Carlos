@@ -81,3 +81,19 @@ C:\Users\Roberto Carlos\Documents\GitHub\Hotel-San-Carlos\Grupo2\WindowsFormsApp
 C:\Users\Roberto Carlos\Documents\GitHub\Hotel-San-Carlos\Grupo2\Correcciones Objeto Comun por modulo\Probar Consulta con DLL\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe.config
 C:\Users\Roberto Carlos\Documents\GitHub\Hotel-San-Carlos\Grupo2\Correcciones Objeto Comun por modulo\Probar Consulta con DLL\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.exe
 C:\Users\Roberto Carlos\Documents\GitHub\Hotel-San-Carlos\Grupo2\Correcciones Objeto Comun por modulo\Probar Consulta con DLL\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.pdb
+E:\Escritorio\Hotel-San-Carlos\Grupo2\Correcciones Objeto Comun por modulo\Probar Consulta con DLL\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe.config
+E:\Escritorio\Hotel-San-Carlos\Grupo2\Correcciones Objeto Comun por modulo\Probar Consulta con DLL\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.exe
+E:\Escritorio\Hotel-San-Carlos\Grupo2\Correcciones Objeto Comun por modulo\Probar Consulta con DLL\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.pdb
+E:\Escritorio\Hotel-San-Carlos\Grupo2\Correcciones Objeto Comun por modulo\Probar Consulta con DLL\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe
+E:\Escritorio\Hotel-San-Carlos\Grupo2\Correcciones Objeto Comun por modulo\Probar Consulta con DLL\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.pdb
+E:\Escritorio\Hotel-San-Carlos\Grupo2\Correcciones Objeto Comun por modulo\Probar Consulta con DLL\WindowsFormsApplication2\bin\Debug\dllconsultas.dll
+E:\Escritorio\Hotel-San-Carlos\Grupo2\Correcciones Objeto Comun por modulo\Probar Consulta con DLL\WindowsFormsApplication2\bin\Debug\MySql.Data.dll
+E:\Escritorio\Hotel-San-Carlos\Grupo2\Correcciones Objeto Comun por modulo\Probar Consulta con DLL\WindowsFormsApplication2\bin\Debug\Google.ProtocolBuffers.dll
+E:\Escritorio\Hotel-San-Carlos\Grupo2\Correcciones Objeto Comun por modulo\Probar Consulta con DLL\WindowsFormsApplication2\bin\Debug\dllconsultas.pdb
+E:\Escritorio\Hotel-San-Carlos\Grupo2\Correcciones Objeto Comun por modulo\Probar Consulta con DLL\WindowsFormsApplication2\bin\Debug\dllconsultasgeneraless.pdb
+E:\Escritorio\Hotel-San-Carlos\Grupo2\Correcciones Objeto Comun por modulo\Probar Consulta con DLL\WindowsFormsApplication2\bin\Debug\MySql.Data.xml
+E:\Escritorio\Hotel-San-Carlos\Grupo2\Correcciones Objeto Comun por modulo\Probar Consulta con DLL\WindowsFormsApplication2\bin\Debug\pruebaconexion.pdb
+E:\Escritorio\Hotel-San-Carlos\Grupo2\Correcciones Objeto Comun por modulo\Probar Consulta con DLL\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.csprojResolveAssemblyReference.cache
+E:\Escritorio\Hotel-San-Carlos\Grupo2\Correcciones Objeto Comun por modulo\Probar Consulta con DLL\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Form1.resources
+E:\Escritorio\Hotel-San-Carlos\Grupo2\Correcciones Objeto Comun por modulo\Probar Consulta con DLL\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Properties.Resources.resources
+E:\Escritorio\Hotel-San-Carlos\Grupo2\Correcciones Objeto Comun por modulo\Probar Consulta con DLL\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.csproj.GenerateResource.Cache
