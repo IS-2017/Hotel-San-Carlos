@@ -65,3 +65,6 @@ C:\Users\Roberto Carlos\Documents\GitHub\Hotel-San-Carlos\Grupo2\ObjetoComunCons
 C:\Users\Roberto Carlos\Documents\GitHub\Hotel-San-Carlos\Grupo2\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\obj\Debug\ObjetoComunConsultasInteligentes.Frm_GuardarConsulta.resources
 C:\Users\Roberto Carlos\Documents\GitHub\Hotel-San-Carlos\Grupo2\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\obj\Debug\ObjetoComunConsultasInteligentes.Properties.Resources.resources
 C:\Users\Roberto Carlos\Documents\GitHub\Hotel-San-Carlos\Grupo2\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\obj\Debug\ObjetoComunConsultasInteligentes.csproj.GenerateResource.Cache
+E:\Escritorio\Hotel-San-Carlos\Grupo2\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\bin\Debug\ObjetoComunConsultasInteligentes.exe.config
+E:\Escritorio\Hotel-San-Carlos\Grupo2\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\obj\Debug\ObjetoComunConsultasInteligentes.exe
+E:\Escritorio\Hotel-San-Carlos\Grupo2\ObjetoComunConsultasInteligentes\ObjetoComunConsultasInteligentes\obj\Debug\ObjetoComunConsultasInteligentes.pdb
