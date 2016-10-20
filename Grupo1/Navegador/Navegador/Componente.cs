@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using FuncionesNavegador;
+using dllconsultas;
 
 namespace Navegador
 {
@@ -47,8 +48,8 @@ namespace Navegador
             /*textBox1.Enabled = false;
             textBox2.Enabled = false;
             textBox3.Enabled = false; */
-            textBox4.Visible = false;
-            textBox5.Visible = false;
+            /*textBox4.Visible = false;
+            textBox5.Visible = false;*/
             FuncionDeControles ctl = new FuncionDeControles();
             ctl.InhabilitarComponentes(this);
 
@@ -62,36 +63,43 @@ namespace Navegador
 
         private void btn_guardar_Click(object sender, EventArgs e)
         {
-            /*try
-            {*/
+            try
+            {
                 textBox4.Text = comboBox1.SelectedValue.ToString();
                 textBox5.Text = dateTimePicker1.Value.ToString("yyyy-MM-dd");
                 FunNavegador fn = new FunNavegador();
-                TextBox[] textbox = { textBox2, textBox3, textBox4, textBox5 };
+                TextBox[] textbox = { textBox2, textBox3, textBox4, textBox5,textbox6,textBox7 };
                 DataTable datos = fn.construirDataTable(textbox);
                 if (datos.Rows.Count == 0)
                 {
                     MessageBox.Show("Hay campos vacios", "Favor Verificar", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
-                string tabla = "empleado";
-                if (Editar)
-                {
-                    fn.modificar(datos, tabla, atributo, Codigo);
-                }
                 else
                 {
-                    fn.insertar(datos, tabla);
+                    string tabla = "empleado";
+                    if (Editar)
+                    {
+                        fn.modificar(datos, tabla, atributo, Codigo);
+                    }
+                    else
+                    {
+                        fn.insertar(datos, tabla);
+                    }
+                    // fn.ActualizarGrid(this.dataGridView1, "Select * from empleado ");
+                    fn.LimpiarTextbox(textBox1);
+                    fn.LimpiarTextbox(textBox2);
+                    fn.LimpiarTextbox(textBox3);
+                    fn.LimpiarTextbox(textBox4);
+                    fn.LimpiarTextbox(textBox5);
+                    fn.LimpiarTextbox(textbox6);
+                    fn.LimpiarTextbox(textBox7);
+                    fn.LimpiarCombobox(comboBox1);
                 }
-                // fn.ActualizarGrid(this.dataGridView1, "Select * from empleado ");
-                fn.LimpiarTextbox(textBox1);
-                fn.LimpiarTextbox(textBox2);
-                fn.LimpiarTextbox(textBox3);
-                fn.LimpiarCombobox(comboBox1);
-           /* }
+            }
             catch
             {
                 MessageBox.Show("Ocurrio un error durante el proceso...", "Favor Verificar", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }*/
+            }
         }
         
 
@@ -103,9 +111,9 @@ namespace Navegador
                 atributo = "codigo";
                 Codigo = this.dataGridView1.CurrentRow.Cells[0].Value.ToString();
                 label2.Text = Codigo;
-                textBox1.Text = this.dataGridView1.CurrentRow.Cells[1].Value.ToString();
-                textBox2.Text = this.dataGridView1.CurrentRow.Cells[2].Value.ToString();
-                textBox3.Text = this.dataGridView1.CurrentRow.Cells[3].Value.ToString();
+                TextBox[] textbox = { textBox4, textBox3, textBox2, textBox5, textbox6,textBox7 };
+                FunNavegador fn = new FunNavegador();
+                fn.llenartextbox(textbox, dataGridView1);
             }
             catch
             {
@@ -162,87 +170,42 @@ namespace Navegador
 
         private void btn_siguiente_Click(object sender, EventArgs e)
         {
-            int Codigo1 = 1;
-            if (textBox1.Text != "")
-            {
-                Codigo1 = int.Parse(label2.Text);
-            }
-            
-            string ntabla = "empleado";
-            try
-            {
-                FunNavegador fn = new FunNavegador();
-                codigo = fn.Rsiguiente(Codigo1, ntabla);
-                label2.Text = codigo[0].ToString();
-                textBox1.Text = codigo[1].ToString();
-                textBox3.Text = codigo[2].ToString();
-                textBox2.Text = codigo[3].ToString();
-            }
-            catch (Exception)
-            {
-                MessageBox.Show("Es el final de la lista");
-            }
+            FunNavegador fn = new FunNavegador();
+            fn.Siguiente(dataGridView1);
+            TextBox[] textbox = { textBox4, textBox3, textBox2, textBox5,textbox6,textBox7 };
+            fn.llenartextbox(textbox, dataGridView1);
+            dateTimePicker1.Text = textBox5.Text;
+            comboBox1.Text = textBox4.Text;
         }
 
         private void btn_ultimo_Click(object sender, EventArgs e)
         {
-            string ntabla = "empleado";
-            try
-            {
-                FunNavegador fn = new FunNavegador();
-                codigo = fn.Tsiguiente(ntabla);
-                label2.Text = codigo[0].ToString();
-                textBox1.Text = codigo[1].ToString();
-                textBox3.Text = codigo[2].ToString();
-                textBox2.Text = codigo[3].ToString();
-            }
-            catch (Exception)
-            {
-                MessageBox.Show("Es el final de la lista");
-            }
+            FunNavegador fn = new FunNavegador();
+            fn.Ultimo(dataGridView1);
+            TextBox[] textbox = { textBox4, textBox3, textBox2, textBox5, textbox6,textBox7 };
+            fn.llenartextbox(textbox, dataGridView1);
+            dateTimePicker1.Text = textBox5.Text;
+            comboBox1.Text = textBox4.Text;
         }
 
         private void btn_primero_Click(object sender, EventArgs e)
         {
-            string ntabla = "empleado";
-            try
-            {
-                FunNavegador fn = new FunNavegador();
-                codigo = fn.Tanterior(ntabla);
-                label2.Text = codigo[0].ToString();
-                textBox1.Text = codigo[1].ToString();
-                textBox3.Text = codigo[2].ToString();
-                textBox2.Text = codigo[3].ToString();
-            }
-            catch (Exception)
-            {
-                MessageBox.Show("Es el final de la lista");
-            }
+            FunNavegador fn = new FunNavegador();
+            fn.Primero(dataGridView1);
+            TextBox[] textbox = { textBox4, textBox3, textBox2, textBox5, textbox6,textBox7 };
+            fn.llenartextbox(textbox, dataGridView1);
+            dateTimePicker1.Text = textBox5.Text;
+            comboBox1.Text = textBox4.Text;
         }
 
         private void btn_anterior_Click(object sender, EventArgs e)
         {
-            int Codigo1 = 1;
-            if (textBox1.Text != "")
-            {
-                Codigo1 = int.Parse(label2.Text);
-            }
-
-            string ntabla = "empleado";
-            string dato = "codigo";
-            try
-            {
-                FunNavegador fn = new FunNavegador();
-                codigo = fn.Ranterior(Codigo1, dato, ntabla);
-                label2.Text = codigo[0].ToString();
-                textBox1.Text = codigo[1].ToString();
-                textBox3.Text = codigo[2].ToString();
-                textBox2.Text = codigo[3].ToString();
-            }
-            catch (Exception)
-            {
-                MessageBox.Show("Es el final de la lista");
-            }
+            FunNavegador fn = new FunNavegador();
+            fn.Anterior(dataGridView1);
+            TextBox[] textbox = { textBox4, textBox3, textBox2, textBox5, textbox6,textBox7 };
+            fn.llenartextbox(textbox, dataGridView1);
+            dateTimePicker1.Text = textBox5.Text;
+            comboBox1.Text = textBox4.Text;
         }
 
         private void btn_actualizar_Click(object sender, EventArgs e)
@@ -264,6 +227,22 @@ namespace Navegador
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
             //textBox4.Text = comboBox1.SelectedValue.ToString();
+        }
+
+        private void dataGridView1_SelectionChanged(object sender, EventArgs e)
+        {
+            TextBox[] textbox = {textBox4,textBox3,textBox2,textBox5,textbox6};
+            FunNavegador fn = new FunNavegador();
+            fn.llenartextbox(textbox,dataGridView1);
+            dateTimePicker1.Text = textBox5.Text;
+            comboBox1.Text = textBox4.Text;
+        }
+
+        private void btn_buscar_Click(object sender, EventArgs e)
+        {
+            string tabla = "empleado";
+            operaciones op = new operaciones();
+            op.ejecutar(dataGridView1, tabla);
         }
     }
 }
