@@ -55,3 +55,6 @@ D:\Universidad\cv\Modulo Bancos\Modulo Bancos\obj\Debug\Modulo_Bancos.Documento.
 D:\Universidad\cv\Modulo Bancos\Modulo Bancos\obj\Debug\Modulo_Bancos.MDIBancos.resources
 D:\Universidad\cv\Modulo Bancos\Modulo Bancos\obj\Debug\Modulo_Bancos.Properties.Resources.resources
 D:\Universidad\cv\Modulo Bancos\Modulo Bancos\obj\Debug\Modulo Bancos.csproj.GenerateResource.Cache
+C:\Users\ottog\Documents\GitHub\Hotel-San-Carlos\Grupo1\Prototipo\Modulo Bancos\Modulo Bancos\bin\Debug\Modulo Bancos.exe.config
+C:\Users\ottog\Documents\GitHub\Hotel-San-Carlos\Grupo1\Prototipo\Modulo Bancos\Modulo Bancos\obj\Debug\Modulo Bancos.exe
+C:\Users\ottog\Documents\GitHub\Hotel-San-Carlos\Grupo1\Prototipo\Modulo Bancos\Modulo Bancos\obj\Debug\Modulo Bancos.pdb

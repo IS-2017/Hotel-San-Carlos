@@ -5,27 +5,28 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using MySql.Data.MySqlClient;
+using System.Data.Odbc;
 
 namespace FuncionesNavegador
 {
     class Conexionmysql
     {
-        public static MySqlConnection ObtenerConexion()
+        public static OdbcConnection ObtenerConexion()
         {
-            MySqlConnection miconexion = new MySqlConnection("server=localhost; database=ejemplodll; uid=root; pwd=;");
+            OdbcConnection miconexion = new OdbcConnection("dsn=pruebas_navegador; server=localhost; database=ejemplodll; uid=root; pwd=;");
             miconexion.Open();
             return miconexion;
         }
-        public static MySqlConnection Desconectar()
+        public static OdbcConnection Desconectar()
         {
-            MySqlConnection miconexion = new MySqlConnection("server=localhost; database=ejemplodll; uid=root; pwd=;");
+            OdbcConnection miconexion = new OdbcConnection("dsn=pruebas_navegador; server=localhost; database=ejemplodll; uid=root; pwd=;");
             miconexion.Close();
             return miconexion;
         }
 
         public static void EjecutarMySql(String Query)
         {
-            MySqlCommand MiComando = new MySqlCommand(Query,ObtenerConexion());
+            OdbcCommand MiComando = new OdbcCommand(Query,ObtenerConexion());
             int FilasAfectadas = MiComando.ExecuteNonQuery();
             if (FilasAfectadas > 0)
             {
@@ -33,11 +34,8 @@ namespace FuncionesNavegador
             }
             else
             {
-                MessageBox.Show("No se pudo realizar la modificacion de la base de datos", "Error del sistema", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                //MessageBox.Show("No se pudo realizar la modificacion de la base de datos", "Error del sistema", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
-
-       
-
     }
 }

@@ -53,12 +53,17 @@
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.textBox5 = new System.Windows.Forms.TextBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textbox6 = new System.Windows.Forms.TextBox();
+            this.Prueba = new System.Windows.Forms.Label();
+            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.textBox8 = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -243,6 +248,7 @@
             this.btn_buscar.TabIndex = 4;
             this.toolTip1.SetToolTip(this.btn_buscar, "Buscar");
             this.btn_buscar.UseVisualStyleBackColor = true;
+            this.btn_buscar.Click += new System.EventHandler(this.btn_buscar_Click);
             // 
             // btn_actualizar
             // 
@@ -283,9 +289,11 @@
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(240, 227);
             this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridView1.Size = new System.Drawing.Size(471, 129);
             this.dataGridView1.TabIndex = 160;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            this.dataGridView1.SelectionChanged += new System.EventHandler(this.dataGridView1_SelectionChanged);
             // 
             // textBox3
             // 
@@ -306,7 +314,7 @@
             "5",
             "6",
             "7"});
-            this.comboBox1.Location = new System.Drawing.Point(269, 188);
+            this.comboBox1.Location = new System.Drawing.Point(272, 163);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(121, 21);
             this.comboBox1.TabIndex = 159;
@@ -353,6 +361,7 @@
             this.textBox4.Size = new System.Drawing.Size(34, 20);
             this.textBox4.TabIndex = 166;
             this.textBox4.Tag = "nombre";
+            this.textBox4.Visible = false;
             // 
             // textBox5
             // 
@@ -361,24 +370,7 @@
             this.textBox5.Size = new System.Drawing.Size(16, 20);
             this.textBox5.TabIndex = 167;
             this.textBox5.Tag = "Fecha";
-            // 
-            // comboBox2
-            // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6",
-            "7"});
-            this.comboBox2.Location = new System.Drawing.Point(77, 227);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(121, 21);
-            this.comboBox2.TabIndex = 168;
-            this.comboBox2.Tag = "nombre";
-            this.comboBox2.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
+            this.textBox5.Visible = false;
             // 
             // label3
             // 
@@ -418,23 +410,80 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(290, 162);
+            this.textBox1.Location = new System.Drawing.Point(272, 193);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
+            this.textBox1.Size = new System.Drawing.Size(121, 20);
             this.textBox1.TabIndex = 173;
             this.textBox1.Tag = "nombre";
+            this.textBox1.Visible = false;
+            // 
+            // textbox6
+            // 
+            this.textbox6.Location = new System.Drawing.Point(102, 190);
+            this.textbox6.Name = "textbox6";
+            this.textbox6.Size = new System.Drawing.Size(100, 20);
+            this.textbox6.TabIndex = 174;
+            this.textbox6.Tag = "Prueba";
+            // 
+            // Prueba
+            // 
+            this.Prueba.AutoSize = true;
+            this.Prueba.Location = new System.Drawing.Point(50, 193);
+            this.Prueba.Name = "Prueba";
+            this.Prueba.Size = new System.Drawing.Size(44, 13);
+            this.Prueba.TabIndex = 175;
+            this.Prueba.Text = "Prueba:";
+            // 
+            // textBox7
+            // 
+            this.textBox7.Location = new System.Drawing.Point(102, 227);
+            this.textBox7.Name = "textBox7";
+            this.textBox7.Size = new System.Drawing.Size(100, 20);
+            this.textBox7.TabIndex = 176;
+            this.textBox7.Tag = "prueba2";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(50, 230);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(50, 13);
+            this.label7.TabIndex = 177;
+            this.label7.Text = "Prueba2:";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(50, 268);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(50, 13);
+            this.label8.TabIndex = 179;
+            this.label8.Text = "Prueba3:";
+            // 
+            // textBox8
+            // 
+            this.textBox8.Location = new System.Drawing.Point(102, 265);
+            this.textBox8.Name = "textBox8";
+            this.textBox8.Size = new System.Drawing.Size(100, 20);
+            this.textBox8.TabIndex = 178;
+            this.textBox8.Tag = "prueba3";
             // 
             // Componente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(756, 372);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.textBox8);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.textBox7);
+            this.Controls.Add(this.Prueba);
+            this.Controls.Add(this.textbox6);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.comboBox2);
             this.Controls.Add(this.textBox5);
             this.Controls.Add(this.textBox4);
             this.Controls.Add(this.dateTimePicker1);
@@ -481,12 +530,17 @@
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.ComboBox comboBox2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textbox6;
+        private System.Windows.Forms.Label Prueba;
+        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.TextBox textBox8;
     }
 }
 

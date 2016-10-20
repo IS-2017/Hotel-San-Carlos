@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.Odbc;
 
 
 namespace FuncionesNavegador
@@ -114,7 +115,7 @@ namespace FuncionesNavegador
             //crear DataSet
             System.Data.DataSet MiDataSet = new System.Data.DataSet();
             //Crear Adaptador de datos
-            MySqlDataAdapter MiDataAdapter = new MySqlDataAdapter(Query, Conexionmysql.ObtenerConexion());
+            OdbcDataAdapter MiDataAdapter = new OdbcDataAdapter(Query, Conexionmysql.ObtenerConexion());
             //LLenar el DataSet
             MiDataAdapter.Fill(MiDataSet, tabla);
             //Asignarle el valor adecuado a las propiedades del DataGrid
@@ -124,101 +125,82 @@ namespace FuncionesNavegador
             Conexionmysql.Desconectar();
         }
 
-        public string[] Rsiguiente(int codigo, string tabla)
+
+        public int Siguiente(DataGridView datagridview)
         {
-            string codigon, nombre, apellido, descripcion = "";
-
-            string conexion = "server=localhost; database=ejemplodll; uid=root; pwd=;";
-
-            MySqlConnection conn = new MySqlConnection(conexion);
-
-            conn.Open();
-            string query = "SELECT * FROM "+tabla+" LIMIT " + codigo + " , 1";
-            MySqlCommand mycomand = new MySqlCommand(query, conn);
-
-            MySqlDataReader myreader = mycomand.ExecuteReader();
-
-            myreader.Read();
-            codigon = myreader["codigo"].ToString();
-            nombre = myreader["nombre"].ToString();
-            apellido = myreader["apellido"].ToString();
-            descripcion = myreader["descripcion"].ToString();
-            string[] datos = new string[4] { codigon, nombre, apellido, descripcion };
-
-            return datos;
-            conn.Close();
+            if (datagridview.Rows.Count > 1)
+            {
+                int valor = datagridview.CurrentCell.RowIndex;
+                int max = datagridview.Rows.Count - 2;
+                valor = valor + 1;
+                if (valor <= max)
+                {
+                    datagridview.Rows[valor].Selected = true;
+                    datagridview.CurrentCell = datagridview.Rows[valor].Cells[0];
+                }
+                else { MessageBox.Show("ULTIMO REGISTRO"); }
+                return 0;
+            }
+            else
+            {
+                MessageBox.Show("NO HAY DATOS");
+                return 0;
+            }
         }
 
-        public string[] Ranterior(int codigo, string dato, string tabla) {
-            string codigon, nombre, apellido, descripcion = "";
 
-            string conexion = "server=localhost; database=ejemplodll; uid=root; pwd=;";
-
-            MySqlConnection conn = new MySqlConnection(conexion);
-
-            conn.Open();
-            string query = "SELECT * FROM "+tabla+" WHERE "+dato+"<"+codigo+" ORDER BY codigo DESC LIMIT 1";
-            MySqlCommand mycomand = new MySqlCommand(query, conn);
-
-            MySqlDataReader myreader = mycomand.ExecuteReader();
-
-            myreader.Read();
-            codigon = myreader["codigo"].ToString();
-            nombre = myreader["nombre"].ToString();
-            apellido = myreader["apellido"].ToString();
-            descripcion = myreader["descripcion"].ToString();
-            string[] datos = new string[4] { codigon, nombre, apellido, descripcion };
-            // MessageBox.Show("* " + datos[1] + " /");
-            return datos;
-            conn.Close();
+        public int Anterior(DataGridView datagridview)
+        {
+            if (datagridview.Rows.Count > 1)
+            {
+                int valor = datagridview.CurrentCell.RowIndex;
+                int max = datagridview.Rows.Count - 2;
+                valor = valor - 1;
+                if (valor >= 0)
+                {
+                    datagridview.Rows[valor].Selected = true;
+                    datagridview.CurrentCell = datagridview.Rows[valor].Cells[0];
+                }
+                else { MessageBox.Show("PRIMER REGISTRO"); }
+                return 0;
+            }
+            else
+            {
+                MessageBox.Show("NO HAY DATOS");
+                return 0;
+            }
         }
 
-        public string[] Tsiguiente(string tabla) {
-            string codigon, nombre, apellido, descripcion = "";
 
-            string conexion = "server=localhost; database=ejemplodll; uid=root; pwd=;";
-
-            MySqlConnection conn = new MySqlConnection(conexion);
-
-            conn.Open();
-            string query = "SELECT * FROM "+tabla+" ORDER BY codigo DESC LIMIT 1";
-            MySqlCommand mycomand = new MySqlCommand(query, conn);
-
-            MySqlDataReader myreader = mycomand.ExecuteReader();
-
-            myreader.Read();
-            codigon = myreader["codigo"].ToString();
-            nombre = myreader["nombre"].ToString();
-            apellido = myreader["apellido"].ToString();
-            descripcion = myreader["descripcion"].ToString();
-            string[] datos = new string[4] { codigon, nombre, apellido, descripcion };
-            // MessageBox.Show("* " + datos[1] + " /");
-            return datos;
-            conn.Close();
+        public int Ultimo(DataGridView datagridview)
+        {
+            if (datagridview.Rows.Count > 1)
+            {
+                int max = datagridview.Rows.Count - 2;
+                datagridview.Rows[max].Selected = true;
+                datagridview.CurrentCell = datagridview.Rows[max].Cells[0];
+                return 0;
+            }
+            else
+            {
+                MessageBox.Show("NO HAY REGISTROS");
+                return 0;
+            }
         }
 
-        public string[] Tanterior(string tabla) {
-            string codigon, nombre, apellido, descripcion = "";
-
-            string conexion = "server=localhost; database=ejemplodll; uid=root; pwd=;";
-
-            MySqlConnection conn = new MySqlConnection(conexion);
-
-            conn.Open();
-            string query = "SELECT * FROM " + tabla + " ORDER BY codigo ASC LIMIT 1";
-            MySqlCommand mycomand = new MySqlCommand(query, conn);
-
-            MySqlDataReader myreader = mycomand.ExecuteReader();
-
-            myreader.Read();
-            codigon = myreader["codigo"].ToString();
-            nombre = myreader["nombre"].ToString();
-            apellido = myreader["apellido"].ToString();
-            descripcion = myreader["descripcion"].ToString();
-            string[] datos = new string[4] { codigon, nombre, apellido, descripcion };
-            // MessageBox.Show("* " + datos[1] + " /");
-            return datos;
-            conn.Close();
+        public int Primero(DataGridView datagridview)
+        {
+            if (datagridview.Rows.Count > 1)
+            {
+                datagridview.Rows[0].Selected = true;
+                datagridview.CurrentCell = datagridview.Rows[0].Cells[0];
+                return 0;
+            }
+            else
+            {
+                MessageBox.Show("NO HAY REGISTROS");
+                return 0;
+            }
         }
 
         public void LimpiarTextbox(TextBox textbox)
@@ -239,7 +221,7 @@ namespace FuncionesNavegador
             DataSet ds = new DataSet();
             //se indica la consulta en sql
             String Query1 = Query;
-            MySqlDataAdapter dad = new MySqlDataAdapter(Query1, Conexionmysql.ObtenerConexion());
+            OdbcDataAdapter dad = new OdbcDataAdapter(Query1, Conexionmysql.ObtenerConexion());
             //se indica con quu tabla se llena
             dad.Fill(ds, tabla);
             cbo.DataSource = ds.Tables[0].DefaultView;
@@ -248,6 +230,23 @@ namespace FuncionesNavegador
             //se indica el valor a desplegar en el combobox
             cbo.DisplayMember = (mostrar);
             return cbo;
+        }
+
+        public void llenartextbox(TextBox[] textbox, DataGridView datagridview)
+        {
+            int cantidadcolumnas = datagridview.Columns.Count;
+            DataGridViewColumn contenido;
+            foreach (TextBox tb in textbox)
+            {
+                for(int i = 0; i < cantidadcolumnas; i++)
+                {
+                    contenido = datagridview.Columns[i];
+                    if (tb.Tag.ToString() == contenido.HeaderText.ToString())
+                    {
+                        tb.Text = datagridview.CurrentRow.Cells[i].Value.ToString();
+                    }
+                }
+            }
         }
     }
 }
