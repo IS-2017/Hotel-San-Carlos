@@ -51,7 +51,6 @@
             this.lbl_comi = new System.Windows.Forms.Label();
             this.txt_nom_ved = new System.Windows.Forms.TextBox();
             this.lbl_nom_ved = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.gpb_com_ven.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -70,8 +69,8 @@
             this.groupBox1.Controls.Add(this.btn_buscar);
             this.groupBox1.Controls.Add(this.btn_actualizar);
             this.groupBox1.Controls.Add(this.btn_cancelar);
-            this.groupBox1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(37, 93);
+            this.groupBox1.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox1.Location = new System.Drawing.Point(12, 12);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(636, 100);
             this.groupBox1.TabIndex = 11;
@@ -255,9 +254,9 @@
             this.gpb_com_ven.Controls.Add(this.txt_nom_ved);
             this.gpb_com_ven.Controls.Add(this.lbl_nom_ved);
             this.gpb_com_ven.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gpb_com_ven.Location = new System.Drawing.Point(12, 199);
+            this.gpb_com_ven.Location = new System.Drawing.Point(12, 118);
             this.gpb_com_ven.Name = "gpb_com_ven";
-            this.gpb_com_ven.Size = new System.Drawing.Size(714, 273);
+            this.gpb_com_ven.Size = new System.Drawing.Size(784, 295);
             this.gpb_com_ven.TabIndex = 161;
             this.gpb_com_ven.TabStop = false;
             this.gpb_com_ven.Text = "Datos";
@@ -265,15 +264,15 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(25, 111);
+            this.dataGridView1.Location = new System.Drawing.Point(6, 117);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(662, 150);
+            this.dataGridView1.Size = new System.Drawing.Size(772, 172);
             this.dataGridView1.TabIndex = 169;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // dateTimePicker1
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(85, 66);
+            this.dateTimePicker1.Location = new System.Drawing.Point(170, 76);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(200, 27);
             this.dateTimePicker1.TabIndex = 168;
@@ -281,7 +280,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(21, 66);
+            this.label2.Location = new System.Drawing.Point(53, 75);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(63, 21);
             this.label2.TabIndex = 167;
@@ -289,7 +288,7 @@
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(487, 72);
+            this.textBox2.Location = new System.Drawing.Point(555, 78);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(185, 27);
             this.textBox2.TabIndex = 166;
@@ -297,7 +296,7 @@
             // lbl_total_com
             // 
             this.lbl_total_com.AutoSize = true;
-            this.lbl_total_com.Location = new System.Drawing.Point(350, 72);
+            this.lbl_total_com.Location = new System.Drawing.Point(418, 78);
             this.lbl_total_com.Name = "lbl_total_com";
             this.lbl_total_com.Size = new System.Drawing.Size(144, 21);
             this.lbl_total_com.TabIndex = 165;
@@ -305,16 +304,16 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(454, 27);
+            this.textBox1.Location = new System.Drawing.Point(555, 33);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(156, 27);
+            this.textBox1.Size = new System.Drawing.Size(185, 27);
             this.textBox1.TabIndex = 164;
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // lbl_comi
             // 
             this.lbl_comi.AutoSize = true;
-            this.lbl_comi.Location = new System.Drawing.Point(350, 30);
+            this.lbl_comi.Location = new System.Drawing.Point(418, 36);
             this.lbl_comi.Name = "lbl_comi";
             this.lbl_comi.Size = new System.Drawing.Size(100, 21);
             this.lbl_comi.TabIndex = 163;
@@ -322,51 +321,39 @@
             // 
             // txt_nom_ved
             // 
-            this.txt_nom_ved.Location = new System.Drawing.Point(138, 27);
+            this.txt_nom_ved.Location = new System.Drawing.Point(170, 36);
             this.txt_nom_ved.Name = "txt_nom_ved";
-            this.txt_nom_ved.Size = new System.Drawing.Size(147, 27);
+            this.txt_nom_ved.Size = new System.Drawing.Size(200, 27);
             this.txt_nom_ved.TabIndex = 162;
             // 
             // lbl_nom_ved
             // 
             this.lbl_nom_ved.AutoSize = true;
-            this.lbl_nom_ved.Location = new System.Drawing.Point(21, 30);
+            this.lbl_nom_ved.Location = new System.Drawing.Point(53, 39);
             this.lbl_nom_ved.Name = "lbl_nom_ved";
             this.lbl_nom_ved.Size = new System.Drawing.Size(111, 21);
             this.lbl_nom_ved.TabIndex = 161;
             this.lbl_nom_ved.Text = "Total ventas:";
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Century Gothic", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(185, 20);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(378, 36);
-            this.label1.TabIndex = 162;
-            this.label1.Text = "Comisiones de Vendedor";
-            // 
             // Comisiones_Vendedor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(204)))), ((int)(((byte)(150)))));
-            this.ClientSize = new System.Drawing.Size(747, 484);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
+            this.ClientSize = new System.Drawing.Size(808, 425);
             this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.gpb_com_ven);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.Name = "Comisiones_Vendedor";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Comisiones Vendedor";
+            this.Text = "Comisiones de Vendedor";
             this.groupBox1.ResumeLayout(false);
             this.gpb_com_ven.ResumeLayout(false);
             this.gpb_com_ven.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -384,7 +371,6 @@
         private System.Windows.Forms.Button btn_actualizar;
         private System.Windows.Forms.Button btn_cancelar;
         private System.Windows.Forms.GroupBox gpb_com_ven;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label lbl_comi;
         private System.Windows.Forms.TextBox txt_nom_ved;
