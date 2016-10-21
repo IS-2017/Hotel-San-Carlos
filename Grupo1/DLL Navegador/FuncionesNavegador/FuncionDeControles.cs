@@ -17,7 +17,7 @@ namespace FuncionesNavegador
     {
         //private static OdbcCommand mySqlComando;
         //private static OdbcDataAdapter mySqlDAdAdaptador;
-
+        public int cc;
 
 
         //MANEJO DE CONTROLES
@@ -33,104 +33,104 @@ namespace FuncionesNavegador
 
             if (insertar == 0)
             {
-                DesactivarButton(nuevo, false);
-                DesactivarButton(guardar, false);
+                ControlButton(nuevo, false);
+                ControlButton(guardar, false);
             }
             else
             {
-                DesactivarButton(nuevo, true);
-                DesactivarButton(guardar, true);
+                ControlButton(nuevo, true);
+                ControlButton(guardar, true);
             }
 
             if (seleccionar == 0)
             {
-                DesactivarButton(buscar, false);
-                DesactivarButton(refrescar, false);
+                ControlButton(buscar, false);
+                ControlButton(refrescar, false);
             }
             else
             {
-                DesactivarButton(buscar, true);
-                DesactivarButton(refrescar, true);
+                ControlButton(buscar, true);
+                ControlButton(refrescar, true);
             }
 
             if (actualizar == 0)
             {
-                DesactivarButton(modificar, false);
+                ControlButton(modificar, false);
             }
             else
             {
-                DesactivarButton(modificar, true);
+                ControlButton(modificar, true);
             }
 
             if (eliminar1 == 0)
             {
-                DesactivarButton(eliminar, false);
+                ControlButton(eliminar, false);
             }
             else
             {
-                DesactivarButton(eliminar, true);
+                ControlButton(eliminar, true);
             }
         }
 
-        public void DesactivarTextbox(TextBox txtboxnuevo, Boolean estado)
+        public void ControlTextbox(TextBox txtboxnuevo, Boolean estado)
         {
-            ManejoDeControles.FunDesactivarTextbox(txtboxnuevo, estado);
+            ManejoDeControles.FunControlTextbox(txtboxnuevo, estado);
         }
 
-        public void DesactivarButton(Button buttonnueo, Boolean estado)
+        public void ControlButton(Button buttonnueo, Boolean estado)
         {
-            ManejoDeControles.FunDesactivarButton(buttonnueo, estado);
+            ManejoDeControles.FunControlButton(buttonnueo, estado);
         }
 
-        public void DesactivarCheckBox(CheckBox checkbox, Boolean estado)
+        public void ControlCheckBox(CheckBox checkbox, Boolean estado)
         {
-            ManejoDeControles.FunDesactivarCheckBox(checkbox, estado);
+            ManejoDeControles.FunControlCheckBox(checkbox, estado);
         }
 
-        public void DesactivarCheckedListBox(CheckedListBox checkedlistbox, Boolean estado)
+        public void ControlCheckedListBox(CheckedListBox checkedlistbox, Boolean estado)
         {
-            ManejoDeControles.FunDesactivarCheckedListBox(checkedlistbox, estado);
+            ManejoDeControles.FunControlCheckedListBox(checkedlistbox, estado);
         }
 
-        public void DesactivarComboBox(ComboBox combobox, Boolean estado)
+        public void ControlComboBox(ComboBox combobox, Boolean estado)
         {
-            ManejoDeControles.FunDesactivarComboBox(combobox, estado);
+            ManejoDeControles.FunControlComboBox(combobox, estado);
         }
 
-        public void DesactivarDateTimePicker(DateTimePicker datetimepicker, Boolean estado)
+        public void ControlDateTimePicker(DateTimePicker datetimepicker, Boolean estado)
         {
-            ManejoDeControles.FunDesactivarDateTimePicker(datetimepicker, estado);
+            ManejoDeControles.FunControlDateTimePicker(datetimepicker, estado);
         }
 
-        public void DesactivarListBox(ListBox listbox, Boolean estado)
+        public void ControlListBox(ListBox listbox, Boolean estado)
         {
-            ManejoDeControles.FunDesactivarListBox(listbox, estado);
+            ManejoDeControles.FunControlListBox(listbox, estado);
         }
 
-        public void DesactivarListView(ListView listview, Boolean estado)
+        public void ControlListView(ListView listview, Boolean estado)
         {
-            ManejoDeControles.FunDesactivarListView(listview, estado);
+            ManejoDeControles.FunControlListView(listview, estado);
         }
 
-        public void DesactivarNumericUpDown(NumericUpDown numericupdown, Boolean estado)
+        public void ControlNumericUpDown(NumericUpDown numericupdown, Boolean estado)
         {
-            ManejoDeControles.FunDesactivarNumericUpDown(numericupdown, estado);
+            ManejoDeControles.FunControlNumericUpDown(numericupdown, estado);
         }
 
-        public void DesactivarPictureBox(PictureBox picturebox, Boolean estado)
+        public void ControlPictureBox(PictureBox picturebox, Boolean estado)
         {
-            ManejoDeControles.FunDesactivarPictureBox(picturebox, estado);
+            ManejoDeControles.FunControlPictureBox(picturebox, estado);
         }
 
-        public void DesactivarRadioButton(RadioButton radiobutton, Boolean estado)
+        public void ControlRadioButton(RadioButton radiobutton, Boolean estado)
         {
-            ManejoDeControles.FunDesactivarRadioButton(radiobutton, estado);
+            ManejoDeControles.FunControlRadioButton(radiobutton, estado);
 
         }
 
-        public void DesactivarDataGridView(DataGridView datagridview, Boolean estado)
+        public void ControlDataGridView(DataGridView datagridview, Boolean estado)
         {
-            ManejoDeControles.FunDesactivarDataGridView(datagridview, estado);
+            ManejoDeControles.FunControlDataGridView(datagridview, estado);
 
         }
 
@@ -196,7 +196,13 @@ namespace FuncionesNavegador
                     ((TextBox)c).Clear();
 
                 if (c is ComboBox)
-                    ((ComboBox)c).SelectedIndex = -1;
+                    ((ComboBox)c).SelectedIndex = 0;
+
+                if (c is DateTimePicker)
+                    ((DateTimePicker)c).Value = DateTime.Today;
+
+                if (c is CheckedListBox)
+                    ((CheckedListBox)c).SetItemCheckState(cc, CheckState.Unchecked);
 
             }
         }

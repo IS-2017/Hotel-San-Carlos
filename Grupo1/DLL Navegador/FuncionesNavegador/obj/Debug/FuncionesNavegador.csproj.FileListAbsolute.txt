@@ -66,3 +66,10 @@ C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Septima Entrega\DL
 C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Septima Entrega\DLL Navegador\FuncionesNavegador\obj\Debug\FuncionesNavegador.csprojResolveAssemblyReference.cache
 C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Septima Entrega\DLL Navegador\FuncionesNavegador\obj\Debug\FuncionesNavegador.dll
 C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Septima Entrega\DLL Navegador\FuncionesNavegador\obj\Debug\FuncionesNavegador.pdb
+C:\Users\javie\Documents\GitHub\Hotel-San-Carlos\Grupo1\DLL Navegador\FuncionesNavegador\bin\Debug\FuncionesNavegador.dll
+C:\Users\javie\Documents\GitHub\Hotel-San-Carlos\Grupo1\DLL Navegador\FuncionesNavegador\bin\Debug\FuncionesNavegador.pdb
+C:\Users\javie\Documents\GitHub\Hotel-San-Carlos\Grupo1\DLL Navegador\FuncionesNavegador\bin\Debug\MySql.Data.dll
+C:\Users\javie\Documents\GitHub\Hotel-San-Carlos\Grupo1\DLL Navegador\FuncionesNavegador\bin\Debug\MySql.Data.xml
+C:\Users\javie\Documents\GitHub\Hotel-San-Carlos\Grupo1\DLL Navegador\FuncionesNavegador\obj\Debug\FuncionesNavegador.csprojResolveAssemblyReference.cache
+C:\Users\javie\Documents\GitHub\Hotel-San-Carlos\Grupo1\DLL Navegador\FuncionesNavegador\obj\Debug\FuncionesNavegador.dll
+C:\Users\javie\Documents\GitHub\Hotel-San-Carlos\Grupo1\DLL Navegador\FuncionesNavegador\obj\Debug\FuncionesNavegador.pdb

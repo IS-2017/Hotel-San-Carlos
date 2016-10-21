@@ -23,73 +23,73 @@ namespace FuncionesNavegador
         #region Abilitar/Inhabilidat Controles
 
 
-            public static int FunDesactivarTextbox(TextBox textbox, Boolean valor)
+            public static int FunControlTextbox(TextBox textbox, Boolean valor)
             {
                 textbox.Enabled = valor;
                 return 0;
             }
 
-            public static int FunDesactivarButton(Button button, bool valor)
+            public static int FunControlButton(Button button, bool valor)
             {
                 button.Enabled = valor;
                 return 0;
             }
 
-            public static int FunDesactivarCheckBox(CheckBox checkbox, bool valor)
+            public static int FunControlCheckBox(CheckBox checkbox, bool valor)
             {
                 checkbox.Enabled = valor;
                 return 0;
             }
 
-            public static int FunDesactivarCheckedListBox(CheckedListBox checkedlistBox, bool valor)
+            public static int FunControlCheckedListBox(CheckedListBox checkedlistBox, bool valor)
             {
                 checkedlistBox.Enabled = valor;
                 return 0;
             }
 
-            public static int FunDesactivarComboBox(ComboBox combobox, bool valor)
+            public static int FunControlComboBox(ComboBox combobox, bool valor)
             {
                 combobox.Enabled = valor;
                 return 0;
             }
 
-            public static int FunDesactivarDateTimePicker(DateTimePicker datetimepicker, bool valor)
+            public static int FunControlDateTimePicker(DateTimePicker datetimepicker, bool valor)
             {
                 datetimepicker.Enabled = valor;
                 return 0;
             }
 
-            public static int FunDesactivarListBox(ListBox listbox, bool valor)
+            public static int FunControlListBox(ListBox listbox, bool valor)
             {
                 listbox.Enabled = valor;
                 return 0;
             }
 
-            public static int FunDesactivarListView(ListView listview, bool valor)
+            public static int FunControlListView(ListView listview, bool valor)
             {
                 listview.Enabled = valor;
                 return 0;
             }
 
-            public static int FunDesactivarNumericUpDown(NumericUpDown numericupdown, bool valor)
+            public static int FunControlNumericUpDown(NumericUpDown numericupdown, bool valor)
             {
                 numericupdown.Enabled = valor;
                 return 0;
             }
 
-            public static int FunDesactivarPictureBox(PictureBox picturebox, bool valor)
+            public static int FunControlPictureBox(PictureBox picturebox, bool valor)
             {
                 picturebox.Enabled = valor;
                 return 0;
             }
 
-            public static int FunDesactivarRadioButton(RadioButton radiobutton, bool valor)
+            public static int FunControlRadioButton(RadioButton radiobutton, bool valor)
             {
                 radiobutton.Enabled = valor;
                 return 0;
             }
 
-            public static int FunDesactivarDataGridView(DataGridView datagridview, bool valor)
+            public static int FunControlDataGridView(DataGridView datagridview, bool valor)
             {
                 datagridview.Enabled = valor;
                 return 0;

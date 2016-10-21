@@ -52,8 +52,8 @@ namespace Navegador
                     seguridad.Conexion.User = usuario;
                     seguridad.Conexion.PassWord = contraseña;
                     MessageBox.Show("loggeo exitoso");
-                    menu_seguridad men_seg = new menu_seguridad();
-                    men_seg.Show();
+                    //menu_seguridad men_seg = new menu_seguridad();
+                    //men_seg.Show();
                     txt_contraseña.Clear();
                     txt_usuario.Clear();
 
