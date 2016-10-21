@@ -13,7 +13,6 @@ namespace Prototipo__RRHH
     public partial class frm_Nominas : Form
     {
         private Label label1;
-        private Panel pnl_navegador;
         private GroupBox gpb_navegador;
         private Button btn_nuevo;
         private Button btn_ultimo;
@@ -56,7 +55,6 @@ namespace Prototipo__RRHH
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_Nominas));
             this.label1 = new System.Windows.Forms.Label();
-            this.pnl_navegador = new System.Windows.Forms.Panel();
             this.gpb_navegador = new System.Windows.Forms.GroupBox();
             this.btn_nuevo = new System.Windows.Forms.Button();
             this.btn_ultimo = new System.Windows.Forms.Button();
@@ -71,12 +69,6 @@ namespace Prototipo__RRHH
             this.btn_cancelar = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.cbo_sueldo_bs = new System.Windows.Forms.ComboBox();
-            this.lbl_sueldo_bs = new System.Windows.Forms.Label();
-            this.lbl_fech_nacimient = new System.Windows.Forms.Label();
-            this.ltp_fech_nacimient = new System.Windows.Forms.DateTimePicker();
-            this.txt_codigo = new System.Windows.Forms.TextBox();
-            this.lbl_codigo = new System.Windows.Forms.Label();
             this.Empleados = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Sueldo_base = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.id_deduccion = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -84,7 +76,12 @@ namespace Prototipo__RRHH
             this.deduccion = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.id_devengo = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.devengo = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.pnl_navegador.SuspendLayout();
+            this.cbo_sueldo_bs = new System.Windows.Forms.ComboBox();
+            this.lbl_sueldo_bs = new System.Windows.Forms.Label();
+            this.lbl_fech_nacimient = new System.Windows.Forms.Label();
+            this.ltp_fech_nacimient = new System.Windows.Forms.DateTimePicker();
+            this.txt_codigo = new System.Windows.Forms.TextBox();
+            this.lbl_codigo = new System.Windows.Forms.Label();
             this.gpb_navegador.SuspendLayout();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -98,14 +95,6 @@ namespace Prototipo__RRHH
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(0, 29);
             this.label1.TabIndex = 162;
-            // 
-            // pnl_navegador
-            // 
-            this.pnl_navegador.Controls.Add(this.gpb_navegador);
-            this.pnl_navegador.Location = new System.Drawing.Point(78, 12);
-            this.pnl_navegador.Name = "pnl_navegador";
-            this.pnl_navegador.Size = new System.Drawing.Size(716, 115);
-            this.pnl_navegador.TabIndex = 161;
             // 
             // gpb_navegador
             // 
@@ -121,7 +110,7 @@ namespace Prototipo__RRHH
             this.gpb_navegador.Controls.Add(this.btn_actualizar);
             this.gpb_navegador.Controls.Add(this.btn_cancelar);
             this.gpb_navegador.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gpb_navegador.Location = new System.Drawing.Point(43, 3);
+            this.gpb_navegador.Location = new System.Drawing.Point(12, 12);
             this.gpb_navegador.Name = "gpb_navegador";
             this.gpb_navegador.Size = new System.Drawing.Size(636, 100);
             this.gpb_navegador.TabIndex = 11;
@@ -303,9 +292,9 @@ namespace Prototipo__RRHH
             this.groupBox1.Controls.Add(this.txt_codigo);
             this.groupBox1.Controls.Add(this.lbl_codigo);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(27, 154);
+            this.groupBox1.Location = new System.Drawing.Point(12, 118);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(816, 336);
+            this.groupBox1.Size = new System.Drawing.Size(906, 336);
             this.groupBox1.TabIndex = 163;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Nomina";
@@ -323,71 +312,8 @@ namespace Prototipo__RRHH
             this.devengo});
             this.dataGridView1.Location = new System.Drawing.Point(19, 76);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(776, 239);
+            this.dataGridView1.Size = new System.Drawing.Size(881, 239);
             this.dataGridView1.TabIndex = 38;
-            // 
-            // cbo_sueldo_bs
-            // 
-            this.cbo_sueldo_bs.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbo_sueldo_bs.FormattingEnabled = true;
-            this.cbo_sueldo_bs.Items.AddRange(new object[] {
-            "2500",
-            "4800",
-            "6300",
-            "8000",
-            "8900",
-            "11000",
-            "12750"});
-            this.cbo_sueldo_bs.Location = new System.Drawing.Point(94, 28);
-            this.cbo_sueldo_bs.Name = "cbo_sueldo_bs";
-            this.cbo_sueldo_bs.Size = new System.Drawing.Size(200, 28);
-            this.cbo_sueldo_bs.TabIndex = 37;
-            // 
-            // lbl_sueldo_bs
-            // 
-            this.lbl_sueldo_bs.AutoSize = true;
-            this.lbl_sueldo_bs.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_sueldo_bs.Location = new System.Drawing.Point(16, 28);
-            this.lbl_sueldo_bs.Name = "lbl_sueldo_bs";
-            this.lbl_sueldo_bs.Size = new System.Drawing.Size(72, 18);
-            this.lbl_sueldo_bs.TabIndex = 36;
-            this.lbl_sueldo_bs.Text = "Empresa:";
-            // 
-            // lbl_fech_nacimient
-            // 
-            this.lbl_fech_nacimient.AutoSize = true;
-            this.lbl_fech_nacimient.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_fech_nacimient.Location = new System.Drawing.Point(536, 27);
-            this.lbl_fech_nacimient.Name = "lbl_fech_nacimient";
-            this.lbl_fech_nacimient.Size = new System.Drawing.Size(53, 18);
-            this.lbl_fech_nacimient.TabIndex = 35;
-            this.lbl_fech_nacimient.Text = "Fecha:";
-            // 
-            // ltp_fech_nacimient
-            // 
-            this.ltp_fech_nacimient.Location = new System.Drawing.Point(595, 25);
-            this.ltp_fech_nacimient.Name = "ltp_fech_nacimient";
-            this.ltp_fech_nacimient.Size = new System.Drawing.Size(200, 26);
-            this.ltp_fech_nacimient.TabIndex = 34;
-            // 
-            // txt_codigo
-            // 
-            this.txt_codigo.Enabled = false;
-            this.txt_codigo.Location = new System.Drawing.Point(368, 28);
-            this.txt_codigo.Name = "txt_codigo";
-            this.txt_codigo.Size = new System.Drawing.Size(158, 26);
-            this.txt_codigo.TabIndex = 33;
-            this.txt_codigo.Text = "NOM-0001";
-            // 
-            // lbl_codigo
-            // 
-            this.lbl_codigo.AutoSize = true;
-            this.lbl_codigo.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_codigo.Location = new System.Drawing.Point(302, 27);
-            this.lbl_codigo.Name = "lbl_codigo";
-            this.lbl_codigo.Size = new System.Drawing.Size(60, 18);
-            this.lbl_codigo.TabIndex = 32;
-            this.lbl_codigo.Text = "Código:";
             // 
             // Empleados
             // 
@@ -424,20 +350,82 @@ namespace Prototipo__RRHH
             this.devengo.HeaderText = "devengo";
             this.devengo.Name = "devengo";
             // 
+            // cbo_sueldo_bs
+            // 
+            this.cbo_sueldo_bs.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbo_sueldo_bs.FormattingEnabled = true;
+            this.cbo_sueldo_bs.Items.AddRange(new object[] {
+            "2500",
+            "4800",
+            "6300",
+            "8000",
+            "8900",
+            "11000",
+            "12750"});
+            this.cbo_sueldo_bs.Location = new System.Drawing.Point(144, 28);
+            this.cbo_sueldo_bs.Name = "cbo_sueldo_bs";
+            this.cbo_sueldo_bs.Size = new System.Drawing.Size(200, 28);
+            this.cbo_sueldo_bs.TabIndex = 37;
+            // 
+            // lbl_sueldo_bs
+            // 
+            this.lbl_sueldo_bs.AutoSize = true;
+            this.lbl_sueldo_bs.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_sueldo_bs.Location = new System.Drawing.Point(66, 28);
+            this.lbl_sueldo_bs.Name = "lbl_sueldo_bs";
+            this.lbl_sueldo_bs.Size = new System.Drawing.Size(72, 18);
+            this.lbl_sueldo_bs.TabIndex = 36;
+            this.lbl_sueldo_bs.Text = "Empresa:";
+            // 
+            // lbl_fech_nacimient
+            // 
+            this.lbl_fech_nacimient.AutoSize = true;
+            this.lbl_fech_nacimient.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_fech_nacimient.Location = new System.Drawing.Point(586, 27);
+            this.lbl_fech_nacimient.Name = "lbl_fech_nacimient";
+            this.lbl_fech_nacimient.Size = new System.Drawing.Size(53, 18);
+            this.lbl_fech_nacimient.TabIndex = 35;
+            this.lbl_fech_nacimient.Text = "Fecha:";
+            // 
+            // ltp_fech_nacimient
+            // 
+            this.ltp_fech_nacimient.Location = new System.Drawing.Point(645, 25);
+            this.ltp_fech_nacimient.Name = "ltp_fech_nacimient";
+            this.ltp_fech_nacimient.Size = new System.Drawing.Size(200, 26);
+            this.ltp_fech_nacimient.TabIndex = 34;
+            // 
+            // txt_codigo
+            // 
+            this.txt_codigo.Enabled = false;
+            this.txt_codigo.Location = new System.Drawing.Point(418, 28);
+            this.txt_codigo.Name = "txt_codigo";
+            this.txt_codigo.Size = new System.Drawing.Size(158, 26);
+            this.txt_codigo.TabIndex = 33;
+            this.txt_codigo.Text = "NOM-0001";
+            // 
+            // lbl_codigo
+            // 
+            this.lbl_codigo.AutoSize = true;
+            this.lbl_codigo.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_codigo.Location = new System.Drawing.Point(352, 27);
+            this.lbl_codigo.Name = "lbl_codigo";
+            this.lbl_codigo.Size = new System.Drawing.Size(60, 18);
+            this.lbl_codigo.TabIndex = 32;
+            this.lbl_codigo.Text = "Código:";
+            // 
             // frm_Nominas
             // 
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(204)))), ((int)(((byte)(150)))));
-            this.ClientSize = new System.Drawing.Size(868, 502);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
+            this.ClientSize = new System.Drawing.Size(930, 468);
+            this.Controls.Add(this.gpb_navegador);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.pnl_navegador);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.Name = "frm_Nominas";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Nomina";
-            this.pnl_navegador.ResumeLayout(false);
             this.gpb_navegador.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

@@ -77,7 +77,7 @@
             this.Btn_Inicio_secion.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.Btn_Inicio_secion.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.Btn_Inicio_secion.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.Btn_Inicio_secion.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Btn_Inicio_secion.Location = new System.Drawing.Point(224, 382);
             this.Btn_Inicio_secion.Name = "Btn_Inicio_secion";
@@ -185,7 +185,7 @@
             this.Name = "Login_Prueba";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Login";
+            this.Text = "Login Modulo RRHH";
             this.Panel1.ResumeLayout(false);
             this.Panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pic_logo)).EndInit();

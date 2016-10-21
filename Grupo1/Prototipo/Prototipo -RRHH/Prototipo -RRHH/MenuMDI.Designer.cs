@@ -37,6 +37,10 @@
             this.planillaIGSSToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.nominasToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.seguridadToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.usuariosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cambioDeContraseñaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.bitacoraToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.administracionSeguridadToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.helpMenu = new System.Windows.Forms.ToolStripMenuItem();
             this.contentsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.indexToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -45,10 +49,6 @@
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolTip = new System.Windows.Forms.ToolTip(this.components);
-            this.usuariosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.cambioDeContraseñaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.bitacoraToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.administracionSeguridadToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -120,6 +120,30 @@
             this.seguridadToolStripMenuItem.Size = new System.Drawing.Size(88, 20);
             this.seguridadToolStripMenuItem.Text = "Seguridad";
             // 
+            // usuariosToolStripMenuItem
+            // 
+            this.usuariosToolStripMenuItem.Name = "usuariosToolStripMenuItem";
+            this.usuariosToolStripMenuItem.Size = new System.Drawing.Size(210, 22);
+            this.usuariosToolStripMenuItem.Text = "Usuarios";
+            // 
+            // cambioDeContraseñaToolStripMenuItem
+            // 
+            this.cambioDeContraseñaToolStripMenuItem.Name = "cambioDeContraseñaToolStripMenuItem";
+            this.cambioDeContraseñaToolStripMenuItem.Size = new System.Drawing.Size(210, 22);
+            this.cambioDeContraseñaToolStripMenuItem.Text = "Cambio de Contraseña";
+            // 
+            // bitacoraToolStripMenuItem
+            // 
+            this.bitacoraToolStripMenuItem.Name = "bitacoraToolStripMenuItem";
+            this.bitacoraToolStripMenuItem.Size = new System.Drawing.Size(210, 22);
+            this.bitacoraToolStripMenuItem.Text = "Bitacora";
+            // 
+            // administracionSeguridadToolStripMenuItem
+            // 
+            this.administracionSeguridadToolStripMenuItem.Name = "administracionSeguridadToolStripMenuItem";
+            this.administracionSeguridadToolStripMenuItem.Size = new System.Drawing.Size(210, 22);
+            this.administracionSeguridadToolStripMenuItem.Text = "Administracion seguridad";
+            // 
             // helpMenu
             // 
             this.helpMenu.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -174,36 +198,12 @@
             this.toolStripMenuItem3.Size = new System.Drawing.Size(236, 22);
             this.toolStripMenuItem3.Text = "Cerrar Sesion";
             // 
-            // usuariosToolStripMenuItem
-            // 
-            this.usuariosToolStripMenuItem.Name = "usuariosToolStripMenuItem";
-            this.usuariosToolStripMenuItem.Size = new System.Drawing.Size(210, 22);
-            this.usuariosToolStripMenuItem.Text = "Usuarios";
-            // 
-            // cambioDeContraseñaToolStripMenuItem
-            // 
-            this.cambioDeContraseñaToolStripMenuItem.Name = "cambioDeContraseñaToolStripMenuItem";
-            this.cambioDeContraseñaToolStripMenuItem.Size = new System.Drawing.Size(210, 22);
-            this.cambioDeContraseñaToolStripMenuItem.Text = "Cambio de Contraseña";
-            // 
-            // bitacoraToolStripMenuItem
-            // 
-            this.bitacoraToolStripMenuItem.Name = "bitacoraToolStripMenuItem";
-            this.bitacoraToolStripMenuItem.Size = new System.Drawing.Size(210, 22);
-            this.bitacoraToolStripMenuItem.Text = "Bitacora";
-            // 
-            // administracionSeguridadToolStripMenuItem
-            // 
-            this.administracionSeguridadToolStripMenuItem.Name = "administracionSeguridadToolStripMenuItem";
-            this.administracionSeguridadToolStripMenuItem.Size = new System.Drawing.Size(210, 22);
-            this.administracionSeguridadToolStripMenuItem.Text = "Administracion seguridad";
-            // 
             // MenuMDI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(912, 453);
             this.Controls.Add(this.menuStrip);
             this.DoubleBuffered = true;
