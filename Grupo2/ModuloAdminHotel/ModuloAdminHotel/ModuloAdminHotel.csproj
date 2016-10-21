@@ -150,6 +150,7 @@
     <Compile Include="Frm_Problema.Designer.cs">
       <DependentUpon>Frm_Problema.cs</DependentUpon>
     </Compile>
+    <Compile Include="metodos.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Frm_ControlDeHabitaciones.resx">
@@ -252,6 +253,13 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Imagenes\modificar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Imagenes\Button-Close-icon.png" />
+    <Content Include="Imagenes\Button-Info-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Imagenes\NewFolder1\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
