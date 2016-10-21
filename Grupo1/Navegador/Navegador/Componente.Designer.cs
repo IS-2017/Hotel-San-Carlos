@@ -496,7 +496,7 @@
             this.Controls.Add(this.panel1);
             this.MaximizeBox = false;
             this.Name = "Componente";
-            this.Text = "Componente";
+            this.Text = ",P";
             this.Load += new System.EventHandler(this.Componente_Load);
             this.panel1.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);

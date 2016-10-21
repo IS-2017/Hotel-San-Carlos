@@ -23,6 +23,55 @@ namespace FuncionesNavegador
         //MANEJO DE CONTROLES
         #region Abilitar/Inhabilidat Controles
 
+        public void desactivarPermiso(DataTable datos, Button guardar, Button eliminar, Button modificar, Button nuevo, Button cancelar, Button refrescar, Button buscar, Button anterior, Button siguiente, Button primero, Button ultimo)
+        {
+            DataRow permisos = datos.Rows[0];
+            int insertar = Convert.ToInt32(permisos[0]);
+            int seleccionar = Convert.ToInt32(permisos[1]);
+            int actualizar = Convert.ToInt32(permisos[2]);
+            int eliminar1 = Convert.ToInt32(permisos[3]);
+
+            if (insertar == 0)
+            {
+                DesactivarButton(nuevo, false);
+                DesactivarButton(guardar, false);
+            }
+            else
+            {
+                DesactivarButton(nuevo, true);
+                DesactivarButton(guardar, true);
+            }
+
+            if (seleccionar == 0)
+            {
+                DesactivarButton(buscar, false);
+                DesactivarButton(refrescar, false);
+            }
+            else
+            {
+                DesactivarButton(buscar, true);
+                DesactivarButton(refrescar, true);
+            }
+
+            if (actualizar == 0)
+            {
+                DesactivarButton(modificar, false);
+            }
+            else
+            {
+                DesactivarButton(modificar, true);
+            }
+
+            if (eliminar1 == 0)
+            {
+                DesactivarButton(eliminar, false);
+            }
+            else
+            {
+                DesactivarButton(eliminar, true);
+            }
+        }
+
         public void DesactivarTextbox(TextBox txtboxnuevo, Boolean estado)
         {
             ManejoDeControles.FunDesactivarTextbox(txtboxnuevo, estado);

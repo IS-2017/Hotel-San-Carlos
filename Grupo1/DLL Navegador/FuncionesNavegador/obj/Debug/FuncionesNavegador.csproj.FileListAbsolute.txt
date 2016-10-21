@@ -59,3 +59,10 @@ C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Sexta entrega\DLL 
 C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Sexta entrega\DLL Navegador\FuncionesNavegador\obj\Debug\FuncionesNavegador.csprojResolveAssemblyReference.cache
 C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Sexta entrega\DLL Navegador\FuncionesNavegador\obj\Debug\FuncionesNavegador.dll
 C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Sexta entrega\DLL Navegador\FuncionesNavegador\obj\Debug\FuncionesNavegador.pdb
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Septima Entrega\DLL Navegador\FuncionesNavegador\bin\Debug\FuncionesNavegador.dll
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Septima Entrega\DLL Navegador\FuncionesNavegador\bin\Debug\FuncionesNavegador.pdb
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Septima Entrega\DLL Navegador\FuncionesNavegador\bin\Debug\MySql.Data.dll
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Septima Entrega\DLL Navegador\FuncionesNavegador\bin\Debug\MySql.Data.xml
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Septima Entrega\DLL Navegador\FuncionesNavegador\obj\Debug\FuncionesNavegador.csprojResolveAssemblyReference.cache
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Septima Entrega\DLL Navegador\FuncionesNavegador\obj\Debug\FuncionesNavegador.dll
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Septima Entrega\DLL Navegador\FuncionesNavegador\obj\Debug\FuncionesNavegador.pdb
