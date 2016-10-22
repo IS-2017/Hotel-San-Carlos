@@ -25,17 +25,14 @@ namespace Navegador
         private void btn_nuevo_Click(object sender, EventArgs e)
         {
             Editar = false; 
-            FuncionDeControles ctl = new FuncionDeControles();
-            FunNavegador fn = new FunNavegador();
-            ctl.ActivarControles(this);
-            fn.LimpiarTextbox(textBox1);
-            fn.LimpiarTextbox(textBox2);
-            fn.LimpiarTextbox(textBox3);
+            CapaNegocio fn = new CapaNegocio();
+            fn.ActivarControles(this);
+            fn.LimpiarComponentes(this);
         }
 
         public void llenarCbo1()
         {
-            FunNavegador obj = new FunNavegador();
+            CapaNegocio obj = new CapaNegocio();
             string query = "select codigo,nombre from empleado;";
             string tabla = "empleado";
             string valor = "nombre";
@@ -45,15 +42,8 @@ namespace Navegador
 
         private void Componente_Load(object sender, EventArgs e)
         {
-            /*textBox1.Enabled = false;
-            textBox2.Enabled = false;
-            textBox3.Enabled = false; */
-            /*textBox4.Visible = false;
-            textBox5.Visible = false;*/
-            FuncionDeControles ctl = new FuncionDeControles();
-            ctl.InhabilitarComponentes(this);
-
-            FunNavegador fn = new FunNavegador();
+            CapaNegocio fn = new CapaNegocio();
+            fn.InhabilitarComponentes(this);
             llenarCbo1();
             //fn.ActualizarGrid(this.dataGridView1, "Select * from empleado WHERE estado <> 'INACTIVO' ");
 
@@ -67,7 +57,7 @@ namespace Navegador
             {
                 textBox4.Text = comboBox1.SelectedValue.ToString();
                 textBox5.Text = dateTimePicker1.Value.ToString("yyyy-MM-dd");
-                FunNavegador fn = new FunNavegador();
+                CapaNegocio fn = new CapaNegocio();
                 TextBox[] textbox = { textBox2, textBox3, textBox4, textBox5,textbox6,textBox7 };
                 DataTable datos = fn.construirDataTable(textbox);
                 if (datos.Rows.Count == 0)
@@ -85,15 +75,7 @@ namespace Navegador
                     {
                         fn.insertar(datos, tabla);
                     }
-                    // fn.ActualizarGrid(this.dataGridView1, "Select * from empleado ");
-                    fn.LimpiarTextbox(textBox1);
-                    fn.LimpiarTextbox(textBox2);
-                    fn.LimpiarTextbox(textBox3);
-                    fn.LimpiarTextbox(textBox4);
-                    fn.LimpiarTextbox(textBox5);
-                    fn.LimpiarTextbox(textbox6);
-                    fn.LimpiarTextbox(textBox7);
-                    fn.LimpiarCombobox(comboBox1);
+                    fn.LimpiarComponentes(this);
                 }
             }
             catch
@@ -112,7 +94,7 @@ namespace Navegador
                 Codigo = this.dataGridView1.CurrentRow.Cells[0].Value.ToString();
                 label2.Text = Codigo;
                 TextBox[] textbox = { textBox4, textBox3, textBox2, textBox5, textbox6,textBox7 };
-                FunNavegador fn = new FunNavegador();
+                CapaNegocio fn = new CapaNegocio();
                 fn.llenartextbox(textbox, dataGridView1);
             }
             catch
@@ -134,7 +116,7 @@ namespace Navegador
                 if (resultado == DialogResult.Yes)
                 {
 
-                    FunNavegador fn = new FunNavegador();
+                    CapaNegocio fn = new CapaNegocio();
                     string tabla = "empleado";
                     fn.eliminar(tabla, atributo2, codigo2);
 
@@ -149,13 +131,9 @@ namespace Navegador
         private void btn_cancelar_Click(object sender, EventArgs e)
         {
             Editar = false;
-            FuncionDeControles ctl = new FuncionDeControles();
-            FunNavegador fn = new FunNavegador();
-            ctl.LimpiarComponentes(this);
-            ctl.InhabilitarComponentes(this);
-            fn.LimpiarTextbox(textBox1);
-            fn.LimpiarTextbox(textBox2);
-            fn.LimpiarTextbox(textBox3);
+            CapaNegocio fn = new CapaNegocio();
+            fn.LimpiarComponentes(this);
+            fn.InhabilitarComponentes(this);
         }
 
         private void userControl11_Load(object sender, EventArgs e)
@@ -170,7 +148,7 @@ namespace Navegador
 
         private void btn_siguiente_Click(object sender, EventArgs e)
         {
-            FunNavegador fn = new FunNavegador();
+            CapaNegocio fn = new CapaNegocio();
             fn.Siguiente(dataGridView1);
             TextBox[] textbox = { textBox4, textBox3, textBox2, textBox5,textbox6,textBox7 };
             fn.llenartextbox(textbox, dataGridView1);
@@ -180,7 +158,7 @@ namespace Navegador
 
         private void btn_ultimo_Click(object sender, EventArgs e)
         {
-            FunNavegador fn = new FunNavegador();
+            CapaNegocio fn = new CapaNegocio();
             fn.Ultimo(dataGridView1);
             TextBox[] textbox = { textBox4, textBox3, textBox2, textBox5, textbox6,textBox7 };
             fn.llenartextbox(textbox, dataGridView1);
@@ -190,7 +168,7 @@ namespace Navegador
 
         private void btn_primero_Click(object sender, EventArgs e)
         {
-            FunNavegador fn = new FunNavegador();
+            CapaNegocio fn = new CapaNegocio();
             fn.Primero(dataGridView1);
             TextBox[] textbox = { textBox4, textBox3, textBox2, textBox5, textbox6,textBox7 };
             fn.llenartextbox(textbox, dataGridView1);
@@ -200,7 +178,7 @@ namespace Navegador
 
         private void btn_anterior_Click(object sender, EventArgs e)
         {
-            FunNavegador fn = new FunNavegador();
+            CapaNegocio fn = new CapaNegocio();
             fn.Anterior(dataGridView1);
             TextBox[] textbox = { textBox4, textBox3, textBox2, textBox5, textbox6,textBox7 };
             fn.llenartextbox(textbox, dataGridView1);
@@ -210,7 +188,7 @@ namespace Navegador
 
         private void btn_actualizar_Click(object sender, EventArgs e)
         {
-            FunNavegador fn = new FunNavegador();
+            CapaNegocio fn = new CapaNegocio();
             string tabla = "empleado";
             fn.ActualizarGrid(this.dataGridView1, "Select * from empleado WHERE estado <> 'INACTIVO' ", tabla);
         }
@@ -231,11 +209,6 @@ namespace Navegador
 
         private void dataGridView1_SelectionChanged(object sender, EventArgs e)
         {
-            TextBox[] textbox = {textBox4,textBox3,textBox2,textBox5,textbox6};
-            FunNavegador fn = new FunNavegador();
-            fn.llenartextbox(textbox,dataGridView1);
-            dateTimePicker1.Text = textBox5.Text;
-            comboBox1.Text = textBox4.Text;
         }
 
         private void btn_buscar_Click(object sender, EventArgs e)

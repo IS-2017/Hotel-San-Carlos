@@ -20,8 +20,8 @@ namespace Navegador
 
         private void btn_nuevo_Click(object sender, EventArgs e)
         {
-            FuncionDeControles ctl = new FuncionDeControles();
-            ctl.ActivarControles(this);
+            CapaNegocio fn = new CapaNegocio();
+            fn.ActivarControles(this);
         }
 
         private void Componente_Load(object sender, EventArgs e)
@@ -29,10 +29,8 @@ namespace Navegador
             /*textBox1.Enabled = false;
             textBox2.Enabled = false;
             textBox3.Enabled = false; */
-            FuncionDeControles ctl = new FuncionDeControles();
-            ctl.InhabilitarComponentes(this);
-
-            FunNavegador fn = new FunNavegador();
+            CapaNegocio fn = new CapaNegocio();
+            fn.InhabilitarComponentes(this);
            // fn.ActualizarGrid(this.dataGridView1, "Select * from empleado WHERE estado <> 'INACTIVO' ");
 
         }

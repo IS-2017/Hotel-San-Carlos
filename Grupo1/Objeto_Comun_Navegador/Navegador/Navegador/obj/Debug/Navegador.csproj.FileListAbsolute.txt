@@ -129,3 +129,15 @@ C:\Users\javie\Documents\GitHub\Hotel-San-Carlos\Grupo1\Navegador\Navegador\bin\
 C:\Users\javie\Documents\GitHub\Hotel-San-Carlos\Grupo1\Navegador\Navegador\bin\Debug\Navegador.pdb
 C:\Users\javie\Documents\GitHub\Hotel-San-Carlos\Grupo1\Navegador\Navegador\bin\Debug\FuncionesNavegador.pdb
 C:\Users\javie\Documents\GitHub\Hotel-San-Carlos\Grupo1\Navegador\Navegador\bin\Debug\FuncionesNavegador.dll
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Octava entrega\Navegador\Navegador\bin\Debug\Navegador.exe.config
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Octava entrega\Navegador\Navegador\obj\Debug\Navegador.exe
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Octava entrega\Navegador\Navegador\obj\Debug\Navegador.pdb
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Octava entrega\Navegador\Navegador\obj\Debug\Navegador.csprojResolveAssemblyReference.cache
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Octava entrega\Navegador\Navegador\obj\Debug\Navegador.Componente.resources
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Octava entrega\Navegador\Navegador\obj\Debug\Navegador.Properties.Resources.resources
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Octava entrega\Navegador\Navegador\obj\Debug\Navegador.UserControl1.resources
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Octava entrega\Navegador\Navegador\obj\Debug\Navegador.csproj.GenerateResource.Cache
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Octava entrega\Navegador\Navegador\bin\Debug\Navegador.exe
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Octava entrega\Navegador\Navegador\bin\Debug\Navegador.pdb
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Octava entrega\Navegador\Navegador\bin\Debug\FuncionesNavegador.dll
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Octava entrega\Navegador\Navegador\bin\Debug\FuncionesNavegador.pdb
