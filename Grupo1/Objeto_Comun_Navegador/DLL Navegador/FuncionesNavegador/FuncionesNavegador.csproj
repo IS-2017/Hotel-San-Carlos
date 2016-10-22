@@ -46,10 +46,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CapaDatos.cs" />
     <Compile Include="Conexionmysql.cs" />
-    <Compile Include="FuncionDeControles.cs" />
-    <Compile Include="FunNavegador.cs" />
-    <Compile Include="ManejoDeControles.cs" />
+    <Compile Include="CapaNegocio.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
