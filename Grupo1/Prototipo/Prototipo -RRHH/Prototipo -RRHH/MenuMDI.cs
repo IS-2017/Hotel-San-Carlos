@@ -19,7 +19,8 @@ namespace Prototipo__RRHH
         Empleados frm_empleados;
         Comisiones_Vendedor comi_ve;
         Planilla_IGSS plan_igss;
-        frm_Nominas frm_nomin;
+        frm_Nominas_Empleados frm_nomin;
+        frm_prestaciones_lab frm_prest_lab;
 
 
 
@@ -116,19 +117,10 @@ namespace Prototipo__RRHH
 
         private void prestamosToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            if (frm_prest == null)
-            {
-                frm_prest = new frm_Prestamos();
-                frm_prest.MdiParent = this;
-                frm_prest.FormClosed += new FormClosedEventHandler(frm_prest_FormClosed);
-                frm_prest.Show();
-            }
+           
         }
 
-        void frm_prest_FormClosed(object sender, EventArgs e)
-        {
-            frm_prest = null;
-        }
+        
 
         private void empleadosToolStripMenuItem1_Click(object sender, EventArgs e)
         {
@@ -181,7 +173,7 @@ namespace Prototipo__RRHH
         {
             if (frm_nomin == null)
             {
-                frm_nomin = new frm_Nominas();
+                frm_nomin = new frm_Nominas_Empleados();
                 frm_nomin.MdiParent = this;
                 frm_nomin.FormClosed += new FormClosedEventHandler(frm_nomin_FormClosed);
                 frm_nomin.Show();
@@ -190,6 +182,36 @@ namespace Prototipo__RRHH
         void frm_nomin_FormClosed(object sender, EventArgs e)
         {
             frm_nomin = null;
+        }
+
+        private void prestamosToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            if (frm_prest == null)
+            {
+                frm_prest = new frm_Prestamos();
+                frm_prest.MdiParent = this;
+                frm_prest.FormClosed += new FormClosedEventHandler(frm_prest_FormClosed);
+                frm_prest.Show();
+            }
+        }
+        void frm_prest_FormClosed(object sender, EventArgs e)
+        {
+            frm_prest = null;
+        }
+
+        private void salariosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (frm_prest_lab == null)
+            {
+                frm_prest_lab = new frm_prestaciones_lab();
+                frm_prest_lab.MdiParent = this;
+                frm_prest_lab.FormClosed += new FormClosedEventHandler(frm_prest_lab_FormClosed);
+                frm_prest_lab.Show();
+            }
+        }
+        void frm_prest_lab_FormClosed(object sender, EventArgs e)
+        {
+            frm_prest_lab = null;
         }
     }
 }

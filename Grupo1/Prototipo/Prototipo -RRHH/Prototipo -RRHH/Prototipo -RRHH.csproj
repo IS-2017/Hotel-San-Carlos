@@ -33,6 +33,14 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="dllconsultas, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\dllconsultas.dll</HintPath>
+    </Reference>
+    <Reference Include="FuncionesNavegador, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\FuncionesNavegador.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -60,6 +68,12 @@
     </Compile>
     <Compile Include="frm_Nominas.cs">
       <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Nominas_Empleados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Nominas_Empleados.Designer.cs">
+      <DependentUpon>frm_Nominas_Empleados.cs</DependentUpon>
     </Compile>
     <Compile Include="frm_prestaciones_lab.cs">
       <SubType>Form</SubType>
@@ -101,6 +115,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frm_Nominas.resx">
       <DependentUpon>frm_Nominas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Nominas_Empleados.resx">
+      <DependentUpon>frm_Nominas_Empleados.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frm_prestaciones_lab.resx">
       <DependentUpon>frm_prestaciones_lab.cs</DependentUpon>

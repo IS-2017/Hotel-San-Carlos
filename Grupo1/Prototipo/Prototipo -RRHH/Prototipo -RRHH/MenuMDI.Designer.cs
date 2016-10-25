@@ -49,6 +49,8 @@
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolTip = new System.Windows.Forms.ToolTip(this.components);
+            this.prestamosToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.salariosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -70,10 +72,13 @@
             // 
             // prestamosToolStripMenuItem
             // 
+            this.prestamosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.prestamosToolStripMenuItem1,
+            this.salariosToolStripMenuItem});
             this.prestamosToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("prestamosToolStripMenuItem.Image")));
             this.prestamosToolStripMenuItem.Name = "prestamosToolStripMenuItem";
-            this.prestamosToolStripMenuItem.Size = new System.Drawing.Size(90, 20);
-            this.prestamosToolStripMenuItem.Text = "Prestamos";
+            this.prestamosToolStripMenuItem.Size = new System.Drawing.Size(152, 20);
+            this.prestamosToolStripMenuItem.Text = "Catalogo Prestaciones";
             this.prestamosToolStripMenuItem.Click += new System.EventHandler(this.prestamosToolStripMenuItem_Click);
             // 
             // empleadosToolStripMenuItem1
@@ -198,6 +203,20 @@
             this.toolStripMenuItem3.Size = new System.Drawing.Size(236, 22);
             this.toolStripMenuItem3.Text = "Cerrar Sesion";
             // 
+            // prestamosToolStripMenuItem1
+            // 
+            this.prestamosToolStripMenuItem1.Name = "prestamosToolStripMenuItem1";
+            this.prestamosToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
+            this.prestamosToolStripMenuItem1.Text = "Prestamos";
+            this.prestamosToolStripMenuItem1.Click += new System.EventHandler(this.prestamosToolStripMenuItem1_Click);
+            // 
+            // salariosToolStripMenuItem
+            // 
+            this.salariosToolStripMenuItem.Name = "salariosToolStripMenuItem";
+            this.salariosToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.salariosToolStripMenuItem.Text = "Salarios";
+            this.salariosToolStripMenuItem.Click += new System.EventHandler(this.salariosToolStripMenuItem_Click);
+            // 
             // MenuMDI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -207,10 +226,10 @@
             this.ClientSize = new System.Drawing.Size(912, 453);
             this.Controls.Add(this.menuStrip);
             this.DoubleBuffered = true;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip;
             this.Name = "MenuMDI";
-            this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Departamento de Recursos Humanos";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
@@ -242,6 +261,8 @@
         private System.Windows.Forms.ToolStripMenuItem cambioDeContraseñaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem bitacoraToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem administracionSeguridadToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem prestamosToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem salariosToolStripMenuItem;
     }
 }
 

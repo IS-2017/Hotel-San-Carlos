@@ -28,27 +28,43 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Empleados));
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.dateTimePicker3 = new System.Windows.Forms.DateTimePicker();
-            this.label10 = new System.Windows.Forms.Label();
-            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
-            this.label9 = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.gpb_regist_emp = new System.Windows.Forms.GroupBox();
+            this.dgv_datos_emp = new System.Windows.Forms.DataGridView();
+            this.txt_sueldo_emp = new System.Windows.Forms.TextBox();
+            this.btn_examinar_pic_emp = new System.Windows.Forms.Button();
+            this.lbl_sueldo_emp = new System.Windows.Forms.Label();
+            this.txt_telef_emp = new System.Windows.Forms.TextBox();
+            this.lbl_cargo_emp = new System.Windows.Forms.Label();
+            this.cbo_cargo_emp = new System.Windows.Forms.ComboBox();
+            this.lbl_gener_emp = new System.Windows.Forms.Label();
+            this.cbo_gener_emp = new System.Windows.Forms.ComboBox();
+            this.lbl_estad_civ_emp = new System.Windows.Forms.Label();
+            this.cbo_estad_civ_emp = new System.Windows.Forms.ComboBox();
+            this.lbl_naciold_emp = new System.Windows.Forms.Label();
+            this.cbo_nacional_emp = new System.Windows.Forms.ComboBox();
+            this.txt_edad_emp = new System.Windows.Forms.TextBox();
+            this.lbl_edad_emp = new System.Windows.Forms.Label();
+            this.lbl_dpi_emp = new System.Windows.Forms.Label();
+            this.txt_carne_igss_emp = new System.Windows.Forms.TextBox();
+            this.lbl_carne_igss_emp = new System.Windows.Forms.Label();
+            this.lbl_fecha_egre_emp = new System.Windows.Forms.Label();
+            this.dtp_fecha_egre_emp = new System.Windows.Forms.DateTimePicker();
+            this.lbl_fecha_ingr_emp = new System.Windows.Forms.Label();
+            this.dtp_fecha_ingr_emp = new System.Windows.Forms.DateTimePicker();
+            this.lbl_fech_nacim_emp = new System.Windows.Forms.Label();
+            this.dtp_fecha_nacim = new System.Windows.Forms.DateTimePicker();
+            this.txt_direc_emp = new System.Windows.Forms.TextBox();
+            this.lbl_direc_emp = new System.Windows.Forms.Label();
+            this.txt_dpi_emp = new System.Windows.Forms.TextBox();
+            this.txt_nomb_emp = new System.Windows.Forms.TextBox();
+            this.lbl_telef_emp = new System.Windows.Forms.Label();
+            this.lbl_nom_emp = new System.Windows.Forms.Label();
+            this.txt_cod_emp = new System.Windows.Forms.TextBox();
+            this.lbl_cod_emp = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.gpb_navegador = new System.Windows.Forms.GroupBox();
             this.btn_nuevo = new System.Windows.Forms.Button();
             this.btn_ultimo = new System.Windows.Forms.Button();
             this.btn_guardar = new System.Windows.Forms.Button();
@@ -60,429 +76,195 @@
             this.btn_buscar = new System.Windows.Forms.Button();
             this.btn_actualizar = new System.Windows.Forms.Button();
             this.btn_cancelar = new System.Windows.Forms.Button();
-            this.label13 = new System.Windows.Forms.Label();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.label14 = new System.Windows.Forms.Label();
-            this.comboBox4 = new System.Windows.Forms.ComboBox();
-            this.label15 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.label12 = new System.Windows.Forms.Label();
-            this.comboBox5 = new System.Windows.Forms.ComboBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.label16 = new System.Windows.Forms.Label();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.groupBox2.SuspendLayout();
-            this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.pic_empleado = new System.Windows.Forms.PictureBox();
+            this.lbl_form_emp = new System.Windows.Forms.Label();
+            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
+            this.toolTip2 = new System.Windows.Forms.ToolTip(this.components);
+            this.toolTip3 = new System.Windows.Forms.ToolTip(this.components);
+            this.toolTip4 = new System.Windows.Forms.ToolTip(this.components);
+            this.toolTip5 = new System.Windows.Forms.ToolTip(this.components);
+            this.toolTip6 = new System.Windows.Forms.ToolTip(this.components);
+            this.toolTip7 = new System.Windows.Forms.ToolTip(this.components);
+            this.toolTip8 = new System.Windows.Forms.ToolTip(this.components);
+            this.toolTip9 = new System.Windows.Forms.ToolTip(this.components);
+            this.toolTip10 = new System.Windows.Forms.ToolTip(this.components);
+            this.toolTip11 = new System.Windows.Forms.ToolTip(this.components);
+            this.gpb_regist_emp.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_datos_emp)).BeginInit();
+            this.gpb_navegador.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pic_empleado)).BeginInit();
             this.SuspendLayout();
             // 
-            // groupBox2
-            // 
-            this.groupBox2.Controls.Add(this.textBox8);
-            this.groupBox2.Controls.Add(this.label16);
-            this.groupBox2.Controls.Add(this.textBox6);
-            this.groupBox2.Controls.Add(this.label5);
-            this.groupBox2.Controls.Add(this.comboBox5);
-            this.groupBox2.Controls.Add(this.label12);
-            this.groupBox2.Controls.Add(this.comboBox1);
-            this.groupBox2.Controls.Add(this.label15);
-            this.groupBox2.Controls.Add(this.comboBox4);
-            this.groupBox2.Controls.Add(this.label14);
-            this.groupBox2.Controls.Add(this.comboBox3);
-            this.groupBox2.Controls.Add(this.textBox7);
-            this.groupBox2.Controls.Add(this.label13);
-            this.groupBox2.Controls.Add(this.label6);
-            this.groupBox2.Controls.Add(this.textBox3);
-            this.groupBox2.Controls.Add(this.label4);
-            this.groupBox2.Controls.Add(this.label11);
-            this.groupBox2.Controls.Add(this.dateTimePicker3);
-            this.groupBox2.Controls.Add(this.label10);
-            this.groupBox2.Controls.Add(this.dateTimePicker2);
-            this.groupBox2.Controls.Add(this.label9);
-            this.groupBox2.Controls.Add(this.dateTimePicker1);
-            this.groupBox2.Controls.Add(this.textBox1);
-            this.groupBox2.Controls.Add(this.label7);
-            this.groupBox2.Controls.Add(this.textBox5);
-            this.groupBox2.Controls.Add(this.textBox4);
-            this.groupBox2.Controls.Add(this.textBox2);
-            this.groupBox2.Controls.Add(this.label8);
-            this.groupBox2.Controls.Add(this.label3);
-            this.groupBox2.Controls.Add(this.label2);
-            this.groupBox2.Location = new System.Drawing.Point(12, 166);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(775, 247);
-            this.groupBox2.TabIndex = 166;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Registro de empleados";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(6, 131);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(36, 18);
-            this.label6.TabIndex = 78;
-            this.label6.Text = "DPI:";
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(159, 212);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(215, 20);
-            this.textBox3.TabIndex = 75;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(6, 211);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(103, 18);
-            this.label4.TabIndex = 74;
-            this.label4.Text = "Carne de igss:";
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(418, 55);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(123, 18);
-            this.label11.TabIndex = 71;
-            this.label11.Text = "Fecha de egreso:";
-            // 
-            // dateTimePicker3
-            // 
-            this.dateTimePicker3.Location = new System.Drawing.Point(550, 53);
-            this.dateTimePicker3.Name = "dateTimePicker3";
-            this.dateTimePicker3.Size = new System.Drawing.Size(200, 20);
-            this.dateTimePicker3.TabIndex = 70;
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(418, 30);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(126, 18);
-            this.label10.TabIndex = 69;
-            this.label10.Text = "Fecha de ingreso:";
-            // 
-            // dateTimePicker2
-            // 
-            this.dateTimePicker2.Location = new System.Drawing.Point(550, 27);
-            this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(200, 20);
-            this.dateTimePicker2.TabIndex = 68;
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(6, 79);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(149, 18);
-            this.label9.TabIndex = 67;
-            this.label9.Text = "Fecha de nacimiento:";
-            // 
-            // dateTimePicker1
-            // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(159, 80);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(193, 20);
-            this.dateTimePicker1.TabIndex = 66;
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(550, 79);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(216, 44);
-            this.textBox1.TabIndex = 65;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(418, 82);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(75, 18);
-            this.label7.TabIndex = 64;
-            this.label7.Text = "Direccion:";
-            // 
-            // textBox5
-            // 
-            this.textBox5.Location = new System.Drawing.Point(159, 132);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(215, 20);
-            this.textBox5.TabIndex = 63;
-            // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(159, 54);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(215, 20);
-            this.textBox4.TabIndex = 50;
-            // 
-            // textBox2
-            // 
-            this.textBox2.Enabled = false;
-            this.textBox2.Location = new System.Drawing.Point(159, 28);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(215, 20);
-            this.textBox2.TabIndex = 48;
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(418, 156);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(70, 18);
-            this.label8.TabIndex = 52;
-            this.label8.Text = "Telefono:";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(6, 53);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(66, 18);
-            this.label3.TabIndex = 47;
-            this.label3.Text = "Nombre:";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(6, 27);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(131, 18);
-            this.label2.TabIndex = 46;
-            this.label2.Text = "Código Empleado:";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(197, 20);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(0, 29);
-            this.label1.TabIndex = 165;
-            // 
-            // groupBox1
-            // 
-            this.groupBox1.Controls.Add(this.btn_nuevo);
-            this.groupBox1.Controls.Add(this.btn_ultimo);
-            this.groupBox1.Controls.Add(this.btn_guardar);
-            this.groupBox1.Controls.Add(this.btn_primero);
-            this.groupBox1.Controls.Add(this.btn_editar);
-            this.groupBox1.Controls.Add(this.btn_siguiente);
-            this.groupBox1.Controls.Add(this.btn_eliminar);
-            this.groupBox1.Controls.Add(this.btn_anterior);
-            this.groupBox1.Controls.Add(this.btn_buscar);
-            this.groupBox1.Controls.Add(this.btn_actualizar);
-            this.groupBox1.Controls.Add(this.btn_cancelar);
-            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(12, 12);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(636, 100);
-            this.groupBox1.TabIndex = 11;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Navegador";
-            // 
-            // btn_nuevo
-            // 
-            this.btn_nuevo.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_nuevo.BackgroundImage")));
-            this.btn_nuevo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_nuevo.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_nuevo.FlatAppearance.BorderSize = 0;
-            this.btn_nuevo.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.btn_nuevo.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
-            this.btn_nuevo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_nuevo.Location = new System.Drawing.Point(17, 21);
-            this.btn_nuevo.Name = "btn_nuevo";
-            this.btn_nuevo.Size = new System.Drawing.Size(65, 65);
-            this.btn_nuevo.TabIndex = 0;
-            this.btn_nuevo.UseVisualStyleBackColor = true;
-            // 
-            // btn_ultimo
-            // 
-            this.btn_ultimo.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_ultimo.BackgroundImage")));
-            this.btn_ultimo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_ultimo.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_ultimo.FlatAppearance.BorderSize = 0;
-            this.btn_ultimo.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.btn_ultimo.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
-            this.btn_ultimo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_ultimo.Location = new System.Drawing.Point(565, 53);
-            this.btn_ultimo.Name = "btn_ultimo";
-            this.btn_ultimo.Size = new System.Drawing.Size(33, 33);
-            this.btn_ultimo.TabIndex = 10;
-            this.btn_ultimo.UseVisualStyleBackColor = true;
-            // 
-            // btn_guardar
-            // 
-            this.btn_guardar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_guardar.BackgroundImage")));
-            this.btn_guardar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_guardar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_guardar.FlatAppearance.BorderSize = 0;
-            this.btn_guardar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.btn_guardar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
-            this.btn_guardar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_guardar.Location = new System.Drawing.Point(88, 19);
-            this.btn_guardar.Name = "btn_guardar";
-            this.btn_guardar.Size = new System.Drawing.Size(65, 65);
-            this.btn_guardar.TabIndex = 1;
-            this.btn_guardar.UseVisualStyleBackColor = true;
-            // 
-            // btn_primero
-            // 
-            this.btn_primero.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_primero.BackgroundImage")));
-            this.btn_primero.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_primero.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_primero.FlatAppearance.BorderSize = 0;
-            this.btn_primero.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.btn_primero.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
-            this.btn_primero.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_primero.Location = new System.Drawing.Point(529, 53);
-            this.btn_primero.Name = "btn_primero";
-            this.btn_primero.Size = new System.Drawing.Size(33, 33);
-            this.btn_primero.TabIndex = 9;
-            this.btn_primero.UseVisualStyleBackColor = true;
-            // 
-            // btn_editar
-            // 
-            this.btn_editar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_editar.BackgroundImage")));
-            this.btn_editar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_editar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_editar.FlatAppearance.BorderSize = 0;
-            this.btn_editar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.btn_editar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
-            this.btn_editar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_editar.Location = new System.Drawing.Point(159, 19);
-            this.btn_editar.Name = "btn_editar";
-            this.btn_editar.Size = new System.Drawing.Size(65, 65);
-            this.btn_editar.TabIndex = 2;
-            this.btn_editar.UseVisualStyleBackColor = true;
-            // 
-            // btn_siguiente
-            // 
-            this.btn_siguiente.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_siguiente.BackgroundImage")));
-            this.btn_siguiente.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_siguiente.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_siguiente.FlatAppearance.BorderSize = 0;
-            this.btn_siguiente.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.btn_siguiente.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
-            this.btn_siguiente.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_siguiente.Location = new System.Drawing.Point(565, 18);
-            this.btn_siguiente.Name = "btn_siguiente";
-            this.btn_siguiente.Size = new System.Drawing.Size(33, 33);
-            this.btn_siguiente.TabIndex = 8;
-            this.btn_siguiente.UseVisualStyleBackColor = true;
-            // 
-            // btn_eliminar
-            // 
-            this.btn_eliminar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_eliminar.BackgroundImage")));
-            this.btn_eliminar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_eliminar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_eliminar.FlatAppearance.BorderSize = 0;
-            this.btn_eliminar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.btn_eliminar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
-            this.btn_eliminar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_eliminar.Location = new System.Drawing.Point(230, 19);
-            this.btn_eliminar.Name = "btn_eliminar";
-            this.btn_eliminar.Size = new System.Drawing.Size(65, 65);
-            this.btn_eliminar.TabIndex = 3;
-            this.btn_eliminar.UseVisualStyleBackColor = true;
-            // 
-            // btn_anterior
-            // 
-            this.btn_anterior.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_anterior.BackgroundImage")));
-            this.btn_anterior.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_anterior.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_anterior.FlatAppearance.BorderSize = 0;
-            this.btn_anterior.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.btn_anterior.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
-            this.btn_anterior.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_anterior.Location = new System.Drawing.Point(529, 18);
-            this.btn_anterior.Name = "btn_anterior";
-            this.btn_anterior.Size = new System.Drawing.Size(33, 33);
-            this.btn_anterior.TabIndex = 7;
-            this.btn_anterior.UseVisualStyleBackColor = true;
-            // 
-            // btn_buscar
-            // 
-            this.btn_buscar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_buscar.BackgroundImage")));
-            this.btn_buscar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_buscar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_buscar.FlatAppearance.BorderSize = 0;
-            this.btn_buscar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.btn_buscar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
-            this.btn_buscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_buscar.Location = new System.Drawing.Point(301, 19);
-            this.btn_buscar.Name = "btn_buscar";
-            this.btn_buscar.Size = new System.Drawing.Size(65, 65);
-            this.btn_buscar.TabIndex = 4;
-            this.btn_buscar.UseVisualStyleBackColor = true;
-            // 
-            // btn_actualizar
-            // 
-            this.btn_actualizar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_actualizar.BackgroundImage")));
-            this.btn_actualizar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_actualizar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_actualizar.FlatAppearance.BorderSize = 0;
-            this.btn_actualizar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.btn_actualizar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
-            this.btn_actualizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_actualizar.Location = new System.Drawing.Point(443, 19);
-            this.btn_actualizar.Name = "btn_actualizar";
-            this.btn_actualizar.Size = new System.Drawing.Size(65, 65);
-            this.btn_actualizar.TabIndex = 6;
-            this.btn_actualizar.UseVisualStyleBackColor = true;
-            // 
-            // btn_cancelar
-            // 
-            this.btn_cancelar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_cancelar.BackgroundImage")));
-            this.btn_cancelar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_cancelar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_cancelar.FlatAppearance.BorderSize = 0;
-            this.btn_cancelar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.btn_cancelar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
-            this.btn_cancelar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_cancelar.Location = new System.Drawing.Point(372, 19);
-            this.btn_cancelar.Name = "btn_cancelar";
-            this.btn_cancelar.Size = new System.Drawing.Size(65, 65);
-            this.btn_cancelar.TabIndex = 5;
-            this.btn_cancelar.UseVisualStyleBackColor = true;
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(6, 105);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(46, 18);
-            this.label13.TabIndex = 80;
-            this.label13.Text = "Edad:";
-            // 
-            // textBox7
-            // 
-            this.textBox7.Location = new System.Drawing.Point(159, 106);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(67, 20);
-            this.textBox7.TabIndex = 81;
-            // 
-            // comboBox3
-            // 
-            this.comboBox3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Items.AddRange(new object[] {
+            // gpb_regist_emp
+            // 
+            this.gpb_regist_emp.Controls.Add(this.dgv_datos_emp);
+            this.gpb_regist_emp.Controls.Add(this.txt_sueldo_emp);
+            this.gpb_regist_emp.Controls.Add(this.btn_examinar_pic_emp);
+            this.gpb_regist_emp.Controls.Add(this.lbl_sueldo_emp);
+            this.gpb_regist_emp.Controls.Add(this.txt_telef_emp);
+            this.gpb_regist_emp.Controls.Add(this.lbl_cargo_emp);
+            this.gpb_regist_emp.Controls.Add(this.cbo_cargo_emp);
+            this.gpb_regist_emp.Controls.Add(this.lbl_gener_emp);
+            this.gpb_regist_emp.Controls.Add(this.cbo_gener_emp);
+            this.gpb_regist_emp.Controls.Add(this.lbl_estad_civ_emp);
+            this.gpb_regist_emp.Controls.Add(this.cbo_estad_civ_emp);
+            this.gpb_regist_emp.Controls.Add(this.lbl_naciold_emp);
+            this.gpb_regist_emp.Controls.Add(this.cbo_nacional_emp);
+            this.gpb_regist_emp.Controls.Add(this.txt_edad_emp);
+            this.gpb_regist_emp.Controls.Add(this.lbl_edad_emp);
+            this.gpb_regist_emp.Controls.Add(this.lbl_dpi_emp);
+            this.gpb_regist_emp.Controls.Add(this.txt_carne_igss_emp);
+            this.gpb_regist_emp.Controls.Add(this.lbl_carne_igss_emp);
+            this.gpb_regist_emp.Controls.Add(this.lbl_fecha_egre_emp);
+            this.gpb_regist_emp.Controls.Add(this.dtp_fecha_egre_emp);
+            this.gpb_regist_emp.Controls.Add(this.lbl_fecha_ingr_emp);
+            this.gpb_regist_emp.Controls.Add(this.dtp_fecha_ingr_emp);
+            this.gpb_regist_emp.Controls.Add(this.lbl_fech_nacim_emp);
+            this.gpb_regist_emp.Controls.Add(this.dtp_fecha_nacim);
+            this.gpb_regist_emp.Controls.Add(this.txt_direc_emp);
+            this.gpb_regist_emp.Controls.Add(this.lbl_direc_emp);
+            this.gpb_regist_emp.Controls.Add(this.txt_dpi_emp);
+            this.gpb_regist_emp.Controls.Add(this.txt_nomb_emp);
+            this.gpb_regist_emp.Controls.Add(this.lbl_telef_emp);
+            this.gpb_regist_emp.Controls.Add(this.lbl_nom_emp);
+            this.gpb_regist_emp.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gpb_regist_emp.Location = new System.Drawing.Point(12, 160);
+            this.gpb_regist_emp.Name = "gpb_regist_emp";
+            this.gpb_regist_emp.Size = new System.Drawing.Size(775, 461);
+            this.gpb_regist_emp.TabIndex = 166;
+            this.gpb_regist_emp.TabStop = false;
+            this.gpb_regist_emp.Text = "Registro de empleados";
+            // 
+            // dgv_datos_emp
+            // 
+            this.dgv_datos_emp.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgv_datos_emp.Location = new System.Drawing.Point(6, 262);
+            this.dgv_datos_emp.Name = "dgv_datos_emp";
+            this.dgv_datos_emp.Size = new System.Drawing.Size(759, 194);
+            this.dgv_datos_emp.TabIndex = 169;
+            // 
+            // txt_sueldo_emp
+            // 
+            this.txt_sueldo_emp.Location = new System.Drawing.Point(549, 226);
+            this.txt_sueldo_emp.Name = "txt_sueldo_emp";
+            this.txt_sueldo_emp.Size = new System.Drawing.Size(215, 24);
+            this.txt_sueldo_emp.TabIndex = 92;
+            // 
+            // btn_examinar_pic_emp
+            // 
+            this.btn_examinar_pic_emp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_examinar_pic_emp.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_examinar_pic_emp.Location = new System.Drawing.Point(658, 13);
+            this.btn_examinar_pic_emp.Name = "btn_examinar_pic_emp";
+            this.btn_examinar_pic_emp.Size = new System.Drawing.Size(112, 28);
+            this.btn_examinar_pic_emp.TabIndex = 168;
+            this.btn_examinar_pic_emp.Text = "Examinar ...";
+            this.btn_examinar_pic_emp.UseVisualStyleBackColor = true;
+            this.btn_examinar_pic_emp.Click += new System.EventHandler(this.btn_examinar_pic_Click);
+            // 
+            // lbl_sueldo_emp
+            // 
+            this.lbl_sueldo_emp.AutoSize = true;
+            this.lbl_sueldo_emp.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_sueldo_emp.Location = new System.Drawing.Point(417, 226);
+            this.lbl_sueldo_emp.Name = "lbl_sueldo_emp";
+            this.lbl_sueldo_emp.Size = new System.Drawing.Size(58, 18);
+            this.lbl_sueldo_emp.TabIndex = 91;
+            this.lbl_sueldo_emp.Text = "Sueldo:";
+            // 
+            // txt_telef_emp
+            // 
+            this.txt_telef_emp.Location = new System.Drawing.Point(549, 173);
+            this.txt_telef_emp.Name = "txt_telef_emp";
+            this.txt_telef_emp.Size = new System.Drawing.Size(215, 24);
+            this.txt_telef_emp.TabIndex = 90;
+            // 
+            // lbl_cargo_emp
+            // 
+            this.lbl_cargo_emp.AutoSize = true;
+            this.lbl_cargo_emp.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_cargo_emp.Location = new System.Drawing.Point(417, 149);
+            this.lbl_cargo_emp.Name = "lbl_cargo_emp";
+            this.lbl_cargo_emp.Size = new System.Drawing.Size(53, 18);
+            this.lbl_cargo_emp.TabIndex = 89;
+            this.lbl_cargo_emp.Text = "Cargo:";
+            // 
+            // cbo_cargo_emp
+            // 
+            this.cbo_cargo_emp.FormattingEnabled = true;
+            this.cbo_cargo_emp.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6"});
+            this.cbo_cargo_emp.Location = new System.Drawing.Point(549, 146);
+            this.cbo_cargo_emp.Name = "cbo_cargo_emp";
+            this.cbo_cargo_emp.Size = new System.Drawing.Size(200, 26);
+            this.cbo_cargo_emp.TabIndex = 88;
+            // 
+            // lbl_gener_emp
+            // 
+            this.lbl_gener_emp.AutoSize = true;
+            this.lbl_gener_emp.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_gener_emp.Location = new System.Drawing.Point(417, 199);
+            this.lbl_gener_emp.Name = "lbl_gener_emp";
+            this.lbl_gener_emp.Size = new System.Drawing.Size(62, 18);
+            this.lbl_gener_emp.TabIndex = 87;
+            this.lbl_gener_emp.Text = "Genero:";
+            // 
+            // cbo_gener_emp
+            // 
+            this.cbo_gener_emp.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbo_gener_emp.FormattingEnabled = true;
+            this.cbo_gener_emp.Items.AddRange(new object[] {
+            "Masculino",
+            "Femenino"});
+            this.cbo_gener_emp.Location = new System.Drawing.Point(549, 199);
+            this.cbo_gener_emp.Name = "cbo_gener_emp";
+            this.cbo_gener_emp.Size = new System.Drawing.Size(193, 26);
+            this.cbo_gener_emp.TabIndex = 86;
+            // 
+            // lbl_estad_civ_emp
+            // 
+            this.lbl_estad_civ_emp.AutoSize = true;
+            this.lbl_estad_civ_emp.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_estad_civ_emp.Location = new System.Drawing.Point(6, 174);
+            this.lbl_estad_civ_emp.Name = "lbl_estad_civ_emp";
+            this.lbl_estad_civ_emp.Size = new System.Drawing.Size(95, 18);
+            this.lbl_estad_civ_emp.TabIndex = 85;
+            this.lbl_estad_civ_emp.Text = "Estados civil:";
+            // 
+            // cbo_estad_civ_emp
+            // 
+            this.cbo_estad_civ_emp.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbo_estad_civ_emp.FormattingEnabled = true;
+            this.cbo_estad_civ_emp.Items.AddRange(new object[] {
+            "Soltero/a",
+            "Casado/a",
+            "Viudo/a",
+            "Divorciado/a"});
+            this.cbo_estad_civ_emp.Location = new System.Drawing.Point(159, 175);
+            this.cbo_estad_civ_emp.Name = "cbo_estad_civ_emp";
+            this.cbo_estad_civ_emp.Size = new System.Drawing.Size(193, 26);
+            this.cbo_estad_civ_emp.TabIndex = 84;
+            // 
+            // lbl_naciold_emp
+            // 
+            this.lbl_naciold_emp.AutoSize = true;
+            this.lbl_naciold_emp.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_naciold_emp.Location = new System.Drawing.Point(6, 148);
+            this.lbl_naciold_emp.Name = "lbl_naciold_emp";
+            this.lbl_naciold_emp.Size = new System.Drawing.Size(97, 18);
+            this.lbl_naciold_emp.TabIndex = 83;
+            this.lbl_naciold_emp.Text = "Nacionalidad:";
+            // 
+            // cbo_nacional_emp
+            // 
+            this.cbo_nacional_emp.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbo_nacional_emp.FormattingEnabled = true;
+            this.cbo_nacional_emp.Items.AddRange(new object[] {
             "Argentina ",
             "Bolivia ",
             "Brasil ",
@@ -509,140 +291,436 @@
             "Surinam",
             "Uruguay ",
             "Venezuela"});
-            this.comboBox3.Location = new System.Drawing.Point(159, 158);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(193, 21);
-            this.comboBox3.TabIndex = 82;
+            this.cbo_nacional_emp.Location = new System.Drawing.Point(159, 148);
+            this.cbo_nacional_emp.Name = "cbo_nacional_emp";
+            this.cbo_nacional_emp.Size = new System.Drawing.Size(193, 26);
+            this.cbo_nacional_emp.TabIndex = 82;
             // 
-            // label14
+            // txt_edad_emp
             // 
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(6, 160);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(97, 18);
-            this.label14.TabIndex = 83;
-            this.label14.Text = "Nacionalidad:";
+            this.txt_edad_emp.Location = new System.Drawing.Point(159, 96);
+            this.txt_edad_emp.Name = "txt_edad_emp";
+            this.txt_edad_emp.Size = new System.Drawing.Size(79, 24);
+            this.txt_edad_emp.TabIndex = 81;
             // 
-            // comboBox4
+            // lbl_edad_emp
             // 
-            this.comboBox4.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Items.AddRange(new object[] {
-            "Soltero/a",
-            "Casado/a",
-            "Viudo/a",
-            "Divorciado/a"});
-            this.comboBox4.Location = new System.Drawing.Point(159, 185);
-            this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(193, 21);
-            this.comboBox4.TabIndex = 84;
+            this.lbl_edad_emp.AutoSize = true;
+            this.lbl_edad_emp.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_edad_emp.Location = new System.Drawing.Point(6, 95);
+            this.lbl_edad_emp.Name = "lbl_edad_emp";
+            this.lbl_edad_emp.Size = new System.Drawing.Size(46, 18);
+            this.lbl_edad_emp.TabIndex = 80;
+            this.lbl_edad_emp.Text = "Edad:";
             // 
-            // label15
+            // lbl_dpi_emp
             // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(6, 184);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(95, 18);
-            this.label15.TabIndex = 85;
-            this.label15.Text = "Estados civil:";
+            this.lbl_dpi_emp.AutoSize = true;
+            this.lbl_dpi_emp.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_dpi_emp.Location = new System.Drawing.Point(6, 122);
+            this.lbl_dpi_emp.Name = "lbl_dpi_emp";
+            this.lbl_dpi_emp.Size = new System.Drawing.Size(36, 18);
+            this.lbl_dpi_emp.TabIndex = 78;
+            this.lbl_dpi_emp.Text = "DPI:";
             // 
-            // comboBox1
+            // txt_carne_igss_emp
             // 
-            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
-            "Masculino",
-            "Femenino"});
-            this.comboBox1.Location = new System.Drawing.Point(550, 182);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(193, 21);
-            this.comboBox1.TabIndex = 86;
+            this.txt_carne_igss_emp.Location = new System.Drawing.Point(159, 202);
+            this.txt_carne_igss_emp.Name = "txt_carne_igss_emp";
+            this.txt_carne_igss_emp.Size = new System.Drawing.Size(215, 24);
+            this.txt_carne_igss_emp.TabIndex = 75;
             // 
-            // label12
+            // lbl_carne_igss_emp
             // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(418, 182);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(62, 18);
-            this.label12.TabIndex = 87;
-            this.label12.Text = "Genero:";
+            this.lbl_carne_igss_emp.AutoSize = true;
+            this.lbl_carne_igss_emp.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_carne_igss_emp.Location = new System.Drawing.Point(6, 201);
+            this.lbl_carne_igss_emp.Name = "lbl_carne_igss_emp";
+            this.lbl_carne_igss_emp.Size = new System.Drawing.Size(103, 18);
+            this.lbl_carne_igss_emp.TabIndex = 74;
+            this.lbl_carne_igss_emp.Text = "Carne de igss:";
             // 
-            // comboBox5
+            // lbl_fecha_egre_emp
             // 
-            this.comboBox5.FormattingEnabled = true;
-            this.comboBox5.Location = new System.Drawing.Point(550, 129);
-            this.comboBox5.Name = "comboBox5";
-            this.comboBox5.Size = new System.Drawing.Size(200, 21);
-            this.comboBox5.TabIndex = 88;
+            this.lbl_fecha_egre_emp.AutoSize = true;
+            this.lbl_fecha_egre_emp.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_fecha_egre_emp.Location = new System.Drawing.Point(417, 72);
+            this.lbl_fecha_egre_emp.Name = "lbl_fecha_egre_emp";
+            this.lbl_fecha_egre_emp.Size = new System.Drawing.Size(123, 18);
+            this.lbl_fecha_egre_emp.TabIndex = 71;
+            this.lbl_fecha_egre_emp.Text = "Fecha de egreso:";
             // 
-            // label5
+            // dtp_fecha_egre_emp
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(418, 132);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(53, 18);
-            this.label5.TabIndex = 89;
-            this.label5.Text = "Cargo:";
+            this.dtp_fecha_egre_emp.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dtp_fecha_egre_emp.Location = new System.Drawing.Point(549, 70);
+            this.dtp_fecha_egre_emp.Name = "dtp_fecha_egre_emp";
+            this.dtp_fecha_egre_emp.Size = new System.Drawing.Size(200, 20);
+            this.dtp_fecha_egre_emp.TabIndex = 70;
             // 
-            // textBox6
+            // lbl_fecha_ingr_emp
             // 
-            this.textBox6.Location = new System.Drawing.Point(550, 156);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(215, 20);
-            this.textBox6.TabIndex = 90;
+            this.lbl_fecha_ingr_emp.AutoSize = true;
+            this.lbl_fecha_ingr_emp.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_fecha_ingr_emp.Location = new System.Drawing.Point(417, 47);
+            this.lbl_fecha_ingr_emp.Name = "lbl_fecha_ingr_emp";
+            this.lbl_fecha_ingr_emp.Size = new System.Drawing.Size(126, 18);
+            this.lbl_fecha_ingr_emp.TabIndex = 69;
+            this.lbl_fecha_ingr_emp.Text = "Fecha de ingreso:";
             // 
-            // label16
+            // dtp_fecha_ingr_emp
             // 
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(418, 209);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(58, 18);
-            this.label16.TabIndex = 91;
-            this.label16.Text = "Sueldo:";
+            this.dtp_fecha_ingr_emp.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dtp_fecha_ingr_emp.Location = new System.Drawing.Point(549, 44);
+            this.dtp_fecha_ingr_emp.Name = "dtp_fecha_ingr_emp";
+            this.dtp_fecha_ingr_emp.Size = new System.Drawing.Size(200, 20);
+            this.dtp_fecha_ingr_emp.TabIndex = 68;
             // 
-            // textBox8
+            // lbl_fech_nacim_emp
             // 
-            this.textBox8.Location = new System.Drawing.Point(550, 209);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(215, 20);
-            this.textBox8.TabIndex = 92;
+            this.lbl_fech_nacim_emp.AutoSize = true;
+            this.lbl_fech_nacim_emp.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_fech_nacim_emp.Location = new System.Drawing.Point(6, 69);
+            this.lbl_fech_nacim_emp.Name = "lbl_fech_nacim_emp";
+            this.lbl_fech_nacim_emp.Size = new System.Drawing.Size(149, 18);
+            this.lbl_fech_nacim_emp.TabIndex = 67;
+            this.lbl_fech_nacim_emp.Text = "Fecha de nacimiento:";
             // 
-            // pictureBox1
+            // dtp_fecha_nacim
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(130)))), ((int)(((byte)(130)))));
-            this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox1.Location = new System.Drawing.Point(654, 20);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(133, 134);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 167;
-            this.pictureBox1.TabStop = false;
+            this.dtp_fecha_nacim.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dtp_fecha_nacim.Location = new System.Drawing.Point(159, 70);
+            this.dtp_fecha_nacim.Name = "dtp_fecha_nacim";
+            this.dtp_fecha_nacim.Size = new System.Drawing.Size(193, 20);
+            this.dtp_fecha_nacim.TabIndex = 66;
+            // 
+            // txt_direc_emp
+            // 
+            this.txt_direc_emp.Location = new System.Drawing.Point(549, 96);
+            this.txt_direc_emp.Multiline = true;
+            this.txt_direc_emp.Name = "txt_direc_emp";
+            this.txt_direc_emp.Size = new System.Drawing.Size(216, 44);
+            this.txt_direc_emp.TabIndex = 65;
+            // 
+            // lbl_direc_emp
+            // 
+            this.lbl_direc_emp.AutoSize = true;
+            this.lbl_direc_emp.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_direc_emp.Location = new System.Drawing.Point(417, 99);
+            this.lbl_direc_emp.Name = "lbl_direc_emp";
+            this.lbl_direc_emp.Size = new System.Drawing.Size(75, 18);
+            this.lbl_direc_emp.TabIndex = 64;
+            this.lbl_direc_emp.Text = "Direccion:";
+            // 
+            // txt_dpi_emp
+            // 
+            this.txt_dpi_emp.Location = new System.Drawing.Point(159, 122);
+            this.txt_dpi_emp.Name = "txt_dpi_emp";
+            this.txt_dpi_emp.Size = new System.Drawing.Size(215, 24);
+            this.txt_dpi_emp.TabIndex = 63;
+            // 
+            // txt_nomb_emp
+            // 
+            this.txt_nomb_emp.Location = new System.Drawing.Point(159, 44);
+            this.txt_nomb_emp.Name = "txt_nomb_emp";
+            this.txt_nomb_emp.Size = new System.Drawing.Size(215, 24);
+            this.txt_nomb_emp.TabIndex = 50;
+            // 
+            // lbl_telef_emp
+            // 
+            this.lbl_telef_emp.AutoSize = true;
+            this.lbl_telef_emp.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_telef_emp.Location = new System.Drawing.Point(417, 173);
+            this.lbl_telef_emp.Name = "lbl_telef_emp";
+            this.lbl_telef_emp.Size = new System.Drawing.Size(70, 18);
+            this.lbl_telef_emp.TabIndex = 52;
+            this.lbl_telef_emp.Text = "Telefono:";
+            // 
+            // lbl_nom_emp
+            // 
+            this.lbl_nom_emp.AutoSize = true;
+            this.lbl_nom_emp.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_nom_emp.Location = new System.Drawing.Point(6, 43);
+            this.lbl_nom_emp.Name = "lbl_nom_emp";
+            this.lbl_nom_emp.Size = new System.Drawing.Size(66, 18);
+            this.lbl_nom_emp.TabIndex = 47;
+            this.lbl_nom_emp.Text = "Nombre:";
+            // 
+            // txt_cod_emp
+            // 
+            this.txt_cod_emp.Enabled = false;
+            this.txt_cod_emp.Location = new System.Drawing.Point(137, 10);
+            this.txt_cod_emp.Name = "txt_cod_emp";
+            this.txt_cod_emp.Size = new System.Drawing.Size(101, 20);
+            this.txt_cod_emp.TabIndex = 48;
+            // 
+            // lbl_cod_emp
+            // 
+            this.lbl_cod_emp.AutoSize = true;
+            this.lbl_cod_emp.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_cod_emp.Location = new System.Drawing.Point(9, 9);
+            this.lbl_cod_emp.Name = "lbl_cod_emp";
+            this.lbl_cod_emp.Size = new System.Drawing.Size(131, 18);
+            this.lbl_cod_emp.TabIndex = 46;
+            this.lbl_cod_emp.Text = "Código Empleado:";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(197, 20);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(0, 29);
+            this.label1.TabIndex = 165;
+            // 
+            // gpb_navegador
+            // 
+            this.gpb_navegador.Controls.Add(this.btn_nuevo);
+            this.gpb_navegador.Controls.Add(this.btn_ultimo);
+            this.gpb_navegador.Controls.Add(this.btn_guardar);
+            this.gpb_navegador.Controls.Add(this.btn_primero);
+            this.gpb_navegador.Controls.Add(this.btn_editar);
+            this.gpb_navegador.Controls.Add(this.btn_siguiente);
+            this.gpb_navegador.Controls.Add(this.btn_eliminar);
+            this.gpb_navegador.Controls.Add(this.btn_anterior);
+            this.gpb_navegador.Controls.Add(this.btn_buscar);
+            this.gpb_navegador.Controls.Add(this.btn_actualizar);
+            this.gpb_navegador.Controls.Add(this.btn_cancelar);
+            this.gpb_navegador.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gpb_navegador.Location = new System.Drawing.Point(12, 54);
+            this.gpb_navegador.Name = "gpb_navegador";
+            this.gpb_navegador.Size = new System.Drawing.Size(636, 100);
+            this.gpb_navegador.TabIndex = 11;
+            this.gpb_navegador.TabStop = false;
+            this.gpb_navegador.Text = "Navegador";
+            this.gpb_navegador.Enter += new System.EventHandler(this.gpb_navegador_Enter);
+            // 
+            // btn_nuevo
+            // 
+            this.btn_nuevo.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_nuevo.BackgroundImage")));
+            this.btn_nuevo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_nuevo.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_nuevo.FlatAppearance.BorderSize = 0;
+            this.btn_nuevo.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btn_nuevo.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
+            this.btn_nuevo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_nuevo.Location = new System.Drawing.Point(17, 21);
+            this.btn_nuevo.Name = "btn_nuevo";
+            this.btn_nuevo.Size = new System.Drawing.Size(65, 65);
+            this.btn_nuevo.TabIndex = 0;
+            this.toolTip1.SetToolTip(this.btn_nuevo, "Nuevo");
+            this.btn_nuevo.UseVisualStyleBackColor = true;
+            this.btn_nuevo.Click += new System.EventHandler(this.btn_nuevo_Click);
+            // 
+            // btn_ultimo
+            // 
+            this.btn_ultimo.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_ultimo.BackgroundImage")));
+            this.btn_ultimo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_ultimo.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_ultimo.FlatAppearance.BorderSize = 0;
+            this.btn_ultimo.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btn_ultimo.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
+            this.btn_ultimo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_ultimo.Location = new System.Drawing.Point(565, 53);
+            this.btn_ultimo.Name = "btn_ultimo";
+            this.btn_ultimo.Size = new System.Drawing.Size(33, 33);
+            this.btn_ultimo.TabIndex = 10;
+            this.toolTip9.SetToolTip(this.btn_ultimo, "Ultimo");
+            this.btn_ultimo.UseVisualStyleBackColor = true;
+            // 
+            // btn_guardar
+            // 
+            this.btn_guardar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_guardar.BackgroundImage")));
+            this.btn_guardar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_guardar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_guardar.FlatAppearance.BorderSize = 0;
+            this.btn_guardar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btn_guardar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
+            this.btn_guardar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_guardar.Location = new System.Drawing.Point(88, 19);
+            this.btn_guardar.Name = "btn_guardar";
+            this.btn_guardar.Size = new System.Drawing.Size(65, 65);
+            this.btn_guardar.TabIndex = 1;
+            this.toolTip10.SetToolTip(this.btn_guardar, "Guardar");
+            this.btn_guardar.UseVisualStyleBackColor = true;
+            // 
+            // btn_primero
+            // 
+            this.btn_primero.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_primero.BackgroundImage")));
+            this.btn_primero.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_primero.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_primero.FlatAppearance.BorderSize = 0;
+            this.btn_primero.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btn_primero.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
+            this.btn_primero.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_primero.Location = new System.Drawing.Point(529, 53);
+            this.btn_primero.Name = "btn_primero";
+            this.btn_primero.Size = new System.Drawing.Size(33, 33);
+            this.btn_primero.TabIndex = 9;
+            this.toolTip8.SetToolTip(this.btn_primero, "Primero");
+            this.btn_primero.UseVisualStyleBackColor = true;
+            // 
+            // btn_editar
+            // 
+            this.btn_editar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_editar.BackgroundImage")));
+            this.btn_editar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_editar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_editar.FlatAppearance.BorderSize = 0;
+            this.btn_editar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btn_editar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
+            this.btn_editar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_editar.Location = new System.Drawing.Point(159, 19);
+            this.btn_editar.Name = "btn_editar";
+            this.btn_editar.Size = new System.Drawing.Size(65, 65);
+            this.btn_editar.TabIndex = 2;
+            this.toolTip11.SetToolTip(this.btn_editar, "Modificar");
+            this.btn_editar.UseVisualStyleBackColor = true;
+            // 
+            // btn_siguiente
+            // 
+            this.btn_siguiente.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_siguiente.BackgroundImage")));
+            this.btn_siguiente.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_siguiente.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_siguiente.FlatAppearance.BorderSize = 0;
+            this.btn_siguiente.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btn_siguiente.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
+            this.btn_siguiente.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_siguiente.Location = new System.Drawing.Point(565, 18);
+            this.btn_siguiente.Name = "btn_siguiente";
+            this.btn_siguiente.Size = new System.Drawing.Size(33, 33);
+            this.btn_siguiente.TabIndex = 8;
+            this.toolTip7.SetToolTip(this.btn_siguiente, "Siguiente");
+            this.btn_siguiente.UseVisualStyleBackColor = true;
+            // 
+            // btn_eliminar
+            // 
+            this.btn_eliminar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_eliminar.BackgroundImage")));
+            this.btn_eliminar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_eliminar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_eliminar.FlatAppearance.BorderSize = 0;
+            this.btn_eliminar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btn_eliminar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
+            this.btn_eliminar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_eliminar.Location = new System.Drawing.Point(230, 19);
+            this.btn_eliminar.Name = "btn_eliminar";
+            this.btn_eliminar.Size = new System.Drawing.Size(65, 65);
+            this.btn_eliminar.TabIndex = 3;
+            this.toolTip2.SetToolTip(this.btn_eliminar, "Eliminar");
+            this.btn_eliminar.UseVisualStyleBackColor = true;
+            // 
+            // btn_anterior
+            // 
+            this.btn_anterior.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_anterior.BackgroundImage")));
+            this.btn_anterior.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_anterior.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_anterior.FlatAppearance.BorderSize = 0;
+            this.btn_anterior.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btn_anterior.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
+            this.btn_anterior.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_anterior.Location = new System.Drawing.Point(529, 18);
+            this.btn_anterior.Name = "btn_anterior";
+            this.btn_anterior.Size = new System.Drawing.Size(33, 33);
+            this.btn_anterior.TabIndex = 7;
+            this.toolTip6.SetToolTip(this.btn_anterior, "Anterior");
+            this.btn_anterior.UseVisualStyleBackColor = true;
+            // 
+            // btn_buscar
+            // 
+            this.btn_buscar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_buscar.BackgroundImage")));
+            this.btn_buscar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_buscar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_buscar.FlatAppearance.BorderSize = 0;
+            this.btn_buscar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btn_buscar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
+            this.btn_buscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_buscar.Location = new System.Drawing.Point(301, 19);
+            this.btn_buscar.Name = "btn_buscar";
+            this.btn_buscar.Size = new System.Drawing.Size(65, 65);
+            this.btn_buscar.TabIndex = 4;
+            this.toolTip3.SetToolTip(this.btn_buscar, "Buscar");
+            this.btn_buscar.UseVisualStyleBackColor = true;
+            this.btn_buscar.Click += new System.EventHandler(this.btn_buscar_Click);
+            // 
+            // btn_actualizar
+            // 
+            this.btn_actualizar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_actualizar.BackgroundImage")));
+            this.btn_actualizar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_actualizar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_actualizar.FlatAppearance.BorderSize = 0;
+            this.btn_actualizar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btn_actualizar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
+            this.btn_actualizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_actualizar.Location = new System.Drawing.Point(443, 19);
+            this.btn_actualizar.Name = "btn_actualizar";
+            this.btn_actualizar.Size = new System.Drawing.Size(65, 65);
+            this.btn_actualizar.TabIndex = 6;
+            this.toolTip5.SetToolTip(this.btn_actualizar, "Actualizar");
+            this.btn_actualizar.UseVisualStyleBackColor = true;
+            this.btn_actualizar.Click += new System.EventHandler(this.btn_actualizar_Click);
+            // 
+            // btn_cancelar
+            // 
+            this.btn_cancelar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_cancelar.BackgroundImage")));
+            this.btn_cancelar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_cancelar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_cancelar.FlatAppearance.BorderSize = 0;
+            this.btn_cancelar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btn_cancelar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
+            this.btn_cancelar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_cancelar.Location = new System.Drawing.Point(372, 19);
+            this.btn_cancelar.Name = "btn_cancelar";
+            this.btn_cancelar.Size = new System.Drawing.Size(65, 65);
+            this.btn_cancelar.TabIndex = 5;
+            this.toolTip4.SetToolTip(this.btn_cancelar, "Cancelar");
+            this.btn_cancelar.UseVisualStyleBackColor = true;
+            this.btn_cancelar.Click += new System.EventHandler(this.btn_cancelar_Click);
+            // 
+            // pic_empleado
+            // 
+            this.pic_empleado.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(130)))), ((int)(((byte)(130)))), ((int)(((byte)(130)))));
+            this.pic_empleado.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pic_empleado.Location = new System.Drawing.Point(654, 20);
+            this.pic_empleado.Name = "pic_empleado";
+            this.pic_empleado.Size = new System.Drawing.Size(133, 134);
+            this.pic_empleado.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pic_empleado.TabIndex = 167;
+            this.pic_empleado.TabStop = false;
+            // 
+            // lbl_form_emp
+            // 
+            this.lbl_form_emp.AutoSize = true;
+            this.lbl_form_emp.Font = new System.Drawing.Font("Microsoft Sans Serif", 21F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_form_emp.Location = new System.Drawing.Point(270, 17);
+            this.lbl_form_emp.Name = "lbl_form_emp";
+            this.lbl_form_emp.Size = new System.Drawing.Size(340, 32);
+            this.lbl_form_emp.TabIndex = 169;
+            this.lbl_form_emp.Text = "Formulario de Empleados";
             // 
             // Empleados
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
-            this.ClientSize = new System.Drawing.Size(808, 425);
-            this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.groupBox2);
+            this.ClientSize = new System.Drawing.Size(799, 627);
+            this.Controls.Add(this.lbl_form_emp);
+            this.Controls.Add(this.pic_empleado);
+            this.Controls.Add(this.gpb_navegador);
+            this.Controls.Add(this.gpb_regist_emp);
             this.Controls.Add(this.label1);
+            this.Controls.Add(this.lbl_cod_emp);
+            this.Controls.Add(this.txt_cod_emp);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "Empleados";
-            this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Empleados";
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
-            this.groupBox1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.Load += new System.EventHandler(this.Empleados_Load);
+            this.gpb_regist_emp.ResumeLayout(false);
+            this.gpb_regist_emp.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_datos_emp)).EndInit();
+            this.gpb_navegador.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pic_empleado)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -650,14 +728,14 @@
 
         #endregion
 
-        private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.GroupBox gpb_regist_emp;
+        private System.Windows.Forms.TextBox txt_nomb_emp;
+        private System.Windows.Forms.TextBox txt_cod_emp;
+        private System.Windows.Forms.Label lbl_telef_emp;
+        private System.Windows.Forms.Label lbl_nom_emp;
+        private System.Windows.Forms.Label lbl_cod_emp;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.GroupBox gpb_navegador;
         private System.Windows.Forms.Button btn_nuevo;
         private System.Windows.Forms.Button btn_ultimo;
         private System.Windows.Forms.Button btn_guardar;
@@ -669,31 +747,45 @@
         private System.Windows.Forms.Button btn_buscar;
         private System.Windows.Forms.Button btn_actualizar;
         private System.Windows.Forms.Button btn_cancelar;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.DateTimePicker dateTimePicker3;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.DateTimePicker dateTimePicker2;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.ComboBox comboBox5;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.ComboBox comboBox4;
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.ComboBox comboBox3;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.TextBox txt_direc_emp;
+        private System.Windows.Forms.Label lbl_direc_emp;
+        private System.Windows.Forms.TextBox txt_dpi_emp;
+        private System.Windows.Forms.TextBox txt_carne_igss_emp;
+        private System.Windows.Forms.Label lbl_carne_igss_emp;
+        private System.Windows.Forms.Label lbl_fecha_egre_emp;
+        private System.Windows.Forms.DateTimePicker dtp_fecha_egre_emp;
+        private System.Windows.Forms.Label lbl_fecha_ingr_emp;
+        private System.Windows.Forms.DateTimePicker dtp_fecha_ingr_emp;
+        private System.Windows.Forms.Label lbl_fech_nacim_emp;
+        private System.Windows.Forms.DateTimePicker dtp_fecha_nacim;
+        private System.Windows.Forms.Label lbl_dpi_emp;
+        private System.Windows.Forms.TextBox txt_sueldo_emp;
+        private System.Windows.Forms.Label lbl_sueldo_emp;
+        private System.Windows.Forms.TextBox txt_telef_emp;
+        private System.Windows.Forms.Label lbl_cargo_emp;
+        private System.Windows.Forms.ComboBox cbo_cargo_emp;
+        private System.Windows.Forms.Label lbl_gener_emp;
+        private System.Windows.Forms.ComboBox cbo_gener_emp;
+        private System.Windows.Forms.Label lbl_estad_civ_emp;
+        private System.Windows.Forms.ComboBox cbo_estad_civ_emp;
+        private System.Windows.Forms.Label lbl_naciold_emp;
+        private System.Windows.Forms.ComboBox cbo_nacional_emp;
+        private System.Windows.Forms.TextBox txt_edad_emp;
+        private System.Windows.Forms.Label lbl_edad_emp;
+        private System.Windows.Forms.PictureBox pic_empleado;
+        private System.Windows.Forms.Button btn_examinar_pic_emp;
+        private System.Windows.Forms.Label lbl_form_emp;
+        private System.Windows.Forms.ToolTip toolTip1;
+        private System.Windows.Forms.ToolTip toolTip2;
+        private System.Windows.Forms.ToolTip toolTip3;
+        private System.Windows.Forms.ToolTip toolTip4;
+        private System.Windows.Forms.ToolTip toolTip5;
+        private System.Windows.Forms.ToolTip toolTip6;
+        private System.Windows.Forms.ToolTip toolTip7;
+        private System.Windows.Forms.ToolTip toolTip8;
+        private System.Windows.Forms.ToolTip toolTip9;
+        private System.Windows.Forms.ToolTip toolTip10;
+        private System.Windows.Forms.ToolTip toolTip11;
+        private System.Windows.Forms.DataGridView dgv_datos_emp;
     }
 }
