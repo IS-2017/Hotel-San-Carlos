@@ -419,11 +419,11 @@
             // 
             this.lbl_form_prest_lab.AutoSize = true;
             this.lbl_form_prest_lab.Font = new System.Drawing.Font("Microsoft Sans Serif", 21F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_form_prest_lab.Location = new System.Drawing.Point(221, 9);
+            this.lbl_form_prest_lab.Location = new System.Drawing.Point(300, 9);
             this.lbl_form_prest_lab.Name = "lbl_form_prest_lab";
-            this.lbl_form_prest_lab.Size = new System.Drawing.Size(546, 32);
+            this.lbl_form_prest_lab.Size = new System.Drawing.Size(348, 32);
             this.lbl_form_prest_lab.TabIndex = 170;
-            this.lbl_form_prest_lab.Text = "Prestaciones Laborales de los Empleados";
+            this.lbl_form_prest_lab.Text = "Devengados a Empleados";
             // 
             // frm_prestaciones_lab
             // 
@@ -439,7 +439,7 @@
             this.MaximizeBox = false;
             this.Name = "frm_prestaciones_lab";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Prestaciones Laborales";
+            this.Text = "Devengados";
             this.Load += new System.EventHandler(this.frm_prestaciones_lab_Load);
             this.gpb_devengado.ResumeLayout(false);
             this.gpb_devengado.PerformLayout();

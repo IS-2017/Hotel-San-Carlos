@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login_Prueba));
             this.Panel1 = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
             this.Btn_Inicio_secion = new System.Windows.Forms.Button();
             this.txt_pass = new System.Windows.Forms.TextBox();
             this.Lbl_contraseña = new System.Windows.Forms.Label();
@@ -38,7 +39,6 @@
             this.Lbl_usuario = new System.Windows.Forms.Label();
             this.pic_logo = new System.Windows.Forms.PictureBox();
             this.Label2 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
             this.Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pic_logo)).BeginInit();
             this.SuspendLayout();
@@ -60,6 +60,19 @@
             this.Panel1.Name = "Panel1";
             this.Panel1.Size = new System.Drawing.Size(466, 493);
             this.Panel1.TabIndex = 8;
+            // 
+            // button1
+            // 
+            this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button1.BackgroundImage")));
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Location = new System.Drawing.Point(418, 3);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(45, 45);
+            this.button1.TabIndex = 13;
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Btn_Inicio_secion
             // 
@@ -150,9 +163,11 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pic_logo.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pic_logo.BackgroundImage")));
             this.pic_logo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pic_logo.Image = ((System.Drawing.Image)(resources.GetObject("pic_logo.Image")));
             this.pic_logo.Location = new System.Drawing.Point(146, 49);
             this.pic_logo.Name = "pic_logo";
             this.pic_logo.Size = new System.Drawing.Size(184, 174);
+            this.pic_logo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pic_logo.TabIndex = 5;
             this.pic_logo.TabStop = false;
             // 
@@ -168,18 +183,6 @@
             this.Label2.Size = new System.Drawing.Size(169, 34);
             this.Label2.TabIndex = 1;
             this.Label2.Text = "Bienvenido";
-            // 
-            // button1
-            // 
-            this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button1.BackgroundImage")));
-            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(418, 3);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(45, 45);
-            this.button1.TabIndex = 13;
-            this.button1.UseVisualStyleBackColor = true;
             // 
             // Login_Prueba
             // 

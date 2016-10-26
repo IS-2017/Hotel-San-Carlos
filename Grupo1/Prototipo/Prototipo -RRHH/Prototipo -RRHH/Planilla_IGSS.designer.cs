@@ -129,12 +129,6 @@
             // 
             this.cbo_empres.Enabled = false;
             this.cbo_empres.FormattingEnabled = true;
-            this.cbo_empres.Items.AddRange(new object[] {
-            "1",
-            "2",
-            "3",
-            "4",
-            "5"});
             this.cbo_empres.Location = new System.Drawing.Point(96, 36);
             this.cbo_empres.Name = "cbo_empres";
             this.cbo_empres.Size = new System.Drawing.Size(197, 29);
