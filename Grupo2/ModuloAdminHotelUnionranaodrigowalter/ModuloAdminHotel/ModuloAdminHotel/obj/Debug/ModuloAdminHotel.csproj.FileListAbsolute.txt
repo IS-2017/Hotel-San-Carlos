@@ -1,0 +1,105 @@
+C:\Users\Ana Lilian\Documents\Visual Studio 2015\Projects\ModuloAdminHotel\ModuloAdminHotel\bin\Debug\ModuloAdminHotel.exe.config
+C:\Users\Ana Lilian\Documents\Visual Studio 2015\Projects\ModuloAdminHotel\ModuloAdminHotel\bin\Debug\ModuloAdminHotel.exe
+C:\Users\Ana Lilian\Documents\Visual Studio 2015\Projects\ModuloAdminHotel\ModuloAdminHotel\bin\Debug\ModuloAdminHotel.pdb
+C:\Users\Ana Lilian\Documents\Visual Studio 2015\Projects\ModuloAdminHotel\ModuloAdminHotel\obj\Debug\ModuloAdminHotel.csprojResolveAssemblyReference.cache
+C:\Users\Ana Lilian\Documents\Visual Studio 2015\Projects\ModuloAdminHotel\ModuloAdminHotel\obj\Debug\ModuloAdminHotel.Frm_Padre.resources
+C:\Users\Ana Lilian\Documents\Visual Studio 2015\Projects\ModuloAdminHotel\ModuloAdminHotel\obj\Debug\ModuloAdminHotel.Properties.Resources.resources
+C:\Users\Ana Lilian\Documents\Visual Studio 2015\Projects\ModuloAdminHotel\ModuloAdminHotel\obj\Debug\ModuloAdminHotel.csproj.GenerateResource.Cache
+C:\Users\Ana Lilian\Documents\Visual Studio 2015\Projects\ModuloAdminHotel\ModuloAdminHotel\obj\Debug\ModuloAdminHotel.exe
+C:\Users\Ana Lilian\Documents\Visual Studio 2015\Projects\ModuloAdminHotel\ModuloAdminHotel\obj\Debug\ModuloAdminHotel.pdb
+C:\Users\Ana Lilian\Documents\Visual Studio 2015\Projects\ModuloAdminHotel\ModuloAdminHotel\obj\Debug\ModuloAdminHotel.Frm_MantenimientoHabitaciones.resources
+C:\Users\Ana Lilian\Documents\Visual Studio 2015\Projects\ModuloAdminHotel\ModuloAdminHotel\obj\Debug\ModuloAdminHotel.Frm_MantenimientoSalones.resources
+C:\Users\Ana Lilian\Documents\Visual Studio 2015\Projects\ModuloAdminHotel\ModuloAdminHotel\obj\Debug\ModuloAdminHotel.Frm_Problema.resources
+C:\Users\Ana Lilian\Documents\Visual Studio 2015\Projects\ModuloAdminHotel\ModuloAdminHotel\obj\Debug\ModuloAdminHotel.Frm_Sugerencia.resources
+C:\Users\Ana Lilian\Desktop\U\Octavo Semestre\Diseno de Sistemas\SEGUNDO PROYECTO HOTEL SAN CARLOS\Modulo Administracion Hotel\ModuloAdminHotel\ModuloAdminHotel\bin\Debug\ModuloAdminHotel.exe.config
+C:\Users\Ana Lilian\Desktop\U\Octavo Semestre\Diseno de Sistemas\SEGUNDO PROYECTO HOTEL SAN CARLOS\Modulo Administracion Hotel\ModuloAdminHotel\ModuloAdminHotel\obj\Debug\ModuloAdminHotel.exe
+C:\Users\Ana Lilian\Desktop\U\Octavo Semestre\Diseno de Sistemas\SEGUNDO PROYECTO HOTEL SAN CARLOS\Modulo Administracion Hotel\ModuloAdminHotel\ModuloAdminHotel\obj\Debug\ModuloAdminHotel.pdb
+C:\Users\Ana Lilian\Desktop\U\Octavo Semestre\Diseno de Sistemas\SEGUNDO PROYECTO HOTEL SAN CARLOS\Modulo Administracion Hotel\ModuloAdminHotel\ModuloAdminHotel\bin\Debug\ModuloAdminHotel.exe
+C:\Users\Ana Lilian\Desktop\U\Octavo Semestre\Diseno de Sistemas\SEGUNDO PROYECTO HOTEL SAN CARLOS\Modulo Administracion Hotel\ModuloAdminHotel\ModuloAdminHotel\bin\Debug\ModuloAdminHotel.pdb
+C:\Users\Ana Lilian\Desktop\U\Octavo Semestre\Diseno de Sistemas\SEGUNDO PROYECTO HOTEL SAN CARLOS\Modulo Administracion Hotel\ModuloAdminHotel\ModuloAdminHotel\obj\Debug\ModuloAdminHotel.csprojResolveAssemblyReference.cache
+C:\Users\Ana Lilian\Desktop\U\Octavo Semestre\Diseno de Sistemas\SEGUNDO PROYECTO HOTEL SAN CARLOS\Modulo Administracion Hotel\ModuloAdminHotel\ModuloAdminHotel\obj\Debug\ModuloAdminHotel.Frm_Login.resources
+C:\Users\Ana Lilian\Desktop\U\Octavo Semestre\Diseno de Sistemas\SEGUNDO PROYECTO HOTEL SAN CARLOS\Modulo Administracion Hotel\ModuloAdminHotel\ModuloAdminHotel\obj\Debug\ModuloAdminHotel.Frm_MantenimientoHabitaciones.resources
+C:\Users\Ana Lilian\Desktop\U\Octavo Semestre\Diseno de Sistemas\SEGUNDO PROYECTO HOTEL SAN CARLOS\Modulo Administracion Hotel\ModuloAdminHotel\ModuloAdminHotel\obj\Debug\ModuloAdminHotel.Frm_MantenimientoSalones.resources
+C:\Users\Ana Lilian\Desktop\U\Octavo Semestre\Diseno de Sistemas\SEGUNDO PROYECTO HOTEL SAN CARLOS\Modulo Administracion Hotel\ModuloAdminHotel\ModuloAdminHotel\obj\Debug\ModuloAdminHotel.Frm_Padre.resources
+C:\Users\Ana Lilian\Desktop\U\Octavo Semestre\Diseno de Sistemas\SEGUNDO PROYECTO HOTEL SAN CARLOS\Modulo Administracion Hotel\ModuloAdminHotel\ModuloAdminHotel\obj\Debug\ModuloAdminHotel.Frm_Problema.resources
+C:\Users\Ana Lilian\Desktop\U\Octavo Semestre\Diseno de Sistemas\SEGUNDO PROYECTO HOTEL SAN CARLOS\Modulo Administracion Hotel\ModuloAdminHotel\ModuloAdminHotel\obj\Debug\ModuloAdminHotel.Frm_Sugerencia.resources
+C:\Users\Ana Lilian\Desktop\U\Octavo Semestre\Diseno de Sistemas\SEGUNDO PROYECTO HOTEL SAN CARLOS\Modulo Administracion Hotel\ModuloAdminHotel\ModuloAdminHotel\obj\Debug\ModuloAdminHotel.Properties.Resources.resources
+C:\Users\Ana Lilian\Desktop\U\Octavo Semestre\Diseno de Sistemas\SEGUNDO PROYECTO HOTEL SAN CARLOS\Modulo Administracion Hotel\ModuloAdminHotel\ModuloAdminHotel\obj\Debug\ModuloAdminHotel.csproj.GenerateResource.Cache
+C:\Users\Ana Lilian\Desktop\U\Octavo Semestre\Diseno de Sistemas\SEGUNDO PROYECTO HOTEL SAN CARLOS\Modulo Administracion Hotel\ModuloAdminHotel\ModuloAdminHotel\obj\Debug\ModuloAdminHotel.Frm_Invitado.resources
+C:\Users\Ana Lilian\Desktop\U\Octavo Semestre\Diseno de Sistemas\SEGUNDO PROYECTO HOTEL SAN CARLOS\Modulo Administracion Hotel\ModuloAdminHotel\ModuloAdminHotel\obj\Debug\ModuloAdminHotel.Frm_MantemientoTipoHabitacion.resources
+C:\Users\Ana Lilian\Desktop\U\Octavo Semestre\Diseno de Sistemas\SEGUNDO PROYECTO HOTEL SAN CARLOS\Modulo Administracion Hotel\ModuloAdminHotel\ModuloAdminHotel\obj\Debug\ModuloAdminHotel.Frm_MantenimientoCliente.resources
+C:\Users\Ana Lilian\Desktop\U\Octavo Semestre\Diseno de Sistemas\SEGUNDO PROYECTO HOTEL SAN CARLOS\Modulo Administracion Hotel\ModuloAdminHotel\ModuloAdminHotel\obj\Debug\ModuloAdminHotel.Frm_MantenimientoEmpresa.resources
+C:\Users\Ana Lilian\Desktop\U\Octavo Semestre\Diseno de Sistemas\SEGUNDO PROYECTO HOTEL SAN CARLOS\Modulo Administracion Hotel\ModuloAdminHotel\ModuloAdminHotel\obj\Debug\ModuloAdminHotel.Frm_ObjetosOlvidados.resources
+C:\Users\Ana Lilian\Desktop\U\Octavo Semestre\Diseno de Sistemas\SEGUNDO PROYECTO HOTEL SAN CARLOS\Modulo Administracion Hotel\ModuloAdminHotel\ModuloAdminHotel\obj\Debug\ModuloAdminHotel.Frm_Promocion.resources
+C:\Users\Ana Lilian\Desktop\U\Octavo Semestre\Diseno de Sistemas\SEGUNDO PROYECTO HOTEL SAN CARLOS\Modulo Administracion Hotel\ModuloAdminHotel\ModuloAdminHotel\obj\Debug\ModuloAdminHotel.Frm_ControlDeHabitaciones.resources
+C:\Users\Ana Lilian\Desktop\U\Octavo Semestre\Diseno de Sistemas\SEGUNDO PROYECTO HOTEL SAN CARLOS\Modulo Administracion Hotel\ModuloAdminHotel\ModuloAdminHotel\obj\Debug\ModuloAdminHotel.Frm_Folio.resources
+C:\Users\Ana Lilian\Desktop\U\Octavo Semestre\Diseno de Sistemas\SEGUNDO PROYECTO HOTEL SAN CARLOS\Modulo Administracion Hotel\ModuloAdminHotel\ModuloAdminHotel\obj\Debug\ModuloAdminHotel.Frm_HabitacionesEspecificas.resources
+C:\Users\Ana Lilian\Desktop\U\Octavo Semestre\Diseno de Sistemas\SEGUNDO PROYECTO HOTEL SAN CARLOS\Modulo Administracion Hotel\ModuloAdminHotel\ModuloAdminHotel\obj\Debug\ModuloAdminHotel.Frm_ReservacionHotel.resources
+C:\Users\Ana Lilian\Desktop\U\Octavo Semestre\Diseno de Sistemas\SEGUNDO PROYECTO HOTEL SAN CARLOS\Modulo Administracion Hotel\ModuloAdminHotel\ModuloAdminHotel\obj\Debug\ModuloAdminHotel.Frm_ReservacionSalon.resources
+C:\Users\rodri\Documents\GitHub\Hotel-San-Carlos\Grupo2\ModuloAdminHotel\ModuloAdminHotel\bin\Debug\ModuloAdminHotel.exe.config
+C:\Users\rodri\Documents\GitHub\Hotel-San-Carlos\Grupo2\ModuloAdminHotel\ModuloAdminHotel\obj\Debug\ModuloAdminHotel.exe
+C:\Users\rodri\Documents\GitHub\Hotel-San-Carlos\Grupo2\ModuloAdminHotel\ModuloAdminHotel\obj\Debug\ModuloAdminHotel.pdb
+C:\Users\Walter\Desktop\Nueva carpeta\ModuloAdminHotel\ModuloAdminHotel\bin\Debug\ModuloAdminHotel.exe.config
+C:\Users\Walter\Desktop\Nueva carpeta\ModuloAdminHotel\ModuloAdminHotel\obj\Debug\ModuloAdminHotel.exe
+C:\Users\Walter\Desktop\Nueva carpeta\ModuloAdminHotel\ModuloAdminHotel\obj\Debug\ModuloAdminHotel.pdb
+C:\Users\Walter\Desktop\Nueva carpeta\imple1\ModuloAdminHotel\ModuloAdminHotel\bin\Debug\ModuloAdminHotel.exe.config
+C:\Users\Walter\Desktop\Nueva carpeta\imple1\ModuloAdminHotel\ModuloAdminHotel\obj\Debug\ModuloAdminHotel.exe
+C:\Users\Walter\Desktop\Nueva carpeta\imple1\ModuloAdminHotel\ModuloAdminHotel\obj\Debug\ModuloAdminHotel.pdb
+C:\Users\Walter\Desktop\Nueva carpeta\imple2\ModuloAdminHotel\ModuloAdminHotel\bin\Debug\ModuloAdminHotel.exe.config
+C:\Users\Walter\Desktop\Nueva carpeta\imple2\ModuloAdminHotel\ModuloAdminHotel\obj\Debug\ModuloAdminHotel.exe
+C:\Users\Walter\Desktop\Nueva carpeta\imple2\ModuloAdminHotel\ModuloAdminHotel\obj\Debug\ModuloAdminHotel.pdb
+C:\Users\Walter\Desktop\Nueva carpeta\imple2\ModuloAdminHotel\ModuloAdminHotel\obj\Debug\ModuloAdminHotel.csprojResolveAssemblyReference.cache
+C:\Users\Walter\Desktop\Nueva carpeta\imple2\ModuloAdminHotel\ModuloAdminHotel\obj\Debug\ModuloAdminHotel.Frm_ControlDeHabitaciones.resources
+C:\Users\Walter\Desktop\Nueva carpeta\imple2\ModuloAdminHotel\ModuloAdminHotel\obj\Debug\ModuloAdminHotel.Frm_Folio.resources
+C:\Users\Walter\Desktop\Nueva carpeta\imple2\ModuloAdminHotel\ModuloAdminHotel\obj\Debug\ModuloAdminHotel.Frm_HabitacionesEspecificas.resources
+C:\Users\Walter\Desktop\Nueva carpeta\imple2\ModuloAdminHotel\ModuloAdminHotel\obj\Debug\ModuloAdminHotel.Frm_Invitado.resources
+C:\Users\Walter\Desktop\Nueva carpeta\imple2\ModuloAdminHotel\ModuloAdminHotel\obj\Debug\ModuloAdminHotel.Frm_Login.resources
+C:\Users\Walter\Desktop\Nueva carpeta\imple2\ModuloAdminHotel\ModuloAdminHotel\obj\Debug\ModuloAdminHotel.Frm_MantemientoTipoHabitacion.resources
+C:\Users\Walter\Desktop\Nueva carpeta\imple2\ModuloAdminHotel\ModuloAdminHotel\obj\Debug\ModuloAdminHotel.Frm_MantenimientoCliente.resources
+C:\Users\Walter\Desktop\Nueva carpeta\imple2\ModuloAdminHotel\ModuloAdminHotel\obj\Debug\ModuloAdminHotel.Frm_MantenimientoEmpresa.resources
+C:\Users\Walter\Desktop\Nueva carpeta\imple2\ModuloAdminHotel\ModuloAdminHotel\obj\Debug\ModuloAdminHotel.Frm_MantenimientoHabitaciones.resources
+C:\Users\Walter\Desktop\Nueva carpeta\imple2\ModuloAdminHotel\ModuloAdminHotel\obj\Debug\ModuloAdminHotel.Frm_MantenimientoSalones.resources
+C:\Users\Walter\Desktop\Nueva carpeta\imple2\ModuloAdminHotel\ModuloAdminHotel\obj\Debug\ModuloAdminHotel.Frm_ObjetosOlvidados.resources
+C:\Users\Walter\Desktop\Nueva carpeta\imple2\ModuloAdminHotel\ModuloAdminHotel\obj\Debug\ModuloAdminHotel.Frm_Padre.resources
+C:\Users\Walter\Desktop\Nueva carpeta\imple2\ModuloAdminHotel\ModuloAdminHotel\obj\Debug\ModuloAdminHotel.Frm_Problema.resources
+C:\Users\Walter\Desktop\Nueva carpeta\imple2\ModuloAdminHotel\ModuloAdminHotel\obj\Debug\ModuloAdminHotel.Frm_Promocion.resources
+C:\Users\Walter\Desktop\Nueva carpeta\imple2\ModuloAdminHotel\ModuloAdminHotel\obj\Debug\ModuloAdminHotel.Frm_ReservacionHotel.resources
+C:\Users\Walter\Desktop\Nueva carpeta\imple2\ModuloAdminHotel\ModuloAdminHotel\obj\Debug\ModuloAdminHotel.Frm_ReservacionSalon.resources
+C:\Users\Walter\Desktop\Nueva carpeta\imple2\ModuloAdminHotel\ModuloAdminHotel\obj\Debug\ModuloAdminHotel.Frm_Sugerencia.resources
+C:\Users\Walter\Desktop\Nueva carpeta\imple2\ModuloAdminHotel\ModuloAdminHotel\obj\Debug\ModuloAdminHotel.Properties.Resources.resources
+C:\Users\Walter\Desktop\Nueva carpeta\imple2\ModuloAdminHotel\ModuloAdminHotel\obj\Debug\ModuloAdminHotel.csproj.GenerateResource.Cache
+C:\Users\Walter\Desktop\Nueva carpeta\imple2\ModuloAdminHotel\ModuloAdminHotel\bin\Debug\ModuloAdminHotel.exe
+C:\Users\Walter\Desktop\Nueva carpeta\imple2\ModuloAdminHotel\ModuloAdminHotel\bin\Debug\ModuloAdminHotel.pdb
+C:\Users\Walter\Desktop\Nueva carpeta\imple2\ModuloAdminHotel\ModuloAdminHotel\bin\Debug\MySql.Data.dll
+C:\Users\Ana Lilian\Downloads\ModuloAdminHotelUnionrodrigowalter\ModuloAdminHotel\ModuloAdminHotel\bin\Debug\ModuloAdminHotel.exe.config
+C:\Users\Ana Lilian\Downloads\ModuloAdminHotelUnionrodrigowalter\ModuloAdminHotel\ModuloAdminHotel\obj\Debug\ModuloAdminHotel.exe
+C:\Users\Ana Lilian\Downloads\ModuloAdminHotelUnionrodrigowalter\ModuloAdminHotel\ModuloAdminHotel\obj\Debug\ModuloAdminHotel.pdb
+C:\Users\Ana Lilian\Downloads\ModuloAdminHotelUnionrodrigowalter\ModuloAdminHotel\ModuloAdminHotel\bin\Debug\ModuloAdminHotel.exe
+C:\Users\Ana Lilian\Downloads\ModuloAdminHotelUnionrodrigowalter\ModuloAdminHotel\ModuloAdminHotel\bin\Debug\ModuloAdminHotel.pdb
+C:\Users\Ana Lilian\Downloads\ModuloAdminHotelUnionrodrigowalter\ModuloAdminHotel\ModuloAdminHotel\bin\Debug\MySql.Data.dll
+C:\Users\Ana Lilian\Downloads\ModuloAdminHotelUnionrodrigowalter\ModuloAdminHotel\ModuloAdminHotel\bin\Debug\Google.ProtocolBuffers.dll
+C:\Users\Ana Lilian\Downloads\ModuloAdminHotelUnionrodrigowalter\ModuloAdminHotel\ModuloAdminHotel\bin\Debug\MySql.Data.xml
+C:\Users\Ana Lilian\Downloads\ModuloAdminHotelUnionrodrigowalter\ModuloAdminHotel\ModuloAdminHotel\obj\Debug\ModuloAdminHotel.csprojResolveAssemblyReference.cache
+C:\Users\Ana Lilian\Downloads\ModuloAdminHotelUnionrodrigowalter\ModuloAdminHotel\ModuloAdminHotel\obj\Debug\ModuloAdminHotel.Frm_ControlDeHabitaciones.resources
+C:\Users\Ana Lilian\Downloads\ModuloAdminHotelUnionrodrigowalter\ModuloAdminHotel\ModuloAdminHotel\obj\Debug\ModuloAdminHotel.Frm_Folio.resources
+C:\Users\Ana Lilian\Downloads\ModuloAdminHotelUnionrodrigowalter\ModuloAdminHotel\ModuloAdminHotel\obj\Debug\ModuloAdminHotel.Frm_HabitacionesEspecificas.resources
+C:\Users\Ana Lilian\Downloads\ModuloAdminHotelUnionrodrigowalter\ModuloAdminHotel\ModuloAdminHotel\obj\Debug\ModuloAdminHotel.Frm_Invitado.resources
+C:\Users\Ana Lilian\Downloads\ModuloAdminHotelUnionrodrigowalter\ModuloAdminHotel\ModuloAdminHotel\obj\Debug\ModuloAdminHotel.Frm_Login.resources
+C:\Users\Ana Lilian\Downloads\ModuloAdminHotelUnionrodrigowalter\ModuloAdminHotel\ModuloAdminHotel\obj\Debug\ModuloAdminHotel.Frm_MantemientoTipoHabitacion.resources
+C:\Users\Ana Lilian\Downloads\ModuloAdminHotelUnionrodrigowalter\ModuloAdminHotel\ModuloAdminHotel\obj\Debug\ModuloAdminHotel.Frm_MantenimientoCliente.resources
+C:\Users\Ana Lilian\Downloads\ModuloAdminHotelUnionrodrigowalter\ModuloAdminHotel\ModuloAdminHotel\obj\Debug\ModuloAdminHotel.Frm_MantenimientoEmpresa.resources
+C:\Users\Ana Lilian\Downloads\ModuloAdminHotelUnionrodrigowalter\ModuloAdminHotel\ModuloAdminHotel\obj\Debug\ModuloAdminHotel.Frm_MantenimientoHabitaciones.resources
+C:\Users\Ana Lilian\Downloads\ModuloAdminHotelUnionrodrigowalter\ModuloAdminHotel\ModuloAdminHotel\obj\Debug\ModuloAdminHotel.Frm_MantenimientoSalones.resources
+C:\Users\Ana Lilian\Downloads\ModuloAdminHotelUnionrodrigowalter\ModuloAdminHotel\ModuloAdminHotel\obj\Debug\ModuloAdminHotel.Frm_ObjetosOlvidados.resources
+C:\Users\Ana Lilian\Downloads\ModuloAdminHotelUnionrodrigowalter\ModuloAdminHotel\ModuloAdminHotel\obj\Debug\ModuloAdminHotel.Frm_Padre.resources
+C:\Users\Ana Lilian\Downloads\ModuloAdminHotelUnionrodrigowalter\ModuloAdminHotel\ModuloAdminHotel\obj\Debug\ModuloAdminHotel.Frm_Problema.resources
+C:\Users\Ana Lilian\Downloads\ModuloAdminHotelUnionrodrigowalter\ModuloAdminHotel\ModuloAdminHotel\obj\Debug\ModuloAdminHotel.Frm_Promocion.resources
+C:\Users\Ana Lilian\Downloads\ModuloAdminHotelUnionrodrigowalter\ModuloAdminHotel\ModuloAdminHotel\obj\Debug\ModuloAdminHotel.Frm_ReservacionHotel.resources
+C:\Users\Ana Lilian\Downloads\ModuloAdminHotelUnionrodrigowalter\ModuloAdminHotel\ModuloAdminHotel\obj\Debug\ModuloAdminHotel.Frm_ReservacionSalon.resources
+C:\Users\Ana Lilian\Downloads\ModuloAdminHotelUnionrodrigowalter\ModuloAdminHotel\ModuloAdminHotel\obj\Debug\ModuloAdminHotel.Frm_Sugerencia.resources
+C:\Users\Ana Lilian\Downloads\ModuloAdminHotelUnionrodrigowalter\ModuloAdminHotel\ModuloAdminHotel\obj\Debug\ModuloAdminHotel.Properties.Resources.resources
+C:\Users\Ana Lilian\Downloads\ModuloAdminHotelUnionrodrigowalter\ModuloAdminHotel\ModuloAdminHotel\obj\Debug\ModuloAdminHotel.csproj.GenerateResource.Cache
+C:\Users\Ana Lilian\Downloads\ModuloAdminHotelUnionrodrigowalter\ModuloAdminHotel\ModuloAdminHotel\bin\Debug\dllconsultas.dll
+C:\Users\Ana Lilian\Downloads\ModuloAdminHotelUnionrodrigowalter\ModuloAdminHotel\ModuloAdminHotel\bin\Debug\FuncionesNavegador.dll
+C:\Users\Ana Lilian\Downloads\ModuloAdminHotelUnionrodrigowalter\ModuloAdminHotel\ModuloAdminHotel\bin\Debug\dllconsultas.pdb
+C:\Users\Ana Lilian\Downloads\ModuloAdminHotelUnionrodrigowalter\ModuloAdminHotel\ModuloAdminHotel\bin\Debug\FuncionesNavegador.pdb
