@@ -28,9 +28,26 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_Prestamos));
             this.label1 = new System.Windows.Forms.Label();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.gpb_deduccion = new System.Windows.Forms.GroupBox();
+            this.lbl_tipo_deduccion = new System.Windows.Forms.Label();
+            this.cbo_tipo_deduccion = new System.Windows.Forms.ComboBox();
+            this.clb_emp_deduccion = new System.Windows.Forms.CheckedListBox();
+            this.lbl_emp_deduccion = new System.Windows.Forms.Label();
+            this.dtp_fecha_deduccion = new System.Windows.Forms.DateTimePicker();
+            this.lbl_fecha_deduccion = new System.Windows.Forms.Label();
+            this.lbl_cuot_deduccion = new System.Windows.Forms.Label();
+            this.txt_cuot_deduccion = new System.Windows.Forms.TextBox();
+            this.txt_cantid_deduccion = new System.Windows.Forms.TextBox();
+            this.txt_detall_deduccion = new System.Windows.Forms.TextBox();
+            this.txt_nom_deduccion = new System.Windows.Forms.TextBox();
+            this.lbl_cantid_deduccion = new System.Windows.Forms.Label();
+            this.lbl_detall_deduccion = new System.Windows.Forms.Label();
+            this.lbl_nom_deduccion = new System.Windows.Forms.Label();
+            this.lbl_form_emp = new System.Windows.Forms.Label();
+            this.gpb_navegador = new System.Windows.Forms.GroupBox();
             this.btn_nuevo = new System.Windows.Forms.Button();
             this.btn_ultimo = new System.Windows.Forms.Button();
             this.btn_guardar = new System.Windows.Forms.Button();
@@ -42,23 +59,19 @@
             this.btn_buscar = new System.Windows.Forms.Button();
             this.btn_actualizar = new System.Windows.Forms.Button();
             this.btn_cancelar = new System.Windows.Forms.Button();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.groupBox1.SuspendLayout();
-            this.groupBox2.SuspendLayout();
+            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
+            this.toolTip2 = new System.Windows.Forms.ToolTip(this.components);
+            this.toolTip3 = new System.Windows.Forms.ToolTip(this.components);
+            this.toolTip4 = new System.Windows.Forms.ToolTip(this.components);
+            this.toolTip5 = new System.Windows.Forms.ToolTip(this.components);
+            this.toolTip6 = new System.Windows.Forms.ToolTip(this.components);
+            this.toolTip7 = new System.Windows.Forms.ToolTip(this.components);
+            this.toolTip8 = new System.Windows.Forms.ToolTip(this.components);
+            this.toolTip9 = new System.Windows.Forms.ToolTip(this.components);
+            this.toolTip10 = new System.Windows.Forms.ToolTip(this.components);
+            this.toolTip11 = new System.Windows.Forms.ToolTip(this.components);
+            this.gpb_deduccion.SuspendLayout();
+            this.gpb_navegador.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -70,26 +83,192 @@
             this.label1.Size = new System.Drawing.Size(0, 29);
             this.label1.TabIndex = 162;
             // 
-            // groupBox1
+            // gpb_deduccion
             // 
-            this.groupBox1.Controls.Add(this.btn_nuevo);
-            this.groupBox1.Controls.Add(this.btn_ultimo);
-            this.groupBox1.Controls.Add(this.btn_guardar);
-            this.groupBox1.Controls.Add(this.btn_primero);
-            this.groupBox1.Controls.Add(this.btn_editar);
-            this.groupBox1.Controls.Add(this.btn_siguiente);
-            this.groupBox1.Controls.Add(this.btn_eliminar);
-            this.groupBox1.Controls.Add(this.btn_anterior);
-            this.groupBox1.Controls.Add(this.btn_buscar);
-            this.groupBox1.Controls.Add(this.btn_actualizar);
-            this.groupBox1.Controls.Add(this.btn_cancelar);
-            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(12, 12);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(636, 100);
-            this.groupBox1.TabIndex = 11;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Navegador";
+            this.gpb_deduccion.Controls.Add(this.lbl_tipo_deduccion);
+            this.gpb_deduccion.Controls.Add(this.cbo_tipo_deduccion);
+            this.gpb_deduccion.Controls.Add(this.clb_emp_deduccion);
+            this.gpb_deduccion.Controls.Add(this.lbl_emp_deduccion);
+            this.gpb_deduccion.Controls.Add(this.dtp_fecha_deduccion);
+            this.gpb_deduccion.Controls.Add(this.lbl_fecha_deduccion);
+            this.gpb_deduccion.Controls.Add(this.lbl_cuot_deduccion);
+            this.gpb_deduccion.Controls.Add(this.txt_cuot_deduccion);
+            this.gpb_deduccion.Controls.Add(this.txt_cantid_deduccion);
+            this.gpb_deduccion.Controls.Add(this.txt_detall_deduccion);
+            this.gpb_deduccion.Controls.Add(this.txt_nom_deduccion);
+            this.gpb_deduccion.Controls.Add(this.lbl_cantid_deduccion);
+            this.gpb_deduccion.Controls.Add(this.lbl_detall_deduccion);
+            this.gpb_deduccion.Controls.Add(this.lbl_nom_deduccion);
+            this.gpb_deduccion.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gpb_deduccion.Location = new System.Drawing.Point(12, 167);
+            this.gpb_deduccion.Name = "gpb_deduccion";
+            this.gpb_deduccion.Size = new System.Drawing.Size(906, 258);
+            this.gpb_deduccion.TabIndex = 163;
+            this.gpb_deduccion.TabStop = false;
+            this.gpb_deduccion.Text = "Deducciones";
+            // 
+            // lbl_tipo_deduccion
+            // 
+            this.lbl_tipo_deduccion.AutoSize = true;
+            this.lbl_tipo_deduccion.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_tipo_deduccion.Location = new System.Drawing.Point(18, 36);
+            this.lbl_tipo_deduccion.Name = "lbl_tipo_deduccion";
+            this.lbl_tipo_deduccion.Size = new System.Drawing.Size(113, 18);
+            this.lbl_tipo_deduccion.TabIndex = 82;
+            this.lbl_tipo_deduccion.Text = "Tipo deduccion:";
+            // 
+            // cbo_tipo_deduccion
+            // 
+            this.cbo_tipo_deduccion.FormattingEnabled = true;
+            this.cbo_tipo_deduccion.Items.AddRange(new object[] {
+            "Horas extra",
+            "Comision ventas",
+            "Otro"});
+            this.cbo_tipo_deduccion.Location = new System.Drawing.Point(141, 32);
+            this.cbo_tipo_deduccion.Name = "cbo_tipo_deduccion";
+            this.cbo_tipo_deduccion.Size = new System.Drawing.Size(252, 28);
+            this.cbo_tipo_deduccion.TabIndex = 81;
+            // 
+            // clb_emp_deduccion
+            // 
+            this.clb_emp_deduccion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
+            this.clb_emp_deduccion.FormattingEnabled = true;
+            this.clb_emp_deduccion.Items.AddRange(new object[] {
+            "Empleado1",
+            "Empleado2",
+            "Empleado3"});
+            this.clb_emp_deduccion.Location = new System.Drawing.Point(581, 32);
+            this.clb_emp_deduccion.Name = "clb_emp_deduccion";
+            this.clb_emp_deduccion.Size = new System.Drawing.Size(250, 88);
+            this.clb_emp_deduccion.TabIndex = 80;
+            // 
+            // lbl_emp_deduccion
+            // 
+            this.lbl_emp_deduccion.AutoSize = true;
+            this.lbl_emp_deduccion.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_emp_deduccion.Location = new System.Drawing.Point(483, 32);
+            this.lbl_emp_deduccion.Name = "lbl_emp_deduccion";
+            this.lbl_emp_deduccion.Size = new System.Drawing.Size(87, 18);
+            this.lbl_emp_deduccion.TabIndex = 79;
+            this.lbl_emp_deduccion.Text = "Empleados:";
+            // 
+            // dtp_fecha_deduccion
+            // 
+            this.dtp_fecha_deduccion.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dtp_fecha_deduccion.Location = new System.Drawing.Point(581, 190);
+            this.dtp_fecha_deduccion.Name = "dtp_fecha_deduccion";
+            this.dtp_fecha_deduccion.Size = new System.Drawing.Size(250, 21);
+            this.dtp_fecha_deduccion.TabIndex = 78;
+            // 
+            // lbl_fecha_deduccion
+            // 
+            this.lbl_fecha_deduccion.AutoSize = true;
+            this.lbl_fecha_deduccion.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_fecha_deduccion.Location = new System.Drawing.Point(517, 190);
+            this.lbl_fecha_deduccion.Name = "lbl_fecha_deduccion";
+            this.lbl_fecha_deduccion.Size = new System.Drawing.Size(53, 18);
+            this.lbl_fecha_deduccion.TabIndex = 77;
+            this.lbl_fecha_deduccion.Text = "Fecha:";
+            // 
+            // lbl_cuot_deduccion
+            // 
+            this.lbl_cuot_deduccion.AutoSize = true;
+            this.lbl_cuot_deduccion.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_cuot_deduccion.Location = new System.Drawing.Point(510, 158);
+            this.lbl_cuot_deduccion.Name = "lbl_cuot_deduccion";
+            this.lbl_cuot_deduccion.Size = new System.Drawing.Size(60, 18);
+            this.lbl_cuot_deduccion.TabIndex = 76;
+            this.lbl_cuot_deduccion.Text = "Cuotas:";
+            // 
+            // txt_cuot_deduccion
+            // 
+            this.txt_cuot_deduccion.Location = new System.Drawing.Point(581, 158);
+            this.txt_cuot_deduccion.Name = "txt_cuot_deduccion";
+            this.txt_cuot_deduccion.Size = new System.Drawing.Size(250, 26);
+            this.txt_cuot_deduccion.TabIndex = 75;
+            // 
+            // txt_cantid_deduccion
+            // 
+            this.txt_cantid_deduccion.Location = new System.Drawing.Point(581, 126);
+            this.txt_cantid_deduccion.Name = "txt_cantid_deduccion";
+            this.txt_cantid_deduccion.Size = new System.Drawing.Size(250, 26);
+            this.txt_cantid_deduccion.TabIndex = 74;
+            // 
+            // txt_detall_deduccion
+            // 
+            this.txt_detall_deduccion.Location = new System.Drawing.Point(142, 98);
+            this.txt_detall_deduccion.Multiline = true;
+            this.txt_detall_deduccion.Name = "txt_detall_deduccion";
+            this.txt_detall_deduccion.Size = new System.Drawing.Size(251, 136);
+            this.txt_detall_deduccion.TabIndex = 72;
+            // 
+            // txt_nom_deduccion
+            // 
+            this.txt_nom_deduccion.Location = new System.Drawing.Point(142, 66);
+            this.txt_nom_deduccion.Name = "txt_nom_deduccion";
+            this.txt_nom_deduccion.Size = new System.Drawing.Size(251, 26);
+            this.txt_nom_deduccion.TabIndex = 70;
+            // 
+            // lbl_cantid_deduccion
+            // 
+            this.lbl_cantid_deduccion.AutoSize = true;
+            this.lbl_cantid_deduccion.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_cantid_deduccion.Location = new System.Drawing.Point(428, 126);
+            this.lbl_cantid_deduccion.Name = "lbl_cantid_deduccion";
+            this.lbl_cantid_deduccion.Size = new System.Drawing.Size(134, 18);
+            this.lbl_cantid_deduccion.TabIndex = 73;
+            this.lbl_cantid_deduccion.Text = "Cantidad a deducir:";
+            // 
+            // lbl_detall_deduccion
+            // 
+            this.lbl_detall_deduccion.AutoSize = true;
+            this.lbl_detall_deduccion.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_detall_deduccion.Location = new System.Drawing.Point(18, 98);
+            this.lbl_detall_deduccion.Name = "lbl_detall_deduccion";
+            this.lbl_detall_deduccion.Size = new System.Drawing.Size(57, 18);
+            this.lbl_detall_deduccion.TabIndex = 71;
+            this.lbl_detall_deduccion.Text = "Detalle:";
+            // 
+            // lbl_nom_deduccion
+            // 
+            this.lbl_nom_deduccion.AutoSize = true;
+            this.lbl_nom_deduccion.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_nom_deduccion.Location = new System.Drawing.Point(18, 66);
+            this.lbl_nom_deduccion.Name = "lbl_nom_deduccion";
+            this.lbl_nom_deduccion.Size = new System.Drawing.Size(66, 18);
+            this.lbl_nom_deduccion.TabIndex = 69;
+            this.lbl_nom_deduccion.Text = "Nombre:";
+            // 
+            // lbl_form_emp
+            // 
+            this.lbl_form_emp.AutoSize = true;
+            this.lbl_form_emp.Font = new System.Drawing.Font("Microsoft Sans Serif", 21F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_form_emp.Location = new System.Drawing.Point(287, 9);
+            this.lbl_form_emp.Name = "lbl_form_emp";
+            this.lbl_form_emp.Size = new System.Drawing.Size(323, 32);
+            this.lbl_form_emp.TabIndex = 170;
+            this.lbl_form_emp.Text = "Prestamos a Empleados";
+            // 
+            // gpb_navegador
+            // 
+            this.gpb_navegador.Controls.Add(this.btn_nuevo);
+            this.gpb_navegador.Controls.Add(this.btn_ultimo);
+            this.gpb_navegador.Controls.Add(this.btn_guardar);
+            this.gpb_navegador.Controls.Add(this.btn_primero);
+            this.gpb_navegador.Controls.Add(this.btn_editar);
+            this.gpb_navegador.Controls.Add(this.btn_siguiente);
+            this.gpb_navegador.Controls.Add(this.btn_eliminar);
+            this.gpb_navegador.Controls.Add(this.btn_anterior);
+            this.gpb_navegador.Controls.Add(this.btn_buscar);
+            this.gpb_navegador.Controls.Add(this.btn_actualizar);
+            this.gpb_navegador.Controls.Add(this.btn_cancelar);
+            this.gpb_navegador.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gpb_navegador.Location = new System.Drawing.Point(12, 52);
+            this.gpb_navegador.Name = "gpb_navegador";
+            this.gpb_navegador.Size = new System.Drawing.Size(636, 100);
+            this.gpb_navegador.TabIndex = 171;
+            this.gpb_navegador.TabStop = false;
+            this.gpb_navegador.Text = "Navegador";
             // 
             // btn_nuevo
             // 
@@ -104,7 +283,9 @@
             this.btn_nuevo.Name = "btn_nuevo";
             this.btn_nuevo.Size = new System.Drawing.Size(65, 65);
             this.btn_nuevo.TabIndex = 0;
+            this.toolTip1.SetToolTip(this.btn_nuevo, "Nuevo");
             this.btn_nuevo.UseVisualStyleBackColor = true;
+            this.btn_nuevo.Click += new System.EventHandler(this.btn_nuevo_Click);
             // 
             // btn_ultimo
             // 
@@ -119,6 +300,7 @@
             this.btn_ultimo.Name = "btn_ultimo";
             this.btn_ultimo.Size = new System.Drawing.Size(33, 33);
             this.btn_ultimo.TabIndex = 10;
+            this.toolTip9.SetToolTip(this.btn_ultimo, "Ultimo");
             this.btn_ultimo.UseVisualStyleBackColor = true;
             // 
             // btn_guardar
@@ -134,6 +316,7 @@
             this.btn_guardar.Name = "btn_guardar";
             this.btn_guardar.Size = new System.Drawing.Size(65, 65);
             this.btn_guardar.TabIndex = 1;
+            this.toolTip10.SetToolTip(this.btn_guardar, "Guardar");
             this.btn_guardar.UseVisualStyleBackColor = true;
             // 
             // btn_primero
@@ -149,6 +332,7 @@
             this.btn_primero.Name = "btn_primero";
             this.btn_primero.Size = new System.Drawing.Size(33, 33);
             this.btn_primero.TabIndex = 9;
+            this.toolTip8.SetToolTip(this.btn_primero, "Primero");
             this.btn_primero.UseVisualStyleBackColor = true;
             // 
             // btn_editar
@@ -164,6 +348,7 @@
             this.btn_editar.Name = "btn_editar";
             this.btn_editar.Size = new System.Drawing.Size(65, 65);
             this.btn_editar.TabIndex = 2;
+            this.toolTip11.SetToolTip(this.btn_editar, "Editar");
             this.btn_editar.UseVisualStyleBackColor = true;
             // 
             // btn_siguiente
@@ -179,6 +364,7 @@
             this.btn_siguiente.Name = "btn_siguiente";
             this.btn_siguiente.Size = new System.Drawing.Size(33, 33);
             this.btn_siguiente.TabIndex = 8;
+            this.toolTip7.SetToolTip(this.btn_siguiente, "Siguiente");
             this.btn_siguiente.UseVisualStyleBackColor = true;
             // 
             // btn_eliminar
@@ -194,6 +380,7 @@
             this.btn_eliminar.Name = "btn_eliminar";
             this.btn_eliminar.Size = new System.Drawing.Size(65, 65);
             this.btn_eliminar.TabIndex = 3;
+            this.toolTip2.SetToolTip(this.btn_eliminar, "Eliminar");
             this.btn_eliminar.UseVisualStyleBackColor = true;
             // 
             // btn_anterior
@@ -209,6 +396,7 @@
             this.btn_anterior.Name = "btn_anterior";
             this.btn_anterior.Size = new System.Drawing.Size(33, 33);
             this.btn_anterior.TabIndex = 7;
+            this.toolTip6.SetToolTip(this.btn_anterior, "Anterior");
             this.btn_anterior.UseVisualStyleBackColor = true;
             // 
             // btn_buscar
@@ -224,6 +412,7 @@
             this.btn_buscar.Name = "btn_buscar";
             this.btn_buscar.Size = new System.Drawing.Size(65, 65);
             this.btn_buscar.TabIndex = 4;
+            this.toolTip3.SetToolTip(this.btn_buscar, "Buscar");
             this.btn_buscar.UseVisualStyleBackColor = true;
             // 
             // btn_actualizar
@@ -239,6 +428,7 @@
             this.btn_actualizar.Name = "btn_actualizar";
             this.btn_actualizar.Size = new System.Drawing.Size(65, 65);
             this.btn_actualizar.TabIndex = 6;
+            this.toolTip5.SetToolTip(this.btn_actualizar, "Actualizar");
             this.btn_actualizar.UseVisualStyleBackColor = true;
             // 
             // btn_cancelar
@@ -254,181 +444,30 @@
             this.btn_cancelar.Name = "btn_cancelar";
             this.btn_cancelar.Size = new System.Drawing.Size(65, 65);
             this.btn_cancelar.TabIndex = 5;
+            this.toolTip4.SetToolTip(this.btn_cancelar, "Cancelar");
             this.btn_cancelar.UseVisualStyleBackColor = true;
-            // 
-            // groupBox2
-            // 
-            this.groupBox2.Controls.Add(this.label4);
-            this.groupBox2.Controls.Add(this.comboBox1);
-            this.groupBox2.Controls.Add(this.checkedListBox1);
-            this.groupBox2.Controls.Add(this.label2);
-            this.groupBox2.Controls.Add(this.dateTimePicker1);
-            this.groupBox2.Controls.Add(this.label13);
-            this.groupBox2.Controls.Add(this.label9);
-            this.groupBox2.Controls.Add(this.textBox1);
-            this.groupBox2.Controls.Add(this.textBox7);
-            this.groupBox2.Controls.Add(this.textBox4);
-            this.groupBox2.Controls.Add(this.textBox2);
-            this.groupBox2.Controls.Add(this.label8);
-            this.groupBox2.Controls.Add(this.label5);
-            this.groupBox2.Controls.Add(this.label3);
-            this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox2.Location = new System.Drawing.Point(12, 118);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(906, 338);
-            this.groupBox2.TabIndex = 163;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Deducciones";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(18, 36);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(113, 18);
-            this.label4.TabIndex = 82;
-            this.label4.Text = "Tipo deduccion:";
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
-            "Horas extra",
-            "Comision ventas",
-            "Otro"});
-            this.comboBox1.Location = new System.Drawing.Point(141, 32);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(252, 28);
-            this.comboBox1.TabIndex = 81;
-            // 
-            // checkedListBox1
-            // 
-            this.checkedListBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
-            this.checkedListBox1.FormattingEnabled = true;
-            this.checkedListBox1.Items.AddRange(new object[] {
-            "Empleado1",
-            "Empleado2",
-            "Empleado3"});
-            this.checkedListBox1.Location = new System.Drawing.Point(581, 32);
-            this.checkedListBox1.Name = "checkedListBox1";
-            this.checkedListBox1.Size = new System.Drawing.Size(250, 88);
-            this.checkedListBox1.TabIndex = 80;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(483, 32);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(87, 18);
-            this.label2.TabIndex = 79;
-            this.label2.Text = "Empleados:";
-            // 
-            // dateTimePicker1
-            // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(581, 207);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(307, 26);
-            this.dateTimePicker1.TabIndex = 78;
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(517, 207);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(53, 18);
-            this.label13.TabIndex = 77;
-            this.label13.Text = "Fecha:";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(510, 173);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(60, 18);
-            this.label9.TabIndex = 76;
-            this.label9.Text = "Cuotas:";
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(581, 169);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(250, 26);
-            this.textBox1.TabIndex = 75;
-            // 
-            // textBox7
-            // 
-            this.textBox7.Location = new System.Drawing.Point(581, 133);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(250, 26);
-            this.textBox7.TabIndex = 74;
-            // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(142, 123);
-            this.textBox4.Multiline = true;
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(251, 183);
-            this.textBox4.TabIndex = 72;
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(142, 76);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(251, 26);
-            this.textBox2.TabIndex = 70;
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(424, 141);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(134, 18);
-            this.label8.TabIndex = 73;
-            this.label8.Text = "Cantidad a deducir:";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(18, 123);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(57, 18);
-            this.label5.TabIndex = 71;
-            this.label5.Text = "Detalle:";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(18, 84);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(66, 18);
-            this.label3.TabIndex = 69;
-            this.label3.Text = "Nombre:";
+            this.btn_cancelar.Click += new System.EventHandler(this.btn_cancelar_Click);
             // 
             // frm_Prestamos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
-            this.ClientSize = new System.Drawing.Size(930, 468);
-            this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.groupBox2);
+            this.ClientSize = new System.Drawing.Size(932, 437);
+            this.Controls.Add(this.gpb_navegador);
+            this.Controls.Add(this.lbl_form_emp);
+            this.Controls.Add(this.gpb_deduccion);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "frm_Prestamos";
-            this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "frm_Prestamos";
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
+            this.Text = "Prestamos";
+            this.Load += new System.EventHandler(this.frm_Prestamos_Load);
+            this.gpb_deduccion.ResumeLayout(false);
+            this.gpb_deduccion.PerformLayout();
+            this.gpb_navegador.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -437,7 +476,23 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.GroupBox gpb_deduccion;
+        private System.Windows.Forms.Label lbl_tipo_deduccion;
+        private System.Windows.Forms.ComboBox cbo_tipo_deduccion;
+        private System.Windows.Forms.CheckedListBox clb_emp_deduccion;
+        private System.Windows.Forms.Label lbl_emp_deduccion;
+        private System.Windows.Forms.DateTimePicker dtp_fecha_deduccion;
+        private System.Windows.Forms.Label lbl_fecha_deduccion;
+        private System.Windows.Forms.Label lbl_cuot_deduccion;
+        private System.Windows.Forms.TextBox txt_cuot_deduccion;
+        private System.Windows.Forms.TextBox txt_cantid_deduccion;
+        private System.Windows.Forms.TextBox txt_detall_deduccion;
+        private System.Windows.Forms.TextBox txt_nom_deduccion;
+        private System.Windows.Forms.Label lbl_cantid_deduccion;
+        private System.Windows.Forms.Label lbl_detall_deduccion;
+        private System.Windows.Forms.Label lbl_nom_deduccion;
+        private System.Windows.Forms.Label lbl_form_emp;
+        private System.Windows.Forms.GroupBox gpb_navegador;
         private System.Windows.Forms.Button btn_nuevo;
         private System.Windows.Forms.Button btn_ultimo;
         private System.Windows.Forms.Button btn_guardar;
@@ -449,20 +504,16 @@
         private System.Windows.Forms.Button btn_buscar;
         private System.Windows.Forms.Button btn_actualizar;
         private System.Windows.Forms.Button btn_cancelar;
-        private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.CheckedListBox checkedListBox1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.ToolTip toolTip1;
+        private System.Windows.Forms.ToolTip toolTip9;
+        private System.Windows.Forms.ToolTip toolTip10;
+        private System.Windows.Forms.ToolTip toolTip8;
+        private System.Windows.Forms.ToolTip toolTip11;
+        private System.Windows.Forms.ToolTip toolTip7;
+        private System.Windows.Forms.ToolTip toolTip2;
+        private System.Windows.Forms.ToolTip toolTip6;
+        private System.Windows.Forms.ToolTip toolTip3;
+        private System.Windows.Forms.ToolTip toolTip5;
+        private System.Windows.Forms.ToolTip toolTip4;
     }
 }
