@@ -44,7 +44,6 @@ C:\Users\Cristian\Documents\GitHub\Hotel-San-Carlos\Grupo1\Prototipo\Prototipo -
 C:\Users\Cristian\Documents\GitHub\Hotel-San-Carlos\Grupo1\Prototipo\Prototipo -RRHH\Prototipo -RRHH\obj\Debug\Prototipo -RRHH.csprojResolveAssemblyReference.cache
 C:\Users\Cristian\Documents\GitHub\Hotel-San-Carlos\Grupo1\Prototipo\Prototipo -RRHH\Prototipo -RRHH\obj\Debug\Prototipo__RRHH.Comisiones_Vendedor.resources
 C:\Users\Cristian\Documents\GitHub\Hotel-San-Carlos\Grupo1\Prototipo\Prototipo -RRHH\Prototipo -RRHH\obj\Debug\Prototipo__RRHH.Empleados.resources
-C:\Users\Cristian\Documents\GitHub\Hotel-San-Carlos\Grupo1\Prototipo\Prototipo -RRHH\Prototipo -RRHH\obj\Debug\Prototipo__RRHH.frm_Prestamos.resources
 C:\Users\Cristian\Documents\GitHub\Hotel-San-Carlos\Grupo1\Prototipo\Prototipo -RRHH\Prototipo -RRHH\obj\Debug\Prototipo__RRHH.MenuMDI.resources
 C:\Users\Cristian\Documents\GitHub\Hotel-San-Carlos\Grupo1\Prototipo\Prototipo -RRHH\Prototipo -RRHH\obj\Debug\Prototipo__RRHH.Planilla_IGSS.resources
 C:\Users\Cristian\Documents\GitHub\Hotel-San-Carlos\Grupo1\Prototipo\Prototipo -RRHH\Prototipo -RRHH\obj\Debug\Prototipo__RRHH.Properties.Resources.resources
@@ -95,3 +94,14 @@ C:\Users\javie\Documents\GitHub\Hotel-San-Carlos\Grupo1\Prototipo\Prototipo -RRH
 C:\Users\javie\Documents\GitHub\Hotel-San-Carlos\Grupo1\Prototipo\Prototipo -RRHH\Prototipo -RRHH\obj\Debug\Prototipo__RRHH.frm_Detalle_Nomina.resources
 C:\Users\javie\Documents\GitHub\Hotel-San-Carlos\Grupo1\Prototipo\Prototipo -RRHH\Prototipo -RRHH\obj\Debug\Prototipo__RRHH.frm_Devengados.resources
 C:\Users\javie\Documents\GitHub\Hotel-San-Carlos\Grupo1\Prototipo\Prototipo -RRHH\Prototipo -RRHH\obj\Debug\Prototipo__RRHH.frm_Deducciones.resources
+C:\Users\Cristian\Documents\GitHub\Hotel-San-Carlos\Grupo1\Prototipo\Prototipo -RRHH\Prototipo -RRHH\bin\Debug\FuncionesNavegador.dll
+C:\Users\Cristian\Documents\GitHub\Hotel-San-Carlos\Grupo1\Prototipo\Prototipo -RRHH\Prototipo -RRHH\bin\Debug\MySql.Data.dll
+C:\Users\Cristian\Documents\GitHub\Hotel-San-Carlos\Grupo1\Prototipo\Prototipo -RRHH\Prototipo -RRHH\bin\Debug\dllconsultas.pdb
+C:\Users\Cristian\Documents\GitHub\Hotel-San-Carlos\Grupo1\Prototipo\Prototipo -RRHH\Prototipo -RRHH\bin\Debug\FuncionesNavegador.pdb
+C:\Users\Cristian\Documents\GitHub\Hotel-San-Carlos\Grupo1\Prototipo\Prototipo -RRHH\Prototipo -RRHH\bin\Debug\MySql.Data.xml
+C:\Users\Cristian\Documents\GitHub\Hotel-San-Carlos\Grupo1\Prototipo\Prototipo -RRHH\Prototipo -RRHH\obj\Debug\Prototipo__RRHH.frm_Detalle_Nomina.resources
+C:\Users\Cristian\Documents\GitHub\Hotel-San-Carlos\Grupo1\Prototipo\Prototipo -RRHH\Prototipo -RRHH\obj\Debug\Prototipo__RRHH.frm_Empleados_grid.resources
+C:\Users\Cristian\Documents\GitHub\Hotel-San-Carlos\Grupo1\Prototipo\Prototipo -RRHH\Prototipo -RRHH\obj\Debug\Prototipo__RRHH.frm_Nominas_Empleados.resources
+C:\Users\Cristian\Documents\GitHub\Hotel-San-Carlos\Grupo1\Prototipo\Prototipo -RRHH\Prototipo -RRHH\obj\Debug\Prototipo__RRHH.frm_Devengados.resources
+C:\Users\Cristian\Documents\GitHub\Hotel-San-Carlos\Grupo1\Prototipo\Prototipo -RRHH\Prototipo -RRHH\obj\Debug\Prototipo__RRHH.frm_Deducciones.resources
+C:\Users\Cristian\Documents\GitHub\Hotel-San-Carlos\Grupo1\Prototipo\Prototipo -RRHH\Prototipo -RRHH\obj\Debug\Prototipo__RRHH.Login_Prueba.resources

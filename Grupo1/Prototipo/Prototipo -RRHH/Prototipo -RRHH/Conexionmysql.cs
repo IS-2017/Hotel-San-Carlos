@@ -13,13 +13,13 @@ namespace Prototipo__RRHH
     {
         public static OdbcConnection ObtenerConexion()
         {
-            OdbcConnection miconexion = new OdbcConnection("dsn=HSC_Diseno; server=localhost; database=hotelsancarlos; uid=root; pwd=;");
+            OdbcConnection miconexion = new OdbcConnection("dsn=hotelsancarlos; server=localhost; database=hotelsancarlos; uid=root; pwd=;");
             miconexion.Open();
             return miconexion;
         }
         public static OdbcConnection Desconectar()
         {
-            OdbcConnection miconexion = new OdbcConnection("dsn=HSC_Diseno; server=localhost; database=hotelsancarlos; uid=root; pwd=;");
+            OdbcConnection miconexion = new OdbcConnection("dsn=hotelsancarlos; server=localhost; database=hotelsancarlos; uid=root; pwd=;");
             miconexion.Close();
             return miconexion;
         }
