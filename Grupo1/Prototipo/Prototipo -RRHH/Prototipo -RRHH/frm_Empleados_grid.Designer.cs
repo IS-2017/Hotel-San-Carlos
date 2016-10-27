@@ -28,12 +28,15 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_Empleados_grid));
             this.lbl_form_emp = new System.Windows.Forms.Label();
             this.dgv_lista_emps = new System.Windows.Forms.DataGridView();
             this.txt_buscar = new System.Windows.Forms.TextBox();
             this.lbl_busca_emp = new System.Windows.Forms.Label();
             this.gpb_lista_emps = new System.Windows.Forms.GroupBox();
+            this.btn_actualizar = new System.Windows.Forms.Button();
+            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.dgv_lista_emps)).BeginInit();
             this.gpb_lista_emps.SuspendLayout();
             this.SuspendLayout();
@@ -50,17 +53,19 @@
             // 
             // dgv_lista_emps
             // 
+            this.dgv_lista_emps.AllowUserToDeleteRows = false;
             this.dgv_lista_emps.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgv_lista_emps.Location = new System.Drawing.Point(6, 62);
+            this.dgv_lista_emps.Location = new System.Drawing.Point(6, 92);
             this.dgv_lista_emps.Name = "dgv_lista_emps";
-            this.dgv_lista_emps.Size = new System.Drawing.Size(1151, 358);
+            this.dgv_lista_emps.ReadOnly = true;
+            this.dgv_lista_emps.Size = new System.Drawing.Size(1151, 328);
             this.dgv_lista_emps.TabIndex = 174;
             this.dgv_lista_emps.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_lista_emps_CellContentClick);
             this.dgv_lista_emps.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_lista_emps_CellDoubleClick);
             // 
             // txt_buscar
             // 
-            this.txt_buscar.Location = new System.Drawing.Point(534, 14);
+            this.txt_buscar.Location = new System.Drawing.Point(534, 59);
             this.txt_buscar.Name = "txt_buscar";
             this.txt_buscar.Size = new System.Drawing.Size(304, 26);
             this.txt_buscar.TabIndex = 176;
@@ -70,7 +75,7 @@
             // 
             this.lbl_busca_emp.AutoSize = true;
             this.lbl_busca_emp.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_busca_emp.Location = new System.Drawing.Point(298, 17);
+            this.lbl_busca_emp.Location = new System.Drawing.Point(298, 62);
             this.lbl_busca_emp.Name = "lbl_busca_emp";
             this.lbl_busca_emp.Size = new System.Drawing.Size(230, 20);
             this.lbl_busca_emp.TabIndex = 175;
@@ -78,6 +83,7 @@
             // 
             // gpb_lista_emps
             // 
+            this.gpb_lista_emps.Controls.Add(this.btn_actualizar);
             this.gpb_lista_emps.Controls.Add(this.txt_buscar);
             this.gpb_lista_emps.Controls.Add(this.dgv_lista_emps);
             this.gpb_lista_emps.Controls.Add(this.lbl_busca_emp);
@@ -88,6 +94,23 @@
             this.gpb_lista_emps.TabIndex = 177;
             this.gpb_lista_emps.TabStop = false;
             this.gpb_lista_emps.Text = "Empleados";
+            // 
+            // btn_actualizar
+            // 
+            this.btn_actualizar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_actualizar.BackgroundImage")));
+            this.btn_actualizar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_actualizar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_actualizar.FlatAppearance.BorderSize = 0;
+            this.btn_actualizar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btn_actualizar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
+            this.btn_actualizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_actualizar.Location = new System.Drawing.Point(1092, 17);
+            this.btn_actualizar.Name = "btn_actualizar";
+            this.btn_actualizar.Size = new System.Drawing.Size(65, 65);
+            this.btn_actualizar.TabIndex = 178;
+            this.toolTip1.SetToolTip(this.btn_actualizar, "Actualizar");
+            this.btn_actualizar.UseVisualStyleBackColor = true;
+            this.btn_actualizar.Click += new System.EventHandler(this.btn_actualizar_Click);
             // 
             // frm_Empleados_grid
             // 
@@ -117,5 +140,7 @@
         private System.Windows.Forms.TextBox txt_buscar;
         internal System.Windows.Forms.Label lbl_busca_emp;
         private System.Windows.Forms.GroupBox gpb_lista_emps;
+        public System.Windows.Forms.Button btn_actualizar;
+        private System.Windows.Forms.ToolTip toolTip1;
     }
 }

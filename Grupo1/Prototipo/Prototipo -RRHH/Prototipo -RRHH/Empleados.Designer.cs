@@ -31,6 +31,20 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Empleados));
             this.gpb_regist_emp = new System.Windows.Forms.GroupBox();
+            this.txt_empresa = new System.Windows.Forms.TextBox();
+            this.lbl_empresa = new System.Windows.Forms.Label();
+            this.lbl_estado = new System.Windows.Forms.Label();
+            this.txt_estado_emp = new System.Windows.Forms.TextBox();
+            this.txt_tipo_sueldo = new System.Windows.Forms.TextBox();
+            this.lbl_tipo_sueldo = new System.Windows.Forms.Label();
+            this.txt_dtp_fecha_egre_emp = new System.Windows.Forms.TextBox();
+            this.txt_dtp_fecha_ingr_emp = new System.Windows.Forms.TextBox();
+            this.txt_cbo_gener_emp = new System.Windows.Forms.TextBox();
+            this.txt_cbo_cargo_emp = new System.Windows.Forms.TextBox();
+            this.txt_cbo_estad_civ_emp = new System.Windows.Forms.TextBox();
+            this.txt_cbo_nacional_emp = new System.Windows.Forms.TextBox();
+            this.txt_dtp_fecha_nacim = new System.Windows.Forms.TextBox();
+            this.cbo_nacional_emp = new System.Windows.Forms.ComboBox();
             this.dgv_datos_emp = new System.Windows.Forms.DataGridView();
             this.txt_sueldo_emp = new System.Windows.Forms.TextBox();
             this.btn_examinar_pic_emp = new System.Windows.Forms.Button();
@@ -87,7 +101,6 @@
             this.toolTip9 = new System.Windows.Forms.ToolTip(this.components);
             this.toolTip10 = new System.Windows.Forms.ToolTip(this.components);
             this.toolTip11 = new System.Windows.Forms.ToolTip(this.components);
-            this.cbo_nacional_emp = new System.Windows.Forms.ComboBox();
             this.gpb_regist_emp.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_datos_emp)).BeginInit();
             this.gpb_navegador.SuspendLayout();
@@ -96,6 +109,19 @@
             // 
             // gpb_regist_emp
             // 
+            this.gpb_regist_emp.Controls.Add(this.txt_empresa);
+            this.gpb_regist_emp.Controls.Add(this.lbl_empresa);
+            this.gpb_regist_emp.Controls.Add(this.lbl_estado);
+            this.gpb_regist_emp.Controls.Add(this.txt_estado_emp);
+            this.gpb_regist_emp.Controls.Add(this.txt_tipo_sueldo);
+            this.gpb_regist_emp.Controls.Add(this.lbl_tipo_sueldo);
+            this.gpb_regist_emp.Controls.Add(this.txt_dtp_fecha_egre_emp);
+            this.gpb_regist_emp.Controls.Add(this.txt_dtp_fecha_ingr_emp);
+            this.gpb_regist_emp.Controls.Add(this.txt_cbo_gener_emp);
+            this.gpb_regist_emp.Controls.Add(this.txt_cbo_cargo_emp);
+            this.gpb_regist_emp.Controls.Add(this.txt_cbo_estad_civ_emp);
+            this.gpb_regist_emp.Controls.Add(this.txt_cbo_nacional_emp);
+            this.gpb_regist_emp.Controls.Add(this.txt_dtp_fecha_nacim);
             this.gpb_regist_emp.Controls.Add(this.cbo_nacional_emp);
             this.gpb_regist_emp.Controls.Add(this.dgv_datos_emp);
             this.gpb_regist_emp.Controls.Add(this.txt_sueldo_emp);
@@ -129,25 +155,182 @@
             this.gpb_regist_emp.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gpb_regist_emp.Location = new System.Drawing.Point(12, 160);
             this.gpb_regist_emp.Name = "gpb_regist_emp";
-            this.gpb_regist_emp.Size = new System.Drawing.Size(775, 461);
+            this.gpb_regist_emp.Size = new System.Drawing.Size(775, 511);
             this.gpb_regist_emp.TabIndex = 166;
             this.gpb_regist_emp.TabStop = false;
             this.gpb_regist_emp.Text = "Registro de empleados";
             // 
+            // txt_empresa
+            // 
+            this.txt_empresa.Location = new System.Drawing.Point(159, 269);
+            this.txt_empresa.Name = "txt_empresa";
+            this.txt_empresa.Size = new System.Drawing.Size(215, 24);
+            this.txt_empresa.TabIndex = 185;
+            this.txt_empresa.Tag = "id_empresa_pk";
+            // 
+            // lbl_empresa
+            // 
+            this.lbl_empresa.AutoSize = true;
+            this.lbl_empresa.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_empresa.Location = new System.Drawing.Point(6, 269);
+            this.lbl_empresa.Name = "lbl_empresa";
+            this.lbl_empresa.Size = new System.Drawing.Size(72, 18);
+            this.lbl_empresa.TabIndex = 184;
+            this.lbl_empresa.Tag = "tipo_sueldo";
+            this.lbl_empresa.Text = "Empresa:";
+            // 
+            // lbl_estado
+            // 
+            this.lbl_estado.AutoSize = true;
+            this.lbl_estado.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_estado.Location = new System.Drawing.Point(417, 237);
+            this.lbl_estado.Name = "lbl_estado";
+            this.lbl_estado.Size = new System.Drawing.Size(59, 18);
+            this.lbl_estado.TabIndex = 181;
+            this.lbl_estado.Text = "Estado:";
+            // 
+            // txt_estado_emp
+            // 
+            this.txt_estado_emp.Location = new System.Drawing.Point(549, 231);
+            this.txt_estado_emp.Name = "txt_estado_emp";
+            this.txt_estado_emp.Size = new System.Drawing.Size(215, 24);
+            this.txt_estado_emp.TabIndex = 180;
+            this.txt_estado_emp.Tag = "estado";
+            // 
+            // txt_tipo_sueldo
+            // 
+            this.txt_tipo_sueldo.Location = new System.Drawing.Point(159, 239);
+            this.txt_tipo_sueldo.Name = "txt_tipo_sueldo";
+            this.txt_tipo_sueldo.Size = new System.Drawing.Size(215, 24);
+            this.txt_tipo_sueldo.TabIndex = 179;
+            this.txt_tipo_sueldo.Tag = "tipo_sueldo";
+            // 
+            // lbl_tipo_sueldo
+            // 
+            this.lbl_tipo_sueldo.AutoSize = true;
+            this.lbl_tipo_sueldo.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_tipo_sueldo.Location = new System.Drawing.Point(6, 239);
+            this.lbl_tipo_sueldo.Name = "lbl_tipo_sueldo";
+            this.lbl_tipo_sueldo.Size = new System.Drawing.Size(111, 18);
+            this.lbl_tipo_sueldo.TabIndex = 178;
+            this.lbl_tipo_sueldo.Tag = "tipo_sueldo";
+            this.lbl_tipo_sueldo.Text = "Tipo de Sueldo:";
+            // 
+            // txt_dtp_fecha_egre_emp
+            // 
+            this.txt_dtp_fecha_egre_emp.Location = new System.Drawing.Point(751, 70);
+            this.txt_dtp_fecha_egre_emp.Name = "txt_dtp_fecha_egre_emp";
+            this.txt_dtp_fecha_egre_emp.Size = new System.Drawing.Size(13, 24);
+            this.txt_dtp_fecha_egre_emp.TabIndex = 177;
+            this.txt_dtp_fecha_egre_emp.Tag = "fecha_egreso";
+            this.txt_dtp_fecha_egre_emp.Visible = false;
+            // 
+            // txt_dtp_fecha_ingr_emp
+            // 
+            this.txt_dtp_fecha_ingr_emp.Location = new System.Drawing.Point(751, 43);
+            this.txt_dtp_fecha_ingr_emp.Name = "txt_dtp_fecha_ingr_emp";
+            this.txt_dtp_fecha_ingr_emp.Size = new System.Drawing.Size(13, 24);
+            this.txt_dtp_fecha_ingr_emp.TabIndex = 176;
+            this.txt_dtp_fecha_ingr_emp.Tag = "fecha_ingreso";
+            this.txt_dtp_fecha_ingr_emp.Visible = false;
+            // 
+            // txt_cbo_gener_emp
+            // 
+            this.txt_cbo_gener_emp.Location = new System.Drawing.Point(515, 201);
+            this.txt_cbo_gener_emp.Name = "txt_cbo_gener_emp";
+            this.txt_cbo_gener_emp.Size = new System.Drawing.Size(28, 24);
+            this.txt_cbo_gener_emp.TabIndex = 175;
+            this.txt_cbo_gener_emp.Tag = "genero";
+            this.txt_cbo_gener_emp.Visible = false;
+            // 
+            // txt_cbo_cargo_emp
+            // 
+            this.txt_cbo_cargo_emp.Location = new System.Drawing.Point(515, 149);
+            this.txt_cbo_cargo_emp.Name = "txt_cbo_cargo_emp";
+            this.txt_cbo_cargo_emp.Size = new System.Drawing.Size(28, 24);
+            this.txt_cbo_cargo_emp.TabIndex = 174;
+            this.txt_cbo_cargo_emp.Tag = "cargo";
+            this.txt_cbo_cargo_emp.Visible = false;
+            // 
+            // txt_cbo_estad_civ_emp
+            // 
+            this.txt_cbo_estad_civ_emp.Location = new System.Drawing.Point(358, 154);
+            this.txt_cbo_estad_civ_emp.Name = "txt_cbo_estad_civ_emp";
+            this.txt_cbo_estad_civ_emp.Size = new System.Drawing.Size(28, 24);
+            this.txt_cbo_estad_civ_emp.TabIndex = 173;
+            this.txt_cbo_estad_civ_emp.Tag = "estado_civil";
+            this.txt_cbo_estad_civ_emp.Visible = false;
+            // 
+            // txt_cbo_nacional_emp
+            // 
+            this.txt_cbo_nacional_emp.Location = new System.Drawing.Point(358, 129);
+            this.txt_cbo_nacional_emp.Name = "txt_cbo_nacional_emp";
+            this.txt_cbo_nacional_emp.Size = new System.Drawing.Size(28, 24);
+            this.txt_cbo_nacional_emp.TabIndex = 172;
+            this.txt_cbo_nacional_emp.Tag = "nacionalidad";
+            this.txt_cbo_nacional_emp.Visible = false;
+            // 
+            // txt_dtp_fecha_nacim
+            // 
+            this.txt_dtp_fecha_nacim.Location = new System.Drawing.Point(358, 46);
+            this.txt_dtp_fecha_nacim.Name = "txt_dtp_fecha_nacim";
+            this.txt_dtp_fecha_nacim.Size = new System.Drawing.Size(28, 24);
+            this.txt_dtp_fecha_nacim.TabIndex = 171;
+            this.txt_dtp_fecha_nacim.Tag = "fecha_nacimiento";
+            this.txt_dtp_fecha_nacim.Visible = false;
+            // 
+            // cbo_nacional_emp
+            // 
+            this.cbo_nacional_emp.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbo_nacional_emp.FormattingEnabled = true;
+            this.cbo_nacional_emp.Items.AddRange(new object[] {
+            "Argentina ",
+            "Bolivia ",
+            "Brasil ",
+            "Chile ",
+            "Colombia ",
+            "Costa Rica ",
+            "Cuba ",
+            "Ecuador ",
+            "El Salvador ",
+            "Guayana Francesa",
+            "Granada ",
+            "Guatemala ",
+            "Guayana",
+            "Haití",
+            "Honduras ",
+            "Jamaica ",
+            "México ",
+            "Nicaragua ",
+            "Paraguay ",
+            "Panamá",
+            "Perú",
+            "Puerto Rico",
+            "República Dominicana",
+            "Surinam",
+            "Uruguay ",
+            "Venezuela"});
+            this.cbo_nacional_emp.Location = new System.Drawing.Point(159, 125);
+            this.cbo_nacional_emp.Name = "cbo_nacional_emp";
+            this.cbo_nacional_emp.Size = new System.Drawing.Size(193, 26);
+            this.cbo_nacional_emp.TabIndex = 170;
+            this.cbo_nacional_emp.Tag = "";
+            // 
             // dgv_datos_emp
             // 
             this.dgv_datos_emp.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgv_datos_emp.Location = new System.Drawing.Point(6, 262);
+            this.dgv_datos_emp.Location = new System.Drawing.Point(5, 318);
             this.dgv_datos_emp.Name = "dgv_datos_emp";
-            this.dgv_datos_emp.Size = new System.Drawing.Size(759, 194);
+            this.dgv_datos_emp.Size = new System.Drawing.Size(759, 187);
             this.dgv_datos_emp.TabIndex = 169;
             // 
             // txt_sueldo_emp
             // 
-            this.txt_sueldo_emp.Location = new System.Drawing.Point(549, 226);
+            this.txt_sueldo_emp.Location = new System.Drawing.Point(159, 214);
             this.txt_sueldo_emp.Name = "txt_sueldo_emp";
             this.txt_sueldo_emp.Size = new System.Drawing.Size(215, 24);
             this.txt_sueldo_emp.TabIndex = 92;
+            this.txt_sueldo_emp.Tag = "sueldo";
             // 
             // btn_examinar_pic_emp
             // 
@@ -165,7 +348,7 @@
             // 
             this.lbl_sueldo_emp.AutoSize = true;
             this.lbl_sueldo_emp.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_sueldo_emp.Location = new System.Drawing.Point(417, 226);
+            this.lbl_sueldo_emp.Location = new System.Drawing.Point(6, 217);
             this.lbl_sueldo_emp.Name = "lbl_sueldo_emp";
             this.lbl_sueldo_emp.Size = new System.Drawing.Size(58, 18);
             this.lbl_sueldo_emp.TabIndex = 91;
@@ -177,6 +360,7 @@
             this.txt_telef_emp.Name = "txt_telef_emp";
             this.txt_telef_emp.Size = new System.Drawing.Size(215, 24);
             this.txt_telef_emp.TabIndex = 90;
+            this.txt_telef_emp.Tag = "telefono";
             // 
             // lbl_cargo_emp
             // 
@@ -202,6 +386,7 @@
             this.cbo_cargo_emp.Name = "cbo_cargo_emp";
             this.cbo_cargo_emp.Size = new System.Drawing.Size(200, 26);
             this.cbo_cargo_emp.TabIndex = 88;
+            this.cbo_cargo_emp.Tag = "";
             // 
             // lbl_gener_emp
             // 
@@ -224,12 +409,13 @@
             this.cbo_gener_emp.Name = "cbo_gener_emp";
             this.cbo_gener_emp.Size = new System.Drawing.Size(193, 26);
             this.cbo_gener_emp.TabIndex = 86;
+            this.cbo_gener_emp.Tag = "";
             // 
             // lbl_estad_civ_emp
             // 
             this.lbl_estad_civ_emp.AutoSize = true;
             this.lbl_estad_civ_emp.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_estad_civ_emp.Location = new System.Drawing.Point(6, 174);
+            this.lbl_estad_civ_emp.Location = new System.Drawing.Point(6, 151);
             this.lbl_estad_civ_emp.Name = "lbl_estad_civ_emp";
             this.lbl_estad_civ_emp.Size = new System.Drawing.Size(95, 18);
             this.lbl_estad_civ_emp.TabIndex = 85;
@@ -244,16 +430,17 @@
             "Casado/a",
             "Viudo/a",
             "Divorciado/a"});
-            this.cbo_estad_civ_emp.Location = new System.Drawing.Point(159, 175);
+            this.cbo_estad_civ_emp.Location = new System.Drawing.Point(159, 152);
             this.cbo_estad_civ_emp.Name = "cbo_estad_civ_emp";
             this.cbo_estad_civ_emp.Size = new System.Drawing.Size(193, 26);
             this.cbo_estad_civ_emp.TabIndex = 84;
+            this.cbo_estad_civ_emp.Tag = "";
             // 
             // lbl_naciold_emp
             // 
             this.lbl_naciold_emp.AutoSize = true;
             this.lbl_naciold_emp.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_naciold_emp.Location = new System.Drawing.Point(6, 148);
+            this.lbl_naciold_emp.Location = new System.Drawing.Point(6, 125);
             this.lbl_naciold_emp.Name = "lbl_naciold_emp";
             this.lbl_naciold_emp.Size = new System.Drawing.Size(97, 18);
             this.lbl_naciold_emp.TabIndex = 83;
@@ -261,16 +448,17 @@
             // 
             // txt_edad_emp
             // 
-            this.txt_edad_emp.Location = new System.Drawing.Point(159, 96);
+            this.txt_edad_emp.Location = new System.Drawing.Point(159, 73);
             this.txt_edad_emp.Name = "txt_edad_emp";
             this.txt_edad_emp.Size = new System.Drawing.Size(79, 24);
             this.txt_edad_emp.TabIndex = 81;
+            this.txt_edad_emp.Tag = "edad";
             // 
             // lbl_edad_emp
             // 
             this.lbl_edad_emp.AutoSize = true;
             this.lbl_edad_emp.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_edad_emp.Location = new System.Drawing.Point(6, 95);
+            this.lbl_edad_emp.Location = new System.Drawing.Point(6, 72);
             this.lbl_edad_emp.Name = "lbl_edad_emp";
             this.lbl_edad_emp.Size = new System.Drawing.Size(46, 18);
             this.lbl_edad_emp.TabIndex = 80;
@@ -280,7 +468,7 @@
             // 
             this.lbl_dpi_emp.AutoSize = true;
             this.lbl_dpi_emp.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_dpi_emp.Location = new System.Drawing.Point(6, 122);
+            this.lbl_dpi_emp.Location = new System.Drawing.Point(6, 99);
             this.lbl_dpi_emp.Name = "lbl_dpi_emp";
             this.lbl_dpi_emp.Size = new System.Drawing.Size(36, 18);
             this.lbl_dpi_emp.TabIndex = 78;
@@ -288,16 +476,17 @@
             // 
             // txt_carne_igss_emp
             // 
-            this.txt_carne_igss_emp.Location = new System.Drawing.Point(159, 202);
+            this.txt_carne_igss_emp.Location = new System.Drawing.Point(159, 184);
             this.txt_carne_igss_emp.Name = "txt_carne_igss_emp";
             this.txt_carne_igss_emp.Size = new System.Drawing.Size(215, 24);
             this.txt_carne_igss_emp.TabIndex = 75;
+            this.txt_carne_igss_emp.Tag = "no_afiliacion_igss";
             // 
             // lbl_carne_igss_emp
             // 
             this.lbl_carne_igss_emp.AutoSize = true;
             this.lbl_carne_igss_emp.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_carne_igss_emp.Location = new System.Drawing.Point(6, 201);
+            this.lbl_carne_igss_emp.Location = new System.Drawing.Point(6, 178);
             this.lbl_carne_igss_emp.Name = "lbl_carne_igss_emp";
             this.lbl_carne_igss_emp.Size = new System.Drawing.Size(103, 18);
             this.lbl_carne_igss_emp.TabIndex = 74;
@@ -320,6 +509,7 @@
             this.dtp_fecha_egre_emp.Name = "dtp_fecha_egre_emp";
             this.dtp_fecha_egre_emp.Size = new System.Drawing.Size(200, 20);
             this.dtp_fecha_egre_emp.TabIndex = 70;
+            this.dtp_fecha_egre_emp.Tag = "";
             // 
             // lbl_fecha_ingr_emp
             // 
@@ -338,12 +528,13 @@
             this.dtp_fecha_ingr_emp.Name = "dtp_fecha_ingr_emp";
             this.dtp_fecha_ingr_emp.Size = new System.Drawing.Size(200, 20);
             this.dtp_fecha_ingr_emp.TabIndex = 68;
+            this.dtp_fecha_ingr_emp.Tag = "";
             // 
             // lbl_fech_nacim_emp
             // 
             this.lbl_fech_nacim_emp.AutoSize = true;
             this.lbl_fech_nacim_emp.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_fech_nacim_emp.Location = new System.Drawing.Point(6, 69);
+            this.lbl_fech_nacim_emp.Location = new System.Drawing.Point(6, 46);
             this.lbl_fech_nacim_emp.Name = "lbl_fech_nacim_emp";
             this.lbl_fech_nacim_emp.Size = new System.Drawing.Size(149, 18);
             this.lbl_fech_nacim_emp.TabIndex = 67;
@@ -352,10 +543,11 @@
             // dtp_fecha_nacim
             // 
             this.dtp_fecha_nacim.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dtp_fecha_nacim.Location = new System.Drawing.Point(159, 70);
+            this.dtp_fecha_nacim.Location = new System.Drawing.Point(159, 47);
             this.dtp_fecha_nacim.Name = "dtp_fecha_nacim";
             this.dtp_fecha_nacim.Size = new System.Drawing.Size(193, 20);
             this.dtp_fecha_nacim.TabIndex = 66;
+            this.dtp_fecha_nacim.Tag = "";
             // 
             // txt_direc_emp
             // 
@@ -364,6 +556,7 @@
             this.txt_direc_emp.Name = "txt_direc_emp";
             this.txt_direc_emp.Size = new System.Drawing.Size(216, 44);
             this.txt_direc_emp.TabIndex = 65;
+            this.txt_direc_emp.Tag = "direccion";
             // 
             // lbl_direc_emp
             // 
@@ -377,17 +570,19 @@
             // 
             // txt_dpi_emp
             // 
-            this.txt_dpi_emp.Location = new System.Drawing.Point(159, 122);
+            this.txt_dpi_emp.Location = new System.Drawing.Point(159, 99);
             this.txt_dpi_emp.Name = "txt_dpi_emp";
             this.txt_dpi_emp.Size = new System.Drawing.Size(215, 24);
             this.txt_dpi_emp.TabIndex = 63;
+            this.txt_dpi_emp.Tag = "dpi";
             // 
             // txt_nomb_emp
             // 
-            this.txt_nomb_emp.Location = new System.Drawing.Point(159, 44);
+            this.txt_nomb_emp.Location = new System.Drawing.Point(159, 21);
             this.txt_nomb_emp.Name = "txt_nomb_emp";
             this.txt_nomb_emp.Size = new System.Drawing.Size(215, 24);
             this.txt_nomb_emp.TabIndex = 50;
+            this.txt_nomb_emp.Tag = "nombre";
             // 
             // lbl_telef_emp
             // 
@@ -403,7 +598,7 @@
             // 
             this.lbl_nom_emp.AutoSize = true;
             this.lbl_nom_emp.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_nom_emp.Location = new System.Drawing.Point(6, 43);
+            this.lbl_nom_emp.Location = new System.Drawing.Point(6, 20);
             this.lbl_nom_emp.Name = "lbl_nom_emp";
             this.lbl_nom_emp.Size = new System.Drawing.Size(66, 18);
             this.lbl_nom_emp.TabIndex = 47;
@@ -481,6 +676,7 @@
             this.btn_ultimo.TabIndex = 10;
             this.toolTip9.SetToolTip(this.btn_ultimo, "Ultimo");
             this.btn_ultimo.UseVisualStyleBackColor = true;
+            this.btn_ultimo.Click += new System.EventHandler(this.btn_ultimo_Click);
             // 
             // btn_guardar
             // 
@@ -497,6 +693,7 @@
             this.btn_guardar.TabIndex = 1;
             this.toolTip10.SetToolTip(this.btn_guardar, "Guardar");
             this.btn_guardar.UseVisualStyleBackColor = true;
+            this.btn_guardar.Click += new System.EventHandler(this.btn_guardar_Click);
             // 
             // btn_primero
             // 
@@ -513,6 +710,7 @@
             this.btn_primero.TabIndex = 9;
             this.toolTip8.SetToolTip(this.btn_primero, "Primero");
             this.btn_primero.UseVisualStyleBackColor = true;
+            this.btn_primero.Click += new System.EventHandler(this.btn_primero_Click);
             // 
             // btn_editar
             // 
@@ -529,6 +727,7 @@
             this.btn_editar.TabIndex = 2;
             this.toolTip11.SetToolTip(this.btn_editar, "Modificar");
             this.btn_editar.UseVisualStyleBackColor = true;
+            this.btn_editar.Click += new System.EventHandler(this.btn_editar_Click);
             // 
             // btn_siguiente
             // 
@@ -545,6 +744,7 @@
             this.btn_siguiente.TabIndex = 8;
             this.toolTip7.SetToolTip(this.btn_siguiente, "Siguiente");
             this.btn_siguiente.UseVisualStyleBackColor = true;
+            this.btn_siguiente.Click += new System.EventHandler(this.btn_siguiente_Click);
             // 
             // btn_eliminar
             // 
@@ -561,6 +761,7 @@
             this.btn_eliminar.TabIndex = 3;
             this.toolTip2.SetToolTip(this.btn_eliminar, "Eliminar");
             this.btn_eliminar.UseVisualStyleBackColor = true;
+            this.btn_eliminar.Click += new System.EventHandler(this.btn_eliminar_Click);
             // 
             // btn_anterior
             // 
@@ -577,6 +778,7 @@
             this.btn_anterior.TabIndex = 7;
             this.toolTip6.SetToolTip(this.btn_anterior, "Anterior");
             this.btn_anterior.UseVisualStyleBackColor = true;
+            this.btn_anterior.Click += new System.EventHandler(this.btn_anterior_Click);
             // 
             // btn_buscar
             // 
@@ -650,26 +852,12 @@
             this.lbl_form_emp.TabIndex = 169;
             this.lbl_form_emp.Text = "Formulario de Empleados";
             // 
-            // cbo_nacional_emp
-            // 
-            this.cbo_nacional_emp.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbo_nacional_emp.FormattingEnabled = true;
-            this.cbo_nacional_emp.Items.AddRange(new object[] {
-            "Soltero/a",
-            "Casado/a",
-            "Viudo/a",
-            "Divorciado/a"});
-            this.cbo_nacional_emp.Location = new System.Drawing.Point(159, 148);
-            this.cbo_nacional_emp.Name = "cbo_nacional_emp";
-            this.cbo_nacional_emp.Size = new System.Drawing.Size(193, 26);
-            this.cbo_nacional_emp.TabIndex = 170;
-            // 
             // Empleados
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
-            this.ClientSize = new System.Drawing.Size(799, 627);
+            this.ClientSize = new System.Drawing.Size(799, 683);
             this.Controls.Add(this.lbl_form_emp);
             this.Controls.Add(this.pic_empleado);
             this.Controls.Add(this.gpb_navegador);
@@ -751,6 +939,19 @@
         public System.Windows.Forms.Label lbl_edad_emp;
         public System.Windows.Forms.PictureBox pic_empleado;
         public System.Windows.Forms.Button btn_examinar_pic_emp;
+        private System.Windows.Forms.TextBox txt_cbo_gener_emp;
+        private System.Windows.Forms.TextBox txt_cbo_cargo_emp;
+        private System.Windows.Forms.TextBox txt_cbo_estad_civ_emp;
+        private System.Windows.Forms.TextBox txt_cbo_nacional_emp;
+        private System.Windows.Forms.TextBox txt_dtp_fecha_nacim;
+        private System.Windows.Forms.TextBox txt_dtp_fecha_egre_emp;
+        private System.Windows.Forms.TextBox txt_dtp_fecha_ingr_emp;
+        public System.Windows.Forms.TextBox txt_tipo_sueldo;
+        public System.Windows.Forms.Label lbl_tipo_sueldo;
+        public System.Windows.Forms.Label lbl_estado;
+        private System.Windows.Forms.TextBox txt_estado_emp;
+        public System.Windows.Forms.TextBox txt_empresa;
+        public System.Windows.Forms.Label lbl_empresa;
         public System.Windows.Forms.ComboBox cbo_nacional_emp;
     }
 }

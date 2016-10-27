@@ -17,12 +17,12 @@ namespace Prototipo__RRHH
         private const string indiceCHM = "support.html";
         private const string acercasistema = "acercadelsistema.html";
 
-        frm_Prestamos frm_prest;
+        frm_Deducciones frm_prest;
         Empleados frm_empleados;
         Comisiones_Vendedor comi_ve;
         Planilla_IGSS plan_igss;
         frm_Nominas_Empleados frm_nomin;
-        frm_prestaciones_lab frm_prest_lab;
+        frm_Devengados frm_prest_lab;
         frm_Empleados_grid frm_emp_dgv;
 
 
@@ -126,7 +126,7 @@ namespace Prototipo__RRHH
         {
             if (frm_prest == null)
             {
-                frm_prest = new frm_Prestamos();
+                frm_prest = new frm_Deducciones();
                 frm_prest.MdiParent = this;
                 frm_prest.FormClosed += new FormClosedEventHandler(frm_prest_FormClosed);
                 frm_prest.Show();
@@ -141,7 +141,7 @@ namespace Prototipo__RRHH
         {
             if (frm_prest_lab == null)
             {
-                frm_prest_lab = new frm_prestaciones_lab();
+                frm_prest_lab = new frm_Devengados();
                 frm_prest_lab.MdiParent = this;
                 frm_prest_lab.FormClosed += new FormClosedEventHandler(frm_prest_lab_FormClosed);
                 frm_prest_lab.Show();
