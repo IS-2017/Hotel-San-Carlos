@@ -43,7 +43,6 @@
             this.lbl_estad_civ_emp = new System.Windows.Forms.Label();
             this.cbo_estad_civ_emp = new System.Windows.Forms.ComboBox();
             this.lbl_naciold_emp = new System.Windows.Forms.Label();
-            this.cbo_nacional_emp = new System.Windows.Forms.ComboBox();
             this.txt_edad_emp = new System.Windows.Forms.TextBox();
             this.lbl_edad_emp = new System.Windows.Forms.Label();
             this.lbl_dpi_emp = new System.Windows.Forms.Label();
@@ -63,7 +62,6 @@
             this.lbl_nom_emp = new System.Windows.Forms.Label();
             this.txt_cod_emp = new System.Windows.Forms.TextBox();
             this.lbl_cod_emp = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
             this.gpb_navegador = new System.Windows.Forms.GroupBox();
             this.btn_nuevo = new System.Windows.Forms.Button();
             this.btn_ultimo = new System.Windows.Forms.Button();
@@ -89,6 +87,7 @@
             this.toolTip9 = new System.Windows.Forms.ToolTip(this.components);
             this.toolTip10 = new System.Windows.Forms.ToolTip(this.components);
             this.toolTip11 = new System.Windows.Forms.ToolTip(this.components);
+            this.cbo_nacional_emp = new System.Windows.Forms.ComboBox();
             this.gpb_regist_emp.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_datos_emp)).BeginInit();
             this.gpb_navegador.SuspendLayout();
@@ -97,6 +96,7 @@
             // 
             // gpb_regist_emp
             // 
+            this.gpb_regist_emp.Controls.Add(this.cbo_nacional_emp);
             this.gpb_regist_emp.Controls.Add(this.dgv_datos_emp);
             this.gpb_regist_emp.Controls.Add(this.txt_sueldo_emp);
             this.gpb_regist_emp.Controls.Add(this.btn_examinar_pic_emp);
@@ -109,7 +109,6 @@
             this.gpb_regist_emp.Controls.Add(this.lbl_estad_civ_emp);
             this.gpb_regist_emp.Controls.Add(this.cbo_estad_civ_emp);
             this.gpb_regist_emp.Controls.Add(this.lbl_naciold_emp);
-            this.gpb_regist_emp.Controls.Add(this.cbo_nacional_emp);
             this.gpb_regist_emp.Controls.Add(this.txt_edad_emp);
             this.gpb_regist_emp.Controls.Add(this.lbl_edad_emp);
             this.gpb_regist_emp.Controls.Add(this.lbl_dpi_emp);
@@ -259,42 +258,6 @@
             this.lbl_naciold_emp.Size = new System.Drawing.Size(97, 18);
             this.lbl_naciold_emp.TabIndex = 83;
             this.lbl_naciold_emp.Text = "Nacionalidad:";
-            // 
-            // cbo_nacional_emp
-            // 
-            this.cbo_nacional_emp.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbo_nacional_emp.FormattingEnabled = true;
-            this.cbo_nacional_emp.Items.AddRange(new object[] {
-            "Argentina ",
-            "Bolivia ",
-            "Brasil ",
-            "Chile ",
-            "Colombia ",
-            "Costa Rica ",
-            "Cuba ",
-            "Ecuador ",
-            "El Salvador ",
-            "Guayana Francesa",
-            "Granada ",
-            "Guatemala ",
-            "Guayana",
-            "Haití",
-            "Honduras ",
-            "Jamaica ",
-            "México ",
-            "Nicaragua ",
-            "Paraguay ",
-            "Panamá",
-            "Perú",
-            "Puerto Rico",
-            "República Dominicana",
-            "Surinam",
-            "Uruguay ",
-            "Venezuela"});
-            this.cbo_nacional_emp.Location = new System.Drawing.Point(159, 148);
-            this.cbo_nacional_emp.Name = "cbo_nacional_emp";
-            this.cbo_nacional_emp.Size = new System.Drawing.Size(193, 26);
-            this.cbo_nacional_emp.TabIndex = 82;
             // 
             // txt_edad_emp
             // 
@@ -463,15 +426,6 @@
             this.lbl_cod_emp.Size = new System.Drawing.Size(131, 18);
             this.lbl_cod_emp.TabIndex = 46;
             this.lbl_cod_emp.Text = "Código Empleado:";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(197, 20);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(0, 29);
-            this.label1.TabIndex = 165;
             // 
             // gpb_navegador
             // 
@@ -696,6 +650,20 @@
             this.lbl_form_emp.TabIndex = 169;
             this.lbl_form_emp.Text = "Formulario de Empleados";
             // 
+            // cbo_nacional_emp
+            // 
+            this.cbo_nacional_emp.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbo_nacional_emp.FormattingEnabled = true;
+            this.cbo_nacional_emp.Items.AddRange(new object[] {
+            "Soltero/a",
+            "Casado/a",
+            "Viudo/a",
+            "Divorciado/a"});
+            this.cbo_nacional_emp.Location = new System.Drawing.Point(159, 148);
+            this.cbo_nacional_emp.Name = "cbo_nacional_emp";
+            this.cbo_nacional_emp.Size = new System.Drawing.Size(193, 26);
+            this.cbo_nacional_emp.TabIndex = 170;
+            // 
             // Empleados
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -706,7 +674,6 @@
             this.Controls.Add(this.pic_empleado);
             this.Controls.Add(this.gpb_navegador);
             this.Controls.Add(this.gpb_regist_emp);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.lbl_cod_emp);
             this.Controls.Add(this.txt_cod_emp);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
@@ -727,14 +694,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.GroupBox gpb_regist_emp;
-        private System.Windows.Forms.TextBox txt_nomb_emp;
-        private System.Windows.Forms.TextBox txt_cod_emp;
-        private System.Windows.Forms.Label lbl_telef_emp;
-        private System.Windows.Forms.Label lbl_nom_emp;
-        private System.Windows.Forms.Label lbl_cod_emp;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.GroupBox gpb_navegador;
         private System.Windows.Forms.Button btn_nuevo;
         private System.Windows.Forms.Button btn_ultimo;
@@ -745,35 +704,7 @@
         private System.Windows.Forms.Button btn_eliminar;
         private System.Windows.Forms.Button btn_anterior;
         private System.Windows.Forms.Button btn_buscar;
-        private System.Windows.Forms.Button btn_actualizar;
         private System.Windows.Forms.Button btn_cancelar;
-        private System.Windows.Forms.TextBox txt_direc_emp;
-        private System.Windows.Forms.Label lbl_direc_emp;
-        private System.Windows.Forms.TextBox txt_dpi_emp;
-        private System.Windows.Forms.TextBox txt_carne_igss_emp;
-        private System.Windows.Forms.Label lbl_carne_igss_emp;
-        private System.Windows.Forms.Label lbl_fecha_egre_emp;
-        private System.Windows.Forms.DateTimePicker dtp_fecha_egre_emp;
-        private System.Windows.Forms.Label lbl_fecha_ingr_emp;
-        private System.Windows.Forms.DateTimePicker dtp_fecha_ingr_emp;
-        private System.Windows.Forms.Label lbl_fech_nacim_emp;
-        private System.Windows.Forms.DateTimePicker dtp_fecha_nacim;
-        private System.Windows.Forms.Label lbl_dpi_emp;
-        private System.Windows.Forms.TextBox txt_sueldo_emp;
-        private System.Windows.Forms.Label lbl_sueldo_emp;
-        private System.Windows.Forms.TextBox txt_telef_emp;
-        private System.Windows.Forms.Label lbl_cargo_emp;
-        private System.Windows.Forms.ComboBox cbo_cargo_emp;
-        private System.Windows.Forms.Label lbl_gener_emp;
-        private System.Windows.Forms.ComboBox cbo_gener_emp;
-        private System.Windows.Forms.Label lbl_estad_civ_emp;
-        private System.Windows.Forms.ComboBox cbo_estad_civ_emp;
-        private System.Windows.Forms.Label lbl_naciold_emp;
-        private System.Windows.Forms.ComboBox cbo_nacional_emp;
-        private System.Windows.Forms.TextBox txt_edad_emp;
-        private System.Windows.Forms.Label lbl_edad_emp;
-        private System.Windows.Forms.PictureBox pic_empleado;
-        private System.Windows.Forms.Button btn_examinar_pic_emp;
         private System.Windows.Forms.Label lbl_form_emp;
         private System.Windows.Forms.ToolTip toolTip1;
         private System.Windows.Forms.ToolTip toolTip2;
@@ -787,5 +718,39 @@
         private System.Windows.Forms.ToolTip toolTip10;
         private System.Windows.Forms.ToolTip toolTip11;
         private System.Windows.Forms.DataGridView dgv_datos_emp;
+        public System.Windows.Forms.Button btn_actualizar;
+        public System.Windows.Forms.GroupBox gpb_regist_emp;
+        public System.Windows.Forms.TextBox txt_nomb_emp;
+        public System.Windows.Forms.TextBox txt_cod_emp;
+        public System.Windows.Forms.Label lbl_telef_emp;
+        public System.Windows.Forms.Label lbl_nom_emp;
+        public System.Windows.Forms.Label lbl_cod_emp;
+        public System.Windows.Forms.TextBox txt_direc_emp;
+        public System.Windows.Forms.Label lbl_direc_emp;
+        public System.Windows.Forms.TextBox txt_dpi_emp;
+        public System.Windows.Forms.TextBox txt_carne_igss_emp;
+        public System.Windows.Forms.Label lbl_carne_igss_emp;
+        public System.Windows.Forms.Label lbl_fecha_egre_emp;
+        public System.Windows.Forms.DateTimePicker dtp_fecha_egre_emp;
+        public System.Windows.Forms.Label lbl_fecha_ingr_emp;
+        public System.Windows.Forms.DateTimePicker dtp_fecha_ingr_emp;
+        public System.Windows.Forms.Label lbl_fech_nacim_emp;
+        public System.Windows.Forms.DateTimePicker dtp_fecha_nacim;
+        public System.Windows.Forms.Label lbl_dpi_emp;
+        public System.Windows.Forms.TextBox txt_sueldo_emp;
+        public System.Windows.Forms.Label lbl_sueldo_emp;
+        public System.Windows.Forms.TextBox txt_telef_emp;
+        public System.Windows.Forms.Label lbl_cargo_emp;
+        public System.Windows.Forms.ComboBox cbo_cargo_emp;
+        public System.Windows.Forms.Label lbl_gener_emp;
+        public System.Windows.Forms.ComboBox cbo_gener_emp;
+        public System.Windows.Forms.Label lbl_estad_civ_emp;
+        public System.Windows.Forms.ComboBox cbo_estad_civ_emp;
+        public System.Windows.Forms.Label lbl_naciold_emp;
+        public System.Windows.Forms.TextBox txt_edad_emp;
+        public System.Windows.Forms.Label lbl_edad_emp;
+        public System.Windows.Forms.PictureBox pic_empleado;
+        public System.Windows.Forms.Button btn_examinar_pic_emp;
+        public System.Windows.Forms.ComboBox cbo_nacional_emp;
     }
 }

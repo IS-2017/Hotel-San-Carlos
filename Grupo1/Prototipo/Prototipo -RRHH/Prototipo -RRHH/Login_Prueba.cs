@@ -20,6 +20,10 @@ namespace Prototipo__RRHH
             InitializeComponent();
         }
 
+        private const string ayudaCHM = "Ayuda-Modulo-RRHH.chm";
+        private const string inicioSesion = "gettingstarted.html";
+        
+
         private void Btn_Inicio_secion_Click(object sender, EventArgs e)
         {
             if(txt_user.Text == "Prueba")
@@ -44,6 +48,11 @@ namespace Prototipo__RRHH
 
             
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Help.ShowHelp(this, ayudaCHM, HelpNavigator.Topic, inicioSesion);
         }
     }
 }

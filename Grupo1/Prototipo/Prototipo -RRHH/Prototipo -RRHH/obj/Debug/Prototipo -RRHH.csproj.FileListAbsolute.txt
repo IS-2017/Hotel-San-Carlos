@@ -89,3 +89,7 @@ D:\Universidad\cv\Prototipo -RRHH\Prototipo -RRHH\obj\Debug\Prototipo__RRHH.Prop
 D:\Universidad\cv\Prototipo -RRHH\Prototipo -RRHH\obj\Debug\Prototipo -RRHH.csproj.GenerateResource.Cache
 C:\Users\javie\Documents\GitHub\Hotel-San-Carlos\Grupo1\Prototipo\Prototipo -RRHH\Prototipo -RRHH\obj\Debug\Prototipo__RRHH.frm_prestaciones_lab.resources
 C:\Users\javie\Documents\GitHub\Hotel-San-Carlos\Grupo1\Prototipo\Prototipo -RRHH\Prototipo -RRHH\obj\Debug\Prototipo__RRHH.frm_Nominas_Empleados.resources
+C:\Users\javie\Documents\GitHub\Hotel-San-Carlos\Grupo1\Prototipo\Prototipo -RRHH\Prototipo -RRHH\bin\Debug\MySql.Data.dll
+C:\Users\javie\Documents\GitHub\Hotel-San-Carlos\Grupo1\Prototipo\Prototipo -RRHH\Prototipo -RRHH\bin\Debug\FuncionesNavegador.pdb
+C:\Users\javie\Documents\GitHub\Hotel-San-Carlos\Grupo1\Prototipo\Prototipo -RRHH\Prototipo -RRHH\bin\Debug\MySql.Data.xml
+C:\Users\javie\Documents\GitHub\Hotel-San-Carlos\Grupo1\Prototipo\Prototipo -RRHH\Prototipo -RRHH\obj\Debug\Prototipo__RRHH.frm_Empleados_grid.resources

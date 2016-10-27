@@ -33,13 +33,16 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="dllconsultas, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\dllconsultas.dll</HintPath>
+    <Reference Include="dllconsultas">
+      <HintPath>..\..\..\..\..\Documents\GitHub\Hotel-San-Carlos\Grupo2\dllconsultas\dllconsultas\bin\Debug\dllconsultas.dll</HintPath>
     </Reference>
     <Reference Include="FuncionesNavegador, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>bin\Debug\FuncionesNavegador.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=6.9.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\MySQL\MySQL Connector Net 6.9.9\Assemblies\v4.0\MySql.Data.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -60,11 +63,18 @@
     <Compile Include="Comisiones_Vendedor.designer.cs">
       <DependentUpon>Comisiones_Vendedor.cs</DependentUpon>
     </Compile>
+    <Compile Include="Conexionmysql.cs" />
     <Compile Include="Empleados.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Empleados.Designer.cs">
       <DependentUpon>Empleados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Empleados_grid.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Empleados_grid.Designer.cs">
+      <DependentUpon>frm_Empleados_grid.cs</DependentUpon>
     </Compile>
     <Compile Include="frm_Nominas.cs">
       <SubType>Form</SubType>
@@ -112,6 +122,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Empleados.resx">
       <DependentUpon>Empleados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Empleados_grid.resx">
+      <DependentUpon>frm_Empleados_grid.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frm_Nominas.resx">
       <DependentUpon>frm_Nominas.cs</DependentUpon>

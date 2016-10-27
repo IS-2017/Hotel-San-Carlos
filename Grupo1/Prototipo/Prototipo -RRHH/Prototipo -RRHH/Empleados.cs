@@ -58,7 +58,6 @@ namespace Prototipo__RRHH
             {
                 Editar = false;
                 fn.ActivarControles(gpb_regist_emp);
-                fn.LimpiarComponentes(gpb_regist_emp);
             }
             catch (Exception ex)
             {
