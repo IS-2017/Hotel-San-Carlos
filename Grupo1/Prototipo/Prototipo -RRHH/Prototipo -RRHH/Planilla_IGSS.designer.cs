@@ -32,9 +32,10 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Planilla_IGSS));
             this.gpb_planilla_igss = new System.Windows.Forms.GroupBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.btn_generar = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.txt_nom_emp = new System.Windows.Forms.TextBox();
+            this.txt_igss = new System.Windows.Forms.TextBox();
             this.lbl_nombre_emp = new System.Windows.Forms.Label();
             this.cbo_empres = new System.Windows.Forms.ComboBox();
             this.lbl_empres = new System.Windows.Forms.Label();
@@ -62,6 +63,11 @@
             this.toolTip9 = new System.Windows.Forms.ToolTip(this.components);
             this.toolTip10 = new System.Windows.Forms.ToolTip(this.components);
             this.toolTip11 = new System.Windows.Forms.ToolTip(this.components);
+            this.ID_EMPLEADO = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.EMPLEADO = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.PORCENTAJE_IGSS = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.SUELDO_BASE = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.IGSS_PAGAR = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.gpb_planilla_igss.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.gpb_navegador.SuspendLayout();
@@ -70,16 +76,17 @@
             // gpb_planilla_igss
             // 
             this.gpb_planilla_igss.Controls.Add(this.dataGridView1);
+            this.gpb_planilla_igss.Controls.Add(this.btn_generar);
             this.gpb_planilla_igss.Controls.Add(this.label2);
             this.gpb_planilla_igss.Controls.Add(this.dateTimePicker1);
-            this.gpb_planilla_igss.Controls.Add(this.txt_nom_emp);
+            this.gpb_planilla_igss.Controls.Add(this.txt_igss);
             this.gpb_planilla_igss.Controls.Add(this.lbl_nombre_emp);
             this.gpb_planilla_igss.Controls.Add(this.cbo_empres);
             this.gpb_planilla_igss.Controls.Add(this.lbl_empres);
             this.gpb_planilla_igss.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gpb_planilla_igss.Location = new System.Drawing.Point(12, 166);
             this.gpb_planilla_igss.Name = "gpb_planilla_igss";
-            this.gpb_planilla_igss.Size = new System.Drawing.Size(922, 321);
+            this.gpb_planilla_igss.Size = new System.Drawing.Size(922, 361);
             this.gpb_planilla_igss.TabIndex = 162;
             this.gpb_planilla_igss.TabStop = false;
             this.gpb_planilla_igss.Text = "Datos";
@@ -87,10 +94,26 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(22, 83);
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.ID_EMPLEADO,
+            this.EMPLEADO,
+            this.PORCENTAJE_IGSS,
+            this.SUELDO_BASE,
+            this.IGSS_PAGAR});
+            this.dataGridView1.Location = new System.Drawing.Point(17, 125);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(894, 232);
-            this.dataGridView1.TabIndex = 176;
+            this.dataGridView1.Size = new System.Drawing.Size(824, 150);
+            this.dataGridView1.TabIndex = 178;
+            // 
+            // btn_generar
+            // 
+            this.btn_generar.Location = new System.Drawing.Point(349, 304);
+            this.btn_generar.Name = "btn_generar";
+            this.btn_generar.Size = new System.Drawing.Size(194, 48);
+            this.btn_generar.TabIndex = 177;
+            this.btn_generar.Text = "GENERAR";
+            this.btn_generar.UseVisualStyleBackColor = true;
+            this.btn_generar.Click += new System.EventHandler(this.btn_generar_Click);
             // 
             // label2
             // 
@@ -104,17 +127,17 @@
             // dateTimePicker1
             // 
             this.dateTimePicker1.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker1.Location = new System.Drawing.Point(549, 36);
+            this.dateTimePicker1.Location = new System.Drawing.Point(549, 41);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(276, 24);
+            this.dateTimePicker1.Size = new System.Drawing.Size(286, 24);
             this.dateTimePicker1.TabIndex = 174;
             // 
-            // txt_nom_emp
+            // txt_igss
             // 
-            this.txt_nom_emp.Location = new System.Drawing.Point(372, 36);
-            this.txt_nom_emp.Name = "txt_nom_emp";
-            this.txt_nom_emp.Size = new System.Drawing.Size(85, 27);
-            this.txt_nom_emp.TabIndex = 167;
+            this.txt_igss.Location = new System.Drawing.Point(372, 36);
+            this.txt_igss.Name = "txt_igss";
+            this.txt_igss.Size = new System.Drawing.Size(85, 27);
+            this.txt_igss.TabIndex = 167;
             // 
             // lbl_nombre_emp
             // 
@@ -129,7 +152,13 @@
             // 
             this.cbo_empres.Enabled = false;
             this.cbo_empres.FormattingEnabled = true;
-            this.cbo_empres.Location = new System.Drawing.Point(96, 36);
+            this.cbo_empres.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"});
+            this.cbo_empres.Location = new System.Drawing.Point(96, 31);
             this.cbo_empres.Name = "cbo_empres";
             this.cbo_empres.Size = new System.Drawing.Size(197, 29);
             this.cbo_empres.TabIndex = 165;
@@ -212,6 +241,7 @@
             this.btn_guardar.TabIndex = 1;
             this.toolTip10.SetToolTip(this.btn_guardar, "Guardar");
             this.btn_guardar.UseVisualStyleBackColor = true;
+            this.btn_guardar.Click += new System.EventHandler(this.btn_guardar_Click_1);
             // 
             // btn_primero
             // 
@@ -352,12 +382,37 @@
             this.lbl_form_emp.TabIndex = 170;
             this.lbl_form_emp.Text = "Planillas del IGSS";
             // 
+            // ID_EMPLEADO
+            // 
+            this.ID_EMPLEADO.HeaderText = "ID_EMPLEADO";
+            this.ID_EMPLEADO.Name = "ID_EMPLEADO";
+            // 
+            // EMPLEADO
+            // 
+            this.EMPLEADO.HeaderText = "EMPLEADO";
+            this.EMPLEADO.Name = "EMPLEADO";
+            // 
+            // PORCENTAJE_IGSS
+            // 
+            this.PORCENTAJE_IGSS.HeaderText = "PORCENTAJE_IGSS";
+            this.PORCENTAJE_IGSS.Name = "PORCENTAJE_IGSS";
+            // 
+            // SUELDO_BASE
+            // 
+            this.SUELDO_BASE.HeaderText = "SUELDO_BASE";
+            this.SUELDO_BASE.Name = "SUELDO_BASE";
+            // 
+            // IGSS_PAGAR
+            // 
+            this.IGSS_PAGAR.HeaderText = "IGSS_PAGAR";
+            this.IGSS_PAGAR.Name = "IGSS_PAGAR";
+            // 
             // Planilla_IGSS
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
-            this.ClientSize = new System.Drawing.Size(946, 492);
+            this.ClientSize = new System.Drawing.Size(946, 530);
             this.Controls.Add(this.lbl_form_emp);
             this.Controls.Add(this.gpb_navegador);
             this.Controls.Add(this.gpb_planilla_igss);
@@ -381,11 +436,10 @@
         private System.Windows.Forms.GroupBox gpb_planilla_igss;
         private System.Windows.Forms.ComboBox cbo_empres;
         private System.Windows.Forms.Label lbl_empres;
-        private System.Windows.Forms.TextBox txt_nom_emp;
+        private System.Windows.Forms.TextBox txt_igss;
         private System.Windows.Forms.Label lbl_nombre_emp;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.GroupBox gpb_navegador;
         private System.Windows.Forms.Button btn_nuevo;
         private System.Windows.Forms.Button btn_ultimo;
@@ -410,5 +464,12 @@
         private System.Windows.Forms.ToolTip toolTip3;
         private System.Windows.Forms.ToolTip toolTip5;
         private System.Windows.Forms.ToolTip toolTip4;
+        private System.Windows.Forms.Button btn_generar;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ID_EMPLEADO;
+        private System.Windows.Forms.DataGridViewTextBoxColumn EMPLEADO;
+        private System.Windows.Forms.DataGridViewTextBoxColumn PORCENTAJE_IGSS;
+        private System.Windows.Forms.DataGridViewTextBoxColumn SUELDO_BASE;
+        private System.Windows.Forms.DataGridViewTextBoxColumn IGSS_PAGAR;
     }
 }
