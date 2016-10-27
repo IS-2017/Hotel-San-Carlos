@@ -21,6 +21,7 @@ namespace Prototipo__RRHH
         }
 
         CapaNegocio fn = new CapaNegocio();
+        Empleados frm_empleados;
 
         private void dgv_datos_emp_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
@@ -30,7 +31,7 @@ namespace Prototipo__RRHH
         private void frm_Empleados_grid_Load(object sender, EventArgs e)
         {
                 string tabla = "empleado";
-                fn.ActualizarGrid(this.dgv_lista_emps, "Select `id_empleados_pk`, `nombre`, `telefono`, `direccion`, `genero`, `fecha_nacimiento`, `fecha_ingreso`, `fecha_egreso`, `dpi`, `no_afiliacion_igss`, `estado`, `edad`, `nacionalidad`, `estado_civil`, `cargo`, `sueldo`, `tipo_sueldo` from empleado WHERE estado <> 'INACTIVO' ", tabla);
+                fn.ActualizarGrid(this.dgv_lista_emps, "Select `id_empleados_pk`, `nombre`, `telefono`, `direccion`, `genero`, `fecha_nacimiento`, `fecha_ingreso`, `fecha_egreso`, `dpi`, `no_afiliacion_igss`, `estado`, `edad`, `nacionalidad`, `estado_civil`, `cargo`, `sueldo`, `tipo_sueldo`, `id_empresa_pk` from empleado WHERE estado <> 'INACTIVO' ", tabla);
 
         }
 
@@ -61,28 +62,37 @@ namespace Prototipo__RRHH
 
         private void dgv_lista_emps_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
         {
-            Empleados frm_emp = new Empleados();
-            frm_emp.txt_cod_emp.Text = this.dgv_lista_emps.CurrentRow.Cells[0].Value.ToString();
-            frm_emp.txt_nomb_emp.Text = this.dgv_lista_emps.CurrentRow.Cells[1].Value.ToString();
-            frm_emp.txt_telef_emp.Text = this.dgv_lista_emps.CurrentRow.Cells[2].Value.ToString();
-            frm_emp.txt_direc_emp.Text = this.dgv_lista_emps.CurrentRow.Cells[3].Value.ToString();
-            frm_emp.cbo_gener_emp.Text = this.dgv_lista_emps.CurrentRow.Cells[4].Value.ToString();
-            frm_emp.dtp_fecha_nacim.Text = this.dgv_lista_emps.CurrentRow.Cells[5].Value.ToString();
-            frm_emp.dtp_fecha_ingr_emp.Text = this.dgv_lista_emps.CurrentRow.Cells[6].Value.ToString();
-            frm_emp.dtp_fecha_egre_emp.Text = this.dgv_lista_emps.CurrentRow.Cells[7].Value.ToString();
-            frm_emp.txt_dpi_emp.Text = this.dgv_lista_emps.CurrentRow.Cells[8].Value.ToString();
-            frm_emp.txt_carne_igss_emp.Text = this.dgv_lista_emps.CurrentRow.Cells[9].Value.ToString();
-            frm_emp.txt_edad_emp.Text = this.dgv_lista_emps.CurrentRow.Cells[11].Value.ToString();
-            frm_emp.cbo_nacional_emp.Text = this.dgv_lista_emps.CurrentRow.Cells[12].Value.ToString();
-            frm_emp.cbo_estad_civ_emp.Text = this.dgv_lista_emps.CurrentRow.Cells[13].Value.ToString();
-            frm_emp.cbo_cargo_emp.Text = this.dgv_lista_emps.CurrentRow.Cells[14].Value.ToString();
-            frm_emp.txt_sueldo_emp.Text = this.dgv_lista_emps.CurrentRow.Cells[15].Value.ToString();
-            frm_emp.ShowDialog();
+            Empleados frm_empleados = new Empleados();
+            frm_empleados.txt_cod_emp.Text = this.dgv_lista_emps.CurrentRow.Cells[0].Value.ToString();
+            frm_empleados.txt_nomb_emp.Text = this.dgv_lista_emps.CurrentRow.Cells[1].Value.ToString();
+            frm_empleados.txt_telef_emp.Text = this.dgv_lista_emps.CurrentRow.Cells[2].Value.ToString();
+            frm_empleados.txt_direc_emp.Text = this.dgv_lista_emps.CurrentRow.Cells[3].Value.ToString();
+            frm_empleados.cbo_gener_emp.Text = this.dgv_lista_emps.CurrentRow.Cells[4].Value.ToString();
+            frm_empleados.dtp_fecha_nacim.Text = this.dgv_lista_emps.CurrentRow.Cells[5].Value.ToString();
+            frm_empleados.dtp_fecha_ingr_emp.Text = this.dgv_lista_emps.CurrentRow.Cells[6].Value.ToString();
+            frm_empleados.dtp_fecha_egre_emp.Text = this.dgv_lista_emps.CurrentRow.Cells[7].Value.ToString();
+            frm_empleados.txt_dpi_emp.Text = this.dgv_lista_emps.CurrentRow.Cells[8].Value.ToString();
+            frm_empleados.txt_carne_igss_emp.Text = this.dgv_lista_emps.CurrentRow.Cells[9].Value.ToString();
+            frm_empleados.txt_edad_emp.Text = this.dgv_lista_emps.CurrentRow.Cells[11].Value.ToString();
+            frm_empleados.cbo_nacional_emp.Text = this.dgv_lista_emps.CurrentRow.Cells[12].Value.ToString();
+            frm_empleados.cbo_estad_civ_emp.Text = this.dgv_lista_emps.CurrentRow.Cells[13].Value.ToString();
+            frm_empleados.cbo_cargo_emp.Text = this.dgv_lista_emps.CurrentRow.Cells[14].Value.ToString();
+            frm_empleados.txt_sueldo_emp.Text = this.dgv_lista_emps.CurrentRow.Cells[15].Value.ToString();
+
+            frm_empleados.MdiParent = this.ParentForm;
+            frm_empleados.Show();           
         }
+
 
         private void dgv_lista_emps_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
+        }
+
+        private void btn_actualizar_Click(object sender, EventArgs e)
+        {
+            string tabla = "empleado";
+            fn.ActualizarGrid(this.dgv_lista_emps, "Select * from empleado  WHERE estado <> 'INACTIVO'", tabla);
         }
     }
 }
