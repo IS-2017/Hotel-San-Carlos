@@ -323,7 +323,7 @@
             this.gpb_navegador.Controls.Add(this.btn_actualizar);
             this.gpb_navegador.Controls.Add(this.btn_cancelar);
             this.gpb_navegador.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gpb_navegador.Location = new System.Drawing.Point(12, 56);
+            this.gpb_navegador.Location = new System.Drawing.Point(198, 56);
             this.gpb_navegador.Name = "gpb_navegador";
             this.gpb_navegador.Size = new System.Drawing.Size(636, 100);
             this.gpb_navegador.TabIndex = 69;
@@ -520,7 +520,7 @@
             // 
             this.lbl_form_prest_lab.AutoSize = true;
             this.lbl_form_prest_lab.Font = new System.Drawing.Font("Microsoft Sans Serif", 21F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_form_prest_lab.Location = new System.Drawing.Point(300, 9);
+            this.lbl_form_prest_lab.Location = new System.Drawing.Point(351, 9);
             this.lbl_form_prest_lab.Name = "lbl_form_prest_lab";
             this.lbl_form_prest_lab.Size = new System.Drawing.Size(348, 32);
             this.lbl_form_prest_lab.TabIndex = 170;

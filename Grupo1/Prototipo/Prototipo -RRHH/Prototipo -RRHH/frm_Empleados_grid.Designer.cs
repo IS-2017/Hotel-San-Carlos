@@ -65,7 +65,7 @@
             // 
             // txt_buscar
             // 
-            this.txt_buscar.Location = new System.Drawing.Point(534, 59);
+            this.txt_buscar.Location = new System.Drawing.Point(531, 36);
             this.txt_buscar.Name = "txt_buscar";
             this.txt_buscar.Size = new System.Drawing.Size(304, 26);
             this.txt_buscar.TabIndex = 176;
@@ -75,7 +75,7 @@
             // 
             this.lbl_busca_emp.AutoSize = true;
             this.lbl_busca_emp.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_busca_emp.Location = new System.Drawing.Point(298, 62);
+            this.lbl_busca_emp.Location = new System.Drawing.Point(295, 39);
             this.lbl_busca_emp.Name = "lbl_busca_emp";
             this.lbl_busca_emp.Size = new System.Drawing.Size(230, 20);
             this.lbl_busca_emp.TabIndex = 175;
