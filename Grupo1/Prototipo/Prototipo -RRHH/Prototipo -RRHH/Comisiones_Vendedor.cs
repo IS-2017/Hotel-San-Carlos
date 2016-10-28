@@ -223,5 +223,20 @@ namespace Prototipo__RRHH
             cbo_empleado.Text = "  ";
             llenarvendedor();
         }
+
+        private void btn_guardar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_editar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_eliminar_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
