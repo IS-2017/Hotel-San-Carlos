@@ -110,3 +110,6 @@ D:\Universidad\8vosemestre\diseñodesistemas\modulo\Modulo Bancos\Modulo Bancos\
 D:\Universidad\8vosemestre\diseñodesistemas\modulo\Modulo Bancos\Modulo Bancos\obj\Debug\Modulo_Bancos.Properties.Resources.resources
 D:\Universidad\8vosemestre\diseñodesistemas\modulo\Modulo Bancos\Modulo Bancos\obj\Debug\Modulo_Bancos.Tipo_Documento.resources
 D:\Universidad\8vosemestre\diseñodesistemas\modulo\Modulo Bancos\Modulo Bancos\obj\Debug\Modulo Bancos.csproj.GenerateResource.Cache
+C:\Users\Cristian\Documents\GitHub\Hotel-San-Carlos\Grupo1\Prototipo\Modulo Bancos\Modulo Bancos\obj\Debug\Modulo_Bancos.Conciliacion_Bancaria.resources
+C:\Users\Cristian\Documents\GitHub\Hotel-San-Carlos\Grupo1\Prototipo\Modulo Bancos\Modulo Bancos\obj\Debug\Modulo_Bancos.Disponibilidad_bancaria.resources
+C:\Users\Cristian\Documents\GitHub\Hotel-San-Carlos\Grupo1\Prototipo\Modulo Bancos\Modulo Bancos\obj\Debug\Modulo_Bancos.Tipo_Documento.resources
