@@ -104,3 +104,31 @@ C:\Users\Cristian\Documents\GitHub\Hotel-San-Carlos\Grupo1\Prototipo\Prototipo -
 C:\Users\Cristian\Documents\GitHub\Hotel-San-Carlos\Grupo1\Prototipo\Prototipo -RRHH\Prototipo -RRHH\obj\Debug\Prototipo__RRHH.frm_Devengados.resources
 C:\Users\Cristian\Documents\GitHub\Hotel-San-Carlos\Grupo1\Prototipo\Prototipo -RRHH\Prototipo -RRHH\obj\Debug\Prototipo__RRHH.frm_Deducciones.resources
 C:\Users\Cristian\Documents\GitHub\Hotel-San-Carlos\Grupo1\Prototipo\Prototipo -RRHH\Prototipo -RRHH\obj\Debug\Prototipo__RRHH.Login_Prueba.resources
+D:\Universidad\8vosemestre\diseñodesistemas\modulo\Prototipo -RRHH\Prototipo -RRHH\bin\Debug\Prototipo -RRHH.exe.config
+D:\Universidad\8vosemestre\diseñodesistemas\modulo\Prototipo -RRHH\Prototipo -RRHH\obj\Debug\Prototipo -RRHH.exe
+D:\Universidad\8vosemestre\diseñodesistemas\modulo\Prototipo -RRHH\Prototipo -RRHH\obj\Debug\Prototipo -RRHH.pdb
+D:\Universidad\8vosemestre\diseñodesistemas\modulo\Prototipo -RRHH\Prototipo -RRHH\bin\Debug\Prototipo -RRHH.exe
+D:\Universidad\8vosemestre\diseñodesistemas\modulo\Prototipo -RRHH\Prototipo -RRHH\bin\Debug\Prototipo -RRHH.pdb
+D:\Universidad\8vosemestre\diseñodesistemas\modulo\Prototipo -RRHH\Prototipo -RRHH\bin\Debug\mscorlib.dll
+D:\Universidad\8vosemestre\diseñodesistemas\modulo\Prototipo -RRHH\Prototipo -RRHH\bin\Debug\dllconsultas.pdb
+D:\Universidad\8vosemestre\diseñodesistemas\modulo\Prototipo -RRHH\Prototipo -RRHH\bin\Debug\FuncionesNavegador.pdb
+D:\Universidad\8vosemestre\diseñodesistemas\modulo\Prototipo -RRHH\Prototipo -RRHH\bin\Debug\MySql.Data.xml
+D:\Universidad\8vosemestre\diseñodesistemas\modulo\Prototipo -RRHH\Prototipo -RRHH\bin\Debug\es\mscorlib.resources.dll
+D:\Universidad\8vosemestre\diseñodesistemas\modulo\Prototipo -RRHH\Prototipo -RRHH\bin\Debug\normidna.nlp
+D:\Universidad\8vosemestre\diseñodesistemas\modulo\Prototipo -RRHH\Prototipo -RRHH\bin\Debug\normnfc.nlp
+D:\Universidad\8vosemestre\diseñodesistemas\modulo\Prototipo -RRHH\Prototipo -RRHH\bin\Debug\normnfd.nlp
+D:\Universidad\8vosemestre\diseñodesistemas\modulo\Prototipo -RRHH\Prototipo -RRHH\bin\Debug\normnfkc.nlp
+D:\Universidad\8vosemestre\diseñodesistemas\modulo\Prototipo -RRHH\Prototipo -RRHH\bin\Debug\normnfkd.nlp
+D:\Universidad\8vosemestre\diseñodesistemas\modulo\Prototipo -RRHH\Prototipo -RRHH\obj\Debug\Prototipo -RRHH.csprojResolveAssemblyReference.cache
+D:\Universidad\8vosemestre\diseñodesistemas\modulo\Prototipo -RRHH\Prototipo -RRHH\obj\Debug\Prototipo__RRHH.Comisiones_Vendedor.resources
+D:\Universidad\8vosemestre\diseñodesistemas\modulo\Prototipo -RRHH\Prototipo -RRHH\obj\Debug\Prototipo__RRHH.Empleados.resources
+D:\Universidad\8vosemestre\diseñodesistemas\modulo\Prototipo -RRHH\Prototipo -RRHH\obj\Debug\Prototipo__RRHH.frm_Detalle_Nomina.resources
+D:\Universidad\8vosemestre\diseñodesistemas\modulo\Prototipo -RRHH\Prototipo -RRHH\obj\Debug\Prototipo__RRHH.frm_Empleados_grid.resources
+D:\Universidad\8vosemestre\diseñodesistemas\modulo\Prototipo -RRHH\Prototipo -RRHH\obj\Debug\Prototipo__RRHH.frm_Nominas_Empleados.resources
+D:\Universidad\8vosemestre\diseñodesistemas\modulo\Prototipo -RRHH\Prototipo -RRHH\obj\Debug\Prototipo__RRHH.frm_Devengados.resources
+D:\Universidad\8vosemestre\diseñodesistemas\modulo\Prototipo -RRHH\Prototipo -RRHH\obj\Debug\Prototipo__RRHH.frm_Deducciones.resources
+D:\Universidad\8vosemestre\diseñodesistemas\modulo\Prototipo -RRHH\Prototipo -RRHH\obj\Debug\Prototipo__RRHH.Login_Prueba.resources
+D:\Universidad\8vosemestre\diseñodesistemas\modulo\Prototipo -RRHH\Prototipo -RRHH\obj\Debug\Prototipo__RRHH.MenuMDI.resources
+D:\Universidad\8vosemestre\diseñodesistemas\modulo\Prototipo -RRHH\Prototipo -RRHH\obj\Debug\Prototipo__RRHH.Planilla_IGSS.resources
+D:\Universidad\8vosemestre\diseñodesistemas\modulo\Prototipo -RRHH\Prototipo -RRHH\obj\Debug\Prototipo__RRHH.Properties.Resources.resources
+D:\Universidad\8vosemestre\diseñodesistemas\modulo\Prototipo -RRHH\Prototipo -RRHH\obj\Debug\Prototipo -RRHH.csproj.GenerateResource.Cache

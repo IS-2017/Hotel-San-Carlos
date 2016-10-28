@@ -42,6 +42,8 @@
             this.btn_actualizar = new System.Windows.Forms.Button();
             this.btn_cancelar = new System.Windows.Forms.Button();
             this.gpb_cheque_v = new System.Windows.Forms.GroupBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.lbl_empre = new System.Windows.Forms.Label();
             this.cbo_empre = new System.Windows.Forms.ComboBox();
@@ -53,8 +55,6 @@
             this.lbl_fecha = new System.Windows.Forms.Label();
             this.lbl_referido = new System.Windows.Forms.Label();
             this.txt_ref = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.groupBox1.SuspendLayout();
             this.gpb_cheque_v.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -271,6 +271,26 @@
             this.gpb_cheque_v.TabStop = false;
             this.gpb_cheque_v.Text = "Disponibilidad Bancaria";
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(26, 79);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(168, 21);
+            this.label1.TabIndex = 17;
+            this.label1.Text = "Tipo de documento:";
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "Tipo de documentos"});
+            this.comboBox1.Location = new System.Drawing.Point(193, 76);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(190, 29);
+            this.comboBox1.TabIndex = 16;
+            // 
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -292,6 +312,8 @@
             // cbo_empre
             // 
             this.cbo_empre.FormattingEnabled = true;
+            this.cbo_empre.Items.AddRange(new object[] {
+            "id_bancos"});
             this.cbo_empre.Location = new System.Drawing.Point(105, 30);
             this.cbo_empre.Name = "cbo_empre";
             this.cbo_empre.Size = new System.Drawing.Size(212, 29);
@@ -310,6 +332,8 @@
             // cbo_ctn_bac
             // 
             this.cbo_ctn_bac.FormattingEnabled = true;
+            this.cbo_ctn_bac.Items.AddRange(new object[] {
+            "id_cuenta_bancaria"});
             this.cbo_ctn_bac.Location = new System.Drawing.Point(473, 30);
             this.cbo_ctn_bac.Name = "cbo_ctn_bac";
             this.cbo_ctn_bac.Size = new System.Drawing.Size(244, 29);
@@ -322,6 +346,8 @@
             this.txt_monto.Name = "txt_monto";
             this.txt_monto.Size = new System.Drawing.Size(120, 27);
             this.txt_monto.TabIndex = 8;
+            this.txt_monto.Tag = "saldo_no_conciliado";
+            this.txt_monto.Text = "Q.3,150.00";
             // 
             // lbl_mt
             // 
@@ -367,24 +393,8 @@
             this.txt_ref.Name = "txt_ref";
             this.txt_ref.Size = new System.Drawing.Size(164, 27);
             this.txt_ref.TabIndex = 2;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(26, 79);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(168, 21);
-            this.label1.TabIndex = 17;
-            this.label1.Text = "Tipo de documento:";
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(193, 76);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(190, 29);
-            this.comboBox1.TabIndex = 16;
+            this.txt_ref.Tag = "txt_saldo_conciliado";
+            this.txt_ref.Text = "Q.5,100.00";
             // 
             // Disponibilidad_bancaria
             // 
