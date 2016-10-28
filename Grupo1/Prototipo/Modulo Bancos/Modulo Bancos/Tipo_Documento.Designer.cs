@@ -1,6 +1,6 @@
 ﻿namespace Modulo_Bancos
 {
-    partial class Busqueda_Documento
+    partial class Tipo_Documento
     {
         /// <summary>
         /// Required designer variable.
@@ -28,62 +28,85 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Busqueda_Documento));
-            this.dgv_busqueda_documento = new System.Windows.Forms.DataGridView();
-            this.label13 = new System.Windows.Forms.Label();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Tipo_Documento));
             this.gpb_navegador = new System.Windows.Forms.GroupBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.btn_nuevo = new System.Windows.Forms.Button();
             this.btn_ultimo = new System.Windows.Forms.Button();
+            this.btn_guardar = new System.Windows.Forms.Button();
             this.btn_primero = new System.Windows.Forms.Button();
+            this.btn_editar = new System.Windows.Forms.Button();
             this.btn_siguiente = new System.Windows.Forms.Button();
+            this.btn_eliminar = new System.Windows.Forms.Button();
             this.btn_anterior = new System.Windows.Forms.Button();
             this.btn_buscar = new System.Windows.Forms.Button();
             this.btn_actualizar = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.dgv_busqueda_documento)).BeginInit();
+            this.btn_cancelar = new System.Windows.Forms.Button();
+            this.lbl_documento = new System.Windows.Forms.Label();
             this.gpb_navegador.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // dgv_busqueda_documento
-            // 
-            this.dgv_busqueda_documento.AllowUserToDeleteRows = false;
-            this.dgv_busqueda_documento.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgv_busqueda_documento.Location = new System.Drawing.Point(24, 155);
-            this.dgv_busqueda_documento.Name = "dgv_busqueda_documento";
-            this.dgv_busqueda_documento.ReadOnly = true;
-            this.dgv_busqueda_documento.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgv_busqueda_documento.Size = new System.Drawing.Size(873, 350);
-            this.dgv_busqueda_documento.TabIndex = 14;
-            this.dgv_busqueda_documento.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_busqueda_documento_CellContentClick);
-            this.dgv_busqueda_documento.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_busqueda_documento_CellDoubleClick);
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Century Gothic", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label13.Location = new System.Drawing.Point(280, 9);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(338, 36);
-            this.label13.TabIndex = 39;
-            this.label13.Text = "Busqueda Documento";
             // 
             // gpb_navegador
             // 
             this.gpb_navegador.Controls.Add(this.btn_nuevo);
             this.gpb_navegador.Controls.Add(this.btn_ultimo);
+            this.gpb_navegador.Controls.Add(this.btn_guardar);
             this.gpb_navegador.Controls.Add(this.btn_primero);
+            this.gpb_navegador.Controls.Add(this.btn_editar);
             this.gpb_navegador.Controls.Add(this.btn_siguiente);
+            this.gpb_navegador.Controls.Add(this.btn_eliminar);
             this.gpb_navegador.Controls.Add(this.btn_anterior);
             this.gpb_navegador.Controls.Add(this.btn_buscar);
             this.gpb_navegador.Controls.Add(this.btn_actualizar);
+            this.gpb_navegador.Controls.Add(this.btn_cancelar);
             this.gpb_navegador.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gpb_navegador.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.gpb_navegador.Location = new System.Drawing.Point(50, 48);
+            this.gpb_navegador.Location = new System.Drawing.Point(67, 49);
             this.gpb_navegador.Name = "gpb_navegador";
-            this.gpb_navegador.Size = new System.Drawing.Size(815, 100);
-            this.gpb_navegador.TabIndex = 40;
+            this.gpb_navegador.Size = new System.Drawing.Size(636, 100);
+            this.gpb_navegador.TabIndex = 14;
             this.gpb_navegador.TabStop = false;
             this.gpb_navegador.Text = "Navegador";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(243, 217);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(257, 20);
+            this.textBox1.TabIndex = 15;
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(243, 243);
+            this.textBox2.Multiline = true;
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(460, 175);
+            this.textBox2.TabIndex = 44;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.Black;
+            this.label2.Location = new System.Drawing.Point(63, 214);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(174, 21);
+            this.label2.TabIndex = 45;
+            this.label2.Text = "Nombre documento:";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Black;
+            this.label1.Location = new System.Drawing.Point(167, 243);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(70, 21);
+            this.label1.TabIndex = 46;
+            this.label1.Text = "Detalle:";
             // 
             // btn_nuevo
             // 
@@ -99,7 +122,6 @@
             this.btn_nuevo.Size = new System.Drawing.Size(65, 65);
             this.btn_nuevo.TabIndex = 0;
             this.btn_nuevo.UseVisualStyleBackColor = true;
-            this.btn_nuevo.Click += new System.EventHandler(this.btn_nuevo_Click);
             // 
             // btn_ultimo
             // 
@@ -110,12 +132,26 @@
             this.btn_ultimo.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btn_ultimo.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
             this.btn_ultimo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_ultimo.Location = new System.Drawing.Point(281, 55);
+            this.btn_ultimo.Location = new System.Drawing.Point(565, 53);
             this.btn_ultimo.Name = "btn_ultimo";
             this.btn_ultimo.Size = new System.Drawing.Size(33, 33);
             this.btn_ultimo.TabIndex = 10;
             this.btn_ultimo.UseVisualStyleBackColor = true;
-            this.btn_ultimo.Click += new System.EventHandler(this.btn_ultimo_Click);
+            // 
+            // btn_guardar
+            // 
+            this.btn_guardar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_guardar.BackgroundImage")));
+            this.btn_guardar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_guardar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_guardar.FlatAppearance.BorderSize = 0;
+            this.btn_guardar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btn_guardar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
+            this.btn_guardar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_guardar.Location = new System.Drawing.Point(88, 19);
+            this.btn_guardar.Name = "btn_guardar";
+            this.btn_guardar.Size = new System.Drawing.Size(65, 65);
+            this.btn_guardar.TabIndex = 1;
+            this.btn_guardar.UseVisualStyleBackColor = true;
             // 
             // btn_primero
             // 
@@ -126,12 +162,26 @@
             this.btn_primero.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btn_primero.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
             this.btn_primero.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_primero.Location = new System.Drawing.Point(245, 55);
+            this.btn_primero.Location = new System.Drawing.Point(529, 53);
             this.btn_primero.Name = "btn_primero";
             this.btn_primero.Size = new System.Drawing.Size(33, 33);
             this.btn_primero.TabIndex = 9;
             this.btn_primero.UseVisualStyleBackColor = true;
-            this.btn_primero.Click += new System.EventHandler(this.btn_primero_Click);
+            // 
+            // btn_editar
+            // 
+            this.btn_editar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_editar.BackgroundImage")));
+            this.btn_editar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_editar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_editar.FlatAppearance.BorderSize = 0;
+            this.btn_editar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btn_editar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
+            this.btn_editar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_editar.Location = new System.Drawing.Point(159, 19);
+            this.btn_editar.Name = "btn_editar";
+            this.btn_editar.Size = new System.Drawing.Size(65, 65);
+            this.btn_editar.TabIndex = 2;
+            this.btn_editar.UseVisualStyleBackColor = true;
             // 
             // btn_siguiente
             // 
@@ -142,12 +192,26 @@
             this.btn_siguiente.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btn_siguiente.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
             this.btn_siguiente.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_siguiente.Location = new System.Drawing.Point(281, 20);
+            this.btn_siguiente.Location = new System.Drawing.Point(565, 18);
             this.btn_siguiente.Name = "btn_siguiente";
             this.btn_siguiente.Size = new System.Drawing.Size(33, 33);
             this.btn_siguiente.TabIndex = 8;
             this.btn_siguiente.UseVisualStyleBackColor = true;
-            this.btn_siguiente.Click += new System.EventHandler(this.btn_siguiente_Click);
+            // 
+            // btn_eliminar
+            // 
+            this.btn_eliminar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_eliminar.BackgroundImage")));
+            this.btn_eliminar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_eliminar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_eliminar.FlatAppearance.BorderSize = 0;
+            this.btn_eliminar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btn_eliminar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
+            this.btn_eliminar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_eliminar.Location = new System.Drawing.Point(230, 19);
+            this.btn_eliminar.Name = "btn_eliminar";
+            this.btn_eliminar.Size = new System.Drawing.Size(65, 65);
+            this.btn_eliminar.TabIndex = 3;
+            this.btn_eliminar.UseVisualStyleBackColor = true;
             // 
             // btn_anterior
             // 
@@ -158,12 +222,11 @@
             this.btn_anterior.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btn_anterior.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
             this.btn_anterior.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_anterior.Location = new System.Drawing.Point(245, 20);
+            this.btn_anterior.Location = new System.Drawing.Point(529, 18);
             this.btn_anterior.Name = "btn_anterior";
             this.btn_anterior.Size = new System.Drawing.Size(33, 33);
             this.btn_anterior.TabIndex = 7;
             this.btn_anterior.UseVisualStyleBackColor = true;
-            this.btn_anterior.Click += new System.EventHandler(this.btn_anterior_Click);
             // 
             // btn_buscar
             // 
@@ -174,12 +237,11 @@
             this.btn_buscar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btn_buscar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
             this.btn_buscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_buscar.Location = new System.Drawing.Point(88, 21);
+            this.btn_buscar.Location = new System.Drawing.Point(301, 19);
             this.btn_buscar.Name = "btn_buscar";
             this.btn_buscar.Size = new System.Drawing.Size(65, 65);
             this.btn_buscar.TabIndex = 4;
             this.btn_buscar.UseVisualStyleBackColor = true;
-            this.btn_buscar.Click += new System.EventHandler(this.btn_buscar_Click);
             // 
             // btn_actualizar
             // 
@@ -190,29 +252,52 @@
             this.btn_actualizar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btn_actualizar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
             this.btn_actualizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_actualizar.Location = new System.Drawing.Point(159, 21);
+            this.btn_actualizar.Location = new System.Drawing.Point(443, 19);
             this.btn_actualizar.Name = "btn_actualizar";
             this.btn_actualizar.Size = new System.Drawing.Size(65, 65);
             this.btn_actualizar.TabIndex = 6;
             this.btn_actualizar.UseVisualStyleBackColor = true;
-            this.btn_actualizar.Click += new System.EventHandler(this.btn_actualizar_Click);
             // 
-            // Busqueda_Documento
+            // btn_cancelar
+            // 
+            this.btn_cancelar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_cancelar.BackgroundImage")));
+            this.btn_cancelar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_cancelar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_cancelar.FlatAppearance.BorderSize = 0;
+            this.btn_cancelar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btn_cancelar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
+            this.btn_cancelar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_cancelar.Location = new System.Drawing.Point(372, 19);
+            this.btn_cancelar.Name = "btn_cancelar";
+            this.btn_cancelar.Size = new System.Drawing.Size(65, 65);
+            this.btn_cancelar.TabIndex = 5;
+            this.btn_cancelar.UseVisualStyleBackColor = true;
+            // 
+            // lbl_documento
+            // 
+            this.lbl_documento.AutoSize = true;
+            this.lbl_documento.Font = new System.Drawing.Font("Century Gothic", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_documento.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lbl_documento.Location = new System.Drawing.Point(237, 10);
+            this.lbl_documento.Name = "lbl_documento";
+            this.lbl_documento.Size = new System.Drawing.Size(303, 36);
+            this.lbl_documento.TabIndex = 39;
+            this.lbl_documento.Text = "Tipo De Documento";
+            // 
+            // Tipo_Documento
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
-            this.ClientSize = new System.Drawing.Size(918, 517);
+            this.ClientSize = new System.Drawing.Size(782, 471);
+            this.Controls.Add(this.lbl_documento);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.gpb_navegador);
-            this.Controls.Add(this.label13);
-            this.Controls.Add(this.dgv_busqueda_documento);
-            this.MaximizeBox = false;
-            this.MinimizeBox = false;
-            this.Name = "Busqueda_Documento";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Busqueda Documento";
-            this.Load += new System.EventHandler(this.Busqueda_Documento_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.dgv_busqueda_documento)).EndInit();
+            this.Name = "Tipo_Documento";
+            this.Text = "Tipo_Documento";
             this.gpb_navegador.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -220,15 +305,23 @@
         }
 
         #endregion
-        private System.Windows.Forms.Label label13;
-        public System.Windows.Forms.DataGridView dgv_busqueda_documento;
+
         private System.Windows.Forms.GroupBox gpb_navegador;
         private System.Windows.Forms.Button btn_nuevo;
         private System.Windows.Forms.Button btn_ultimo;
+        private System.Windows.Forms.Button btn_guardar;
         private System.Windows.Forms.Button btn_primero;
+        private System.Windows.Forms.Button btn_editar;
         private System.Windows.Forms.Button btn_siguiente;
+        private System.Windows.Forms.Button btn_eliminar;
         private System.Windows.Forms.Button btn_anterior;
         private System.Windows.Forms.Button btn_buscar;
         private System.Windows.Forms.Button btn_actualizar;
+        private System.Windows.Forms.Button btn_cancelar;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lbl_documento;
     }
 }
