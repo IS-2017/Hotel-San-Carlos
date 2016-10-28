@@ -17,6 +17,8 @@ namespace Modulo_Bancos
         Cheque_Voucher che_Vo;
         Conciliacion_Bancaria con_ban;
         Disponibilidad_bancaria disp_ban;
+        Tipo_Documento tip_doc;
+        Busqueda_Documento busq_doc;
 
         public MDIBancos()
         {
@@ -103,16 +105,16 @@ namespace Modulo_Bancos
         {
             if (doc == null)
             {
-                doc = new Documento();
-                doc.MdiParent = this;
-                doc.FormClosed += new FormClosedEventHandler(documento_FormClosed);
-                doc.Show();
+                busq_doc = new Busqueda_Documento();
+                busq_doc.MdiParent = this;
+                busq_doc.FormClosed += new FormClosedEventHandler(documento_FormClosed);
+                busq_doc.Show();
             }
         }
 
         void documento_FormClosed(object sender, EventArgs e)
         {
-            doc = null;
+            busq_doc = null;
         }
 
         private void chequeVoucherToolStripMenuItem_Click(object sender, EventArgs e)
@@ -166,6 +168,23 @@ namespace Modulo_Bancos
         void disp_ban_FormClosed(object sender, EventArgs e)
         {
             disp_ban = null;
+        }
+
+        private void tipoDocumentoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (tip_doc == null)
+            {
+                tip_doc = new Tipo_Documento();
+                tip_doc.MdiParent = this;
+                tip_doc.FormClosed += new FormClosedEventHandler(tip_doc_FormClosed);
+                tip_doc.Show();
+
+            }
+        }
+
+        void tip_doc_FormClosed(object sender, EventArgs e)
+        {
+            tip_doc = null;
         }
     }
 }

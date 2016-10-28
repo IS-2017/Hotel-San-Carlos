@@ -58,3 +58,33 @@ D:\Universidad\cv\Modulo Bancos\Modulo Bancos\obj\Debug\Modulo Bancos.csproj.Gen
 C:\Users\ottog\Documents\GitHub\Hotel-San-Carlos\Grupo1\Prototipo\Modulo Bancos\Modulo Bancos\bin\Debug\Modulo Bancos.exe.config
 C:\Users\ottog\Documents\GitHub\Hotel-San-Carlos\Grupo1\Prototipo\Modulo Bancos\Modulo Bancos\obj\Debug\Modulo Bancos.exe
 C:\Users\ottog\Documents\GitHub\Hotel-San-Carlos\Grupo1\Prototipo\Modulo Bancos\Modulo Bancos\obj\Debug\Modulo Bancos.pdb
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Prototipo\Segunda entrega\Modulo Bancos\Modulo Bancos\bin\Debug\Modulo Bancos.exe.config
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Prototipo\Segunda entrega\Modulo Bancos\Modulo Bancos\obj\Debug\Modulo Bancos.exe
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Prototipo\Segunda entrega\Modulo Bancos\Modulo Bancos\obj\Debug\Modulo Bancos.pdb
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Prototipo\Segunda entrega\Modulo Bancos\Modulo Bancos\bin\Debug\Modulo Bancos.exe
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Prototipo\Segunda entrega\Modulo Bancos\Modulo Bancos\bin\Debug\Modulo Bancos.pdb
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Prototipo\Segunda entrega\Modulo Bancos\Modulo Bancos\obj\Debug\Modulo Bancos.csprojResolveAssemblyReference.cache
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Prototipo\Segunda entrega\Modulo Bancos\Modulo Bancos\obj\Debug\Modulo_Bancos.Busqueda_Documento.resources
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Prototipo\Segunda entrega\Modulo Bancos\Modulo Bancos\obj\Debug\Modulo_Bancos.Cheque_Voucher.resources
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Prototipo\Segunda entrega\Modulo Bancos\Modulo Bancos\obj\Debug\Modulo_Bancos.Conciliacion_Bancaria.resources
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Prototipo\Segunda entrega\Modulo Bancos\Modulo Bancos\obj\Debug\Modulo_Bancos.Disponibilidad_bancaria.resources
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Prototipo\Segunda entrega\Modulo Bancos\Modulo Bancos\obj\Debug\Modulo_Bancos.Documento.resources
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Prototipo\Segunda entrega\Modulo Bancos\Modulo Bancos\obj\Debug\Modulo_Bancos.MDIBancos.resources
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Prototipo\Segunda entrega\Modulo Bancos\Modulo Bancos\obj\Debug\Modulo_Bancos.Properties.Resources.resources
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Prototipo\Segunda entrega\Modulo Bancos\Modulo Bancos\obj\Debug\Modulo Bancos.csproj.GenerateResource.Cache
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Prototipo\Segunda entrega\Modulo Bancos\Modulo Bancos\obj\Debug\Modulo_Bancos.Tipo_Documento.resources
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Prototipo\Tercera entrega\Modulo Bancos\Modulo Bancos\bin\Debug\Modulo Bancos.exe.config
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Prototipo\Tercera entrega\Modulo Bancos\Modulo Bancos\obj\Debug\Modulo Bancos.exe
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Prototipo\Tercera entrega\Modulo Bancos\Modulo Bancos\obj\Debug\Modulo Bancos.pdb
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Prototipo\Tercera entrega\Modulo Bancos\Modulo Bancos\bin\Debug\Modulo Bancos.exe
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Prototipo\Tercera entrega\Modulo Bancos\Modulo Bancos\bin\Debug\Modulo Bancos.pdb
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Prototipo\Tercera entrega\Modulo Bancos\Modulo Bancos\obj\Debug\Modulo Bancos.csprojResolveAssemblyReference.cache
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Prototipo\Tercera entrega\Modulo Bancos\Modulo Bancos\obj\Debug\Modulo_Bancos.Busqueda_Documento.resources
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Prototipo\Tercera entrega\Modulo Bancos\Modulo Bancos\obj\Debug\Modulo_Bancos.Cheque_Voucher.resources
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Prototipo\Tercera entrega\Modulo Bancos\Modulo Bancos\obj\Debug\Modulo_Bancos.Conciliacion_Bancaria.resources
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Prototipo\Tercera entrega\Modulo Bancos\Modulo Bancos\obj\Debug\Modulo_Bancos.Disponibilidad_bancaria.resources
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Prototipo\Tercera entrega\Modulo Bancos\Modulo Bancos\obj\Debug\Modulo_Bancos.Documento.resources
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Prototipo\Tercera entrega\Modulo Bancos\Modulo Bancos\obj\Debug\Modulo_Bancos.MDIBancos.resources
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Prototipo\Tercera entrega\Modulo Bancos\Modulo Bancos\obj\Debug\Modulo_Bancos.Properties.Resources.resources
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Prototipo\Tercera entrega\Modulo Bancos\Modulo Bancos\obj\Debug\Modulo_Bancos.Tipo_Documento.resources
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Prototipo\Tercera entrega\Modulo Bancos\Modulo Bancos\obj\Debug\Modulo Bancos.csproj.GenerateResource.Cache

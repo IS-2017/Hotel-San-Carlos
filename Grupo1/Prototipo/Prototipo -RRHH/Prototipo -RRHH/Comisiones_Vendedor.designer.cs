@@ -147,6 +147,7 @@
             this.btn_guardar.TabIndex = 1;
             this.toolTip10.SetToolTip(this.btn_guardar, "Guardar");
             this.btn_guardar.UseVisualStyleBackColor = true;
+            this.btn_guardar.Click += new System.EventHandler(this.btn_guardar_Click);
             // 
             // btn_primero
             // 
@@ -179,6 +180,7 @@
             this.btn_editar.TabIndex = 2;
             this.toolTip11.SetToolTip(this.btn_editar, "Editar");
             this.btn_editar.UseVisualStyleBackColor = true;
+            this.btn_editar.Click += new System.EventHandler(this.btn_editar_Click);
             // 
             // btn_siguiente
             // 
@@ -211,6 +213,7 @@
             this.btn_eliminar.TabIndex = 3;
             this.toolTip2.SetToolTip(this.btn_eliminar, "Eliminar");
             this.btn_eliminar.UseVisualStyleBackColor = true;
+            this.btn_eliminar.Click += new System.EventHandler(this.btn_eliminar_Click);
             // 
             // btn_anterior
             // 
