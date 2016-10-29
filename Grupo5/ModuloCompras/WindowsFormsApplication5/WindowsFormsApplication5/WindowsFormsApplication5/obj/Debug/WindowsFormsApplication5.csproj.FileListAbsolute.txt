@@ -1,0 +1,133 @@
+c:\users\pamela coronado\documents\visual studio 2015\Projects\WindowsFormsApplication5\WindowsFormsApplication5\bin\Debug\WindowsFormsApplication5.exe.config
+C:\Users\Pamela Coronado\Documents\Visual Studio 2015\Projects\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.csprojResolveAssemblyReference.cache
+C:\Users\Pamela Coronado\Documents\Visual Studio 2015\Projects\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\ComprasProveedores.ComprasProveedores.resources
+C:\Users\Pamela Coronado\Documents\Visual Studio 2015\Projects\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\ComprasProveedores.DetalleCompra.resources
+C:\Users\Pamela Coronado\Documents\Visual Studio 2015\Projects\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.DetalleOrdenCompra.resources
+C:\Users\Pamela Coronado\Documents\Visual Studio 2015\Projects\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\Principal.Form1.resources
+C:\Users\Pamela Coronado\Documents\Visual Studio 2015\Projects\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\ComprasProveedores.GastosImportacion.resources
+C:\Users\Pamela Coronado\Documents\Visual Studio 2015\Projects\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\ComprasProveedores.InsertarCompra.resources
+C:\Users\Pamela Coronado\Documents\Visual Studio 2015\Projects\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.OrdenCompra.resources
+C:\Users\Pamela Coronado\Documents\Visual Studio 2015\Projects\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.ModuloProveedores.resources
+C:\Users\Pamela Coronado\Documents\Visual Studio 2015\Projects\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.frm_inicio.resources
+C:\Users\Pamela Coronado\Documents\Visual Studio 2015\Projects\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.Properties.Resources.resources
+C:\Users\Pamela Coronado\Documents\Visual Studio 2015\Projects\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.csproj.GenerateResource.Cache
+C:\Users\beto\Desktop\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\bin\Debug\WindowsFormsApplication5.exe.config
+C:\Users\beto\Desktop\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.csprojResolveAssemblyReference.cache
+C:\Users\beto\Desktop\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\ComprasProveedores.ComprasProveedores.resources
+C:\Users\beto\Desktop\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\ComprasProveedores.DetalleCompra.resources
+C:\Users\beto\Desktop\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.DetalleOrdenCompra.resources
+C:\Users\beto\Desktop\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\Principal.Form1.resources
+C:\Users\beto\Desktop\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\ComprasProveedores.GastosImportacion.resources
+C:\Users\beto\Desktop\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\ComprasProveedores.InsertarCompra.resources
+C:\Users\beto\Desktop\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.OrdenCompra.resources
+C:\Users\beto\Desktop\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.ModuloProveedores.resources
+C:\Users\beto\Desktop\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.frm_inicio.resources
+C:\Users\beto\Desktop\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.Properties.Resources.resources
+C:\Users\beto\Desktop\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.csproj.GenerateResource.Cache
+C:\Users\beto\Desktop\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\bin\Debug\WindowsFormsApplication5.exe
+C:\Users\beto\Desktop\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\bin\Debug\WindowsFormsApplication5.pdb
+C:\Users\beto\Desktop\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.exe
+C:\Users\beto\Desktop\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.pdb
+C:\Users\ccarrera\Desktop\Prototipo\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\bin\Debug\WindowsFormsApplication5.exe.config
+C:\Users\ccarrera\Desktop\Prototipo\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.exe
+C:\Users\ccarrera\Desktop\Prototipo\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.pdb
+C:\Users\ccarrera\Desktop\Prototipo\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\bin\Debug\WindowsFormsApplication5.exe
+C:\Users\ccarrera\Desktop\Prototipo\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\bin\Debug\WindowsFormsApplication5.pdb
+C:\Users\ccarrera\Desktop\Prototipo\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.csprojResolveAssemblyReference.cache
+C:\Users\ccarrera\Desktop\Prototipo\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\ComprasProveedores.ComprasProveedores.resources
+C:\Users\ccarrera\Desktop\Prototipo\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\ComprasProveedores.DetalleCompra.resources
+C:\Users\ccarrera\Desktop\Prototipo\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.DetalleOrdenCompra.resources
+C:\Users\ccarrera\Desktop\Prototipo\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\Principal.Form1.resources
+C:\Users\ccarrera\Desktop\Prototipo\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\ComprasProveedores.GastosImportacion.resources
+C:\Users\ccarrera\Desktop\Prototipo\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\ComprasProveedores.InsertarCompra.resources
+C:\Users\ccarrera\Desktop\Prototipo\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.OrdenCompra.resources
+C:\Users\ccarrera\Desktop\Prototipo\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.ModuloProveedores.resources
+C:\Users\ccarrera\Desktop\Prototipo\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.frm_inicio.resources
+C:\Users\ccarrera\Desktop\Prototipo\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.Properties.Resources.resources
+C:\Users\ccarrera\Desktop\Prototipo\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.csproj.GenerateResource.Cache
+C:\Users\ccarrera\Documents\Octavo Ciclo\diseno de sistemas\Grupo5\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\bin\Debug\WindowsFormsApplication5.exe.config
+C:\Users\ccarrera\Documents\Octavo Ciclo\diseno de sistemas\Grupo5\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.exe
+C:\Users\ccarrera\Documents\Octavo Ciclo\diseno de sistemas\Grupo5\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.pdb
+C:\Users\ccarrera\Documents\Octavo Ciclo\diseno de sistemas\Grupo5\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\bin\Debug\WindowsFormsApplication5.exe
+C:\Users\ccarrera\Documents\Octavo Ciclo\diseno de sistemas\Grupo5\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\bin\Debug\WindowsFormsApplication5.pdb
+C:\Users\ccarrera\Documents\Octavo Ciclo\diseno de sistemas\Grupo5\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.csprojResolveAssemblyReference.cache
+C:\Users\ccarrera\Documents\Octavo Ciclo\diseno de sistemas\Grupo5\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\ComprasProveedores.ComprasProveedores.resources
+C:\Users\ccarrera\Documents\Octavo Ciclo\diseno de sistemas\Grupo5\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\ComprasProveedores.DetalleCompra.resources
+C:\Users\ccarrera\Documents\Octavo Ciclo\diseno de sistemas\Grupo5\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.DetalleOrdenCompra.resources
+C:\Users\ccarrera\Documents\Octavo Ciclo\diseno de sistemas\Grupo5\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\Principal.CuentaCorrienteProveedor.resources
+C:\Users\ccarrera\Documents\Octavo Ciclo\diseno de sistemas\Grupo5\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\ComprasProveedores.GastosImportacion.resources
+C:\Users\ccarrera\Documents\Octavo Ciclo\diseno de sistemas\Grupo5\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\ComprasProveedores.InsertarCompra.resources
+C:\Users\ccarrera\Documents\Octavo Ciclo\diseno de sistemas\Grupo5\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.OrdenCompra.resources
+C:\Users\ccarrera\Documents\Octavo Ciclo\diseno de sistemas\Grupo5\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.ModuloProveedores.resources
+C:\Users\ccarrera\Documents\Octavo Ciclo\diseno de sistemas\Grupo5\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.frm_inicio.resources
+C:\Users\ccarrera\Documents\Octavo Ciclo\diseno de sistemas\Grupo5\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.Properties.Resources.resources
+C:\Users\ccarrera\Documents\Octavo Ciclo\diseno de sistemas\Grupo5\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.csproj.GenerateResource.Cache
+C:\Users\ccarrera\Documents\Octavo Ciclo\diseno de sistemas\Grupo5\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.CC_Proveedor.resources
+C:\Users\ccarrera\Documents\Octavo Ciclo\diseno de sistemas\Grupo5\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\bin\Debug\Abrir.exe
+C:\Users\ccarrera\Documents\Octavo Ciclo\diseno de sistemas\Grupo5\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\ccarrera\Documents\Octavo Ciclo\diseno de sistemas\Grupo5\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\ccarrera\Documents\Octavo Ciclo\diseno de sistemas\Grupo5\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\ccarrera\Documents\Octavo Ciclo\diseno de sistemas\Grupo5\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\ccarrera\Documents\Octavo Ciclo\diseno de sistemas\Grupo5\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\ccarrera\Documents\Octavo Ciclo\diseno de sistemas\Grupo5\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\ccarrera\Documents\Octavo Ciclo\diseno de sistemas\Grupo5\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\ccarrera\Documents\Octavo Ciclo\diseno de sistemas\Grupo5\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\ccarrera\Documents\Octavo Ciclo\diseno de sistemas\Grupo5\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\ccarrera\Documents\Octavo Ciclo\diseno de sistemas\Grupo5\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\ccarrera\Documents\Octavo Ciclo\diseno de sistemas\Grupo5\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\ccarrera\Documents\Octavo Ciclo\diseno de sistemas\Grupo5\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\ccarrera\Documents\Octavo Ciclo\diseno de sistemas\Grupo5\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\ccarrera\Documents\Octavo Ciclo\diseno de sistemas\Grupo5\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\ccarrera\Documents\Octavo Ciclo\diseno de sistemas\Grupo5\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\ccarrera\Documents\Octavo Ciclo\diseno de sistemas\Grupo5\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\bin\Debug\FlashControlV71.dll
+C:\Users\ccarrera\Documents\Octavo Ciclo\diseno de sistemas\Grupo5\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\ccarrera\Documents\Octavo Ciclo\diseno de sistemas\Grupo5\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\bin\Debug\stdole.dll
+C:\Users\ccarrera\Documents\Octavo Ciclo\diseno de sistemas\Grupo5\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\ccarrera\Documents\Octavo Ciclo\diseno de sistemas\Grupo5\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\bin\Debug\Abrir.pdb
+C:\Users\ccarrera\Documents\Octavo Ciclo\diseno de sistemas\Grupo5\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.PagoProveedor.resources
+C:\Users\ccarrera\Desktop\Grupo 5\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\bin\Debug\WindowsFormsApplication5.exe.config
+C:\Users\ccarrera\Desktop\Grupo 5\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.exe
+C:\Users\ccarrera\Desktop\Grupo 5\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.pdb
+C:\Users\USER\Downloads\grupo5\Grupo 5\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\bin\Debug\WindowsFormsApplication5.exe.config
+C:\Users\USER\Downloads\grupo5\Grupo 5\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.exe
+C:\Users\USER\Downloads\grupo5\Grupo 5\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.pdb
+C:\Users\USER\Downloads\grupo5\Grupo 5\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\bin\Debug\WindowsFormsApplication5.exe
+C:\Users\USER\Downloads\grupo5\Grupo 5\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\bin\Debug\WindowsFormsApplication5.pdb
+C:\Users\USER\Downloads\grupo5\Grupo 5\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\USER\Downloads\grupo5\Grupo 5\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\USER\Downloads\grupo5\Grupo 5\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\USER\Downloads\grupo5\Grupo 5\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\USER\Downloads\grupo5\Grupo 5\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\USER\Downloads\grupo5\Grupo 5\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\USER\Downloads\grupo5\Grupo 5\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\USER\Downloads\grupo5\Grupo 5\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\USER\Downloads\grupo5\Grupo 5\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\USER\Downloads\grupo5\Grupo 5\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\USER\Downloads\grupo5\Grupo 5\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\USER\Downloads\grupo5\Grupo 5\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\USER\Downloads\grupo5\Grupo 5\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\USER\Downloads\grupo5\Grupo 5\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\USER\Downloads\grupo5\Grupo 5\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\USER\Downloads\grupo5\Grupo 5\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\bin\Debug\FlashControlV71.dll
+C:\Users\USER\Downloads\grupo5\Grupo 5\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\USER\Downloads\grupo5\Grupo 5\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\bin\Debug\stdole.dll
+C:\Users\USER\Downloads\grupo5\Grupo 5\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\USER\Downloads\grupo5\Grupo 5\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.csprojResolveAssemblyReference.cache
+C:\Users\USER\Downloads\grupo5\Grupo 5\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.CC_Proveedor.resources
+C:\Users\USER\Downloads\grupo5\Grupo 5\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.DetalleOrdenCompra.resources
+C:\Users\USER\Downloads\grupo5\Grupo 5\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\Principal.CuentaCorrienteProveedor.resources
+C:\Users\USER\Downloads\grupo5\Grupo 5\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.OrdenCompra.resources
+C:\Users\USER\Downloads\grupo5\Grupo 5\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.ModuloProveedores.resources
+C:\Users\USER\Downloads\grupo5\Grupo 5\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.frm_inicio.resources
+C:\Users\USER\Downloads\grupo5\Grupo 5\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.PagoProveedor.resources
+C:\Users\USER\Downloads\grupo5\Grupo 5\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.Properties.Resources.resources
+C:\Users\USER\Downloads\grupo5\Grupo 5\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.csproj.GenerateResource.Cache
+C:\Users\USER\Downloads\grupo5\Grupo 5\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.CompraProveedores.resources
+C:\Users\USER\Downloads\grupo5\Grupo 5\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.DetalleCompra.resources
+C:\Users\USER\Downloads\grupo5\Grupo 5\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.InsertarCompra.resources
+C:\Users\USER\Downloads\grupo5\Grupo 5\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.InsertarGastosImportacion.resources
+C:\Users\USER\Downloads\grupo5\Grupo 5\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\obj\Debug\WindowsFormsApplication5.GastosImportacionInformacion.resources
+C:\Users\USER\Downloads\grupo5\Grupo 5\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\bin\Debug\FuncionesNavegador.dll
+C:\Users\USER\Downloads\grupo5\Grupo 5\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\bin\Debug\FuncionesNavegador.pdb
+C:\Users\USER\Downloads\grupo5\Grupo 5\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\bin\Debug\MySql.Data.dll
+C:\Users\USER\Downloads\grupo5\Grupo 5\WindowsFormsApplication5\WindowsFormsApplication5\WindowsFormsApplication5\bin\Debug\dllconsultas.dll
