@@ -1,0 +1,3 @@
+Nombre,Ubicacion
+Empleados,C:\Users\ccarrera\Desktop\Entregar\Prueba\Prueba\CrystalReport1.rpt
+Proveedor,C:\Users\ccarrera\Desktop\PNG.PNG
