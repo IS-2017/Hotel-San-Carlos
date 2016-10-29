@@ -78,3 +78,6 @@ C:\Users\Roberto Carlos\Documents\GitHub\Hotel-San-Carlos\Grupo2\WindowsFormsApp
 C:\Users\Roberto Carlos\Documents\GitHub\Hotel-San-Carlos\Grupo2\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Properties.Resources.resources
 C:\Users\Roberto Carlos\Documents\GitHub\Hotel-San-Carlos\Grupo2\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.csproj.GenerateResource.Cache
 C:\Users\Roberto Carlos\Documents\GitHub\Hotel-San-Carlos\Grupo2\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\dllconsultas.dll
+E:\Escritorio\Hotel-San-Carlos\Grupo2\Probar Consulta con DLL\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe.config
+E:\Escritorio\Hotel-San-Carlos\Grupo2\Probar Consulta con DLL\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.exe
+E:\Escritorio\Hotel-San-Carlos\Grupo2\Probar Consulta con DLL\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.pdb

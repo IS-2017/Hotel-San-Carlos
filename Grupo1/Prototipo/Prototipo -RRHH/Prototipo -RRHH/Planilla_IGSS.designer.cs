@@ -28,8 +28,18 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Planilla_IGSS));
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.gpb_planilla_igss = new System.Windows.Forms.GroupBox();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.btn_generar = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.txt_igss = new System.Windows.Forms.TextBox();
+            this.lbl_nombre_emp = new System.Windows.Forms.Label();
+            this.cbo_empres = new System.Windows.Forms.ComboBox();
+            this.lbl_empres = new System.Windows.Forms.Label();
+            this.gpb_navegador = new System.Windows.Forms.GroupBox();
             this.btn_nuevo = new System.Windows.Forms.Button();
             this.btn_ultimo = new System.Windows.Forms.Button();
             this.btn_guardar = new System.Windows.Forms.Button();
@@ -41,46 +51,147 @@
             this.btn_buscar = new System.Windows.Forms.Button();
             this.btn_actualizar = new System.Windows.Forms.Button();
             this.btn_cancelar = new System.Windows.Forms.Button();
-            this.cbo_emp = new System.Windows.Forms.ComboBox();
-            this.lbl_emp = new System.Windows.Forms.Label();
-            this.gpb_pigss = new System.Windows.Forms.GroupBox();
-            this.lbl_total = new System.Windows.Forms.Label();
-            this.txt_total_s = new System.Windows.Forms.TextBox();
-            this.txt_igss = new System.Windows.Forms.TextBox();
-            this.lbl_igss = new System.Windows.Forms.Label();
-            this.lbl_sueldo = new System.Windows.Forms.Label();
-            this.txt_sueldo = new System.Windows.Forms.TextBox();
-            this.txt_nom_emp = new System.Windows.Forms.TextBox();
-            this.lbl_nombre_emp = new System.Windows.Forms.Label();
-            this.cbo_empres = new System.Windows.Forms.ComboBox();
-            this.lbl_empres = new System.Windows.Forms.Label();
-            this.lbl_nomina = new System.Windows.Forms.Label();
-            this.cbo_nomina = new System.Windows.Forms.ComboBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.groupBox1.SuspendLayout();
-            this.gpb_pigss.SuspendLayout();
+            this.lbl_form_emp = new System.Windows.Forms.Label();
+            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
+            this.toolTip2 = new System.Windows.Forms.ToolTip(this.components);
+            this.toolTip3 = new System.Windows.Forms.ToolTip(this.components);
+            this.toolTip4 = new System.Windows.Forms.ToolTip(this.components);
+            this.toolTip5 = new System.Windows.Forms.ToolTip(this.components);
+            this.toolTip6 = new System.Windows.Forms.ToolTip(this.components);
+            this.toolTip7 = new System.Windows.Forms.ToolTip(this.components);
+            this.toolTip8 = new System.Windows.Forms.ToolTip(this.components);
+            this.toolTip9 = new System.Windows.Forms.ToolTip(this.components);
+            this.toolTip10 = new System.Windows.Forms.ToolTip(this.components);
+            this.toolTip11 = new System.Windows.Forms.ToolTip(this.components);
+            this.ID_EMPLEADO = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.EMPLEADO = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.PORCENTAJE_IGSS = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.SUELDO_BASE = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.IGSS_PAGAR = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.gpb_planilla_igss.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.gpb_navegador.SuspendLayout();
             this.SuspendLayout();
             // 
-            // groupBox1
+            // gpb_planilla_igss
             // 
-            this.groupBox1.Controls.Add(this.btn_nuevo);
-            this.groupBox1.Controls.Add(this.btn_ultimo);
-            this.groupBox1.Controls.Add(this.btn_guardar);
-            this.groupBox1.Controls.Add(this.btn_primero);
-            this.groupBox1.Controls.Add(this.btn_editar);
-            this.groupBox1.Controls.Add(this.btn_siguiente);
-            this.groupBox1.Controls.Add(this.btn_eliminar);
-            this.groupBox1.Controls.Add(this.btn_anterior);
-            this.groupBox1.Controls.Add(this.btn_buscar);
-            this.groupBox1.Controls.Add(this.btn_actualizar);
-            this.groupBox1.Controls.Add(this.btn_cancelar);
-            this.groupBox1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(34, 80);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(649, 102);
-            this.groupBox1.TabIndex = 11;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Navegador";
+            this.gpb_planilla_igss.Controls.Add(this.dataGridView1);
+            this.gpb_planilla_igss.Controls.Add(this.btn_generar);
+            this.gpb_planilla_igss.Controls.Add(this.label2);
+            this.gpb_planilla_igss.Controls.Add(this.dateTimePicker1);
+            this.gpb_planilla_igss.Controls.Add(this.txt_igss);
+            this.gpb_planilla_igss.Controls.Add(this.lbl_nombre_emp);
+            this.gpb_planilla_igss.Controls.Add(this.cbo_empres);
+            this.gpb_planilla_igss.Controls.Add(this.lbl_empres);
+            this.gpb_planilla_igss.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gpb_planilla_igss.Location = new System.Drawing.Point(12, 166);
+            this.gpb_planilla_igss.Name = "gpb_planilla_igss";
+            this.gpb_planilla_igss.Size = new System.Drawing.Size(922, 361);
+            this.gpb_planilla_igss.TabIndex = 162;
+            this.gpb_planilla_igss.TabStop = false;
+            this.gpb_planilla_igss.Text = "Datos";
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.ID_EMPLEADO,
+            this.EMPLEADO,
+            this.PORCENTAJE_IGSS,
+            this.SUELDO_BASE,
+            this.IGSS_PAGAR});
+            this.dataGridView1.Location = new System.Drawing.Point(17, 125);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(824, 150);
+            this.dataGridView1.TabIndex = 178;
+            // 
+            // btn_generar
+            // 
+            this.btn_generar.Location = new System.Drawing.Point(349, 304);
+            this.btn_generar.Name = "btn_generar";
+            this.btn_generar.Size = new System.Drawing.Size(194, 48);
+            this.btn_generar.TabIndex = 177;
+            this.btn_generar.Text = "GENERAR";
+            this.btn_generar.UseVisualStyleBackColor = true;
+            this.btn_generar.Click += new System.EventHandler(this.btn_generar_Click);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(480, 38);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(63, 21);
+            this.label2.TabIndex = 175;
+            this.label2.Text = "Fecha:";
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateTimePicker1.Location = new System.Drawing.Point(549, 41);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(286, 24);
+            this.dateTimePicker1.TabIndex = 174;
+            // 
+            // txt_igss
+            // 
+            this.txt_igss.Location = new System.Drawing.Point(372, 36);
+            this.txt_igss.Name = "txt_igss";
+            this.txt_igss.Size = new System.Drawing.Size(85, 27);
+            this.txt_igss.TabIndex = 167;
+            // 
+            // lbl_nombre_emp
+            // 
+            this.lbl_nombre_emp.AutoSize = true;
+            this.lbl_nombre_emp.Location = new System.Drawing.Point(310, 41);
+            this.lbl_nombre_emp.Name = "lbl_nombre_emp";
+            this.lbl_nombre_emp.Size = new System.Drawing.Size(65, 21);
+            this.lbl_nombre_emp.TabIndex = 166;
+            this.lbl_nombre_emp.Text = "% IGSS:";
+            // 
+            // cbo_empres
+            // 
+            this.cbo_empres.Enabled = false;
+            this.cbo_empres.FormattingEnabled = true;
+            this.cbo_empres.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"});
+            this.cbo_empres.Location = new System.Drawing.Point(96, 31);
+            this.cbo_empres.Name = "cbo_empres";
+            this.cbo_empres.Size = new System.Drawing.Size(197, 29);
+            this.cbo_empres.TabIndex = 165;
+            // 
+            // lbl_empres
+            // 
+            this.lbl_empres.AutoSize = true;
+            this.lbl_empres.Location = new System.Drawing.Point(13, 36);
+            this.lbl_empres.Name = "lbl_empres";
+            this.lbl_empres.Size = new System.Drawing.Size(77, 21);
+            this.lbl_empres.TabIndex = 164;
+            this.lbl_empres.Text = "Empresa";
+            // 
+            // gpb_navegador
+            // 
+            this.gpb_navegador.Controls.Add(this.btn_nuevo);
+            this.gpb_navegador.Controls.Add(this.btn_ultimo);
+            this.gpb_navegador.Controls.Add(this.btn_guardar);
+            this.gpb_navegador.Controls.Add(this.btn_primero);
+            this.gpb_navegador.Controls.Add(this.btn_editar);
+            this.gpb_navegador.Controls.Add(this.btn_siguiente);
+            this.gpb_navegador.Controls.Add(this.btn_eliminar);
+            this.gpb_navegador.Controls.Add(this.btn_anterior);
+            this.gpb_navegador.Controls.Add(this.btn_buscar);
+            this.gpb_navegador.Controls.Add(this.btn_actualizar);
+            this.gpb_navegador.Controls.Add(this.btn_cancelar);
+            this.gpb_navegador.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gpb_navegador.Location = new System.Drawing.Point(12, 60);
+            this.gpb_navegador.Name = "gpb_navegador";
+            this.gpb_navegador.Size = new System.Drawing.Size(636, 100);
+            this.gpb_navegador.TabIndex = 177;
+            this.gpb_navegador.TabStop = false;
+            this.gpb_navegador.Text = "Navegador";
             // 
             // btn_nuevo
             // 
@@ -91,11 +202,13 @@
             this.btn_nuevo.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btn_nuevo.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
             this.btn_nuevo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_nuevo.Location = new System.Drawing.Point(17, 19);
+            this.btn_nuevo.Location = new System.Drawing.Point(17, 21);
             this.btn_nuevo.Name = "btn_nuevo";
             this.btn_nuevo.Size = new System.Drawing.Size(65, 65);
             this.btn_nuevo.TabIndex = 0;
+            this.toolTip1.SetToolTip(this.btn_nuevo, "Nuevo");
             this.btn_nuevo.UseVisualStyleBackColor = true;
+            this.btn_nuevo.Click += new System.EventHandler(this.btn_nuevo_Click);
             // 
             // btn_ultimo
             // 
@@ -110,6 +223,7 @@
             this.btn_ultimo.Name = "btn_ultimo";
             this.btn_ultimo.Size = new System.Drawing.Size(33, 33);
             this.btn_ultimo.TabIndex = 10;
+            this.toolTip9.SetToolTip(this.btn_ultimo, "Ultimo");
             this.btn_ultimo.UseVisualStyleBackColor = true;
             // 
             // btn_guardar
@@ -125,7 +239,9 @@
             this.btn_guardar.Name = "btn_guardar";
             this.btn_guardar.Size = new System.Drawing.Size(65, 65);
             this.btn_guardar.TabIndex = 1;
+            this.toolTip10.SetToolTip(this.btn_guardar, "Guardar");
             this.btn_guardar.UseVisualStyleBackColor = true;
+            this.btn_guardar.Click += new System.EventHandler(this.btn_guardar_Click_1);
             // 
             // btn_primero
             // 
@@ -140,6 +256,7 @@
             this.btn_primero.Name = "btn_primero";
             this.btn_primero.Size = new System.Drawing.Size(33, 33);
             this.btn_primero.TabIndex = 9;
+            this.toolTip8.SetToolTip(this.btn_primero, "Primero");
             this.btn_primero.UseVisualStyleBackColor = true;
             // 
             // btn_editar
@@ -155,6 +272,7 @@
             this.btn_editar.Name = "btn_editar";
             this.btn_editar.Size = new System.Drawing.Size(65, 65);
             this.btn_editar.TabIndex = 2;
+            this.toolTip11.SetToolTip(this.btn_editar, "Editar");
             this.btn_editar.UseVisualStyleBackColor = true;
             // 
             // btn_siguiente
@@ -170,6 +288,7 @@
             this.btn_siguiente.Name = "btn_siguiente";
             this.btn_siguiente.Size = new System.Drawing.Size(33, 33);
             this.btn_siguiente.TabIndex = 8;
+            this.toolTip7.SetToolTip(this.btn_siguiente, "Siguiente");
             this.btn_siguiente.UseVisualStyleBackColor = true;
             // 
             // btn_eliminar
@@ -185,6 +304,7 @@
             this.btn_eliminar.Name = "btn_eliminar";
             this.btn_eliminar.Size = new System.Drawing.Size(65, 65);
             this.btn_eliminar.TabIndex = 3;
+            this.toolTip2.SetToolTip(this.btn_eliminar, "Eliminar");
             this.btn_eliminar.UseVisualStyleBackColor = true;
             // 
             // btn_anterior
@@ -200,6 +320,7 @@
             this.btn_anterior.Name = "btn_anterior";
             this.btn_anterior.Size = new System.Drawing.Size(33, 33);
             this.btn_anterior.TabIndex = 7;
+            this.toolTip6.SetToolTip(this.btn_anterior, "Anterior");
             this.btn_anterior.UseVisualStyleBackColor = true;
             // 
             // btn_buscar
@@ -211,10 +332,11 @@
             this.btn_buscar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btn_buscar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
             this.btn_buscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_buscar.Location = new System.Drawing.Point(301, 18);
+            this.btn_buscar.Location = new System.Drawing.Point(301, 19);
             this.btn_buscar.Name = "btn_buscar";
             this.btn_buscar.Size = new System.Drawing.Size(65, 65);
             this.btn_buscar.TabIndex = 4;
+            this.toolTip3.SetToolTip(this.btn_buscar, "Buscar");
             this.btn_buscar.UseVisualStyleBackColor = true;
             // 
             // btn_actualizar
@@ -230,6 +352,7 @@
             this.btn_actualizar.Name = "btn_actualizar";
             this.btn_actualizar.Size = new System.Drawing.Size(65, 65);
             this.btn_actualizar.TabIndex = 6;
+            this.toolTip5.SetToolTip(this.btn_actualizar, "Actualizar");
             this.btn_actualizar.UseVisualStyleBackColor = true;
             // 
             // btn_cancelar
@@ -241,188 +364,83 @@
             this.btn_cancelar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btn_cancelar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
             this.btn_cancelar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_cancelar.Location = new System.Drawing.Point(372, 18);
+            this.btn_cancelar.Location = new System.Drawing.Point(372, 19);
             this.btn_cancelar.Name = "btn_cancelar";
             this.btn_cancelar.Size = new System.Drawing.Size(65, 65);
             this.btn_cancelar.TabIndex = 5;
+            this.toolTip4.SetToolTip(this.btn_cancelar, "Cancelar");
             this.btn_cancelar.UseVisualStyleBackColor = true;
+            this.btn_cancelar.Click += new System.EventHandler(this.btn_cancelar_Click);
             // 
-            // cbo_emp
+            // lbl_form_emp
             // 
-            this.cbo_emp.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cbo_emp.FormattingEnabled = true;
-            this.cbo_emp.Location = new System.Drawing.Point(126, 123);
-            this.cbo_emp.Name = "cbo_emp";
-            this.cbo_emp.Size = new System.Drawing.Size(121, 29);
-            this.cbo_emp.TabIndex = 160;
+            this.lbl_form_emp.AutoSize = true;
+            this.lbl_form_emp.Font = new System.Drawing.Font("Microsoft Sans Serif", 21F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_form_emp.Location = new System.Drawing.Point(355, 9);
+            this.lbl_form_emp.Name = "lbl_form_emp";
+            this.lbl_form_emp.Size = new System.Drawing.Size(244, 32);
+            this.lbl_form_emp.TabIndex = 170;
+            this.lbl_form_emp.Text = "Planillas del IGSS";
             // 
-            // lbl_emp
+            // ID_EMPLEADO
             // 
-            this.lbl_emp.AutoSize = true;
-            this.lbl_emp.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_emp.Location = new System.Drawing.Point(33, 123);
-            this.lbl_emp.Name = "lbl_emp";
-            this.lbl_emp.Size = new System.Drawing.Size(90, 21);
-            this.lbl_emp.TabIndex = 161;
-            this.lbl_emp.Text = "Empleado";
+            this.ID_EMPLEADO.HeaderText = "ID_EMPLEADO";
+            this.ID_EMPLEADO.Name = "ID_EMPLEADO";
             // 
-            // gpb_pigss
+            // EMPLEADO
             // 
-            this.gpb_pigss.Controls.Add(this.lbl_total);
-            this.gpb_pigss.Controls.Add(this.txt_total_s);
-            this.gpb_pigss.Controls.Add(this.txt_igss);
-            this.gpb_pigss.Controls.Add(this.lbl_igss);
-            this.gpb_pigss.Controls.Add(this.lbl_sueldo);
-            this.gpb_pigss.Controls.Add(this.txt_sueldo);
-            this.gpb_pigss.Controls.Add(this.txt_nom_emp);
-            this.gpb_pigss.Controls.Add(this.lbl_nombre_emp);
-            this.gpb_pigss.Controls.Add(this.cbo_empres);
-            this.gpb_pigss.Controls.Add(this.lbl_empres);
-            this.gpb_pigss.Controls.Add(this.lbl_nomina);
-            this.gpb_pigss.Controls.Add(this.cbo_nomina);
-            this.gpb_pigss.Controls.Add(this.cbo_emp);
-            this.gpb_pigss.Controls.Add(this.lbl_emp);
-            this.gpb_pigss.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gpb_pigss.Location = new System.Drawing.Point(34, 202);
-            this.gpb_pigss.Name = "gpb_pigss";
-            this.gpb_pigss.Size = new System.Drawing.Size(649, 291);
-            this.gpb_pigss.TabIndex = 162;
-            this.gpb_pigss.TabStop = false;
-            this.gpb_pigss.Text = "Datos";
+            this.EMPLEADO.HeaderText = "EMPLEADO";
+            this.EMPLEADO.Name = "EMPLEADO";
             // 
-            // lbl_total
+            // PORCENTAJE_IGSS
             // 
-            this.lbl_total.AutoSize = true;
-            this.lbl_total.Location = new System.Drawing.Point(33, 249);
-            this.lbl_total.Name = "lbl_total";
-            this.lbl_total.Size = new System.Drawing.Size(49, 21);
-            this.lbl_total.TabIndex = 173;
-            this.lbl_total.Text = "Total";
+            this.PORCENTAJE_IGSS.HeaderText = "PORCENTAJE_IGSS";
+            this.PORCENTAJE_IGSS.Name = "PORCENTAJE_IGSS";
             // 
-            // txt_total_s
+            // SUELDO_BASE
             // 
-            this.txt_total_s.Location = new System.Drawing.Point(131, 243);
-            this.txt_total_s.Name = "txt_total_s";
-            this.txt_total_s.Size = new System.Drawing.Size(100, 27);
-            this.txt_total_s.TabIndex = 172;
+            this.SUELDO_BASE.HeaderText = "SUELDO_BASE";
+            this.SUELDO_BASE.Name = "SUELDO_BASE";
             // 
-            // txt_igss
+            // IGSS_PAGAR
             // 
-            this.txt_igss.Location = new System.Drawing.Point(344, 202);
-            this.txt_igss.Name = "txt_igss";
-            this.txt_igss.Size = new System.Drawing.Size(100, 27);
-            this.txt_igss.TabIndex = 171;
-            // 
-            // lbl_igss
-            // 
-            this.lbl_igss.AutoSize = true;
-            this.lbl_igss.Location = new System.Drawing.Point(290, 205);
-            this.lbl_igss.Name = "lbl_igss";
-            this.lbl_igss.Size = new System.Drawing.Size(45, 21);
-            this.lbl_igss.TabIndex = 170;
-            this.lbl_igss.Text = "IGSS";
-            // 
-            // lbl_sueldo
-            // 
-            this.lbl_sueldo.AutoSize = true;
-            this.lbl_sueldo.Location = new System.Drawing.Point(33, 202);
-            this.lbl_sueldo.Name = "lbl_sueldo";
-            this.lbl_sueldo.Size = new System.Drawing.Size(62, 21);
-            this.lbl_sueldo.TabIndex = 169;
-            this.lbl_sueldo.Text = "Sueldo";
-            // 
-            // txt_sueldo
-            // 
-            this.txt_sueldo.Location = new System.Drawing.Point(131, 202);
-            this.txt_sueldo.Name = "txt_sueldo";
-            this.txt_sueldo.Size = new System.Drawing.Size(100, 27);
-            this.txt_sueldo.TabIndex = 168;
-            // 
-            // txt_nom_emp
-            // 
-            this.txt_nom_emp.Location = new System.Drawing.Point(196, 159);
-            this.txt_nom_emp.Name = "txt_nom_emp";
-            this.txt_nom_emp.Size = new System.Drawing.Size(437, 27);
-            this.txt_nom_emp.TabIndex = 167;
-            // 
-            // lbl_nombre_emp
-            // 
-            this.lbl_nombre_emp.AutoSize = true;
-            this.lbl_nombre_emp.Location = new System.Drawing.Point(33, 165);
-            this.lbl_nombre_emp.Name = "lbl_nombre_emp";
-            this.lbl_nombre_emp.Size = new System.Drawing.Size(157, 21);
-            this.lbl_nombre_emp.TabIndex = 166;
-            this.lbl_nombre_emp.Text = "Nombre Empleado";
-            // 
-            // cbo_empres
-            // 
-            this.cbo_empres.FormattingEnabled = true;
-            this.cbo_empres.Location = new System.Drawing.Point(126, 82);
-            this.cbo_empres.Name = "cbo_empres";
-            this.cbo_empres.Size = new System.Drawing.Size(197, 29);
-            this.cbo_empres.TabIndex = 165;
-            // 
-            // lbl_empres
-            // 
-            this.lbl_empres.AutoSize = true;
-            this.lbl_empres.Location = new System.Drawing.Point(33, 82);
-            this.lbl_empres.Name = "lbl_empres";
-            this.lbl_empres.Size = new System.Drawing.Size(77, 21);
-            this.lbl_empres.TabIndex = 164;
-            this.lbl_empres.Text = "Empresa";
-            // 
-            // lbl_nomina
-            // 
-            this.lbl_nomina.AutoSize = true;
-            this.lbl_nomina.Location = new System.Drawing.Point(33, 39);
-            this.lbl_nomina.Name = "lbl_nomina";
-            this.lbl_nomina.Size = new System.Drawing.Size(71, 21);
-            this.lbl_nomina.TabIndex = 163;
-            this.lbl_nomina.Text = "Nomina";
-            // 
-            // cbo_nomina
-            // 
-            this.cbo_nomina.FormattingEnabled = true;
-            this.cbo_nomina.Location = new System.Drawing.Point(126, 39);
-            this.cbo_nomina.Name = "cbo_nomina";
-            this.cbo_nomina.Size = new System.Drawing.Size(339, 29);
-            this.cbo_nomina.TabIndex = 162;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Century Gothic", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(294, 19);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(184, 36);
-            this.label1.TabIndex = 163;
-            this.label1.Text = "Planilla IGSS";
+            this.IGSS_PAGAR.HeaderText = "IGSS_PAGAR";
+            this.IGSS_PAGAR.Name = "IGSS_PAGAR";
             // 
             // Planilla_IGSS
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(204)))), ((int)(((byte)(150)))));
-            this.ClientSize = new System.Drawing.Size(731, 533);
-            this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.gpb_pigss);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
+            this.ClientSize = new System.Drawing.Size(946, 530);
+            this.Controls.Add(this.lbl_form_emp);
+            this.Controls.Add(this.gpb_navegador);
+            this.Controls.Add(this.gpb_planilla_igss);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "Planilla_IGSS";
-            this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Planilla_IGSS";
-            this.groupBox1.ResumeLayout(false);
-            this.gpb_pigss.ResumeLayout(false);
-            this.gpb_pigss.PerformLayout();
+            this.Text = "Planilla IGSS";
+            this.Load += new System.EventHandler(this.Planilla_IGSS_Load);
+            this.gpb_planilla_igss.ResumeLayout(false);
+            this.gpb_planilla_igss.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.gpb_navegador.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.GroupBox gpb_planilla_igss;
+        private System.Windows.Forms.ComboBox cbo_empres;
+        private System.Windows.Forms.Label lbl_empres;
+        private System.Windows.Forms.TextBox txt_igss;
+        private System.Windows.Forms.Label lbl_nombre_emp;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.GroupBox gpb_navegador;
         private System.Windows.Forms.Button btn_nuevo;
         private System.Windows.Forms.Button btn_ultimo;
         private System.Windows.Forms.Button btn_guardar;
@@ -434,21 +452,24 @@
         private System.Windows.Forms.Button btn_buscar;
         private System.Windows.Forms.Button btn_actualizar;
         private System.Windows.Forms.Button btn_cancelar;
-        private System.Windows.Forms.ComboBox cbo_emp;
-        private System.Windows.Forms.Label lbl_emp;
-        private System.Windows.Forms.GroupBox gpb_pigss;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.ComboBox cbo_empres;
-        private System.Windows.Forms.Label lbl_empres;
-        private System.Windows.Forms.Label lbl_nomina;
-        private System.Windows.Forms.ComboBox cbo_nomina;
-        private System.Windows.Forms.Label lbl_total;
-        private System.Windows.Forms.TextBox txt_total_s;
-        private System.Windows.Forms.TextBox txt_igss;
-        private System.Windows.Forms.Label lbl_igss;
-        private System.Windows.Forms.Label lbl_sueldo;
-        private System.Windows.Forms.TextBox txt_sueldo;
-        private System.Windows.Forms.TextBox txt_nom_emp;
-        private System.Windows.Forms.Label lbl_nombre_emp;
+        private System.Windows.Forms.Label lbl_form_emp;
+        private System.Windows.Forms.ToolTip toolTip1;
+        private System.Windows.Forms.ToolTip toolTip9;
+        private System.Windows.Forms.ToolTip toolTip10;
+        private System.Windows.Forms.ToolTip toolTip8;
+        private System.Windows.Forms.ToolTip toolTip11;
+        private System.Windows.Forms.ToolTip toolTip7;
+        private System.Windows.Forms.ToolTip toolTip2;
+        private System.Windows.Forms.ToolTip toolTip6;
+        private System.Windows.Forms.ToolTip toolTip3;
+        private System.Windows.Forms.ToolTip toolTip5;
+        private System.Windows.Forms.ToolTip toolTip4;
+        private System.Windows.Forms.Button btn_generar;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ID_EMPLEADO;
+        private System.Windows.Forms.DataGridViewTextBoxColumn EMPLEADO;
+        private System.Windows.Forms.DataGridViewTextBoxColumn PORCENTAJE_IGSS;
+        private System.Windows.Forms.DataGridViewTextBoxColumn SUELDO_BASE;
+        private System.Windows.Forms.DataGridViewTextBoxColumn IGSS_PAGAR;
     }
 }

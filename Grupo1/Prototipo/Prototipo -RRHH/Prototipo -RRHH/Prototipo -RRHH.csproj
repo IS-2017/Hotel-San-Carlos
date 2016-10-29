@@ -33,6 +33,18 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="dllconsultas, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\dllconsultas.dll</HintPath>
+    </Reference>
+    <Reference Include="FuncionesNavegador, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\FuncionesNavegador.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=6.9.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\MySQL\MySQL Connector Net 6.9.9\Assemblies\v4.0\MySql.Data.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -52,20 +64,42 @@
     <Compile Include="Comisiones_Vendedor.designer.cs">
       <DependentUpon>Comisiones_Vendedor.cs</DependentUpon>
     </Compile>
+    <Compile Include="Conexionmysql.cs" />
     <Compile Include="Empleados.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Empleados.Designer.cs">
       <DependentUpon>Empleados.cs</DependentUpon>
     </Compile>
-    <Compile Include="frm_Nominas.cs">
+    <Compile Include="frm_Detalle_Nomina.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frm_Prestamos.cs">
+    <Compile Include="frm_Detalle_Nomina.Designer.cs">
+      <DependentUpon>frm_Detalle_Nomina.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Empleados_grid.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frm_Prestamos.Designer.cs">
-      <DependentUpon>frm_Prestamos.cs</DependentUpon>
+    <Compile Include="frm_Empleados_grid.Designer.cs">
+      <DependentUpon>frm_Empleados_grid.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Nominas_Empleados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Nominas_Empleados.Designer.cs">
+      <DependentUpon>frm_Nominas_Empleados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Devengados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Devengados.Designer.cs">
+      <DependentUpon>frm_Devengados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Deducciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Deducciones.Designer.cs">
+      <DependentUpon>frm_Deducciones.cs</DependentUpon>
     </Compile>
     <Compile Include="Login_Prueba.cs">
       <SubType>Form</SubType>
@@ -93,11 +127,20 @@
     <EmbeddedResource Include="Empleados.resx">
       <DependentUpon>Empleados.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frm_Nominas.resx">
-      <DependentUpon>frm_Nominas.cs</DependentUpon>
+    <EmbeddedResource Include="frm_Detalle_Nomina.resx">
+      <DependentUpon>frm_Detalle_Nomina.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frm_Prestamos.resx">
-      <DependentUpon>frm_Prestamos.cs</DependentUpon>
+    <EmbeddedResource Include="frm_Empleados_grid.resx">
+      <DependentUpon>frm_Empleados_grid.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Nominas_Empleados.resx">
+      <DependentUpon>frm_Nominas_Empleados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Devengados.resx">
+      <DependentUpon>frm_Devengados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Deducciones.resx">
+      <DependentUpon>frm_Deducciones.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login_Prueba.resx">
       <DependentUpon>Login_Prueba.cs</DependentUpon>

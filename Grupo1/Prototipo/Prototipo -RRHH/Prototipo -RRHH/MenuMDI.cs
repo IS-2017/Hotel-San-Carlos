@@ -13,13 +13,17 @@ namespace Prototipo__RRHH
     public partial class MenuMDI : Form
     {
         private int childFormNumber = 0;
+        private const string ayudaCHM = "Ayuda-Modulo-RRHH.chm";
+        private const string indiceCHM = "support.html";
+        private const string acercasistema = "acercadelsistema.html";
 
-
-        frm_Prestamos frm_prest;
+        frm_Deducciones frm_prest;
         Empleados frm_empleados;
         Comisiones_Vendedor comi_ve;
         Planilla_IGSS plan_igss;
-        frm_Nominas frm_nomin;
+        frm_Nominas_Empleados frm_nomin;
+        frm_Devengados frm_prest_lab;
+        frm_Empleados_grid frm_emp_dgv;
 
 
 
@@ -113,40 +117,73 @@ namespace Prototipo__RRHH
         }
 
 
-
         private void prestamosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void prestamosToolStripMenuItem1_Click(object sender, EventArgs e)
         {
             if (frm_prest == null)
             {
-                frm_prest = new frm_Prestamos();
+                frm_prest = new frm_Deducciones();
                 frm_prest.MdiParent = this;
                 frm_prest.FormClosed += new FormClosedEventHandler(frm_prest_FormClosed);
                 frm_prest.Show();
             }
         }
-
         void frm_prest_FormClosed(object sender, EventArgs e)
         {
             frm_prest = null;
         }
 
-        private void empleadosToolStripMenuItem1_Click(object sender, EventArgs e)
+        private void salariosToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            if (frm_empleados == null)
+            if (frm_prest_lab == null)
             {
-                frm_empleados = new Empleados();
-                frm_empleados.MdiParent = this;
-                frm_empleados.FormClosed += new FormClosedEventHandler(frm_empleados_FormClosed);
-                frm_empleados.Show();
+                frm_prest_lab = new frm_Devengados();
+                frm_prest_lab.MdiParent = this;
+                frm_prest_lab.FormClosed += new FormClosedEventHandler(frm_prest_lab_FormClosed);
+                frm_prest_lab.Show();
+            }
+        }
+        void frm_prest_lab_FormClosed(object sender, EventArgs e)
+        {
+            frm_prest_lab = null;
+        }
+
+        private void contentsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            System.Windows.Forms.Help.ShowHelp(this, Application.StartupPath + @"\" + ayudaCHM);
+        }
+
+        private void indexToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Help.ShowHelp(this, ayudaCHM, HelpNavigator.Topic, indiceCHM);
+        }
+
+        private void searchToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Help.ShowHelp(this, ayudaCHM, HelpNavigator.Find, "");
+        }
+
+        private void empleadosToolStripMenuItem1_Click_1(object sender, EventArgs e)
+        {
+            if (frm_emp_dgv == null)
+            {
+                frm_emp_dgv = new frm_Empleados_grid();
+                frm_emp_dgv.MdiParent = this;
+                frm_emp_dgv.FormClosed += new FormClosedEventHandler(frm_empleados_FormClosed);
+                frm_emp_dgv.Show();
             }
         }
 
         void frm_empleados_FormClosed(object sender, EventArgs e)
         {
-            frm_empleados = null;
+            frm_emp_dgv = null;
         }
 
-        private void comisionDeVendedorToolStripMenuItem1_Click(object sender, EventArgs e)
+        private void comisionDeVendedorToolStripMenuItem1_Click_1(object sender, EventArgs e)
         {
             if (comi_ve == null)
             {
@@ -162,7 +199,22 @@ namespace Prototipo__RRHH
             comi_ve = null;
         }
 
-        private void planillaIGSSToolStripMenuItem1_Click(object sender, EventArgs e)
+        private void nominasToolStripMenuItem1_Click_1(object sender, EventArgs e)
+        {
+            if (frm_nomin == null)
+            {
+                frm_nomin = new frm_Nominas_Empleados();
+                frm_nomin.MdiParent = this;
+                frm_nomin.FormClosed += new FormClosedEventHandler(frm_nomin_FormClosed);
+                frm_nomin.Show();
+            }
+        }
+        void frm_nomin_FormClosed(object sender, EventArgs e)
+        {
+            frm_nomin = null;
+        }
+
+        private void planillaIGSSToolStripMenuItem1_Click_1(object sender, EventArgs e)
         {
             if (plan_igss == null)
             {
@@ -172,24 +224,10 @@ namespace Prototipo__RRHH
                 plan_igss.Show();
             }
         }
+
         void plan_igss_FormClosed(object sender, EventArgs e)
         {
             plan_igss = null;
-        }
-
-        private void nominasToolStripMenuItem1_Click(object sender, EventArgs e)
-        {
-            if (frm_nomin == null)
-            {
-                frm_nomin = new frm_Nominas();
-                frm_nomin.MdiParent = this;
-                frm_nomin.FormClosed += new FormClosedEventHandler(frm_nomin_FormClosed);
-                frm_nomin.Show();
-            }
-        }
-        void frm_nomin_FormClosed(object sender, EventArgs e)
-        {
-            frm_nomin = null;
         }
     }
 }

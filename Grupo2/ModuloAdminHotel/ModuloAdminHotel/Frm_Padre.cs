@@ -403,5 +403,14 @@ namespace ModuloAdminHotel
             reservasalon = null;
         }
 
+        private void procesosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void reservacionDeHabitacionToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
