@@ -196,6 +196,7 @@
             this.Name = "Login_Prueba";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login Modulo RRHH";
+            this.Load += new System.EventHandler(this.Login_Prueba_Load);
             this.Panel1.ResumeLayout(false);
             this.Panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pic_logo)).EndInit();

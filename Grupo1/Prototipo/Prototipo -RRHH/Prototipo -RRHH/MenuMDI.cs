@@ -24,6 +24,9 @@ namespace Prototipo__RRHH
         frm_Nominas_Empleados frm_nomin;
         frm_Devengados frm_prest_lab;
         frm_Empleados_grid frm_emp_dgv;
+        frm_Deducciones_grid frm_deducc_grid;
+        frm_Devengados_grid frm_deveng_grid;
+        frm_Nominas_Empleados_grid frm_nomin_emp_grid;
 
 
 
@@ -124,32 +127,32 @@ namespace Prototipo__RRHH
 
         private void prestamosToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-            if (frm_prest == null)
+            if (frm_deducc_grid == null)
             {
-                frm_prest = new frm_Deducciones();
-                frm_prest.MdiParent = this;
-                frm_prest.FormClosed += new FormClosedEventHandler(frm_prest_FormClosed);
-                frm_prest.Show();
+                frm_deducc_grid = new frm_Deducciones_grid();
+                frm_deducc_grid.MdiParent = this;
+                frm_deducc_grid.FormClosed += new FormClosedEventHandler(frm_deducc_grid_FormClosed);
+                frm_deducc_grid.Show();
             }
         }
-        void frm_prest_FormClosed(object sender, EventArgs e)
+        void frm_deducc_grid_FormClosed(object sender, EventArgs e)
         {
-            frm_prest = null;
+            frm_deducc_grid = null;
         }
 
         private void salariosToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            if (frm_prest_lab == null)
+            if (frm_deveng_grid == null)
             {
-                frm_prest_lab = new frm_Devengados();
-                frm_prest_lab.MdiParent = this;
-                frm_prest_lab.FormClosed += new FormClosedEventHandler(frm_prest_lab_FormClosed);
-                frm_prest_lab.Show();
+                frm_deveng_grid = new frm_Devengados_grid();
+                frm_deveng_grid.MdiParent = this;
+                frm_deveng_grid.FormClosed += new FormClosedEventHandler(frm_deveng_grid_lab_FormClosed);
+                frm_deveng_grid.Show();
             }
         }
-        void frm_prest_lab_FormClosed(object sender, EventArgs e)
+        void frm_deveng_grid_lab_FormClosed(object sender, EventArgs e)
         {
-            frm_prest_lab = null;
+            frm_deveng_grid = null;
         }
 
         private void contentsToolStripMenuItem_Click(object sender, EventArgs e)
@@ -201,17 +204,17 @@ namespace Prototipo__RRHH
 
         private void nominasToolStripMenuItem1_Click_1(object sender, EventArgs e)
         {
-            if (frm_nomin == null)
+            if (frm_nomin_emp_grid == null)
             {
-                frm_nomin = new frm_Nominas_Empleados();
-                frm_nomin.MdiParent = this;
-                frm_nomin.FormClosed += new FormClosedEventHandler(frm_nomin_FormClosed);
-                frm_nomin.Show();
+                frm_nomin_emp_grid = new frm_Nominas_Empleados_grid();
+                frm_nomin_emp_grid.MdiParent = this;
+                frm_nomin_emp_grid.FormClosed += new FormClosedEventHandler(frm_nomin_emp_grid_FormClosed);
+                frm_nomin_emp_grid.Show();
             }
         }
-        void frm_nomin_FormClosed(object sender, EventArgs e)
+        void frm_nomin_emp_grid_FormClosed(object sender, EventArgs e)
         {
-            frm_nomin = null;
+            frm_nomin_emp_grid = null;
         }
 
         private void planillaIGSSToolStripMenuItem1_Click_1(object sender, EventArgs e)

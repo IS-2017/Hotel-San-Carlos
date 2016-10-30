@@ -32,6 +32,13 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_Deducciones));
             this.label1 = new System.Windows.Forms.Label();
             this.gpb_deduccion = new System.Windows.Forms.GroupBox();
+            this.txt_dtp_fecha_deduccion = new System.Windows.Forms.TextBox();
+            this.txt_cbo_id_plan_IGSS = new System.Windows.Forms.TextBox();
+            this.txt_cbo_emp_deduccion = new System.Windows.Forms.TextBox();
+            this.txt_cbo_tipo_deduccion = new System.Windows.Forms.TextBox();
+            this.cbo_id_plan_IGSS = new System.Windows.Forms.ComboBox();
+            this.lbl_id_plan_IGSS = new System.Windows.Forms.Label();
+            this.cbo_emp_deduccion = new System.Windows.Forms.ComboBox();
             this.lbl_tipo_deduccion = new System.Windows.Forms.Label();
             this.cbo_tipo_deduccion = new System.Windows.Forms.ComboBox();
             this.lbl_emp_deduccion = new System.Windows.Forms.Label();
@@ -69,19 +76,8 @@
             this.toolTip9 = new System.Windows.Forms.ToolTip(this.components);
             this.toolTip10 = new System.Windows.Forms.ToolTip(this.components);
             this.toolTip11 = new System.Windows.Forms.ToolTip(this.components);
-            this.cbo_emp_deduccion = new System.Windows.Forms.ComboBox();
-            this.cbo_id_plan_IGSS = new System.Windows.Forms.ComboBox();
-            this.lbl_id_plan_IGSS = new System.Windows.Forms.Label();
-            this.lbl_estado = new System.Windows.Forms.Label();
-            this.txt_estado = new System.Windows.Forms.TextBox();
-            this.dgv_deducciones = new System.Windows.Forms.DataGridView();
-            this.txt_cbo_tipo_deduccion = new System.Windows.Forms.TextBox();
-            this.txt_cbo_emp_deduccion = new System.Windows.Forms.TextBox();
-            this.txt_cbo_id_plan_IGSS = new System.Windows.Forms.TextBox();
-            this.txt_dtp_fecha_deduccion = new System.Windows.Forms.TextBox();
             this.gpb_deduccion.SuspendLayout();
             this.gpb_navegador.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgv_deducciones)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -99,9 +95,6 @@
             this.gpb_deduccion.Controls.Add(this.txt_cbo_id_plan_IGSS);
             this.gpb_deduccion.Controls.Add(this.txt_cbo_emp_deduccion);
             this.gpb_deduccion.Controls.Add(this.txt_cbo_tipo_deduccion);
-            this.gpb_deduccion.Controls.Add(this.dgv_deducciones);
-            this.gpb_deduccion.Controls.Add(this.lbl_estado);
-            this.gpb_deduccion.Controls.Add(this.txt_estado);
             this.gpb_deduccion.Controls.Add(this.cbo_id_plan_IGSS);
             this.gpb_deduccion.Controls.Add(this.lbl_id_plan_IGSS);
             this.gpb_deduccion.Controls.Add(this.cbo_emp_deduccion);
@@ -121,10 +114,82 @@
             this.gpb_deduccion.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gpb_deduccion.Location = new System.Drawing.Point(12, 167);
             this.gpb_deduccion.Name = "gpb_deduccion";
-            this.gpb_deduccion.Size = new System.Drawing.Size(906, 454);
+            this.gpb_deduccion.Size = new System.Drawing.Size(857, 229);
             this.gpb_deduccion.TabIndex = 163;
             this.gpb_deduccion.TabStop = false;
             this.gpb_deduccion.Text = "Deducciones";
+            // 
+            // txt_dtp_fecha_deduccion
+            // 
+            this.txt_dtp_fecha_deduccion.Location = new System.Drawing.Point(837, 169);
+            this.txt_dtp_fecha_deduccion.Name = "txt_dtp_fecha_deduccion";
+            this.txt_dtp_fecha_deduccion.Size = new System.Drawing.Size(10, 26);
+            this.txt_dtp_fecha_deduccion.TabIndex = 92;
+            this.txt_dtp_fecha_deduccion.Tag = "fecha";
+            this.txt_dtp_fecha_deduccion.Visible = false;
+            // 
+            // txt_cbo_id_plan_IGSS
+            // 
+            this.txt_cbo_id_plan_IGSS.Location = new System.Drawing.Point(837, 72);
+            this.txt_cbo_id_plan_IGSS.Name = "txt_cbo_id_plan_IGSS";
+            this.txt_cbo_id_plan_IGSS.Size = new System.Drawing.Size(10, 26);
+            this.txt_cbo_id_plan_IGSS.TabIndex = 91;
+            this.txt_cbo_id_plan_IGSS.Tag = "id_planilla_igss_pk";
+            this.txt_cbo_id_plan_IGSS.Visible = false;
+            // 
+            // txt_cbo_emp_deduccion
+            // 
+            this.txt_cbo_emp_deduccion.Location = new System.Drawing.Point(837, 38);
+            this.txt_cbo_emp_deduccion.Name = "txt_cbo_emp_deduccion";
+            this.txt_cbo_emp_deduccion.Size = new System.Drawing.Size(10, 26);
+            this.txt_cbo_emp_deduccion.TabIndex = 90;
+            this.txt_cbo_emp_deduccion.Tag = "id_empleados_pk";
+            this.txt_cbo_emp_deduccion.Visible = false;
+            // 
+            // txt_cbo_tipo_deduccion
+            // 
+            this.txt_cbo_tipo_deduccion.Location = new System.Drawing.Point(399, 32);
+            this.txt_cbo_tipo_deduccion.Name = "txt_cbo_tipo_deduccion";
+            this.txt_cbo_tipo_deduccion.Size = new System.Drawing.Size(10, 26);
+            this.txt_cbo_tipo_deduccion.TabIndex = 89;
+            this.txt_cbo_tipo_deduccion.Tag = "";
+            this.txt_cbo_tipo_deduccion.Visible = false;
+            // 
+            // cbo_id_plan_IGSS
+            // 
+            this.cbo_id_plan_IGSS.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbo_id_plan_IGSS.FormattingEnabled = true;
+            this.cbo_id_plan_IGSS.Items.AddRange(new object[] {
+            "Horas extra",
+            "Comision ventas",
+            "Otro"});
+            this.cbo_id_plan_IGSS.Location = new System.Drawing.Point(579, 70);
+            this.cbo_id_plan_IGSS.Name = "cbo_id_plan_IGSS";
+            this.cbo_id_plan_IGSS.Size = new System.Drawing.Size(252, 28);
+            this.cbo_id_plan_IGSS.TabIndex = 85;
+            // 
+            // lbl_id_plan_IGSS
+            // 
+            this.lbl_id_plan_IGSS.AutoSize = true;
+            this.lbl_id_plan_IGSS.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_id_plan_IGSS.Location = new System.Drawing.Point(473, 74);
+            this.lbl_id_plan_IGSS.Name = "lbl_id_plan_IGSS";
+            this.lbl_id_plan_IGSS.Size = new System.Drawing.Size(97, 18);
+            this.lbl_id_plan_IGSS.TabIndex = 84;
+            this.lbl_id_plan_IGSS.Text = "Planilla IGSS:";
+            // 
+            // cbo_emp_deduccion
+            // 
+            this.cbo_emp_deduccion.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbo_emp_deduccion.FormattingEnabled = true;
+            this.cbo_emp_deduccion.Items.AddRange(new object[] {
+            "Horas extra",
+            "Comision ventas",
+            "Otro"});
+            this.cbo_emp_deduccion.Location = new System.Drawing.Point(579, 36);
+            this.cbo_emp_deduccion.Name = "cbo_emp_deduccion";
+            this.cbo_emp_deduccion.Size = new System.Drawing.Size(252, 28);
+            this.cbo_emp_deduccion.TabIndex = 83;
             // 
             // lbl_tipo_deduccion
             // 
@@ -468,110 +533,12 @@
             this.btn_cancelar.UseVisualStyleBackColor = true;
             this.btn_cancelar.Click += new System.EventHandler(this.btn_cancelar_Click);
             // 
-            // cbo_emp_deduccion
-            // 
-            this.cbo_emp_deduccion.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbo_emp_deduccion.FormattingEnabled = true;
-            this.cbo_emp_deduccion.Items.AddRange(new object[] {
-            "Horas extra",
-            "Comision ventas",
-            "Otro"});
-            this.cbo_emp_deduccion.Location = new System.Drawing.Point(579, 36);
-            this.cbo_emp_deduccion.Name = "cbo_emp_deduccion";
-            this.cbo_emp_deduccion.Size = new System.Drawing.Size(252, 28);
-            this.cbo_emp_deduccion.TabIndex = 83;
-            // 
-            // cbo_id_plan_IGSS
-            // 
-            this.cbo_id_plan_IGSS.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbo_id_plan_IGSS.FormattingEnabled = true;
-            this.cbo_id_plan_IGSS.Items.AddRange(new object[] {
-            "Horas extra",
-            "Comision ventas",
-            "Otro"});
-            this.cbo_id_plan_IGSS.Location = new System.Drawing.Point(579, 70);
-            this.cbo_id_plan_IGSS.Name = "cbo_id_plan_IGSS";
-            this.cbo_id_plan_IGSS.Size = new System.Drawing.Size(252, 28);
-            this.cbo_id_plan_IGSS.TabIndex = 85;
-            // 
-            // lbl_id_plan_IGSS
-            // 
-            this.lbl_id_plan_IGSS.AutoSize = true;
-            this.lbl_id_plan_IGSS.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_id_plan_IGSS.Location = new System.Drawing.Point(473, 74);
-            this.lbl_id_plan_IGSS.Name = "lbl_id_plan_IGSS";
-            this.lbl_id_plan_IGSS.Size = new System.Drawing.Size(97, 18);
-            this.lbl_id_plan_IGSS.TabIndex = 84;
-            this.lbl_id_plan_IGSS.Text = "Planilla IGSS:";
-            // 
-            // lbl_estado
-            // 
-            this.lbl_estado.AutoSize = true;
-            this.lbl_estado.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_estado.Location = new System.Drawing.Point(508, 197);
-            this.lbl_estado.Name = "lbl_estado";
-            this.lbl_estado.Size = new System.Drawing.Size(59, 18);
-            this.lbl_estado.TabIndex = 87;
-            this.lbl_estado.Text = "Estado:";
-            // 
-            // txt_estado
-            // 
-            this.txt_estado.Location = new System.Drawing.Point(579, 197);
-            this.txt_estado.Name = "txt_estado";
-            this.txt_estado.Size = new System.Drawing.Size(250, 26);
-            this.txt_estado.TabIndex = 86;
-            this.txt_estado.Tag = "estado";
-            // 
-            // dgv_deducciones
-            // 
-            this.dgv_deducciones.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgv_deducciones.Location = new System.Drawing.Point(6, 229);
-            this.dgv_deducciones.Name = "dgv_deducciones";
-            this.dgv_deducciones.Size = new System.Drawing.Size(894, 214);
-            this.dgv_deducciones.TabIndex = 88;
-            // 
-            // txt_cbo_tipo_deduccion
-            // 
-            this.txt_cbo_tipo_deduccion.Location = new System.Drawing.Point(399, 32);
-            this.txt_cbo_tipo_deduccion.Name = "txt_cbo_tipo_deduccion";
-            this.txt_cbo_tipo_deduccion.Size = new System.Drawing.Size(10, 26);
-            this.txt_cbo_tipo_deduccion.TabIndex = 89;
-            this.txt_cbo_tipo_deduccion.Tag = "";
-            this.txt_cbo_tipo_deduccion.Visible = false;
-            // 
-            // txt_cbo_emp_deduccion
-            // 
-            this.txt_cbo_emp_deduccion.Location = new System.Drawing.Point(837, 38);
-            this.txt_cbo_emp_deduccion.Name = "txt_cbo_emp_deduccion";
-            this.txt_cbo_emp_deduccion.Size = new System.Drawing.Size(10, 26);
-            this.txt_cbo_emp_deduccion.TabIndex = 90;
-            this.txt_cbo_emp_deduccion.Tag = "id_empleados_pk";
-            this.txt_cbo_emp_deduccion.Visible = false;
-            // 
-            // txt_cbo_id_plan_IGSS
-            // 
-            this.txt_cbo_id_plan_IGSS.Location = new System.Drawing.Point(837, 72);
-            this.txt_cbo_id_plan_IGSS.Name = "txt_cbo_id_plan_IGSS";
-            this.txt_cbo_id_plan_IGSS.Size = new System.Drawing.Size(10, 26);
-            this.txt_cbo_id_plan_IGSS.TabIndex = 91;
-            this.txt_cbo_id_plan_IGSS.Tag = "id_planilla_igss_pk";
-            this.txt_cbo_id_plan_IGSS.Visible = false;
-            // 
-            // txt_dtp_fecha_deduccion
-            // 
-            this.txt_dtp_fecha_deduccion.Location = new System.Drawing.Point(837, 169);
-            this.txt_dtp_fecha_deduccion.Name = "txt_dtp_fecha_deduccion";
-            this.txt_dtp_fecha_deduccion.Size = new System.Drawing.Size(10, 26);
-            this.txt_dtp_fecha_deduccion.TabIndex = 92;
-            this.txt_dtp_fecha_deduccion.Tag = "fecha";
-            this.txt_dtp_fecha_deduccion.Visible = false;
-            // 
             // frm_Deducciones
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
-            this.ClientSize = new System.Drawing.Size(932, 622);
+            this.ClientSize = new System.Drawing.Size(878, 405);
             this.Controls.Add(this.gpb_navegador);
             this.Controls.Add(this.lbl_form_emp);
             this.Controls.Add(this.gpb_deduccion);
@@ -586,7 +553,6 @@
             this.gpb_deduccion.ResumeLayout(false);
             this.gpb_deduccion.PerformLayout();
             this.gpb_navegador.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dgv_deducciones)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -595,17 +561,10 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.GroupBox gpb_deduccion;
         private System.Windows.Forms.Label lbl_tipo_deduccion;
-        private System.Windows.Forms.ComboBox cbo_tipo_deduccion;
         private System.Windows.Forms.Label lbl_emp_deduccion;
-        private System.Windows.Forms.DateTimePicker dtp_fecha_deduccion;
         private System.Windows.Forms.Label lbl_fecha_deduccion;
         private System.Windows.Forms.Label lbl_cuot_deduccion;
-        private System.Windows.Forms.TextBox txt_cuot_deduccion;
-        private System.Windows.Forms.TextBox txt_cantid_deduccion;
-        private System.Windows.Forms.TextBox txt_detall_deduccion;
-        private System.Windows.Forms.TextBox txt_nom_deduccion;
         private System.Windows.Forms.Label lbl_cantid_deduccion;
         private System.Windows.Forms.Label lbl_detall_deduccion;
         private System.Windows.Forms.Label lbl_nom_deduccion;
@@ -633,15 +592,19 @@
         private System.Windows.Forms.ToolTip toolTip3;
         private System.Windows.Forms.ToolTip toolTip5;
         private System.Windows.Forms.ToolTip toolTip4;
-        private System.Windows.Forms.Label lbl_estado;
-        private System.Windows.Forms.TextBox txt_estado;
-        private System.Windows.Forms.ComboBox cbo_id_plan_IGSS;
         private System.Windows.Forms.Label lbl_id_plan_IGSS;
-        private System.Windows.Forms.ComboBox cbo_emp_deduccion;
-        private System.Windows.Forms.DataGridView dgv_deducciones;
-        private System.Windows.Forms.TextBox txt_dtp_fecha_deduccion;
-        private System.Windows.Forms.TextBox txt_cbo_id_plan_IGSS;
-        private System.Windows.Forms.TextBox txt_cbo_emp_deduccion;
-        private System.Windows.Forms.TextBox txt_cbo_tipo_deduccion;
+        public System.Windows.Forms.GroupBox gpb_deduccion;
+        public System.Windows.Forms.ComboBox cbo_tipo_deduccion;
+        public System.Windows.Forms.DateTimePicker dtp_fecha_deduccion;
+        public System.Windows.Forms.TextBox txt_cuot_deduccion;
+        public System.Windows.Forms.TextBox txt_cantid_deduccion;
+        public System.Windows.Forms.TextBox txt_detall_deduccion;
+        public System.Windows.Forms.TextBox txt_nom_deduccion;
+        public System.Windows.Forms.ComboBox cbo_id_plan_IGSS;
+        public System.Windows.Forms.ComboBox cbo_emp_deduccion;
+        public System.Windows.Forms.TextBox txt_dtp_fecha_deduccion;
+        public System.Windows.Forms.TextBox txt_cbo_id_plan_IGSS;
+        public System.Windows.Forms.TextBox txt_cbo_emp_deduccion;
+        public System.Windows.Forms.TextBox txt_cbo_tipo_deduccion;
     }
 }

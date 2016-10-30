@@ -24,21 +24,32 @@ namespace Prototipo__RRHH
         Boolean Editar;
         String atributo;
         CapaNegocio fn = new CapaNegocio();
-        string imgLoc;
+        DataGridView dg;
+
+        public frm_Nominas_Empleados(DataGridView dgv, String id_nomina_pk, String fecha, String id_empresa_pk, String estado, Boolean Editar1, Boolean tipo_accion)
+        {
+            this.dg = dgv;
+            this.Editar = Editar1;
+            InitializeComponent();
+            atributo = "id_nomina_pk";
+            this.Codigo = id_nomina_pk;
+            if (tipo_accion == true)
+            {
+                this.txt_cbo_id_empresa.Text = id_empresa_pk;
+                this.txt_dtp_fecha_nomina.Text = fecha; dtp_fecha_nomina.Text = txt_dtp_fecha_nomina.Text;
+            }
+        }
 
         private void frm_Nominas_Empleados_Load(object sender, EventArgs e)
         {
             fn.InhabilitarComponentes(gpb_regist_nominas);
             fn.InhabilitarComponentes(this);
             llenarCbo1();
-            string tabla = "nomina";
-            fn.ActualizarGrid(this.dgv_datos_nominas, "Select * from nomina WHERE estado <> 'INACTIVO' ", tabla);
 
         }
 
         private void btn_nuevo_Click(object sender, EventArgs e)
         {
-            CapaNegocio cn = new CapaNegocio();
             try
             {
                 Editar = false;
@@ -78,9 +89,9 @@ namespace Prototipo__RRHH
         {
             try
             {
-                txt_cbo_sueldo_bs.Text = cbo_id_empresa.SelectedValue.ToString();
-                txt_dtp_fech_nacimient.Text = dtp_fecha_nomina.Value.ToString("yyyy-MM-dd");
-                TextBox[] textbox = { txt_cbo_sueldo_bs, txt_dtp_fech_nacimient, txt_estado};
+                txt_cbo_id_empresa.Text = cbo_id_empresa.SelectedValue.ToString();
+                txt_dtp_fecha_nomina.Text = dtp_fecha_nomina.Value.ToString("yyyy-MM-dd");
+                TextBox[] textbox = { txt_cbo_id_empresa, txt_dtp_fecha_nomina};
                 DataTable datos = fn.construirDataTable(textbox);
                 if (datos.Rows.Count == 0)
                 {
@@ -140,11 +151,10 @@ namespace Prototipo__RRHH
                 Editar = true;
                 atributo = "id_nomina_pk";
                 Codigo = this.dgv_datos_nominas.CurrentRow.Cells[0].Value.ToString();
-                TextBox[] textbox = { txt_cbo_sueldo_bs, txt_dtp_fech_nacimient, txt_estado };
+                TextBox[] textbox = { txt_cbo_id_empresa, txt_dtp_fecha_nomina };
                 fn.llenartextbox(textbox, dgv_datos_nominas);
                 dtp_fecha_nomina.Text = this.dgv_datos_nominas.CurrentRow.Cells[1].Value.ToString();
                 cbo_id_empresa.Text = this.dgv_datos_nominas.CurrentRow.Cells[2].Value.ToString();
-                txt_estado.Text = this.dgv_datos_nominas.CurrentRow.Cells[3].Value.ToString();
                 fn.ActivarControles(gpb_regist_nominas);
             }
             catch
@@ -156,37 +166,37 @@ namespace Prototipo__RRHH
         private void btn_anterior_Click(object sender, EventArgs e)
         {
             fn.Anterior(dgv_datos_nominas);
-            TextBox[] textbox = { txt_cbo_sueldo_bs, txt_dtp_fech_nacimient, txt_estado };
+            TextBox[] textbox = { txt_cbo_id_empresa, txt_dtp_fecha_nomina };
             fn.llenartextbox(textbox, dgv_datos_nominas);
-            dtp_fecha_nomina.Text = txt_dtp_fech_nacimient.Text;
-            cbo_id_empresa.Text = txt_cbo_sueldo_bs.Text;
+            dtp_fecha_nomina.Text = txt_dtp_fecha_nomina.Text;
+            cbo_id_empresa.Text = txt_cbo_id_empresa.Text;
         }
 
         private void btn_siguiente_Click(object sender, EventArgs e)
         {
             fn.Siguiente(dgv_datos_nominas);
-            TextBox[] textbox = { txt_cbo_sueldo_bs, txt_dtp_fech_nacimient, txt_estado };
+            TextBox[] textbox = { txt_cbo_id_empresa, txt_dtp_fecha_nomina };
             fn.llenartextbox(textbox, dgv_datos_nominas);
-            dtp_fecha_nomina.Text = txt_dtp_fech_nacimient.Text;
-            cbo_id_empresa.Text = txt_cbo_sueldo_bs.Text;
+            dtp_fecha_nomina.Text = txt_dtp_fecha_nomina.Text;
+            cbo_id_empresa.Text = txt_cbo_id_empresa.Text;
         }
 
         private void btn_primero_Click(object sender, EventArgs e)
         {
             fn.Primero(dgv_datos_nominas);
-            TextBox[] textbox = { txt_cbo_sueldo_bs, txt_dtp_fech_nacimient, txt_estado };
+            TextBox[] textbox = { txt_cbo_id_empresa, txt_dtp_fecha_nomina };
             fn.llenartextbox(textbox, dgv_datos_nominas);
-            dtp_fecha_nomina.Text = txt_dtp_fech_nacimient.Text;
-            cbo_id_empresa.Text = txt_cbo_sueldo_bs.Text;
+            dtp_fecha_nomina.Text = txt_dtp_fecha_nomina.Text;
+            cbo_id_empresa.Text = txt_cbo_id_empresa.Text;
         }
 
         private void btn_ultimo_Click(object sender, EventArgs e)
         {
             fn.Ultimo(dgv_datos_nominas);
-            TextBox[] textbox = { txt_cbo_sueldo_bs, txt_dtp_fech_nacimient, txt_estado };
+            TextBox[] textbox = { txt_cbo_id_empresa, txt_dtp_fecha_nomina };
             fn.llenartextbox(textbox, dgv_datos_nominas);
-            dtp_fecha_nomina.Text = txt_dtp_fech_nacimient.Text;
-            cbo_id_empresa.Text = txt_cbo_sueldo_bs.Text;
+            dtp_fecha_nomina.Text = txt_dtp_fecha_nomina.Text;
+            cbo_id_empresa.Text = txt_cbo_id_empresa.Text;
         }
 
         private void dgv_datos_nominas_CellContentClick(object sender, DataGridViewCellEventArgs e)

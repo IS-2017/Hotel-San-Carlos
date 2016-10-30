@@ -23,13 +23,38 @@ namespace Prototipo__RRHH
         Boolean Editar;
         String atributo;
         CapaNegocio fn = new CapaNegocio();
+        DataGridView dg;
+
+        public frm_Deducciones(DataGridView dgv,String id_presamo_pk,String nombre, String detalle,String cantidad_deduccion, String cuotas, String fecha, String estado, String id_planilla_igss_pk, String id_empleados_pk, Boolean Editar1, Boolean tipo_accion)
+        {
+            this.dg = dgv;
+            this.Editar = Editar1;
+            InitializeComponent();
+            atributo = "id_presamo_pk";
+            this.Codigo = id_presamo_pk;
+            if (tipo_accion == true)
+            {
+                //this.txt_cbo_tipo_deduccion.Text = tipo_deduccion;
+                this.txt_nom_deduccion.Text = nombre;
+                this.txt_detall_deduccion.Text = detalle;
+                //this.txt_cbo_emp_deduccion.Text = id_empleados_pk; cbo_emp_deduccion.Text = txt_cbo_emp_deduccion.Text;
+                //this.txt_cbo_id_plan_IGSS.Text = id_planilla_igss_pk; cbo_id_plan_IGSS.Text = txt_cbo_id_plan_IGSS.Text;
+                this.txt_cantid_deduccion.Text = cantidad_deduccion;
+                this.txt_cuot_deduccion.Text = cuotas;
+                this.txt_dtp_fecha_deduccion.Text = fecha; dtp_fecha_deduccion.Text = txt_dtp_fecha_deduccion.Text;
+
+            }
+            else
+            {
+
+            }
+        }
 
         private void frm_Prestamos_Load(object sender, EventArgs e)
         {
             fn.InhabilitarComponentes(gpb_deduccion);
             fn.InhabilitarComponentes(this);
             string tabla = "deducciones";
-            fn.ActualizarGrid(this.dgv_deducciones, "Select * from deducciones WHERE estado <> 'INACTIVO' ", tabla);
             llenarCbo1();
             llenarCbo2();
         }
@@ -70,7 +95,7 @@ namespace Prototipo__RRHH
                 txt_cbo_emp_deduccion.Text = cbo_emp_deduccion.SelectedValue.ToString();
                 txt_cbo_id_plan_IGSS.Text = cbo_id_plan_IGSS.SelectedValue.ToString();
                 txt_dtp_fecha_deduccion.Text = dtp_fecha_deduccion.Value.ToString("yyyy-MM-dd");
-                TextBox[] textbox = { txt_nom_deduccion, txt_detall_deduccion, txt_cbo_emp_deduccion, txt_cbo_id_plan_IGSS, txt_cantid_deduccion, txt_cuot_deduccion, txt_dtp_fecha_deduccion, txt_estado };
+                TextBox[] textbox = { txt_nom_deduccion, txt_detall_deduccion, txt_cbo_emp_deduccion, txt_cbo_id_plan_IGSS, txt_cantid_deduccion, txt_cuot_deduccion, txt_dtp_fecha_deduccion };
                 DataTable datos = fn.construirDataTable(textbox);
                 if (datos.Rows.Count == 0)
                 {
@@ -116,13 +141,20 @@ namespace Prototipo__RRHH
 
         private void btn_editar_Click(object sender, EventArgs e)
         {
+            //id_presamo_pk, nombre, detalle, cantidad_deduccion, cuotas, fecha, estado, id_planilla_igss_pk, id_empleados_pk
             try
             {
                 Editar = true;
                 atributo = "id_presamo_pk";
-                Codigo = this.dgv_deducciones.CurrentRow.Cells[0].Value.ToString();
-                TextBox[] textbox = { txt_cbo_tipo_deduccion, txt_nom_deduccion, txt_detall_deduccion, txt_cbo_emp_deduccion, txt_cbo_id_plan_IGSS, txt_cantid_deduccion, txt_cuot_deduccion, txt_dtp_fecha_deduccion, txt_estado };
-                fn.llenartextbox(textbox, dgv_deducciones);
+                this.Codigo = this.dg.CurrentRow.Cells[0].Value.ToString();
+                this.txt_nom_deduccion.Text = this.dg.CurrentRow.Cells[1].Value.ToString();
+                this.txt_detall_deduccion.Text = this.dg.CurrentRow.Cells[2].Value.ToString();
+                this.txt_cantid_deduccion.Text = this.dg.CurrentRow.Cells[3].Value.ToString();
+                this.txt_cuot_deduccion.Text = this.dg.CurrentRow.Cells[4].Value.ToString();
+                this.txt_dtp_fecha_deduccion.Text = this.dg.CurrentRow.Cells[5].Value.ToString(); dtp_fecha_deduccion.Text = txt_dtp_fecha_deduccion.Text;
+                fn.ActivarControles(gpb_deduccion);
+                
+
             }
             catch
             {
@@ -134,15 +166,13 @@ namespace Prototipo__RRHH
         {
             try
             {
-                String codigo2 = this.dgv_deducciones.CurrentRow.Cells[0].Value.ToString();
+                String codigo2 = this.dg.CurrentRow.Cells[0].Value.ToString();
                 String atributo2 = "id_presamo_pk";
                 //String campo = "estado";
                 var resultado = MessageBox.Show("DESEA BORRAR EL REGISTRO SELECCIONADO", "CONFIRME SU ACCION", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
 
                 if (resultado == DialogResult.Yes)
                 {
-
-                    CapaNegocio fn = new CapaNegocio();
                     string tabla = "deducciones";
                     fn.eliminar(tabla, atributo2, codigo2);
 
@@ -157,51 +187,51 @@ namespace Prototipo__RRHH
         private void btn_actualizar_Click(object sender, EventArgs e)
         {
             string tabla = "deducciones";
-            fn.ActualizarGrid(this.dgv_deducciones, "Select * from deducciones WHERE estado <> 'INACTIVO' ", tabla);
+            fn.ActualizarGrid(this.dg, "Select id_presamo_pk, nombre, detalle, cantidad_deduccion, cuotas, fecha, estado, id_planilla_igss_pk, id_empleados_pk from deducciones WHERE estado <> 'INACTIVO' ", tabla);
         }
 
         private void btn_anterior_Click(object sender, EventArgs e)
         {
-            fn.Anterior(dgv_deducciones);
-            TextBox[] textbox = { txt_cbo_tipo_deduccion, txt_nom_deduccion, txt_detall_deduccion, txt_cbo_emp_deduccion, txt_cbo_id_plan_IGSS, txt_cantid_deduccion, txt_cuot_deduccion, txt_dtp_fecha_deduccion, txt_estado };
+            fn.Anterior(dg);
+            /*TextBox[] textbox = { txt_cbo_tipo_deduccion, txt_nom_deduccion, txt_detall_deduccion, txt_cbo_emp_deduccion, txt_cbo_id_plan_IGSS, txt_cantid_deduccion, txt_cuot_deduccion, txt_dtp_fecha_deduccion, txt_estado };
             fn.llenartextbox(textbox, dgv_deducciones);
             cbo_tipo_deduccion.Text = txt_cbo_tipo_deduccion.Text;
             cbo_emp_deduccion.Text = txt_cbo_emp_deduccion.Text;
             cbo_id_plan_IGSS.Text = txt_cbo_id_plan_IGSS.Text;
-            dtp_fecha_deduccion.Text = txt_dtp_fecha_deduccion.Text;
+            dtp_fecha_deduccion.Text = txt_dtp_fecha_deduccion.Text; */
         }
 
         private void btn_siguiente_Click(object sender, EventArgs e)
         {
-            fn.Siguiente(dgv_deducciones);
-            TextBox[] textbox = { txt_cbo_tipo_deduccion, txt_nom_deduccion, txt_detall_deduccion, txt_cbo_emp_deduccion, txt_cbo_id_plan_IGSS, txt_cantid_deduccion, txt_cuot_deduccion, txt_dtp_fecha_deduccion, txt_estado };
+            fn.Siguiente(dg);
+           /* TextBox[] textbox = { txt_cbo_tipo_deduccion, txt_nom_deduccion, txt_detall_deduccion, txt_cbo_emp_deduccion, txt_cbo_id_plan_IGSS, txt_cantid_deduccion, txt_cuot_deduccion, txt_dtp_fecha_deduccion, txt_estado };
             fn.llenartextbox(textbox, dgv_deducciones);
             cbo_tipo_deduccion.Text = txt_cbo_tipo_deduccion.Text;
             cbo_emp_deduccion.Text = txt_cbo_emp_deduccion.Text;
             cbo_id_plan_IGSS.Text = txt_cbo_id_plan_IGSS.Text;
-            dtp_fecha_deduccion.Text = txt_dtp_fecha_deduccion.Text;
+            dtp_fecha_deduccion.Text = txt_dtp_fecha_deduccion.Text; */
         }
 
         private void btn_primero_Click(object sender, EventArgs e)
         {
-            fn.Primero(dgv_deducciones);
-            TextBox[] textbox = { txt_cbo_tipo_deduccion, txt_nom_deduccion, txt_detall_deduccion, txt_cbo_emp_deduccion, txt_cbo_id_plan_IGSS, txt_cantid_deduccion, txt_cuot_deduccion, txt_dtp_fecha_deduccion, txt_estado };
+            fn.Primero(dg);
+           /* TextBox[] textbox = { txt_cbo_tipo_deduccion, txt_nom_deduccion, txt_detall_deduccion, txt_cbo_emp_deduccion, txt_cbo_id_plan_IGSS, txt_cantid_deduccion, txt_cuot_deduccion, txt_dtp_fecha_deduccion, txt_estado };
             fn.llenartextbox(textbox, dgv_deducciones);
             cbo_tipo_deduccion.Text = txt_cbo_tipo_deduccion.Text;
             cbo_emp_deduccion.Text = txt_cbo_emp_deduccion.Text;
             cbo_id_plan_IGSS.Text = txt_cbo_id_plan_IGSS.Text;
-            dtp_fecha_deduccion.Text = txt_dtp_fecha_deduccion.Text;
+            dtp_fecha_deduccion.Text = txt_dtp_fecha_deduccion.Text; */
         }
 
         private void btn_ultimo_Click(object sender, EventArgs e)
         {
-            fn.Ultimo(dgv_deducciones);
-            TextBox[] textbox = { txt_cbo_tipo_deduccion, txt_nom_deduccion, txt_detall_deduccion, txt_cbo_emp_deduccion, txt_cbo_id_plan_IGSS, txt_cantid_deduccion, txt_cuot_deduccion, txt_dtp_fecha_deduccion, txt_estado };
+            fn.Ultimo(dg);
+           /* TextBox[] textbox = { txt_cbo_tipo_deduccion, txt_nom_deduccion, txt_detall_deduccion, txt_cbo_emp_deduccion, txt_cbo_id_plan_IGSS, txt_cantid_deduccion, txt_cuot_deduccion, txt_dtp_fecha_deduccion, txt_estado };
             fn.llenartextbox(textbox, dgv_deducciones);
             cbo_tipo_deduccion.Text = txt_cbo_tipo_deduccion.Text;
             cbo_emp_deduccion.Text = txt_cbo_emp_deduccion.Text;
             cbo_id_plan_IGSS.Text = txt_cbo_id_plan_IGSS.Text;
-            dtp_fecha_deduccion.Text = txt_dtp_fecha_deduccion.Text;
+            dtp_fecha_deduccion.Text = txt_dtp_fecha_deduccion.Text; */
         }
 
         private void btn_buscar_Click(object sender, EventArgs e)

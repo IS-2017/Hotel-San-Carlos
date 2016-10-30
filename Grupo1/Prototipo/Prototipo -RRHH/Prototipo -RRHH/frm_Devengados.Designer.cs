@@ -31,20 +31,17 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_Devengados));
             this.gpb_devengado = new System.Windows.Forms.GroupBox();
-            this.dgv_devengos = new System.Windows.Forms.DataGridView();
             this.txt_dtp_fecha_deveng = new System.Windows.Forms.TextBox();
             this.txt_cbo_id_emps = new System.Windows.Forms.TextBox();
             this.txt_cbo_tip_devenga = new System.Windows.Forms.TextBox();
             this.cbo_id_emps = new System.Windows.Forms.ComboBox();
-            this.lbl_estadp = new System.Windows.Forms.Label();
-            this.txt_estado = new System.Windows.Forms.TextBox();
             this.lbl_tip_devenga = new System.Windows.Forms.Label();
             this.cbo_tip_devenga = new System.Windows.Forms.ComboBox();
             this.lbl_emp_a_deveng = new System.Windows.Forms.Label();
             this.dtp_fecha_deveng = new System.Windows.Forms.DateTimePicker();
             this.lbl_fecha_deveng = new System.Windows.Forms.Label();
             this.lbl_canti_deveng = new System.Windows.Forms.Label();
-            this.txt_canti_deveng = new System.Windows.Forms.TextBox();
+            this.txt_cuota_deveng = new System.Windows.Forms.TextBox();
             this.txt_cantid_deveng = new System.Windows.Forms.TextBox();
             this.txt_detall_deveng = new System.Windows.Forms.TextBox();
             this.txt_nom_deveng = new System.Windows.Forms.TextBox();
@@ -77,26 +74,22 @@
             this.toolTip10 = new System.Windows.Forms.ToolTip(this.components);
             this.toolTip11 = new System.Windows.Forms.ToolTip(this.components);
             this.gpb_devengado.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgv_devengos)).BeginInit();
             this.gpb_navegador.SuspendLayout();
             this.SuspendLayout();
             // 
             // gpb_devengado
             // 
-            this.gpb_devengado.Controls.Add(this.dgv_devengos);
             this.gpb_devengado.Controls.Add(this.txt_dtp_fecha_deveng);
             this.gpb_devengado.Controls.Add(this.txt_cbo_id_emps);
             this.gpb_devengado.Controls.Add(this.txt_cbo_tip_devenga);
             this.gpb_devengado.Controls.Add(this.cbo_id_emps);
-            this.gpb_devengado.Controls.Add(this.lbl_estadp);
-            this.gpb_devengado.Controls.Add(this.txt_estado);
             this.gpb_devengado.Controls.Add(this.lbl_tip_devenga);
             this.gpb_devengado.Controls.Add(this.cbo_tip_devenga);
             this.gpb_devengado.Controls.Add(this.lbl_emp_a_deveng);
             this.gpb_devengado.Controls.Add(this.dtp_fecha_deveng);
             this.gpb_devengado.Controls.Add(this.lbl_fecha_deveng);
             this.gpb_devengado.Controls.Add(this.lbl_canti_deveng);
-            this.gpb_devengado.Controls.Add(this.txt_canti_deveng);
+            this.gpb_devengado.Controls.Add(this.txt_cuota_deveng);
             this.gpb_devengado.Controls.Add(this.txt_cantid_deveng);
             this.gpb_devengado.Controls.Add(this.txt_detall_deveng);
             this.gpb_devengado.Controls.Add(this.txt_nom_deveng);
@@ -106,18 +99,10 @@
             this.gpb_devengado.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gpb_devengado.Location = new System.Drawing.Point(12, 162);
             this.gpb_devengado.Name = "gpb_devengado";
-            this.gpb_devengado.Size = new System.Drawing.Size(906, 448);
+            this.gpb_devengado.Size = new System.Drawing.Size(906, 238);
             this.gpb_devengado.TabIndex = 166;
             this.gpb_devengado.TabStop = false;
             this.gpb_devengado.Text = "Devengado";
-            // 
-            // dgv_devengos
-            // 
-            this.dgv_devengos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgv_devengos.Location = new System.Drawing.Point(6, 225);
-            this.dgv_devengos.Name = "dgv_devengos";
-            this.dgv_devengos.Size = new System.Drawing.Size(883, 216);
-            this.dgv_devengos.TabIndex = 75;
             // 
             // txt_dtp_fecha_deveng
             // 
@@ -157,24 +142,6 @@
             this.cbo_id_emps.Name = "cbo_id_emps";
             this.cbo_id_emps.Size = new System.Drawing.Size(252, 28);
             this.cbo_id_emps.TabIndex = 71;
-            // 
-            // lbl_estadp
-            // 
-            this.lbl_estadp.AutoSize = true;
-            this.lbl_estadp.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_estadp.Location = new System.Drawing.Point(511, 168);
-            this.lbl_estadp.Name = "lbl_estadp";
-            this.lbl_estadp.Size = new System.Drawing.Size(59, 18);
-            this.lbl_estadp.TabIndex = 70;
-            this.lbl_estadp.Text = "Estado:";
-            // 
-            // txt_estado
-            // 
-            this.txt_estado.Location = new System.Drawing.Point(582, 168);
-            this.txt_estado.Name = "txt_estado";
-            this.txt_estado.Size = new System.Drawing.Size(250, 26);
-            this.txt_estado.TabIndex = 69;
-            this.txt_estado.Tag = "estado";
             // 
             // lbl_tip_devenga
             // 
@@ -237,13 +204,13 @@
             this.lbl_canti_deveng.TabIndex = 61;
             this.lbl_canti_deveng.Text = "Cuotas:";
             // 
-            // txt_canti_deveng
+            // txt_cuota_deveng
             // 
-            this.txt_canti_deveng.Location = new System.Drawing.Point(582, 104);
-            this.txt_canti_deveng.Name = "txt_canti_deveng";
-            this.txt_canti_deveng.Size = new System.Drawing.Size(250, 26);
-            this.txt_canti_deveng.TabIndex = 59;
-            this.txt_canti_deveng.Tag = "cuotas";
+            this.txt_cuota_deveng.Location = new System.Drawing.Point(582, 104);
+            this.txt_cuota_deveng.Name = "txt_cuota_deveng";
+            this.txt_cuota_deveng.Size = new System.Drawing.Size(250, 26);
+            this.txt_cuota_deveng.TabIndex = 59;
+            this.txt_cuota_deveng.Tag = "cuotas";
             // 
             // txt_cantid_deveng
             // 
@@ -323,7 +290,7 @@
             this.gpb_navegador.Controls.Add(this.btn_actualizar);
             this.gpb_navegador.Controls.Add(this.btn_cancelar);
             this.gpb_navegador.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gpb_navegador.Location = new System.Drawing.Point(198, 56);
+            this.gpb_navegador.Location = new System.Drawing.Point(12, 56);
             this.gpb_navegador.Name = "gpb_navegador";
             this.gpb_navegador.Size = new System.Drawing.Size(636, 100);
             this.gpb_navegador.TabIndex = 69;
@@ -520,7 +487,7 @@
             // 
             this.lbl_form_prest_lab.AutoSize = true;
             this.lbl_form_prest_lab.Font = new System.Drawing.Font("Microsoft Sans Serif", 21F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_form_prest_lab.Location = new System.Drawing.Point(351, 9);
+            this.lbl_form_prest_lab.Location = new System.Drawing.Point(300, 9);
             this.lbl_form_prest_lab.Name = "lbl_form_prest_lab";
             this.lbl_form_prest_lab.Size = new System.Drawing.Size(348, 32);
             this.lbl_form_prest_lab.TabIndex = 170;
@@ -531,7 +498,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
-            this.ClientSize = new System.Drawing.Size(932, 622);
+            this.ClientSize = new System.Drawing.Size(932, 414);
             this.Controls.Add(this.lbl_form_prest_lab);
             this.Controls.Add(this.gpb_navegador);
             this.Controls.Add(this.gpb_devengado);
@@ -544,7 +511,6 @@
             this.Load += new System.EventHandler(this.frm_prestaciones_lab_Load);
             this.gpb_devengado.ResumeLayout(false);
             this.gpb_devengado.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgv_devengos)).EndInit();
             this.gpb_navegador.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -560,7 +526,7 @@
         private System.Windows.Forms.DateTimePicker dtp_fecha_deveng;
         private System.Windows.Forms.Label lbl_fecha_deveng;
         private System.Windows.Forms.Label lbl_canti_deveng;
-        private System.Windows.Forms.TextBox txt_canti_deveng;
+        private System.Windows.Forms.TextBox txt_cuota_deveng;
         private System.Windows.Forms.TextBox txt_cantid_deveng;
         private System.Windows.Forms.TextBox txt_detall_deveng;
         private System.Windows.Forms.TextBox txt_nom_deveng;
@@ -584,9 +550,6 @@
         private System.Windows.Forms.TextBox txt_dtp_fecha_deveng;
         private System.Windows.Forms.TextBox txt_cbo_id_emps;
         private System.Windows.Forms.ComboBox cbo_id_emps;
-        private System.Windows.Forms.Label lbl_estadp;
-        private System.Windows.Forms.TextBox txt_estado;
-        private System.Windows.Forms.DataGridView dgv_devengos;
         public System.Windows.Forms.TextBox txt_cbo_tip_devenga;
         private System.Windows.Forms.ToolTip toolTip1;
         private System.Windows.Forms.ToolTip toolTip9;

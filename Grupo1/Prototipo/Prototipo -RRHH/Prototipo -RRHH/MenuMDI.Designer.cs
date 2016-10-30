@@ -121,7 +121,7 @@
             // 
             this.prestamosToolStripMenuItem1.Image = ((System.Drawing.Image)(resources.GetObject("prestamosToolStripMenuItem1.Image")));
             this.prestamosToolStripMenuItem1.Name = "prestamosToolStripMenuItem1";
-            this.prestamosToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
+            this.prestamosToolStripMenuItem1.Size = new System.Drawing.Size(139, 22);
             this.prestamosToolStripMenuItem1.Text = "Prestamos";
             this.prestamosToolStripMenuItem1.Click += new System.EventHandler(this.prestamosToolStripMenuItem1_Click);
             // 
@@ -129,7 +129,7 @@
             // 
             this.salariosToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("salariosToolStripMenuItem.Image")));
             this.salariosToolStripMenuItem.Name = "salariosToolStripMenuItem";
-            this.salariosToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.salariosToolStripMenuItem.Size = new System.Drawing.Size(139, 22);
             this.salariosToolStripMenuItem.Text = "Devengados";
             this.salariosToolStripMenuItem.Click += new System.EventHandler(this.salariosToolStripMenuItem_Click);
             // 
@@ -137,7 +137,7 @@
             // 
             this.empleadosToolStripMenuItem1.Image = ((System.Drawing.Image)(resources.GetObject("empleadosToolStripMenuItem1.Image")));
             this.empleadosToolStripMenuItem1.Name = "empleadosToolStripMenuItem1";
-            this.empleadosToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
+            this.empleadosToolStripMenuItem1.Size = new System.Drawing.Size(139, 22);
             this.empleadosToolStripMenuItem1.Text = "Empleados";
             this.empleadosToolStripMenuItem1.Click += new System.EventHandler(this.empleadosToolStripMenuItem1_Click_1);
             // 
