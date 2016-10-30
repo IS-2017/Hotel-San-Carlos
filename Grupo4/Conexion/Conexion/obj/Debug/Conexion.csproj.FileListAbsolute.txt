@@ -1,0 +1,6 @@
+C:\Users\Chrix\Documents\Visual Studio 2015\Projects\Conexion\Conexion\bin\Debug\Conexion.dll
+C:\Users\Chrix\Documents\Visual Studio 2015\Projects\Conexion\Conexion\bin\Debug\Conexion.pdb
+C:\Users\Chrix\Documents\Visual Studio 2015\Projects\Conexion\Conexion\bin\Debug\MySql.Data.dll
+C:\Users\Chrix\Documents\Visual Studio 2015\Projects\Conexion\Conexion\obj\Debug\Conexion.csprojResolveAssemblyReference.cache
+C:\Users\Chrix\Documents\Visual Studio 2015\Projects\Conexion\Conexion\obj\Debug\Conexion.dll
+C:\Users\Chrix\Documents\Visual Studio 2015\Projects\Conexion\Conexion\obj\Debug\Conexion.pdb
