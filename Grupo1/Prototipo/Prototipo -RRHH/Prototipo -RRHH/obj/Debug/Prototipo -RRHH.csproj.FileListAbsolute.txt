@@ -132,3 +132,6 @@ D:\Universidad\8vosemestre\diseñodesistemas\modulo\Prototipo -RRHH\Prototipo -R
 D:\Universidad\8vosemestre\diseñodesistemas\modulo\Prototipo -RRHH\Prototipo -RRHH\obj\Debug\Prototipo__RRHH.Planilla_IGSS.resources
 D:\Universidad\8vosemestre\diseñodesistemas\modulo\Prototipo -RRHH\Prototipo -RRHH\obj\Debug\Prototipo__RRHH.Properties.Resources.resources
 D:\Universidad\8vosemestre\diseñodesistemas\modulo\Prototipo -RRHH\Prototipo -RRHH\obj\Debug\Prototipo -RRHH.csproj.GenerateResource.Cache
+C:\Users\javie\Documents\GitHub\Hotel-San-Carlos\Grupo1\Prototipo\Prototipo -RRHH\Prototipo -RRHH\obj\Debug\Prototipo__RRHH.frm_Deducciones_grid.resources
+C:\Users\javie\Documents\GitHub\Hotel-San-Carlos\Grupo1\Prototipo\Prototipo -RRHH\Prototipo -RRHH\obj\Debug\Prototipo__RRHH.frm_Devengados_grid.resources
+C:\Users\javie\Documents\GitHub\Hotel-San-Carlos\Grupo1\Prototipo\Prototipo -RRHH\Prototipo -RRHH\obj\Debug\Prototipo__RRHH.frm_Nominas_Empleados_grid.resources

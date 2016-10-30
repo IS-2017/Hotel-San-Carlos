@@ -33,8 +33,6 @@
             this.gpb_regist_emp = new System.Windows.Forms.GroupBox();
             this.txt_empresa = new System.Windows.Forms.TextBox();
             this.lbl_empresa = new System.Windows.Forms.Label();
-            this.lbl_estado = new System.Windows.Forms.Label();
-            this.txt_estado_emp = new System.Windows.Forms.TextBox();
             this.txt_tipo_sueldo = new System.Windows.Forms.TextBox();
             this.lbl_tipo_sueldo = new System.Windows.Forms.Label();
             this.txt_dtp_fecha_egre_emp = new System.Windows.Forms.TextBox();
@@ -45,7 +43,6 @@
             this.txt_cbo_nacional_emp = new System.Windows.Forms.TextBox();
             this.txt_dtp_fecha_nacim = new System.Windows.Forms.TextBox();
             this.cbo_nacional_emp = new System.Windows.Forms.ComboBox();
-            this.dgv_datos_emp = new System.Windows.Forms.DataGridView();
             this.txt_sueldo_emp = new System.Windows.Forms.TextBox();
             this.btn_examinar_pic_emp = new System.Windows.Forms.Button();
             this.lbl_sueldo_emp = new System.Windows.Forms.Label();
@@ -74,8 +71,6 @@
             this.txt_nomb_emp = new System.Windows.Forms.TextBox();
             this.lbl_telef_emp = new System.Windows.Forms.Label();
             this.lbl_nom_emp = new System.Windows.Forms.Label();
-            this.txt_cod_emp = new System.Windows.Forms.TextBox();
-            this.lbl_cod_emp = new System.Windows.Forms.Label();
             this.gpb_navegador = new System.Windows.Forms.GroupBox();
             this.btn_nuevo = new System.Windows.Forms.Button();
             this.btn_ultimo = new System.Windows.Forms.Button();
@@ -102,7 +97,6 @@
             this.toolTip10 = new System.Windows.Forms.ToolTip(this.components);
             this.toolTip11 = new System.Windows.Forms.ToolTip(this.components);
             this.gpb_regist_emp.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgv_datos_emp)).BeginInit();
             this.gpb_navegador.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pic_empleado)).BeginInit();
             this.SuspendLayout();
@@ -111,8 +105,6 @@
             // 
             this.gpb_regist_emp.Controls.Add(this.txt_empresa);
             this.gpb_regist_emp.Controls.Add(this.lbl_empresa);
-            this.gpb_regist_emp.Controls.Add(this.lbl_estado);
-            this.gpb_regist_emp.Controls.Add(this.txt_estado_emp);
             this.gpb_regist_emp.Controls.Add(this.txt_tipo_sueldo);
             this.gpb_regist_emp.Controls.Add(this.lbl_tipo_sueldo);
             this.gpb_regist_emp.Controls.Add(this.txt_dtp_fecha_egre_emp);
@@ -123,7 +115,6 @@
             this.gpb_regist_emp.Controls.Add(this.txt_cbo_nacional_emp);
             this.gpb_regist_emp.Controls.Add(this.txt_dtp_fecha_nacim);
             this.gpb_regist_emp.Controls.Add(this.cbo_nacional_emp);
-            this.gpb_regist_emp.Controls.Add(this.dgv_datos_emp);
             this.gpb_regist_emp.Controls.Add(this.txt_sueldo_emp);
             this.gpb_regist_emp.Controls.Add(this.btn_examinar_pic_emp);
             this.gpb_regist_emp.Controls.Add(this.lbl_sueldo_emp);
@@ -155,7 +146,7 @@
             this.gpb_regist_emp.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gpb_regist_emp.Location = new System.Drawing.Point(12, 160);
             this.gpb_regist_emp.Name = "gpb_regist_emp";
-            this.gpb_regist_emp.Size = new System.Drawing.Size(775, 511);
+            this.gpb_regist_emp.Size = new System.Drawing.Size(775, 311);
             this.gpb_regist_emp.TabIndex = 166;
             this.gpb_regist_emp.TabStop = false;
             this.gpb_regist_emp.Text = "Registro de empleados";
@@ -178,24 +169,6 @@
             this.lbl_empresa.TabIndex = 184;
             this.lbl_empresa.Tag = "tipo_sueldo";
             this.lbl_empresa.Text = "Empresa:";
-            // 
-            // lbl_estado
-            // 
-            this.lbl_estado.AutoSize = true;
-            this.lbl_estado.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_estado.Location = new System.Drawing.Point(417, 237);
-            this.lbl_estado.Name = "lbl_estado";
-            this.lbl_estado.Size = new System.Drawing.Size(59, 18);
-            this.lbl_estado.TabIndex = 181;
-            this.lbl_estado.Text = "Estado:";
-            // 
-            // txt_estado_emp
-            // 
-            this.txt_estado_emp.Location = new System.Drawing.Point(549, 231);
-            this.txt_estado_emp.Name = "txt_estado_emp";
-            this.txt_estado_emp.Size = new System.Drawing.Size(215, 24);
-            this.txt_estado_emp.TabIndex = 180;
-            this.txt_estado_emp.Tag = "estado";
             // 
             // txt_tipo_sueldo
             // 
@@ -284,18 +257,18 @@
             this.cbo_nacional_emp.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbo_nacional_emp.FormattingEnabled = true;
             this.cbo_nacional_emp.Items.AddRange(new object[] {
-            "Argentina ",
-            "Bolivia ",
-            "Brasil ",
-            "Chile ",
-            "Colombia ",
-            "Costa Rica ",
-            "Cuba ",
-            "Ecuador ",
-            "El Salvador ",
+            "Argentina",
+            "Bolivia",
+            "Brasil",
+            "Chile",
+            "Colombia",
+            "Costa Rica",
+            "Cuba",
+            "Ecuador",
+            "El Salvador",
             "Guayana Francesa",
-            "Granada ",
-            "Guatemala ",
+            "Granada",
+            "Guatemala",
             "Guayana",
             "Haití",
             "Honduras ",
@@ -315,14 +288,6 @@
             this.cbo_nacional_emp.Size = new System.Drawing.Size(193, 26);
             this.cbo_nacional_emp.TabIndex = 170;
             this.cbo_nacional_emp.Tag = "";
-            // 
-            // dgv_datos_emp
-            // 
-            this.dgv_datos_emp.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgv_datos_emp.Location = new System.Drawing.Point(5, 318);
-            this.dgv_datos_emp.Name = "dgv_datos_emp";
-            this.dgv_datos_emp.Size = new System.Drawing.Size(759, 187);
-            this.dgv_datos_emp.TabIndex = 169;
             // 
             // txt_sueldo_emp
             // 
@@ -604,24 +569,6 @@
             this.lbl_nom_emp.TabIndex = 47;
             this.lbl_nom_emp.Text = "Nombre:";
             // 
-            // txt_cod_emp
-            // 
-            this.txt_cod_emp.Enabled = false;
-            this.txt_cod_emp.Location = new System.Drawing.Point(137, 10);
-            this.txt_cod_emp.Name = "txt_cod_emp";
-            this.txt_cod_emp.Size = new System.Drawing.Size(101, 20);
-            this.txt_cod_emp.TabIndex = 48;
-            // 
-            // lbl_cod_emp
-            // 
-            this.lbl_cod_emp.AutoSize = true;
-            this.lbl_cod_emp.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_cod_emp.Location = new System.Drawing.Point(9, 9);
-            this.lbl_cod_emp.Name = "lbl_cod_emp";
-            this.lbl_cod_emp.Size = new System.Drawing.Size(131, 18);
-            this.lbl_cod_emp.TabIndex = 46;
-            this.lbl_cod_emp.Text = "Código Empleado:";
-            // 
             // gpb_navegador
             // 
             this.gpb_navegador.Controls.Add(this.btn_nuevo);
@@ -857,13 +804,11 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
-            this.ClientSize = new System.Drawing.Size(799, 683);
+            this.ClientSize = new System.Drawing.Size(799, 477);
             this.Controls.Add(this.lbl_form_emp);
             this.Controls.Add(this.pic_empleado);
             this.Controls.Add(this.gpb_navegador);
             this.Controls.Add(this.gpb_regist_emp);
-            this.Controls.Add(this.lbl_cod_emp);
-            this.Controls.Add(this.txt_cod_emp);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
@@ -873,7 +818,6 @@
             this.Load += new System.EventHandler(this.Empleados_Load);
             this.gpb_regist_emp.ResumeLayout(false);
             this.gpb_regist_emp.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgv_datos_emp)).EndInit();
             this.gpb_navegador.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pic_empleado)).EndInit();
             this.ResumeLayout(false);
@@ -905,14 +849,11 @@
         private System.Windows.Forms.ToolTip toolTip9;
         private System.Windows.Forms.ToolTip toolTip10;
         private System.Windows.Forms.ToolTip toolTip11;
-        private System.Windows.Forms.DataGridView dgv_datos_emp;
         public System.Windows.Forms.Button btn_actualizar;
         public System.Windows.Forms.GroupBox gpb_regist_emp;
         public System.Windows.Forms.TextBox txt_nomb_emp;
-        public System.Windows.Forms.TextBox txt_cod_emp;
         public System.Windows.Forms.Label lbl_telef_emp;
         public System.Windows.Forms.Label lbl_nom_emp;
-        public System.Windows.Forms.Label lbl_cod_emp;
         public System.Windows.Forms.TextBox txt_direc_emp;
         public System.Windows.Forms.Label lbl_direc_emp;
         public System.Windows.Forms.TextBox txt_dpi_emp;
@@ -948,8 +889,6 @@
         private System.Windows.Forms.TextBox txt_dtp_fecha_ingr_emp;
         public System.Windows.Forms.TextBox txt_tipo_sueldo;
         public System.Windows.Forms.Label lbl_tipo_sueldo;
-        public System.Windows.Forms.Label lbl_estado;
-        private System.Windows.Forms.TextBox txt_estado_emp;
         public System.Windows.Forms.TextBox txt_empresa;
         public System.Windows.Forms.Label lbl_empresa;
         public System.Windows.Forms.ComboBox cbo_nacional_emp;

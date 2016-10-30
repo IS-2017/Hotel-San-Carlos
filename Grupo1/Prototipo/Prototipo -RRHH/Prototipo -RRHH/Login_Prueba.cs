@@ -22,6 +22,7 @@ namespace Prototipo__RRHH
 
         private const string ayudaCHM = "Ayuda-Modulo-RRHH.chm";
         private const string inicioSesion = "gettingstarted.html";
+        Login_Prueba login;
         
 
         private void Btn_Inicio_secion_Click(object sender, EventArgs e)
@@ -33,6 +34,7 @@ namespace Prototipo__RRHH
                     MessageBox.Show("Contraseña Correcta...", "Bienvenido", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     MenuMDI mdi = new MenuMDI();
                     mdi.Show();
+                    mdi.FormClosed += new FormClosedEventHandler(mdi_FormClosed);
                     this.Hide();
 
                 }
@@ -45,14 +47,23 @@ namespace Prototipo__RRHH
             {
                 MessageBox.Show("Usuario Incorrecto!", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-
-            
-
         }
+
+        void mdi_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            this.Close();
+        }
+
+
 
         private void button1_Click(object sender, EventArgs e)
         {
             Help.ShowHelp(this, ayudaCHM, HelpNavigator.Topic, inicioSesion);
+        }
+
+        private void Login_Prueba_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

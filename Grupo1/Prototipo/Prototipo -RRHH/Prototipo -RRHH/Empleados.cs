@@ -25,21 +25,54 @@ namespace Prototipo__RRHH
             InitializeComponent();
         }
 
+        public Empleados(DataGridView dgv, String id_empleados_pk, String nombre, String telefono, String direccion, String genero, String fecha_nacimiento, String fecha_ingreso, String fecha_egreso, String dpi, String no_afiliacion_igss, String estado, String edad, String nacionalidad, String estado_civil, String cargo, String sueldo, String tipo_sueldo, String id_empresa_pk, Boolean Editar1, Boolean tipo_accion)
+        {
+            this.dg = dgv;
+            this.Editar = Editar1;
+            InitializeComponent();
+            atributo = "id_empleados_pk";
+            this.Codigo = id_empleados_pk;
+            if(tipo_accion == true)
+            {
+                
+                this.txt_nomb_emp.Text = nombre;
+                this.txt_telef_emp.Text = telefono;
+                this.txt_direc_emp.Text = direccion;
+                this.cbo_gener_emp.Text = genero;
+                this.txt_dtp_fecha_nacim.Text = fecha_nacimiento; dtp_fecha_nacim.Text = txt_dtp_fecha_nacim.Text;
+                this.txt_dtp_fecha_ingr_emp.Text = fecha_ingreso; dtp_fecha_ingr_emp.Text = txt_dtp_fecha_ingr_emp.Text;
+                this.txt_dtp_fecha_egre_emp.Text = fecha_egreso; dtp_fecha_egre_emp.Text = txt_dtp_fecha_egre_emp.Text;
+                this.txt_dpi_emp.Text = dpi;
+                this.txt_carne_igss_emp.Text = no_afiliacion_igss;
+                this.txt_edad_emp.Text = edad;
+                this.txt_cbo_nacional_emp.Text = nacionalidad; cbo_estad_civ_emp.Text = txt_cbo_estad_civ_emp.Text;
+                this.txt_cbo_estad_civ_emp.Text = estado_civil; cbo_estad_civ_emp.Text = txt_cbo_estad_civ_emp.Text;
+                this.txt_cbo_cargo_emp.Text = cargo; cbo_cargo_emp.Text = txt_cbo_cargo_emp.Text;
+                this.txt_sueldo_emp.Text = sueldo;
+                this.txt_tipo_sueldo.Text = tipo_sueldo;
+                this.fn.ActivarControles(gpb_regist_emp);
+            }
+            else
+            {
+                fn.ActivarControles(gpb_regist_emp);
+            }
+
+        }
+
         string imgLoc;
         String Codigo;
         Boolean Editar;
         String atributo;
         MySqlCommand comand;
         CapaNegocio fn = new CapaNegocio();
+        DataGridView dg;
+
+
 
         private void Empleados_Load(object sender, EventArgs e)
         {
             fn.InhabilitarComponentes(gpb_regist_emp);
             fn.InhabilitarComponentes(this);
-            string tabla = "empleado";
-            fn.ActualizarGrid(this.dgv_datos_emp, "Select * from empleado WHERE estado <> 'INACTIVO' ", tabla);
-            txt_cod_emp.Text = this.dgv_datos_emp.CurrentRow.Cells[0].Value.ToString();
-
         }
 
         private void btn_examinar_pic_Click(object sender, EventArgs e)
@@ -99,7 +132,7 @@ namespace Prototipo__RRHH
             {
                 string tabla = "empleado";
                 operaciones op = new operaciones();
-                op.ejecutar(dgv_datos_emp, tabla);
+                op.ejecutar(dg, tabla);
             }
             catch (Exception ex)
             {
@@ -110,7 +143,7 @@ namespace Prototipo__RRHH
         private void btn_actualizar_Click(object sender, EventArgs e)
         {
             string tabla = "empleado";
-            fn.ActualizarGrid(this.dgv_datos_emp, "Select * from empleado WHERE estado <> 'INACTIVO' ", tabla);
+            fn.ActualizarGrid(this.dg, "Select `id_empleados_pk`, `nombre`, `telefono`, `direccion`, `genero`, `fecha_nacimiento`, `fecha_ingreso`, `fecha_egreso`, `dpi`, `no_afiliacion_igss`, `estado`, `edad`, `nacionalidad`, `estado_civil`, `cargo`, `sueldo`, `tipo_sueldo`, `id_empresa_pk` from empleado WHERE estado <> 'INACTIVO' ", tabla);
 
 
             /*Conexionmysql.ObtenerConexion();
@@ -148,7 +181,7 @@ namespace Prototipo__RRHH
                 txt_cbo_cargo_emp.Text = cbo_cargo_emp.Text;
                 txt_cbo_gener_emp.Text = cbo_gener_emp.Text;
 
-                TextBox[] textbox = { txt_nomb_emp, txt_dtp_fecha_nacim, txt_edad_emp, txt_dpi_emp, txt_cbo_nacional_emp, txt_cbo_estad_civ_emp, txt_carne_igss_emp, txt_sueldo_emp, txt_tipo_sueldo, txt_empresa, txt_dtp_fecha_ingr_emp, txt_dtp_fecha_egre_emp, txt_direc_emp, txt_cbo_cargo_emp, txt_telef_emp, txt_cbo_gener_emp, txt_estado_emp };
+                TextBox[] textbox = { txt_nomb_emp, txt_dtp_fecha_nacim, txt_edad_emp, txt_dpi_emp, txt_cbo_nacional_emp, txt_cbo_estad_civ_emp, txt_carne_igss_emp, txt_sueldo_emp, txt_tipo_sueldo, txt_empresa, txt_dtp_fecha_ingr_emp, txt_dtp_fecha_egre_emp, txt_direc_emp, txt_cbo_cargo_emp, txt_telef_emp, txt_cbo_gener_emp };
                 DataTable datos = fn.construirDataTable(textbox);
                 if (datos.Rows.Count == 0)
                 {
@@ -193,9 +226,22 @@ namespace Prototipo__RRHH
             {
                 Editar = true;
                 atributo = "id_empleados_pk";
-                Codigo = this.dgv_datos_emp.CurrentRow.Cells[0].Value.ToString();
-                TextBox[] textbox = { txt_nomb_emp, txt_dtp_fecha_nacim, txt_edad_emp, txt_dpi_emp, txt_cbo_nacional_emp, txt_cbo_estad_civ_emp, txt_carne_igss_emp, txt_sueldo_emp, txt_tipo_sueldo, txt_dtp_fecha_ingr_emp, txt_dtp_fecha_egre_emp, txt_direc_emp, txt_cbo_cargo_emp, txt_telef_emp, txt_cbo_gener_emp, txt_estado_emp };
-                fn.llenartextbox(textbox, dgv_datos_emp);
+                this.Codigo = this.dg.CurrentRow.Cells[0].Value.ToString();
+                this.txt_nomb_emp.Text = this.dg.CurrentRow.Cells[1].Value.ToString();
+                this.txt_dtp_fecha_nacim.Text = this.dg.CurrentRow.Cells[5].Value.ToString(); dtp_fecha_nacim.Text = txt_dtp_fecha_nacim.Text;
+                this.txt_edad_emp.Text = this.dg.CurrentRow.Cells[11].Value.ToString();
+                this.txt_dpi_emp.Text = this.dg.CurrentRow.Cells[8].Value.ToString();
+                this.txt_cbo_nacional_emp.Text = this.dg.CurrentRow.Cells[12].Value.ToString(); cbo_nacional_emp.Text = txt_cbo_nacional_emp.Text;
+                this.txt_cbo_estad_civ_emp.Text = this.dg.CurrentRow.Cells[13].Value.ToString(); cbo_estad_civ_emp.Text = txt_cbo_estad_civ_emp.Text;
+                this.txt_carne_igss_emp.Text = this.dg.CurrentRow.Cells[9].Value.ToString();
+                this.txt_sueldo_emp.Text = this.dg.CurrentRow.Cells[15].Value.ToString();
+                this.txt_tipo_sueldo.Text = this.dg.CurrentRow.Cells[16].Value.ToString();
+                this.txt_dtp_fecha_ingr_emp.Text = this.dg.CurrentRow.Cells[6].Value.ToString(); dtp_fecha_ingr_emp.Text = txt_dtp_fecha_ingr_emp.Text;
+                this.txt_dtp_fecha_egre_emp.Text = this.dg.CurrentRow.Cells[7].Value.ToString(); dtp_fecha_egre_emp.Text = txt_dtp_fecha_egre_emp.Text;
+                this.txt_direc_emp.Text = this.dg.CurrentRow.Cells[3].Value.ToString();
+                this.txt_telef_emp.Text = this.dg.CurrentRow.Cells[2].Value.ToString();
+                this.txt_cbo_gener_emp.Text = this.dg.CurrentRow.Cells[13].Value.ToString(); cbo_gener_emp.Text = txt_cbo_gener_emp.Text;
+                fn.ActivarControles(gpb_regist_emp);
             }
             catch
             {
@@ -207,7 +253,7 @@ namespace Prototipo__RRHH
         {
             try
             {
-                String codigo2 = this.dgv_datos_emp.CurrentRow.Cells[0].Value.ToString();
+                String codigo2 = this.dg.CurrentRow.Cells[0].Value.ToString();
                 String atributo2 = "id_empleados_pk";
                 //String campo = "estado";
                 var resultado = MessageBox.Show("DESEA BORRAR EL REGISTRO SELECCIONADO", "CONFIRME SU ACCION", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
@@ -227,8 +273,8 @@ namespace Prototipo__RRHH
 
         private void btn_anterior_Click(object sender, EventArgs e)
         {
-            fn.Anterior(dgv_datos_emp);
-            TextBox[] textbox = { txt_nomb_emp, txt_dtp_fecha_nacim, txt_edad_emp, txt_dpi_emp, txt_cbo_nacional_emp, txt_cbo_estad_civ_emp, txt_carne_igss_emp, txt_sueldo_emp, txt_tipo_sueldo, txt_dtp_fecha_ingr_emp, txt_dtp_fecha_egre_emp, txt_direc_emp, txt_cbo_cargo_emp, txt_telef_emp, txt_cbo_gener_emp, txt_estado_emp };
+            fn.Anterior(dg);
+           /* TextBox[] textbox = { txt_nomb_emp, txt_dtp_fecha_nacim, txt_edad_emp, txt_dpi_emp, txt_cbo_nacional_emp, txt_cbo_estad_civ_emp, txt_carne_igss_emp, txt_sueldo_emp, txt_tipo_sueldo, txt_dtp_fecha_ingr_emp, txt_dtp_fecha_egre_emp, txt_direc_emp, txt_cbo_cargo_emp, txt_telef_emp, txt_cbo_gener_emp };
             fn.llenartextbox(textbox, dgv_datos_emp);
             dtp_fecha_nacim.Text = txt_dtp_fecha_nacim.Text;
             cbo_nacional_emp.Text = txt_cbo_nacional_emp.Text;
@@ -236,13 +282,13 @@ namespace Prototipo__RRHH
             dtp_fecha_ingr_emp.Text = txt_dtp_fecha_ingr_emp.Text;
             dtp_fecha_egre_emp.Text = txt_dtp_fecha_egre_emp.Text;
             cbo_cargo_emp.Text = txt_cbo_cargo_emp.Text;
-            cbo_gener_emp.Text = txt_cbo_gener_emp.Text;
+            cbo_gener_emp.Text = txt_cbo_gener_emp.Text; */
         }
 
         private void btn_siguiente_Click(object sender, EventArgs e)
         {
-            fn.Siguiente(dgv_datos_emp);
-            TextBox[] textbox = { txt_nomb_emp, txt_dtp_fecha_nacim, txt_edad_emp, txt_dpi_emp, txt_cbo_nacional_emp, txt_cbo_estad_civ_emp, txt_carne_igss_emp, txt_sueldo_emp, txt_tipo_sueldo, txt_dtp_fecha_ingr_emp, txt_dtp_fecha_egre_emp, txt_direc_emp, txt_cbo_cargo_emp, txt_telef_emp, txt_cbo_gener_emp, txt_estado_emp };
+            fn.Siguiente(dg);
+           /* TextBox[] textbox = { txt_nomb_emp, txt_dtp_fecha_nacim, txt_edad_emp, txt_dpi_emp, txt_cbo_nacional_emp, txt_cbo_estad_civ_emp, txt_carne_igss_emp, txt_sueldo_emp, txt_tipo_sueldo, txt_dtp_fecha_ingr_emp, txt_dtp_fecha_egre_emp, txt_direc_emp, txt_cbo_cargo_emp, txt_telef_emp, txt_cbo_gener_emp };
             fn.llenartextbox(textbox, dgv_datos_emp);
             dtp_fecha_nacim.Text = txt_dtp_fecha_nacim.Text;
             cbo_nacional_emp.Text = txt_cbo_nacional_emp.Text;
@@ -250,13 +296,13 @@ namespace Prototipo__RRHH
             dtp_fecha_ingr_emp.Text = txt_dtp_fecha_ingr_emp.Text;
             dtp_fecha_egre_emp.Text = txt_dtp_fecha_egre_emp.Text;
             cbo_cargo_emp.Text = txt_cbo_cargo_emp.Text;
-            cbo_gener_emp.Text = txt_cbo_gener_emp.Text;
+            cbo_gener_emp.Text = txt_cbo_gener_emp.Text;*/
         }
 
         private void btn_primero_Click(object sender, EventArgs e)
         {
-            fn.Primero(dgv_datos_emp);
-            TextBox[] textbox = { txt_nomb_emp, txt_dtp_fecha_nacim, txt_edad_emp, txt_dpi_emp, txt_cbo_nacional_emp, txt_cbo_estad_civ_emp, txt_carne_igss_emp, txt_sueldo_emp, txt_tipo_sueldo, txt_dtp_fecha_ingr_emp, txt_dtp_fecha_egre_emp, txt_direc_emp, txt_cbo_cargo_emp, txt_telef_emp, txt_cbo_gener_emp, txt_estado_emp };
+            fn.Primero(dg);
+           /* TextBox[] textbox = { txt_nomb_emp, txt_dtp_fecha_nacim, txt_edad_emp, txt_dpi_emp, txt_cbo_nacional_emp, txt_cbo_estad_civ_emp, txt_carne_igss_emp, txt_sueldo_emp, txt_tipo_sueldo, txt_dtp_fecha_ingr_emp, txt_dtp_fecha_egre_emp, txt_direc_emp, txt_cbo_cargo_emp, txt_telef_emp, txt_cbo_gener_emp };
             fn.llenartextbox(textbox, dgv_datos_emp);
             dtp_fecha_nacim.Text = txt_dtp_fecha_nacim.Text;
             cbo_nacional_emp.Text = txt_cbo_nacional_emp.Text;
@@ -264,13 +310,13 @@ namespace Prototipo__RRHH
             dtp_fecha_ingr_emp.Text = txt_dtp_fecha_ingr_emp.Text;
             dtp_fecha_egre_emp.Text = txt_dtp_fecha_egre_emp.Text;
             cbo_cargo_emp.Text = txt_cbo_cargo_emp.Text;
-            cbo_gener_emp.Text = txt_cbo_gener_emp.Text;
+            cbo_gener_emp.Text = txt_cbo_gener_emp.Text; */
         }
 
         private void btn_ultimo_Click(object sender, EventArgs e)
         {
-            fn.Ultimo(dgv_datos_emp);
-            TextBox[] textbox = { txt_nomb_emp, txt_dtp_fecha_nacim, txt_edad_emp, txt_dpi_emp, txt_cbo_nacional_emp, txt_cbo_estad_civ_emp, txt_carne_igss_emp, txt_sueldo_emp, txt_tipo_sueldo, txt_dtp_fecha_ingr_emp, txt_dtp_fecha_egre_emp, txt_direc_emp, txt_cbo_cargo_emp, txt_telef_emp, txt_cbo_gener_emp, txt_estado_emp };
+            fn.Ultimo(dg);
+            /*TextBox[] textbox = { txt_nomb_emp, txt_dtp_fecha_nacim, txt_edad_emp, txt_dpi_emp, txt_cbo_nacional_emp, txt_cbo_estad_civ_emp, txt_carne_igss_emp, txt_sueldo_emp, txt_tipo_sueldo, txt_dtp_fecha_ingr_emp, txt_dtp_fecha_egre_emp, txt_direc_emp, txt_cbo_cargo_emp, txt_telef_emp, txt_cbo_gener_emp };
             fn.llenartextbox(textbox, dgv_datos_emp);
             dtp_fecha_nacim.Text = txt_dtp_fecha_nacim.Text;
             cbo_nacional_emp.Text = txt_cbo_nacional_emp.Text;
@@ -278,7 +324,7 @@ namespace Prototipo__RRHH
             dtp_fecha_ingr_emp.Text = txt_dtp_fecha_ingr_emp.Text;
             dtp_fecha_egre_emp.Text = txt_dtp_fecha_egre_emp.Text;
             cbo_cargo_emp.Text = txt_cbo_cargo_emp.Text;
-            cbo_gener_emp.Text = txt_cbo_gener_emp.Text;
+            cbo_gener_emp.Text = txt_cbo_gener_emp.Text;*/
         }
     }
 }
