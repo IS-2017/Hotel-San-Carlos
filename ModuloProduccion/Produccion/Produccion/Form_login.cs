@@ -1,0 +1,112 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using seguridad;
+
+
+
+using System.Data.Odbc;
+
+/*
+ Autor: Yony Calito
+ UD:11/10/2016
+     */
+
+namespace produccion
+{
+    public partial class Form_login : Form
+    {
+        public Form_login()
+        {
+            InitializeComponent();
+        }
+
+        private void Form_login_Load(object sender, EventArgs e)
+        {
+            
+            seguridad.Conexion.DSN = "hotelsancarlos";
+            txt_contraseña.PasswordChar = '*';
+            
+            
+            
+        }
+
+        private void btn_logear_Click(object sender, EventArgs e)
+        {
+            // OdbcConnection con = seguridad.Conexion.ObtenerConexionODBC();
+            OdbcConnection con = Conexion.ConexionPermisos();
+            seguridad.SistemaUsuarioDatos ss = new SistemaUsuarioDatos();
+            string usuario = txt_usuario.Text.Trim();
+            string contraseña = ss.Encriptar(txt_contraseña.Text.Trim());
+            ClaseTomaIp ip = new ClaseTomaIp();
+            string localIP = ip.direccion();
+
+            /****LLama a una funciòn almacenada que valida la existencia del usuario y la integridad de la contraseña****/
+            try
+            {
+                string consulta = "select ValidarContrasena('" + usuario + "', '" + contraseña + "','" + localIP + "') ";
+                OdbcCommand comando = new OdbcCommand(consulta, con);
+                object resultado = comando.ExecuteScalar();
+                if (Convert.ToInt16(resultado) == 1) //esto nos indica que la validaciòn ha sido correcta por parte de la funciòn almacenada
+                {
+                   
+                    seguridad.Conexion.User= usuario;
+                    seguridad.Conexion.PassWord = contraseña;
+                    
+                    MessageBox.Show("¡Bienvenido!: " +usuario);
+
+                    Menu_produccion nMenu = new Menu_produccion();
+                    nMenu.Show();
+                    txt_contraseña.Clear();
+                    txt_usuario.Clear();
+                    
+                    this.Hide();
+                }
+                else
+                {
+                    MessageBox.Show("Usuario y/o contraseña invàlidos"); //De lo contrario, si la contraseña es incorrecta o el usuario, nos devuelve el fallo
+                    txt_contraseña.Clear();
+                    //txt_usuario.Clear();
+                }
+
+        }
+            catch
+            {
+                
+                MessageBox.Show("Problema con ODBC");
+            }
+
+            con.Close();
+        }
+
+        private void txt_contraseña_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == Convert.ToChar(Keys.Enter))
+            {
+                btn_logear.PerformClick();
+            }
+        }
+
+        /*
+        private void button1_Click(object sender, EventArgs e)
+        {
+           // MySqlConnection  con = Conexion.Conexion.ObtenerConexionMYSQL();
+            OdbcConnection con = new OdbcConnection();
+            // con.ConnectionString = "dsn=prueba2; UID=cvbcvcvfdgdd; PWD=; ";
+            con.ConnectionString = "dsn=prueba2; server=localhost; database=sancarlosprueba; Uid=root; pwd=;";
+            //con.ConnectionString = "dsn=prueba2";
+            con.Open();
+           // if (con != null)
+           if(con.State == ConnectionState.Open )
+            {
+                MessageBox.Show("conexion exitosa");
+            }else { MessageBox.Show("no hay conexion"); }
+        }^*/
+    }
+}
