@@ -1,0 +1,224 @@
+C:\Users\Usuario\OneDrive\UMG\OCTAVO CICLO\DDS\PROYECTO 2\SEGURIDAD\UNIFICACION 1.6\Menu_seguridad\Menu_seguridad\bin\Debug\Menu_seguridad.exe.config
+C:\Users\Usuario\OneDrive\UMG\OCTAVO CICLO\DDS\PROYECTO 2\SEGURIDAD\UNIFICACION 1.6\Menu_seguridad\Menu_seguridad\obj\Debug\Menu_seguridad.csprojResolveAssemblyReference.cache
+C:\Users\Usuario\OneDrive\UMG\OCTAVO CICLO\DDS\PROYECTO 2\SEGURIDAD\UNIFICACION 1.6\Menu_seguridad\Menu_seguridad\obj\Debug\Menu_seguridad.menu_seguridad.resources
+C:\Users\Usuario\OneDrive\UMG\OCTAVO CICLO\DDS\PROYECTO 2\SEGURIDAD\UNIFICACION 1.6\Menu_seguridad\Menu_seguridad\obj\Debug\Menu_seguridad.Properties.Resources.resources
+C:\Users\Usuario\OneDrive\UMG\OCTAVO CICLO\DDS\PROYECTO 2\SEGURIDAD\UNIFICACION 1.6\Menu_seguridad\Menu_seguridad\obj\Debug\Menu_seguridad.csproj.GenerateResource.Cache
+C:\Users\Usuario\OneDrive\UMG\OCTAVO CICLO\DDS\PROYECTO 2\SEGURIDAD\UNIFICACION 1.6\Menu_seguridad\Menu_seguridad\bin\Debug\Menu_seguridad.exe
+C:\Users\Usuario\OneDrive\UMG\OCTAVO CICLO\DDS\PROYECTO 2\SEGURIDAD\UNIFICACION 1.6\Menu_seguridad\Menu_seguridad\bin\Debug\Menu_seguridad.pdb
+C:\Users\Usuario\OneDrive\UMG\OCTAVO CICLO\DDS\PROYECTO 2\SEGURIDAD\UNIFICACION 1.6\Menu_seguridad\Menu_seguridad\bin\Debug\seguridad.dll
+C:\Users\Usuario\OneDrive\UMG\OCTAVO CICLO\DDS\PROYECTO 2\SEGURIDAD\UNIFICACION 1.6\Menu_seguridad\Menu_seguridad\bin\Debug\bitacoradll.dll
+C:\Users\Usuario\OneDrive\UMG\OCTAVO CICLO\DDS\PROYECTO 2\SEGURIDAD\UNIFICACION 1.6\Menu_seguridad\Menu_seguridad\bin\Debug\Conexion.dll
+C:\Users\Usuario\OneDrive\UMG\OCTAVO CICLO\DDS\PROYECTO 2\SEGURIDAD\UNIFICACION 1.6\Menu_seguridad\Menu_seguridad\bin\Debug\MySql.Data.dll
+C:\Users\Usuario\OneDrive\UMG\OCTAVO CICLO\DDS\PROYECTO 2\SEGURIDAD\UNIFICACION 1.6\Menu_seguridad\Menu_seguridad\bin\Debug\seguridad.pdb
+C:\Users\Usuario\OneDrive\UMG\OCTAVO CICLO\DDS\PROYECTO 2\SEGURIDAD\UNIFICACION 1.6\Menu_seguridad\Menu_seguridad\obj\Debug\Menu_seguridad.exe
+C:\Users\Usuario\OneDrive\UMG\OCTAVO CICLO\DDS\PROYECTO 2\SEGURIDAD\UNIFICACION 1.6\Menu_seguridad\Menu_seguridad\obj\Debug\Menu_seguridad.pdb
+C:\Users\Chrix\OneDrive\UNIFICACION 1.6\Menu_seguridad\Menu_seguridad\bin\Debug\Menu_seguridad.exe.config
+C:\Users\Chrix\OneDrive\UNIFICACION 1.6\Menu_seguridad\Menu_seguridad\obj\Debug\Menu_seguridad.exe
+C:\Users\Chrix\OneDrive\UNIFICACION 1.6\Menu_seguridad\Menu_seguridad\obj\Debug\Menu_seguridad.pdb
+C:\Users\Chrix\OneDrive\UNIFICACION 1.6\Menu_seguridad\Menu_seguridad\bin\Debug\Menu_seguridad.exe
+C:\Users\Chrix\OneDrive\UNIFICACION 1.6\Menu_seguridad\Menu_seguridad\bin\Debug\Menu_seguridad.pdb
+C:\Users\Chrix\OneDrive\UNIFICACION 1.6\Menu_seguridad\Menu_seguridad\bin\Debug\seguridad.dll
+C:\Users\Chrix\OneDrive\UNIFICACION 1.6\Menu_seguridad\Menu_seguridad\bin\Debug\bitacoradll.dll
+C:\Users\Chrix\OneDrive\UNIFICACION 1.6\Menu_seguridad\Menu_seguridad\bin\Debug\Conexion.dll
+C:\Users\Chrix\OneDrive\UNIFICACION 1.6\Menu_seguridad\Menu_seguridad\bin\Debug\MySql.Data.dll
+C:\Users\Chrix\OneDrive\UNIFICACION 1.6\Menu_seguridad\Menu_seguridad\bin\Debug\seguridad.pdb
+C:\Users\Chrix\OneDrive\UNIFICACION 1.6\Menu_seguridad\Menu_seguridad\obj\Debug\Menu_seguridad.csprojResolveAssemblyReference.cache
+C:\Users\Chrix\OneDrive\UNIFICACION 1.6\Menu_seguridad\Menu_seguridad\obj\Debug\Menu_seguridad.menu_seguridad.resources
+C:\Users\Chrix\OneDrive\UNIFICACION 1.6\Menu_seguridad\Menu_seguridad\obj\Debug\Menu_seguridad.Properties.Resources.resources
+C:\Users\Chrix\OneDrive\UNIFICACION 1.6\Menu_seguridad\Menu_seguridad\obj\Debug\Menu_seguridad.csproj.GenerateResource.Cache
+C:\Users\Chrix\OneDrive\UNIFICACION 1.6\Menu_seguridad\Menu_seguridad\obj\Debug\Menu_seguridad.Form_login.resources
+C:\Users\Chrix\Desktop\seguridad copia de seguridad\Menu_seguridad\Menu_seguridad\bin\Debug\Menu_seguridad.exe.config
+C:\Users\Chrix\Desktop\seguridad copia de seguridad\Menu_seguridad\Menu_seguridad\obj\Debug\Menu_seguridad.exe
+C:\Users\Chrix\Desktop\seguridad copia de seguridad\Menu_seguridad\Menu_seguridad\obj\Debug\Menu_seguridad.pdb
+C:\Users\Chrix\Desktop\seguridad copia de seguridad\Menu_seguridad\Menu_seguridad\obj\Debug\Menu_seguridad.csprojResolveAssemblyReference.cache
+C:\Users\Chrix\Desktop\seguridad copia de seguridad\Menu_seguridad\Menu_seguridad\obj\Debug\Menu_seguridad.Form_login.resources
+C:\Users\Chrix\Desktop\seguridad copia de seguridad\Menu_seguridad\Menu_seguridad\obj\Debug\Menu_seguridad.menu_seguridad.resources
+C:\Users\Chrix\Desktop\seguridad copia de seguridad\Menu_seguridad\Menu_seguridad\obj\Debug\Menu_seguridad.Properties.Resources.resources
+C:\Users\Chrix\Desktop\seguridad copia de seguridad\Menu_seguridad\Menu_seguridad\obj\Debug\Menu_seguridad.csproj.GenerateResource.Cache
+C:\Users\Chrix\Desktop\seguridad copia de seguridad\Menu_seguridad\Menu_seguridad\bin\Debug\Menu_seguridad.exe
+C:\Users\Chrix\Desktop\seguridad copia de seguridad\Menu_seguridad\Menu_seguridad\bin\Debug\Menu_seguridad.pdb
+C:\Users\Chrix\Desktop\seguridad copia de seguridad\Menu_seguridad\Menu_seguridad\bin\Debug\bitacoradll.dll
+C:\Users\Chrix\Desktop\seguridad copia de seguridad\Menu_seguridad\Menu_seguridad\bin\Debug\seguridad.dll
+C:\Users\Chrix\Desktop\seguridad copia de seguridad\Menu_seguridad\Menu_seguridad\bin\Debug\Conexion.dll
+C:\Users\Chrix\Desktop\seguridad copia de seguridad\Menu_seguridad\Menu_seguridad\bin\Debug\MySql.Data.dll
+C:\Users\Chrix\Desktop\seguridad copia de seguridad\Menu_seguridad\Menu_seguridad\bin\Debug\seguridad.pdb
+C:\Users\Chrix\Desktop\Seguridad\Seguridad3\Menu_seguridad\Menu_seguridad\bin\Debug\Menu_seguridad.exe.config
+C:\Users\Chrix\Desktop\Seguridad\Seguridad3\Menu_seguridad\Menu_seguridad\obj\Debug\Menu_seguridad.exe
+C:\Users\Chrix\Desktop\Seguridad\Seguridad3\Menu_seguridad\Menu_seguridad\obj\Debug\Menu_seguridad.pdb
+C:\Users\Chrix\Desktop\Seguridad\Seguridad3\Menu_seguridad\Menu_seguridad\bin\Debug\Menu_seguridad.exe
+C:\Users\Chrix\Desktop\Seguridad\Seguridad3\Menu_seguridad\Menu_seguridad\bin\Debug\Menu_seguridad.pdb
+C:\Users\Chrix\Desktop\Seguridad\Seguridad3\Menu_seguridad\Menu_seguridad\bin\Debug\seguridad.dll
+C:\Users\Chrix\Desktop\Seguridad\Seguridad3\Menu_seguridad\Menu_seguridad\bin\Debug\Conexion.dll
+C:\Users\Chrix\Desktop\Seguridad\Seguridad3\Menu_seguridad\Menu_seguridad\bin\Debug\MySql.Data.dll
+C:\Users\Chrix\Desktop\Seguridad\Seguridad3\Menu_seguridad\Menu_seguridad\bin\Debug\seguridad.pdb
+C:\Users\Chrix\Desktop\Seguridad\Seguridad3\Menu_seguridad\Menu_seguridad\obj\Debug\Menu_seguridad.csprojResolveAssemblyReference.cache
+C:\Users\Chrix\Desktop\Seguridad\Seguridad3\Menu_seguridad\Menu_seguridad\obj\Debug\Menu_seguridad.Form_login.resources
+C:\Users\Chrix\Desktop\Seguridad\Seguridad3\Menu_seguridad\Menu_seguridad\obj\Debug\Menu_seguridad.menu_seguridad.resources
+C:\Users\Chrix\Desktop\Seguridad\Seguridad3\Menu_seguridad\Menu_seguridad\obj\Debug\Menu_seguridad.Properties.Resources.resources
+C:\Users\Chrix\Desktop\Seguridad\Seguridad3\Menu_seguridad\Menu_seguridad\obj\Debug\Menu_seguridad.csproj.GenerateResource.Cache
+C:\Users\Chrix\Desktop\Seguridad\Seguridad3\Menu_seguridad\Menu_seguridad\obj\Debug\Menu_seguridad.pruebanav.resources
+C:\Users\Usuario\OneDrive\UMG\OCTAVO CICLO\DDS\PROYECTO 2\SEGURIDAD\UNIFICACION 1.6\Seguridad Version 3 (trabaja sobre esta zorra)\Menu_seguridad\Menu_seguridad\obj\Debug\Menu_seguridad.csprojResolveAssemblyReference.cache
+C:\Users\Usuario\OneDrive\UMG\OCTAVO CICLO\DDS\PROYECTO 2\SEGURIDAD\UNIFICACION 1.6\Seguridad Version 3 (trabaja sobre esta zorra)\Menu_seguridad\Menu_seguridad\obj\Debug\Menu_seguridad.Form_login.resources
+C:\Users\Usuario\OneDrive\UMG\OCTAVO CICLO\DDS\PROYECTO 2\SEGURIDAD\UNIFICACION 1.6\Seguridad Version 3 (trabaja sobre esta zorra)\Menu_seguridad\Menu_seguridad\obj\Debug\Menu_seguridad.menu_seguridad.resources
+C:\Users\Usuario\OneDrive\UMG\OCTAVO CICLO\DDS\PROYECTO 2\SEGURIDAD\UNIFICACION 1.6\Seguridad Version 3 (trabaja sobre esta zorra)\Menu_seguridad\Menu_seguridad\obj\Debug\Menu_seguridad.Properties.Resources.resources
+C:\Users\Usuario\OneDrive\UMG\OCTAVO CICLO\DDS\PROYECTO 2\SEGURIDAD\UNIFICACION 1.6\Seguridad Version 3 (trabaja sobre esta zorra)\Menu_seguridad\Menu_seguridad\obj\Debug\Menu_seguridad.csproj.GenerateResource.Cache
+C:\Users\Usuario\OneDrive\UMG\OCTAVO CICLO\DDS\PROYECTO 2\SEGURIDAD\UNIFICACION 1.6\Seguridad Version 3 (trabaja sobre esta zorra)\Menu_seguridad\Menu_seguridad\obj\Debug\Menu_seguridad.exe
+C:\Users\Usuario\OneDrive\UMG\OCTAVO CICLO\DDS\PROYECTO 2\SEGURIDAD\UNIFICACION 1.6\Seguridad Version 3 (trabaja sobre esta zorra)\Menu_seguridad\Menu_seguridad\obj\Debug\Menu_seguridad.pdb
+C:\Users\Usuario\OneDrive\UMG\OCTAVO CICLO\DDS\PROYECTO 2\SEGURIDAD\UNIFICACION 1.6\Seguridad Version 3 (trabaja sobre esta zorra)\Menu_seguridad\Menu_seguridad\bin\Debug\Menu_seguridad.exe.config
+C:\Users\Usuario\OneDrive\UMG\OCTAVO CICLO\DDS\PROYECTO 2\SEGURIDAD\UNIFICACION 1.6\Seguridad Version 3 (trabaja sobre esta zorra)\Menu_seguridad\Menu_seguridad\bin\Debug\Menu_seguridad.exe
+C:\Users\Usuario\OneDrive\UMG\OCTAVO CICLO\DDS\PROYECTO 2\SEGURIDAD\UNIFICACION 1.6\Seguridad Version 3 (trabaja sobre esta zorra)\Menu_seguridad\Menu_seguridad\bin\Debug\Menu_seguridad.pdb
+C:\Users\Usuario\OneDrive\UMG\OCTAVO CICLO\DDS\PROYECTO 2\SEGURIDAD\UNIFICACION 1.6\Seguridad Version 3 (trabaja sobre esta zorra)\Menu_seguridad\Menu_seguridad\bin\Debug\seguridad.dll
+C:\Users\Usuario\OneDrive\UMG\OCTAVO CICLO\DDS\PROYECTO 2\SEGURIDAD\UNIFICACION 1.6\Seguridad Version 3 (trabaja sobre esta zorra)\Menu_seguridad\Menu_seguridad\bin\Debug\Conexion.dll
+C:\Users\Usuario\OneDrive\UMG\OCTAVO CICLO\DDS\PROYECTO 2\SEGURIDAD\UNIFICACION 1.6\Seguridad Version 3 (trabaja sobre esta zorra)\Menu_seguridad\Menu_seguridad\bin\Debug\MySql.Data.dll
+C:\Users\Usuario\OneDrive\UMG\OCTAVO CICLO\DDS\PROYECTO 2\SEGURIDAD\UNIFICACION 1.6\Seguridad Version 3 (trabaja sobre esta zorra)\Menu_seguridad\Menu_seguridad\bin\Debug\seguridad.pdb
+C:\Users\Chrix\OneDrive\UNIFICACION 1.6\Seguridad Version 3 (trabaja sobre esta zorra)\Menu_seguridad\Menu_seguridad\bin\Debug\Menu_seguridad.exe.config
+C:\Users\Chrix\OneDrive\UNIFICACION 1.6\Seguridad Version 3 (trabaja sobre esta zorra)\Menu_seguridad\Menu_seguridad\obj\Debug\Menu_seguridad.exe
+C:\Users\Chrix\OneDrive\UNIFICACION 1.6\Seguridad Version 3 (trabaja sobre esta zorra)\Menu_seguridad\Menu_seguridad\obj\Debug\Menu_seguridad.pdb
+C:\Users\Chrix\OneDrive\UNIFICACION 1.6\Seguridad Version 3 (trabaja sobre esta zorra)\Menu_seguridad\Menu_seguridad\bin\Debug\Menu_seguridad.exe
+C:\Users\Chrix\OneDrive\UNIFICACION 1.6\Seguridad Version 3 (trabaja sobre esta zorra)\Menu_seguridad\Menu_seguridad\bin\Debug\Menu_seguridad.pdb
+C:\Users\Chrix\OneDrive\UNIFICACION 1.6\Seguridad Version 3 (trabaja sobre esta zorra)\Menu_seguridad\Menu_seguridad\bin\Debug\seguridad.dll
+C:\Users\Chrix\OneDrive\UNIFICACION 1.6\Seguridad Version 3 (trabaja sobre esta zorra)\Menu_seguridad\Menu_seguridad\bin\Debug\Conexion.dll
+C:\Users\Chrix\OneDrive\UNIFICACION 1.6\Seguridad Version 3 (trabaja sobre esta zorra)\Menu_seguridad\Menu_seguridad\bin\Debug\MySql.Data.dll
+C:\Users\Chrix\OneDrive\UNIFICACION 1.6\Seguridad Version 3 (trabaja sobre esta zorra)\Menu_seguridad\Menu_seguridad\bin\Debug\seguridad.pdb
+C:\Users\Chrix\OneDrive\UNIFICACION 1.6\Seguridad Version 3 (trabaja sobre esta zorra)\Menu_seguridad\Menu_seguridad\obj\Debug\Menu_seguridad.csprojResolveAssemblyReference.cache
+C:\Users\Chrix\OneDrive\UNIFICACION 1.6\Seguridad Version 3 (trabaja sobre esta zorra)\Menu_seguridad\Menu_seguridad\obj\Debug\Menu_seguridad.Form_login.resources
+C:\Users\Chrix\OneDrive\UNIFICACION 1.6\Seguridad Version 3 (trabaja sobre esta zorra)\Menu_seguridad\Menu_seguridad\obj\Debug\Menu_seguridad.menu_seguridad.resources
+C:\Users\Chrix\OneDrive\UNIFICACION 1.6\Seguridad Version 3 (trabaja sobre esta zorra)\Menu_seguridad\Menu_seguridad\obj\Debug\Menu_seguridad.Properties.Resources.resources
+C:\Users\Chrix\OneDrive\UNIFICACION 1.6\Seguridad Version 3 (trabaja sobre esta zorra)\Menu_seguridad\Menu_seguridad\obj\Debug\Menu_seguridad.csproj.GenerateResource.Cache
+C:\Users\Usuario\OneDrive\UMG\OCTAVO CICLO\DDS\PROYECTO 2\SEGURIDAD\VERSION 2.1\Seguridad Version 3 (trabaja sobre esta zorra)\Menu_seguridad\Menu_seguridad\bin\Debug\Menu_seguridad.exe.config
+C:\Users\Usuario\OneDrive\UMG\OCTAVO CICLO\DDS\PROYECTO 2\SEGURIDAD\VERSION 2.1\Seguridad Version 3 (trabaja sobre esta zorra)\Menu_seguridad\Menu_seguridad\obj\Debug\Menu_seguridad.exe
+C:\Users\Usuario\OneDrive\UMG\OCTAVO CICLO\DDS\PROYECTO 2\SEGURIDAD\VERSION 2.1\Seguridad Version 3 (trabaja sobre esta zorra)\Menu_seguridad\Menu_seguridad\obj\Debug\Menu_seguridad.pdb
+C:\Users\Usuario\OneDrive\UMG\OCTAVO CICLO\DDS\PROYECTO 2\SEGURIDAD\VERSION 2.1\Seguridad Version 3 (trabaja sobre esta zorra)\Menu_seguridad\Menu_seguridad\bin\Debug\Menu_seguridad.exe
+C:\Users\Usuario\OneDrive\UMG\OCTAVO CICLO\DDS\PROYECTO 2\SEGURIDAD\VERSION 2.1\Seguridad Version 3 (trabaja sobre esta zorra)\Menu_seguridad\Menu_seguridad\bin\Debug\Menu_seguridad.pdb
+C:\Users\Usuario\OneDrive\UMG\OCTAVO CICLO\DDS\PROYECTO 2\SEGURIDAD\VERSION 2.1\Seguridad Version 3 (trabaja sobre esta zorra)\Menu_seguridad\Menu_seguridad\bin\Debug\seguridad.dll
+C:\Users\Usuario\OneDrive\UMG\OCTAVO CICLO\DDS\PROYECTO 2\SEGURIDAD\VERSION 2.1\Seguridad Version 3 (trabaja sobre esta zorra)\Menu_seguridad\Menu_seguridad\bin\Debug\seguridad.pdb
+C:\Users\Usuario\OneDrive\UMG\OCTAVO CICLO\DDS\PROYECTO 2\SEGURIDAD\VERSION 2.1\Seguridad Version 3 (trabaja sobre esta zorra)\Menu_seguridad\Menu_seguridad\obj\Debug\Menu_seguridad.Form_login.resources
+C:\Users\Usuario\OneDrive\UMG\OCTAVO CICLO\DDS\PROYECTO 2\SEGURIDAD\VERSION 2.1\Seguridad Version 3 (trabaja sobre esta zorra)\Menu_seguridad\Menu_seguridad\obj\Debug\Menu_seguridad.menu_seguridad.resources
+C:\Users\Usuario\OneDrive\UMG\OCTAVO CICLO\DDS\PROYECTO 2\SEGURIDAD\VERSION 2.1\Seguridad Version 3 (trabaja sobre esta zorra)\Menu_seguridad\Menu_seguridad\obj\Debug\Menu_seguridad.Properties.Resources.resources
+C:\Users\Usuario\OneDrive\UMG\OCTAVO CICLO\DDS\PROYECTO 2\SEGURIDAD\VERSION 2.1\Seguridad Version 3 (trabaja sobre esta zorra)\Menu_seguridad\Menu_seguridad\obj\Debug\Menu_seguridad.csproj.GenerateResource.Cache
+C:\Users\Chrix\Desktop\Seguridad\Seguridad5\Seguridad Version 5\Menu_seguridad\Menu_seguridad\bin\Debug\Menu_seguridad.exe.config
+C:\Users\Chrix\Desktop\Seguridad\Seguridad5\Seguridad Version 5\Menu_seguridad\Menu_seguridad\obj\Debug\Menu_seguridad.exe
+C:\Users\Chrix\Desktop\Seguridad\Seguridad5\Seguridad Version 5\Menu_seguridad\Menu_seguridad\obj\Debug\Menu_seguridad.pdb
+C:\Users\Chrix\Desktop\Seguridad\Seguridad5\Seguridad Version 5\Menu_seguridad\Menu_seguridad\bin\Debug\Menu_seguridad.exe
+C:\Users\Chrix\Desktop\Seguridad\Seguridad5\Seguridad Version 5\Menu_seguridad\Menu_seguridad\bin\Debug\Menu_seguridad.pdb
+C:\Users\Chrix\Desktop\Seguridad\Seguridad5\Seguridad Version 5\Menu_seguridad\Menu_seguridad\bin\Debug\seguridad.dll
+C:\Users\Chrix\Desktop\Seguridad\Seguridad5\Seguridad Version 5\Menu_seguridad\Menu_seguridad\bin\Debug\seguridad.pdb
+C:\Users\Chrix\Desktop\Seguridad\Seguridad5\Seguridad Version 5\Menu_seguridad\Menu_seguridad\obj\Debug\Menu_seguridad.csprojResolveAssemblyReference.cache
+C:\Users\Chrix\Desktop\Seguridad\Seguridad5\Seguridad Version 5\Menu_seguridad\Menu_seguridad\obj\Debug\Menu_seguridad.Form_login.resources
+C:\Users\Chrix\Desktop\Seguridad\Seguridad5\Seguridad Version 5\Menu_seguridad\Menu_seguridad\obj\Debug\Menu_seguridad.menu_seguridad.resources
+C:\Users\Chrix\Desktop\Seguridad\Seguridad5\Seguridad Version 5\Menu_seguridad\Menu_seguridad\obj\Debug\Menu_seguridad.Properties.Resources.resources
+C:\Users\Chrix\Desktop\Seguridad\Seguridad5\Seguridad Version 5\Menu_seguridad\Menu_seguridad\obj\Debug\Menu_seguridad.csproj.GenerateResource.Cache
+C:\Users\Usuario\OneDrive\UMG\OCTAVO CICLO\DDS\PROYECTO 2\SEGURIDAD\UNIFICACION 1.6\Seguridad Version 5 (trabaja sobre este ahora)\Menu_seguridad\Menu_seguridad\bin\Debug\Menu_seguridad.exe.config
+C:\Users\Usuario\OneDrive\UMG\OCTAVO CICLO\DDS\PROYECTO 2\SEGURIDAD\UNIFICACION 1.6\Seguridad Version 5 (trabaja sobre este ahora)\Menu_seguridad\Menu_seguridad\obj\Debug\Menu_seguridad.exe
+C:\Users\Usuario\OneDrive\UMG\OCTAVO CICLO\DDS\PROYECTO 2\SEGURIDAD\UNIFICACION 1.6\Seguridad Version 5 (trabaja sobre este ahora)\Menu_seguridad\Menu_seguridad\obj\Debug\Menu_seguridad.pdb
+C:\Users\Usuario\OneDrive\UMG\OCTAVO CICLO\DDS\PROYECTO 2\SEGURIDAD\UNIFICACION 1.6\Seguridad Version 5 (trabaja sobre este ahora)\Menu_seguridad\Menu_seguridad\bin\Debug\Menu_seguridad.exe
+C:\Users\Usuario\OneDrive\UMG\OCTAVO CICLO\DDS\PROYECTO 2\SEGURIDAD\UNIFICACION 1.6\Seguridad Version 5 (trabaja sobre este ahora)\Menu_seguridad\Menu_seguridad\bin\Debug\Menu_seguridad.pdb
+C:\Users\Usuario\OneDrive\UMG\OCTAVO CICLO\DDS\PROYECTO 2\SEGURIDAD\UNIFICACION 1.6\Seguridad Version 5 (trabaja sobre este ahora)\Menu_seguridad\Menu_seguridad\bin\Debug\seguridad.dll
+C:\Users\Usuario\OneDrive\UMG\OCTAVO CICLO\DDS\PROYECTO 2\SEGURIDAD\UNIFICACION 1.6\Seguridad Version 5 (trabaja sobre este ahora)\Menu_seguridad\Menu_seguridad\bin\Debug\seguridad.pdb
+C:\Users\Usuario\OneDrive\UMG\OCTAVO CICLO\DDS\PROYECTO 2\SEGURIDAD\UNIFICACION 1.6\Seguridad Version 5 (trabaja sobre este ahora)\Menu_seguridad\Menu_seguridad\obj\Debug\Menu_seguridad.csprojResolveAssemblyReference.cache
+C:\Users\Usuario\OneDrive\UMG\OCTAVO CICLO\DDS\PROYECTO 2\SEGURIDAD\UNIFICACION 1.6\Seguridad Version 5 (trabaja sobre este ahora)\Menu_seguridad\Menu_seguridad\obj\Debug\Menu_seguridad.Form_login.resources
+C:\Users\Usuario\OneDrive\UMG\OCTAVO CICLO\DDS\PROYECTO 2\SEGURIDAD\UNIFICACION 1.6\Seguridad Version 5 (trabaja sobre este ahora)\Menu_seguridad\Menu_seguridad\obj\Debug\Menu_seguridad.menu_seguridad.resources
+C:\Users\Usuario\OneDrive\UMG\OCTAVO CICLO\DDS\PROYECTO 2\SEGURIDAD\UNIFICACION 1.6\Seguridad Version 5 (trabaja sobre este ahora)\Menu_seguridad\Menu_seguridad\obj\Debug\Menu_seguridad.Properties.Resources.resources
+C:\Users\Usuario\OneDrive\UMG\OCTAVO CICLO\DDS\PROYECTO 2\SEGURIDAD\UNIFICACION 1.6\Seguridad Version 5 (trabaja sobre este ahora)\Menu_seguridad\Menu_seguridad\obj\Debug\Menu_seguridad.csproj.GenerateResource.Cache
+C:\Users\Chrix\OneDrive\UNIFICACION 1.6\Seguridad Version 5 (trabaja sobre este ahora)\Menu_seguridad\Menu_seguridad\bin\Debug\Menu_seguridad.exe.config
+C:\Users\Chrix\OneDrive\UNIFICACION 1.6\Seguridad Version 5 (trabaja sobre este ahora)\Menu_seguridad\Menu_seguridad\obj\Debug\Menu_seguridad.exe
+C:\Users\Chrix\OneDrive\UNIFICACION 1.6\Seguridad Version 5 (trabaja sobre este ahora)\Menu_seguridad\Menu_seguridad\obj\Debug\Menu_seguridad.pdb
+C:\Users\Chrix\OneDrive\UNIFICACION 1.6\Seguridad Version 5 (trabaja sobre este ahora)\Menu_seguridad\Menu_seguridad\bin\Debug\Menu_seguridad.exe
+C:\Users\Chrix\OneDrive\UNIFICACION 1.6\Seguridad Version 5 (trabaja sobre este ahora)\Menu_seguridad\Menu_seguridad\bin\Debug\Menu_seguridad.pdb
+C:\Users\Chrix\OneDrive\UNIFICACION 1.6\Seguridad Version 5 (trabaja sobre este ahora)\Menu_seguridad\Menu_seguridad\bin\Debug\seguridad.dll
+C:\Users\Chrix\OneDrive\UNIFICACION 1.6\Seguridad Version 5 (trabaja sobre este ahora)\Menu_seguridad\Menu_seguridad\bin\Debug\seguridad.pdb
+C:\Users\Chrix\OneDrive\UNIFICACION 1.6\Seguridad Version 5 (trabaja sobre este ahora)\Menu_seguridad\Menu_seguridad\obj\Debug\Menu_seguridad.csprojResolveAssemblyReference.cache
+C:\Users\Chrix\OneDrive\UNIFICACION 1.6\Seguridad Version 5 (trabaja sobre este ahora)\Menu_seguridad\Menu_seguridad\obj\Debug\Menu_seguridad.Form_login.resources
+C:\Users\Chrix\OneDrive\UNIFICACION 1.6\Seguridad Version 5 (trabaja sobre este ahora)\Menu_seguridad\Menu_seguridad\obj\Debug\Menu_seguridad.menu_seguridad.resources
+C:\Users\Chrix\OneDrive\UNIFICACION 1.6\Seguridad Version 5 (trabaja sobre este ahora)\Menu_seguridad\Menu_seguridad\obj\Debug\Menu_seguridad.Properties.Resources.resources
+C:\Users\Chrix\OneDrive\UNIFICACION 1.6\Seguridad Version 5 (trabaja sobre este ahora)\Menu_seguridad\Menu_seguridad\obj\Debug\Menu_seguridad.csproj.GenerateResource.Cache
+C:\Users\Chrix\OneDrive\UNIFICACION 1.6\Seguridad Version 5 (trabaja sobre este ahora)\Menu_seguridad\Menu_seguridad\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\Chrix\OneDrive\UNIFICACION 1.6\Seguridad Version 5 (trabaja sobre este ahora)\Menu_seguridad\Menu_seguridad\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\Chrix\OneDrive\UNIFICACION 1.6\Seguridad Version 5 (trabaja sobre este ahora)\Menu_seguridad\Menu_seguridad\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\Chrix\OneDrive\UNIFICACION 1.6\Seguridad Version 5 (trabaja sobre este ahora)\Menu_seguridad\Menu_seguridad\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\Chrix\OneDrive\UNIFICACION 1.6\Seguridad Version 5 (trabaja sobre este ahora)\Menu_seguridad\Menu_seguridad\bin\Debug\FlashControlV71.dll
+C:\Users\Chrix\OneDrive\UNIFICACION 1.6\Seguridad Version 5 (trabaja sobre este ahora)\Menu_seguridad\Menu_seguridad\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\Chrix\OneDrive\UNIFICACION 1.6\Seguridad Version 5 (trabaja sobre este ahora)\Menu_seguridad\Menu_seguridad\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\Chrix\OneDrive\UNIFICACION 1.6\Seguridad Version 5 (trabaja sobre este ahora)\Menu_seguridad\Menu_seguridad\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\Chrix\OneDrive\UNIFICACION 1.6\Seguridad Version 5 (trabaja sobre este ahora)\Menu_seguridad\Menu_seguridad\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\Chrix\OneDrive\UNIFICACION 1.6\Seguridad Version 5 (trabaja sobre este ahora)\Menu_seguridad\Menu_seguridad\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\Chrix\OneDrive\UNIFICACION 1.6\Seguridad Version 5 (trabaja sobre este ahora)\Menu_seguridad\Menu_seguridad\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\Chrix\OneDrive\UNIFICACION 1.6\Seguridad Version 5 (trabaja sobre este ahora)\Menu_seguridad\Menu_seguridad\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\Chrix\OneDrive\UNIFICACION 1.6\Seguridad Version 5 (trabaja sobre este ahora)\Menu_seguridad\Menu_seguridad\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\Chrix\OneDrive\UNIFICACION 1.6\Seguridad Version 5 (trabaja sobre este ahora)\Menu_seguridad\Menu_seguridad\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\Chrix\OneDrive\UNIFICACION 1.6\Seguridad Version 5 (trabaja sobre este ahora)\Menu_seguridad\Menu_seguridad\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\Chrix\OneDrive\UNIFICACION 1.6\Seguridad Version 5 (trabaja sobre este ahora)\Menu_seguridad\Menu_seguridad\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\Chrix\OneDrive\UNIFICACION 1.6\Seguridad Version 5 (trabaja sobre este ahora)\Menu_seguridad\Menu_seguridad\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\Chrix\OneDrive\UNIFICACION 1.6\Seguridad Version 5 (trabaja sobre este ahora)\Menu_seguridad\Menu_seguridad\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\Chrix\OneDrive\UNIFICACION 1.6\Seguridad Version 5 (trabaja sobre este ahora)\Menu_seguridad\Menu_seguridad\bin\Debug\stdole.dll
+C:\Users\Chrix\Desktop\Seguridad\Seguridad version 7\Menu_seguridad\Menu_seguridad\bin\Debug\Menu_seguridad.exe.config
+C:\Users\Chrix\Desktop\Seguridad\Seguridad version 7\Menu_seguridad\Menu_seguridad\obj\Debug\Menu_seguridad.exe
+C:\Users\Chrix\Desktop\Seguridad\Seguridad version 7\Menu_seguridad\Menu_seguridad\obj\Debug\Menu_seguridad.pdb
+C:\Users\Chrix\Desktop\Seguridad\Seguridad version 7\Menu_seguridad\Menu_seguridad\bin\Debug\Menu_seguridad.exe
+C:\Users\Chrix\Desktop\Seguridad\Seguridad version 7\Menu_seguridad\Menu_seguridad\bin\Debug\Menu_seguridad.pdb
+C:\Users\Chrix\Desktop\Seguridad\Seguridad version 7\Menu_seguridad\Menu_seguridad\bin\Debug\seguridad.dll
+C:\Users\Chrix\Desktop\Seguridad\Seguridad version 7\Menu_seguridad\Menu_seguridad\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\Chrix\Desktop\Seguridad\Seguridad version 7\Menu_seguridad\Menu_seguridad\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\Chrix\Desktop\Seguridad\Seguridad version 7\Menu_seguridad\Menu_seguridad\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\Chrix\Desktop\Seguridad\Seguridad version 7\Menu_seguridad\Menu_seguridad\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\Chrix\Desktop\Seguridad\Seguridad version 7\Menu_seguridad\Menu_seguridad\bin\Debug\FlashControlV71.dll
+C:\Users\Chrix\Desktop\Seguridad\Seguridad version 7\Menu_seguridad\Menu_seguridad\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\Chrix\Desktop\Seguridad\Seguridad version 7\Menu_seguridad\Menu_seguridad\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\Chrix\Desktop\Seguridad\Seguridad version 7\Menu_seguridad\Menu_seguridad\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\Chrix\Desktop\Seguridad\Seguridad version 7\Menu_seguridad\Menu_seguridad\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\Chrix\Desktop\Seguridad\Seguridad version 7\Menu_seguridad\Menu_seguridad\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\Chrix\Desktop\Seguridad\Seguridad version 7\Menu_seguridad\Menu_seguridad\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\Chrix\Desktop\Seguridad\Seguridad version 7\Menu_seguridad\Menu_seguridad\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\Chrix\Desktop\Seguridad\Seguridad version 7\Menu_seguridad\Menu_seguridad\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\Chrix\Desktop\Seguridad\Seguridad version 7\Menu_seguridad\Menu_seguridad\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\Chrix\Desktop\Seguridad\Seguridad version 7\Menu_seguridad\Menu_seguridad\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\Chrix\Desktop\Seguridad\Seguridad version 7\Menu_seguridad\Menu_seguridad\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\Chrix\Desktop\Seguridad\Seguridad version 7\Menu_seguridad\Menu_seguridad\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\Chrix\Desktop\Seguridad\Seguridad version 7\Menu_seguridad\Menu_seguridad\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\Chrix\Desktop\Seguridad\Seguridad version 7\Menu_seguridad\Menu_seguridad\bin\Debug\stdole.dll
+C:\Users\Chrix\Desktop\Seguridad\Seguridad version 7\Menu_seguridad\Menu_seguridad\bin\Debug\seguridad.pdb
+C:\Users\Chrix\Desktop\Seguridad\Seguridad version 7\Menu_seguridad\Menu_seguridad\obj\Debug\Menu_seguridad.csprojResolveAssemblyReference.cache
+C:\Users\Chrix\Desktop\Seguridad\Seguridad version 7\Menu_seguridad\Menu_seguridad\obj\Debug\Menu_seguridad.Form_login.resources
+C:\Users\Chrix\Desktop\Seguridad\Seguridad version 7\Menu_seguridad\Menu_seguridad\obj\Debug\Menu_seguridad.menu_seguridad.resources
+C:\Users\Chrix\Desktop\Seguridad\Seguridad version 7\Menu_seguridad\Menu_seguridad\obj\Debug\Menu_seguridad.Properties.Resources.resources
+C:\Users\Chrix\Desktop\Seguridad\Seguridad version 7\Menu_seguridad\Menu_seguridad\obj\Debug\Menu_seguridad.csproj.GenerateResource.Cache
+C:\Users\Usuario\OneDrive\UMG\OCTAVO CICLO\DDS\PROYECTO 2\SEGURIDAD\UNIFICACION 1.6\Seguridad version 7\Menu_seguridad\Menu_seguridad\bin\Debug\Menu_seguridad.exe.config
+C:\Users\Usuario\OneDrive\UMG\OCTAVO CICLO\DDS\PROYECTO 2\SEGURIDAD\UNIFICACION 1.6\Seguridad version 7\Menu_seguridad\Menu_seguridad\obj\Debug\Menu_seguridad.exe
+C:\Users\Usuario\OneDrive\UMG\OCTAVO CICLO\DDS\PROYECTO 2\SEGURIDAD\UNIFICACION 1.6\Seguridad version 7\Menu_seguridad\Menu_seguridad\obj\Debug\Menu_seguridad.pdb
+C:\Users\Chrix\OneDrive\UNIFICACION 1.6\Seguridad version 7\Menu_seguridad\Menu_seguridad\bin\Debug\Menu_seguridad.exe.config
+C:\Users\Chrix\OneDrive\UNIFICACION 1.6\Seguridad version 7\Menu_seguridad\Menu_seguridad\obj\Debug\Menu_seguridad.exe
+C:\Users\Chrix\OneDrive\UNIFICACION 1.6\Seguridad version 7\Menu_seguridad\Menu_seguridad\obj\Debug\Menu_seguridad.pdb
+C:\Users\GABRIELA\Videos\Seguridad version 7 final\Seguridad version 7\Menu_seguridad\Menu_seguridad\bin\Debug\Menu_seguridad.exe.config
+C:\Users\GABRIELA\Videos\Seguridad version 7 final\Seguridad version 7\Menu_seguridad\Menu_seguridad\obj\Debug\Menu_seguridad.exe
+C:\Users\GABRIELA\Videos\Seguridad version 7 final\Seguridad version 7\Menu_seguridad\Menu_seguridad\obj\Debug\Menu_seguridad.pdb
+C:\Users\Chrix\Desktop\Seguridad\seguridad con estandarizacion\Seguridad version 7 final\Seguridad version 7\Menu_seguridad\Menu_seguridad\bin\Debug\Menu_seguridad.exe.config
+C:\Users\Chrix\Desktop\Seguridad\seguridad con estandarizacion\Seguridad version 7 final\Seguridad version 7\Menu_seguridad\Menu_seguridad\obj\Debug\Menu_seguridad.exe
+C:\Users\Chrix\Desktop\Seguridad\seguridad con estandarizacion\Seguridad version 7 final\Seguridad version 7\Menu_seguridad\Menu_seguridad\obj\Debug\Menu_seguridad.pdb
+C:\Users\Chrix\Desktop\Seguridad\seguridad con estandarizacion\Seguridad version 7 final\Seguridad version 7\Menu_seguridad\Menu_seguridad\bin\Debug\Menu_seguridad.exe
+C:\Users\Chrix\Desktop\Seguridad\seguridad con estandarizacion\Seguridad version 7 final\Seguridad version 7\Menu_seguridad\Menu_seguridad\bin\Debug\Menu_seguridad.pdb
+C:\Users\Chrix\Desktop\Seguridad\seguridad con estandarizacion\Seguridad version 7 final\Seguridad version 7\Menu_seguridad\Menu_seguridad\bin\Debug\seguridad.dll
+C:\Users\Chrix\Desktop\Seguridad\seguridad con estandarizacion\Seguridad version 7 final\Seguridad version 7\Menu_seguridad\Menu_seguridad\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\Chrix\Desktop\Seguridad\seguridad con estandarizacion\Seguridad version 7 final\Seguridad version 7\Menu_seguridad\Menu_seguridad\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\Chrix\Desktop\Seguridad\seguridad con estandarizacion\Seguridad version 7 final\Seguridad version 7\Menu_seguridad\Menu_seguridad\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\Chrix\Desktop\Seguridad\seguridad con estandarizacion\Seguridad version 7 final\Seguridad version 7\Menu_seguridad\Menu_seguridad\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\Chrix\Desktop\Seguridad\seguridad con estandarizacion\Seguridad version 7 final\Seguridad version 7\Menu_seguridad\Menu_seguridad\bin\Debug\FlashControlV71.dll
+C:\Users\Chrix\Desktop\Seguridad\seguridad con estandarizacion\Seguridad version 7 final\Seguridad version 7\Menu_seguridad\Menu_seguridad\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\Chrix\Desktop\Seguridad\seguridad con estandarizacion\Seguridad version 7 final\Seguridad version 7\Menu_seguridad\Menu_seguridad\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\Chrix\Desktop\Seguridad\seguridad con estandarizacion\Seguridad version 7 final\Seguridad version 7\Menu_seguridad\Menu_seguridad\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\Chrix\Desktop\Seguridad\seguridad con estandarizacion\Seguridad version 7 final\Seguridad version 7\Menu_seguridad\Menu_seguridad\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\Chrix\Desktop\Seguridad\seguridad con estandarizacion\Seguridad version 7 final\Seguridad version 7\Menu_seguridad\Menu_seguridad\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\Chrix\Desktop\Seguridad\seguridad con estandarizacion\Seguridad version 7 final\Seguridad version 7\Menu_seguridad\Menu_seguridad\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\Chrix\Desktop\Seguridad\seguridad con estandarizacion\Seguridad version 7 final\Seguridad version 7\Menu_seguridad\Menu_seguridad\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\Chrix\Desktop\Seguridad\seguridad con estandarizacion\Seguridad version 7 final\Seguridad version 7\Menu_seguridad\Menu_seguridad\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\Chrix\Desktop\Seguridad\seguridad con estandarizacion\Seguridad version 7 final\Seguridad version 7\Menu_seguridad\Menu_seguridad\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\Chrix\Desktop\Seguridad\seguridad con estandarizacion\Seguridad version 7 final\Seguridad version 7\Menu_seguridad\Menu_seguridad\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\Chrix\Desktop\Seguridad\seguridad con estandarizacion\Seguridad version 7 final\Seguridad version 7\Menu_seguridad\Menu_seguridad\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\Chrix\Desktop\Seguridad\seguridad con estandarizacion\Seguridad version 7 final\Seguridad version 7\Menu_seguridad\Menu_seguridad\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\Chrix\Desktop\Seguridad\seguridad con estandarizacion\Seguridad version 7 final\Seguridad version 7\Menu_seguridad\Menu_seguridad\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\Chrix\Desktop\Seguridad\seguridad con estandarizacion\Seguridad version 7 final\Seguridad version 7\Menu_seguridad\Menu_seguridad\bin\Debug\stdole.dll
+C:\Users\Chrix\Desktop\Seguridad\seguridad con estandarizacion\Seguridad version 7 final\Seguridad version 7\Menu_seguridad\Menu_seguridad\bin\Debug\seguridad.pdb
+C:\Users\Chrix\Desktop\Seguridad\seguridad con estandarizacion\Seguridad version 7 final\Seguridad version 7\Menu_seguridad\Menu_seguridad\obj\Debug\Menu_seguridad.csprojResolveAssemblyReference.cache
+C:\Users\Chrix\Desktop\Seguridad\seguridad con estandarizacion\Seguridad version 7 final\Seguridad version 7\Menu_seguridad\Menu_seguridad\obj\Debug\Menu_seguridad.Form_login.resources
+C:\Users\Chrix\Desktop\Seguridad\seguridad con estandarizacion\Seguridad version 7 final\Seguridad version 7\Menu_seguridad\Menu_seguridad\obj\Debug\Menu_seguridad.menu_seguridad.resources
+C:\Users\Chrix\Desktop\Seguridad\seguridad con estandarizacion\Seguridad version 7 final\Seguridad version 7\Menu_seguridad\Menu_seguridad\obj\Debug\Menu_seguridad.Properties.Resources.resources
+C:\Users\Chrix\Desktop\Seguridad\seguridad con estandarizacion\Seguridad version 7 final\Seguridad version 7\Menu_seguridad\Menu_seguridad\obj\Debug\Menu_seguridad.csproj.GenerateResource.Cache
