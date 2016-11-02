@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using seguridad;
+using FuncionesNavegador;
 
 namespace Prototipo__RRHH
 {
@@ -28,7 +30,18 @@ namespace Prototipo__RRHH
         frm_Devengados_grid frm_deveng_grid;
         frm_Nominas_Empleados_grid frm_nomin_emp_grid;
 
-
+        FormAsignarPermisosUsuario nusr = new FormAsignarPermisosUsuario();
+        FormDeshabilitarUsuario form_desh = new FormDeshabilitarUsuario();
+        Form_EditarPrivilegios form_priv = new Form_EditarPrivilegios();
+        Form_EditarPerfil form_perf = new Form_EditarPerfil();
+        CambioPass form_cambpass = new CambioPass();
+        FormAsignacionPerfil form_asig = new FormAsignacionPerfil();
+        agregarapp form_app = new agregarapp();
+        //Modificar_aplicacion form_app_UD = new Modificar_aplicacion();
+        Historial form_hist = new Historial();
+        //Form_login form_log = new Form_login();
+        Form_infouser form_infouser = new Form_infouser();
+        FormEliminarPerfil inofuser = new FormEliminarPerfil();
 
         public MenuMDI()
         {
@@ -231,6 +244,215 @@ namespace Prototipo__RRHH
         void plan_igss_FormClosed(object sender, EventArgs e)
         {
             plan_igss = null;
+        }
+
+        private void toolStripMenuItem3_Click(object sender, EventArgs e)
+        {
+            Login_Prueba login_out = new Login_Prueba();
+            login_out.FormClosed += new FormClosedEventHandler(login_out_FormClosed);
+            login_out.Show();
+
+            this.Hide();
+        }
+
+        void login_out_FormClosed(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void usuariosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (form_infouser == null)
+            {
+                form_infouser = new Form_infouser();
+                form_infouser.MdiParent = this;
+
+                form_infouser.FormClosed += new FormClosedEventHandler(FormAsignacionPerfil_FormClosed);
+                form_infouser.Show();
+            }
+        }
+
+        private void FormAsignacionPerfil_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            form_infouser = null;
+        }
+
+        private void MenuMDI_Load(object sender, EventArgs e)
+        {
+            nusr = null;
+            form_desh = null;
+            form_priv = null;
+            form_perf = null;
+            form_cambpass = null;
+            form_asig = null;
+            form_app = null;
+            inofuser = null;
+            //form_app_UD = null;
+            form_hist = null;
+            form_infouser = null;
+        }
+
+        private void cambioDeContraseñaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (form_cambpass == null)
+            {
+                form_cambpass = new CambioPass();
+                form_cambpass.MdiParent = this;
+
+                form_cambpass.FormClosed += new FormClosedEventHandler(CambiarPass_FormClosed);
+                form_cambpass.StartPosition = FormStartPosition.CenterParent;
+                form_cambpass.Show();
+            }
+        }
+
+        public void CambiarPass_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            form_cambpass = null;
+        }
+
+        private void bitacoraToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (form_hist == null)
+            {
+                form_hist = new Historial();
+                form_hist.MdiParent = this;
+
+                form_hist.FormClosed += new FormClosedEventHandler(Historial_FormClosed);
+                form_hist.Show();
+            }
+        }
+
+        public void Historial_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            form_hist = null;
+        }
+
+        private void bitacoraToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            if (form_hist == null)
+            {
+                form_hist = new Historial();
+                form_hist.MdiParent = this;
+
+                form_hist.FormClosed += new FormClosedEventHandler(Historial_FormClosed);
+                form_hist.Show();
+            }
+        }
+
+        private void crearToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (form_asig == null)
+            {
+                form_asig = new FormAsignacionPerfil();
+                form_asig.MdiParent = this;
+
+                form_asig.FormClosed += new FormClosedEventHandler(FormAsignacionPerfil_FormClosed);
+                form_asig.Show();
+            }
+        }
+
+        private void modificarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (form_perf == null)
+            {
+                form_perf = new Form_EditarPerfil();
+                form_perf.MdiParent = this;
+
+                form_perf.FormClosed += new FormClosedEventHandler(Form_EditarPerfil_FormClosed);
+                form_perf.Show();
+            }
+        }
+
+        public void Form_EditarPerfil_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            form_perf = null;
+        }
+
+        private void deshabilitarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (inofuser == null)
+            {
+                inofuser = new FormEliminarPerfil();
+                inofuser.MdiParent = this;
+
+                inofuser.FormClosed += new FormClosedEventHandler(FormEliminarPerfil_FormClosed);
+                inofuser.Show();
+            }
+        }
+
+        private void FormEliminarPerfil_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            inofuser = null;
+        }
+
+        private void crearToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            if (nusr == null)
+            {
+                nusr = new FormAsignarPermisosUsuario();
+                nusr.MdiParent = this;
+
+                nusr.FormClosed += new FormClosedEventHandler(FormAsignarPermisosUsuario_FormClosed);
+                nusr.Show();
+            }
+        }
+
+        public void FormAsignarPermisosUsuario_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            nusr = null;
+        }
+
+        private void modificarToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            if (form_priv == null)
+            {
+                form_priv = new Form_EditarPrivilegios();
+                form_priv.MdiParent = this;
+
+                form_priv.FormClosed += new FormClosedEventHandler(Form_EditarPrivilegios_FormClosed);
+                form_priv.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
+                form_priv.Show();
+            }
+        }
+
+        public void Form_EditarPrivilegios_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            form_priv = null;
+        }
+
+        private void deshabilitarToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            if (form_desh == null)
+            {
+                form_desh = new FormDeshabilitarUsuario();
+                form_desh.MdiParent = this;
+
+                form_desh.FormClosed += new FormClosedEventHandler(FormDeshabilitarUsuario_FormClosed);
+                form_desh.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
+                form_desh.Show();
+            }
+        }
+
+        public void FormDeshabilitarUsuario_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            form_desh = null;
+        }
+
+        private void aplicacionesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (form_app == null)
+            {
+                form_app = new agregarapp();
+                form_app.MdiParent = this;
+
+                form_app.FormClosed += new FormClosedEventHandler(agregarapp_FormClosed);
+                form_app.Show();
+            }
+        }
+
+        public void agregarapp_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            form_app = null;
         }
     }
 }

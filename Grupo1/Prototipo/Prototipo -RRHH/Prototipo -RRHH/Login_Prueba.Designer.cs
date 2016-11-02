@@ -102,7 +102,8 @@
             this.txt_pass.PasswordChar = '*';
             this.txt_pass.Size = new System.Drawing.Size(245, 26);
             this.txt_pass.TabIndex = 10;
-            this.txt_pass.Text = "123456";
+            this.txt_pass.Text = "hola";
+            this.txt_pass.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_pass_KeyPress);
             // 
             // Lbl_contraseña
             // 
@@ -141,7 +142,7 @@
             this.txt_user.Name = "txt_user";
             this.txt_user.Size = new System.Drawing.Size(245, 26);
             this.txt_user.TabIndex = 7;
-            this.txt_user.Text = "Prueba";
+            this.txt_user.Text = "usuariodbs";
             // 
             // Lbl_usuario
             // 
