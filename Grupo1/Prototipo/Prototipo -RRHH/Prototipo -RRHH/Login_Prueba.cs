@@ -9,6 +9,8 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Web;
 using System.Security.Cryptography;
+using seguridad;
+using System.Data.Odbc;
 
 
 namespace Prototipo__RRHH
@@ -27,27 +29,43 @@ namespace Prototipo__RRHH
 
         private void Btn_Inicio_secion_Click(object sender, EventArgs e)
         {
-            if(txt_user.Text == "Prueba")
-            {
-                if(txt_pass.Text == "123456")
-                {
-                    MessageBox.Show("Contraseña Correcta...", "Bienvenido", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    MenuMDI mdi = new MenuMDI();
-                    mdi.Show();
-                    mdi.FormClosed += new FormClosedEventHandler(mdi_FormClosed);
-                    this.Hide();
+            // OdbcConnection con = seguridad.Conexion.ObtenerConexionODBC();
+            OdbcConnection con = Conexion.ConexionPermisos();
+            seguridad.SistemaUsuarioDatos ss = new SistemaUsuarioDatos();
+            string usuario = txt_user.Text.Trim();
+            string contraseña = ss.Encriptar(txt_pass.Text.Trim());
+            ClaseTomaIp ip = new ClaseTomaIp();
+            string localIP = ip.direccion();
 
-                }
-                else
-                {
-                    MessageBox.Show("Contraseña Incorrecta!", "Advertencia",MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }
+            /****LLama a una funciòn almacenada que valida la existencia del usuario y la integridad de la contraseña****/
+            //  try
+            // {
+            string consulta = "select ValidarContrasena('" + usuario + "', '" + contraseña + "','" + localIP + "') ";
+            OdbcCommand comando = new OdbcCommand(consulta, con);
+            object resultado = comando.ExecuteScalar();
+            if (Convert.ToInt16(resultado) == 1) //esto nos indica que la validaciòn ha sido correcta por parte de la funciòn almacenada
+            {
+                // seguridad.LlegarSeguridad.EstablecerUsuario(usuario);
+                seguridad.Conexion.User = usuario;
+                seguridad.Conexion.PassWord = contraseña;
+
+                MessageBox.Show("¡Bienvenido!: " + usuario);
+                MenuMDI men_mdi = new MenuMDI();
+                men_mdi.FormClosed += new FormClosedEventHandler(mdi_FormClosed);
+                men_mdi.Show();
+                txt_pass.Clear();
+                txt_user.Clear();
+
+                this.Hide();
             }
             else
             {
-                MessageBox.Show("Usuario Incorrecto!", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Usuario y/o contraseña invàlidos"); //De lo contrario, si la contraseña es incorrecta o el usuario, nos devuelve el fallo
+                txt_pass.Clear();
             }
+            con.Close();
         }
+
 
         void mdi_FormClosed(object sender, FormClosedEventArgs e)
         {
@@ -63,7 +81,15 @@ namespace Prototipo__RRHH
 
         private void Login_Prueba_Load(object sender, EventArgs e)
         {
+            txt_pass.PasswordChar = '*';
+        }
 
+        private void txt_pass_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == Convert.ToChar(Keys.Enter))
+            {
+                Btn_Inicio_secion.PerformClick();
+            }
         }
     }
 }
