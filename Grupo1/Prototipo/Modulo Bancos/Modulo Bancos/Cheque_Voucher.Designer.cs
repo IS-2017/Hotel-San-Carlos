@@ -47,6 +47,11 @@
             this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.id_documento_pk = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.id_detalle_cv_pk = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.detalle = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.debe = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.haber = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
@@ -70,11 +75,6 @@
             this.lbl_fecha = new System.Windows.Forms.Label();
             this.lbl_referido = new System.Windows.Forms.Label();
             this.txt_ref = new System.Windows.Forms.TextBox();
-            this.id_documento_pk = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.id_detalle_cv_pk = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.detalle = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.debe = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.haber = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.groupBox1.SuspendLayout();
             this.gpb_cheque_v.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -84,12 +84,12 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.ForeColor = System.Drawing.Color.Black;
             this.label1.Location = new System.Drawing.Point(246, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(255, 36);
+            this.label1.Size = new System.Drawing.Size(264, 36);
             this.label1.TabIndex = 161;
-            this.label1.Text = "Cheque Vouche";
+            this.label1.Text = "Cheque Voucher";
             // 
             // groupBox1
             // 
@@ -105,7 +105,7 @@
             this.groupBox1.Controls.Add(this.btn_actualizar);
             this.groupBox1.Controls.Add(this.btn_cancelar);
             this.groupBox1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.ForeColor = System.Drawing.Color.White;
+            this.groupBox1.ForeColor = System.Drawing.Color.Black;
             this.groupBox1.Location = new System.Drawing.Point(57, 48);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(636, 100);
@@ -372,6 +372,36 @@
             this.dataGridView1.Size = new System.Drawing.Size(710, 150);
             this.dataGridView1.TabIndex = 62;
             // 
+            // id_documento_pk
+            // 
+            this.id_documento_pk.HeaderText = "id_documento_pk";
+            this.id_documento_pk.Name = "id_documento_pk";
+            this.id_documento_pk.Width = 160;
+            // 
+            // id_detalle_cv_pk
+            // 
+            this.id_detalle_cv_pk.HeaderText = "id_detalle_cv_pk";
+            this.id_detalle_cv_pk.Name = "id_detalle_cv_pk";
+            this.id_detalle_cv_pk.Width = 5;
+            // 
+            // detalle
+            // 
+            this.detalle.HeaderText = "detalle";
+            this.detalle.Name = "detalle";
+            this.detalle.Width = 250;
+            // 
+            // debe
+            // 
+            this.debe.HeaderText = "debe";
+            this.debe.Name = "debe";
+            this.debe.Width = 125;
+            // 
+            // haber
+            // 
+            this.haber.HeaderText = "haber";
+            this.haber.Name = "haber";
+            this.haber.Width = 125;
+            // 
             // textBox5
             // 
             this.textBox5.Location = new System.Drawing.Point(462, 67);
@@ -455,7 +485,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.ForeColor = System.Drawing.Color.Black;
             this.label2.Location = new System.Drawing.Point(19, 202);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(66, 21);
@@ -498,7 +528,7 @@
             // lbl_empre
             // 
             this.lbl_empre.AutoSize = true;
-            this.lbl_empre.ForeColor = System.Drawing.Color.White;
+            this.lbl_empre.ForeColor = System.Drawing.Color.Black;
             this.lbl_empre.Location = new System.Drawing.Point(8, 75);
             this.lbl_empre.Name = "lbl_empre";
             this.lbl_empre.Size = new System.Drawing.Size(77, 21);
@@ -508,7 +538,7 @@
             // lbl_ctn_bac
             // 
             this.lbl_ctn_bac.AutoSize = true;
-            this.lbl_ctn_bac.ForeColor = System.Drawing.Color.White;
+            this.lbl_ctn_bac.ForeColor = System.Drawing.Color.Black;
             this.lbl_ctn_bac.Location = new System.Drawing.Point(8, 119);
             this.lbl_ctn_bac.Name = "lbl_ctn_bac";
             this.lbl_ctn_bac.Size = new System.Drawing.Size(145, 21);
@@ -518,7 +548,7 @@
             // lbl_motivo
             // 
             this.lbl_motivo.AutoSize = true;
-            this.lbl_motivo.ForeColor = System.Drawing.Color.White;
+            this.lbl_motivo.ForeColor = System.Drawing.Color.Black;
             this.lbl_motivo.Location = new System.Drawing.Point(4, 29);
             this.lbl_motivo.Name = "lbl_motivo";
             this.lbl_motivo.Size = new System.Drawing.Size(138, 21);
@@ -535,7 +565,7 @@
             // lbl_mt
             // 
             this.lbl_mt.AutoSize = true;
-            this.lbl_mt.ForeColor = System.Drawing.Color.White;
+            this.lbl_mt.ForeColor = System.Drawing.Color.Black;
             this.lbl_mt.Location = new System.Drawing.Point(300, 23);
             this.lbl_mt.Name = "lbl_mt";
             this.lbl_mt.Size = new System.Drawing.Size(66, 21);
@@ -553,7 +583,7 @@
             // lbl_fecha
             // 
             this.lbl_fecha.AutoSize = true;
-            this.lbl_fecha.ForeColor = System.Drawing.Color.White;
+            this.lbl_fecha.ForeColor = System.Drawing.Color.Black;
             this.lbl_fecha.Location = new System.Drawing.Point(397, 70);
             this.lbl_fecha.Name = "lbl_fecha";
             this.lbl_fecha.Size = new System.Drawing.Size(59, 21);
@@ -563,7 +593,7 @@
             // lbl_referido
             // 
             this.lbl_referido.AutoSize = true;
-            this.lbl_referido.ForeColor = System.Drawing.Color.White;
+            this.lbl_referido.ForeColor = System.Drawing.Color.Black;
             this.lbl_referido.Location = new System.Drawing.Point(19, 166);
             this.lbl_referido.Name = "lbl_referido";
             this.lbl_referido.Size = new System.Drawing.Size(96, 21);
@@ -578,41 +608,11 @@
             this.txt_ref.TabIndex = 2;
             this.txt_ref.Tag = "nombre_cuenta";
             // 
-            // id_documento_pk
-            // 
-            this.id_documento_pk.HeaderText = "id_documento_pk";
-            this.id_documento_pk.Name = "id_documento_pk";
-            this.id_documento_pk.Width = 160;
-            // 
-            // id_detalle_cv_pk
-            // 
-            this.id_detalle_cv_pk.HeaderText = "id_detalle_cv_pk";
-            this.id_detalle_cv_pk.Name = "id_detalle_cv_pk";
-            this.id_detalle_cv_pk.Width = 5;
-            // 
-            // detalle
-            // 
-            this.detalle.HeaderText = "detalle";
-            this.detalle.Name = "detalle";
-            this.detalle.Width = 250;
-            // 
-            // debe
-            // 
-            this.debe.HeaderText = "debe";
-            this.debe.Name = "debe";
-            this.debe.Width = 125;
-            // 
-            // haber
-            // 
-            this.haber.HeaderText = "haber";
-            this.haber.Name = "haber";
-            this.haber.Width = 125;
-            // 
             // Cheque_Voucher
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(105)))), ((int)(((byte)(143)))));
+            this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(800, 601);
             this.Controls.Add(this.gpb_cheque_v);
             this.Controls.Add(this.groupBox1);

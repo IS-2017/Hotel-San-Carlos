@@ -12,6 +12,22 @@
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\ottog\Desktop\CD entrega\Entrega modulo RRHH\Instalador RRHH\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>2</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -31,6 +47,18 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>E7B67DD153ED528035834A934D1FB44F17278E6A</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Prototipo -RRHH_ClaveTemporal.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Abrir, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
@@ -100,9 +128,7 @@
     <Compile Include="Empleados.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Empleados.Designer.cs">
-      <DependentUpon>Empleados.cs</DependentUpon>
-    </Compile>
+    <Compile Include="Empleados.Designer.cs" />
     <Compile Include="frm_Deducciones_grid.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -124,9 +150,7 @@
     <Compile Include="frm_Empleados_grid.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frm_Empleados_grid.Designer.cs">
-      <DependentUpon>frm_Empleados_grid.cs</DependentUpon>
-    </Compile>
+    <Compile Include="frm_Empleados_grid.Designer.cs" />
     <Compile Include="frm_Nomina.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -198,9 +222,7 @@
     <EmbeddedResource Include="Comision_marca.resx">
       <DependentUpon>Comision_marca.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Empleados.resx">
-      <DependentUpon>Empleados.cs</DependentUpon>
-    </EmbeddedResource>
+    <EmbeddedResource Include="Empleados.resx" />
     <EmbeddedResource Include="frm_Deducciones_grid.resx">
       <DependentUpon>frm_Deducciones_grid.cs</DependentUpon>
     </EmbeddedResource>
@@ -210,9 +232,7 @@
     <EmbeddedResource Include="frm_Devengados_grid.resx">
       <DependentUpon>frm_Devengados_grid.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frm_Empleados_grid.resx">
-      <DependentUpon>frm_Empleados_grid.cs</DependentUpon>
-    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Empleados_grid.resx" />
     <EmbeddedResource Include="frm_Nomina.resx">
       <DependentUpon>frm_Nomina.cs</DependentUpon>
     </EmbeddedResource>
@@ -258,9 +278,22 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="Prototipo -RRHH_ClaveTemporal.pfx" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5.2 %28x86 y x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

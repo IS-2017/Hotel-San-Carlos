@@ -71,7 +71,8 @@ namespace Modulo_Bancos
             OdbcCommand Query = new OdbcCommand();
             OdbcConnection Conexion;
             OdbcDataReader consultar;
-            string sql = "dsn=hotelsancarlos;server=localhost;user id=root;database=hotelsancarlos;password=";
+            //string sql = "dsn=hotelsancarlos;server=localhost;user id=root;database=hotelsancarlos;password=";
+            string sql = "dsn=hotelsancarlos;server=localhost;database=hotelsancarlos;uid=root;password=";
             Conexion = new OdbcConnection();
             Conexion.ConnectionString = sql;
             Conexion.Open();
@@ -100,7 +101,8 @@ namespace Modulo_Bancos
             OdbcConnection Conexion2;
             OdbcCommand Query2 = new OdbcCommand();
             OdbcDataReader consultar2;
-            string sql = "dsn=hotelsancarlos;server=localhost;user id=root;database=hotelsancarlos;password=";
+            //string sql = "dsn=hotelsancarlos;server=localhost;user id=root;database=hotelsancarlos;password=";
+            string sql = "dsn=hotelsancarlos;server=localhost;database=hotelsancarlos;uid=root;password=";
             Conexion2 = new OdbcConnection();
             Conexion2.ConnectionString = sql;
             Conexion2.Open();
@@ -121,7 +123,8 @@ namespace Modulo_Bancos
             OdbcCommand Query = new OdbcCommand();
             OdbcConnection Conexion;
             OdbcDataReader consultar;
-            string sql = "dsn=hotelsancarlos;server=localhost;user id=root;database=hotelsancarlos;password=";
+            //string sql = "dsn=hotelsancarlos;server=localhost;user id=root;database=hotelsancarlos;password=";
+            string sql = "dsn=hotelsancarlos;server=localhost;database=hotelsancarlos;uid=root;password=";
             Conexion = new OdbcConnection();
             Conexion.ConnectionString = sql;
             Conexion.Open();
@@ -199,6 +202,8 @@ namespace Modulo_Bancos
                 fn.ActivarControles(gpb_cheque_v);
                 fn.LimpiarComponentes(gpb_cheque_v);
                 btn_guardar.Enabled = false;
+                dataGridView1.Rows.Clear();
+                dataGridView1.Refresh();
             }
             catch (Exception ex)
             {
@@ -230,7 +235,7 @@ namespace Modulo_Bancos
                         if (Convert.ToString(dataGridView1.Rows[fila].Cells[1].Value) != "X")
                         {
                             
-                            MessageBox.Show("YA ESTA REGISTRADO");
+                            //MessageBox.Show("YA ESTA REGISTRADO");
                         }
                          else if (Convert.ToString(dataGridView1.Rows[fila].Cells[1].Value) == "X")
                         {
@@ -267,8 +272,10 @@ namespace Modulo_Bancos
 
                         }
                     }
-
-                }
+                act_documento();
+                act_cv();
+                act_total();
+            }
                 else if (cambio == "UPDATE")
                 {
                     textBox2.Text = txt_detalle.Text;
@@ -287,7 +294,11 @@ namespace Modulo_Bancos
                         fn.modificar(datos, tabla, atributo, Codigo);
                         fn.LimpiarComponentes(this);
                         cambio = "INSERTAR";
-
+                        button3.Enabled = true;
+                        button1.Enabled = true;
+                        act_documento();
+                        act_cv();
+                        act_total();
                     }
                 }
             
@@ -316,6 +327,8 @@ namespace Modulo_Bancos
             {
                 
                 btn_guardar.Enabled = true;
+                button3.Enabled = false;
+                button1.Enabled = false;
                 //Editar = true;
                 atributo = "id_detalle_cv_pk";
                 Codigo = this.dataGridView1.CurrentRow.Cells[1].Value.ToString();
@@ -353,7 +366,13 @@ namespace Modulo_Bancos
                 dataGridView1.Rows[cont2].Cells[3].Style.BackColor = Color.Red;
                 dataGridView1.Rows[cont2].Cells[4].Value = suma2;
                 dataGridView1.Rows[cont2].Cells[4].Style.BackColor = Color.Red;
-                MessageBox.Show("No Cuadra");
+                //MessageBox.Show("No Cuadra");
+                txt_cantida.Text = "0";
+                txt_cantidad_h.Text = "0";
+                txt_detalle.Text = "";
+                radioButton1.Checked = false;
+                txt_cantida.Enabled = true;
+                txt_cantidad_h.Enabled = true;
                 btn_guardar.Enabled = false;
             }
             else if (suma < suma2)
@@ -362,8 +381,15 @@ namespace Modulo_Bancos
                 dataGridView1.Rows[cont2].Cells[3].Style.BackColor = Color.Red;
                 dataGridView1.Rows[cont2].Cells[4].Value = suma2;
                 dataGridView1.Rows[cont2].Cells[4].Style.BackColor = Color.Red;
-                MessageBox.Show("No Cuadra");
+                //MessageBox.Show("No Cuadra");
                 btn_guardar.Enabled = false;
+                MessageBox.Show("No Cuadra");
+                txt_cantida.Text = "0";
+                txt_cantidad_h.Text = "0";
+                txt_detalle.Text = "";
+                radioButton1.Checked = false;
+                txt_cantida.Enabled = true;
+                txt_cantidad_h.Enabled = true;
 
             }
             else if (suma == suma2)
@@ -375,6 +401,13 @@ namespace Modulo_Bancos
                 dataGridView1.Rows[cont2].Cells[4].Style.BackColor = Color.Green;
                 MessageBox.Show("Cuadra Correctamente");
                 btn_guardar.Enabled = true;
+                //MessageBox.Show("No Cuadra");
+                txt_cantida.Text = "0";
+                txt_cantidad_h.Text = "0";
+                txt_detalle.Text = "";
+                radioButton1.Checked = false;
+                txt_cantida.Enabled = true;
+                txt_cantidad_h.Enabled = true;
             }
             //MessageBox.Show(Convert.ToString(suma));
         }
@@ -474,10 +507,8 @@ namespace Modulo_Bancos
            
 
         }
-        private void btn_actualizar_Click(object sender, EventArgs e)
+        public void act_total()
         {
-            act_documento();
-            act_cv();
             int conteo_filas = 0;
             decimal resta = 0;
             decimal cifra = 0;
@@ -498,6 +529,13 @@ namespace Modulo_Bancos
             dataGridView1.Rows[0].Cells[4].Value = resultado;
             //MessageBox.Show(Convert.ToString(conteo_filas));
             cont2 = conteo_filas;
+        }
+        private void btn_actualizar_Click(object sender, EventArgs e)
+        {
+            act_documento();
+            act_cv();
+            act_total();
+           
 
            
         }

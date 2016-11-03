@@ -23,7 +23,7 @@ namespace Prototipo__RRHH
         }
 
         private const string ayudaCHM = "Ayuda-Modulo-RRHH.chm";
-        private const string inicioSesion = "gettingstarted.html";
+        private const string inicioSesion = "Introduction.htm";
         Login_Prueba login;
         
 

@@ -25,14 +25,14 @@ namespace Prototipo__RRHH
         operaciones op = new operaciones();
         Boolean Editar1;
         Boolean tipo_accion;
-        String id_empleados_pk, nombre, telefono, direccion, genero, fecha_nacimiento, fecha_ingreso, fecha_egreso, dpi, no_afiliacion_igss, estado, edad, nacionalidad, estado_civil, cargo, sueldo, tipo_sueldo, id_empresa_pk;
+        String id_empleados_pk, nombre, telefono, direccion, genero, fecha_nacimiento, fecha_ingreso, fecha_egreso, dpi, no_afiliacion_igss, estado, edad, nacionalidad, estado_civil, cargo, sueldo, tipo_sueldo, foto_empleado, id_empresa_pk;
 
 
 
         private void frm_Empleados_grid_Load(object sender, EventArgs e)
         {
                 string tabla = "empleado";
-                fn.ActualizarGrid(this.dgv_lista_emps, "Select `id_empleados_pk`, `nombre`, `telefono`, `direccion`, `genero`, `fecha_nacimiento`, `fecha_ingreso`, `fecha_egreso`, `dpi`, `no_afiliacion_igss`, `estado`, `edad`, `nacionalidad`, `estado_civil`, `cargo`, `sueldo`, `tipo_sueldo`, `id_empresa_pk` from empleado WHERE estado <> 'INACTIVO' ", tabla);
+                fn.ActualizarGrid(this.dgv_lista_emps, "Select `id_empleados_pk`, `nombre`, `telefono`, `direccion`, `genero`, `fecha_nacimiento`, `fecha_ingreso`, `fecha_egreso`, `dpi`, `no_afiliacion_igss`, `estado`, `edad`, `nacionalidad`, `estado_civil`, `cargo`, `sueldo`, `tipo_sueldo`, `foto_empleado`, `id_empresa_pk` from empleado WHERE estado <> 'INACTIVO' ", tabla);
 
         }
 
@@ -75,7 +75,8 @@ namespace Prototipo__RRHH
             cargo = this.dgv_lista_emps.CurrentRow.Cells[14].Value.ToString();
             sueldo = this.dgv_lista_emps.CurrentRow.Cells[15].Value.ToString();
             tipo_sueldo = this.dgv_lista_emps.CurrentRow.Cells[16].Value.ToString();
-            id_empresa_pk = this.dgv_lista_emps.CurrentRow.Cells[17].Value.ToString();
+            foto_empleado = this.dgv_lista_emps.CurrentRow.Cells[17].Value.ToString();
+            id_empresa_pk = this.dgv_lista_emps.CurrentRow.Cells[18].Value.ToString();
             Empleados frm_empleados = new Empleados(dgv_lista_emps, id_empleados_pk, nombre, telefono, direccion, genero, fecha_nacimiento, fecha_ingreso, fecha_egreso, dpi, no_afiliacion_igss, estado, edad, nacionalidad, estado_civil, cargo, sueldo, tipo_sueldo, id_empresa_pk, Editar1, tipo_accion);
             frm_empleados.MdiParent = this.ParentForm;
             frm_empleados.Show();           
@@ -96,14 +97,15 @@ namespace Prototipo__RRHH
 
         private void btn_buscar_Click(object sender, EventArgs e)
         {
-            string tabla = "deducciones";
+            string tabla = "empleado";
             op.ejecutar(dgv_lista_emps, tabla);
         }
 
         private void btn_actualizar_Click_1(object sender, EventArgs e)
         {
             string tabla = "empleado";
-            fn.ActualizarGrid(this.dgv_lista_emps, "Select id_empleados_pk, nombre, telefono, direccion, genero, fecha_nacimiento, fecha_ingreso, fecha_egreso, dpi, no_afiliacion_igss, estado, edad, nacionalidad, estado_civil, cargo, sueldo, tipo_sueldo, id_empresa_pk from empleado WHERE estado <> 'INACTIVO' ", tabla);
+            fn.ActualizarGrid(this.dgv_lista_emps, "Select `id_empleados_pk`, `nombre`, `telefono`, `direccion`, `genero`, `fecha_nacimiento`, `fecha_ingreso`, `fecha_egreso`, `dpi`, `no_afiliacion_igss`, `estado`, `edad`, `nacionalidad`, `estado_civil`, `cargo`, `sueldo`, `tipo_sueldo`, `foto_empleado`, `id_empresa_pk` from empleado WHERE estado <> 'INACTIVO' ", tabla);
+
         }
 
         private void btn_anterior_Click(object sender, EventArgs e)
@@ -124,6 +126,11 @@ namespace Prototipo__RRHH
         private void btn_ultimo_Click(object sender, EventArgs e)
         {
             fn.Ultimo(dgv_lista_emps);
+        }
+
+        private void dgv_lista_emps_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }
