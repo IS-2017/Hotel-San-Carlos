@@ -16,7 +16,7 @@ namespace ModuloAdminHotel
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form_login());
+            Application.Run(new Frm_Padre());
         }
     }
 }

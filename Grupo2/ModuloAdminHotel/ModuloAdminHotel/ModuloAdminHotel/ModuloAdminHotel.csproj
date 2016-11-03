@@ -37,8 +37,9 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\..\dllconsultas\dllconsultas\bin\Debug\dllconsultas.dll</HintPath>
     </Reference>
-    <Reference Include="FuncionesNavegador">
-      <HintPath>..\..\..\..\Navegaador\DLL Navegador\FuncionesNavegador\bin\Debug\FuncionesNavegador.dll</HintPath>
+    <Reference Include="FuncionesNavegador, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Desktop\U\Octavo Semestre\Diseno de Sistemas\SEGUNDO PROYECTO HOTEL SAN CARLOS\Pruebas\DLL Navegador\FuncionesNavegador\bin\Debug\FuncionesNavegador.dll</HintPath>
     </Reference>
     <Reference Include="MySql.Data, Version=7.0.2.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -68,6 +69,12 @@
     <Compile Include="Form_login.Designer.cs">
       <DependentUpon>Form_login.cs</DependentUpon>
     </Compile>
+    <Compile Include="Frm_CheckIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_CheckIn.Designer.cs">
+      <DependentUpon>Frm_CheckIn.cs</DependentUpon>
+    </Compile>
     <Compile Include="Frm_ControlDeHabitaciones.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -92,6 +99,12 @@
     <Compile Include="Frm_Folio_Unificado.Designer.cs">
       <DependentUpon>Frm_Folio_Unificado.cs</DependentUpon>
     </Compile>
+    <Compile Include="Frm_Grid.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Grid.Designer.cs">
+      <DependentUpon>Frm_Grid.cs</DependentUpon>
+    </Compile>
     <Compile Include="Frm_HabitacionesEspecificas.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -115,12 +128,6 @@
     </Compile>
     <Compile Include="Frm_MantemientoTipoHabitacion.Designer.cs">
       <DependentUpon>Frm_MantemientoTipoHabitacion.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Frm_MantenimientoCliente.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Frm_MantenimientoCliente.Designer.cs">
-      <DependentUpon>Frm_MantenimientoCliente.cs</DependentUpon>
     </Compile>
     <Compile Include="Frm_MantenimientoEmpresa.cs">
       <SubType>Form</SubType>
@@ -188,6 +195,9 @@
     <EmbeddedResource Include="Form_login.resx">
       <DependentUpon>Form_login.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Frm_CheckIn.resx">
+      <DependentUpon>Frm_CheckIn.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Frm_ControlDeHabitaciones.resx">
       <DependentUpon>Frm_ControlDeHabitaciones.cs</DependentUpon>
     </EmbeddedResource>
@@ -200,6 +210,9 @@
     <EmbeddedResource Include="Frm_Folio_Unificado.resx">
       <DependentUpon>Frm_Folio_Unificado.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Grid.resx">
+      <DependentUpon>Frm_Grid.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Frm_HabitacionesEspecificas.resx">
       <DependentUpon>Frm_HabitacionesEspecificas.cs</DependentUpon>
     </EmbeddedResource>
@@ -211,9 +224,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_MantemientoTipoHabitacion.resx">
       <DependentUpon>Frm_MantemientoTipoHabitacion.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Frm_MantenimientoCliente.resx">
-      <DependentUpon>Frm_MantenimientoCliente.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_MantenimientoEmpresa.resx">
       <DependentUpon>Frm_MantenimientoEmpresa.cs</DependentUpon>
@@ -321,6 +331,9 @@
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aceptar.jpg.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
