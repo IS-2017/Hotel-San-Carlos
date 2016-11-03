@@ -51,33 +51,7 @@ namespace Prototipo__RRHH
 
         }
 
-        private void btn_nuevo_Click(object sender, EventArgs e)
-        {
-            try
-            {
-                Editar = false;
-                fn.ActivarControles(gpb_regist_nominas);
-                fn.LimpiarComponentes(gpb_regist_nominas);
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-            }
-        }
 
-        private void btn_cancelar_Click(object sender, EventArgs e)
-        {
-            try
-            {
-                Editar = false;
-                fn.LimpiarComponentes(gpb_regist_nominas);
-                fn.InhabilitarComponentes(gpb_regist_nominas);
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-            }
-        }
 
         public void llenarCbo1()
         {
@@ -88,40 +62,62 @@ namespace Prototipo__RRHH
             cbo_id_empresa = fn.llenarCbo(query, tabla, cbo_id_empresa, valor, mostrar);
         }
 
-        private void btn_guardar_Click(object sender, EventArgs e)
+
+
+
+
+
+
+
+
+        private void btn_anterior_Click_1(object sender, EventArgs e)
         {
-            //try
-            //{
-            txt_cbo_id_empresa.Text = cbo_id_empresa.SelectedValue.ToString();
-            txt_dtp_fech_inicio.Text = dtp_fech_inicio.Value.ToString("yyyy-MM-dd");
-            txt_dtp_fecha_corte.Text = dtp_fecha_corte.Value.ToString("yyyy-MM-dd");
-            TextBox[] textbox = { txt_nomb_nomina, txt_cbo_id_empresa, txt_dtp_fech_inicio, txt_dtp_fecha_corte };
-            DataTable datos = fn.construirDataTable(textbox);
-            if (datos.Rows.Count == 0)
-            {
-                MessageBox.Show("Hay campos vacios", "Favor Verificar", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            else
-            {
-                string tabla = "nomina";
-                if (Editar)
-                {
-                    fn.modificar(datos, tabla, atributo, Codigo);
-                }
-                else
-                {
-                    fn.insertar(datos, tabla);
-                }
-                fn.LimpiarComponentes(this);
-            }
-            //}
-            //catch
-            // {
-            //    MessageBox.Show("Ocurrio un error durante el proceso...", "Favor Verificar", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            // }
+            fn.Anterior(dg);
         }
 
-        private void btn_eliminar_Click(object sender, EventArgs e)
+        private void btn_siguiente_Click_1(object sender, EventArgs e)
+        {
+            fn.Siguiente(dg);
+        }
+
+        private void btn_primero_Click_1(object sender, EventArgs e)
+        {
+            fn.Primero(dg);
+        }
+
+        private void btn_ultimo_Click_1(object sender, EventArgs e)
+        {
+            fn.Ultimo(dg);
+        }
+
+        private void btn_editar_Click_1(object sender, EventArgs e)
+        {
+            try
+            {
+                Editar = true;
+                atributo = "id_nomina_pk";
+
+                this.Codigo = this.dg.CurrentRow.Cells[0].Value.ToString();
+                this.txt_nomb_nomina.Text = this.dg.CurrentRow.Cells[1].Value.ToString();
+                this.txt_dtp_fech_inicio.Text = this.dg.CurrentRow.Cells[2].Value.ToString(); dtp_fech_inicio.Text = txt_dtp_fech_inicio.Text;
+                this.txt_dtp_fecha_corte.Text = this.dg.CurrentRow.Cells[3].Value.ToString(); dtp_fecha_corte.Text = txt_dtp_fecha_corte.Text;
+                this.txt_cbo_id_empresa.Text = this.dg.CurrentRow.Cells[4].Value.ToString(); cbo_id_empresa.SelectedValue = txt_cbo_id_empresa.Text;
+                fn.ActivarControles(gpb_regist_nominas);
+            }
+            catch
+            {
+                MessageBox.Show("No se ha seleccionado ningun registro a editar", "Favor Verificar", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void btn_actualizar_Click_1(object sender, EventArgs e)
+        {
+            string tabla = "nomina";
+            fn.ActualizarGrid(this.dg, "Select id_nomina_pk, nombre_nomina, fecha_inicio_pago, fecha_de_corte, id_empresa_pk, estado from nomina WHERE estado <> 'INACTIVO' ", tabla);
+
+        }
+
+        private void btn_eliminar_Click_1(object sender, EventArgs e)
         {
             try
             {
@@ -142,58 +138,65 @@ namespace Prototipo__RRHH
             }
         }
 
-        private void btn_actualizar_Click(object sender, EventArgs e)
-        {
-            string tabla = "nomina";
-            fn.ActualizarGrid(this.dg, "Select id_nomina_pk, nombre_nomina, fecha_inicio_pago, fecha_de_corte, id_empresa_pk, estado from nomina WHERE estado <> 'INACTIVO' ", tabla);
-        }
-
-        private void btn_editar_Click(object sender, EventArgs e)
+        private void btn_guardar_Click_1(object sender, EventArgs e)
         {
             try
             {
-                Editar = true;
-                atributo = "id_nomina_pk";
-
-                this.Codigo = this.dg.CurrentRow.Cells[0].Value.ToString();
-                this.txt_nomb_nomina.Text = this.dg.CurrentRow.Cells[1].Value.ToString();
-                this.txt_dtp_fech_inicio.Text = this.dg.CurrentRow.Cells[2].Value.ToString(); dtp_fech_inicio.Text = txt_dtp_fech_inicio.Text;
-                this.txt_dtp_fecha_corte.Text = this.dg.CurrentRow.Cells[3].Value.ToString(); dtp_fecha_corte.Text = txt_dtp_fecha_corte.Text;
-                this.txt_cbo_id_empresa.Text = this.dg.CurrentRow.Cells[4].Value.ToString(); cbo_id_empresa.SelectedValue = txt_cbo_id_empresa.Text;
-                fn.ActivarControles(gpb_regist_nominas);
+                txt_cbo_id_empresa.Text = cbo_id_empresa.SelectedValue.ToString();
+                txt_dtp_fech_inicio.Text = dtp_fech_inicio.Value.ToString("yyyy-MM-dd");
+                txt_dtp_fecha_corte.Text = dtp_fecha_corte.Value.ToString("yyyy-MM-dd");
+                TextBox[] textbox = { txt_nomb_nomina, txt_cbo_id_empresa, txt_dtp_fech_inicio, txt_dtp_fecha_corte };
+                DataTable datos = fn.construirDataTable(textbox);
+                if (datos.Rows.Count == 0)
+                {
+                    MessageBox.Show("Hay campos vacios", "Favor Verificar", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+                else
+                {
+                    string tabla = "nomina";
+                    if (Editar)
+                    {
+                        fn.modificar(datos, tabla, atributo, Codigo);
+                    }
+                    else
+                    {
+                        fn.insertar(datos, tabla);
+                    }
+                    fn.LimpiarComponentes(this);
+                }
             }
             catch
             {
-                MessageBox.Show("No se ha seleccionado ningun registro a editar", "Favor Verificar", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Ocurrio un error durante el proceso...", "Favor Verificar", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
-        private void btn_anterior_Click(object sender, EventArgs e)
+        private void btn_cancelar_Click_1(object sender, EventArgs e)
         {
-            fn.Anterior(dg);
-
+            try
+            {
+                Editar = false;
+                fn.LimpiarComponentes(gpb_regist_nominas);
+                fn.InhabilitarComponentes(gpb_regist_nominas);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
 
-        private void btn_siguiente_Click(object sender, EventArgs e)
+        private void btn_nuevo_Click_1(object sender, EventArgs e)
         {
-            fn.Siguiente(dg);
-
-        }
-
-        private void btn_primero_Click(object sender, EventArgs e)
-        {
-            fn.Primero(dg);
-
-        }
-
-        private void btn_ultimo_Click(object sender, EventArgs e)
-        {
-            fn.Ultimo(dg);
-        }
-
-        private void dgv_datos_nominas_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
+            try
+            {
+                Editar = false;
+                fn.ActivarControles(gpb_regist_nominas);
+                fn.LimpiarComponentes(gpb_regist_nominas);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
     }
 }

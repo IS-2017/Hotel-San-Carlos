@@ -86,10 +86,8 @@ D:\Universidad\cv\Prototipo -RRHH\Prototipo -RRHH\obj\Debug\Prototipo__RRHH.Prop
 D:\Universidad\cv\Prototipo -RRHH\Prototipo -RRHH\obj\Debug\Prototipo -RRHH.csproj.GenerateResource.Cache
 C:\Users\javie\Documents\GitHub\Hotel-San-Carlos\Grupo1\Prototipo\Prototipo -RRHH\Prototipo -RRHH\obj\Debug\Prototipo__RRHH.frm_Nominas_Empleados.resources
 C:\Users\javie\Documents\GitHub\Hotel-San-Carlos\Grupo1\Prototipo\Prototipo -RRHH\Prototipo -RRHH\bin\Debug\MySql.Data.dll
-C:\Users\javie\Documents\GitHub\Hotel-San-Carlos\Grupo1\Prototipo\Prototipo -RRHH\Prototipo -RRHH\bin\Debug\FuncionesNavegador.pdb
 C:\Users\javie\Documents\GitHub\Hotel-San-Carlos\Grupo1\Prototipo\Prototipo -RRHH\Prototipo -RRHH\bin\Debug\MySql.Data.xml
 C:\Users\javie\Documents\GitHub\Hotel-San-Carlos\Grupo1\Prototipo\Prototipo -RRHH\Prototipo -RRHH\obj\Debug\Prototipo__RRHH.frm_Empleados_grid.resources
-C:\Users\javie\Documents\GitHub\Hotel-San-Carlos\Grupo1\Prototipo\Prototipo -RRHH\Prototipo -RRHH\bin\Debug\dllconsultas.pdb
 C:\Users\javie\Documents\GitHub\Hotel-San-Carlos\Grupo1\Prototipo\Prototipo -RRHH\Prototipo -RRHH\obj\Debug\Prototipo__RRHH.frm_Detalle_Nomina.resources
 C:\Users\javie\Documents\GitHub\Hotel-San-Carlos\Grupo1\Prototipo\Prototipo -RRHH\Prototipo -RRHH\obj\Debug\Prototipo__RRHH.frm_Devengados.resources
 C:\Users\javie\Documents\GitHub\Hotel-San-Carlos\Grupo1\Prototipo\Prototipo -RRHH\Prototipo -RRHH\obj\Debug\Prototipo__RRHH.frm_Deducciones.resources
@@ -474,3 +472,13 @@ C:\Users\ottog\Desktop\CD entrega\Entrega modulo RRHH\Prototipo -RRHH\Prototipo 
 C:\Users\HP\Desktop\CD entrega\Entrega modulo RRHH\Prototipo -RRHH\Prototipo -RRHH\bin\Debug\Prototipo -RRHH.exe.config
 C:\Users\HP\Desktop\CD entrega\Entrega modulo RRHH\Prototipo -RRHH\Prototipo -RRHH\obj\Debug\Prototipo -RRHH.exe
 C:\Users\HP\Desktop\CD entrega\Entrega modulo RRHH\Prototipo -RRHH\Prototipo -RRHH\obj\Debug\Prototipo -RRHH.pdb
+C:\Users\javie\Documents\GitHub\Hotel-San-Carlos\Grupo1\Prototipo\Prototipo -RRHH\Prototipo -RRHH\bin\Debug\Prototipo -RRHH.exe.manifest
+C:\Users\javie\Documents\GitHub\Hotel-San-Carlos\Grupo1\Prototipo\Prototipo -RRHH\Prototipo -RRHH\bin\Debug\Prototipo -RRHH.application
+C:\Users\javie\Documents\GitHub\Hotel-San-Carlos\Grupo1\Prototipo\Prototipo -RRHH\Prototipo -RRHH\obj\Debug\Prototipo__RRHH.Buscar_planilla.resources
+C:\Users\javie\Documents\GitHub\Hotel-San-Carlos\Grupo1\Prototipo\Prototipo -RRHH\Prototipo -RRHH\obj\Debug\Prototipo__RRHH.Comisiones_linea.resources
+C:\Users\javie\Documents\GitHub\Hotel-San-Carlos\Grupo1\Prototipo\Prototipo -RRHH\Prototipo -RRHH\obj\Debug\Prototipo__RRHH.comisiones_producto.resources
+C:\Users\javie\Documents\GitHub\Hotel-San-Carlos\Grupo1\Prototipo\Prototipo -RRHH\Prototipo -RRHH\obj\Debug\Prototipo__RRHH.Comision_marca.resources
+C:\Users\javie\Documents\GitHub\Hotel-San-Carlos\Grupo1\Prototipo\Prototipo -RRHH\Prototipo -RRHH\obj\Debug\Prototipo__RRHH.frm_Nomina.resources
+C:\Users\javie\Documents\GitHub\Hotel-San-Carlos\Grupo1\Prototipo\Prototipo -RRHH\Prototipo -RRHH\obj\Debug\Prototipo__RRHH.Reporte_Planilla_IGSS.resources
+C:\Users\javie\Documents\GitHub\Hotel-San-Carlos\Grupo1\Prototipo\Prototipo -RRHH\Prototipo -RRHH\obj\Debug\Prototipo -RRHH.exe.manifest
+C:\Users\javie\Documents\GitHub\Hotel-San-Carlos\Grupo1\Prototipo\Prototipo -RRHH\Prototipo -RRHH\obj\Debug\Prototipo -RRHH.application

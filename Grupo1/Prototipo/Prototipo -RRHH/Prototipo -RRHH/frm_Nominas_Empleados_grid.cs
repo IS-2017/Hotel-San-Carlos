@@ -49,9 +49,22 @@ namespace Prototipo__RRHH
             frm_nom_emp.Show();
         }
 
+
+
+        private void cbo_lista_nom_SelectedValueChanged(object sender, EventArgs e)
+        {
+            string tabla = "nomina";
+            fn.ActualizarGrid(this.dgv_lista_nomias, "Select id_nomina_pk, nombre_nomina, fecha_inicio_pago, fecha_de_corte, id_empresa_pk, estado from nomina WHERE estado <> 'INACTIVO' and id_empresa_pk = '" + cbo_lista_nom.SelectedValue + "' ", tabla);
+        }
+
         private void dgv_lista_nomias_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
         {
-            frm_Nomina frm_nomina = new frm_Nomina();
+            fecha_inicio_pago = this.dgv_lista_nomias.CurrentRow.Cells[2].Value.ToString();
+            fecha_de_corte = this.dgv_lista_nomias.CurrentRow.Cells[3].Value.ToString();
+            id_empresa_pk = this.dgv_lista_nomias.CurrentRow.Cells[4].Value.ToString();
+            
+
+            frm_Nomina frm_nomina = new frm_Nomina(id_empresa_pk, fecha_inicio_pago, fecha_de_corte);
             frm_nomina.MdiParent = this.ParentForm;
             frm_nomina.Show();
         }
@@ -69,8 +82,30 @@ namespace Prototipo__RRHH
 
         private void frm_Nominas_Empleados_grid_Load(object sender, EventArgs e)
         {
+            llenaridempresa();
             string tabla = "nomina";
-            fn.ActualizarGrid(this.dgv_lista_nomias, "Select id_nomina_pk, nombre_nomina, fecha_inicio_pago, fecha_de_corte, id_empresa_pk, estado from nomina WHERE estado <> 'INACTIVO' ", tabla);
+            fn.ActualizarGrid(this.dgv_lista_nomias, "Select id_nomina_pk, nombre_nomina, fecha_inicio_pago, fecha_de_corte, id_empresa_pk, estado from nomina WHERE estado <> 'INACTIVO' and id_empresa_pk = '" + cbo_lista_nom.SelectedValue + "' ", tabla);
         }
+
+        private void llenaridempresa()
+        {
+
+            Conexionmysql.ObtenerConexion();
+            DataSet ds = new DataSet();
+
+            String Query = "select id_empresa_pk, nombre from empresa Where estado <>'INACTIVO'";
+            OdbcDataAdapter dad = new OdbcDataAdapter(Query, Conexionmysql.ObtenerConexion());
+
+            dad.Fill(ds, "empresa");
+            cbo_lista_nom.DataSource = ds.Tables[0].DefaultView;
+
+            cbo_lista_nom.ValueMember = ("id_empresa_pk");
+
+            cbo_lista_nom.DisplayMember = ("nombre");
+            Conexionmysql.Desconectar();
+        }
+
+
+
     }
 }
