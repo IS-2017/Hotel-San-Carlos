@@ -34,11 +34,11 @@
             this.cerrarSesionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.configuracionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.impresorasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.bitacoraToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.catalogosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.habitacionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.salonToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.promocionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.clienteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tipoHabitacionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.empresaToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.invitadoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -56,7 +56,7 @@
             this.reportesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.crearReporteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ayudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.bitacoraToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.checkInToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -115,13 +115,19 @@
             this.impresorasToolStripMenuItem.Size = new System.Drawing.Size(164, 26);
             this.impresorasToolStripMenuItem.Text = "Impresoras";
             // 
+            // bitacoraToolStripMenuItem
+            // 
+            this.bitacoraToolStripMenuItem.Name = "bitacoraToolStripMenuItem";
+            this.bitacoraToolStripMenuItem.Size = new System.Drawing.Size(191, 26);
+            this.bitacoraToolStripMenuItem.Text = "Bitacora";
+            this.bitacoraToolStripMenuItem.Click += new System.EventHandler(this.bitacoraToolStripMenuItem_Click);
+            // 
             // catalogosToolStripMenuItem
             // 
             this.catalogosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.habitacionToolStripMenuItem,
             this.salonToolStripMenuItem,
             this.promocionToolStripMenuItem,
-            this.clienteToolStripMenuItem,
             this.tipoHabitacionToolStripMenuItem,
             this.empresaToolStripMenuItem1,
             this.invitadoToolStripMenuItem,
@@ -153,13 +159,6 @@
             this.promocionToolStripMenuItem.Size = new System.Drawing.Size(244, 26);
             this.promocionToolStripMenuItem.Text = "Promocion";
             this.promocionToolStripMenuItem.Click += new System.EventHandler(this.promocionToolStripMenuItem_Click);
-            // 
-            // clienteToolStripMenuItem
-            // 
-            this.clienteToolStripMenuItem.Name = "clienteToolStripMenuItem";
-            this.clienteToolStripMenuItem.Size = new System.Drawing.Size(244, 26);
-            this.clienteToolStripMenuItem.Text = "Cliente";
-            this.clienteToolStripMenuItem.Click += new System.EventHandler(this.clienteToolStripMenuItem_Click);
             // 
             // tipoHabitacionToolStripMenuItem
             // 
@@ -208,7 +207,8 @@
             this.procesosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.reservacionDeHabitacionToolStripMenuItem,
             this.manejoDeEventosToolStripMenuItem,
-            this.controlDeHuespedToolStripMenuItem});
+            this.controlDeHuespedToolStripMenuItem,
+            this.checkInToolStripMenuItem});
             this.procesosToolStripMenuItem.Name = "procesosToolStripMenuItem";
             this.procesosToolStripMenuItem.Size = new System.Drawing.Size(88, 25);
             this.procesosToolStripMenuItem.Text = "Procesos";
@@ -287,12 +287,12 @@
             this.ayudaToolStripMenuItem.Size = new System.Drawing.Size(91, 25);
             this.ayudaToolStripMenuItem.Text = "Ayuda";
             // 
-            // bitacoraToolStripMenuItem
+            // checkInToolStripMenuItem
             // 
-            this.bitacoraToolStripMenuItem.Name = "bitacoraToolStripMenuItem";
-            this.bitacoraToolStripMenuItem.Size = new System.Drawing.Size(191, 26);
-            this.bitacoraToolStripMenuItem.Text = "Bitacora";
-            this.bitacoraToolStripMenuItem.Click += new System.EventHandler(this.bitacoraToolStripMenuItem_Click);
+            this.checkInToolStripMenuItem.Name = "checkInToolStripMenuItem";
+            this.checkInToolStripMenuItem.Size = new System.Drawing.Size(291, 26);
+            this.checkInToolStripMenuItem.Text = "Check In";
+            this.checkInToolStripMenuItem.Click += new System.EventHandler(this.checkInToolStripMenuItem_Click);
             // 
             // Frm_Padre
             // 
@@ -326,7 +326,6 @@
         private System.Windows.Forms.ToolStripMenuItem habitacionToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem salonToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem promocionToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem clienteToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem tipoHabitacionToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem empresaToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem invitadoToolStripMenuItem;
@@ -345,6 +344,7 @@
         private System.Windows.Forms.ToolStripMenuItem reservacionHotelToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem reservacionSalonToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem bitacoraToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem checkInToolStripMenuItem;
     }
 }
 

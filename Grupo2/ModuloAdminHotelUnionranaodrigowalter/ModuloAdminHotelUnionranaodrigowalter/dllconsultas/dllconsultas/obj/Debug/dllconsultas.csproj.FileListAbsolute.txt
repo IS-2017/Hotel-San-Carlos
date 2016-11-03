@@ -1,0 +1,51 @@
+E:\Escritorio\dllconsultas\dllconsultas\bin\Debug\dllconsultas.dll
+E:\Escritorio\dllconsultas\dllconsultas\bin\Debug\dllconsultas.pdb
+E:\Escritorio\dllconsultas\dllconsultas\bin\Debug\MySql.Data.dll
+E:\Escritorio\dllconsultas\dllconsultas\bin\Debug\Google.ProtocolBuffers.dll
+E:\Escritorio\dllconsultas\dllconsultas\bin\Debug\MySql.Data.xml
+E:\Escritorio\dllconsultas\dllconsultas\obj\Debug\dllconsultas.csprojResolveAssemblyReference.cache
+E:\Escritorio\dllconsultas\dllconsultas\obj\Debug\dllconsultas.frm_consulta.resources
+E:\Escritorio\dllconsultas\dllconsultas\obj\Debug\dllconsultas.csproj.GenerateResource.Cache
+E:\Escritorio\dllconsultas\dllconsultas\obj\Debug\dllconsultas.dll
+E:\Escritorio\dllconsultas\dllconsultas\obj\Debug\dllconsultas.pdb
+E:\Escritorio\dllconsultas\dllconsultas\obj\Debug\dllconsultas.frm_guardar.resources
+E:\Escritorio\dllconsultas\dllconsultas\obj\Debug\dllconsultas.frm_almacenadas.resources
+E:\Escritorio\dllconsultas\dllconsultas\obj\Debug\dllconsultas.Properties.Resources.resources
+C:\Users\Ana Lilian\Documents\GitHub\Hotel-San-Carlos\Grupo2\dllconsultas\dllconsultas\bin\Debug\dllconsultas.dll
+C:\Users\Ana Lilian\Documents\GitHub\Hotel-San-Carlos\Grupo2\dllconsultas\dllconsultas\bin\Debug\dllconsultas.pdb
+C:\Users\Ana Lilian\Documents\GitHub\Hotel-San-Carlos\Grupo2\dllconsultas\dllconsultas\bin\Debug\MySql.Data.dll
+C:\Users\Ana Lilian\Documents\GitHub\Hotel-San-Carlos\Grupo2\dllconsultas\dllconsultas\bin\Debug\Google.ProtocolBuffers.dll
+C:\Users\Ana Lilian\Documents\GitHub\Hotel-San-Carlos\Grupo2\dllconsultas\dllconsultas\bin\Debug\MySql.Data.xml
+C:\Users\Ana Lilian\Documents\GitHub\Hotel-San-Carlos\Grupo2\dllconsultas\dllconsultas\obj\Debug\dllconsultas.csprojResolveAssemblyReference.cache
+C:\Users\Ana Lilian\Documents\GitHub\Hotel-San-Carlos\Grupo2\dllconsultas\dllconsultas\obj\Debug\dllconsultas.frm_almacenadas.resources
+C:\Users\Ana Lilian\Documents\GitHub\Hotel-San-Carlos\Grupo2\dllconsultas\dllconsultas\obj\Debug\dllconsultas.frm_consulta.resources
+C:\Users\Ana Lilian\Documents\GitHub\Hotel-San-Carlos\Grupo2\dllconsultas\dllconsultas\obj\Debug\dllconsultas.frm_guardar.resources
+C:\Users\Ana Lilian\Documents\GitHub\Hotel-San-Carlos\Grupo2\dllconsultas\dllconsultas\obj\Debug\dllconsultas.Properties.Resources.resources
+C:\Users\Ana Lilian\Documents\GitHub\Hotel-San-Carlos\Grupo2\dllconsultas\dllconsultas\obj\Debug\dllconsultas.csproj.GenerateResource.Cache
+C:\Users\Ana Lilian\Documents\GitHub\Hotel-San-Carlos\Grupo2\dllconsultas\dllconsultas\obj\Debug\dllconsultas.dll
+C:\Users\Ana Lilian\Documents\GitHub\Hotel-San-Carlos\Grupo2\dllconsultas\dllconsultas\obj\Debug\dllconsultas.pdb
+C:\Users\Roberto Carlos\Documents\GitHub\Hotel-San-Carlos\Grupo2\dllconsultas\dllconsultas\bin\Debug\dllconsultas.dll
+C:\Users\Roberto Carlos\Documents\GitHub\Hotel-San-Carlos\Grupo2\dllconsultas\dllconsultas\bin\Debug\dllconsultas.pdb
+C:\Users\Roberto Carlos\Documents\GitHub\Hotel-San-Carlos\Grupo2\dllconsultas\dllconsultas\bin\Debug\Google.ProtocolBuffers.dll
+C:\Users\Roberto Carlos\Documents\GitHub\Hotel-San-Carlos\Grupo2\dllconsultas\dllconsultas\bin\Debug\MySql.Data.xml
+C:\Users\Roberto Carlos\Documents\GitHub\Hotel-San-Carlos\Grupo2\dllconsultas\dllconsultas\obj\Debug\dllconsultas.csprojResolveAssemblyReference.cache
+C:\Users\Roberto Carlos\Documents\GitHub\Hotel-San-Carlos\Grupo2\dllconsultas\dllconsultas\obj\Debug\dllconsultas.frm_almacenadas.resources
+C:\Users\Roberto Carlos\Documents\GitHub\Hotel-San-Carlos\Grupo2\dllconsultas\dllconsultas\obj\Debug\dllconsultas.frm_consulta.resources
+C:\Users\Roberto Carlos\Documents\GitHub\Hotel-San-Carlos\Grupo2\dllconsultas\dllconsultas\obj\Debug\dllconsultas.frm_guardar.resources
+C:\Users\Roberto Carlos\Documents\GitHub\Hotel-San-Carlos\Grupo2\dllconsultas\dllconsultas\obj\Debug\dllconsultas.Properties.Resources.resources
+C:\Users\Roberto Carlos\Documents\GitHub\Hotel-San-Carlos\Grupo2\dllconsultas\dllconsultas\obj\Debug\dllconsultas.csproj.GenerateResource.Cache
+C:\Users\Roberto Carlos\Documents\GitHub\Hotel-San-Carlos\Grupo2\dllconsultas\dllconsultas\obj\Debug\dllconsultas.dll
+C:\Users\Roberto Carlos\Documents\GitHub\Hotel-San-Carlos\Grupo2\dllconsultas\dllconsultas\obj\Debug\dllconsultas.pdb
+C:\Users\Ana Lilian\Downloads\ModuloAdminHotelUnionranaodrigowalter\dllconsultas\dllconsultas\bin\Debug\dllconsultas.dll
+C:\Users\Ana Lilian\Downloads\ModuloAdminHotelUnionranaodrigowalter\dllconsultas\dllconsultas\bin\Debug\dllconsultas.pdb
+C:\Users\Ana Lilian\Downloads\ModuloAdminHotelUnionranaodrigowalter\dllconsultas\dllconsultas\bin\Debug\MySql.Data.dll
+C:\Users\Ana Lilian\Downloads\ModuloAdminHotelUnionranaodrigowalter\dllconsultas\dllconsultas\bin\Debug\Google.ProtocolBuffers.dll
+C:\Users\Ana Lilian\Downloads\ModuloAdminHotelUnionranaodrigowalter\dllconsultas\dllconsultas\bin\Debug\MySql.Data.xml
+C:\Users\Ana Lilian\Downloads\ModuloAdminHotelUnionranaodrigowalter\dllconsultas\dllconsultas\obj\Debug\dllconsultas.csprojResolveAssemblyReference.cache
+C:\Users\Ana Lilian\Downloads\ModuloAdminHotelUnionranaodrigowalter\dllconsultas\dllconsultas\obj\Debug\dllconsultas.frm_almacenadas.resources
+C:\Users\Ana Lilian\Downloads\ModuloAdminHotelUnionranaodrigowalter\dllconsultas\dllconsultas\obj\Debug\dllconsultas.frm_consulta.resources
+C:\Users\Ana Lilian\Downloads\ModuloAdminHotelUnionranaodrigowalter\dllconsultas\dllconsultas\obj\Debug\dllconsultas.frm_guardar.resources
+C:\Users\Ana Lilian\Downloads\ModuloAdminHotelUnionranaodrigowalter\dllconsultas\dllconsultas\obj\Debug\dllconsultas.Properties.Resources.resources
+C:\Users\Ana Lilian\Downloads\ModuloAdminHotelUnionranaodrigowalter\dllconsultas\dllconsultas\obj\Debug\dllconsultas.csproj.GenerateResource.Cache
+C:\Users\Ana Lilian\Downloads\ModuloAdminHotelUnionranaodrigowalter\dllconsultas\dllconsultas\obj\Debug\dllconsultas.dll
+C:\Users\Ana Lilian\Downloads\ModuloAdminHotelUnionranaodrigowalter\dllconsultas\dllconsultas\obj\Debug\dllconsultas.pdb

@@ -28,188 +28,319 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.lbl_titulo = new System.Windows.Forms.Label();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_ObjetosOlvidados));
+            this.txt_estado = new System.Windows.Forms.TextBox();
+            this.txt_empresa = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.lbl_nombre = new System.Windows.Forms.Label();
-            this.lbl_descripcion = new System.Windows.Forms.Label();
-            this.lbl_estado = new System.Windows.Forms.Label();
-            this.lbl_empresa = new System.Windows.Forms.Label();
-            this.txt_nombre = new System.Windows.Forms.TextBox();
-            this.txt_descripcion = new System.Windows.Forms.TextBox();
-            this.cbo_estado = new System.Windows.Forms.ComboBox();
+            this.btn_nuevo = new System.Windows.Forms.Button();
+            this.btn_ultimo = new System.Windows.Forms.Button();
+            this.btn_guardar = new System.Windows.Forms.Button();
+            this.btn_primero = new System.Windows.Forms.Button();
+            this.btn_editar = new System.Windows.Forms.Button();
+            this.btn_siguiente = new System.Windows.Forms.Button();
+            this.btn_eliminar = new System.Windows.Forms.Button();
+            this.btn_anterior = new System.Windows.Forms.Button();
+            this.btn_buscar = new System.Windows.Forms.Button();
+            this.btn_actualizar = new System.Windows.Forms.Button();
+            this.btn_cancelar = new System.Windows.Forms.Button();
             this.cbo_empresa = new System.Windows.Forms.ComboBox();
+            this.cbo_estado = new System.Windows.Forms.ComboBox();
+            this.txt_descripcion = new System.Windows.Forms.TextBox();
+            this.txt_nombre = new System.Windows.Forms.TextBox();
+            this.lbl_empresa = new System.Windows.Forms.Label();
+            this.lbl_estado = new System.Windows.Forms.Label();
+            this.lbl_descripcion = new System.Windows.Forms.Label();
+            this.lbl_nombre = new System.Windows.Forms.Label();
+            this.lbl_titulo = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
+            // 
+            // txt_estado
+            // 
+            this.txt_estado.Location = new System.Drawing.Point(463, 164);
+            this.txt_estado.Name = "txt_estado";
+            this.txt_estado.Size = new System.Drawing.Size(10, 27);
+            this.txt_estado.TabIndex = 51;
+            this.txt_estado.Tag = "estado";
+            this.txt_estado.Visible = false;
+            // 
+            // txt_empresa
+            // 
+            this.txt_empresa.Location = new System.Drawing.Point(654, 194);
+            this.txt_empresa.Name = "txt_empresa";
+            this.txt_empresa.Size = new System.Drawing.Size(10, 27);
+            this.txt_empresa.TabIndex = 50;
+            this.txt_empresa.Tag = "id_empresa_pk";
+            this.txt_empresa.Visible = false;
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.btn_nuevo);
+            this.groupBox1.Controls.Add(this.btn_ultimo);
+            this.groupBox1.Controls.Add(this.btn_guardar);
+            this.groupBox1.Controls.Add(this.btn_primero);
+            this.groupBox1.Controls.Add(this.btn_editar);
+            this.groupBox1.Controls.Add(this.btn_siguiente);
+            this.groupBox1.Controls.Add(this.btn_eliminar);
+            this.groupBox1.Controls.Add(this.btn_anterior);
+            this.groupBox1.Controls.Add(this.btn_buscar);
+            this.groupBox1.Controls.Add(this.btn_actualizar);
+            this.groupBox1.Controls.Add(this.btn_cancelar);
+            this.groupBox1.Location = new System.Drawing.Point(46, 16);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(636, 100);
+            this.groupBox1.TabIndex = 49;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Navegador";
+            // 
+            // btn_nuevo
+            // 
+            this.btn_nuevo.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_nuevo.BackgroundImage")));
+            this.btn_nuevo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_nuevo.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_nuevo.FlatAppearance.BorderSize = 0;
+            this.btn_nuevo.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btn_nuevo.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
+            this.btn_nuevo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_nuevo.Location = new System.Drawing.Point(17, 19);
+            this.btn_nuevo.Name = "btn_nuevo";
+            this.btn_nuevo.Size = new System.Drawing.Size(65, 65);
+            this.btn_nuevo.TabIndex = 0;
+            this.btn_nuevo.UseVisualStyleBackColor = true;
+            // 
+            // btn_ultimo
+            // 
+            this.btn_ultimo.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_ultimo.BackgroundImage")));
+            this.btn_ultimo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_ultimo.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_ultimo.FlatAppearance.BorderSize = 0;
+            this.btn_ultimo.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btn_ultimo.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
+            this.btn_ultimo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_ultimo.Location = new System.Drawing.Point(565, 53);
+            this.btn_ultimo.Name = "btn_ultimo";
+            this.btn_ultimo.Size = new System.Drawing.Size(33, 33);
+            this.btn_ultimo.TabIndex = 10;
+            this.btn_ultimo.UseVisualStyleBackColor = true;
+            // 
+            // btn_guardar
+            // 
+            this.btn_guardar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_guardar.BackgroundImage")));
+            this.btn_guardar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_guardar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_guardar.FlatAppearance.BorderSize = 0;
+            this.btn_guardar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btn_guardar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
+            this.btn_guardar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_guardar.Location = new System.Drawing.Point(88, 19);
+            this.btn_guardar.Name = "btn_guardar";
+            this.btn_guardar.Size = new System.Drawing.Size(65, 65);
+            this.btn_guardar.TabIndex = 1;
+            this.btn_guardar.UseVisualStyleBackColor = true;
+            // 
+            // btn_primero
+            // 
+            this.btn_primero.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_primero.BackgroundImage")));
+            this.btn_primero.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_primero.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_primero.FlatAppearance.BorderSize = 0;
+            this.btn_primero.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btn_primero.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
+            this.btn_primero.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_primero.Location = new System.Drawing.Point(529, 53);
+            this.btn_primero.Name = "btn_primero";
+            this.btn_primero.Size = new System.Drawing.Size(33, 33);
+            this.btn_primero.TabIndex = 9;
+            this.btn_primero.UseVisualStyleBackColor = true;
+            // 
+            // btn_editar
+            // 
+            this.btn_editar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_editar.BackgroundImage")));
+            this.btn_editar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_editar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_editar.FlatAppearance.BorderSize = 0;
+            this.btn_editar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btn_editar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
+            this.btn_editar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_editar.Location = new System.Drawing.Point(159, 19);
+            this.btn_editar.Name = "btn_editar";
+            this.btn_editar.Size = new System.Drawing.Size(65, 65);
+            this.btn_editar.TabIndex = 2;
+            this.btn_editar.UseVisualStyleBackColor = true;
+            // 
+            // btn_siguiente
+            // 
+            this.btn_siguiente.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_siguiente.BackgroundImage")));
+            this.btn_siguiente.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_siguiente.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_siguiente.FlatAppearance.BorderSize = 0;
+            this.btn_siguiente.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btn_siguiente.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
+            this.btn_siguiente.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_siguiente.Location = new System.Drawing.Point(565, 18);
+            this.btn_siguiente.Name = "btn_siguiente";
+            this.btn_siguiente.Size = new System.Drawing.Size(33, 33);
+            this.btn_siguiente.TabIndex = 8;
+            this.btn_siguiente.UseVisualStyleBackColor = true;
+            // 
+            // btn_eliminar
+            // 
+            this.btn_eliminar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_eliminar.BackgroundImage")));
+            this.btn_eliminar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_eliminar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_eliminar.FlatAppearance.BorderSize = 0;
+            this.btn_eliminar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btn_eliminar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
+            this.btn_eliminar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_eliminar.Location = new System.Drawing.Point(230, 19);
+            this.btn_eliminar.Name = "btn_eliminar";
+            this.btn_eliminar.Size = new System.Drawing.Size(65, 65);
+            this.btn_eliminar.TabIndex = 3;
+            this.btn_eliminar.UseVisualStyleBackColor = true;
+            // 
+            // btn_anterior
+            // 
+            this.btn_anterior.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_anterior.BackgroundImage")));
+            this.btn_anterior.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_anterior.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_anterior.FlatAppearance.BorderSize = 0;
+            this.btn_anterior.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btn_anterior.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
+            this.btn_anterior.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_anterior.Location = new System.Drawing.Point(529, 18);
+            this.btn_anterior.Name = "btn_anterior";
+            this.btn_anterior.Size = new System.Drawing.Size(33, 33);
+            this.btn_anterior.TabIndex = 7;
+            this.btn_anterior.UseVisualStyleBackColor = true;
+            // 
+            // btn_buscar
+            // 
+            this.btn_buscar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_buscar.BackgroundImage")));
+            this.btn_buscar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_buscar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_buscar.FlatAppearance.BorderSize = 0;
+            this.btn_buscar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btn_buscar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
+            this.btn_buscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_buscar.Location = new System.Drawing.Point(301, 19);
+            this.btn_buscar.Name = "btn_buscar";
+            this.btn_buscar.Size = new System.Drawing.Size(65, 65);
+            this.btn_buscar.TabIndex = 4;
+            this.btn_buscar.UseVisualStyleBackColor = true;
+            // 
+            // btn_actualizar
+            // 
+            this.btn_actualizar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_actualizar.BackgroundImage")));
+            this.btn_actualizar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_actualizar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_actualizar.FlatAppearance.BorderSize = 0;
+            this.btn_actualizar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btn_actualizar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
+            this.btn_actualizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_actualizar.Location = new System.Drawing.Point(443, 19);
+            this.btn_actualizar.Name = "btn_actualizar";
+            this.btn_actualizar.Size = new System.Drawing.Size(65, 65);
+            this.btn_actualizar.TabIndex = 6;
+            this.btn_actualizar.UseVisualStyleBackColor = true;
+            // 
+            // btn_cancelar
+            // 
+            this.btn_cancelar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_cancelar.BackgroundImage")));
+            this.btn_cancelar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_cancelar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_cancelar.FlatAppearance.BorderSize = 0;
+            this.btn_cancelar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btn_cancelar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
+            this.btn_cancelar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_cancelar.Location = new System.Drawing.Point(372, 19);
+            this.btn_cancelar.Name = "btn_cancelar";
+            this.btn_cancelar.Size = new System.Drawing.Size(65, 65);
+            this.btn_cancelar.TabIndex = 5;
+            this.btn_cancelar.UseVisualStyleBackColor = true;
+            // 
+            // cbo_empresa
+            // 
+            this.cbo_empresa.FormattingEnabled = true;
+            this.cbo_empresa.Location = new System.Drawing.Point(537, 191);
+            this.cbo_empresa.Name = "cbo_empresa";
+            this.cbo_empresa.Size = new System.Drawing.Size(110, 29);
+            this.cbo_empresa.TabIndex = 48;
+            // 
+            // cbo_estado
+            // 
+            this.cbo_estado.FormattingEnabled = true;
+            this.cbo_estado.Items.AddRange(new object[] {
+            "Perdido",
+            "Encontrado"});
+            this.cbo_estado.Location = new System.Drawing.Point(336, 191);
+            this.cbo_estado.Name = "cbo_estado";
+            this.cbo_estado.Size = new System.Drawing.Size(121, 29);
+            this.cbo_estado.TabIndex = 47;
+            this.cbo_estado.Tag = "";
+            // 
+            // txt_descripcion
+            // 
+            this.txt_descripcion.Location = new System.Drawing.Point(130, 224);
+            this.txt_descripcion.Multiline = true;
+            this.txt_descripcion.Name = "txt_descripcion";
+            this.txt_descripcion.Size = new System.Drawing.Size(517, 141);
+            this.txt_descripcion.TabIndex = 46;
+            this.txt_descripcion.Tag = "descripcion";
+            // 
+            // txt_nombre
+            // 
+            this.txt_nombre.Location = new System.Drawing.Point(130, 191);
+            this.txt_nombre.Name = "txt_nombre";
+            this.txt_nombre.Size = new System.Drawing.Size(139, 27);
+            this.txt_nombre.TabIndex = 45;
+            this.txt_nombre.Tag = "nombre";
+            // 
+            // lbl_empresa
+            // 
+            this.lbl_empresa.AutoSize = true;
+            this.lbl_empresa.Location = new System.Drawing.Point(463, 194);
+            this.lbl_empresa.Name = "lbl_empresa";
+            this.lbl_empresa.Size = new System.Drawing.Size(77, 21);
+            this.lbl_empresa.TabIndex = 44;
+            this.lbl_empresa.Text = "Empresa";
+            // 
+            // lbl_estado
+            // 
+            this.lbl_estado.AutoSize = true;
+            this.lbl_estado.Location = new System.Drawing.Point(276, 194);
+            this.lbl_estado.Name = "lbl_estado";
+            this.lbl_estado.Size = new System.Drawing.Size(64, 21);
+            this.lbl_estado.TabIndex = 43;
+            this.lbl_estado.Text = "Estado";
+            // 
+            // lbl_descripcion
+            // 
+            this.lbl_descripcion.AutoSize = true;
+            this.lbl_descripcion.Location = new System.Drawing.Point(22, 227);
+            this.lbl_descripcion.Name = "lbl_descripcion";
+            this.lbl_descripcion.Size = new System.Drawing.Size(104, 21);
+            this.lbl_descripcion.TabIndex = 42;
+            this.lbl_descripcion.Text = "Descripcion ";
+            // 
+            // lbl_nombre
+            // 
+            this.lbl_nombre.AutoSize = true;
+            this.lbl_nombre.Location = new System.Drawing.Point(53, 194);
+            this.lbl_nombre.Name = "lbl_nombre";
+            this.lbl_nombre.Size = new System.Drawing.Size(73, 21);
+            this.lbl_nombre.TabIndex = 41;
+            this.lbl_nombre.Text = "Nombre";
             // 
             // lbl_titulo
             // 
             this.lbl_titulo.AutoSize = true;
             this.lbl_titulo.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_titulo.ForeColor = System.Drawing.Color.White;
-            this.lbl_titulo.Location = new System.Drawing.Point(240, 100);
+            this.lbl_titulo.Location = new System.Drawing.Point(244, 119);
             this.lbl_titulo.Name = "lbl_titulo";
             this.lbl_titulo.Size = new System.Drawing.Size(213, 30);
-            this.lbl_titulo.TabIndex = 27;
+            this.lbl_titulo.TabIndex = 40;
             this.lbl_titulo.Text = "Objetos Perdidos";
-            // 
-            // groupBox1
-            // 
-            this.groupBox1.Controls.Add(this.button6);
-            this.groupBox1.Controls.Add(this.button5);
-            this.groupBox1.Controls.Add(this.button4);
-            this.groupBox1.Controls.Add(this.button3);
-            this.groupBox1.Controls.Add(this.button2);
-            this.groupBox1.Controls.Add(this.button1);
-            this.groupBox1.Location = new System.Drawing.Point(120, 12);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(456, 85);
-            this.groupBox1.TabIndex = 26;
-            this.groupBox1.TabStop = false;
-            // 
-            // button6
-            // 
-            this.button6.BackgroundImage = global::ModuloAdminHotel.Properties.Resources.actualizar;
-            this.button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.Location = new System.Drawing.Point(383, 16);
-            this.button6.Margin = new System.Windows.Forms.Padding(0);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(65, 65);
-            this.button6.TabIndex = 5;
-            this.button6.UseVisualStyleBackColor = true;
-            // 
-            // button5
-            // 
-            this.button5.BackgroundImage = global::ModuloAdminHotel.Properties.Resources.guardar;
-            this.button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Location = new System.Drawing.Point(232, 16);
-            this.button5.Margin = new System.Windows.Forms.Padding(0);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(65, 65);
-            this.button5.TabIndex = 4;
-            this.button5.UseVisualStyleBackColor = true;
-            // 
-            // button4
-            // 
-            this.button4.BackgroundImage = global::ModuloAdminHotel.Properties.Resources.buscar;
-            this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Location = new System.Drawing.Point(309, 16);
-            this.button4.Margin = new System.Windows.Forms.Padding(0);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(65, 65);
-            this.button4.TabIndex = 3;
-            this.button4.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            this.button3.BackgroundImage = global::ModuloAdminHotel.Properties.Resources.modificar;
-            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Location = new System.Drawing.Point(156, 16);
-            this.button3.Margin = new System.Windows.Forms.Padding(0);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(65, 65);
-            this.button3.TabIndex = 2;
-            this.button3.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            this.button2.BackgroundImage = global::ModuloAdminHotel.Properties.Resources.borrar;
-            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Location = new System.Drawing.Point(80, 16);
-            this.button2.Margin = new System.Windows.Forms.Padding(0);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(65, 65);
-            this.button2.TabIndex = 1;
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // button1
-            // 
-            this.button1.BackgroundImage = global::ModuloAdminHotel.Properties.Resources.nuevo;
-            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(6, 16);
-            this.button1.Margin = new System.Windows.Forms.Padding(0);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(65, 65);
-            this.button1.TabIndex = 0;
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // lbl_nombre
-            // 
-            this.lbl_nombre.AutoSize = true;
-            this.lbl_nombre.Location = new System.Drawing.Point(49, 175);
-            this.lbl_nombre.Name = "lbl_nombre";
-            this.lbl_nombre.Size = new System.Drawing.Size(73, 21);
-            this.lbl_nombre.TabIndex = 29;
-            this.lbl_nombre.Text = "Nombre";
-            // 
-            // lbl_descripcion
-            // 
-            this.lbl_descripcion.AutoSize = true;
-            this.lbl_descripcion.Location = new System.Drawing.Point(18, 208);
-            this.lbl_descripcion.Name = "lbl_descripcion";
-            this.lbl_descripcion.Size = new System.Drawing.Size(104, 21);
-            this.lbl_descripcion.TabIndex = 30;
-            this.lbl_descripcion.Text = "Descripcion ";
-            // 
-            // lbl_estado
-            // 
-            this.lbl_estado.AutoSize = true;
-            this.lbl_estado.Location = new System.Drawing.Point(272, 175);
-            this.lbl_estado.Name = "lbl_estado";
-            this.lbl_estado.Size = new System.Drawing.Size(64, 21);
-            this.lbl_estado.TabIndex = 31;
-            this.lbl_estado.Text = "Estado";
-            // 
-            // lbl_empresa
-            // 
-            this.lbl_empresa.AutoSize = true;
-            this.lbl_empresa.Location = new System.Drawing.Point(459, 175);
-            this.lbl_empresa.Name = "lbl_empresa";
-            this.lbl_empresa.Size = new System.Drawing.Size(77, 21);
-            this.lbl_empresa.TabIndex = 32;
-            this.lbl_empresa.Text = "Empresa";
-            // 
-            // txt_nombre
-            // 
-            this.txt_nombre.Location = new System.Drawing.Point(126, 172);
-            this.txt_nombre.Name = "txt_nombre";
-            this.txt_nombre.Size = new System.Drawing.Size(139, 27);
-            this.txt_nombre.TabIndex = 33;
-            // 
-            // txt_descripcion
-            // 
-            this.txt_descripcion.Location = new System.Drawing.Point(126, 205);
-            this.txt_descripcion.Multiline = true;
-            this.txt_descripcion.Name = "txt_descripcion";
-            this.txt_descripcion.Size = new System.Drawing.Size(517, 141);
-            this.txt_descripcion.TabIndex = 34;
-            // 
-            // cbo_estado
-            // 
-            this.cbo_estado.FormattingEnabled = true;
-            this.cbo_estado.Location = new System.Drawing.Point(332, 172);
-            this.cbo_estado.Name = "cbo_estado";
-            this.cbo_estado.Size = new System.Drawing.Size(121, 29);
-            this.cbo_estado.TabIndex = 35;
-            // 
-            // cbo_empresa
-            // 
-            this.cbo_empresa.FormattingEnabled = true;
-            this.cbo_empresa.Location = new System.Drawing.Point(533, 172);
-            this.cbo_empresa.Name = "cbo_empresa";
-            this.cbo_empresa.Size = new System.Drawing.Size(110, 29);
-            this.cbo_empresa.TabIndex = 36;
             // 
             // Frm_ObjetosOlvidados
             // 
@@ -217,6 +348,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(79)))), ((int)(((byte)(104)))), ((int)(((byte)(107)))));
             this.ClientSize = new System.Drawing.Size(704, 381);
+            this.Controls.Add(this.txt_estado);
+            this.Controls.Add(this.txt_empresa);
+            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.cbo_empresa);
             this.Controls.Add(this.cbo_estado);
             this.Controls.Add(this.txt_descripcion);
@@ -226,12 +360,12 @@
             this.Controls.Add(this.lbl_descripcion);
             this.Controls.Add(this.lbl_nombre);
             this.Controls.Add(this.lbl_titulo);
-            this.Controls.Add(this.groupBox1);
             this.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.Color.White;
             this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "Frm_ObjetosOlvidados";
             this.Text = "Frm_ObjetosOlvidados";
+            this.Load += new System.EventHandler(this.Frm_ObjetosOlvidados_Load);
             this.groupBox1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -240,21 +374,28 @@
 
         #endregion
 
-        private System.Windows.Forms.Label lbl_titulo;
+        private System.Windows.Forms.TextBox txt_estado;
+        private System.Windows.Forms.TextBox txt_empresa;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Label lbl_nombre;
-        private System.Windows.Forms.Label lbl_descripcion;
-        private System.Windows.Forms.Label lbl_estado;
-        private System.Windows.Forms.Label lbl_empresa;
-        private System.Windows.Forms.TextBox txt_nombre;
-        private System.Windows.Forms.TextBox txt_descripcion;
-        private System.Windows.Forms.ComboBox cbo_estado;
+        private System.Windows.Forms.Button btn_nuevo;
+        private System.Windows.Forms.Button btn_ultimo;
+        private System.Windows.Forms.Button btn_guardar;
+        private System.Windows.Forms.Button btn_primero;
+        private System.Windows.Forms.Button btn_editar;
+        private System.Windows.Forms.Button btn_siguiente;
+        private System.Windows.Forms.Button btn_eliminar;
+        private System.Windows.Forms.Button btn_anterior;
+        private System.Windows.Forms.Button btn_buscar;
+        private System.Windows.Forms.Button btn_actualizar;
+        private System.Windows.Forms.Button btn_cancelar;
         private System.Windows.Forms.ComboBox cbo_empresa;
+        private System.Windows.Forms.ComboBox cbo_estado;
+        private System.Windows.Forms.TextBox txt_descripcion;
+        private System.Windows.Forms.TextBox txt_nombre;
+        private System.Windows.Forms.Label lbl_empresa;
+        private System.Windows.Forms.Label lbl_estado;
+        private System.Windows.Forms.Label lbl_descripcion;
+        private System.Windows.Forms.Label lbl_nombre;
+        private System.Windows.Forms.Label lbl_titulo;
     }
 }

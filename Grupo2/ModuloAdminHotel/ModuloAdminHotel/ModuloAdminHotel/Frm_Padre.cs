@@ -21,7 +21,9 @@ namespace ModuloAdminHotel
         Frm_Login login;
         Frm_Folio_Detalle DetalleFolio;
         Frm_Promocion promo;
-        Frm_MantenimientoCliente cliente;
+        Frm_CheckIn checkin;
+        Frm_Grid grid;
+        //Frm_MantenimientoCliente cliente;
         Frm_MantemientoTipoHabitacion tipohab;
         Frm_MantenimientoEmpresa empresa;
         Frm_Invitado invitado;
@@ -60,17 +62,16 @@ namespace ModuloAdminHotel
 
         private void sugerenciaToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
-            if (suge == null)
+            if (grid == null)
             {
-                suge = new Frm_Sugerencia();
-                suge.MdiParent = this;
-                suge.FormClosed += new FormClosedEventHandler(suge_FormClosed);
-                suge.Show();
+                grid = new Frm_Grid("buzon");
+                grid.MdiParent = this;
+                grid.FormClosed += new FormClosedEventHandler(grid_FormClosed);
+                grid.Show();
             }
             else
             {
-                suge.Activate();
+                grid.Activate();
             }
         }
 
@@ -82,19 +83,17 @@ namespace ModuloAdminHotel
 
         private void problemaToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
-            if (proble == null)
+            if (grid == null)
             {
-                proble = new Frm_Problema();
-                proble.MdiParent = this;
-                proble.FormClosed += new FormClosedEventHandler(proble_FormClosed);
-                proble.Show();
+                grid = new Frm_Grid("problema");
+                grid.MdiParent = this;
+                grid.FormClosed += new FormClosedEventHandler(grid_FormClosed);
+                grid.Show();
             }
             else
             {
-                proble.Activate();
+                grid.Activate();
             }
-
         }
 
         private void proble_FormClosed(object sender, EventArgs e)
@@ -126,17 +125,18 @@ namespace ModuloAdminHotel
 
         private void habitacionToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            if (habit == null)
+            if (grid == null)
             {
-                habit = new Frm_MantenimientoHabitaciones();
-                habit.MdiParent = this;
-                habit.FormClosed += new FormClosedEventHandler(habit_FormClosed);
-                habit.Show();
+                grid = new Frm_Grid("habitacion");
+                grid.MdiParent = this;
+                grid.FormClosed += new FormClosedEventHandler(grid_FormClosed);
+                grid.Show();
             }
             else
             {
-                habit.Activate();
+                grid.Activate();
             }
+
         }
 
 
@@ -145,19 +145,26 @@ namespace ModuloAdminHotel
             habit = null;
         }
 
+
+        private void grid_FormClosed(object sender, EventArgs e)
+        {
+            grid = null;
+        }
+
         private void salonToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            if (salo == null)
+            if (grid == null)
             {
-                salo = new Frm_MantenimientoSalones();
-                salo.MdiParent = this;
-                salo.FormClosed += new FormClosedEventHandler(salo_FormClosed);
-                salo.Show();
+                grid = new Frm_Grid("salon");
+                grid.MdiParent = this;
+                grid.FormClosed += new FormClosedEventHandler(grid_FormClosed);
+                grid.Show();
             }
             else
             {
-                salo.Activate();
+                grid.Activate();
             }
+
         }
 
         private void salo_FormClosed(object sender, EventArgs e)
@@ -169,16 +176,16 @@ namespace ModuloAdminHotel
 
         private void promocionToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            if (promo == null)
+            if (grid == null)
             {
-                promo = new Frm_Promocion();
-                promo.MdiParent = this;
-                promo.FormClosed += new FormClosedEventHandler(promo_FormClosed);
-                promo.Show();
+                grid = new Frm_Grid("promocion");
+                grid.MdiParent = this;
+                grid.FormClosed += new FormClosedEventHandler(grid_FormClosed);
+                grid.Show();
             }
             else
             {
-                promo.Activate();
+                grid.Activate();
             }
         }
 
@@ -189,39 +196,24 @@ namespace ModuloAdminHotel
 
         private void clienteToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            if (cliente == null)
-            {
-                cliente = new Frm_MantenimientoCliente();
-                cliente.MdiParent = this;
-                cliente.FormClosed += new FormClosedEventHandler(cliente_FormClosed);
-                cliente.Show();
-            }
-            else
-            {
-                cliente.Activate();
-            }
         }
 
 
-        private void cliente_FormClosed(object sender, EventArgs e)
-        {
-            cliente = null;
-        }
+        
 
         private void tipoHabitacionToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            if (tipohab == null)
+            if (grid == null)
             {
-                tipohab = new Frm_MantemientoTipoHabitacion();
-                tipohab.MdiParent = this;
-                tipohab.FormClosed += new FormClosedEventHandler(tipohab_FormClosed);
-                tipohab.Show();
+                grid = new Frm_Grid("tipo");
+                grid.MdiParent = this;
+                grid.FormClosed += new FormClosedEventHandler(grid_FormClosed);
+                grid.Show();
             }
             else
             {
-                tipohab.Activate();
+                grid.Activate();
             }
-
         }
 
         private void tipohab_FormClosed(object sender, EventArgs e)
@@ -231,18 +223,18 @@ namespace ModuloAdminHotel
 
         private void empresaToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-            if (empresa == null)
+
+            if (grid == null)
             {
-                empresa = new Frm_MantenimientoEmpresa();
-                empresa.MdiParent = this;
-                empresa.FormClosed += new FormClosedEventHandler(empresa_FormClosed);
-                empresa.Show();
+                grid = new Frm_Grid("empresa");
+                grid.MdiParent = this;
+                grid.FormClosed += new FormClosedEventHandler(grid_FormClosed);
+                grid.Show();
             }
             else
             {
-                empresa.Activate();
+                grid.Activate();
             }
-
         }
 
 
@@ -253,16 +245,16 @@ namespace ModuloAdminHotel
 
         private void invitadoToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            if (invitado == null)
+            if (grid == null)
             {
-                invitado = new Frm_Invitado();
-                invitado.MdiParent = this;
-                invitado.FormClosed += new FormClosedEventHandler(invitado_FormClosed);
-                invitado.Show();
+                grid = new Frm_Grid("invitado");
+                grid.MdiParent = this;
+                grid.FormClosed += new FormClosedEventHandler(grid_FormClosed);
+                grid.Show();
             }
             else
             {
-                invitado.Activate();
+                grid.Activate();
             }
 
 
@@ -275,16 +267,16 @@ namespace ModuloAdminHotel
 
         private void objetosOlvidadosToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            if (objolvi == null)
+            if (grid == null)
             {
-                objolvi = new Frm_ObjetosOlvidados();
-                objolvi.MdiParent = this;
-                objolvi.FormClosed += new FormClosedEventHandler(objolvi_FormClosed);
-                objolvi.Show();
+                grid = new Frm_Grid("obj_perdido");
+                grid.MdiParent = this;
+                grid.FormClosed += new FormClosedEventHandler(grid_FormClosed);
+                grid.Show();
             }
             else
             {
-                objolvi.Activate();
+                grid.Activate();
             }
 
 
@@ -435,5 +427,29 @@ namespace ModuloAdminHotel
         {
             form_hist = null;
         }
+
+        private void checkInToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+            if (checkin == null)
+            {
+                checkin = new Frm_CheckIn();
+                checkin.MdiParent = this;
+                checkin.FormClosed += new FormClosedEventHandler(checkin_FormClosed);
+                checkin.Show();
+            }
+            else
+            {
+                checkin.Activate();
+            }
+
+        }
+
+
+        private void checkin_FormClosed(object sender, EventArgs e)
+        {
+            checkin = null;
+        }
+
     }
 }

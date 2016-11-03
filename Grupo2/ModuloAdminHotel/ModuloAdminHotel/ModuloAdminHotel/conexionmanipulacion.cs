@@ -14,7 +14,7 @@ namespace ModuloAdminHotel
 {
     class conexionmanipulacion
     {
-        String connect = "server=localhost; database=hsc; Uid=root ; pwd=;";
+        String connect = "dsn=hsc; server=localhost; database=hsc; Uid=root ; pwd=;";
         public void Conectar()
         {
             OdbcConnection  conexion = new OdbcConnection (connect);
