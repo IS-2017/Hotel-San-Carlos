@@ -39,7 +39,7 @@
     </Reference>
     <Reference Include="FuncionesNavegador, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\..\Desktop\U\Octavo Semestre\Diseno de Sistemas\SEGUNDO PROYECTO HOTEL SAN CARLOS\Pruebas\DLL Navegador\FuncionesNavegador\bin\Debug\FuncionesNavegador.dll</HintPath>
+      <HintPath>E:\Escritorio\DLL Navegador\FuncionesNavegador\bin\Debug\FuncionesNavegador.dll</HintPath>
     </Reference>
     <Reference Include="MySql.Data, Version=7.0.2.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
