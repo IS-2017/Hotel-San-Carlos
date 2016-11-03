@@ -120,6 +120,7 @@ namespace ModuloAdminHotel
                     n = checkedListBox1.SelectedValue.ToString();
 
                     string query = "update habitacion set estado='OCUPADO' where id_habitacion_pk="+n+";";
+                    EjecutarQuery(query);
 
                     //MessageBox.Show(n.ToString());
                     // m = checkedListBox1.SelectedItem[x].ToString();                                      
