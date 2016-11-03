@@ -1,0 +1,281 @@
+C:\Users\Chrix\Documents\Visual Studio 2015\Projects\Inventario\Inventario\bin\Debug\Inventario.exe.config
+C:\Users\Chrix\Documents\Visual Studio 2015\Projects\Inventario\Inventario\obj\Debug\Inventario.csprojResolveAssemblyReference.cache
+C:\Users\Chrix\Documents\Visual Studio 2015\Projects\Inventario\Inventario\obj\Debug\Inventario.FormInventarioInicio.resources
+C:\Users\Chrix\Documents\Visual Studio 2015\Projects\Inventario\Inventario\obj\Debug\Inventario.Properties.Resources.resources
+C:\Users\Chrix\Documents\Visual Studio 2015\Projects\Inventario\Inventario\obj\Debug\Inventario.csproj.GenerateResource.Cache
+C:\Users\Chrix\Documents\Visual Studio 2015\Projects\Inventario\Inventario\bin\Debug\Inventario.exe
+C:\Users\Chrix\Documents\Visual Studio 2015\Projects\Inventario\Inventario\bin\Debug\Inventario.pdb
+C:\Users\Chrix\Documents\Visual Studio 2015\Projects\Inventario\Inventario\obj\Debug\Inventario.exe
+C:\Users\Chrix\Documents\Visual Studio 2015\Projects\Inventario\Inventario\obj\Debug\Inventario.pdb
+C:\Users\Chrix\Documents\Visual Studio 2015\Projects\Inventario\Inventario\obj\Debug\Inventario.FormAgregarArticulo.resources
+C:\Users\GABRIELA\Desktop\Inventario\Inventario\bin\Debug\Inventario.exe.config
+C:\Users\GABRIELA\Desktop\Inventario\Inventario\obj\Debug\Inventario.exe
+C:\Users\GABRIELA\Desktop\Inventario\Inventario\obj\Debug\Inventario.pdb
+C:\Users\GABRIELA\Desktop\Inventario\Inventario\bin\Debug\Inventario.exe
+C:\Users\GABRIELA\Desktop\Inventario\Inventario\bin\Debug\Inventario.pdb
+C:\Users\GABRIELA\Desktop\Inventario\Inventario\obj\Debug\Inventario.csprojResolveAssemblyReference.cache
+C:\Users\GABRIELA\Desktop\Inventario\Inventario\obj\Debug\Inventario.FormAgregarArticulo.resources
+C:\Users\GABRIELA\Desktop\Inventario\Inventario\obj\Debug\Inventario.FormInventarioInicio.resources
+C:\Users\GABRIELA\Desktop\Inventario\Inventario\obj\Debug\Inventario.marca.resources
+C:\Users\GABRIELA\Desktop\Inventario\Inventario\obj\Debug\Inventario.Properties.Resources.resources
+C:\Users\GABRIELA\Desktop\Inventario\Inventario\obj\Debug\Inventario.csproj.GenerateResource.Cache
+C:\Users\GABRIELA\Desktop\Inventario\Inventario\obj\Debug\Inventario.Bodega.resources
+C:\Users\GABRIELA\Desktop\Inventario\Inventario\obj\Debug\Inventario.Categoria.resources
+C:\Users\GABRIELA\Desktop\Inventario\Inventario\obj\Debug\Inventario.Kardex_materia_prima.resources
+C:\Users\GABRIELA\Desktop\Inventario\Inventario\obj\Debug\Inventario.Materia_prima.resources
+C:\Users\GABRIELA\Desktop\Inventario\Inventario\obj\Debug\Inventario.Muestreo_producto_terminado.resources
+C:\Users\GABRIELA\Desktop\Inventario\Inventario\obj\Debug\Inventario.Muestreo_materia_prima.resources
+C:\Users\GABRIELA\Desktop\Inventario\Inventario\obj\Debug\Inventario.Producto_terminado.resources
+C:\Users\GABRIELA\Desktop\Inventario\Inventario\obj\Debug\Inventario.Reporte_de_existencias.resources
+C:\Users\GABRIELA\Desktop\Inventario\Inventario\obj\Debug\Inventario.contenedor.resources
+C:\Users\GABRIELA\Music\Inventario\Inventario\bin\Debug\Inventario.exe.config
+C:\Users\GABRIELA\Music\Inventario\Inventario\obj\Debug\Inventario.exe
+C:\Users\GABRIELA\Music\Inventario\Inventario\obj\Debug\Inventario.pdb
+C:\Users\GABRIELA\Music\Inventario\Inventario\obj\Debug\Inventario.csprojResolveAssemblyReference.cache
+C:\Users\GABRIELA\Music\Inventario\Inventario\obj\Debug\Inventario.Bodega.resources
+C:\Users\GABRIELA\Music\Inventario\Inventario\obj\Debug\Inventario.Categoria.resources
+C:\Users\GABRIELA\Music\Inventario\Inventario\obj\Debug\Inventario.contenedor.resources
+C:\Users\GABRIELA\Music\Inventario\Inventario\obj\Debug\Inventario.FormInventarioInicio.resources
+C:\Users\GABRIELA\Music\Inventario\Inventario\obj\Debug\Inventario.Kardex.resources
+C:\Users\GABRIELA\Music\Inventario\Inventario\obj\Debug\Inventario.marca.resources
+C:\Users\GABRIELA\Music\Inventario\Inventario\obj\Debug\Inventario.Muestreo.resources
+C:\Users\GABRIELA\Music\Inventario\Inventario\obj\Debug\Inventario.Producto_terminado.resources
+C:\Users\GABRIELA\Music\Inventario\Inventario\obj\Debug\Inventario.Properties.Resources.resources
+C:\Users\GABRIELA\Music\Inventario\Inventario\obj\Debug\Inventario.Reporte_de_existencias.resources
+C:\Users\GABRIELA\Music\Inventario\Inventario\obj\Debug\Inventario.csproj.GenerateResource.Cache
+C:\Users\GABRIELA\Music\Inventario\Inventario\obj\Debug\Inventario.Reporte_de_Movimientos_de_inventarios.resources
+C:\Users\GABRIELA\Music\Inventario\Inventario\bin\Debug\Inventario.exe
+C:\Users\GABRIELA\Music\Inventario\Inventario\bin\Debug\Inventario.pdb
+C:\Users\Chrix\Desktop\Inventario\Inventario V2\Inventario\Inventario\bin\Debug\Inventario.exe.config
+C:\Users\Chrix\Desktop\Inventario\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.exe
+C:\Users\Chrix\Desktop\Inventario\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.pdb
+C:\Users\Chrix\Desktop\Inventario\Inventario V2\Inventario\Inventario\bin\Debug\Inventario.exe
+C:\Users\Chrix\Desktop\Inventario\Inventario V2\Inventario\Inventario\bin\Debug\Inventario.pdb
+C:\Users\Chrix\Desktop\Inventario\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.csprojResolveAssemblyReference.cache
+C:\Users\Chrix\Desktop\Inventario\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.Bodega.resources
+C:\Users\Chrix\Desktop\Inventario\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.Categoria.resources
+C:\Users\Chrix\Desktop\Inventario\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.contenedor.resources
+C:\Users\Chrix\Desktop\Inventario\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.FormInventarioInicio.resources
+C:\Users\Chrix\Desktop\Inventario\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.Kardex.resources
+C:\Users\Chrix\Desktop\Inventario\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.marca.resources
+C:\Users\Chrix\Desktop\Inventario\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.Muestreo.resources
+C:\Users\Chrix\Desktop\Inventario\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.Properties.Resources.resources
+C:\Users\Chrix\Desktop\Inventario\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.Reporte_de_existencias.resources
+C:\Users\Chrix\Desktop\Inventario\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.Reporte_de_Movimientos_de_inventarios.resources
+C:\Users\Chrix\Desktop\Inventario\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.csproj.GenerateResource.Cache
+C:\Users\Chrix\Desktop\Inventario\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.FormNuevoProducto.resources
+C:\Users\Chrix\Desktop\Inventario\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.FormMedidas.resources
+C:\Users\Chrix\Desktop\Inventario\Inventario V2\Inventario\Inventario\bin\Debug\seguridad.dll
+C:\Users\Chrix\Desktop\Inventario\Inventario V2\Inventario\Inventario\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\Chrix\Desktop\Inventario\Inventario V2\Inventario\Inventario\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\Chrix\Desktop\Inventario\Inventario V2\Inventario\Inventario\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\Chrix\Desktop\Inventario\Inventario V2\Inventario\Inventario\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\Chrix\Desktop\Inventario\Inventario V2\Inventario\Inventario\bin\Debug\FlashControlV71.dll
+C:\Users\Chrix\Desktop\Inventario\Inventario V2\Inventario\Inventario\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\Chrix\Desktop\Inventario\Inventario V2\Inventario\Inventario\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\Chrix\Desktop\Inventario\Inventario V2\Inventario\Inventario\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\Chrix\Desktop\Inventario\Inventario V2\Inventario\Inventario\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\Chrix\Desktop\Inventario\Inventario V2\Inventario\Inventario\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\Chrix\Desktop\Inventario\Inventario V2\Inventario\Inventario\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\Chrix\Desktop\Inventario\Inventario V2\Inventario\Inventario\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\Chrix\Desktop\Inventario\Inventario V2\Inventario\Inventario\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\Chrix\Desktop\Inventario\Inventario V2\Inventario\Inventario\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\Chrix\Desktop\Inventario\Inventario V2\Inventario\Inventario\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\Chrix\Desktop\Inventario\Inventario V2\Inventario\Inventario\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\Chrix\Desktop\Inventario\Inventario V2\Inventario\Inventario\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\Chrix\Desktop\Inventario\Inventario V2\Inventario\Inventario\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\Chrix\Desktop\Inventario\Inventario V2\Inventario\Inventario\bin\Debug\stdole.dll
+C:\Users\Chrix\Desktop\Inventario\Inventario V2\Inventario\Inventario\bin\Debug\seguridad.pdb
+C:\Users\Chrix\Desktop\Inventario\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.FormRecibirStock.resources
+C:\Users\Chrix\Desktop\Inventario\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.Formlogin.resources
+C:\Users\Chrix\Desktop\Inventario\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.FormBodega.resources
+C:\Users\Chrix\Desktop\Inventario\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.FormLinea.resources
+C:\Users\Chrix\Desktop\Inventario\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.FormRequisicion.resources
+C:\Users\Chrix\Desktop\Inventario\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.Detalle_bodega_producto.resources
+C:\Users\Chrix\Desktop\Inventario\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.Detalle_muestreo.resources
+C:\Users\Chrix\Desktop\Inventario\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.FormMuestreo.resources
+C:\Users\Chrix\Desktop\Inventario\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.Modificar_encabezado_muestreo.resources
+C:\Users\Chrix\Desktop\Inventario\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.FormMovimientos.resources
+C:\Users\Chrix\Desktop\Inventario\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.FormDevolucionCompra.resources
+C:\Users\Chrix\Desktop\Inventario\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.FormDocumento.resources
+C:\Users\Chrix\Desktop\Inventario\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.FormExistenciasPorBodega.resources
+C:\Users\Chrix\Desktop\Inventario\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.FormFacturasPendientes.resources
+C:\Users\Chrix\Desktop\Inventario\Inventario V2\Inventario\Inventario\bin\Debug\FuncionesNavegador.dll
+C:\Users\Chrix\Desktop\Inventario\Inventario V2\Inventario\Inventario\bin\Debug\FuncionesNavegador.pdb
+C:\Users\Chrix\Desktop\Inventario\Inventario V2\Inventario\Inventario\bin\Debug\dllconsultas.dll
+C:\Users\Chrix\Desktop\Inventario\Inventario V2\Inventario\Inventario\bin\Debug\dllconsultas.pdb
+C:\Users\Chrix\Desktop\Inventario\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.Formkardex.resources
+C:\Users\GABRIELA\Dropbox\Version ultima\Inventario V2\Inventario\Inventario\bin\Debug\Inventario.exe.config
+C:\Users\GABRIELA\Dropbox\Version ultima\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.exe
+C:\Users\GABRIELA\Dropbox\Version ultima\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.pdb
+C:\Users\GABRIELA\Dropbox\Version ultima\Inventario V2\Inventario\Inventario\bin\Debug\Inventario.exe
+C:\Users\GABRIELA\Dropbox\Version ultima\Inventario V2\Inventario\Inventario\bin\Debug\Inventario.pdb
+C:\Users\GABRIELA\Dropbox\Version ultima\Inventario V2\Inventario\Inventario\bin\Debug\FuncionesNavegador.dll
+C:\Users\GABRIELA\Dropbox\Version ultima\Inventario V2\Inventario\Inventario\bin\Debug\seguridad.dll
+C:\Users\GABRIELA\Dropbox\Version ultima\Inventario V2\Inventario\Inventario\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\GABRIELA\Dropbox\Version ultima\Inventario V2\Inventario\Inventario\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\GABRIELA\Dropbox\Version ultima\Inventario V2\Inventario\Inventario\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\GABRIELA\Dropbox\Version ultima\Inventario V2\Inventario\Inventario\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\GABRIELA\Dropbox\Version ultima\Inventario V2\Inventario\Inventario\bin\Debug\FlashControlV71.dll
+C:\Users\GABRIELA\Dropbox\Version ultima\Inventario V2\Inventario\Inventario\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\GABRIELA\Dropbox\Version ultima\Inventario V2\Inventario\Inventario\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\GABRIELA\Dropbox\Version ultima\Inventario V2\Inventario\Inventario\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\GABRIELA\Dropbox\Version ultima\Inventario V2\Inventario\Inventario\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\GABRIELA\Dropbox\Version ultima\Inventario V2\Inventario\Inventario\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\GABRIELA\Dropbox\Version ultima\Inventario V2\Inventario\Inventario\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\GABRIELA\Dropbox\Version ultima\Inventario V2\Inventario\Inventario\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\GABRIELA\Dropbox\Version ultima\Inventario V2\Inventario\Inventario\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\GABRIELA\Dropbox\Version ultima\Inventario V2\Inventario\Inventario\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\GABRIELA\Dropbox\Version ultima\Inventario V2\Inventario\Inventario\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\GABRIELA\Dropbox\Version ultima\Inventario V2\Inventario\Inventario\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\GABRIELA\Dropbox\Version ultima\Inventario V2\Inventario\Inventario\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\GABRIELA\Dropbox\Version ultima\Inventario V2\Inventario\Inventario\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\GABRIELA\Dropbox\Version ultima\Inventario V2\Inventario\Inventario\bin\Debug\stdole.dll
+C:\Users\GABRIELA\Dropbox\Version ultima\Inventario V2\Inventario\Inventario\bin\Debug\dllconsultas.pdb
+C:\Users\GABRIELA\Dropbox\Version ultima\Inventario V2\Inventario\Inventario\bin\Debug\FuncionesNavegador.pdb
+C:\Users\GABRIELA\Dropbox\Version ultima\Inventario V2\Inventario\Inventario\bin\Debug\seguridad.pdb
+C:\Users\GABRIELA\Dropbox\Version ultima\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.csprojResolveAssemblyReference.cache
+C:\Users\GABRIELA\Dropbox\Version ultima\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.Bodega.resources
+C:\Users\GABRIELA\Dropbox\Version ultima\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.Categoria.resources
+C:\Users\GABRIELA\Dropbox\Version ultima\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.contenedor.resources
+C:\Users\GABRIELA\Dropbox\Version ultima\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.Detalle_bodega_producto.resources
+C:\Users\GABRIELA\Dropbox\Version ultima\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.Detalle_muestreo.resources
+C:\Users\GABRIELA\Dropbox\Version ultima\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.FormBodega.resources
+C:\Users\GABRIELA\Dropbox\Version ultima\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.FormDevolucionCompra.resources
+C:\Users\GABRIELA\Dropbox\Version ultima\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.FormDocumento.resources
+C:\Users\GABRIELA\Dropbox\Version ultima\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.FormExistenciasPorBodega.resources
+C:\Users\GABRIELA\Dropbox\Version ultima\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.FormFacturasPendientes.resources
+C:\Users\GABRIELA\Dropbox\Version ultima\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.FormInventarioInicio.resources
+C:\Users\GABRIELA\Dropbox\Version ultima\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.Formkardex.resources
+C:\Users\GABRIELA\Dropbox\Version ultima\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.FormLinea.resources
+C:\Users\GABRIELA\Dropbox\Version ultima\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.Formlogin.resources
+C:\Users\GABRIELA\Dropbox\Version ultima\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.FormMedidas.resources
+C:\Users\GABRIELA\Dropbox\Version ultima\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.FormMovimientos.resources
+C:\Users\GABRIELA\Dropbox\Version ultima\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.FormMuestreo.resources
+C:\Users\GABRIELA\Dropbox\Version ultima\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.FormRecibirStock.resources
+C:\Users\GABRIELA\Dropbox\Version ultima\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.FormRequisicion.resources
+C:\Users\GABRIELA\Dropbox\Version ultima\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.marca.resources
+C:\Users\GABRIELA\Dropbox\Version ultima\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.Modificar_encabezado_muestreo.resources
+C:\Users\GABRIELA\Dropbox\Version ultima\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.Muestreo.resources
+C:\Users\GABRIELA\Dropbox\Version ultima\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.FormNuevoProducto.resources
+C:\Users\GABRIELA\Dropbox\Version ultima\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.Properties.Resources.resources
+C:\Users\GABRIELA\Dropbox\Version ultima\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.Reporte_de_existencias.resources
+C:\Users\GABRIELA\Dropbox\Version ultima\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.csproj.GenerateResource.Cache
+C:\Users\GABRIELA\Dropbox\Version ultima\Inventario V2\Inventario\Inventario\bin\Debug\Abrir.exe
+C:\Users\GABRIELA\Dropbox\Version ultima\Inventario V2\Inventario\Inventario\bin\Debug\MySql.Data.dll
+C:\Users\GABRIELA\Dropbox\Version ultima\Inventario V2\Inventario\Inventario\bin\Debug\Abrir.pdb
+C:\Users\GABRIELA\Dropbox\Version ultima\Inventario V2\Inventario\Inventario\bin\Debug\MySql.Data.xml
+C:\Users\GABRIELA\Dropbox\03 - 11 -16\Version ultima\Inventario V2\Inventario\Inventario\bin\Debug\Inventario.exe.config
+C:\Users\GABRIELA\Dropbox\03 - 11 -16\Version ultima\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.exe
+C:\Users\GABRIELA\Dropbox\03 - 11 -16\Version ultima\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.pdb
+C:\Users\GABRIELA\Dropbox\03 - 11 -16\Version ultima\Inventario V2\Inventario\Inventario\bin\Debug\Inventario.exe
+C:\Users\GABRIELA\Dropbox\03 - 11 -16\Version ultima\Inventario V2\Inventario\Inventario\bin\Debug\Inventario.pdb
+C:\Users\GABRIELA\Dropbox\03 - 11 -16\Version ultima\Inventario V2\Inventario\Inventario\bin\Debug\MySql.Data.dll
+C:\Users\GABRIELA\Dropbox\03 - 11 -16\Version ultima\Inventario V2\Inventario\Inventario\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\GABRIELA\Dropbox\03 - 11 -16\Version ultima\Inventario V2\Inventario\Inventario\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\GABRIELA\Dropbox\03 - 11 -16\Version ultima\Inventario V2\Inventario\Inventario\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\GABRIELA\Dropbox\03 - 11 -16\Version ultima\Inventario V2\Inventario\Inventario\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\GABRIELA\Dropbox\03 - 11 -16\Version ultima\Inventario V2\Inventario\Inventario\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\GABRIELA\Dropbox\03 - 11 -16\Version ultima\Inventario V2\Inventario\Inventario\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\GABRIELA\Dropbox\03 - 11 -16\Version ultima\Inventario V2\Inventario\Inventario\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\GABRIELA\Dropbox\03 - 11 -16\Version ultima\Inventario V2\Inventario\Inventario\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\GABRIELA\Dropbox\03 - 11 -16\Version ultima\Inventario V2\Inventario\Inventario\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\GABRIELA\Dropbox\03 - 11 -16\Version ultima\Inventario V2\Inventario\Inventario\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\GABRIELA\Dropbox\03 - 11 -16\Version ultima\Inventario V2\Inventario\Inventario\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\GABRIELA\Dropbox\03 - 11 -16\Version ultima\Inventario V2\Inventario\Inventario\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\GABRIELA\Dropbox\03 - 11 -16\Version ultima\Inventario V2\Inventario\Inventario\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\GABRIELA\Dropbox\03 - 11 -16\Version ultima\Inventario V2\Inventario\Inventario\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\GABRIELA\Dropbox\03 - 11 -16\Version ultima\Inventario V2\Inventario\Inventario\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\GABRIELA\Dropbox\03 - 11 -16\Version ultima\Inventario V2\Inventario\Inventario\bin\Debug\FlashControlV71.dll
+C:\Users\GABRIELA\Dropbox\03 - 11 -16\Version ultima\Inventario V2\Inventario\Inventario\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\GABRIELA\Dropbox\03 - 11 -16\Version ultima\Inventario V2\Inventario\Inventario\bin\Debug\stdole.dll
+C:\Users\GABRIELA\Dropbox\03 - 11 -16\Version ultima\Inventario V2\Inventario\Inventario\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\GABRIELA\Dropbox\03 - 11 -16\Version ultima\Inventario V2\Inventario\Inventario\bin\Debug\Abrir.pdb
+C:\Users\GABRIELA\Dropbox\03 - 11 -16\Version ultima\Inventario V2\Inventario\Inventario\bin\Debug\dllconsultas.pdb
+C:\Users\GABRIELA\Dropbox\03 - 11 -16\Version ultima\Inventario V2\Inventario\Inventario\bin\Debug\FuncionesNavegador.pdb
+C:\Users\GABRIELA\Dropbox\03 - 11 -16\Version ultima\Inventario V2\Inventario\Inventario\bin\Debug\seguridad.pdb
+C:\Users\GABRIELA\Dropbox\03 - 11 -16\Version ultima\Inventario V2\Inventario\Inventario\bin\Debug\MySql.Data.xml
+C:\Users\GABRIELA\Dropbox\03 - 11 -16\Version ultima\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.csprojResolveAssemblyReference.cache
+C:\Users\GABRIELA\Dropbox\03 - 11 -16\Version ultima\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.Bodega.resources
+C:\Users\GABRIELA\Dropbox\03 - 11 -16\Version ultima\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.Categoria.resources
+C:\Users\GABRIELA\Dropbox\03 - 11 -16\Version ultima\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.contenedor.resources
+C:\Users\GABRIELA\Dropbox\03 - 11 -16\Version ultima\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.Detalle_bodega_producto.resources
+C:\Users\GABRIELA\Dropbox\03 - 11 -16\Version ultima\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.Detalle_muestreo.resources
+C:\Users\GABRIELA\Dropbox\03 - 11 -16\Version ultima\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.FormBodega.resources
+C:\Users\GABRIELA\Dropbox\03 - 11 -16\Version ultima\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.FormDevolucionCompra.resources
+C:\Users\GABRIELA\Dropbox\03 - 11 -16\Version ultima\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.FormDocumento.resources
+C:\Users\GABRIELA\Dropbox\03 - 11 -16\Version ultima\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.FormExistenciasPorBodega.resources
+C:\Users\GABRIELA\Dropbox\03 - 11 -16\Version ultima\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.FormFacturasPendientes.resources
+C:\Users\GABRIELA\Dropbox\03 - 11 -16\Version ultima\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.FormInventarioInicio.resources
+C:\Users\GABRIELA\Dropbox\03 - 11 -16\Version ultima\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.Formkardex.resources
+C:\Users\GABRIELA\Dropbox\03 - 11 -16\Version ultima\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.FormLinea.resources
+C:\Users\GABRIELA\Dropbox\03 - 11 -16\Version ultima\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.Formlogin.resources
+C:\Users\GABRIELA\Dropbox\03 - 11 -16\Version ultima\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.FormMedidas.resources
+C:\Users\GABRIELA\Dropbox\03 - 11 -16\Version ultima\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.FormMovimientos.resources
+C:\Users\GABRIELA\Dropbox\03 - 11 -16\Version ultima\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.FormMuestreo.resources
+C:\Users\GABRIELA\Dropbox\03 - 11 -16\Version ultima\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.FormRecibirStock.resources
+C:\Users\GABRIELA\Dropbox\03 - 11 -16\Version ultima\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.FormRequisicion.resources
+C:\Users\GABRIELA\Dropbox\03 - 11 -16\Version ultima\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.marca.resources
+C:\Users\GABRIELA\Dropbox\03 - 11 -16\Version ultima\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.Modificar_encabezado_muestreo.resources
+C:\Users\GABRIELA\Dropbox\03 - 11 -16\Version ultima\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.Muestreo.resources
+C:\Users\GABRIELA\Dropbox\03 - 11 -16\Version ultima\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.FormNuevoProducto.resources
+C:\Users\GABRIELA\Dropbox\03 - 11 -16\Version ultima\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.Properties.Resources.resources
+C:\Users\GABRIELA\Dropbox\03 - 11 -16\Version ultima\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.Reporte_de_existencias.resources
+C:\Users\GABRIELA\Dropbox\03 - 11 -16\Version ultima\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.csproj.GenerateResource.Cache
+C:\Users\GABRIELA\Dropbox\03 - 11 -16\Modulo de Inventarios\Inventario V2\Inventario\Inventario\bin\Debug\Inventario.exe.config
+C:\Users\GABRIELA\Dropbox\03 - 11 -16\Modulo de Inventarios\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.exe
+C:\Users\GABRIELA\Dropbox\03 - 11 -16\Modulo de Inventarios\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.pdb
+C:\Users\GABRIELA\Dropbox\03 - 11 -16\Modulo de Inventarios\Inventario V2\Inventario\Inventario\bin\Debug\Inventario.exe
+C:\Users\GABRIELA\Dropbox\03 - 11 -16\Modulo de Inventarios\Inventario V2\Inventario\Inventario\bin\Debug\Inventario.pdb
+C:\Users\GABRIELA\Dropbox\03 - 11 -16\Modulo de Inventarios\Inventario V2\Inventario\Inventario\bin\Debug\MySql.Data.dll
+C:\Users\GABRIELA\Dropbox\03 - 11 -16\Modulo de Inventarios\Inventario V2\Inventario\Inventario\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\GABRIELA\Dropbox\03 - 11 -16\Modulo de Inventarios\Inventario V2\Inventario\Inventario\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\GABRIELA\Dropbox\03 - 11 -16\Modulo de Inventarios\Inventario V2\Inventario\Inventario\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\GABRIELA\Dropbox\03 - 11 -16\Modulo de Inventarios\Inventario V2\Inventario\Inventario\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\GABRIELA\Dropbox\03 - 11 -16\Modulo de Inventarios\Inventario V2\Inventario\Inventario\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\GABRIELA\Dropbox\03 - 11 -16\Modulo de Inventarios\Inventario V2\Inventario\Inventario\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\GABRIELA\Dropbox\03 - 11 -16\Modulo de Inventarios\Inventario V2\Inventario\Inventario\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\GABRIELA\Dropbox\03 - 11 -16\Modulo de Inventarios\Inventario V2\Inventario\Inventario\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\GABRIELA\Dropbox\03 - 11 -16\Modulo de Inventarios\Inventario V2\Inventario\Inventario\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\GABRIELA\Dropbox\03 - 11 -16\Modulo de Inventarios\Inventario V2\Inventario\Inventario\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\GABRIELA\Dropbox\03 - 11 -16\Modulo de Inventarios\Inventario V2\Inventario\Inventario\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\GABRIELA\Dropbox\03 - 11 -16\Modulo de Inventarios\Inventario V2\Inventario\Inventario\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\GABRIELA\Dropbox\03 - 11 -16\Modulo de Inventarios\Inventario V2\Inventario\Inventario\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\GABRIELA\Dropbox\03 - 11 -16\Modulo de Inventarios\Inventario V2\Inventario\Inventario\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\GABRIELA\Dropbox\03 - 11 -16\Modulo de Inventarios\Inventario V2\Inventario\Inventario\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\GABRIELA\Dropbox\03 - 11 -16\Modulo de Inventarios\Inventario V2\Inventario\Inventario\bin\Debug\FlashControlV71.dll
+C:\Users\GABRIELA\Dropbox\03 - 11 -16\Modulo de Inventarios\Inventario V2\Inventario\Inventario\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\GABRIELA\Dropbox\03 - 11 -16\Modulo de Inventarios\Inventario V2\Inventario\Inventario\bin\Debug\stdole.dll
+C:\Users\GABRIELA\Dropbox\03 - 11 -16\Modulo de Inventarios\Inventario V2\Inventario\Inventario\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\GABRIELA\Dropbox\03 - 11 -16\Modulo de Inventarios\Inventario V2\Inventario\Inventario\bin\Debug\Abrir.pdb
+C:\Users\GABRIELA\Dropbox\03 - 11 -16\Modulo de Inventarios\Inventario V2\Inventario\Inventario\bin\Debug\dllconsultas.pdb
+C:\Users\GABRIELA\Dropbox\03 - 11 -16\Modulo de Inventarios\Inventario V2\Inventario\Inventario\bin\Debug\FuncionesNavegador.pdb
+C:\Users\GABRIELA\Dropbox\03 - 11 -16\Modulo de Inventarios\Inventario V2\Inventario\Inventario\bin\Debug\seguridad.pdb
+C:\Users\GABRIELA\Dropbox\03 - 11 -16\Modulo de Inventarios\Inventario V2\Inventario\Inventario\bin\Debug\MySql.Data.xml
+C:\Users\GABRIELA\Dropbox\03 - 11 -16\Modulo de Inventarios\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.csprojResolveAssemblyReference.cache
+C:\Users\GABRIELA\Dropbox\03 - 11 -16\Modulo de Inventarios\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.Bodega.resources
+C:\Users\GABRIELA\Dropbox\03 - 11 -16\Modulo de Inventarios\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.Categoria.resources
+C:\Users\GABRIELA\Dropbox\03 - 11 -16\Modulo de Inventarios\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.contenedor.resources
+C:\Users\GABRIELA\Dropbox\03 - 11 -16\Modulo de Inventarios\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.Detalle_bodega_producto.resources
+C:\Users\GABRIELA\Dropbox\03 - 11 -16\Modulo de Inventarios\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.Detalle_muestreo.resources
+C:\Users\GABRIELA\Dropbox\03 - 11 -16\Modulo de Inventarios\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.FormBodega.resources
+C:\Users\GABRIELA\Dropbox\03 - 11 -16\Modulo de Inventarios\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.FormDevolucionCompra.resources
+C:\Users\GABRIELA\Dropbox\03 - 11 -16\Modulo de Inventarios\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.FormDocumento.resources
+C:\Users\GABRIELA\Dropbox\03 - 11 -16\Modulo de Inventarios\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.FormExistenciasPorBodega.resources
+C:\Users\GABRIELA\Dropbox\03 - 11 -16\Modulo de Inventarios\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.FormFacturasPendientes.resources
+C:\Users\GABRIELA\Dropbox\03 - 11 -16\Modulo de Inventarios\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.FormInventarioInicio.resources
+C:\Users\GABRIELA\Dropbox\03 - 11 -16\Modulo de Inventarios\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.Formkardex.resources
+C:\Users\GABRIELA\Dropbox\03 - 11 -16\Modulo de Inventarios\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.FormLinea.resources
+C:\Users\GABRIELA\Dropbox\03 - 11 -16\Modulo de Inventarios\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.Formlogin.resources
+C:\Users\GABRIELA\Dropbox\03 - 11 -16\Modulo de Inventarios\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.FormMedidas.resources
+C:\Users\GABRIELA\Dropbox\03 - 11 -16\Modulo de Inventarios\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.FormMovimientos.resources
+C:\Users\GABRIELA\Dropbox\03 - 11 -16\Modulo de Inventarios\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.FormMuestreo.resources
+C:\Users\GABRIELA\Dropbox\03 - 11 -16\Modulo de Inventarios\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.FormRecibirStock.resources
+C:\Users\GABRIELA\Dropbox\03 - 11 -16\Modulo de Inventarios\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.FormRequisicion.resources
+C:\Users\GABRIELA\Dropbox\03 - 11 -16\Modulo de Inventarios\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.marca.resources
+C:\Users\GABRIELA\Dropbox\03 - 11 -16\Modulo de Inventarios\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.Modificar_encabezado_muestreo.resources
+C:\Users\GABRIELA\Dropbox\03 - 11 -16\Modulo de Inventarios\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.Muestreo.resources
+C:\Users\GABRIELA\Dropbox\03 - 11 -16\Modulo de Inventarios\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.FormNuevoProducto.resources
+C:\Users\GABRIELA\Dropbox\03 - 11 -16\Modulo de Inventarios\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.Properties.Resources.resources
+C:\Users\GABRIELA\Dropbox\03 - 11 -16\Modulo de Inventarios\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.Reporte_de_existencias.resources
+C:\Users\GABRIELA\Dropbox\03 - 11 -16\Modulo de Inventarios\Inventario V2\Inventario\Inventario\obj\Debug\Inventario.csproj.GenerateResource.Cache
