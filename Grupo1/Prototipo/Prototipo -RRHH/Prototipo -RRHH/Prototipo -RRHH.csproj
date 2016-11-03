@@ -66,11 +66,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Buscar_planilla.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Comisiones_linea.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="comisiones_producto.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Comisiones_Vendedor.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Comisiones_Vendedor.designer.cs">
-      <DependentUpon>Comisiones_Vendedor.cs</DependentUpon>
+    <Compile Include="Comision_marca.cs">
+      <SubType>Form</SubType>
     </Compile>
     <Compile Include="Conexionmysql.cs" />
     <Compile Include="Empleados.cs">
@@ -142,14 +151,11 @@
     <Compile Include="Planilla_IGSS.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Planilla_IGSS.designer.cs">
-      <DependentUpon>Planilla_IGSS.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Comisiones_Vendedor.resx">
-      <DependentUpon>Comisiones_Vendedor.cs</DependentUpon>
-    </EmbeddedResource>
+    <Compile Include="Reporte Planilla IGSS.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <EmbeddedResource Include="Empleados.resx">
       <DependentUpon>Empleados.cs</DependentUpon>
     </EmbeddedResource>
@@ -182,9 +188,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="MenuMDI.resx">
       <DependentUpon>MenuMDI.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Planilla_IGSS.resx">
-      <DependentUpon>Planilla_IGSS.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

@@ -64,6 +64,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Ayuda.cs" />
+    <Compile Include="Buscar_Cheque.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Busqueda Documento.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -72,9 +75,6 @@
     </Compile>
     <Compile Include="Cheque_Voucher.cs">
       <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Cheque_Voucher.designer.cs">
-      <DependentUpon>Cheque_Voucher.cs</DependentUpon>
     </Compile>
     <Compile Include="Conciliacion_Bancaria.cs">
       <SubType>Form</SubType>
@@ -117,9 +117,6 @@
     <Compile Include="Validar.cs" />
     <EmbeddedResource Include="Busqueda Documento.resx">
       <DependentUpon>Busqueda Documento.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Cheque_Voucher.resx">
-      <DependentUpon>Cheque_Voucher.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Conciliacion_Bancaria.resx">
       <DependentUpon>Conciliacion_Bancaria.cs</DependentUpon>
