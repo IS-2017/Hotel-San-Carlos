@@ -54,6 +54,9 @@ namespace Prototipo__RRHH
                 Editar = false;
                 fn.ActivarControles(gpb_com_ven);
                 fn.LimpiarComponentes(gpb_com_ven);
+                dateTimePicker2.Enabled = false;
+                dateTimePicker3.Enabled = false;
+                button1.Enabled = false;
             }
             catch (Exception ex)
             {
@@ -141,11 +144,50 @@ namespace Prototipo__RRHH
             llenarvendedor();
 
         }
+        decimal porc_emp;
+        public void por_empleado()
+        {
+            int cont1 = 0;
+            //dataGridView1.Columns[1].Visible = false;
+            //string selectedItem = cbo_empres.SelectedValue.ToString();
+            string selectedItem2 = cbo_empleado.SelectedValue.ToString();
+            OdbcCommand Query = new OdbcCommand();
+            OdbcConnection Conexion;
+            OdbcDataReader consultar;
+            string sql = "dsn=hotelsancarlos;server=localhost;user id=root;database=hotelsancarlos;password=";
+            Conexion = new OdbcConnection();
+            Conexion.ConnectionString = sql;
+            Conexion.Open();
+            Query.CommandText = "SELECT porcentaje From empleado where id_empleados_pk = '" + selectedItem2 +"';";
+            Query.Connection = Conexion;
+            consultar = Query.ExecuteReader();
 
+            while (consultar.Read())
+            {
+                
+                if (cont1 == 0)
+                {
+                    
+                    porc_emp = consultar.GetDecimal(0);
+                    textBox11.Text = Convert.ToString(porc_emp);
+                        
+                    //dataGridView1.Rows[0].Cells[2].Value = porc_emp;
+                    // MessageBox.Show(Convert.ToString(id));
+                }
+                else
+                {
 
+                    porc_emp = consultar.GetDecimal(0);
+
+                   // dataGridView1.Rows[cont1].Cells[2].Value = porc_emp;
+                }
+                cont1++;
+            }
+        }
         public void factura()
         {
             int cont1 = 0;
+            //dataGridView1.Columns[1].Visible = false;
             string selectedItem = cbo_empres.SelectedValue.ToString();
             string selectedItem2 = cbo_empleado.SelectedValue.ToString();
             OdbcCommand Query = new OdbcCommand();
@@ -184,7 +226,7 @@ namespace Prototipo__RRHH
 
         public void comision()
         {
-            decimal por_comi = Convert.ToDecimal(txt_comi.Text);
+            decimal por_comi = Convert.ToDecimal(textBox11.Text);
             
             for (int fila = 0; fila < dataGridView1.RowCount - 1; fila++)
             {
@@ -214,6 +256,7 @@ namespace Prototipo__RRHH
             dataGridView1.Rows.Clear();
             dataGridView1.Refresh();
             factura();
+            por_empleado();
             comision();
             totales();
         }
@@ -224,19 +267,93 @@ namespace Prototipo__RRHH
             llenarvendedor();
         }
 
+        private void cbo_empleado_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void radioButton1_CheckedChanged(object sender, EventArgs e)
+        {
+            dateTimePicker2.Enabled = true;
+            dateTimePicker3.Enabled = true;
+            button1.Enabled = true;
+        }
+        public void guardar_detalle()
+        {
+            string selectedItem = cbo_empres.SelectedValue.ToString();
+            string selectedItem2 = cbo_empleado.SelectedValue.ToString();
+            textBox5.Text = dateTimePicker1.Value.ToString("yyyy-MM-dd");
+            textBox8.Text = selectedItem;
+            textBox9.Text = selectedItem;
+            textBox7.Text = selectedItem2;
+
+            CapaNegocio fn = new CapaNegocio();
+            TextBox[] textbox = { txt_total_com, txt_venta, textBox5, textBox8, textBox9, textBox7 };
+            DataTable datos = fn.construirDataTable(textbox);
+            if (datos.Rows.Count == 0)
+            {
+                //MessageBox.Show("Hay campos vacios", "Favor Verificar", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            else
+            {
+                string tabla = "detalle_com_ventas";
+                if (Editar)
+                {
+                    fn.modificar(datos, tabla, atributo, Codigo);
+                }
+                else
+                {
+                    fn.insertar(datos, tabla);
+                }
+                fn.LimpiarComponentes(this);
+            }
+        }
         private void btn_guardar_Click(object sender, EventArgs e)
         {
+            for (int fila = 0; fila < dataGridView1.RowCount - 1; fila++)
+            {
+                string selectedItem = cbo_empres.SelectedValue.ToString();
+                string selectedItem2 = cbo_empleado.SelectedValue.ToString();
+                textBox1.Text = selectedItem;
+                textBox2.Text = Convert.ToString(dataGridView1.Rows[fila].Cells[0].Value);
+                textBox3.Text = Convert.ToString(dataGridView1.Rows[fila].Cells[2].Value);
+                textBox4.Text = Convert.ToString(dataGridView1.Rows[fila].Cells[1].Value);
+                textBox5.Text = dateTimePicker1.Value.ToString("yyyy-MM-dd");
+                textBox6.Text = Convert.ToString(dataGridView1.Rows[fila].Cells[3].Value);
+                textBox7.Text = selectedItem2;
 
-        }
+                CapaNegocio fn = new CapaNegocio();
+                TextBox[] textbox = { textBox1, textBox2, textBox3, textBox4, textBox5, textBox6, textBox7 };
+                DataTable datos = fn.construirDataTable(textbox);
+                if (datos.Rows.Count == 0)
+                {
+                    //MessageBox.Show("Hay campos vacios", "Favor Verificar", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+                else
+                {
+                    string tabla = "com_venta";
+                    if (Editar)
+                    {
+                        fn.modificar(datos, tabla, atributo, Codigo);
+                    }
+                    else
+                    {
 
-        private void btn_editar_Click(object sender, EventArgs e)
-        {
+                        textBox10.Text = "S";
+                        fn.insertar(datos, tabla);
+                        atributo = "id_fac_empresa_pk";
+                        string tabla2 = "factura";
+                        Codigo = textBox2.Text;
+                        //CapaNegocio fn = new CapaNegocio();
+                        TextBox[] textbox2 = { textBox10 };
+                        DataTable datos2 = fn.construirDataTable(textbox2);
+                        fn.modificar(datos2, tabla2, atributo, Codigo);
 
-        }
-
-        private void btn_eliminar_Click(object sender, EventArgs e)
-        {
-
+                    }
+                    fn.LimpiarComponentes(this);
+                }
+            }
+            guardar_detalle();
         }
     }
 }

@@ -16,6 +16,7 @@ namespace Modulo_Bancos
         private int childFormNumber = 0;
         Documento doc;
         Cheque_Voucher che_Vo;
+        Buscar_Cheque che;
         Conciliacion_Bancaria con_ban;
         Disponibilidad_bancaria disp_ban;
         Tipo_Documento tip_doc;
@@ -132,17 +133,17 @@ namespace Modulo_Bancos
 
         private void chequeVoucherToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            if (che_Vo == null)
+            if (che == null)
             {
-                che_Vo = new Cheque_Voucher();
-                che_Vo.MdiParent = this;
-                che_Vo.FormClosed += new FormClosedEventHandler(cheque_voucher_FormClosed);
-                che_Vo.Show();
+                che = new Buscar_Cheque();
+                che.MdiParent = this;
+                che.FormClosed += new FormClosedEventHandler(cheque_voucher_FormClosed);
+                che.Show();
             }
         }
         void cheque_voucher_FormClosed(object sender, EventArgs e)
         {
-            che_Vo = null;
+            che = null;
         }
 
         private void MDIBancos_Load(object sender, EventArgs e)

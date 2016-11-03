@@ -43,16 +43,20 @@
             this.btn_actualizar = new System.Windows.Forms.Button();
             this.btn_cancelar = new System.Windows.Forms.Button();
             this.gpb_cheque_v = new System.Windows.Forms.GroupBox();
+            this.txt_cantidad_h = new System.Windows.Forms.TextBox();
+            this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.txt_cantida = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.button3 = new System.Windows.Forms.Button();
             this.txt_detalle = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.ID_Documentos = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Nombre_Doc = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Debe = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Haber = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.button1 = new System.Windows.Forms.Button();
             this.txt_cuenta = new System.Windows.Forms.TextBox();
             this.txt_empresa = new System.Windows.Forms.TextBox();
@@ -66,11 +70,11 @@
             this.lbl_fecha = new System.Windows.Forms.Label();
             this.lbl_referido = new System.Windows.Forms.Label();
             this.txt_ref = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.id_documento_pk = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.id_detalle_cv_pk = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.detalle = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.debe = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.haber = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.groupBox1.SuspendLayout();
             this.gpb_cheque_v.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -102,7 +106,7 @@
             this.groupBox1.Controls.Add(this.btn_cancelar);
             this.groupBox1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.ForeColor = System.Drawing.Color.White;
-            this.groupBox1.Location = new System.Drawing.Point(57, 67);
+            this.groupBox1.Location = new System.Drawing.Point(57, 48);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(636, 100);
             this.groupBox1.TabIndex = 11;
@@ -139,6 +143,7 @@
             this.btn_ultimo.Size = new System.Drawing.Size(33, 33);
             this.btn_ultimo.TabIndex = 10;
             this.btn_ultimo.UseVisualStyleBackColor = true;
+            this.btn_ultimo.Click += new System.EventHandler(this.btn_ultimo_Click);
             // 
             // btn_guardar
             // 
@@ -170,6 +175,7 @@
             this.btn_primero.Size = new System.Drawing.Size(33, 33);
             this.btn_primero.TabIndex = 9;
             this.btn_primero.UseVisualStyleBackColor = true;
+            this.btn_primero.Click += new System.EventHandler(this.btn_primero_Click);
             // 
             // btn_editar
             // 
@@ -185,6 +191,7 @@
             this.btn_editar.Size = new System.Drawing.Size(65, 65);
             this.btn_editar.TabIndex = 2;
             this.btn_editar.UseVisualStyleBackColor = true;
+            this.btn_editar.Click += new System.EventHandler(this.btn_editar_Click);
             // 
             // btn_siguiente
             // 
@@ -200,6 +207,7 @@
             this.btn_siguiente.Size = new System.Drawing.Size(33, 33);
             this.btn_siguiente.TabIndex = 8;
             this.btn_siguiente.UseVisualStyleBackColor = true;
+            this.btn_siguiente.Click += new System.EventHandler(this.btn_siguiente_Click);
             // 
             // btn_eliminar
             // 
@@ -215,6 +223,7 @@
             this.btn_eliminar.Size = new System.Drawing.Size(65, 65);
             this.btn_eliminar.TabIndex = 3;
             this.btn_eliminar.UseVisualStyleBackColor = true;
+            this.btn_eliminar.Click += new System.EventHandler(this.btn_eliminar_Click);
             // 
             // btn_anterior
             // 
@@ -230,6 +239,7 @@
             this.btn_anterior.Size = new System.Drawing.Size(33, 33);
             this.btn_anterior.TabIndex = 7;
             this.btn_anterior.UseVisualStyleBackColor = true;
+            this.btn_anterior.Click += new System.EventHandler(this.btn_anterior_Click);
             // 
             // btn_buscar
             // 
@@ -260,6 +270,7 @@
             this.btn_actualizar.Size = new System.Drawing.Size(65, 65);
             this.btn_actualizar.TabIndex = 6;
             this.btn_actualizar.UseVisualStyleBackColor = true;
+            this.btn_actualizar.Click += new System.EventHandler(this.btn_actualizar_Click);
             // 
             // btn_cancelar
             // 
@@ -279,6 +290,10 @@
             // 
             // gpb_cheque_v
             // 
+            this.gpb_cheque_v.Controls.Add(this.txt_cantidad_h);
+            this.gpb_cheque_v.Controls.Add(this.radioButton2);
+            this.gpb_cheque_v.Controls.Add(this.radioButton1);
+            this.gpb_cheque_v.Controls.Add(this.dataGridView1);
             this.gpb_cheque_v.Controls.Add(this.textBox5);
             this.gpb_cheque_v.Controls.Add(this.textBox4);
             this.gpb_cheque_v.Controls.Add(this.textBox3);
@@ -289,7 +304,6 @@
             this.gpb_cheque_v.Controls.Add(this.button3);
             this.gpb_cheque_v.Controls.Add(this.txt_detalle);
             this.gpb_cheque_v.Controls.Add(this.label2);
-            this.gpb_cheque_v.Controls.Add(this.dataGridView1);
             this.gpb_cheque_v.Controls.Add(this.button1);
             this.gpb_cheque_v.Controls.Add(this.txt_cuenta);
             this.gpb_cheque_v.Controls.Add(this.txt_empresa);
@@ -305,25 +319,116 @@
             this.gpb_cheque_v.Controls.Add(this.txt_ref);
             this.gpb_cheque_v.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gpb_cheque_v.ForeColor = System.Drawing.Color.Black;
-            this.gpb_cheque_v.Location = new System.Drawing.Point(12, 173);
+            this.gpb_cheque_v.Location = new System.Drawing.Point(12, 154);
             this.gpb_cheque_v.Name = "gpb_cheque_v";
-            this.gpb_cheque_v.Size = new System.Drawing.Size(724, 373);
+            this.gpb_cheque_v.Size = new System.Drawing.Size(766, 435);
             this.gpb_cheque_v.TabIndex = 162;
             this.gpb_cheque_v.TabStop = false;
             this.gpb_cheque_v.Text = "Datos";
             // 
+            // txt_cantidad_h
+            // 
+            this.txt_cantidad_h.Location = new System.Drawing.Point(466, 231);
+            this.txt_cantidad_h.Name = "txt_cantidad_h";
+            this.txt_cantidad_h.Size = new System.Drawing.Size(64, 27);
+            this.txt_cantidad_h.TabIndex = 65;
+            // 
+            // radioButton2
+            // 
+            this.radioButton2.AutoSize = true;
+            this.radioButton2.Location = new System.Drawing.Point(462, 202);
+            this.radioButton2.Name = "radioButton2";
+            this.radioButton2.Size = new System.Drawing.Size(76, 25);
+            this.radioButton2.TabIndex = 64;
+            this.radioButton2.TabStop = true;
+            this.radioButton2.Text = "Haber";
+            this.radioButton2.UseVisualStyleBackColor = true;
+            this.radioButton2.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged);
+            // 
+            // radioButton1
+            // 
+            this.radioButton1.AutoSize = true;
+            this.radioButton1.Location = new System.Drawing.Point(390, 202);
+            this.radioButton1.Name = "radioButton1";
+            this.radioButton1.Size = new System.Drawing.Size(71, 25);
+            this.radioButton1.TabIndex = 63;
+            this.radioButton1.TabStop = true;
+            this.radioButton1.Text = "Debe";
+            this.radioButton1.UseVisualStyleBackColor = true;
+            this.radioButton1.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.id_documento_pk,
+            this.id_detalle_cv_pk,
+            this.detalle,
+            this.debe,
+            this.haber});
+            this.dataGridView1.EditMode = System.Windows.Forms.DataGridViewEditMode.EditOnEnter;
+            this.dataGridView1.Location = new System.Drawing.Point(23, 264);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(710, 150);
+            this.dataGridView1.TabIndex = 62;
+            // 
+            // textBox5
+            // 
+            this.textBox5.Location = new System.Drawing.Point(462, 67);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(10, 27);
+            this.textBox5.TabIndex = 61;
+            this.textBox5.Tag = "fecha";
+            this.textBox5.Visible = false;
+            // 
+            // textBox4
+            // 
+            this.textBox4.Location = new System.Drawing.Point(6, 387);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(10, 27);
+            this.textBox4.TabIndex = 60;
+            this.textBox4.Tag = "haber";
+            this.textBox4.Visible = false;
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(6, 354);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(10, 27);
+            this.textBox3.TabIndex = 59;
+            this.textBox3.Tag = "debe";
+            this.textBox3.Visible = false;
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(6, 321);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(11, 27);
+            this.textBox2.TabIndex = 58;
+            this.textBox2.Tag = "detalle";
+            this.textBox2.Visible = false;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(6, 288);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(10, 27);
+            this.textBox1.TabIndex = 57;
+            this.textBox1.Tag = "id_documento_pk";
+            this.textBox1.Visible = false;
+            // 
             // txt_cantida
             // 
-            this.txt_cantida.Location = new System.Drawing.Point(509, 152);
+            this.txt_cantida.Location = new System.Drawing.Point(395, 230);
             this.txt_cantida.Name = "txt_cantida";
-            this.txt_cantida.Size = new System.Drawing.Size(100, 27);
+            this.txt_cantida.Size = new System.Drawing.Size(65, 27);
             this.txt_cantida.TabIndex = 56;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(415, 155);
+            this.label3.Location = new System.Drawing.Point(300, 232);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(87, 21);
             this.label3.TabIndex = 55;
@@ -331,9 +436,9 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(613, 147);
+            this.button3.Location = new System.Drawing.Point(544, 217);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(105, 36);
+            this.button3.Size = new System.Drawing.Size(93, 36);
             this.button3.TabIndex = 54;
             this.button3.Text = "Agregar";
             this.button3.UseVisualStyleBackColor = true;
@@ -341,9 +446,9 @@
             // 
             // txt_detalle
             // 
-            this.txt_detalle.Location = new System.Drawing.Point(110, 152);
+            this.txt_detalle.Location = new System.Drawing.Point(87, 199);
             this.txt_detalle.Name = "txt_detalle";
-            this.txt_detalle.Size = new System.Drawing.Size(277, 27);
+            this.txt_detalle.Size = new System.Drawing.Size(293, 27);
             this.txt_detalle.TabIndex = 53;
             this.txt_detalle.Tag = "";
             // 
@@ -351,52 +456,17 @@
             // 
             this.label2.AutoSize = true;
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(26, 155);
+            this.label2.Location = new System.Drawing.Point(19, 202);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(66, 21);
             this.label2.TabIndex = 52;
             this.label2.Text = "Detalle";
             // 
-            // dataGridView1
-            // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.ID_Documentos,
-            this.Nombre_Doc,
-            this.Debe,
-            this.Haber});
-            this.dataGridView1.Location = new System.Drawing.Point(45, 194);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(641, 139);
-            this.dataGridView1.TabIndex = 50;
-            // 
-            // ID_Documentos
-            // 
-            this.ID_Documentos.HeaderText = "ID_Documento";
-            this.ID_Documentos.Name = "ID_Documentos";
-            this.ID_Documentos.Width = 140;
-            // 
-            // Nombre_Doc
-            // 
-            this.Nombre_Doc.HeaderText = "Nombre_Documento";
-            this.Nombre_Doc.Name = "Nombre_Doc";
-            this.Nombre_Doc.Width = 257;
-            // 
-            // Debe
-            // 
-            this.Debe.HeaderText = "Debe";
-            this.Debe.Name = "Debe";
-            // 
-            // Haber
-            // 
-            this.Haber.HeaderText = "Haber";
-            this.Haber.Name = "Haber";
-            // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(304, 339);
+            this.button1.Location = new System.Drawing.Point(643, 216);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(130, 28);
+            this.button1.Size = new System.Drawing.Size(97, 37);
             this.button1.TabIndex = 49;
             this.button1.Text = "GENERAR";
             this.button1.UseVisualStyleBackColor = true;
@@ -404,22 +474,22 @@
             // 
             // txt_cuenta
             // 
-            this.txt_cuenta.Location = new System.Drawing.Point(478, 33);
+            this.txt_cuenta.Location = new System.Drawing.Point(159, 113);
             this.txt_cuenta.Name = "txt_cuenta";
-            this.txt_cuenta.Size = new System.Drawing.Size(224, 27);
+            this.txt_cuenta.Size = new System.Drawing.Size(222, 27);
             this.txt_cuenta.TabIndex = 48;
             // 
             // txt_empresa
             // 
-            this.txt_empresa.Location = new System.Drawing.Point(110, 33);
+            this.txt_empresa.Location = new System.Drawing.Point(94, 69);
             this.txt_empresa.Name = "txt_empresa";
-            this.txt_empresa.Size = new System.Drawing.Size(211, 27);
+            this.txt_empresa.Size = new System.Drawing.Size(287, 27);
             this.txt_empresa.TabIndex = 47;
             // 
             // cbo_doc
             // 
             this.cbo_doc.FormattingEnabled = true;
-            this.cbo_doc.Location = new System.Drawing.Point(537, 74);
+            this.cbo_doc.Location = new System.Drawing.Point(148, 21);
             this.cbo_doc.Name = "cbo_doc";
             this.cbo_doc.Size = new System.Drawing.Size(121, 29);
             this.cbo_doc.TabIndex = 46;
@@ -429,7 +499,7 @@
             // 
             this.lbl_empre.AutoSize = true;
             this.lbl_empre.ForeColor = System.Drawing.Color.White;
-            this.lbl_empre.Location = new System.Drawing.Point(26, 33);
+            this.lbl_empre.Location = new System.Drawing.Point(8, 75);
             this.lbl_empre.Name = "lbl_empre";
             this.lbl_empre.Size = new System.Drawing.Size(77, 21);
             this.lbl_empre.TabIndex = 14;
@@ -439,7 +509,7 @@
             // 
             this.lbl_ctn_bac.AutoSize = true;
             this.lbl_ctn_bac.ForeColor = System.Drawing.Color.White;
-            this.lbl_ctn_bac.Location = new System.Drawing.Point(327, 39);
+            this.lbl_ctn_bac.Location = new System.Drawing.Point(8, 119);
             this.lbl_ctn_bac.Name = "lbl_ctn_bac";
             this.lbl_ctn_bac.Size = new System.Drawing.Size(145, 21);
             this.lbl_ctn_bac.TabIndex = 12;
@@ -449,7 +519,7 @@
             // 
             this.lbl_motivo.AutoSize = true;
             this.lbl_motivo.ForeColor = System.Drawing.Color.White;
-            this.lbl_motivo.Location = new System.Drawing.Point(393, 80);
+            this.lbl_motivo.Location = new System.Drawing.Point(4, 29);
             this.lbl_motivo.Name = "lbl_motivo";
             this.lbl_motivo.Size = new System.Drawing.Size(138, 21);
             this.lbl_motivo.TabIndex = 10;
@@ -457,7 +527,7 @@
             // 
             // txt_monto
             // 
-            this.txt_monto.Location = new System.Drawing.Point(507, 116);
+            this.txt_monto.Location = new System.Drawing.Point(382, 20);
             this.txt_monto.Name = "txt_monto";
             this.txt_monto.Size = new System.Drawing.Size(100, 27);
             this.txt_monto.TabIndex = 8;
@@ -466,7 +536,7 @@
             // 
             this.lbl_mt.AutoSize = true;
             this.lbl_mt.ForeColor = System.Drawing.Color.White;
-            this.lbl_mt.Location = new System.Drawing.Point(437, 119);
+            this.lbl_mt.Location = new System.Drawing.Point(300, 23);
             this.lbl_mt.Name = "lbl_mt";
             this.lbl_mt.Size = new System.Drawing.Size(66, 21);
             this.lbl_mt.TabIndex = 7;
@@ -474,7 +544,7 @@
             // 
             // dateTimePicker1
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(110, 73);
+            this.dateTimePicker1.Location = new System.Drawing.Point(478, 67);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(277, 27);
             this.dateTimePicker1.TabIndex = 6;
@@ -484,7 +554,7 @@
             // 
             this.lbl_fecha.AutoSize = true;
             this.lbl_fecha.ForeColor = System.Drawing.Color.White;
-            this.lbl_fecha.Location = new System.Drawing.Point(26, 79);
+            this.lbl_fecha.Location = new System.Drawing.Point(397, 70);
             this.lbl_fecha.Name = "lbl_fecha";
             this.lbl_fecha.Size = new System.Drawing.Size(59, 21);
             this.lbl_fecha.TabIndex = 5;
@@ -494,7 +564,7 @@
             // 
             this.lbl_referido.AutoSize = true;
             this.lbl_referido.ForeColor = System.Drawing.Color.White;
-            this.lbl_referido.Location = new System.Drawing.Point(26, 119);
+            this.lbl_referido.Location = new System.Drawing.Point(19, 166);
             this.lbl_referido.Name = "lbl_referido";
             this.lbl_referido.Size = new System.Drawing.Size(96, 21);
             this.lbl_referido.TabIndex = 4;
@@ -502,63 +572,48 @@
             // 
             // txt_ref
             // 
-            this.txt_ref.Location = new System.Drawing.Point(128, 116);
+            this.txt_ref.Location = new System.Drawing.Point(121, 160);
             this.txt_ref.Name = "txt_ref";
             this.txt_ref.Size = new System.Drawing.Size(259, 27);
             this.txt_ref.TabIndex = 2;
             this.txt_ref.Tag = "nombre_cuenta";
             // 
-            // textBox1
+            // id_documento_pk
             // 
-            this.textBox1.Location = new System.Drawing.Point(29, 273);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(10, 27);
-            this.textBox1.TabIndex = 57;
-            this.textBox1.Tag = "debe";
-            this.textBox1.Visible = false;
+            this.id_documento_pk.HeaderText = "id_documento_pk";
+            this.id_documento_pk.Name = "id_documento_pk";
+            this.id_documento_pk.Width = 160;
             // 
-            // textBox2
+            // id_detalle_cv_pk
             // 
-            this.textBox2.Location = new System.Drawing.Point(29, 306);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(10, 27);
-            this.textBox2.TabIndex = 58;
-            this.textBox2.Tag = "haber";
-            this.textBox2.Visible = false;
+            this.id_detalle_cv_pk.HeaderText = "id_detalle_cv_pk";
+            this.id_detalle_cv_pk.Name = "id_detalle_cv_pk";
+            this.id_detalle_cv_pk.Width = 5;
             // 
-            // textBox3
+            // detalle
             // 
-            this.textBox3.Location = new System.Drawing.Point(29, 240);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(10, 27);
-            this.textBox3.TabIndex = 59;
-            this.textBox3.Tag = "detalle";
-            this.textBox3.Visible = false;
+            this.detalle.HeaderText = "detalle";
+            this.detalle.Name = "detalle";
+            this.detalle.Width = 250;
             // 
-            // textBox4
+            // debe
             // 
-            this.textBox4.Location = new System.Drawing.Point(29, 207);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(10, 27);
-            this.textBox4.TabIndex = 60;
-            this.textBox4.Tag = "id_documento_pk";
-            this.textBox4.Visible = false;
+            this.debe.HeaderText = "debe";
+            this.debe.Name = "debe";
+            this.debe.Width = 125;
             // 
-            // textBox5
+            // haber
             // 
-            this.textBox5.Location = new System.Drawing.Point(94, 73);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(10, 27);
-            this.textBox5.TabIndex = 61;
-            this.textBox5.Tag = "fecha";
-            this.textBox5.Visible = false;
+            this.haber.HeaderText = "haber";
+            this.haber.Name = "haber";
+            this.haber.Width = 125;
             // 
             // Cheque_Voucher
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(105)))), ((int)(((byte)(143)))));
-            this.ClientSize = new System.Drawing.Size(748, 556);
+            this.ClientSize = new System.Drawing.Size(800, 601);
             this.Controls.Add(this.gpb_cheque_v);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label1);
@@ -594,11 +649,6 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.TextBox txt_detalle;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ID_Documentos;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Nombre_Doc;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Debe;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Haber;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.TextBox txt_cuenta;
         private System.Windows.Forms.TextBox txt_empresa;
@@ -612,11 +662,20 @@
         private System.Windows.Forms.Label lbl_fecha;
         private System.Windows.Forms.Label lbl_referido;
         private System.Windows.Forms.TextBox txt_ref;
+        private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.TextBox txt_cantidad_h;
+        private System.Windows.Forms.RadioButton radioButton2;
+        private System.Windows.Forms.RadioButton radioButton1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn id_documento_pk;
+        private System.Windows.Forms.DataGridViewTextBoxColumn id_detalle_cv_pk;
+        private System.Windows.Forms.DataGridViewTextBoxColumn detalle;
+        private System.Windows.Forms.DataGridViewTextBoxColumn debe;
+        private System.Windows.Forms.DataGridViewTextBoxColumn haber;
     }
 }
 

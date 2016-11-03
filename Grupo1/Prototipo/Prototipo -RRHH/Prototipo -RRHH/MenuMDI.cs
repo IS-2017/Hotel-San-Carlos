@@ -22,7 +22,11 @@ namespace Prototipo__RRHH
         frm_Deducciones frm_prest;
         Empleados frm_empleados;
         Comisiones_Vendedor comi_ve;
-        Planilla_IGSS plan_igss;
+        Comisiones_linea comi_linea;
+        Comision_marca comi_marca;
+        comisiones_producto comi_prod;
+        Reporte_Planilla_IGSS plan_igss;
+
         frm_Nominas_Empleados frm_nomin;
         frm_Devengados frm_prest_lab;
         frm_Empleados_grid frm_emp_dgv;
@@ -234,7 +238,7 @@ namespace Prototipo__RRHH
         {
             if (plan_igss == null)
             {
-                plan_igss = new Planilla_IGSS();
+                plan_igss = new Reporte_Planilla_IGSS();
                 plan_igss.MdiParent = this;
                 plan_igss.FormClosed += new FormClosedEventHandler(plan_igss_FormClosed);
                 plan_igss.Show();
@@ -453,6 +457,67 @@ namespace Prototipo__RRHH
         public void agregarapp_FormClosed(object sender, FormClosedEventArgs e)
         {
             form_app = null;
+        }
+
+        private void comisionesPorMarcaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (comi_marca == null)
+            {
+                comi_marca = new Comision_marca();
+                comi_marca.MdiParent = this;
+                comi_marca.FormClosed += new FormClosedEventHandler(porMarca_FormClosed);
+                comi_marca.Show();
+            }
+        }
+
+        void porMarca_FormClosed(object sender, EventArgs e)
+        {
+            comi_marca = null;
+        }
+
+        private void comisionesPorLineaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (comi_linea == null)
+            {
+                comi_linea = new Comisiones_linea();
+                comi_linea.MdiParent = this;
+                comi_linea.FormClosed += new FormClosedEventHandler(porlinea_FormClosed);
+                comi_linea.Show();
+            }
+        }
+        void porlinea_FormClosed(object sender, EventArgs e)
+        {
+            comi_linea = null;
+        }
+
+        private void comisionesPorProudctoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (comi_prod == null)
+            {
+                comi_prod = new comisiones_producto();
+                comi_prod.MdiParent = this;
+                comi_prod.FormClosed += new FormClosedEventHandler(porProducto_FormClosed);
+                comi_prod.Show();
+            }
+        }
+        void porProducto_FormClosed(object sender, EventArgs e)
+        {
+            comi_prod = null;
+        }
+
+        private void comisionesPorVendedorToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (comi_ve == null)
+            {
+                comi_ve = new Comisiones_Vendedor();
+                comi_ve.MdiParent = this;
+                comi_ve.FormClosed += new FormClosedEventHandler(porVendedor_FormClosed);
+                comi_ve.Show();
+            }
+        }
+        void porVendedor_FormClosed(object sender, EventArgs e)
+        {
+            comi_ve = null;
         }
     }
 }
