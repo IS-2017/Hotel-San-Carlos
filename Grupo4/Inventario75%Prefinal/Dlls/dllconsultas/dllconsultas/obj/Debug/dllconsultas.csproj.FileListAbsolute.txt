@@ -1,0 +1,206 @@
+E:\Escritorio\dllconsultas\dllconsultas\bin\Debug\dllconsultas.dll
+E:\Escritorio\dllconsultas\dllconsultas\bin\Debug\dllconsultas.pdb
+E:\Escritorio\dllconsultas\dllconsultas\bin\Debug\MySql.Data.dll
+E:\Escritorio\dllconsultas\dllconsultas\bin\Debug\Google.ProtocolBuffers.dll
+E:\Escritorio\dllconsultas\dllconsultas\bin\Debug\MySql.Data.xml
+E:\Escritorio\dllconsultas\dllconsultas\obj\Debug\dllconsultas.csprojResolveAssemblyReference.cache
+E:\Escritorio\dllconsultas\dllconsultas\obj\Debug\dllconsultas.frm_consulta.resources
+E:\Escritorio\dllconsultas\dllconsultas\obj\Debug\dllconsultas.csproj.GenerateResource.Cache
+E:\Escritorio\dllconsultas\dllconsultas\obj\Debug\dllconsultas.dll
+E:\Escritorio\dllconsultas\dllconsultas\obj\Debug\dllconsultas.pdb
+E:\Escritorio\dllconsultas\dllconsultas\obj\Debug\dllconsultas.frm_guardar.resources
+E:\Escritorio\dllconsultas\dllconsultas\obj\Debug\dllconsultas.frm_almacenadas.resources
+E:\Escritorio\dllconsultas\dllconsultas\obj\Debug\dllconsultas.Properties.Resources.resources
+C:\Users\Ana Lilian\Documents\GitHub\Hotel-San-Carlos\Grupo2\dllconsultas\dllconsultas\bin\Debug\dllconsultas.dll
+C:\Users\Ana Lilian\Documents\GitHub\Hotel-San-Carlos\Grupo2\dllconsultas\dllconsultas\bin\Debug\dllconsultas.pdb
+C:\Users\Ana Lilian\Documents\GitHub\Hotel-San-Carlos\Grupo2\dllconsultas\dllconsultas\bin\Debug\MySql.Data.dll
+C:\Users\Ana Lilian\Documents\GitHub\Hotel-San-Carlos\Grupo2\dllconsultas\dllconsultas\bin\Debug\Google.ProtocolBuffers.dll
+C:\Users\Ana Lilian\Documents\GitHub\Hotel-San-Carlos\Grupo2\dllconsultas\dllconsultas\bin\Debug\MySql.Data.xml
+C:\Users\Ana Lilian\Documents\GitHub\Hotel-San-Carlos\Grupo2\dllconsultas\dllconsultas\obj\Debug\dllconsultas.csprojResolveAssemblyReference.cache
+C:\Users\Ana Lilian\Documents\GitHub\Hotel-San-Carlos\Grupo2\dllconsultas\dllconsultas\obj\Debug\dllconsultas.frm_almacenadas.resources
+C:\Users\Ana Lilian\Documents\GitHub\Hotel-San-Carlos\Grupo2\dllconsultas\dllconsultas\obj\Debug\dllconsultas.frm_consulta.resources
+C:\Users\Ana Lilian\Documents\GitHub\Hotel-San-Carlos\Grupo2\dllconsultas\dllconsultas\obj\Debug\dllconsultas.frm_guardar.resources
+C:\Users\Ana Lilian\Documents\GitHub\Hotel-San-Carlos\Grupo2\dllconsultas\dllconsultas\obj\Debug\dllconsultas.Properties.Resources.resources
+C:\Users\Ana Lilian\Documents\GitHub\Hotel-San-Carlos\Grupo2\dllconsultas\dllconsultas\obj\Debug\dllconsultas.csproj.GenerateResource.Cache
+C:\Users\Ana Lilian\Documents\GitHub\Hotel-San-Carlos\Grupo2\dllconsultas\dllconsultas\obj\Debug\dllconsultas.dll
+C:\Users\Ana Lilian\Documents\GitHub\Hotel-San-Carlos\Grupo2\dllconsultas\dllconsultas\obj\Debug\dllconsultas.pdb
+C:\Users\Roberto Carlos\Documents\GitHub\Hotel-San-Carlos\Grupo2\dllconsultas\dllconsultas\bin\Debug\dllconsultas.dll
+C:\Users\Roberto Carlos\Documents\GitHub\Hotel-San-Carlos\Grupo2\dllconsultas\dllconsultas\bin\Debug\dllconsultas.pdb
+C:\Users\Roberto Carlos\Documents\GitHub\Hotel-San-Carlos\Grupo2\dllconsultas\dllconsultas\bin\Debug\Google.ProtocolBuffers.dll
+C:\Users\Roberto Carlos\Documents\GitHub\Hotel-San-Carlos\Grupo2\dllconsultas\dllconsultas\bin\Debug\MySql.Data.xml
+C:\Users\Roberto Carlos\Documents\GitHub\Hotel-San-Carlos\Grupo2\dllconsultas\dllconsultas\obj\Debug\dllconsultas.csprojResolveAssemblyReference.cache
+C:\Users\Roberto Carlos\Documents\GitHub\Hotel-San-Carlos\Grupo2\dllconsultas\dllconsultas\obj\Debug\dllconsultas.frm_almacenadas.resources
+C:\Users\Roberto Carlos\Documents\GitHub\Hotel-San-Carlos\Grupo2\dllconsultas\dllconsultas\obj\Debug\dllconsultas.frm_consulta.resources
+C:\Users\Roberto Carlos\Documents\GitHub\Hotel-San-Carlos\Grupo2\dllconsultas\dllconsultas\obj\Debug\dllconsultas.frm_guardar.resources
+C:\Users\Roberto Carlos\Documents\GitHub\Hotel-San-Carlos\Grupo2\dllconsultas\dllconsultas\obj\Debug\dllconsultas.Properties.Resources.resources
+C:\Users\Roberto Carlos\Documents\GitHub\Hotel-San-Carlos\Grupo2\dllconsultas\dllconsultas\obj\Debug\dllconsultas.csproj.GenerateResource.Cache
+C:\Users\Roberto Carlos\Documents\GitHub\Hotel-San-Carlos\Grupo2\dllconsultas\dllconsultas\obj\Debug\dllconsultas.dll
+C:\Users\Roberto Carlos\Documents\GitHub\Hotel-San-Carlos\Grupo2\dllconsultas\dllconsultas\obj\Debug\dllconsultas.pdb
+C:\Users\ottog\Downloads\Correcciones-Objeto-Comun-por-modulo\Correcciones Objeto Comun por modulo\dllconsultas\dllconsultas\bin\Debug\dllconsultas.dll
+C:\Users\ottog\Downloads\Correcciones-Objeto-Comun-por-modulo\Correcciones Objeto Comun por modulo\dllconsultas\dllconsultas\bin\Debug\dllconsultas.pdb
+C:\Users\ottog\Downloads\Correcciones-Objeto-Comun-por-modulo\Correcciones Objeto Comun por modulo\dllconsultas\dllconsultas\bin\Debug\MySql.Data.dll
+C:\Users\ottog\Downloads\Correcciones-Objeto-Comun-por-modulo\Correcciones Objeto Comun por modulo\dllconsultas\dllconsultas\bin\Debug\MySql.Data.xml
+C:\Users\ottog\Downloads\Correcciones-Objeto-Comun-por-modulo\Correcciones Objeto Comun por modulo\dllconsultas\dllconsultas\obj\Debug\dllconsultas.csprojResolveAssemblyReference.cache
+C:\Users\ottog\Downloads\Correcciones-Objeto-Comun-por-modulo\Correcciones Objeto Comun por modulo\dllconsultas\dllconsultas\obj\Debug\dllconsultas.frm_almacenadas.resources
+C:\Users\ottog\Downloads\Correcciones-Objeto-Comun-por-modulo\Correcciones Objeto Comun por modulo\dllconsultas\dllconsultas\obj\Debug\dllconsultas.frm_consulta.resources
+C:\Users\ottog\Downloads\Correcciones-Objeto-Comun-por-modulo\Correcciones Objeto Comun por modulo\dllconsultas\dllconsultas\obj\Debug\dllconsultas.frm_guardar.resources
+C:\Users\ottog\Downloads\Correcciones-Objeto-Comun-por-modulo\Correcciones Objeto Comun por modulo\dllconsultas\dllconsultas\obj\Debug\dllconsultas.Properties.Resources.resources
+C:\Users\ottog\Downloads\Correcciones-Objeto-Comun-por-modulo\Correcciones Objeto Comun por modulo\dllconsultas\dllconsultas\obj\Debug\dllconsultas.csproj.GenerateResource.Cache
+C:\Users\ottog\Downloads\Correcciones-Objeto-Comun-por-modulo\Correcciones Objeto Comun por modulo\dllconsultas\dllconsultas\obj\Debug\dllconsultas.dll
+C:\Users\ottog\Downloads\Correcciones-Objeto-Comun-por-modulo\Correcciones Objeto Comun por modulo\dllconsultas\dllconsultas\obj\Debug\dllconsultas.pdb
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Sexta entrega\Correcciones Objeto Comun por modulo\dllconsultas\dllconsultas\bin\Debug\dllconsultas.dll
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Sexta entrega\Correcciones Objeto Comun por modulo\dllconsultas\dllconsultas\bin\Debug\dllconsultas.pdb
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Sexta entrega\Correcciones Objeto Comun por modulo\dllconsultas\dllconsultas\bin\Debug\MySql.Data.dll
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Sexta entrega\Correcciones Objeto Comun por modulo\dllconsultas\dllconsultas\bin\Debug\MySql.Data.xml
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Sexta entrega\Correcciones Objeto Comun por modulo\dllconsultas\dllconsultas\obj\Debug\dllconsultas.csprojResolveAssemblyReference.cache
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Sexta entrega\Correcciones Objeto Comun por modulo\dllconsultas\dllconsultas\obj\Debug\dllconsultas.frm_almacenadas.resources
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Sexta entrega\Correcciones Objeto Comun por modulo\dllconsultas\dllconsultas\obj\Debug\dllconsultas.frm_consulta.resources
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Sexta entrega\Correcciones Objeto Comun por modulo\dllconsultas\dllconsultas\obj\Debug\dllconsultas.frm_guardar.resources
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Sexta entrega\Correcciones Objeto Comun por modulo\dllconsultas\dllconsultas\obj\Debug\dllconsultas.Properties.Resources.resources
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Sexta entrega\Correcciones Objeto Comun por modulo\dllconsultas\dllconsultas\obj\Debug\dllconsultas.csproj.GenerateResource.Cache
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Sexta entrega\Correcciones Objeto Comun por modulo\dllconsultas\dllconsultas\obj\Debug\dllconsultas.dll
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Sexta entrega\Correcciones Objeto Comun por modulo\dllconsultas\dllconsultas\obj\Debug\dllconsultas.pdb
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Septima Entrega\Correcciones Objeto Comun por modulo\dllconsultas\dllconsultas\bin\Debug\dllconsultas.dll
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Septima Entrega\Correcciones Objeto Comun por modulo\dllconsultas\dllconsultas\bin\Debug\dllconsultas.pdb
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Septima Entrega\Correcciones Objeto Comun por modulo\dllconsultas\dllconsultas\bin\Debug\MySql.Data.dll
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Septima Entrega\Correcciones Objeto Comun por modulo\dllconsultas\dllconsultas\bin\Debug\MySql.Data.xml
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Septima Entrega\Correcciones Objeto Comun por modulo\dllconsultas\dllconsultas\obj\Debug\dllconsultas.csprojResolveAssemblyReference.cache
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Septima Entrega\Correcciones Objeto Comun por modulo\dllconsultas\dllconsultas\obj\Debug\dllconsultas.frm_almacenadas.resources
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Septima Entrega\Correcciones Objeto Comun por modulo\dllconsultas\dllconsultas\obj\Debug\dllconsultas.frm_consulta.resources
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Septima Entrega\Correcciones Objeto Comun por modulo\dllconsultas\dllconsultas\obj\Debug\dllconsultas.frm_guardar.resources
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Septima Entrega\Correcciones Objeto Comun por modulo\dllconsultas\dllconsultas\obj\Debug\dllconsultas.Properties.Resources.resources
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Septima Entrega\Correcciones Objeto Comun por modulo\dllconsultas\dllconsultas\obj\Debug\dllconsultas.csproj.GenerateResource.Cache
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Septima Entrega\Correcciones Objeto Comun por modulo\dllconsultas\dllconsultas\obj\Debug\dllconsultas.dll
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Septima Entrega\Correcciones Objeto Comun por modulo\dllconsultas\dllconsultas\obj\Debug\dllconsultas.pdb
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Novena entrega\dllconsultas\dllconsultas\obj\Debug\dllconsultas.csprojResolveAssemblyReference.cache
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Novena entrega\dllconsultas\dllconsultas\obj\Debug\dllconsultas.frm_almacenadas.resources
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Novena entrega\dllconsultas\dllconsultas\obj\Debug\dllconsultas.frm_consulta.resources
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Novena entrega\dllconsultas\dllconsultas\obj\Debug\dllconsultas.frm_guardar.resources
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Novena entrega\dllconsultas\dllconsultas\obj\Debug\dllconsultas.Properties.Resources.resources
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Novena entrega\dllconsultas\dllconsultas\obj\Debug\dllconsultas.csproj.GenerateResource.Cache
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Novena entrega\dllconsultas\dllconsultas\obj\Debug\dllconsultas.dll
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Novena entrega\dllconsultas\dllconsultas\obj\Debug\dllconsultas.pdb
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Novena entrega\dllconsultas\dllconsultas\bin\Debug\dllconsultas.dll
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Novena entrega\dllconsultas\dllconsultas\bin\Debug\dllconsultas.pdb
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Novena entrega\dllconsultas\dllconsultas\bin\Debug\MySql.Data.dll
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Novena entrega\dllconsultas\dllconsultas\bin\Debug\seguridad.dll
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Novena entrega\dllconsultas\dllconsultas\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Novena entrega\dllconsultas\dllconsultas\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Novena entrega\dllconsultas\dllconsultas\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Novena entrega\dllconsultas\dllconsultas\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Novena entrega\dllconsultas\dllconsultas\bin\Debug\FlashControlV71.dll
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Novena entrega\dllconsultas\dllconsultas\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Novena entrega\dllconsultas\dllconsultas\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Novena entrega\dllconsultas\dllconsultas\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Novena entrega\dllconsultas\dllconsultas\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Novena entrega\dllconsultas\dllconsultas\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Novena entrega\dllconsultas\dllconsultas\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Novena entrega\dllconsultas\dllconsultas\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Novena entrega\dllconsultas\dllconsultas\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Novena entrega\dllconsultas\dllconsultas\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Novena entrega\dllconsultas\dllconsultas\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Novena entrega\dllconsultas\dllconsultas\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Novena entrega\dllconsultas\dllconsultas\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Novena entrega\dllconsultas\dllconsultas\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Novena entrega\dllconsultas\dllconsultas\bin\Debug\stdole.dll
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Novena entrega\dllconsultas\dllconsultas\bin\Debug\MySql.Data.xml
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Novena entrega\seguridad con estandarizacion\Seguridad version 7 final\Seguridad version 7\dllconsultas\dllconsultas\obj\Debug\dllconsultas.csprojResolveAssemblyReference.cache
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Novena entrega\seguridad con estandarizacion\Seguridad version 7 final\Seguridad version 7\dllconsultas\dllconsultas\obj\Debug\dllconsultas.frm_almacenadas.resources
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Novena entrega\seguridad con estandarizacion\Seguridad version 7 final\Seguridad version 7\dllconsultas\dllconsultas\obj\Debug\dllconsultas.frm_consulta.resources
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Novena entrega\seguridad con estandarizacion\Seguridad version 7 final\Seguridad version 7\dllconsultas\dllconsultas\obj\Debug\dllconsultas.frm_guardar.resources
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Novena entrega\seguridad con estandarizacion\Seguridad version 7 final\Seguridad version 7\dllconsultas\dllconsultas\obj\Debug\dllconsultas.Properties.Resources.resources
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Novena entrega\seguridad con estandarizacion\Seguridad version 7 final\Seguridad version 7\dllconsultas\dllconsultas\obj\Debug\dllconsultas.csproj.GenerateResource.Cache
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Novena entrega\seguridad con estandarizacion\Seguridad version 7 final\Seguridad version 7\dllconsultas\dllconsultas\obj\Debug\dllconsultas.dll
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Novena entrega\seguridad con estandarizacion\Seguridad version 7 final\Seguridad version 7\dllconsultas\dllconsultas\obj\Debug\dllconsultas.pdb
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Novena entrega\seguridad con estandarizacion\Seguridad version 7 final\Seguridad version 7\dllconsultas\dllconsultas\bin\Debug\dllconsultas.dll
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Novena entrega\seguridad con estandarizacion\Seguridad version 7 final\Seguridad version 7\dllconsultas\dllconsultas\bin\Debug\dllconsultas.pdb
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Novena entrega\seguridad con estandarizacion\Seguridad version 7 final\Seguridad version 7\dllconsultas\dllconsultas\bin\Debug\MySql.Data.dll
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Novena entrega\seguridad con estandarizacion\Seguridad version 7 final\Seguridad version 7\dllconsultas\dllconsultas\bin\Debug\seguridad.dll
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Novena entrega\seguridad con estandarizacion\Seguridad version 7 final\Seguridad version 7\dllconsultas\dllconsultas\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Novena entrega\seguridad con estandarizacion\Seguridad version 7 final\Seguridad version 7\dllconsultas\dllconsultas\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Novena entrega\seguridad con estandarizacion\Seguridad version 7 final\Seguridad version 7\dllconsultas\dllconsultas\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Novena entrega\seguridad con estandarizacion\Seguridad version 7 final\Seguridad version 7\dllconsultas\dllconsultas\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Novena entrega\seguridad con estandarizacion\Seguridad version 7 final\Seguridad version 7\dllconsultas\dllconsultas\bin\Debug\FlashControlV71.dll
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Novena entrega\seguridad con estandarizacion\Seguridad version 7 final\Seguridad version 7\dllconsultas\dllconsultas\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Novena entrega\seguridad con estandarizacion\Seguridad version 7 final\Seguridad version 7\dllconsultas\dllconsultas\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Novena entrega\seguridad con estandarizacion\Seguridad version 7 final\Seguridad version 7\dllconsultas\dllconsultas\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Novena entrega\seguridad con estandarizacion\Seguridad version 7 final\Seguridad version 7\dllconsultas\dllconsultas\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Novena entrega\seguridad con estandarizacion\Seguridad version 7 final\Seguridad version 7\dllconsultas\dllconsultas\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Novena entrega\seguridad con estandarizacion\Seguridad version 7 final\Seguridad version 7\dllconsultas\dllconsultas\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Novena entrega\seguridad con estandarizacion\Seguridad version 7 final\Seguridad version 7\dllconsultas\dllconsultas\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Novena entrega\seguridad con estandarizacion\Seguridad version 7 final\Seguridad version 7\dllconsultas\dllconsultas\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Novena entrega\seguridad con estandarizacion\Seguridad version 7 final\Seguridad version 7\dllconsultas\dllconsultas\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Novena entrega\seguridad con estandarizacion\Seguridad version 7 final\Seguridad version 7\dllconsultas\dllconsultas\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Novena entrega\seguridad con estandarizacion\Seguridad version 7 final\Seguridad version 7\dllconsultas\dllconsultas\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Novena entrega\seguridad con estandarizacion\Seguridad version 7 final\Seguridad version 7\dllconsultas\dllconsultas\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Novena entrega\seguridad con estandarizacion\Seguridad version 7 final\Seguridad version 7\dllconsultas\dllconsultas\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Novena entrega\seguridad con estandarizacion\Seguridad version 7 final\Seguridad version 7\dllconsultas\dllconsultas\bin\Debug\stdole.dll
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Novena entrega\seguridad con estandarizacion\Seguridad version 7 final\Seguridad version 7\dllconsultas\dllconsultas\bin\Debug\MySql.Data.xml
+C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Objeto Comun\Novena entrega\seguridad con estandarizacion\Seguridad version 7 final\Seguridad version 7\dllconsultas\dllconsultas\bin\Debug\seguridad.pdb
+C:\Users\ottog\Desktop\Seguridad version 7\dllconsultas\dllconsultas\obj\Debug\dllconsultas.csprojResolveAssemblyReference.cache
+C:\Users\ottog\Desktop\Seguridad version 7\dllconsultas\dllconsultas\obj\Debug\dllconsultas.frm_almacenadas.resources
+C:\Users\ottog\Desktop\Seguridad version 7\dllconsultas\dllconsultas\obj\Debug\dllconsultas.frm_consulta.resources
+C:\Users\ottog\Desktop\Seguridad version 7\dllconsultas\dllconsultas\obj\Debug\dllconsultas.frm_guardar.resources
+C:\Users\ottog\Desktop\Seguridad version 7\dllconsultas\dllconsultas\obj\Debug\dllconsultas.Properties.Resources.resources
+C:\Users\ottog\Desktop\Seguridad version 7\dllconsultas\dllconsultas\obj\Debug\dllconsultas.csproj.GenerateResource.Cache
+C:\Users\ottog\Desktop\Seguridad version 7\dllconsultas\dllconsultas\obj\Debug\dllconsultas.dll
+C:\Users\ottog\Desktop\Seguridad version 7\dllconsultas\dllconsultas\obj\Debug\dllconsultas.pdb
+C:\Users\ottog\Desktop\Seguridad version 7\dllconsultas\dllconsultas\bin\Debug\dllconsultas.dll
+C:\Users\ottog\Desktop\Seguridad version 7\dllconsultas\dllconsultas\bin\Debug\dllconsultas.pdb
+C:\Users\ottog\Desktop\Seguridad version 7\dllconsultas\dllconsultas\bin\Debug\MySql.Data.dll
+C:\Users\ottog\Desktop\Seguridad version 7\dllconsultas\dllconsultas\bin\Debug\seguridad.dll
+C:\Users\ottog\Desktop\Seguridad version 7\dllconsultas\dllconsultas\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\ottog\Desktop\Seguridad version 7\dllconsultas\dllconsultas\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\ottog\Desktop\Seguridad version 7\dllconsultas\dllconsultas\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\ottog\Desktop\Seguridad version 7\dllconsultas\dllconsultas\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\ottog\Desktop\Seguridad version 7\dllconsultas\dllconsultas\bin\Debug\FlashControlV71.dll
+C:\Users\ottog\Desktop\Seguridad version 7\dllconsultas\dllconsultas\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\ottog\Desktop\Seguridad version 7\dllconsultas\dllconsultas\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\ottog\Desktop\Seguridad version 7\dllconsultas\dllconsultas\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\ottog\Desktop\Seguridad version 7\dllconsultas\dllconsultas\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\ottog\Desktop\Seguridad version 7\dllconsultas\dllconsultas\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\ottog\Desktop\Seguridad version 7\dllconsultas\dllconsultas\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\ottog\Desktop\Seguridad version 7\dllconsultas\dllconsultas\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\ottog\Desktop\Seguridad version 7\dllconsultas\dllconsultas\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\ottog\Desktop\Seguridad version 7\dllconsultas\dllconsultas\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\ottog\Desktop\Seguridad version 7\dllconsultas\dllconsultas\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\ottog\Desktop\Seguridad version 7\dllconsultas\dllconsultas\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\ottog\Desktop\Seguridad version 7\dllconsultas\dllconsultas\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\ottog\Desktop\Seguridad version 7\dllconsultas\dllconsultas\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\ottog\Desktop\Seguridad version 7\dllconsultas\dllconsultas\bin\Debug\stdole.dll
+C:\Users\ottog\Desktop\Seguridad version 7\dllconsultas\dllconsultas\bin\Debug\MySql.Data.xml
+C:\Users\ottog\Desktop\Seguridad version 7\dllconsultas\dllconsultas\bin\Debug\seguridad.pdb
+C:\Users\Chrix\Desktop\Dlls\dllconsultas\dllconsultas\obj\Debug\dllconsultas.csprojResolveAssemblyReference.cache
+C:\Users\Chrix\Desktop\Dlls\dllconsultas\dllconsultas\obj\Debug\dllconsultas.frm_almacenadas.resources
+C:\Users\Chrix\Desktop\Dlls\dllconsultas\dllconsultas\obj\Debug\dllconsultas.frm_consulta.resources
+C:\Users\Chrix\Desktop\Dlls\dllconsultas\dllconsultas\obj\Debug\dllconsultas.frm_guardar.resources
+C:\Users\Chrix\Desktop\Dlls\dllconsultas\dllconsultas\obj\Debug\dllconsultas.Properties.Resources.resources
+C:\Users\Chrix\Desktop\Dlls\dllconsultas\dllconsultas\obj\Debug\dllconsultas.csproj.GenerateResource.Cache
+C:\Users\Chrix\Desktop\Dlls\dllconsultas\dllconsultas\obj\Debug\dllconsultas.dll
+C:\Users\Chrix\Desktop\Dlls\dllconsultas\dllconsultas\obj\Debug\dllconsultas.pdb
+C:\Users\Chrix\Desktop\Dlls\dllconsultas\dllconsultas\bin\Debug\dllconsultas.dll
+C:\Users\Chrix\Desktop\Dlls\dllconsultas\dllconsultas\bin\Debug\dllconsultas.pdb
+C:\Users\Chrix\Desktop\Dlls\dllconsultas\dllconsultas\bin\Debug\seguridad.dll
+C:\Users\Chrix\Desktop\Dlls\dllconsultas\dllconsultas\bin\Debug\System.Net.Http.dll
+C:\Users\Chrix\Desktop\Dlls\dllconsultas\dllconsultas\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\Chrix\Desktop\Dlls\dllconsultas\dllconsultas\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\Chrix\Desktop\Dlls\dllconsultas\dllconsultas\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\Chrix\Desktop\Dlls\dllconsultas\dllconsultas\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\Chrix\Desktop\Dlls\dllconsultas\dllconsultas\bin\Debug\FlashControlV71.dll
+C:\Users\Chrix\Desktop\Dlls\dllconsultas\dllconsultas\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\Chrix\Desktop\Dlls\dllconsultas\dllconsultas\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\Chrix\Desktop\Dlls\dllconsultas\dllconsultas\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\Chrix\Desktop\Dlls\dllconsultas\dllconsultas\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\Chrix\Desktop\Dlls\dllconsultas\dllconsultas\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\Chrix\Desktop\Dlls\dllconsultas\dllconsultas\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\Chrix\Desktop\Dlls\dllconsultas\dllconsultas\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\Chrix\Desktop\Dlls\dllconsultas\dllconsultas\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\Chrix\Desktop\Dlls\dllconsultas\dllconsultas\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\Chrix\Desktop\Dlls\dllconsultas\dllconsultas\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\Chrix\Desktop\Dlls\dllconsultas\dllconsultas\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\Chrix\Desktop\Dlls\dllconsultas\dllconsultas\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\Chrix\Desktop\Dlls\dllconsultas\dllconsultas\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\Chrix\Desktop\Dlls\dllconsultas\dllconsultas\bin\Debug\stdole.dll
+C:\Users\Chrix\Desktop\Dlls\dllconsultas\dllconsultas\bin\Debug\seguridad.pdb
+C:\Users\Chrix\Desktop\Dlls\dllconsultas\dllconsultas\bin\Debug\System.Net.Http.xml
+C:\Users\Chrix\Desktop\Dlls\dllconsultas\dllconsultas\bin\Debug\es\System.Net.Http.resources.dll
