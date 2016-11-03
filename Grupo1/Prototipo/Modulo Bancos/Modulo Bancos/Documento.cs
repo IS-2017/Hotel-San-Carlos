@@ -10,23 +10,133 @@ using System.Windows.Forms;
 using FuncionesNavegador;
 using System.Data.Odbc;
 using dllconsultas;
+using seguridad;
 
 namespace Modulo_Bancos
 {
     public partial class Documento : Form
     {
-        CapaNegocio fn = new CapaNegocio();
+        private static string id_form = "16101";
+        FuncionesNavegador.CapaNegocio fn = new FuncionesNavegador.CapaNegocio();
         operaciones op = new operaciones();
         Boolean Editar;
         String Codigo;
         String atributo;
         DataGridView dg;
+        Validar val;
+        bitacora bita = new bitacora();
+        DataTable seg = seguridad.ObtenerPermisos.Permisos(seguridad.Conexion.User, id_form);
 
         public Documento()
         {
             InitializeComponent();
         }
 
+        public void validacion_sololetras(KeyPressEventArgs e)
+        {
+            try
+            {
+                if (Char.IsLetter(e.KeyChar))
+                {
+                    e.Handled = false;
+                }
+                else if (Char.IsControl(e.KeyChar))
+                {
+                    e.Handled = false;
+                }
+                else if (Char.IsSeparator(e.KeyChar))
+                {
+                    e.Handled = false;
+                }
+                else
+                {
+                    e.Handled = true;
+                    MessageBox.Show("Llene el campo con letras", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
+            }
+            catch
+            {
+                // MessageBox.Show("Llene el campo", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+        }
+
+        public void validacion_solonumeros(KeyPressEventArgs e)
+        {
+            try
+            {
+                if (Char.IsNumber(e.KeyChar))
+                {
+                    e.Handled = false;
+
+                }
+                else if (Char.IsControl(e.KeyChar))
+                {
+                    e.Handled = false;
+                }
+                else if (Char.IsSeparator(e.KeyChar))
+                {
+                    e.Handled = false;
+                }
+                else
+                {
+                    e.Handled = true;
+                    MessageBox.Show("Llene el campo con numeros", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
+            }
+            catch
+            {
+                //MessageBox.Show("Llene el campo ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+
+        }
+
+        public void validacion_solonumerocondosdecimales(KeyPressEventArgs e,TextBox textbox)
+        {
+            try
+            {
+                if (e.KeyChar == 8)
+                {
+                    e.Handled = false;
+                    return;
+                }
+
+
+                bool IsDec = false;
+                int nroDec = 0;
+
+                for (int i = 0; i < textbox.Text.Length; i++)
+                {
+                    if (textbox.Text[i] == '.')
+                        IsDec = true;
+
+                    if (IsDec && nroDec++ >= 2)
+                    {
+                        e.Handled = true;
+                        return;
+                    }
+                }
+
+                if (e.KeyChar >= 48 && e.KeyChar <= 57)
+                {
+                    e.Handled = false;
+                }
+                else if (e.KeyChar == 46)
+                {
+                    e.Handled = (IsDec) ? true : false;
+                }
+                else
+                {
+                    MessageBox.Show("Llene el campo con numeros", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    e.Handled = true;
+                }
+                    
+            }
+            catch
+            {
+                //MessageBox.Show("Llene el campo ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+
+        }
 
         public Documento(DataGridView gb,String id_documento_pk,String conciliado, String fecha, String valor_total, String destinatario, String no_documento, String descripcion, String id_cuenta_bancaria_pk, String id_tipo_documento, String id_cuenta_pk, String id_proveedor_pk,Boolean Editar1)
         {
@@ -81,7 +191,7 @@ namespace Modulo_Bancos
                             {
                                 this.txt_conciliado_nb.Text = conciliado; cbo_conciliado_nb.Text = txt_conciliado_nb.Text;
                                 this.txt_fecha_nb.Text = fecha; dateTimePicker4.Text = txt_fecha_nb.Text;
-                                this.txt_monton_nb.Text = valor_total;
+                                this.txt_monto_nb.Text = valor_total;
                                 this.txt_destinatario_nb.Text = destinatario;
                                 this.txt_no_documento_nb.Text = no_documento;
                                 this.txt_descripcion_nb.Text = descripcion;
@@ -299,6 +409,8 @@ namespace Modulo_Bancos
 
         private void btn_guardar_Click(object sender, EventArgs e)
         {
+            DataRow permiso = seg.Rows[0];
+            int insertar = Convert.ToInt32(permiso[0]);
             if (tabControl.SelectedTab == tabPage1)
             {
                 try
@@ -318,11 +430,17 @@ namespace Modulo_Bancos
                         if (Editar)
                         {
                             fn.modificar(datos, tabla, atributo, Codigo);
+                            bita.Modificar("Modificacion de documento con el numero: " + txt_no_documento_dep.Text, "documento");
+                            if (insertar == 0)
+                            {
+                                btn_guardar.Enabled = false;
+                            }
                             txt_descripcion_dep.Text = ""; txt_conciliado_dep.Text = ""; txt_cuenta_bancaria_dep.Text = ""; txt_destinatario_dep.Text = ""; txt_fecha_dep.Text = ""; txt_monto_dep.Text = ""; txt_no_documento_dep.Text = "";
                         }
                         else
                         {
                             fn.insertar(datos, tabla);
+                            bita.Insertar("Insercion de documento con el numero: " + txt_no_documento_dep.Text, "documento");
                             txt_descripcion_dep.Text = ""; txt_conciliado_dep.Text = ""; txt_cuenta_bancaria_dep.Text=""; txt_destinatario_dep.Text=""; txt_fecha_dep.Text=""; txt_monto_dep.Text=""; txt_no_documento_dep.Text="";
                         }
                     }
@@ -353,11 +471,17 @@ namespace Modulo_Bancos
                             if (Editar)
                             {
                                 fn.modificar(datos, tabla, atributo, Codigo);
+                                bita.Modificar("Modificacion de documento con el numero: " + txt_no_documento_che.Text, "documento");
+                                if (insertar == 0)
+                                {
+                                    btn_guardar.Enabled = false;
+                                }
                                 txt_descripcion_che.Text = ""; txt_conciliado_che.Text = ""; txt_cuenta_bancaria_che.Text = ""; txt_destinatario_che.Text = ""; txt_fecha_che.Text = ""; txt_monto_che.Text = ""; txt_no_documento_che.Text = "";
                             }
                             else
                             {
                                 fn.insertar(datos, tabla);
+                                bita.Insertar("Insertar de documento con el numero: " + txt_no_documento_che.Text, "documento");
                                 txt_descripcion_che.Text = ""; txt_conciliado_che.Text = ""; txt_cuenta_bancaria_che.Text = ""; txt_destinatario_che.Text = ""; txt_fecha_che.Text = ""; txt_monto_che.Text = ""; txt_no_documento_che.Text = "";
                             }
                         }
@@ -389,11 +513,17 @@ namespace Modulo_Bancos
                                 if (Editar)
                                 {
                                     fn.modificar(datos, tabla, atributo, Codigo);
+                                    bita.Modificar("Modificacion de documento con el numero: " + txt_no_documento_nc.Text, "documento");
+                                    if (insertar == 0)
+                                    {
+                                        btn_guardar.Enabled = false;
+                                    }
                                     txt_descripcion_nc.Text = ""; txt_conciliado_nc.Text = ""; txt_cuenta_bancaria_nc.Text = ""; txt_destinatario_nc.Text = ""; txt_fecha_nc.Text = ""; txt_monto_nc.Text = ""; txt_no_documento_nc.Text = ""; txt_cuenta_corriente_nc.Text = "";
                                 }
                                 else
                                 {
                                     fn.insertar(datos, tabla);
+                                    bita.Insertar("Insertar de documento con el numero: " + txt_no_documento_nc.Text, "documento");
                                     txt_descripcion_nc.Text = ""; txt_conciliado_nc.Text = ""; txt_cuenta_bancaria_nc.Text = ""; txt_destinatario_nc.Text = ""; txt_fecha_nc.Text = ""; txt_monto_nc.Text = ""; txt_no_documento_nc.Text = ""; txt_cuenta_corriente_nc.Text = "";
                                 }
                             }
@@ -414,7 +544,7 @@ namespace Modulo_Bancos
                                 txt_conciliado_nb.Text = cbo_conciliado_nb.Text;
                                 txt_cuenta_corriente_nb.Text = cbo_cuenta_bancaria_nb.SelectedValue.ToString();
                                 txt_id_proveedor_nb.Text = cbo_id_proveedor_pk_nb.SelectedValue.ToString();
-                                TextBox[] textbox = { txt_descripcion_nb, txt_conciliado_nb, txt_cuenta_bancaria_nb, txt_destinatario_nb, txt_fecha_nb, txt_monton_nb, txt_no_documento_nb, txt_tipo_documento_nb, txt_cuenta_corriente_nb,txt_id_proveedor_nb };
+                                TextBox[] textbox = { txt_descripcion_nb, txt_conciliado_nb, txt_cuenta_bancaria_nb, txt_destinatario_nb, txt_fecha_nb, txt_monto_nb, txt_no_documento_nb, txt_tipo_documento_nb, txt_cuenta_corriente_nb,txt_id_proveedor_nb };
                                 DataTable datos = fn.construirDataTable(textbox);
                                 if (datos.Rows.Count == 0)
                                 {
@@ -426,12 +556,18 @@ namespace Modulo_Bancos
                                     if (Editar)
                                     {
                                         fn.modificar(datos, tabla, atributo, Codigo);
-                                        txt_descripcion_nb.Text = ""; txt_conciliado_nb.Text = ""; txt_cuenta_bancaria_nb.Text = ""; txt_destinatario_nb.Text = ""; txt_fecha_nb.Text = ""; txt_monton_nb.Text = ""; txt_no_documento_nb.Text = ""; txt_cuenta_corriente_nb.Text = ""; txt_id_proveedor_nb.Text = "";
+                                        bita.Modificar("Modificacion de documento con el numero: " + txt_no_documento_nb.Text, "documento");
+                                        if (insertar == 0)
+                                        {
+                                            btn_guardar.Enabled = false;
+                                        }
+                                        txt_descripcion_nb.Text = ""; txt_conciliado_nb.Text = ""; txt_cuenta_bancaria_nb.Text = ""; txt_destinatario_nb.Text = ""; txt_fecha_nb.Text = ""; txt_monto_nb.Text = ""; txt_no_documento_nb.Text = ""; txt_cuenta_corriente_nb.Text = ""; txt_id_proveedor_nb.Text = "";
                                     }
                                     else
                                     {
                                         fn.insertar(datos, tabla);
-                                        txt_descripcion_nb.Text = ""; txt_conciliado_nb.Text = ""; txt_cuenta_bancaria_nb.Text = ""; txt_destinatario_nb.Text = ""; txt_fecha_nb.Text = ""; txt_monton_nb.Text = ""; txt_no_documento_nb.Text = ""; txt_cuenta_corriente_nb.Text = ""; txt_id_proveedor_nb.Text = "";
+                                        bita.Insertar("Modificacion de documento con el numero: " + txt_no_documento_nb.Text, "documento");
+                                        txt_descripcion_nb.Text = ""; txt_conciliado_nb.Text = ""; txt_cuenta_bancaria_nb.Text = ""; txt_destinatario_nb.Text = ""; txt_fecha_nb.Text = ""; txt_monto_nb.Text = ""; txt_no_documento_nb.Text = ""; txt_cuenta_corriente_nb.Text = ""; txt_id_proveedor_nb.Text = "";
                                     }
                                 }
                             }
@@ -451,7 +587,7 @@ namespace Modulo_Bancos
             fn.ActivarControles(gpb_navegador);
             txt_descripcion_che.Enabled = true; txt_descripcion_dep.Enabled = true; txt_descripcion_nc.Enabled = true; txt_descripcion_nb.Enabled = true;
             txt_destinatario_che.Enabled = true; txt_destinatario_dep.Enabled = true; txt_destinatario_nc.Enabled = true; txt_destinatario_nb.Enabled = true;
-            txt_monton_nb.Enabled = true; txt_monto_nc.Enabled = true; txt_monto_dep.Enabled = true; txt_monto_che.Enabled = true;
+            txt_monto_nb.Enabled = true; txt_monto_nc.Enabled = true; txt_monto_dep.Enabled = true; txt_monto_che.Enabled = true;
             txt_no_documento_che.Enabled = true; txt_no_documento_nb.Enabled = true; txt_no_documento_nc.Enabled = true; txt_no_documento_dep.Enabled = true;
             cbo_conciliado_che.Enabled = true; cbo_conciliado_nc.Enabled = true; cbo_conciliado_nb.Enabled = true; cbo_conciliado_dep.Enabled = true;
             cbo_cuenta_bancaria_che.Enabled = true; cbo_cuenta_bancaria_dep.Enabled = true; cbo_cuenta_bancaria_nc.Enabled = true; cbo_cuenta_bancaria_nb.Enabled = true;
@@ -477,7 +613,7 @@ namespace Modulo_Bancos
                     {
                         if (tabControl.SelectedTab == tabPage4)
                         {
-                            txt_descripcion_nb.Text = ""; txt_conciliado_nb.Text = ""; txt_cuenta_bancaria_nb.Text = ""; txt_destinatario_nb.Text = ""; txt_fecha_nb.Text = ""; txt_monton_nb.Text = ""; txt_no_documento_nb.Text = ""; txt_cuenta_corriente_nb.Text = ""; txt_id_proveedor_nb.Text = "";
+                            txt_descripcion_nb.Text = ""; txt_conciliado_nb.Text = ""; txt_cuenta_bancaria_nb.Text = ""; txt_destinatario_nb.Text = ""; txt_fecha_nb.Text = ""; txt_monto_nb.Text = ""; txt_no_documento_nb.Text = ""; txt_cuenta_corriente_nb.Text = ""; txt_id_proveedor_nb.Text = "";
                         }
                     }
                 }
@@ -486,6 +622,7 @@ namespace Modulo_Bancos
 
         private void Documento_Load(object sender, EventArgs e)
         {
+            fn.desactivarPermiso(seg, btn_guardar, btn_eliminar, btn_editar, btn_nuevo, btn_cancelar, btn_actualizar, btn_buscar, btn_anterior, btn_siguiente, btn_primero, btn_ultimo);
             llenarCboCuentaBancariaDeposito();
             llenarCboCuentaBancariaCheque();
             llenarCboCuentaBancariaNC();
@@ -503,6 +640,7 @@ namespace Modulo_Bancos
                 Editar = true;
                 atributo = "id_documento_pk";
                 this.Codigo = this.dg.CurrentRow.Cells[0].Value.ToString();
+                btn_guardar.Enabled = true;
                 if (this.dg.CurrentRow.Cells[9].Value.ToString() == "1")
                 {
                     this.txt_conciliado_dep.Text = this.dg.CurrentRow.Cells[1].Value.ToString(); cbo_conciliado_dep.Text = txt_conciliado_dep.Text;
@@ -547,7 +685,7 @@ namespace Modulo_Bancos
                             {
                                 this.txt_conciliado_nb.Text = this.dg.CurrentRow.Cells[1].Value.ToString(); cbo_conciliado_nb.Text = txt_conciliado_nb.Text;
                                 this.txt_fecha_nb.Text = this.dg.CurrentRow.Cells[2].Value.ToString(); dateTimePicker4.Text = txt_fecha_nb.Text;
-                                this.txt_monton_nb.Text = this.dg.CurrentRow.Cells[3].Value.ToString();
+                                this.txt_monto_nb.Text = this.dg.CurrentRow.Cells[3].Value.ToString();
                                 this.txt_destinatario_nb.Text = this.dg.CurrentRow.Cells[4].Value.ToString();
                                 this.txt_no_documento_nb.Text = this.dg.CurrentRow.Cells[5].Value.ToString();
                                 this.txt_descripcion_nb.Text = this.dg.CurrentRow.Cells[6].Value.ToString();
@@ -579,7 +717,7 @@ namespace Modulo_Bancos
                 tabControl.SelectedTab = tabPage1;
                 txt_descripcion_che.Text = ""; txt_conciliado_che.Text = ""; txt_cuenta_bancaria_che.Text = ""; txt_destinatario_che.Text = ""; txt_fecha_che.Text = ""; txt_monto_che.Text = ""; txt_no_documento_che.Text = "";
                 txt_descripcion_nc.Text = ""; txt_conciliado_nc.Text = ""; txt_cuenta_bancaria_nc.Text = ""; txt_destinatario_nc.Text = ""; txt_fecha_nc.Text = ""; txt_monto_nc.Text = ""; txt_no_documento_nc.Text = ""; txt_cuenta_corriente_nc.Text = "";
-                txt_descripcion_nb.Text = ""; txt_conciliado_nb.Text = ""; txt_cuenta_bancaria_nb.Text = ""; txt_destinatario_nb.Text = ""; txt_fecha_nb.Text = ""; txt_monton_nb.Text = ""; txt_no_documento_nb.Text = ""; txt_cuenta_corriente_nb.Text = ""; txt_id_proveedor_nb.Text = "";
+                txt_descripcion_nb.Text = ""; txt_conciliado_nb.Text = ""; txt_cuenta_bancaria_nb.Text = ""; txt_destinatario_nb.Text = ""; txt_fecha_nb.Text = ""; txt_monto_nb.Text = ""; txt_no_documento_nb.Text = ""; txt_cuenta_corriente_nb.Text = ""; txt_id_proveedor_nb.Text = "";
             }
             else
             {
@@ -593,7 +731,7 @@ namespace Modulo_Bancos
                     tabControl.SelectedTab = tabPage2;
                     txt_descripcion_dep.Text = ""; txt_conciliado_dep.Text = ""; txt_cuenta_bancaria_dep.Text = ""; txt_destinatario_dep.Text = ""; txt_fecha_dep.Text = ""; txt_monto_dep.Text = ""; txt_no_documento_dep.Text = "";
                     txt_descripcion_nc.Text = ""; txt_conciliado_nc.Text = ""; txt_cuenta_bancaria_nc.Text = ""; txt_destinatario_nc.Text = ""; txt_fecha_nc.Text = ""; txt_monto_nc.Text = ""; txt_no_documento_nc.Text = ""; txt_cuenta_corriente_nc.Text = "";
-                    txt_descripcion_nb.Text = ""; txt_conciliado_nb.Text = ""; txt_cuenta_bancaria_nb.Text = ""; txt_destinatario_nb.Text = ""; txt_fecha_nb.Text = ""; txt_monton_nb.Text = ""; txt_no_documento_nb.Text = ""; txt_cuenta_corriente_nb.Text = ""; txt_id_proveedor_nb.Text = "";
+                    txt_descripcion_nb.Text = ""; txt_conciliado_nb.Text = ""; txt_cuenta_bancaria_nb.Text = ""; txt_destinatario_nb.Text = ""; txt_fecha_nb.Text = ""; txt_monto_nb.Text = ""; txt_no_documento_nb.Text = ""; txt_cuenta_corriente_nb.Text = ""; txt_id_proveedor_nb.Text = "";
                 }
                 else
                 {
@@ -608,13 +746,13 @@ namespace Modulo_Bancos
                         tabControl.SelectedTab = tabPage3;
                         txt_descripcion_dep.Text = ""; txt_conciliado_dep.Text = ""; txt_cuenta_bancaria_dep.Text = ""; txt_destinatario_dep.Text = ""; txt_fecha_dep.Text = ""; txt_monto_dep.Text = ""; txt_no_documento_dep.Text = "";
                         txt_descripcion_che.Text = ""; txt_conciliado_che.Text = ""; txt_cuenta_bancaria_che.Text = ""; txt_destinatario_che.Text = ""; txt_fecha_che.Text = ""; txt_monto_che.Text = ""; txt_no_documento_che.Text = "";
-                        txt_descripcion_nb.Text = ""; txt_conciliado_nb.Text = ""; txt_cuenta_bancaria_nb.Text = ""; txt_destinatario_nb.Text = ""; txt_fecha_nb.Text = ""; txt_monton_nb.Text = ""; txt_no_documento_nb.Text = ""; txt_cuenta_corriente_nb.Text = ""; txt_id_proveedor_nb.Text = "";
+                        txt_descripcion_nb.Text = ""; txt_conciliado_nb.Text = ""; txt_cuenta_bancaria_nb.Text = ""; txt_destinatario_nb.Text = ""; txt_fecha_nb.Text = ""; txt_monto_nb.Text = ""; txt_no_documento_nb.Text = ""; txt_cuenta_corriente_nb.Text = ""; txt_id_proveedor_nb.Text = "";
                     }
                     else
                     {
                         if (this.dg.CurrentRow.Cells[9].Value.ToString() == "4")
                         {
-                            TextBox[] textbox = { txt_conciliado_nb, txt_descripcion_nb, txt_destinatario_nb, txt_fecha_nb, txt_no_documento_nb, txt_cuenta_bancaria_nb, txt_monton_nb, txt_cuenta_corriente_nb,txt_id_proveedor_nb };
+                            TextBox[] textbox = { txt_conciliado_nb, txt_descripcion_nb, txt_destinatario_nb, txt_fecha_nb, txt_no_documento_nb, txt_cuenta_bancaria_nb, txt_monto_nb, txt_cuenta_corriente_nb,txt_id_proveedor_nb };
                             fn.llenartextbox(textbox, dg);
                             dateTimePicker4.Text = txt_fecha_nb.Text;
                             cbo_cuenta_bancaria_nb.Text = txt_cuenta_bancaria_nb.Text;
@@ -644,7 +782,7 @@ namespace Modulo_Bancos
                 tabControl.SelectedTab = tabPage1;
                 txt_descripcion_che.Text = ""; txt_conciliado_che.Text = ""; txt_cuenta_bancaria_che.Text = ""; txt_destinatario_che.Text = ""; txt_fecha_che.Text = ""; txt_monto_che.Text = ""; txt_no_documento_che.Text = "";
                 txt_descripcion_nc.Text = ""; txt_conciliado_nc.Text = ""; txt_cuenta_bancaria_nc.Text = ""; txt_destinatario_nc.Text = ""; txt_fecha_nc.Text = ""; txt_monto_nc.Text = ""; txt_no_documento_nc.Text = ""; txt_cuenta_corriente_nc.Text = "";
-                txt_descripcion_nb.Text = ""; txt_conciliado_nb.Text = ""; txt_cuenta_bancaria_nb.Text = ""; txt_destinatario_nb.Text = ""; txt_fecha_nb.Text = ""; txt_monton_nb.Text = ""; txt_no_documento_nb.Text = ""; txt_cuenta_corriente_nb.Text = ""; txt_id_proveedor_nb.Text = "";
+                txt_descripcion_nb.Text = ""; txt_conciliado_nb.Text = ""; txt_cuenta_bancaria_nb.Text = ""; txt_destinatario_nb.Text = ""; txt_fecha_nb.Text = ""; txt_monto_nb.Text = ""; txt_no_documento_nb.Text = ""; txt_cuenta_corriente_nb.Text = ""; txt_id_proveedor_nb.Text = "";
             }
             else
             {
@@ -658,7 +796,7 @@ namespace Modulo_Bancos
                     tabControl.SelectedTab = tabPage2;
                     txt_descripcion_dep.Text = ""; txt_conciliado_dep.Text = ""; txt_cuenta_bancaria_dep.Text = ""; txt_destinatario_dep.Text = ""; txt_fecha_dep.Text = ""; txt_monto_dep.Text = ""; txt_no_documento_dep.Text = "";
                     txt_descripcion_nc.Text = ""; txt_conciliado_nc.Text = ""; txt_cuenta_bancaria_nc.Text = ""; txt_destinatario_nc.Text = ""; txt_fecha_nc.Text = ""; txt_monto_nc.Text = ""; txt_no_documento_nc.Text = ""; txt_cuenta_corriente_nc.Text = "";
-                    txt_descripcion_nb.Text = ""; txt_conciliado_nb.Text = ""; txt_cuenta_bancaria_nb.Text = ""; txt_destinatario_nb.Text = ""; txt_fecha_nb.Text = ""; txt_monton_nb.Text = ""; txt_no_documento_nb.Text = ""; txt_cuenta_corriente_nb.Text = ""; txt_id_proveedor_nb.Text = "";
+                    txt_descripcion_nb.Text = ""; txt_conciliado_nb.Text = ""; txt_cuenta_bancaria_nb.Text = ""; txt_destinatario_nb.Text = ""; txt_fecha_nb.Text = ""; txt_monto_nb.Text = ""; txt_no_documento_nb.Text = ""; txt_cuenta_corriente_nb.Text = ""; txt_id_proveedor_nb.Text = "";
                 }
                 else
                 {
@@ -673,13 +811,13 @@ namespace Modulo_Bancos
                         tabControl.SelectedTab = tabPage3;
                         txt_descripcion_dep.Text = ""; txt_conciliado_dep.Text = ""; txt_cuenta_bancaria_dep.Text = ""; txt_destinatario_dep.Text = ""; txt_fecha_dep.Text = ""; txt_monto_dep.Text = ""; txt_no_documento_dep.Text = "";
                         txt_descripcion_che.Text = ""; txt_conciliado_che.Text = ""; txt_cuenta_bancaria_che.Text = ""; txt_destinatario_che.Text = ""; txt_fecha_che.Text = ""; txt_monto_che.Text = ""; txt_no_documento_che.Text = "";
-                        txt_descripcion_nb.Text = ""; txt_conciliado_nb.Text = ""; txt_cuenta_bancaria_nb.Text = ""; txt_destinatario_nb.Text = ""; txt_fecha_nb.Text = ""; txt_monton_nb.Text = ""; txt_no_documento_nb.Text = ""; txt_cuenta_corriente_nb.Text = ""; txt_id_proveedor_nb.Text = "";
+                        txt_descripcion_nb.Text = ""; txt_conciliado_nb.Text = ""; txt_cuenta_bancaria_nb.Text = ""; txt_destinatario_nb.Text = ""; txt_fecha_nb.Text = ""; txt_monto_nb.Text = ""; txt_no_documento_nb.Text = ""; txt_cuenta_corriente_nb.Text = ""; txt_id_proveedor_nb.Text = "";
                     }
                     else
                     {
                         if (this.dg.CurrentRow.Cells[9].Value.ToString() == "4")
                         {
-                            TextBox[] textbox = { txt_conciliado_nb, txt_descripcion_nb, txt_destinatario_nb, txt_fecha_nb, txt_no_documento_nb, txt_cuenta_bancaria_nb, txt_monton_nb, txt_cuenta_corriente_nb, txt_id_proveedor_nb };
+                            TextBox[] textbox = { txt_conciliado_nb, txt_descripcion_nb, txt_destinatario_nb, txt_fecha_nb, txt_no_documento_nb, txt_cuenta_bancaria_nb, txt_monto_nb, txt_cuenta_corriente_nb, txt_id_proveedor_nb };
                             fn.llenartextbox(textbox, dg);
                             dateTimePicker4.Text = txt_fecha_nb.Text;
                             cbo_cuenta_bancaria_nb.Text = txt_cuenta_bancaria_nb.Text;
@@ -709,7 +847,7 @@ namespace Modulo_Bancos
                 tabControl.SelectedTab = tabPage1;
                 txt_descripcion_che.Text = ""; txt_conciliado_che.Text = ""; txt_cuenta_bancaria_che.Text = ""; txt_destinatario_che.Text = ""; txt_fecha_che.Text = ""; txt_monto_che.Text = ""; txt_no_documento_che.Text = "";
                 txt_descripcion_nc.Text = ""; txt_conciliado_nc.Text = ""; txt_cuenta_bancaria_nc.Text = ""; txt_destinatario_nc.Text = ""; txt_fecha_nc.Text = ""; txt_monto_nc.Text = ""; txt_no_documento_nc.Text = ""; txt_cuenta_corriente_nc.Text = "";
-                txt_descripcion_nb.Text = ""; txt_conciliado_nb.Text = ""; txt_cuenta_bancaria_nb.Text = ""; txt_destinatario_nb.Text = ""; txt_fecha_nb.Text = ""; txt_monton_nb.Text = ""; txt_no_documento_nb.Text = ""; txt_cuenta_corriente_nb.Text = ""; txt_id_proveedor_nb.Text = "";
+                txt_descripcion_nb.Text = ""; txt_conciliado_nb.Text = ""; txt_cuenta_bancaria_nb.Text = ""; txt_destinatario_nb.Text = ""; txt_fecha_nb.Text = ""; txt_monto_nb.Text = ""; txt_no_documento_nb.Text = ""; txt_cuenta_corriente_nb.Text = ""; txt_id_proveedor_nb.Text = "";
             }
             else
             {
@@ -723,7 +861,7 @@ namespace Modulo_Bancos
                     tabControl.SelectedTab = tabPage2;
                     txt_descripcion_dep.Text = ""; txt_conciliado_dep.Text = ""; txt_cuenta_bancaria_dep.Text = ""; txt_destinatario_dep.Text = ""; txt_fecha_dep.Text = ""; txt_monto_dep.Text = ""; txt_no_documento_dep.Text = "";
                     txt_descripcion_nc.Text = ""; txt_conciliado_nc.Text = ""; txt_cuenta_bancaria_nc.Text = ""; txt_destinatario_nc.Text = ""; txt_fecha_nc.Text = ""; txt_monto_nc.Text = ""; txt_no_documento_nc.Text = ""; txt_cuenta_corriente_nc.Text = "";
-                    txt_descripcion_nb.Text = ""; txt_conciliado_nb.Text = ""; txt_cuenta_bancaria_nb.Text = ""; txt_destinatario_nb.Text = ""; txt_fecha_nb.Text = ""; txt_monton_nb.Text = ""; txt_no_documento_nb.Text = ""; txt_cuenta_corriente_nb.Text = ""; txt_id_proveedor_nb.Text = "";
+                    txt_descripcion_nb.Text = ""; txt_conciliado_nb.Text = ""; txt_cuenta_bancaria_nb.Text = ""; txt_destinatario_nb.Text = ""; txt_fecha_nb.Text = ""; txt_monto_nb.Text = ""; txt_no_documento_nb.Text = ""; txt_cuenta_corriente_nb.Text = ""; txt_id_proveedor_nb.Text = "";
                 }
                 else
                 {
@@ -738,13 +876,13 @@ namespace Modulo_Bancos
                         tabControl.SelectedTab = tabPage3;
                         txt_descripcion_dep.Text = ""; txt_conciliado_dep.Text = ""; txt_cuenta_bancaria_dep.Text = ""; txt_destinatario_dep.Text = ""; txt_fecha_dep.Text = ""; txt_monto_dep.Text = ""; txt_no_documento_dep.Text = "";
                         txt_descripcion_che.Text = ""; txt_conciliado_che.Text = ""; txt_cuenta_bancaria_che.Text = ""; txt_destinatario_che.Text = ""; txt_fecha_che.Text = ""; txt_monto_che.Text = ""; txt_no_documento_che.Text = "";
-                        txt_descripcion_nb.Text = ""; txt_conciliado_nb.Text = ""; txt_cuenta_bancaria_nb.Text = ""; txt_destinatario_nb.Text = ""; txt_fecha_nb.Text = ""; txt_monton_nb.Text = ""; txt_no_documento_nb.Text = ""; txt_cuenta_corriente_nb.Text = ""; txt_id_proveedor_nb.Text = "";
+                        txt_descripcion_nb.Text = ""; txt_conciliado_nb.Text = ""; txt_cuenta_bancaria_nb.Text = ""; txt_destinatario_nb.Text = ""; txt_fecha_nb.Text = ""; txt_monto_nb.Text = ""; txt_no_documento_nb.Text = ""; txt_cuenta_corriente_nb.Text = ""; txt_id_proveedor_nb.Text = "";
                     }
                     else
                     {
                         if (this.dg.CurrentRow.Cells[9].Value.ToString() == "4")
                         {
-                            TextBox[] textbox = { txt_conciliado_nb, txt_descripcion_nb, txt_destinatario_nb, txt_fecha_nb, txt_no_documento_nb, txt_cuenta_bancaria_nb, txt_monton_nb, txt_cuenta_corriente_nb, txt_id_proveedor_nb };
+                            TextBox[] textbox = { txt_conciliado_nb, txt_descripcion_nb, txt_destinatario_nb, txt_fecha_nb, txt_no_documento_nb, txt_cuenta_bancaria_nb, txt_monto_nb, txt_cuenta_corriente_nb, txt_id_proveedor_nb };
                             fn.llenartextbox(textbox, dg);
                             dateTimePicker4.Text = txt_fecha_nb.Text;
                             cbo_cuenta_bancaria_nb.Text = txt_cuenta_bancaria_nb.Text;
@@ -774,7 +912,7 @@ namespace Modulo_Bancos
                 tabControl.SelectedTab = tabPage1;
                 txt_descripcion_che.Text = ""; txt_conciliado_che.Text = ""; txt_cuenta_bancaria_che.Text = ""; txt_destinatario_che.Text = ""; txt_fecha_che.Text = ""; txt_monto_che.Text = ""; txt_no_documento_che.Text = "";
                 txt_descripcion_nc.Text = ""; txt_conciliado_nc.Text = ""; txt_cuenta_bancaria_nc.Text = ""; txt_destinatario_nc.Text = ""; txt_fecha_nc.Text = ""; txt_monto_nc.Text = ""; txt_no_documento_nc.Text = ""; txt_cuenta_corriente_nc.Text = "";
-                txt_descripcion_nb.Text = ""; txt_conciliado_nb.Text = ""; txt_cuenta_bancaria_nb.Text = ""; txt_destinatario_nb.Text = ""; txt_fecha_nb.Text = ""; txt_monton_nb.Text = ""; txt_no_documento_nb.Text = ""; txt_cuenta_corriente_nb.Text = ""; txt_id_proveedor_nb.Text = "";
+                txt_descripcion_nb.Text = ""; txt_conciliado_nb.Text = ""; txt_cuenta_bancaria_nb.Text = ""; txt_destinatario_nb.Text = ""; txt_fecha_nb.Text = ""; txt_monto_nb.Text = ""; txt_no_documento_nb.Text = ""; txt_cuenta_corriente_nb.Text = ""; txt_id_proveedor_nb.Text = "";
             }
             else
             {
@@ -788,7 +926,7 @@ namespace Modulo_Bancos
                     tabControl.SelectedTab = tabPage2;
                     txt_descripcion_dep.Text = ""; txt_conciliado_dep.Text = ""; txt_cuenta_bancaria_dep.Text = ""; txt_destinatario_dep.Text = ""; txt_fecha_dep.Text = ""; txt_monto_dep.Text = ""; txt_no_documento_dep.Text = "";
                     txt_descripcion_nc.Text = ""; txt_conciliado_nc.Text = ""; txt_cuenta_bancaria_nc.Text = ""; txt_destinatario_nc.Text = ""; txt_fecha_nc.Text = ""; txt_monto_nc.Text = ""; txt_no_documento_nc.Text = ""; txt_cuenta_corriente_nc.Text = "";
-                    txt_descripcion_nb.Text = ""; txt_conciliado_nb.Text = ""; txt_cuenta_bancaria_nb.Text = ""; txt_destinatario_nb.Text = ""; txt_fecha_nb.Text = ""; txt_monton_nb.Text = ""; txt_no_documento_nb.Text = ""; txt_cuenta_corriente_nb.Text = ""; txt_id_proveedor_nb.Text = "";
+                    txt_descripcion_nb.Text = ""; txt_conciliado_nb.Text = ""; txt_cuenta_bancaria_nb.Text = ""; txt_destinatario_nb.Text = ""; txt_fecha_nb.Text = ""; txt_monto_nb.Text = ""; txt_no_documento_nb.Text = ""; txt_cuenta_corriente_nb.Text = ""; txt_id_proveedor_nb.Text = "";
                 }
                 else
                 {
@@ -803,13 +941,13 @@ namespace Modulo_Bancos
                         tabControl.SelectedTab = tabPage3;
                         txt_descripcion_dep.Text = ""; txt_conciliado_dep.Text = ""; txt_cuenta_bancaria_dep.Text = ""; txt_destinatario_dep.Text = ""; txt_fecha_dep.Text = ""; txt_monto_dep.Text = ""; txt_no_documento_dep.Text = "";
                         txt_descripcion_che.Text = ""; txt_conciliado_che.Text = ""; txt_cuenta_bancaria_che.Text = ""; txt_destinatario_che.Text = ""; txt_fecha_che.Text = ""; txt_monto_che.Text = ""; txt_no_documento_che.Text = "";
-                        txt_descripcion_nb.Text = ""; txt_conciliado_nb.Text = ""; txt_cuenta_bancaria_nb.Text = ""; txt_destinatario_nb.Text = ""; txt_fecha_nb.Text = ""; txt_monton_nb.Text = ""; txt_no_documento_nb.Text = ""; txt_cuenta_corriente_nb.Text = ""; txt_id_proveedor_nb.Text = "";
+                        txt_descripcion_nb.Text = ""; txt_conciliado_nb.Text = ""; txt_cuenta_bancaria_nb.Text = ""; txt_destinatario_nb.Text = ""; txt_fecha_nb.Text = ""; txt_monto_nb.Text = ""; txt_no_documento_nb.Text = ""; txt_cuenta_corriente_nb.Text = ""; txt_id_proveedor_nb.Text = "";
                     }
                     else
                     {
                         if (this.dg.CurrentRow.Cells[9].Value.ToString() == "4")
                         {
-                            TextBox[] textbox = { txt_conciliado_nb, txt_descripcion_nb, txt_destinatario_nb, txt_fecha_nb, txt_no_documento_nb, txt_cuenta_bancaria_nb, txt_monton_nb, txt_cuenta_corriente_nb, txt_id_proveedor_nb };
+                            TextBox[] textbox = { txt_conciliado_nb, txt_descripcion_nb, txt_destinatario_nb, txt_fecha_nb, txt_no_documento_nb, txt_cuenta_bancaria_nb, txt_monto_nb, txt_cuenta_corriente_nb, txt_id_proveedor_nb };
                             fn.llenartextbox(textbox, dg);
                             dateTimePicker4.Text = txt_fecha_nb.Text;
                             cbo_cuenta_bancaria_nb.Text = txt_cuenta_bancaria_nb.Text;
@@ -844,10 +982,9 @@ namespace Modulo_Bancos
                 if (resultado == DialogResult.Yes)
                 {
 
-                    CapaNegocio fn = new CapaNegocio();
                     string tabla = "documento";
                     fn.eliminar(tabla, atributo2, codigo2);
-
+                    bita.Eliminar("Eliminacion de documento con el numero: " +codigo2, "documento");
                 }
             }
             catch
@@ -861,7 +998,7 @@ namespace Modulo_Bancos
             Editar = false;
             txt_descripcion_che.Enabled = false; txt_descripcion_dep.Enabled = false; txt_descripcion_nc.Enabled = false; txt_descripcion_nb.Enabled = false;
             txt_destinatario_che.Enabled = true; txt_destinatario_dep.Enabled = true; txt_destinatario_nc.Enabled = false; txt_destinatario_nb.Enabled = false;
-            txt_monton_nb.Enabled = false; txt_monto_nc.Enabled = false; txt_monto_dep.Enabled = false; txt_monto_che.Enabled = false;
+            txt_monto_nb.Enabled = false; txt_monto_nc.Enabled = false; txt_monto_dep.Enabled = false; txt_monto_che.Enabled = false;
             txt_no_documento_che.Enabled = false; txt_no_documento_nb.Enabled = false; txt_no_documento_nc.Enabled = false; txt_no_documento_dep.Enabled = false;
             cbo_conciliado_che.Enabled = false; cbo_conciliado_nc.Enabled = false; cbo_conciliado_nb.Enabled = false; cbo_conciliado_dep.Enabled = false;
             cbo_cuenta_bancaria_che.Enabled = false; cbo_cuenta_bancaria_dep.Enabled = false; cbo_cuenta_bancaria_nc.Enabled = false; cbo_cuenta_bancaria_nb.Enabled = false;
@@ -887,11 +1024,91 @@ namespace Modulo_Bancos
                     {
                         if (tabControl.SelectedTab == tabPage4)
                         {
-                            txt_descripcion_nb.Text = ""; txt_conciliado_nb.Text = ""; txt_cuenta_bancaria_nb.Text = ""; txt_destinatario_nb.Text = ""; txt_fecha_nb.Text = ""; txt_monton_nb.Text = ""; txt_no_documento_nb.Text = ""; txt_cuenta_corriente_nb.Text = ""; txt_id_proveedor_nb.Text = "";
+                            txt_descripcion_nb.Text = ""; txt_conciliado_nb.Text = ""; txt_cuenta_bancaria_nb.Text = ""; txt_destinatario_nb.Text = ""; txt_fecha_nb.Text = ""; txt_monto_nb.Text = ""; txt_no_documento_nb.Text = ""; txt_cuenta_corriente_nb.Text = ""; txt_id_proveedor_nb.Text = "";
                         }
                     }
                 }
             }
+        }
+
+        private void txt_no_documento_dep_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            validacion_solonumeros(e);
+        }
+
+        private void txt_descripcion_dep_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            validacion_sololetras(e);
+        }
+
+        private void txt_destinatario_dep_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            validacion_sololetras(e);
+        }
+
+        private void txt_monto_dep_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            validacion_solonumerocondosdecimales(e, txt_monto_dep);
+        }
+
+        private void txt_no_documento_che_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            validacion_solonumeros(e);
+        }
+
+        private void txt_descripcion_che_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            validacion_sololetras(e);
+        }
+
+        private void txt_destinatario_che_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            validacion_sololetras(e);
+        }
+
+        private void txt_monto_che_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            validacion_solonumerocondosdecimales(e, txt_monto_che);
+        }
+
+        private void txt_no_documento_nc_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            validacion_solonumeros(e);
+        }
+
+        private void txt_descripcion_nc_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            validacion_sololetras(e);
+        }
+
+        private void txt_destinatario_nc_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            validacion_sololetras(e);
+        }
+
+        private void txt_monto_nc_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            validacion_solonumerocondosdecimales(e, txt_monto_nc);
+        }
+
+        private void txt_no_documento_nb_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            validacion_solonumeros(e);
+        }
+
+        private void txt_descripcion_nb_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            validacion_sololetras(e);
+        }
+
+        private void txt_destinatario_nb_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            validacion_sololetras(e);
+        }
+
+        private void txt_monton_nb_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            validacion_solonumerocondosdecimales(e, txt_monto_nb);
         }
     }
 }
