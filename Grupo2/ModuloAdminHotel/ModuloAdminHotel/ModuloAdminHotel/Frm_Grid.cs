@@ -204,6 +204,21 @@ namespace ModuloAdminHotel
                 }
 
             }
+            else if (tablaa == "Reservacion_habitacion")
+            {
+                if (reservahotel == null)
+                {
+                    reservahotel = new Frm_ReservacionHotel(dataGridView1);
+                    reservahotel.MdiParent = padre;
+                    reservahotel.FormClosed += new FormClosedEventHandler(reservahotel_FormClosed);
+                    reservahotel.Show();
+                }
+                else
+                {
+                    reservahotel.Activate();
+                }
+
+            }
 
 
         }
@@ -443,8 +458,194 @@ namespace ModuloAdminHotel
                 }
 
             }
+            else if (tablaa == "Reservacion_habitacion")
+            {
+                if (reservahotel == null)
+                {
+                    reservahotel = new Frm_ReservacionHotel(dataGridView1);
+                    reservahotel.MdiParent = padre;
+                    reservahotel.FormClosed += new FormClosedEventHandler(reservahotel_FormClosed);
+                    reservahotel.Show();
+                }
+                else
+                {
+                    reservahotel.Activate();
+                }
+
+            }
+
+        }
+
+        private void dataGridView1_CellContentClick_1(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+        private void reservahotel_FormClosed(object sender, EventArgs e)
+        {
+            reservahotel = null;
+        }
+
+        private void dataGridView1_CellContentDoubleClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (tablaa == "empresa")
+            {
+
+                if (empresa == null)
+                {
+                    empresa = new Frm_MantenimientoEmpresa(dataGridView1);
+                    empresa.MdiParent = padre;
+                    empresa.FormClosed += new FormClosedEventHandler(empresa_FormClosed);
+                    empresa.Show();
+                }
+                else
+                {
+                    empresa.Activate();
+                }
+
+            }
+            else if (tablaa == "tipo")
+            {
+                if (tipohab == null)
+                {
+                    tipohab = new Frm_MantemientoTipoHabitacion(dataGridView1);
+                    tipohab.MdiParent = padre;
+                    tipohab.FormClosed += new FormClosedEventHandler(tipohab_FormClosed);
+                    tipohab.Show();
+                }
+                else
+                {
+                    tipohab.Activate();
+                }
 
 
+
+            }
+            else if (tablaa == "habitacion")
+            {
+                if (habit == null)
+                {
+                    habit = new Frm_MantenimientoHabitaciones(dataGridView1);
+                    habit.MdiParent = padre;
+                    habit.FormClosed += new FormClosedEventHandler(habit_FormClosed);
+                    habit.Show();
+                }
+                else
+                {
+                    habit.Activate();
+                }
+
+            }
+
+            else if (tablaa == "salon")
+            {
+                if (salo == null)
+                {
+                    salo = new Frm_MantenimientoSalones(dataGridView1);
+                    salo.MdiParent = padre;
+                    salo.FormClosed += new FormClosedEventHandler(salo_FormClosed);
+                    salo.Show();
+                }
+                else
+                {
+                    salo.Activate();
+                }
+
+            }
+
+            else if (tablaa == "promocion")
+            {
+                if (promo == null)
+                {
+                    promo = new Frm_Promocion(dataGridView1);
+                    promo.MdiParent = padre;
+                    promo.FormClosed += new FormClosedEventHandler(promo_FormClosed);
+                    promo.Show();
+                }
+                else
+                {
+                    promo.Activate();
+                }
+
+            }
+
+            else if (tablaa == "invitado")
+            {
+                if (invitado == null)
+                {
+                    invitado = new Frm_Invitado(dataGridView1);
+                    invitado.MdiParent = padre;
+                    invitado.FormClosed += new FormClosedEventHandler(invitado_FormClosed);
+                    invitado.Show();
+                }
+                else
+                {
+                    invitado.Activate();
+                }
+
+            }
+
+            else if (tablaa == "buzon")
+            {
+                if (suge == null)
+                {
+                    suge = new Frm_Sugerencia(dataGridView1);
+                    suge.MdiParent = padre;
+                    suge.FormClosed += new FormClosedEventHandler(suge_FormClosed);
+                    suge.Show();
+                }
+                else
+                {
+                    suge.Activate();
+                }
+
+            }
+
+            else if (tablaa == "problema")
+            {
+                if (proble == null)
+                {
+                    proble = new Frm_Problema(dataGridView1);
+                    proble.MdiParent = padre;
+                    proble.FormClosed += new FormClosedEventHandler(proble_FormClosed);
+                    proble.Show();
+                }
+                else
+                {
+                    proble.Activate();
+                }
+
+            }
+
+            else if (tablaa == "obj_perdido")
+            {
+                if (objolvi == null)
+                {
+                    objolvi = new Frm_ObjetosOlvidados(dataGridView1);
+                    objolvi.MdiParent = padre;
+                    objolvi.FormClosed += new FormClosedEventHandler(objolvi_FormClosed);
+                    objolvi.Show();
+                }
+                else
+                {
+                    objolvi.Activate();
+                }
+
+            }
+            else if (tablaa == "Reservacion_habitacion")
+            {
+                if (reservahotel == null)
+                {
+                    reservahotel = new Frm_ReservacionHotel(dataGridView1);
+                    reservahotel.MdiParent = padre;
+                    reservahotel.FormClosed += new FormClosedEventHandler(reservahotel_FormClosed);
+                    reservahotel.Show();
+                }
+                else
+                {
+                    reservahotel.Activate();
+                }
+
+            }
         }
     }
 }

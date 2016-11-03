@@ -355,16 +355,17 @@ namespace ModuloAdminHotel
 
         private void reservacionHotelToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            if (reservahotel == null)
+            if (grid == null)
             {
-                reservahotel = new Frm_ReservacionHotel();
-                reservahotel.MdiParent = this;
-                reservahotel.FormClosed += new FormClosedEventHandler(reservahotel_FormClosed);
-                reservahotel.Show();
+                grid = new Frm_Grid("Reservacion_habitacion");
+                grid.MdiParent = this;
+                grid.FormClosed += new FormClosedEventHandler(grid_FormClosed);
+                grid.Show();
             }
             else
             {
-                reservahotel.Activate();
+                grid.Activate();
+
             }
 
 
