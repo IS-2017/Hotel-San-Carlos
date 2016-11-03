@@ -69,17 +69,32 @@
     <Compile Include="Buscar_planilla.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Buscar_planilla.Designer.cs">
+      <DependentUpon>Buscar_planilla.cs</DependentUpon>
+    </Compile>
     <Compile Include="Comisiones_linea.cs">
       <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Comisiones_linea.Designer.cs">
+      <DependentUpon>Comisiones_linea.cs</DependentUpon>
     </Compile>
     <Compile Include="comisiones_producto.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="comisiones_producto.Designer.cs">
+      <DependentUpon>comisiones_producto.cs</DependentUpon>
+    </Compile>
     <Compile Include="Comisiones_Vendedor.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Comisiones_Vendedor.designer.cs">
+      <DependentUpon>Comisiones_Vendedor.cs</DependentUpon>
+    </Compile>
     <Compile Include="Comision_marca.cs">
       <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Comision_marca.Designer.cs">
+      <DependentUpon>Comision_marca.cs</DependentUpon>
     </Compile>
     <Compile Include="Conexionmysql.cs" />
     <Compile Include="Empleados.cs">
@@ -111,6 +126,12 @@
     </Compile>
     <Compile Include="frm_Empleados_grid.Designer.cs">
       <DependentUpon>frm_Empleados_grid.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Nomina.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Nomina.Designer.cs">
+      <DependentUpon>frm_Nomina.cs</DependentUpon>
     </Compile>
     <Compile Include="frm_Nominas_Empleados.cs">
       <SubType>Form</SubType>
@@ -151,11 +172,32 @@
     <Compile Include="Planilla_IGSS.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Planilla_IGSS.designer.cs">
+      <DependentUpon>Planilla_IGSS.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Reporte Planilla IGSS.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Reporte Planilla IGSS.Designer.cs">
+      <DependentUpon>Reporte Planilla IGSS.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Buscar_planilla.resx">
+      <DependentUpon>Buscar_planilla.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Comisiones_linea.resx">
+      <DependentUpon>Comisiones_linea.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="comisiones_producto.resx">
+      <DependentUpon>comisiones_producto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Comisiones_Vendedor.resx">
+      <DependentUpon>Comisiones_Vendedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Comision_marca.resx">
+      <DependentUpon>Comision_marca.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Empleados.resx">
       <DependentUpon>Empleados.cs</DependentUpon>
     </EmbeddedResource>
@@ -170,6 +212,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frm_Empleados_grid.resx">
       <DependentUpon>frm_Empleados_grid.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Nomina.resx">
+      <DependentUpon>frm_Nomina.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frm_Nominas_Empleados.resx">
       <DependentUpon>frm_Nominas_Empleados.cs</DependentUpon>
@@ -189,6 +234,9 @@
     <EmbeddedResource Include="MenuMDI.resx">
       <DependentUpon>MenuMDI.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Planilla_IGSS.resx">
+      <DependentUpon>Planilla_IGSS.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -198,6 +246,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Reporte Planilla IGSS.resx">
+      <DependentUpon>Reporte Planilla IGSS.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
