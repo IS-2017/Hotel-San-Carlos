@@ -34,6 +34,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Abrir, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Abrir.exe</HintPath>
+    </Reference>
     <Reference Include="dllconsultas, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>bin\Debug\dllconsultas.dll</HintPath>
@@ -41,6 +45,10 @@
     <Reference Include="FuncionesNavegador, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>bin\Debug\FuncionesNavegador.dll</HintPath>
+    </Reference>
+    <Reference Include="seguridad, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\seguridad.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -65,7 +73,7 @@
     <Compile Include="Cheque_Voucher.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Cheque_Voucher.Designer.cs">
+    <Compile Include="Cheque_Voucher.designer.cs">
       <DependentUpon>Cheque_Voucher.cs</DependentUpon>
     </Compile>
     <Compile Include="Conciliacion_Bancaria.cs">
@@ -86,6 +94,12 @@
     <Compile Include="Documento.Designer.cs">
       <DependentUpon>Documento.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form_login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_login.designer.cs">
+      <DependentUpon>Form_login.cs</DependentUpon>
+    </Compile>
     <Compile Include="MDIBancos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -100,6 +114,7 @@
     <Compile Include="Tipo_Documento.Designer.cs">
       <DependentUpon>Tipo_Documento.cs</DependentUpon>
     </Compile>
+    <Compile Include="Validar.cs" />
     <EmbeddedResource Include="Busqueda Documento.resx">
       <DependentUpon>Busqueda Documento.cs</DependentUpon>
     </EmbeddedResource>
@@ -114,6 +129,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Documento.resx">
       <DependentUpon>Documento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_login.resx">
+      <DependentUpon>Form_login.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MDIBancos.resx">
       <DependentUpon>MDIBancos.cs</DependentUpon>

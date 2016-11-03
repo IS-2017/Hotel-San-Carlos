@@ -122,7 +122,7 @@
             this.label21 = new System.Windows.Forms.Label();
             this.label22 = new System.Windows.Forms.Label();
             this.txt_descripcion_nb = new System.Windows.Forms.TextBox();
-            this.txt_monton_nb = new System.Windows.Forms.TextBox();
+            this.txt_monto_nb = new System.Windows.Forms.TextBox();
             this.label23 = new System.Windows.Forms.Label();
             this.dateTimePicker4 = new System.Windows.Forms.DateTimePicker();
             this.label24 = new System.Windows.Forms.Label();
@@ -500,6 +500,7 @@
             this.txt_descripcion_dep.Size = new System.Drawing.Size(207, 26);
             this.txt_descripcion_dep.TabIndex = 44;
             this.txt_descripcion_dep.Tag = "descripcion";
+            this.txt_descripcion_dep.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_descripcion_dep_KeyPress);
             // 
             // txt_monto_dep
             // 
@@ -508,6 +509,7 @@
             this.txt_monto_dep.Size = new System.Drawing.Size(126, 26);
             this.txt_monto_dep.TabIndex = 39;
             this.txt_monto_dep.Tag = "valor_total";
+            this.txt_monto_dep.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_monto_dep_KeyPress);
             // 
             // lbl_mt
             // 
@@ -554,6 +556,7 @@
             this.txt_destinatario_dep.Size = new System.Drawing.Size(250, 26);
             this.txt_destinatario_dep.TabIndex = 34;
             this.txt_destinatario_dep.Tag = "destinatario";
+            this.txt_destinatario_dep.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_destinatario_dep_KeyPress);
             // 
             // lbl_no_documento
             // 
@@ -572,6 +575,7 @@
             this.txt_no_documento_dep.Size = new System.Drawing.Size(129, 26);
             this.txt_no_documento_dep.TabIndex = 31;
             this.txt_no_documento_dep.Tag = "no_documento";
+            this.txt_no_documento_dep.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_no_documento_dep_KeyPress);
             // 
             // tabPage2
             // 
@@ -699,6 +703,7 @@
             this.txt_descripcion_che.Size = new System.Drawing.Size(207, 26);
             this.txt_descripcion_che.TabIndex = 62;
             this.txt_descripcion_che.Tag = "descripcion";
+            this.txt_descripcion_che.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_descripcion_che_KeyPress);
             // 
             // txt_monto_che
             // 
@@ -707,6 +712,7 @@
             this.txt_monto_che.Size = new System.Drawing.Size(126, 26);
             this.txt_monto_che.TabIndex = 61;
             this.txt_monto_che.Tag = "valor_total";
+            this.txt_monto_che.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_monto_che_KeyPress);
             // 
             // label7
             // 
@@ -753,6 +759,7 @@
             this.txt_destinatario_che.Size = new System.Drawing.Size(250, 26);
             this.txt_destinatario_che.TabIndex = 56;
             this.txt_destinatario_che.Tag = "destinatario";
+            this.txt_destinatario_che.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_destinatario_che_KeyPress);
             // 
             // label10
             // 
@@ -771,6 +778,7 @@
             this.txt_no_documento_che.Size = new System.Drawing.Size(129, 26);
             this.txt_no_documento_che.TabIndex = 54;
             this.txt_no_documento_che.Tag = "no_documento";
+            this.txt_no_documento_che.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_no_documento_che_KeyPress);
             // 
             // tabPage3
             // 
@@ -932,6 +940,7 @@
             this.txt_descripcion_nc.Size = new System.Drawing.Size(207, 26);
             this.txt_descripcion_nc.TabIndex = 62;
             this.txt_descripcion_nc.Tag = "descripcion";
+            this.txt_descripcion_nc.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_descripcion_nc_KeyPress);
             // 
             // txt_monto_nc
             // 
@@ -940,6 +949,7 @@
             this.txt_monto_nc.Size = new System.Drawing.Size(126, 26);
             this.txt_monto_nc.TabIndex = 61;
             this.txt_monto_nc.Tag = "valor_total";
+            this.txt_monto_nc.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_monto_nc_KeyPress);
             // 
             // label14
             // 
@@ -986,6 +996,7 @@
             this.txt_destinatario_nc.Size = new System.Drawing.Size(250, 26);
             this.txt_destinatario_nc.TabIndex = 56;
             this.txt_destinatario_nc.Tag = "destinatario";
+            this.txt_destinatario_nc.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_destinatario_nc_KeyPress);
             // 
             // label17
             // 
@@ -1004,6 +1015,7 @@
             this.txt_no_documento_nc.Size = new System.Drawing.Size(129, 26);
             this.txt_no_documento_nc.TabIndex = 54;
             this.txt_no_documento_nc.Tag = "no_documento";
+            this.txt_no_documento_nc.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_no_documento_nc_KeyPress);
             // 
             // tabPage4
             // 
@@ -1024,7 +1036,7 @@
             this.tabPage4.Controls.Add(this.label21);
             this.tabPage4.Controls.Add(this.label22);
             this.tabPage4.Controls.Add(this.txt_descripcion_nb);
-            this.tabPage4.Controls.Add(this.txt_monton_nb);
+            this.tabPage4.Controls.Add(this.txt_monto_nb);
             this.tabPage4.Controls.Add(this.label23);
             this.tabPage4.Controls.Add(this.dateTimePicker4);
             this.tabPage4.Controls.Add(this.label24);
@@ -1202,14 +1214,16 @@
             this.txt_descripcion_nb.Size = new System.Drawing.Size(207, 26);
             this.txt_descripcion_nb.TabIndex = 83;
             this.txt_descripcion_nb.Tag = "descripcion";
+            this.txt_descripcion_nb.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_descripcion_nb_KeyPress);
             // 
-            // txt_monton_nb
+            // txt_monto_nb
             // 
-            this.txt_monton_nb.Location = new System.Drawing.Point(486, 141);
-            this.txt_monton_nb.Name = "txt_monton_nb";
-            this.txt_monton_nb.Size = new System.Drawing.Size(217, 26);
-            this.txt_monton_nb.TabIndex = 82;
-            this.txt_monton_nb.Tag = "valor_total";
+            this.txt_monto_nb.Location = new System.Drawing.Point(486, 141);
+            this.txt_monto_nb.Name = "txt_monto_nb";
+            this.txt_monto_nb.Size = new System.Drawing.Size(217, 26);
+            this.txt_monto_nb.TabIndex = 82;
+            this.txt_monto_nb.Tag = "valor_total";
+            this.txt_monto_nb.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_monton_nb_KeyPress);
             // 
             // label23
             // 
@@ -1256,6 +1270,7 @@
             this.txt_destinatario_nb.Size = new System.Drawing.Size(250, 26);
             this.txt_destinatario_nb.TabIndex = 77;
             this.txt_destinatario_nb.Tag = "destinatario";
+            this.txt_destinatario_nb.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_destinatario_nb_KeyPress);
             // 
             // label26
             // 
@@ -1274,6 +1289,7 @@
             this.txt_no_documento_nb.Size = new System.Drawing.Size(129, 26);
             this.txt_no_documento_nb.TabIndex = 75;
             this.txt_no_documento_nb.Tag = "no_documento";
+            this.txt_no_documento_nb.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_no_documento_nb_KeyPress);
             // 
             // gpb_datos_documentos
             // 
@@ -1393,7 +1409,7 @@
         private System.Windows.Forms.Label label21;
         private System.Windows.Forms.Label label22;
         private System.Windows.Forms.TextBox txt_descripcion_nb;
-        private System.Windows.Forms.TextBox txt_monton_nb;
+        private System.Windows.Forms.TextBox txt_monto_nb;
         private System.Windows.Forms.Label label23;
         private System.Windows.Forms.DateTimePicker dateTimePicker4;
         private System.Windows.Forms.Label label24;

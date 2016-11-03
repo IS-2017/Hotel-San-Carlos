@@ -16,7 +16,7 @@ namespace Modulo_Bancos
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MDIBancos());
+            Application.Run(new Form_login());
         }
     }
 }
