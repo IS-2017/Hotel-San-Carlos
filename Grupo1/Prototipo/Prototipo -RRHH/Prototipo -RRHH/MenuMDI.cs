@@ -26,7 +26,7 @@ namespace Prototipo__RRHH
         Comision_marca comi_marca;
         comisiones_producto comi_prod;
         Reporte_Planilla_IGSS plan_igss;
-
+        
         frm_Nominas_Empleados frm_nomin;
         frm_Devengados frm_prest_lab;
         frm_Empleados_grid frm_emp_dgv;
@@ -205,20 +205,10 @@ namespace Prototipo__RRHH
 
         private void comisionDeVendedorToolStripMenuItem1_Click_1(object sender, EventArgs e)
         {
-            if (comi_ve == null)
-            {
-                comi_ve = new Comisiones_Vendedor();
-                comi_ve.MdiParent = this;
-                comi_ve.FormClosed += new FormClosedEventHandler(comi_ve_FormClosed);
-                comi_ve.Show();
-            }
+           
         }
 
-        void comi_ve_FormClosed(object sender, EventArgs e)
-        {
-            comi_ve = null;
-        }
-
+        
         private void nominasToolStripMenuItem1_Click_1(object sender, EventArgs e)
         {
             if (frm_nomin_emp_grid == null)
@@ -459,7 +449,7 @@ namespace Prototipo__RRHH
             form_app = null;
         }
 
-        private void comisionesPorMarcaToolStripMenuItem_Click(object sender, EventArgs e)
+        private void porMarcaToolStripMenuItem_Click(object sender, EventArgs e)
         {
             if (comi_marca == null)
             {
@@ -475,37 +465,7 @@ namespace Prototipo__RRHH
             comi_marca = null;
         }
 
-        private void comisionesPorLineaToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            if (comi_linea == null)
-            {
-                comi_linea = new Comisiones_linea();
-                comi_linea.MdiParent = this;
-                comi_linea.FormClosed += new FormClosedEventHandler(porlinea_FormClosed);
-                comi_linea.Show();
-            }
-        }
-        void porlinea_FormClosed(object sender, EventArgs e)
-        {
-            comi_linea = null;
-        }
-
-        private void comisionesPorProudctoToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            if (comi_prod == null)
-            {
-                comi_prod = new comisiones_producto();
-                comi_prod.MdiParent = this;
-                comi_prod.FormClosed += new FormClosedEventHandler(porProducto_FormClosed);
-                comi_prod.Show();
-            }
-        }
-        void porProducto_FormClosed(object sender, EventArgs e)
-        {
-            comi_prod = null;
-        }
-
-        private void comisionesPorVendedorToolStripMenuItem_Click(object sender, EventArgs e)
+        private void porVendedorToolStripMenuItem_Click(object sender, EventArgs e)
         {
             if (comi_ve == null)
             {
@@ -518,6 +478,36 @@ namespace Prototipo__RRHH
         void porVendedor_FormClosed(object sender, EventArgs e)
         {
             comi_ve = null;
+        }
+
+        private void porLineaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (comi_linea == null)
+            {
+                comi_linea= new Comisiones_linea();
+                comi_linea.MdiParent = this;
+                comi_linea.FormClosed += new FormClosedEventHandler(porlinea_FormClosed);
+                comi_linea.Show();
+            }
+        }
+        void porlinea_FormClosed(object sender, EventArgs e)
+        {
+            comi_linea = null;
+        }
+
+        private void porProductoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (comi_prod == null)
+            {
+                comi_prod = new comisiones_producto();
+                comi_prod.MdiParent = this;
+                comi_prod.FormClosed += new FormClosedEventHandler(porProducto_FormClosed);
+                comi_prod.Show();
+            }
+        }
+        void porProducto_FormClosed(object sender, EventArgs e)
+        {
+            comi_prod = null;
         }
     }
 }

@@ -63,7 +63,7 @@ namespace Prototipo__RRHH
             //se inicia un DataSet
             DataSet ds = new DataSet();
             //se indica la consulta en sql
-            String Query = "select id_empresa_pk, nombre from empresa";
+            String Query = "select id_empresa_pk, nombre from empresa Where estado <>'INACTIVO'";
             OdbcDataAdapter dad = new OdbcDataAdapter(Query, Conexionmysql.ObtenerConexion());
             //se indica con quu tabla se llena
             dad.Fill(ds, "empresa");
@@ -84,7 +84,7 @@ namespace Prototipo__RRHH
             //se inicia un DataSet
             DataSet ds = new DataSet();
             //se indica la consulta en sql=
-            String Query = "select id_empleados_pk, nombre from empleado where id_empresa_pk ='" + selectedItem + "' AND cargo = 'VENDEDOR'";
+            String Query = "select id_empleados_pk, nombre from empleado where id_empresa_pk ='" + selectedItem + "' AND estado <>'INACTIVO' AND cargo = 'VENDEDOR'";
             OdbcDataAdapter dad = new OdbcDataAdapter(Query, Conexionmysql.ObtenerConexion());
             //se indica con quu tabla se llena
             dad.Fill(ds, "empleado");
@@ -114,11 +114,12 @@ namespace Prototipo__RRHH
             OdbcCommand Query = new OdbcCommand();
             OdbcConnection Conexion;
             OdbcDataReader consultar;
-            string sql = "dsn=hotelsancarlos;server=localhost;user id=root;database=hotelsancarlos;password=";
+            //string sql = "dsn=hotelsancarlos;server=localhost;user id=root;database=hotelsancarlos;password=";
+            string sql = "dsn=hotelsancarlos;server=localhost;database=hotelsancarlos;uid=root;password=";
             Conexion = new OdbcConnection();
             Conexion.ConnectionString = sql;
             Conexion.Open();
-            Query.CommandText = "SELECT id_fac_empresa_pk,total From factura where id_empleados_pk = '" + selectedItem2 + "'And id_empresa_pk ='" + selectedItem + "' AND fecha_emision BETWEEN '"+date1+"' AND '"+date2+"';";
+            Query.CommandText = "SELECT id_fac_empresa_pk,total From factura where id_empleados_pk = '" + selectedItem2 + "'And id_empresa_pk ='" + selectedItem + "' AND estado <> 'INACTIVO' AND marca_comision <>'S' AND fecha_emision BETWEEN '" + date1 + "' AND '" + date2 + "';";
             Query.Connection = Conexion;
             consultar = Query.ExecuteReader();
 
@@ -160,7 +161,8 @@ namespace Prototipo__RRHH
                 OdbcCommand Query = new OdbcCommand();
                 OdbcConnection Conexion;
                 OdbcDataReader consultar;
-                string sql = "dsn=hotelsancarlos;server=localhost;user id=root;database=hotelsancarlos;password=";
+                //string sql = "dsn=hotelsancarlos;server=localhost;user id=root;database=hotelsancarlos;password=";
+                string sql = "dsn=hotelsancarlos;server=localhost;database=hotelsancarlos;uid=root;password=";
                 Conexion = new OdbcConnection();
                 Conexion.ConnectionString = sql;
                 Conexion.Open();
@@ -207,7 +209,8 @@ namespace Prototipo__RRHH
                 OdbcCommand Query = new OdbcCommand();
                 OdbcConnection Conexion;
                 OdbcDataReader consultar;
-                string sql = "dsn=hotelsancarlos;server=localhost;user id=root;database=hotelsancarlos;password=";
+                //string sql = "dsn=hotelsancarlos;server=localhost;user id=root;database=hotelsancarlos;password=";
+                string sql = "dsn=hotelsancarlos;server=localhost;database=hotelsancarlos;uid=root;password=";
                 Conexion = new OdbcConnection();
                 Conexion.ConnectionString = sql;
                 Conexion.Open();
@@ -255,7 +258,8 @@ namespace Prototipo__RRHH
                 OdbcCommand Query = new OdbcCommand();
                 OdbcConnection Conexion;
                 OdbcDataReader consultar;
-                string sql = "dsn=hotelsancarlos;server=localhost;user id=root;database=hotelsancarlos;password=";
+                //string sql = "dsn=hotelsancarlos;server=localhost;user id=root;database=hotelsancarlos;password=";
+                string sql = "dsn=hotelsancarlos;server=localhost;database=hotelsancarlos;uid=root;password=";
                 Conexion = new OdbcConnection();
                 Conexion.ConnectionString = sql;
                 Conexion.Open();
@@ -305,7 +309,8 @@ namespace Prototipo__RRHH
                 OdbcCommand Query = new OdbcCommand();
                 OdbcConnection Conexion;
                 OdbcDataReader consultar;
-                string sql = "dsn=hotelsancarlos;server=localhost;user id=root;database=hotelsancarlos;password=";
+                //string sql = "dsn=hotelsancarlos;server=localhost;user id=root;database=hotelsancarlos;password=";
+                string sql = "dsn=hotelsancarlos;server=localhost;database=hotelsancarlos;uid=root;password=";
                 Conexion = new OdbcConnection();
                 Conexion.ConnectionString = sql;
                 Conexion.Open();

@@ -30,6 +30,30 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_Nominas_Empleados));
+            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
+            this.toolTip2 = new System.Windows.Forms.ToolTip(this.components);
+            this.toolTip3 = new System.Windows.Forms.ToolTip(this.components);
+            this.toolTip4 = new System.Windows.Forms.ToolTip(this.components);
+            this.toolTip5 = new System.Windows.Forms.ToolTip(this.components);
+            this.toolTip6 = new System.Windows.Forms.ToolTip(this.components);
+            this.toolTip7 = new System.Windows.Forms.ToolTip(this.components);
+            this.toolTip8 = new System.Windows.Forms.ToolTip(this.components);
+            this.toolTip9 = new System.Windows.Forms.ToolTip(this.components);
+            this.toolTip10 = new System.Windows.Forms.ToolTip(this.components);
+            this.toolTip11 = new System.Windows.Forms.ToolTip(this.components);
+            this.gpb_regist_nominas = new System.Windows.Forms.GroupBox();
+            this.txt_dtp_fecha_corte = new System.Windows.Forms.TextBox();
+            this.lbl_fecha_corte = new System.Windows.Forms.Label();
+            this.dtp_fecha_corte = new System.Windows.Forms.DateTimePicker();
+            this.lbl_nomb_nomina = new System.Windows.Forms.Label();
+            this.txt_nomb_nomina = new System.Windows.Forms.TextBox();
+            this.txt_dtp_fech_inicio = new System.Windows.Forms.TextBox();
+            this.txt_cbo_id_empresa = new System.Windows.Forms.TextBox();
+            this.cbo_id_empresa = new System.Windows.Forms.ComboBox();
+            this.lbl_sueldo_bs = new System.Windows.Forms.Label();
+            this.lbl_fech_inicio = new System.Windows.Forms.Label();
+            this.dtp_fech_inicio = new System.Windows.Forms.DateTimePicker();
+            this.lbl_form_emp = new System.Windows.Forms.Label();
             this.gpb_navegador = new System.Windows.Forms.GroupBox();
             this.btn_nuevo = new System.Windows.Forms.Button();
             this.btn_ultimo = new System.Windows.Forms.Button();
@@ -42,30 +66,140 @@
             this.btn_buscar = new System.Windows.Forms.Button();
             this.btn_actualizar = new System.Windows.Forms.Button();
             this.btn_cancelar = new System.Windows.Forms.Button();
-            this.lbl_form_emp = new System.Windows.Forms.Label();
-            this.gpb_regist_nominas = new System.Windows.Forms.GroupBox();
-            this.txt_dtp_fecha_nomina = new System.Windows.Forms.TextBox();
-            this.txt_cbo_id_empresa = new System.Windows.Forms.TextBox();
-            this.dgv_datos_nominas = new System.Windows.Forms.DataGridView();
-            this.cbo_id_empresa = new System.Windows.Forms.ComboBox();
-            this.lbl_sueldo_bs = new System.Windows.Forms.Label();
-            this.lbl_fech_nacimient = new System.Windows.Forms.Label();
-            this.dtp_fecha_nomina = new System.Windows.Forms.DateTimePicker();
-            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
-            this.toolTip2 = new System.Windows.Forms.ToolTip(this.components);
-            this.toolTip3 = new System.Windows.Forms.ToolTip(this.components);
-            this.toolTip4 = new System.Windows.Forms.ToolTip(this.components);
-            this.toolTip5 = new System.Windows.Forms.ToolTip(this.components);
-            this.toolTip6 = new System.Windows.Forms.ToolTip(this.components);
-            this.toolTip7 = new System.Windows.Forms.ToolTip(this.components);
-            this.toolTip8 = new System.Windows.Forms.ToolTip(this.components);
-            this.toolTip9 = new System.Windows.Forms.ToolTip(this.components);
-            this.toolTip10 = new System.Windows.Forms.ToolTip(this.components);
-            this.toolTip11 = new System.Windows.Forms.ToolTip(this.components);
-            this.gpb_navegador.SuspendLayout();
             this.gpb_regist_nominas.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgv_datos_nominas)).BeginInit();
+            this.gpb_navegador.SuspendLayout();
             this.SuspendLayout();
+            // 
+            // gpb_regist_nominas
+            // 
+            this.gpb_regist_nominas.Controls.Add(this.txt_dtp_fecha_corte);
+            this.gpb_regist_nominas.Controls.Add(this.lbl_fecha_corte);
+            this.gpb_regist_nominas.Controls.Add(this.dtp_fecha_corte);
+            this.gpb_regist_nominas.Controls.Add(this.lbl_nomb_nomina);
+            this.gpb_regist_nominas.Controls.Add(this.txt_nomb_nomina);
+            this.gpb_regist_nominas.Controls.Add(this.txt_dtp_fech_inicio);
+            this.gpb_regist_nominas.Controls.Add(this.txt_cbo_id_empresa);
+            this.gpb_regist_nominas.Controls.Add(this.cbo_id_empresa);
+            this.gpb_regist_nominas.Controls.Add(this.lbl_sueldo_bs);
+            this.gpb_regist_nominas.Controls.Add(this.lbl_fech_inicio);
+            this.gpb_regist_nominas.Controls.Add(this.dtp_fech_inicio);
+            this.gpb_regist_nominas.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gpb_regist_nominas.Location = new System.Drawing.Point(5, 160);
+            this.gpb_regist_nominas.Name = "gpb_regist_nominas";
+            this.gpb_regist_nominas.Size = new System.Drawing.Size(708, 112);
+            this.gpb_regist_nominas.TabIndex = 174;
+            this.gpb_regist_nominas.TabStop = false;
+            this.gpb_regist_nominas.Text = "Registro de Nominas";
+            // 
+            // txt_dtp_fecha_corte
+            // 
+            this.txt_dtp_fecha_corte.Location = new System.Drawing.Point(692, 58);
+            this.txt_dtp_fecha_corte.Name = "txt_dtp_fecha_corte";
+            this.txt_dtp_fecha_corte.Size = new System.Drawing.Size(10, 29);
+            this.txt_dtp_fecha_corte.TabIndex = 52;
+            this.txt_dtp_fecha_corte.Tag = "fecha_de_corte";
+            this.txt_dtp_fecha_corte.Visible = false;
+            // 
+            // lbl_fecha_corte
+            // 
+            this.lbl_fecha_corte.AutoSize = true;
+            this.lbl_fecha_corte.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_fecha_corte.Location = new System.Drawing.Point(334, 60);
+            this.lbl_fecha_corte.Name = "lbl_fecha_corte";
+            this.lbl_fecha_corte.Size = new System.Drawing.Size(101, 20);
+            this.lbl_fecha_corte.TabIndex = 51;
+            this.lbl_fecha_corte.Text = "Fecha Corte:";
+            // 
+            // dtp_fecha_corte
+            // 
+            this.dtp_fecha_corte.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dtp_fecha_corte.Location = new System.Drawing.Point(443, 58);
+            this.dtp_fecha_corte.Name = "dtp_fecha_corte";
+            this.dtp_fecha_corte.Size = new System.Drawing.Size(243, 23);
+            this.dtp_fecha_corte.TabIndex = 50;
+            // 
+            // lbl_nomb_nomina
+            // 
+            this.lbl_nomb_nomina.AutoSize = true;
+            this.lbl_nomb_nomina.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_nomb_nomina.Location = new System.Drawing.Point(6, 29);
+            this.lbl_nomb_nomina.Name = "lbl_nomb_nomina";
+            this.lbl_nomb_nomina.Size = new System.Drawing.Size(69, 20);
+            this.lbl_nomb_nomina.TabIndex = 49;
+            this.lbl_nomb_nomina.Text = "Nombre:";
+            // 
+            // txt_nomb_nomina
+            // 
+            this.txt_nomb_nomina.Location = new System.Drawing.Point(95, 26);
+            this.txt_nomb_nomina.Name = "txt_nomb_nomina";
+            this.txt_nomb_nomina.Size = new System.Drawing.Size(200, 29);
+            this.txt_nomb_nomina.TabIndex = 48;
+            this.txt_nomb_nomina.Tag = "nombre_nomina";
+            // 
+            // txt_dtp_fech_inicio
+            // 
+            this.txt_dtp_fech_inicio.Location = new System.Drawing.Point(692, 29);
+            this.txt_dtp_fech_inicio.Name = "txt_dtp_fech_inicio";
+            this.txt_dtp_fech_inicio.Size = new System.Drawing.Size(10, 29);
+            this.txt_dtp_fech_inicio.TabIndex = 47;
+            this.txt_dtp_fech_inicio.Tag = "fecha_inicio_pago";
+            this.txt_dtp_fech_inicio.Visible = false;
+            // 
+            // txt_cbo_id_empresa
+            // 
+            this.txt_cbo_id_empresa.Location = new System.Drawing.Point(298, 60);
+            this.txt_cbo_id_empresa.Name = "txt_cbo_id_empresa";
+            this.txt_cbo_id_empresa.Size = new System.Drawing.Size(10, 29);
+            this.txt_cbo_id_empresa.TabIndex = 46;
+            this.txt_cbo_id_empresa.Tag = "id_empresa_pk";
+            this.txt_cbo_id_empresa.Visible = false;
+            // 
+            // cbo_id_empresa
+            // 
+            this.cbo_id_empresa.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbo_id_empresa.FormattingEnabled = true;
+            this.cbo_id_empresa.Location = new System.Drawing.Point(95, 60);
+            this.cbo_id_empresa.Name = "cbo_id_empresa";
+            this.cbo_id_empresa.Size = new System.Drawing.Size(200, 32);
+            this.cbo_id_empresa.TabIndex = 44;
+            // 
+            // lbl_sueldo_bs
+            // 
+            this.lbl_sueldo_bs.AutoSize = true;
+            this.lbl_sueldo_bs.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_sueldo_bs.Location = new System.Drawing.Point(6, 60);
+            this.lbl_sueldo_bs.Name = "lbl_sueldo_bs";
+            this.lbl_sueldo_bs.Size = new System.Drawing.Size(77, 20);
+            this.lbl_sueldo_bs.TabIndex = 43;
+            this.lbl_sueldo_bs.Text = "Empresa:";
+            // 
+            // lbl_fech_inicio
+            // 
+            this.lbl_fech_inicio.AutoSize = true;
+            this.lbl_fech_inicio.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_fech_inicio.Location = new System.Drawing.Point(334, 31);
+            this.lbl_fech_inicio.Name = "lbl_fech_inicio";
+            this.lbl_fech_inicio.Size = new System.Drawing.Size(99, 20);
+            this.lbl_fech_inicio.TabIndex = 42;
+            this.lbl_fech_inicio.Text = "Fecha Inicio:";
+            // 
+            // dtp_fech_inicio
+            // 
+            this.dtp_fech_inicio.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dtp_fech_inicio.Location = new System.Drawing.Point(443, 29);
+            this.dtp_fech_inicio.Name = "dtp_fech_inicio";
+            this.dtp_fech_inicio.Size = new System.Drawing.Size(243, 23);
+            this.dtp_fech_inicio.TabIndex = 41;
+            // 
+            // lbl_form_emp
+            // 
+            this.lbl_form_emp.AutoSize = true;
+            this.lbl_form_emp.Font = new System.Drawing.Font("Microsoft Sans Serif", 21F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_form_emp.Location = new System.Drawing.Point(144, 9);
+            this.lbl_form_emp.Name = "lbl_form_emp";
+            this.lbl_form_emp.Size = new System.Drawing.Size(360, 32);
+            this.lbl_form_emp.TabIndex = 173;
+            this.lbl_form_emp.Text = "Nominas de los Empleados";
             // 
             // gpb_navegador
             // 
@@ -81,10 +215,10 @@
             this.gpb_navegador.Controls.Add(this.btn_actualizar);
             this.gpb_navegador.Controls.Add(this.btn_cancelar);
             this.gpb_navegador.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gpb_navegador.Location = new System.Drawing.Point(12, 54);
+            this.gpb_navegador.Location = new System.Drawing.Point(5, 54);
             this.gpb_navegador.Name = "gpb_navegador";
             this.gpb_navegador.Size = new System.Drawing.Size(636, 100);
-            this.gpb_navegador.TabIndex = 12;
+            this.gpb_navegador.TabIndex = 172;
             this.gpb_navegador.TabStop = false;
             this.gpb_navegador.Text = "Navegador";
             // 
@@ -103,7 +237,6 @@
             this.btn_nuevo.TabIndex = 0;
             this.toolTip1.SetToolTip(this.btn_nuevo, "Nuevo");
             this.btn_nuevo.UseVisualStyleBackColor = true;
-            this.btn_nuevo.Click += new System.EventHandler(this.btn_nuevo_Click);
             // 
             // btn_ultimo
             // 
@@ -120,7 +253,6 @@
             this.btn_ultimo.TabIndex = 10;
             this.toolTip9.SetToolTip(this.btn_ultimo, "Ultimo");
             this.btn_ultimo.UseVisualStyleBackColor = true;
-            this.btn_ultimo.Click += new System.EventHandler(this.btn_ultimo_Click);
             // 
             // btn_guardar
             // 
@@ -137,7 +269,6 @@
             this.btn_guardar.TabIndex = 1;
             this.toolTip10.SetToolTip(this.btn_guardar, "Guardar");
             this.btn_guardar.UseVisualStyleBackColor = true;
-            this.btn_guardar.Click += new System.EventHandler(this.btn_guardar_Click);
             // 
             // btn_primero
             // 
@@ -154,7 +285,6 @@
             this.btn_primero.TabIndex = 9;
             this.toolTip8.SetToolTip(this.btn_primero, "Primero");
             this.btn_primero.UseVisualStyleBackColor = true;
-            this.btn_primero.Click += new System.EventHandler(this.btn_primero_Click);
             // 
             // btn_editar
             // 
@@ -171,7 +301,6 @@
             this.btn_editar.TabIndex = 2;
             this.toolTip11.SetToolTip(this.btn_editar, "Editar");
             this.btn_editar.UseVisualStyleBackColor = true;
-            this.btn_editar.Click += new System.EventHandler(this.btn_editar_Click);
             // 
             // btn_siguiente
             // 
@@ -188,7 +317,6 @@
             this.btn_siguiente.TabIndex = 8;
             this.toolTip7.SetToolTip(this.btn_siguiente, "Siguiente");
             this.btn_siguiente.UseVisualStyleBackColor = true;
-            this.btn_siguiente.Click += new System.EventHandler(this.btn_siguiente_Click);
             // 
             // btn_eliminar
             // 
@@ -205,7 +333,6 @@
             this.btn_eliminar.TabIndex = 3;
             this.toolTip2.SetToolTip(this.btn_eliminar, "Eliminar");
             this.btn_eliminar.UseVisualStyleBackColor = true;
-            this.btn_eliminar.Click += new System.EventHandler(this.btn_eliminar_Click);
             // 
             // btn_anterior
             // 
@@ -222,7 +349,6 @@
             this.btn_anterior.TabIndex = 7;
             this.toolTip6.SetToolTip(this.btn_anterior, "Anterior");
             this.btn_anterior.UseVisualStyleBackColor = true;
-            this.btn_anterior.Click += new System.EventHandler(this.btn_anterior_Click);
             // 
             // btn_buscar
             // 
@@ -255,7 +381,6 @@
             this.btn_actualizar.TabIndex = 6;
             this.toolTip5.SetToolTip(this.btn_actualizar, "Actualizar");
             this.btn_actualizar.UseVisualStyleBackColor = true;
-            this.btn_actualizar.Click += new System.EventHandler(this.btn_actualizar_Click);
             // 
             // btn_cancelar
             // 
@@ -272,106 +397,13 @@
             this.btn_cancelar.TabIndex = 5;
             this.toolTip4.SetToolTip(this.btn_cancelar, "Cancelar");
             this.btn_cancelar.UseVisualStyleBackColor = true;
-            this.btn_cancelar.Click += new System.EventHandler(this.btn_cancelar_Click);
-            // 
-            // lbl_form_emp
-            // 
-            this.lbl_form_emp.AutoSize = true;
-            this.lbl_form_emp.Font = new System.Drawing.Font("Microsoft Sans Serif", 21F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_form_emp.Location = new System.Drawing.Point(151, 9);
-            this.lbl_form_emp.Name = "lbl_form_emp";
-            this.lbl_form_emp.Size = new System.Drawing.Size(360, 32);
-            this.lbl_form_emp.TabIndex = 170;
-            this.lbl_form_emp.Text = "Nominas de los Empleados";
-            // 
-            // gpb_regist_nominas
-            // 
-            this.gpb_regist_nominas.Controls.Add(this.txt_dtp_fecha_nomina);
-            this.gpb_regist_nominas.Controls.Add(this.txt_cbo_id_empresa);
-            this.gpb_regist_nominas.Controls.Add(this.dgv_datos_nominas);
-            this.gpb_regist_nominas.Controls.Add(this.cbo_id_empresa);
-            this.gpb_regist_nominas.Controls.Add(this.lbl_sueldo_bs);
-            this.gpb_regist_nominas.Controls.Add(this.lbl_fech_nacimient);
-            this.gpb_regist_nominas.Controls.Add(this.dtp_fecha_nomina);
-            this.gpb_regist_nominas.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gpb_regist_nominas.Location = new System.Drawing.Point(12, 160);
-            this.gpb_regist_nominas.Name = "gpb_regist_nominas";
-            this.gpb_regist_nominas.Size = new System.Drawing.Size(636, 308);
-            this.gpb_regist_nominas.TabIndex = 171;
-            this.gpb_regist_nominas.TabStop = false;
-            this.gpb_regist_nominas.Text = "Registro de Nominas";
-            // 
-            // txt_dtp_fecha_nomina
-            // 
-            this.txt_dtp_fecha_nomina.Location = new System.Drawing.Point(620, 24);
-            this.txt_dtp_fecha_nomina.Name = "txt_dtp_fecha_nomina";
-            this.txt_dtp_fecha_nomina.Size = new System.Drawing.Size(10, 24);
-            this.txt_dtp_fecha_nomina.TabIndex = 47;
-            this.txt_dtp_fecha_nomina.Tag = "fecha";
-            this.txt_dtp_fecha_nomina.Visible = false;
-            // 
-            // txt_cbo_id_empresa
-            // 
-            this.txt_cbo_id_empresa.Location = new System.Drawing.Point(298, 26);
-            this.txt_cbo_id_empresa.Name = "txt_cbo_id_empresa";
-            this.txt_cbo_id_empresa.Size = new System.Drawing.Size(10, 24);
-            this.txt_cbo_id_empresa.TabIndex = 46;
-            this.txt_cbo_id_empresa.Tag = "id_empresa_pk";
-            this.txt_cbo_id_empresa.Visible = false;
-            // 
-            // dgv_datos_nominas
-            // 
-            this.dgv_datos_nominas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgv_datos_nominas.Location = new System.Drawing.Point(9, 61);
-            this.dgv_datos_nominas.Name = "dgv_datos_nominas";
-            this.dgv_datos_nominas.RowTemplate.Height = 25;
-            this.dgv_datos_nominas.Size = new System.Drawing.Size(616, 239);
-            this.dgv_datos_nominas.TabIndex = 45;
-            this.dgv_datos_nominas.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_datos_nominas_CellContentClick);
-            // 
-            // cbo_id_empresa
-            // 
-            this.cbo_id_empresa.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbo_id_empresa.FormattingEnabled = true;
-            this.cbo_id_empresa.Location = new System.Drawing.Point(95, 26);
-            this.cbo_id_empresa.Name = "cbo_id_empresa";
-            this.cbo_id_empresa.Size = new System.Drawing.Size(200, 26);
-            this.cbo_id_empresa.TabIndex = 44;
-            // 
-            // lbl_sueldo_bs
-            // 
-            this.lbl_sueldo_bs.AutoSize = true;
-            this.lbl_sueldo_bs.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_sueldo_bs.Location = new System.Drawing.Point(17, 26);
-            this.lbl_sueldo_bs.Name = "lbl_sueldo_bs";
-            this.lbl_sueldo_bs.Size = new System.Drawing.Size(72, 18);
-            this.lbl_sueldo_bs.TabIndex = 43;
-            this.lbl_sueldo_bs.Text = "Empresa:";
-            // 
-            // lbl_fech_nacimient
-            // 
-            this.lbl_fech_nacimient.AutoSize = true;
-            this.lbl_fech_nacimient.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_fech_nacimient.Location = new System.Drawing.Point(312, 26);
-            this.lbl_fech_nacimient.Name = "lbl_fech_nacimient";
-            this.lbl_fech_nacimient.Size = new System.Drawing.Size(53, 18);
-            this.lbl_fech_nacimient.TabIndex = 42;
-            this.lbl_fech_nacimient.Text = "Fecha:";
-            // 
-            // dtp_fecha_nomina
-            // 
-            this.dtp_fecha_nomina.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dtp_fecha_nomina.Location = new System.Drawing.Point(371, 24);
-            this.dtp_fecha_nomina.Name = "dtp_fecha_nomina";
-            this.dtp_fecha_nomina.Size = new System.Drawing.Size(243, 23);
-            this.dtp_fecha_nomina.TabIndex = 41;
             // 
             // frm_Nominas_Empleados
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
-            this.ClientSize = new System.Drawing.Size(669, 474);
+            this.ClientSize = new System.Drawing.Size(722, 280);
             this.Controls.Add(this.gpb_regist_nominas);
             this.Controls.Add(this.lbl_form_emp);
             this.Controls.Add(this.gpb_navegador);
@@ -381,17 +413,39 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Nominas de Empleados";
             this.Load += new System.EventHandler(this.frm_Nominas_Empleados_Load);
-            this.gpb_navegador.ResumeLayout(false);
             this.gpb_regist_nominas.ResumeLayout(false);
             this.gpb_regist_nominas.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgv_datos_nominas)).EndInit();
+            this.gpb_navegador.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
+        private System.Windows.Forms.ToolTip toolTip1;
+        private System.Windows.Forms.ToolTip toolTip9;
+        private System.Windows.Forms.ToolTip toolTip10;
+        private System.Windows.Forms.ToolTip toolTip8;
+        private System.Windows.Forms.ToolTip toolTip11;
+        private System.Windows.Forms.ToolTip toolTip7;
+        private System.Windows.Forms.ToolTip toolTip2;
+        private System.Windows.Forms.ToolTip toolTip6;
+        private System.Windows.Forms.ToolTip toolTip3;
+        private System.Windows.Forms.ToolTip toolTip5;
+        private System.Windows.Forms.ToolTip toolTip4;
+        private System.Windows.Forms.GroupBox gpb_regist_nominas;
+        private System.Windows.Forms.TextBox txt_dtp_fecha_corte;
+        private System.Windows.Forms.Label lbl_fecha_corte;
+        private System.Windows.Forms.DateTimePicker dtp_fecha_corte;
+        private System.Windows.Forms.Label lbl_nomb_nomina;
+        private System.Windows.Forms.TextBox txt_nomb_nomina;
+        private System.Windows.Forms.TextBox txt_dtp_fech_inicio;
+        private System.Windows.Forms.TextBox txt_cbo_id_empresa;
+        private System.Windows.Forms.ComboBox cbo_id_empresa;
+        private System.Windows.Forms.Label lbl_sueldo_bs;
+        private System.Windows.Forms.Label lbl_fech_inicio;
+        private System.Windows.Forms.DateTimePicker dtp_fech_inicio;
+        private System.Windows.Forms.Label lbl_form_emp;
         private System.Windows.Forms.GroupBox gpb_navegador;
         private System.Windows.Forms.Button btn_nuevo;
         private System.Windows.Forms.Button btn_ultimo;
@@ -404,25 +458,5 @@
         private System.Windows.Forms.Button btn_buscar;
         private System.Windows.Forms.Button btn_actualizar;
         private System.Windows.Forms.Button btn_cancelar;
-        private System.Windows.Forms.Label lbl_form_emp;
-        private System.Windows.Forms.GroupBox gpb_regist_nominas;
-        private System.Windows.Forms.DataGridView dgv_datos_nominas;
-        private System.Windows.Forms.ComboBox cbo_id_empresa;
-        private System.Windows.Forms.Label lbl_sueldo_bs;
-        private System.Windows.Forms.Label lbl_fech_nacimient;
-        private System.Windows.Forms.DateTimePicker dtp_fecha_nomina;
-        private System.Windows.Forms.ToolTip toolTip1;
-        private System.Windows.Forms.ToolTip toolTip9;
-        private System.Windows.Forms.ToolTip toolTip10;
-        private System.Windows.Forms.ToolTip toolTip8;
-        private System.Windows.Forms.ToolTip toolTip11;
-        private System.Windows.Forms.ToolTip toolTip7;
-        private System.Windows.Forms.ToolTip toolTip2;
-        private System.Windows.Forms.ToolTip toolTip6;
-        private System.Windows.Forms.ToolTip toolTip3;
-        private System.Windows.Forms.ToolTip toolTip5;
-        private System.Windows.Forms.ToolTip toolTip4;
-        private System.Windows.Forms.TextBox txt_dtp_fecha_nomina;
-        private System.Windows.Forms.TextBox txt_cbo_id_empresa;
     }
 }

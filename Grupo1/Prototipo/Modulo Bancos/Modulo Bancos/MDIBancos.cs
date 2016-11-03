@@ -14,9 +14,9 @@ namespace Modulo_Bancos
     public partial class MDIBancos : Form
     {
         private int childFormNumber = 0;
+        Busqueda_Documento busc_doc;
         Documento doc;
         Cheque_Voucher che_Vo;
-        Buscar_Cheque che;
         Conciliacion_Bancaria con_ban;
         Disponibilidad_bancaria disp_ban;
         Tipo_Documento tip_doc;
@@ -33,6 +33,7 @@ namespace Modulo_Bancos
         //Form_login form_log = new Form_login();
         Form_infouser form_infouser = new Form_infouser();
         FormEliminarPerfil inofuser = new FormEliminarPerfil();
+        Kardex_Bancos kar_doc = new Kardex_Bancos();
 
         public MDIBancos()
         {
@@ -117,7 +118,7 @@ namespace Modulo_Bancos
 
         private void documentosToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            if (doc == null)
+            if (busc_doc == null)
             {
                 busq_doc = new Busqueda_Documento();
                 busq_doc.MdiParent = this;
@@ -133,17 +134,17 @@ namespace Modulo_Bancos
 
         private void chequeVoucherToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            if (che == null)
+            if (che_Vo == null)
             {
-                che = new Buscar_Cheque();
-                che.MdiParent = this;
-                che.FormClosed += new FormClosedEventHandler(cheque_voucher_FormClosed);
-                che.Show();
+                che_Vo = new Cheque_Voucher();
+                che_Vo.MdiParent = this;
+                che_Vo.FormClosed += new FormClosedEventHandler(cheque_voucher_FormClosed);
+                che_Vo.Show();
             }
         }
         void cheque_voucher_FormClosed(object sender, EventArgs e)
         {
-            che = null;
+            che_Vo = null;
         }
 
         private void MDIBancos_Load(object sender, EventArgs e)
@@ -408,6 +409,38 @@ namespace Modulo_Bancos
         public void agregarapp_FormClosed(object sender, FormClosedEventArgs e)
         {
             form_app = null;
+        }
+
+        private const string ayudabancos = "ayuda otto.chm";
+        private void ayudaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            System.Windows.Forms.Help.ShowHelp(this, Application.StartupPath + @"/" + ayudabancos);
+        }
+
+        private void documentoDeAyudaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            System.Windows.Forms.Help.ShowHelp(this, Application.StartupPath + @"/" + ayudabancos);
+        }
+
+        private void indexToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void kardexDocumentosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (kar_doc == null)
+            {
+                kar_doc = new Kardex_Bancos();
+                kar_doc.MdiParent = this;
+                kar_doc.FormClosed += new FormClosedEventHandler(kardex_FormClosed);
+                kar_doc.Show();
+            }
+        }
+
+        void kardex_FormClosed(object sender, EventArgs e)
+        {
+            kar_doc = null;
         }
     }
 }

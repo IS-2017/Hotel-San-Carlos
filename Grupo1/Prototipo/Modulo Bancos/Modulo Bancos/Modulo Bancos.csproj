@@ -13,6 +13,22 @@
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <TargetFrameworkProfile />
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Prototipo\Sextra Entrega\Instalador Bancos\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>2</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -32,6 +48,18 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>A0F9AA6EE08C5D7E884B0DB4510CB283C9AD0623</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Modulo Bancos_ClaveTemporal.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Abrir, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
@@ -64,9 +92,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Ayuda.cs" />
-    <Compile Include="Buscar_Cheque.cs">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="Busqueda Documento.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -75,6 +100,9 @@
     </Compile>
     <Compile Include="Cheque_Voucher.cs">
       <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cheque_Voucher.designer.cs">
+      <DependentUpon>Cheque_Voucher.cs</DependentUpon>
     </Compile>
     <Compile Include="Conciliacion_Bancaria.cs">
       <SubType>Form</SubType>
@@ -100,6 +128,12 @@
     <Compile Include="Form_login.designer.cs">
       <DependentUpon>Form_login.cs</DependentUpon>
     </Compile>
+    <Compile Include="Kardex_Bancos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kardex_Bancos.Designer.cs">
+      <DependentUpon>Kardex_Bancos.cs</DependentUpon>
+    </Compile>
     <Compile Include="MDIBancos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -118,6 +152,9 @@
     <EmbeddedResource Include="Busqueda Documento.resx">
       <DependentUpon>Busqueda Documento.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Cheque_Voucher.resx">
+      <DependentUpon>Cheque_Voucher.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Conciliacion_Bancaria.resx">
       <DependentUpon>Conciliacion_Bancaria.cs</DependentUpon>
     </EmbeddedResource>
@@ -129,6 +166,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form_login.resx">
       <DependentUpon>Form_login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kardex_Bancos.resx">
+      <DependentUpon>Kardex_Bancos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MDIBancos.resx">
       <DependentUpon>MDIBancos.cs</DependentUpon>
@@ -146,6 +186,7 @@
     <EmbeddedResource Include="Tipo_Documento.resx">
       <DependentUpon>Tipo_Documento.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="Modulo Bancos_ClaveTemporal.pfx" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -164,6 +205,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Button-Help-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5.1 %28x86 y x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

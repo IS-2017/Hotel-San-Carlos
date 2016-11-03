@@ -60,6 +60,7 @@ namespace Prototipo__RRHH
         }
 
         string imgLoc;
+        string imgname;
         String Codigo;
         Boolean Editar;
         String atributo;
@@ -85,7 +86,19 @@ namespace Prototipo__RRHH
                 if (dlg.ShowDialog() == DialogResult.OK)
                 {
                     imgLoc = dlg.FileName.ToString();
+                    imgname = dlg.SafeFileName.ToString();
+                    txt_nom_img.Text = imgname;
                     pic_empleado.ImageLocation = imgLoc;
+                    txt_direc_img.Text = imgLoc;
+                    string targetPath = @"C:/empleados";
+                    string sourceFile = System.IO.Path.Combine(imgLoc);
+                    string destFile = System.IO.Path.Combine(targetPath, imgname);
+                    if (!System.IO.Directory.Exists(targetPath))
+                    {
+                        System.IO.Directory.CreateDirectory(targetPath);
+                    }
+                    System.IO.File.Copy(sourceFile, destFile, true);
+                    txt_img_final.Text = destFile;
                 }
             }
             catch (Exception ex)
@@ -181,7 +194,7 @@ namespace Prototipo__RRHH
                 txt_cbo_cargo_emp.Text = cbo_cargo_emp.Text;
                 txt_cbo_gener_emp.Text = cbo_gener_emp.Text;
 
-                TextBox[] textbox = { txt_nomb_emp, txt_dtp_fecha_nacim, txt_edad_emp, txt_dpi_emp, txt_cbo_nacional_emp, txt_cbo_estad_civ_emp, txt_carne_igss_emp, txt_sueldo_emp, txt_tipo_sueldo, txt_empresa, txt_dtp_fecha_ingr_emp, txt_dtp_fecha_egre_emp, txt_direc_emp, txt_cbo_cargo_emp, txt_telef_emp, txt_cbo_gener_emp };
+                TextBox[] textbox = { txt_nomb_emp, txt_dtp_fecha_nacim, txt_edad_emp, txt_dpi_emp, txt_cbo_nacional_emp, txt_cbo_estad_civ_emp, txt_carne_igss_emp, txt_sueldo_emp, txt_tipo_sueldo, txt_empresa, txt_dtp_fecha_ingr_emp, txt_dtp_fecha_egre_emp, txt_direc_emp, txt_cbo_cargo_emp, txt_telef_emp, txt_cbo_gener_emp, txt_nom_img, txt_estado };
                 DataTable datos = fn.construirDataTable(textbox);
                 if (datos.Rows.Count == 0)
                 {
@@ -200,18 +213,19 @@ namespace Prototipo__RRHH
 
                         Conexionmysql.ObtenerConexion();
                        
-                        byte[] img = null;
+                        /*byte[] img = null;
                         FileStream fs = new FileStream(imgLoc, FileMode.Open, FileAccess.Read);
                         BinaryReader br = new BinaryReader(fs);
                         img = br.ReadBytes((int)fs.Length);
                         string sql = "Insert Into empleado (foto_empleado) values (',@img,')";
                         Conexionmysql.EjecutarMySql(sql);
                         comand = new MySqlCommand(sql);
-                        comand.Parameters.Add(new MySqlParameter("@img", img));
+                        comand.Parameters.Add(new MySqlParameter("@img", img));*/
 
 
                     }
                     fn.LimpiarComponentes(this);
+                    pic_empleado.Image = null;
                 }
             }
             catch (Exception ex)
@@ -240,8 +254,12 @@ namespace Prototipo__RRHH
                 this.txt_dtp_fecha_egre_emp.Text = this.dg.CurrentRow.Cells[7].Value.ToString(); dtp_fecha_egre_emp.Text = txt_dtp_fecha_egre_emp.Text;
                 this.txt_direc_emp.Text = this.dg.CurrentRow.Cells[3].Value.ToString();
                 this.txt_telef_emp.Text = this.dg.CurrentRow.Cells[2].Value.ToString();
-                this.txt_cbo_gener_emp.Text = this.dg.CurrentRow.Cells[13].Value.ToString(); cbo_gener_emp.Text = txt_cbo_gener_emp.Text;
+                this.txt_nom_img.Text = this.dg.CurrentRow.Cells[17].Value.ToString();
+                this.txt_empresa.Text = this.dg.CurrentRow.Cells[18].Value.ToString();
+                this.txt_cbo_gener_emp.Text = this.dg.CurrentRow.Cells[4].Value.ToString(); cbo_gener_emp.Text = txt_cbo_gener_emp.Text;
                 fn.ActivarControles(gpb_regist_emp);
+                string direc = txt_nom_img.Text;
+                pic_empleado.ImageLocation = @"C:\empleados\" + direc;
             }
             catch
             {
@@ -283,6 +301,25 @@ namespace Prototipo__RRHH
             dtp_fecha_egre_emp.Text = txt_dtp_fecha_egre_emp.Text;
             cbo_cargo_emp.Text = txt_cbo_cargo_emp.Text;
             cbo_gener_emp.Text = txt_cbo_gener_emp.Text; */
+            atributo = "id_empleados_pk";
+            this.Codigo = this.dg.CurrentRow.Cells[0].Value.ToString();
+            this.txt_nomb_emp.Text = this.dg.CurrentRow.Cells[1].Value.ToString();
+            this.txt_dtp_fecha_nacim.Text = this.dg.CurrentRow.Cells[5].Value.ToString(); dtp_fecha_nacim.Text = txt_dtp_fecha_nacim.Text;
+            this.txt_edad_emp.Text = this.dg.CurrentRow.Cells[11].Value.ToString();
+            this.txt_dpi_emp.Text = this.dg.CurrentRow.Cells[8].Value.ToString();
+            this.txt_cbo_nacional_emp.Text = this.dg.CurrentRow.Cells[12].Value.ToString(); cbo_nacional_emp.Text = txt_cbo_nacional_emp.Text;
+            this.txt_cbo_estad_civ_emp.Text = this.dg.CurrentRow.Cells[13].Value.ToString(); cbo_estad_civ_emp.Text = txt_cbo_estad_civ_emp.Text;
+            this.txt_carne_igss_emp.Text = this.dg.CurrentRow.Cells[9].Value.ToString();
+            this.txt_sueldo_emp.Text = this.dg.CurrentRow.Cells[15].Value.ToString();
+            this.txt_tipo_sueldo.Text = this.dg.CurrentRow.Cells[16].Value.ToString();
+            this.txt_dtp_fecha_ingr_emp.Text = this.dg.CurrentRow.Cells[6].Value.ToString(); dtp_fecha_ingr_emp.Text = txt_dtp_fecha_ingr_emp.Text;
+            this.txt_dtp_fecha_egre_emp.Text = this.dg.CurrentRow.Cells[7].Value.ToString(); dtp_fecha_egre_emp.Text = txt_dtp_fecha_egre_emp.Text;
+            this.txt_direc_emp.Text = this.dg.CurrentRow.Cells[3].Value.ToString();
+            this.txt_telef_emp.Text = this.dg.CurrentRow.Cells[2].Value.ToString();
+            this.txt_cbo_gener_emp.Text = this.dg.CurrentRow.Cells[13].Value.ToString(); cbo_gener_emp.Text = txt_cbo_gener_emp.Text;
+            this.txt_nom_img.Text = this.dg.CurrentRow.Cells[17].Value.ToString();
+            string direc = txt_nom_img.Text;
+            pic_empleado.ImageLocation = @"C:\empleados\" + direc;
         }
 
         private void btn_siguiente_Click(object sender, EventArgs e)
@@ -297,6 +334,25 @@ namespace Prototipo__RRHH
             dtp_fecha_egre_emp.Text = txt_dtp_fecha_egre_emp.Text;
             cbo_cargo_emp.Text = txt_cbo_cargo_emp.Text;
             cbo_gener_emp.Text = txt_cbo_gener_emp.Text;*/
+            atributo = "id_empleados_pk";
+            this.Codigo = this.dg.CurrentRow.Cells[0].Value.ToString();
+            this.txt_nomb_emp.Text = this.dg.CurrentRow.Cells[1].Value.ToString();
+            this.txt_dtp_fecha_nacim.Text = this.dg.CurrentRow.Cells[5].Value.ToString(); dtp_fecha_nacim.Text = txt_dtp_fecha_nacim.Text;
+            this.txt_edad_emp.Text = this.dg.CurrentRow.Cells[11].Value.ToString();
+            this.txt_dpi_emp.Text = this.dg.CurrentRow.Cells[8].Value.ToString();
+            this.txt_cbo_nacional_emp.Text = this.dg.CurrentRow.Cells[12].Value.ToString(); cbo_nacional_emp.Text = txt_cbo_nacional_emp.Text;
+            this.txt_cbo_estad_civ_emp.Text = this.dg.CurrentRow.Cells[13].Value.ToString(); cbo_estad_civ_emp.Text = txt_cbo_estad_civ_emp.Text;
+            this.txt_carne_igss_emp.Text = this.dg.CurrentRow.Cells[9].Value.ToString();
+            this.txt_sueldo_emp.Text = this.dg.CurrentRow.Cells[15].Value.ToString();
+            this.txt_tipo_sueldo.Text = this.dg.CurrentRow.Cells[16].Value.ToString();
+            this.txt_dtp_fecha_ingr_emp.Text = this.dg.CurrentRow.Cells[6].Value.ToString(); dtp_fecha_ingr_emp.Text = txt_dtp_fecha_ingr_emp.Text;
+            this.txt_dtp_fecha_egre_emp.Text = this.dg.CurrentRow.Cells[7].Value.ToString(); dtp_fecha_egre_emp.Text = txt_dtp_fecha_egre_emp.Text;
+            this.txt_direc_emp.Text = this.dg.CurrentRow.Cells[3].Value.ToString();
+            this.txt_telef_emp.Text = this.dg.CurrentRow.Cells[2].Value.ToString();
+            this.txt_cbo_gener_emp.Text = this.dg.CurrentRow.Cells[13].Value.ToString(); cbo_gener_emp.Text = txt_cbo_gener_emp.Text;
+            this.txt_nom_img.Text = this.dg.CurrentRow.Cells[17].Value.ToString();
+            string direc = txt_nom_img.Text;
+            pic_empleado.ImageLocation = @"C:\empleados\" + direc;
         }
 
         private void btn_primero_Click(object sender, EventArgs e)
@@ -311,6 +367,25 @@ namespace Prototipo__RRHH
             dtp_fecha_egre_emp.Text = txt_dtp_fecha_egre_emp.Text;
             cbo_cargo_emp.Text = txt_cbo_cargo_emp.Text;
             cbo_gener_emp.Text = txt_cbo_gener_emp.Text; */
+            atributo = "id_empleados_pk";
+            this.Codigo = this.dg.CurrentRow.Cells[0].Value.ToString();
+            this.txt_nomb_emp.Text = this.dg.CurrentRow.Cells[1].Value.ToString();
+            this.txt_dtp_fecha_nacim.Text = this.dg.CurrentRow.Cells[5].Value.ToString(); dtp_fecha_nacim.Text = txt_dtp_fecha_nacim.Text;
+            this.txt_edad_emp.Text = this.dg.CurrentRow.Cells[11].Value.ToString();
+            this.txt_dpi_emp.Text = this.dg.CurrentRow.Cells[8].Value.ToString();
+            this.txt_cbo_nacional_emp.Text = this.dg.CurrentRow.Cells[12].Value.ToString(); cbo_nacional_emp.Text = txt_cbo_nacional_emp.Text;
+            this.txt_cbo_estad_civ_emp.Text = this.dg.CurrentRow.Cells[13].Value.ToString(); cbo_estad_civ_emp.Text = txt_cbo_estad_civ_emp.Text;
+            this.txt_carne_igss_emp.Text = this.dg.CurrentRow.Cells[9].Value.ToString();
+            this.txt_sueldo_emp.Text = this.dg.CurrentRow.Cells[15].Value.ToString();
+            this.txt_tipo_sueldo.Text = this.dg.CurrentRow.Cells[16].Value.ToString();
+            this.txt_dtp_fecha_ingr_emp.Text = this.dg.CurrentRow.Cells[6].Value.ToString(); dtp_fecha_ingr_emp.Text = txt_dtp_fecha_ingr_emp.Text;
+            this.txt_dtp_fecha_egre_emp.Text = this.dg.CurrentRow.Cells[7].Value.ToString(); dtp_fecha_egre_emp.Text = txt_dtp_fecha_egre_emp.Text;
+            this.txt_direc_emp.Text = this.dg.CurrentRow.Cells[3].Value.ToString();
+            this.txt_telef_emp.Text = this.dg.CurrentRow.Cells[2].Value.ToString();
+            this.txt_cbo_gener_emp.Text = this.dg.CurrentRow.Cells[13].Value.ToString(); cbo_gener_emp.Text = txt_cbo_gener_emp.Text;
+            this.txt_nom_img.Text = this.dg.CurrentRow.Cells[17].Value.ToString();
+            string direc = txt_nom_img.Text;
+            pic_empleado.ImageLocation = @"C:\empleados\" + direc;
         }
 
         private void btn_ultimo_Click(object sender, EventArgs e)
@@ -325,6 +400,25 @@ namespace Prototipo__RRHH
             dtp_fecha_egre_emp.Text = txt_dtp_fecha_egre_emp.Text;
             cbo_cargo_emp.Text = txt_cbo_cargo_emp.Text;
             cbo_gener_emp.Text = txt_cbo_gener_emp.Text;*/
+            atributo = "id_empleados_pk";
+            this.Codigo = this.dg.CurrentRow.Cells[0].Value.ToString();
+            this.txt_nomb_emp.Text = this.dg.CurrentRow.Cells[1].Value.ToString();
+            this.txt_dtp_fecha_nacim.Text = this.dg.CurrentRow.Cells[5].Value.ToString(); dtp_fecha_nacim.Text = txt_dtp_fecha_nacim.Text;
+            this.txt_edad_emp.Text = this.dg.CurrentRow.Cells[11].Value.ToString();
+            this.txt_dpi_emp.Text = this.dg.CurrentRow.Cells[8].Value.ToString();
+            this.txt_cbo_nacional_emp.Text = this.dg.CurrentRow.Cells[12].Value.ToString(); cbo_nacional_emp.Text = txt_cbo_nacional_emp.Text;
+            this.txt_cbo_estad_civ_emp.Text = this.dg.CurrentRow.Cells[13].Value.ToString(); cbo_estad_civ_emp.Text = txt_cbo_estad_civ_emp.Text;
+            this.txt_carne_igss_emp.Text = this.dg.CurrentRow.Cells[9].Value.ToString();
+            this.txt_sueldo_emp.Text = this.dg.CurrentRow.Cells[15].Value.ToString();
+            this.txt_tipo_sueldo.Text = this.dg.CurrentRow.Cells[16].Value.ToString();
+            this.txt_dtp_fecha_ingr_emp.Text = this.dg.CurrentRow.Cells[6].Value.ToString(); dtp_fecha_ingr_emp.Text = txt_dtp_fecha_ingr_emp.Text;
+            this.txt_dtp_fecha_egre_emp.Text = this.dg.CurrentRow.Cells[7].Value.ToString(); dtp_fecha_egre_emp.Text = txt_dtp_fecha_egre_emp.Text;
+            this.txt_direc_emp.Text = this.dg.CurrentRow.Cells[3].Value.ToString();
+            this.txt_telef_emp.Text = this.dg.CurrentRow.Cells[2].Value.ToString();
+            this.txt_cbo_gener_emp.Text = this.dg.CurrentRow.Cells[13].Value.ToString(); cbo_gener_emp.Text = txt_cbo_gener_emp.Text;
+            this.txt_nom_img.Text = this.dg.CurrentRow.Cells[17].Value.ToString();
+            string direc = txt_nom_img.Text;
+            pic_empleado.ImageLocation = @"C:\empleados\" + direc;
         }
     }
 }

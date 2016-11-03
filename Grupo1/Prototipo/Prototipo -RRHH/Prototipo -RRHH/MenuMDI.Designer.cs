@@ -40,6 +40,10 @@
             this.empleadosToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.procesosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.comisionDeVendedorToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.porMarcaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.porVendedorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.porLineaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.porProductoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.nominasToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.reportesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.planillaIGSSToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
@@ -63,10 +67,6 @@
             this.searchToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator8 = new System.Windows.Forms.ToolStripSeparator();
             this.toolTip = new System.Windows.Forms.ToolTip(this.components);
-            this.comisionesPorMarcaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.comisionesPorLineaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.comisionesPorProudctoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.comisionesPorVendedorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -159,15 +159,43 @@
             // comisionDeVendedorToolStripMenuItem1
             // 
             this.comisionDeVendedorToolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.comisionesPorMarcaToolStripMenuItem,
-            this.comisionesPorLineaToolStripMenuItem,
-            this.comisionesPorProudctoToolStripMenuItem,
-            this.comisionesPorVendedorToolStripMenuItem});
+            this.porMarcaToolStripMenuItem,
+            this.porVendedorToolStripMenuItem,
+            this.porLineaToolStripMenuItem,
+            this.porProductoToolStripMenuItem});
             this.comisionDeVendedorToolStripMenuItem1.Image = ((System.Drawing.Image)(resources.GetObject("comisionDeVendedorToolStripMenuItem1.Image")));
             this.comisionDeVendedorToolStripMenuItem1.Name = "comisionDeVendedorToolStripMenuItem1";
             this.comisionDeVendedorToolStripMenuItem1.Size = new System.Drawing.Size(194, 22);
             this.comisionDeVendedorToolStripMenuItem1.Text = "Comision de vendedor";
             this.comisionDeVendedorToolStripMenuItem1.Click += new System.EventHandler(this.comisionDeVendedorToolStripMenuItem1_Click_1);
+            // 
+            // porMarcaToolStripMenuItem
+            // 
+            this.porMarcaToolStripMenuItem.Name = "porMarcaToolStripMenuItem";
+            this.porMarcaToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.porMarcaToolStripMenuItem.Text = "Por Marca";
+            this.porMarcaToolStripMenuItem.Click += new System.EventHandler(this.porMarcaToolStripMenuItem_Click);
+            // 
+            // porVendedorToolStripMenuItem
+            // 
+            this.porVendedorToolStripMenuItem.Name = "porVendedorToolStripMenuItem";
+            this.porVendedorToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.porVendedorToolStripMenuItem.Text = "Por Vendedor";
+            this.porVendedorToolStripMenuItem.Click += new System.EventHandler(this.porVendedorToolStripMenuItem_Click);
+            // 
+            // porLineaToolStripMenuItem
+            // 
+            this.porLineaToolStripMenuItem.Name = "porLineaToolStripMenuItem";
+            this.porLineaToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.porLineaToolStripMenuItem.Text = "Por Linea";
+            this.porLineaToolStripMenuItem.Click += new System.EventHandler(this.porLineaToolStripMenuItem_Click);
+            // 
+            // porProductoToolStripMenuItem
+            // 
+            this.porProductoToolStripMenuItem.Name = "porProductoToolStripMenuItem";
+            this.porProductoToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.porProductoToolStripMenuItem.Text = "Por Producto";
+            this.porProductoToolStripMenuItem.Click += new System.EventHandler(this.porProductoToolStripMenuItem_Click);
             // 
             // nominasToolStripMenuItem1
             // 
@@ -191,14 +219,14 @@
             // 
             this.planillaIGSSToolStripMenuItem1.Image = ((System.Drawing.Image)(resources.GetObject("planillaIGSSToolStripMenuItem1.Image")));
             this.planillaIGSSToolStripMenuItem1.Name = "planillaIGSSToolStripMenuItem1";
-            this.planillaIGSSToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
+            this.planillaIGSSToolStripMenuItem1.Size = new System.Drawing.Size(138, 22);
             this.planillaIGSSToolStripMenuItem1.Text = "Planilla IGSS";
             this.planillaIGSSToolStripMenuItem1.Click += new System.EventHandler(this.planillaIGSSToolStripMenuItem1_Click_1);
             // 
             // bitacoraToolStripMenuItem
             // 
             this.bitacoraToolStripMenuItem.Name = "bitacoraToolStripMenuItem";
-            this.bitacoraToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.bitacoraToolStripMenuItem.Size = new System.Drawing.Size(138, 22);
             this.bitacoraToolStripMenuItem.Text = "Bitacora";
             this.bitacoraToolStripMenuItem.Click += new System.EventHandler(this.bitacoraToolStripMenuItem_Click_1);
             // 
@@ -349,34 +377,6 @@
             this.toolStripSeparator8.Name = "toolStripSeparator8";
             this.toolStripSeparator8.Size = new System.Drawing.Size(233, 6);
             // 
-            // comisionesPorMarcaToolStripMenuItem
-            // 
-            this.comisionesPorMarcaToolStripMenuItem.Name = "comisionesPorMarcaToolStripMenuItem";
-            this.comisionesPorMarcaToolStripMenuItem.Size = new System.Drawing.Size(210, 22);
-            this.comisionesPorMarcaToolStripMenuItem.Text = "Comisiones por marca";
-            this.comisionesPorMarcaToolStripMenuItem.Click += new System.EventHandler(this.comisionesPorMarcaToolStripMenuItem_Click);
-            // 
-            // comisionesPorLineaToolStripMenuItem
-            // 
-            this.comisionesPorLineaToolStripMenuItem.Name = "comisionesPorLineaToolStripMenuItem";
-            this.comisionesPorLineaToolStripMenuItem.Size = new System.Drawing.Size(210, 22);
-            this.comisionesPorLineaToolStripMenuItem.Text = "Comisiones por linea";
-            this.comisionesPorLineaToolStripMenuItem.Click += new System.EventHandler(this.comisionesPorLineaToolStripMenuItem_Click);
-            // 
-            // comisionesPorProudctoToolStripMenuItem
-            // 
-            this.comisionesPorProudctoToolStripMenuItem.Name = "comisionesPorProudctoToolStripMenuItem";
-            this.comisionesPorProudctoToolStripMenuItem.Size = new System.Drawing.Size(210, 22);
-            this.comisionesPorProudctoToolStripMenuItem.Text = "Comisiones por proudcto";
-            this.comisionesPorProudctoToolStripMenuItem.Click += new System.EventHandler(this.comisionesPorProudctoToolStripMenuItem_Click);
-            // 
-            // comisionesPorVendedorToolStripMenuItem
-            // 
-            this.comisionesPorVendedorToolStripMenuItem.Name = "comisionesPorVendedorToolStripMenuItem";
-            this.comisionesPorVendedorToolStripMenuItem.Size = new System.Drawing.Size(210, 22);
-            this.comisionesPorVendedorToolStripMenuItem.Text = "Comisiones por vendedor";
-            this.comisionesPorVendedorToolStripMenuItem.Click += new System.EventHandler(this.comisionesPorVendedorToolStripMenuItem_Click);
-            // 
             // MenuMDI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -436,10 +436,10 @@
         private System.Windows.Forms.ToolStripMenuItem deshabilitarToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem aplicacionesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem bitacoraToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem comisionesPorMarcaToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem comisionesPorLineaToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem comisionesPorProudctoToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem comisionesPorVendedorToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem porMarcaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem porVendedorToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem porLineaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem porProductoToolStripMenuItem;
     }
 }
 

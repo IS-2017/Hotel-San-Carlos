@@ -37,6 +37,9 @@
             this.lbl_tipo_sueldo = new System.Windows.Forms.Label();
             this.txt_dtp_fecha_egre_emp = new System.Windows.Forms.TextBox();
             this.txt_dtp_fecha_ingr_emp = new System.Windows.Forms.TextBox();
+            this.txt_img_final = new System.Windows.Forms.TextBox();
+            this.txt_nom_img = new System.Windows.Forms.TextBox();
+            this.txt_direc_img = new System.Windows.Forms.TextBox();
             this.txt_cbo_gener_emp = new System.Windows.Forms.TextBox();
             this.txt_cbo_cargo_emp = new System.Windows.Forms.TextBox();
             this.txt_cbo_estad_civ_emp = new System.Windows.Forms.TextBox();
@@ -96,6 +99,9 @@
             this.toolTip9 = new System.Windows.Forms.ToolTip(this.components);
             this.toolTip10 = new System.Windows.Forms.ToolTip(this.components);
             this.toolTip11 = new System.Windows.Forms.ToolTip(this.components);
+            this.lbl_cod_emp = new System.Windows.Forms.Label();
+            this.txt_cod_emp = new System.Windows.Forms.TextBox();
+            this.txt_estado = new System.Windows.Forms.TextBox();
             this.gpb_regist_emp.SuspendLayout();
             this.gpb_navegador.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pic_empleado)).BeginInit();
@@ -109,6 +115,10 @@
             this.gpb_regist_emp.Controls.Add(this.lbl_tipo_sueldo);
             this.gpb_regist_emp.Controls.Add(this.txt_dtp_fecha_egre_emp);
             this.gpb_regist_emp.Controls.Add(this.txt_dtp_fecha_ingr_emp);
+            this.gpb_regist_emp.Controls.Add(this.txt_estado);
+            this.gpb_regist_emp.Controls.Add(this.txt_img_final);
+            this.gpb_regist_emp.Controls.Add(this.txt_nom_img);
+            this.gpb_regist_emp.Controls.Add(this.txt_direc_img);
             this.gpb_regist_emp.Controls.Add(this.txt_cbo_gener_emp);
             this.gpb_regist_emp.Controls.Add(this.txt_cbo_cargo_emp);
             this.gpb_regist_emp.Controls.Add(this.txt_cbo_estad_civ_emp);
@@ -206,6 +216,33 @@
             this.txt_dtp_fecha_ingr_emp.TabIndex = 176;
             this.txt_dtp_fecha_ingr_emp.Tag = "fecha_ingreso";
             this.txt_dtp_fecha_ingr_emp.Visible = false;
+            // 
+            // txt_img_final
+            // 
+            this.txt_img_final.Location = new System.Drawing.Point(519, 263);
+            this.txt_img_final.Name = "txt_img_final";
+            this.txt_img_final.Size = new System.Drawing.Size(28, 24);
+            this.txt_img_final.TabIndex = 175;
+            this.txt_img_final.Tag = "genero";
+            this.txt_img_final.Visible = false;
+            // 
+            // txt_nom_img
+            // 
+            this.txt_nom_img.Location = new System.Drawing.Point(485, 263);
+            this.txt_nom_img.Name = "txt_nom_img";
+            this.txt_nom_img.Size = new System.Drawing.Size(28, 24);
+            this.txt_nom_img.TabIndex = 175;
+            this.txt_nom_img.Tag = "foto_empleado";
+            this.txt_nom_img.Visible = false;
+            // 
+            // txt_direc_img
+            // 
+            this.txt_direc_img.Location = new System.Drawing.Point(451, 263);
+            this.txt_direc_img.Name = "txt_direc_img";
+            this.txt_direc_img.Size = new System.Drawing.Size(28, 24);
+            this.txt_direc_img.TabIndex = 175;
+            this.txt_direc_img.Tag = "genero";
+            this.txt_direc_img.Visible = false;
             // 
             // txt_cbo_gener_emp
             // 
@@ -799,12 +836,44 @@
             this.lbl_form_emp.TabIndex = 169;
             this.lbl_form_emp.Text = "Formulario de Empleados";
             // 
+            // lbl_cod_emp
+            // 
+            this.lbl_cod_emp.AutoSize = true;
+            this.lbl_cod_emp.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_cod_emp.Location = new System.Drawing.Point(12, 9);
+            this.lbl_cod_emp.Name = "lbl_cod_emp";
+            this.lbl_cod_emp.Size = new System.Drawing.Size(131, 18);
+            this.lbl_cod_emp.TabIndex = 170;
+            this.lbl_cod_emp.Text = "Código Empleado:";
+            this.lbl_cod_emp.Visible = false;
+            // 
+            // txt_cod_emp
+            // 
+            this.txt_cod_emp.Enabled = false;
+            this.txt_cod_emp.Location = new System.Drawing.Point(140, 10);
+            this.txt_cod_emp.Name = "txt_cod_emp";
+            this.txt_cod_emp.Size = new System.Drawing.Size(101, 20);
+            this.txt_cod_emp.TabIndex = 171;
+            this.txt_cod_emp.Visible = false;
+            // 
+            // txt_estado
+            // 
+            this.txt_estado.Location = new System.Drawing.Point(553, 263);
+            this.txt_estado.Name = "txt_estado";
+            this.txt_estado.Size = new System.Drawing.Size(28, 24);
+            this.txt_estado.TabIndex = 175;
+            this.txt_estado.Tag = "estado";
+            this.txt_estado.Text = "ACTIVO";
+            this.txt_estado.Visible = false;
+            // 
             // Empleados
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
             this.ClientSize = new System.Drawing.Size(799, 477);
+            this.Controls.Add(this.lbl_cod_emp);
+            this.Controls.Add(this.txt_cod_emp);
             this.Controls.Add(this.lbl_form_emp);
             this.Controls.Add(this.pic_empleado);
             this.Controls.Add(this.gpb_navegador);
@@ -892,5 +961,11 @@
         public System.Windows.Forms.TextBox txt_empresa;
         public System.Windows.Forms.Label lbl_empresa;
         public System.Windows.Forms.ComboBox cbo_nacional_emp;
+        private System.Windows.Forms.TextBox txt_img_final;
+        private System.Windows.Forms.TextBox txt_nom_img;
+        private System.Windows.Forms.TextBox txt_direc_img;
+        public System.Windows.Forms.Label lbl_cod_emp;
+        public System.Windows.Forms.TextBox txt_cod_emp;
+        private System.Windows.Forms.TextBox txt_estado;
     }
 }

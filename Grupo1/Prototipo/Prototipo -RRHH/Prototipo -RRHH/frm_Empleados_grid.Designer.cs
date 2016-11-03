@@ -64,6 +64,7 @@
             this.dgv_lista_emps.ReadOnly = true;
             this.dgv_lista_emps.Size = new System.Drawing.Size(877, 319);
             this.dgv_lista_emps.TabIndex = 174;
+            this.dgv_lista_emps.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_lista_emps_CellContentClick);
             this.dgv_lista_emps.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_lista_emps_CellDoubleClick);
             // 
             // gpb_lista_emps
