@@ -294,19 +294,19 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>Fd+Zi+fCMzMtMV0j6E4ocCpwtSY8J3+2fNTk0cVcly0=</dsig:DigestValue>
+        <dsig:DigestValue>z1JCyodj5/UiC37FF0m11VPrQRt8tszqKfa8jk+yNYc=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Prototipo -RRHH.exe" size="8535040">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Prototipo -RRHH.exe" size="8539136">
       <assemblyIdentity name="Prototipo -RRHH" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>i8cW3lMSqAzvdoYmIMh831LKYGJeXLnu2Cgi0gkorA8=</dsig:DigestValue>
+        <dsig:DigestValue>h2fChO00BoX45cG1IU0VsFYI5MdeLkB0+HlmNDS+3Ho=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

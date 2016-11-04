@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_Nominas_Empleados_grid));
             this.gpb_navegador = new System.Windows.Forms.GroupBox();
             this.btn_nuevo = new System.Windows.Forms.Button();
@@ -40,6 +41,8 @@
             this.gpb_lista_deveng = new System.Windows.Forms.GroupBox();
             this.dgv_lista_nomias = new System.Windows.Forms.DataGridView();
             this.lbl_list_deveng = new System.Windows.Forms.Label();
+            this.cbo_lista_nom = new System.Windows.Forms.ComboBox();
+            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.gpb_navegador.SuspendLayout();
             this.gpb_lista_deveng.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_lista_nomias)).BeginInit();
@@ -194,6 +197,7 @@
             this.dgv_lista_nomias.ReadOnly = true;
             this.dgv_lista_nomias.Size = new System.Drawing.Size(877, 319);
             this.dgv_lista_nomias.TabIndex = 174;
+            this.toolTip1.SetToolTip(this.dgv_lista_nomias, "Doble click para mas informacion");
             this.dgv_lista_nomias.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_lista_nomias_CellDoubleClick);
             // 
             // lbl_list_deveng
@@ -206,12 +210,23 @@
             this.lbl_list_deveng.TabIndex = 182;
             this.lbl_list_deveng.Text = "Listado de Nominas";
             // 
+            // cbo_lista_nom
+            // 
+            this.cbo_lista_nom.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbo_lista_nom.FormattingEnabled = true;
+            this.cbo_lista_nom.Location = new System.Drawing.Point(430, 125);
+            this.cbo_lista_nom.Name = "cbo_lista_nom";
+            this.cbo_lista_nom.Size = new System.Drawing.Size(226, 28);
+            this.cbo_lista_nom.TabIndex = 185;
+            this.cbo_lista_nom.SelectedValueChanged += new System.EventHandler(this.cbo_lista_nom_SelectedValueChanged);
+            // 
             // frm_Nominas_Empleados_grid
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
             this.ClientSize = new System.Drawing.Size(917, 529);
+            this.Controls.Add(this.cbo_lista_nom);
             this.Controls.Add(this.gpb_navegador);
             this.Controls.Add(this.gpb_lista_deveng);
             this.Controls.Add(this.lbl_list_deveng);
@@ -241,5 +256,7 @@
         private System.Windows.Forms.GroupBox gpb_lista_deveng;
         private System.Windows.Forms.DataGridView dgv_lista_nomias;
         private System.Windows.Forms.Label lbl_list_deveng;
+        private System.Windows.Forms.ComboBox cbo_lista_nom;
+        private System.Windows.Forms.ToolTip toolTip1;
     }
 }

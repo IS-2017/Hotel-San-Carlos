@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 03-11-2016 a las 22:24:23
+-- Tiempo de generación: 04-11-2016 a las 00:56:02
 -- Versión del servidor: 10.1.16-MariaDB
 -- Versión de PHP: 7.0.9
 
@@ -64,7 +64,6 @@ CREATE TABLE `aplicacion` (
 --
 
 INSERT INTO `aplicacion` (`id_aplicacion`, `nombre_aplicacion`) VALUES
-(100, 'navegador'),
 (16101, 'documento');
 
 -- --------------------------------------------------------
@@ -99,16 +98,6 @@ CREATE TABLE `bien` (
   `estado` char(15) DEFAULT NULL,
   `id_marca_pk` int(11) DEFAULT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
-
---
--- Volcado de datos para la tabla `bien`
---
-
-INSERT INTO `bien` (`id_bien_pk`, `id_categoria_pk`, `precio`, `costo`, `descripcion`, `id_linea_pk`, `apartados`, `metodologia`, `id_medida_pk`, `porcentaje_comision`, `estado`, `id_marca_pk`) VALUES
-(1, '1', '400', '200', 'PRODUCTO UNO', 1, 3, 'SABER', 1, '7', 'ACTIVO', 1),
-(2, '1', '344', '233', 'PRODUCTO2', 2, 3, 'SABER2', 1, '10', 'ACTIVO', 2),
-(3, '1', '800', '700', 'PRODUCTO TRES', 2, 3, 'SABEEEER', 1, '5', 'ACTIVO', 2),
-(4, '1', '789', '93', 'PRODUCTO 4', 1, 3, 'SABEROX23', 1, '15', 'ACTIVO', 1);
 
 -- --------------------------------------------------------
 
@@ -146,43 +135,8 @@ CREATE TABLE `bitacora` (
 --
 
 INSERT INTO `bitacora` (`id_bit`, `hora`, `fecha`, `usuario`, `descripcion`, `accion`, `tabla`, `ip`) VALUES
-(16100, '13:33:48', '2016-11-01', 'usuariodbs', 'Loggeo exitoso', 'Login', 'usuario', '192.168.1.10'),
-(16101, '15:16:54', '2016-11-01', 'usuariodbs', 'Loggeo exitoso', 'Login', 'usuario', '192.168.1.10'),
-(16102, '15:17:29', '2016-11-01', 'usuariodbs', 'Loggeo exitoso', 'Login', 'usuario', '192.168.1.10'),
-(16103, '15:21:23', '2016-11-01', 'usuariodbs', 'Loggeo exitoso', 'Login', 'usuario', '192.168.1.10'),
-(16104, '15:21:36', '2016-11-01', 'usuariodbs', 'Loggeo exitoso', 'Login', 'usuario', '192.168.1.10'),
-(16105, '15:25:16', '2016-11-01', 'usuariodbs', 'Loggeo exitoso', 'Login', 'usuario', '192.168.1.10'),
-(16106, '15:35:56', '2016-11-01', 'usuariodbs', 'Loggeo exitoso', 'Login', 'usuario', '192.168.1.10'),
-(16107, '15:36:30', '2016-11-01', 'usuariodbs', 'Loggeo exitoso', 'Login', 'usuario', '192.168.1.10'),
-(16108, '15:39:39', '2016-11-01', 'usuariodbs', 'Loggeo exitoso', 'Login', 'usuario', '192.168.1.10'),
-(16109, '15:52:11', '2016-11-01', 'usuariodbs', 'Loggeo exitoso', 'Login', 'usuario', '192.168.1.10'),
-(16110, '15:53:13', '2016-11-01', 'usuariodbs', 'Loggeo exitoso', 'Login', 'usuario', '192.168.1.10'),
-(16111, '15:57:16', '2016-11-01', 'usuariodbs', 'Loggeo exitoso', 'Login', 'usuario', '192.168.1.10'),
-(16112, '16:02:25', '2016-11-01', 'usuariodbs', 'Loggeo exitoso', 'Login', 'usuario', '192.168.1.10'),
-(16113, '16:06:26', '2016-11-01', 'usuariodbs', 'Loggeo exitoso', 'Login', 'usuario', '192.168.1.10'),
-(16114, '16:16:02', '2016-11-01', 'usuariodbs', 'Loggeo exitoso', 'Login', 'usuario', '192.168.1.10'),
-(16115, '16:18:39', '2016-11-01', 'usuariodbs', 'Loggeo exitoso', 'Login', 'usuario', '192.168.1.10'),
-(16116, '22:09:06', '2016-11-01', 'usuariodbs', 'Loggeo exitoso', 'Login', 'usuario', '192.168.1.10'),
-(16117, '22:11:42', '2016-11-01', 'usuariodbs', 'Loggeo exitoso', 'Login', 'usuario', '192.168.1.10'),
-(16118, '22:13:02', '2016-11-01', 'usuariodbs', 'Loggeo exitoso', 'Login', 'usuario', '192.168.1.10'),
-(16119, '22:18:55', '2016-11-01', 'usuariodbs', 'Loggeo exitoso', 'Login', 'usuario', '192.168.1.10'),
-(16120, '22:24:43', '2016-11-01', 'usuariodbs', 'Loggeo exitoso', 'Login', 'usuario', '192.168.1.10'),
-(16121, '22:26:31', '2016-11-01', 'usuariodbs', 'Loggeo exitoso', 'Login', 'usuario', '192.168.1.10'),
-(16122, '22:27:40', '2016-11-01', 'usuariodbs', 'Loggeo exitoso', 'Login', 'usuario', '192.168.1.10'),
-(16123, '22:42:10', '2016-11-01', 'usuariodbs', 'Loggeo exitoso', 'Login', 'usuario', '192.168.1.10'),
-(16124, '22:45:43', '2016-11-01', 'usuariodbs', 'Loggeo exitoso', 'Login', 'usuario', '192.168.1.10'),
-(16125, '22:50:00', '2016-11-01', 'usuariodbs', 'Loggeo exitoso', 'Login', 'usuario', '192.168.1.10'),
-(16126, '22:53:11', '2016-11-01', 'usuariodbs', 'Loggeo exitoso', 'Login', 'usuario', '192.168.1.10'),
-(16127, '22:55:37', '2016-11-01', 'usuariodbs', 'Loggeo exitoso', 'Login', 'usuario', '192.168.1.10'),
-(16128, '23:06:02', '2016-11-01', 'usuariodbs', 'Loggeo exitoso', 'Login', 'usuario', '192.168.1.10'),
-(16129, '23:09:23', '2016-11-01', 'usuariodbs', 'Loggeo exitoso', 'Login', 'usuario', '192.168.1.10'),
-(16130, '23:18:05', '2016-11-01', 'usuariodbs', 'Loggeo exitoso', 'Login', 'usuario', '192.168.1.10'),
-(16131, '23:20:50', '2016-11-01', 'usuariodbs', 'Loggeo exitoso', 'Login', 'usuario', '192.168.1.10'),
-(16132, '23:22:14', '2016-11-01', 'usuariodbs', 'Loggeo exitoso', 'Login', 'usuario', '192.168.1.10'),
-(16133, '23:24:00', '2016-11-01', 'usuariodbs', 'Loggeo exitoso', 'Login', 'usuario', '192.168.1.10'),
-(16134, '17:51:27', '2016-11-02', 'usuariodbs', 'Loggeo exitoso', 'Login', 'usuario', '192.168.0.100'),
-(16135, '08:20:16', '2016-11-03', 'usuariodbs', 'Loggeo exitoso', 'Login', 'usuario', '192.168.56.1'),
-(16136, '08:21:08', '2016-11-03', 'usuariodbs', 'Loggeo exitoso', 'Login', 'usuario', '192.168.56.1');
+(16100, '17:50:56', '2016-11-03', 'usuariodbs', 'Loggeo exitoso', 'Login', 'usuario', '192.168.1.10'),
+(16101, '17:55:34', '2016-11-03', 'usuariodbs', 'Loggeo exitoso', 'Login', 'usuario', '192.168.1.10');
 
 -- --------------------------------------------------------
 
@@ -194,7 +148,7 @@ CREATE TABLE `bodega` (
   `id_bodega_pk` int(11) NOT NULL,
   `ubicacion` char(40) DEFAULT NULL,
   `nombre_bodega` char(40) DEFAULT NULL,
-  `tama` char(50) DEFAULT NULL,
+  `tamaño` char(50) DEFAULT NULL,
   `estado` char(15) DEFAULT NULL,
   `id_empresa_pk` int(11) DEFAULT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
@@ -213,6 +167,19 @@ CREATE TABLE `buzon` (
   `estado` char(10) DEFAULT NULL,
   `id_cliente_pk` int(11) DEFAULT NULL,
   `id_empresa_pk` int(11) DEFAULT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `cargo_empleado`
+--
+
+CREATE TABLE `cargo_empleado` (
+  `id_cargo_emp_pk` int(10) NOT NULL,
+  `estado` char(10) DEFAULT 'ACTIVO',
+  `cargo` char(25) DEFAULT NULL,
+  `porcentaje_comision` decimal(10,0) DEFAULT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
@@ -246,7 +213,8 @@ CREATE TABLE `cliente` (
   `id_tipocredito_pk` int(11) DEFAULT NULL,
   `id_contribuyente_pk` int(11) DEFAULT NULL,
   `id_tprecio_pk` int(11) DEFAULT NULL,
-  `estado` char(15) DEFAULT NULL
+  `estado` char(15) DEFAULT NULL,
+  `id_empleados_pk` int(11) DEFAULT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
@@ -286,18 +254,17 @@ CREATE TABLE `com_venta` (
   `fecha` date DEFAULT NULL,
   `total_comision` decimal(10,2) DEFAULT NULL,
   `id_fac_empresa_pk` int(11) NOT NULL,
-  `id_empresa_pk` int(11) NOT NULL
+  `id_empresa_pk` int(11) NOT NULL,
+  `serie` varchar(10) NOT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 --
 -- Volcado de datos para la tabla `com_venta`
 --
 
-INSERT INTO `com_venta` (`id_com_venta_pk`, `id_empleados_pk`, `estado`, `total_venta`, `porsentaje_comision`, `fecha`, `total_comision`, `id_fac_empresa_pk`, `id_empresa_pk`) VALUES
-(16, 1, 'ACTIVO', '1600.00', '10.00', '2016-11-02', '160.00', 2, 1),
-(15, 1, 'ACTIVO', '900.00', '7.00', '2016-11-02', '63.00', 1, 1),
-(14, 1, 'ACTIVO', '1600.00', '9.00', '2016-11-02', '144.00', 2, 1),
-(13, 1, 'ACTIVO', '900.00', '4.00', '2016-11-02', '36.00', 1, 1);
+INSERT INTO `com_venta` (`id_com_venta_pk`, `id_empleados_pk`, `estado`, `total_venta`, `porsentaje_comision`, `fecha`, `total_comision`, `id_fac_empresa_pk`, `id_empresa_pk`, `serie`) VALUES
+(16, 1, 'ACTIVO', '1600.00', '10.00', '2016-11-02', '160.00', 2, 1, ''),
+(15, 1, 'ACTIVO', '900.00', '7.00', '2016-11-02', '160.00', 2, 1, '');
 
 -- --------------------------------------------------------
 
@@ -309,7 +276,7 @@ CREATE TABLE `conciliaciones` (
   `id_conciliacion_pk` int(11) NOT NULL,
   `id_documento_pk` int(11) NOT NULL,
   `fecha` date DEFAULT NULL,
-  `estado` char(10) DEFAULT NULL
+  `estado` char(10) DEFAULT 'ACTIVO'
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
@@ -411,9 +378,9 @@ CREATE TABLE `cuenta_bancaria` (
 --
 
 INSERT INTO `cuenta_bancaria` (`id_cuenta_bancaria_pk`, `estado`, `id_empresa_pk`, `nombre_banco`, `no_cuenta`, `saldo_libros`, `saldo_bancarios`) VALUES
-(1, 'activo', 1, 'CITIBANK', '45698579-8', '5400.00', '6500.00'),
-(2, 'ACTIVO', 1, 'Banco Industrial', '128754432-6', '8000.00', '9600.00'),
-(3, 'ACTIVO', 1, 'G&T CONTINENTAL', '21623565-8', '29000.00', '36000.00');
+(1, 'ACTIVO', 1, 'CITIBANK', '255642-4', '2500.00', '5460.00'),
+(2, 'ACTIVO', 1, 'BANCO INDUSTRIAL', '5645198-8', '6548.00', '6546.00'),
+(3, 'ACTIVO', 1, 'G&T CONTINENTAL', '5649846-9', '56100.00', '65462.20');
 
 -- --------------------------------------------------------
 
@@ -460,35 +427,6 @@ CREATE TABLE `detalle_compra` (
   `id_bien_pk` int(11) NOT NULL,
   `id_categoria_pk` char(18) NOT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
-
--- --------------------------------------------------------
-
---
--- Estructura de tabla para la tabla `detalle_com_ventas`
---
-
-CREATE TABLE `detalle_com_ventas` (
-  `id_detalle_com_ventas` int(11) NOT NULL,
-  `id_com_venta_pk` int(11) NOT NULL,
-  `id_empleados_pk` int(11) NOT NULL,
-  `estado` char(25) DEFAULT 'ACTIVO',
-  `total_ventas` decimal(10,2) DEFAULT NULL,
-  `comision` decimal(10,2) DEFAULT NULL,
-  `id_devengos_pk` int(11) NOT NULL,
-  `fecha` date NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=latin1;
-
---
--- Volcado de datos para la tabla `detalle_com_ventas`
---
-
-INSERT INTO `detalle_com_ventas` (`id_detalle_com_ventas`, `id_com_venta_pk`, `id_empleados_pk`, `estado`, `total_ventas`, `comision`, `id_devengos_pk`, `fecha`) VALUES
-(1, 1, 1, 'ACTIVO', '2500.00', '123.00', 1, '2016-11-02'),
-(2, 1, 1, 'ACTIVO', '2500.00', '123.00', 1, '2016-11-02'),
-(3, 1, 1, 'ACTIVO', '900.00', '27.00', 1, '2016-11-02'),
-(4, 1, 1, 'ACTIVO', '7400.00', '666.00', 1, '2016-11-02'),
-(5, 1, 1, 'ACTIVO', '2500.00', '180.00', 1, '2016-11-02'),
-(6, 1, 1, 'ACTIVO', '2500.00', '223.00', 1, '2016-11-02');
 
 -- --------------------------------------------------------
 
@@ -602,7 +540,7 @@ CREATE TABLE `detalle_documentos` (
   `id_detalle_cv_pk` int(11) NOT NULL,
   `estado` char(25) DEFAULT 'ACTIVO',
   `nombre_cuenta` char(100) DEFAULT NULL,
-  `detalle` varchar(100) NOT NULL,
+  `detalle` varchar(100) DEFAULT NULL,
   `debe` decimal(10,2) DEFAULT NULL,
   `haber` decimal(10,2) DEFAULT NULL,
   `fecha` date NOT NULL,
@@ -614,8 +552,8 @@ CREATE TABLE `detalle_documentos` (
 --
 
 INSERT INTO `detalle_documentos` (`id_detalle_cv_pk`, `estado`, `nombre_cuenta`, `detalle`, `debe`, `haber`, `fecha`, `id_documento_pk`) VALUES
-(1, 'ACTIVO', 'daniel', 'Escritorios', '2300.00', '0.00', '2016-11-02', 1),
-(2, 'ACTIVO', 'daniel', 'Sillas', '3100.00', '0.00', '2016-11-02', 1);
+(1, 'ACTIVO', 'daniel', 'escritorios', '2300.00', '0.00', '2016-11-02', 1),
+(2, 'ACTIVO', 'daniel', 'sillas', '3100.00', '0.00', '2016-11-02', 1);
 
 -- --------------------------------------------------------
 
@@ -666,9 +604,12 @@ CREATE TABLE `detalle_nomina` (
   `id_nomina_pk` int(11) NOT NULL,
   `id_presamo_pk` int(11) NOT NULL,
   `id_devengos_pk` int(11) NOT NULL,
-  `total_sueldo` decimal(10,2) DEFAULT NULL,
+  `total_devengos` decimal(10,2) DEFAULT NULL,
+  `total_deduccion` decimal(10,2) DEFAULT NULL,
+  `sueldo_liquido` decimal(10,2) DEFAULT NULL,
   `id_percepcion_pk` int(11) NOT NULL,
-  `id_detalle_impuesto_pk` int(11) NOT NULL
+  `id_detalle_impuesto_pk` int(11) NOT NULL,
+  `id_detalle_pres_pk` int(11) NOT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
@@ -732,19 +673,32 @@ CREATE TABLE `detalle_planilla_igss` (
   `id_planilla_igss_pk` int(11) NOT NULL,
   `id_empleados_pk` int(11) NOT NULL,
   `sueldo_base` decimal(10,2) DEFAULT NULL,
-  `igss_pagar` decimal(10,2) DEFAULT NULL,
-  `fecha` date NOT NULL
+  `igss_pagar` decimal(10,2) DEFAULT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 --
 -- Volcado de datos para la tabla `detalle_planilla_igss`
 --
 
-INSERT INTO `detalle_planilla_igss` (`id_detalle_pigss`, `estado`, `id_planilla_igss_pk`, `id_empleados_pk`, `sueldo_base`, `igss_pagar`, `fecha`) VALUES
-(1, 'ACTIVO', 1, 1, '5000.00', '775.00', '2016-11-02'),
-(2, 'ACTIVO', 1, 2, '4900.00', '759.50', '2016-11-02'),
-(3, 'ACTIVO', 1, 1, '5000.00', '775.00', '2016-11-17'),
-(4, 'ACTIVO', 1, 2, '4900.00', '759.50', '2016-11-17');
+INSERT INTO `detalle_planilla_igss` (`id_detalle_pigss`, `estado`, `id_planilla_igss_pk`, `id_empleados_pk`, `sueldo_base`, `igss_pagar`) VALUES
+(1, 'ACTIVO', 1, 1, '5000.00', '775.00'),
+(2, 'ACTIVO', 1, 1, '5000.00', '775.00');
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `detalle_prestacion`
+--
+
+CREATE TABLE `detalle_prestacion` (
+  `id_detalle_pres_pk` int(11) NOT NULL,
+  `porcentaje` decimal(10,2) DEFAULT NULL,
+  `valor` decimal(10,2) DEFAULT NULL,
+  `id_devengos_pk` int(11) NOT NULL,
+  `id_presamo_pk` int(11) NOT NULL,
+  `id_empleados_pk` int(11) NOT NULL,
+  `id_detalle_impuesto_pk` int(11) NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
 
@@ -826,7 +780,8 @@ CREATE TABLE `devengos` (
   `fecha` date DEFAULT NULL,
   `id_empleados_pk` int(11) NOT NULL,
   `id_planilla_igss_pk` int(11) NOT NULL,
-  `id_detalle_impuesto_pk` int(11) NOT NULL
+  `id_detalle_impuesto_pk` int(11) NOT NULL,
+  `id_com_venta_pk` int(11) NOT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
@@ -897,13 +852,6 @@ CREATE TABLE `documento` (
   `id_proveedor_pk` int(11) NOT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
---
--- Volcado de datos para la tabla `documento`
---
-
-INSERT INTO `documento` (`id_documento_pk`, `conciliado`, `fecha`, `valor_total`, `destinatario`, `no_documento`, `descripcion`, `estado`, `id_cuenta_bancaria_pk`, `id_tipo_documento`, `id_cuenta_pk`, `id_proveedor_pk`) VALUES
-(1, 'Conciliado', '2016-11-01', '5400.00', 'ASDAS', '123123', 'PAGO DE COMPUTADORAS', 'ACTIVO', 1, 1, 0, 0);
-
 -- --------------------------------------------------------
 
 --
@@ -935,24 +883,23 @@ CREATE TABLE `empleado` (
   `fecha_egreso` date DEFAULT NULL,
   `direccion` char(10) DEFAULT NULL,
   `cargo` char(250) DEFAULT NULL,
-  `porcentaje` decimal(8,2) NOT NULL,
   `telefono` char(15) DEFAULT NULL,
   `genero` char(10) DEFAULT NULL,
   `sueldo` int(11) DEFAULT NULL,
-  `tipo_sueldo` varchar(55) NOT NULL,
   `estado` char(25) DEFAULT 'ACTIVO',
+  `disponibilidad` char(30) DEFAULT NULL,
   `foto_empleado` varchar(200) DEFAULT NULL,
-  `id_empresa_pk` int(11) NOT NULL
+  `id_empresa_pk` int(11) NOT NULL,
+  `id_cargo_emp_pk` char(10) NOT NULL,
+  `id_jornada_tra_pk` int(11) NOT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 --
 -- Volcado de datos para la tabla `empleado`
 --
 
-INSERT INTO `empleado` (`id_empleados_pk`, `nombre`, `fecha_nacimiento`, `edad`, `dpi`, `nacionalidad`, `estado_civil`, `no_afiliacion_igss`, `fecha_ingreso`, `fecha_egreso`, `direccion`, `cargo`, `porcentaje`, `telefono`, `genero`, `sueldo`, `tipo_sueldo`, `estado`, `foto_empleado`, `id_empresa_pk`) VALUES
-(1, 'Daniel', '2016-11-08', '18', '21312321', 'GT', 'S', 'AFILIADO', '2016-11-07', '2016-11-16', '12VS', 'VENDEDOR', '9.00', '12312', 'M', 5000, '', 'ACTIVO', '\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0', 1),
-(2, 'CRISTIAN', '2016-11-08', '20', '323', 'GT', 'S', 'AFILIADO', '2016-11-22', '2016-11-16', 'AF24', 'VENDEDOR', '8.80', '32', 'M', 4900, '', 'ACTIVO', '\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0', 1),
-(3, 'ESTRADA', '2016-11-14', '21', '32324', 'GT', 'S', 'NO AFILIADO', '2016-11-15', '2016-11-09', '3DGA', 'GERENTE', '0.00', '34332', 'M', 7000, '', 'ACTIVO', '\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0', 1);
+INSERT INTO `empleado` (`id_empleados_pk`, `nombre`, `fecha_nacimiento`, `edad`, `dpi`, `nacionalidad`, `estado_civil`, `no_afiliacion_igss`, `fecha_ingreso`, `fecha_egreso`, `direccion`, `cargo`, `telefono`, `genero`, `sueldo`, `estado`, `disponibilidad`, `foto_empleado`, `id_empresa_pk`, `id_cargo_emp_pk`, `id_jornada_tra_pk`) VALUES
+(1, 'Daniel', '2016-11-08', '18', '215165412', 'GT', 'S', 'AFILIADO', '2016-11-07', '2016-11-16', '12VS', 'VENDEDOR', '12312', 'M', 5000, 'ACTIVO', NULL, NULL, 1, '1', 1);
 
 -- --------------------------------------------------------
 
@@ -977,8 +924,8 @@ CREATE TABLE `empresa` (
 --
 
 INSERT INTO `empresa` (`id_empresa_pk`, `nombre`, `direccion`, `region`, `estrellas_hotel`, `nit`, `correo`, `telefono`, `estado`) VALUES
-(1, 'Hotel1', '12F', 'GT', '3', '212', 'DAFDS', '2312', 'ACTIVO'),
-(2, 'Hotel2', 'DFASD', 'GT', '4', '22', 'FASDCBB', '2112', 'ACTIVO');
+(1, 'hotel1', 'zona1', 'guatemala', '5', '5584-8', 'hotel1@hotel.com', '24556958', 'Activo'),
+(2, 'hotel2', 'zona5', 'guatemala', '5', '6546415-8', 'hotel2@hotel2.com', '5658498', NULL);
 
 -- --------------------------------------------------------
 
@@ -1022,7 +969,7 @@ CREATE TABLE `encabezado_pedido` (
   `id_cliente_pk` char(10) DEFAULT NULL,
   `fecha_ingreso` char(18) DEFAULT NULL,
   `fecha_entrega` char(18) DEFAULT NULL,
-  `hora_entrega` timestamp NULL DEFAULT NULL,
+  `hora_entrega` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   `id_empleados_pk` char(10) DEFAULT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
@@ -1065,19 +1012,8 @@ CREATE TABLE `factura` (
   `id_moneda` int(11) DEFAULT NULL,
   `estado` char(15) DEFAULT NULL,
   `id_parametros_pk` int(11) DEFAULT NULL,
-  `id_empleados_pk` int(11) NOT NULL,
-  `marca_comision` varchar(10) NOT NULL DEFAULT 'X'
+  `id_empleados_pk` int(11) NOT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
-
---
--- Volcado de datos para la tabla `factura`
---
-
-INSERT INTO `factura` (`id_fac_empresa_pk`, `id_empresa_pk`, `serie`, `fecha_vencimiento`, `estado_factura`, `fecha_emision`, `subtotal`, `total`, `id_cliente_pk`, `id_impuesto_pk`, `id_moneda`, `estado`, `id_parametros_pk`, `id_empleados_pk`, `marca_comision`) VALUES
-(1, 1, '1', '2016-11-21', 'ACTIVO', '2016-11-01', '4000.00', '4100.00', 1, 1, 1, 'ACTIVO', 1, 1, 'S'),
-(2, 1, '3', '2016-11-08', 'ACTIVO', '2016-12-19', '3000.00', '3300.00', 1, 1, 1, 'ACTIVO', 1, 1, 'S'),
-(3, 1, '4', '2016-11-09', 'ACTIVO', '2016-11-25', '5000.00', '5000.00', 1, 1, 1, 'ACTIVO', 1, 2, 'X'),
-(4, 1, '44', '2016-11-16', 'ACTIVO', '2016-12-12', '6000.00', '6100.00', 1, 1, 1, 'ACTIVO', 1, 2, 'X');
 
 -- --------------------------------------------------------
 
@@ -1109,16 +1045,6 @@ CREATE TABLE `factura_detalle` (
   `estado` char(15) DEFAULT NULL,
   `id_detalle_folio_pk` int(11) DEFAULT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
-
---
--- Volcado de datos para la tabla `factura_detalle`
---
-
-INSERT INTO `factura_detalle` (`id_fac_empresa_pk`, `id_empresa_pk`, `id_precio`, `cantidad`, `nombre_desc`, `precio`, `serie`, `estado`, `id_detalle_folio_pk`) VALUES
-(1, 1, 1, 3, 'DESCUENT1', '300.00', '3212', 'ACTIVO', 1),
-(2, 1, 2, 4, 'DESCUENT2', '4000.00', '2321F', 'ACTIVO', 2),
-(3, 1, 3, 5, 'DESCUENTO3', '400.00', '12', 'ACTIVO', 1),
-(4, 1, 4, 2, 'DESCUENTO4', '400.00', 'FAS2', 'ACTIVO', 1);
 
 -- --------------------------------------------------------
 
@@ -1315,6 +1241,19 @@ CREATE TABLE `invitado` (
 -- --------------------------------------------------------
 
 --
+-- Estructura de tabla para la tabla `jornada_trabajo`
+--
+
+CREATE TABLE `jornada_trabajo` (
+  `id_jornada_tra_pk` int(11) NOT NULL,
+  `jornada` char(25) DEFAULT NULL,
+  `horas_trabajo` int(11) DEFAULT NULL,
+  `estado` char(10) DEFAULT 'ACTIVO'
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
 -- Estructura de tabla para la tabla `linea`
 --
 
@@ -1325,14 +1264,6 @@ CREATE TABLE `linea` (
   `estado` char(15) DEFAULT NULL,
   `id_categoria_pk` char(18) DEFAULT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
-
---
--- Volcado de datos para la tabla `linea`
---
-
-INSERT INTO `linea` (`id_linea_pk`, `nombre_categoria`, `porcentaje_comision`, `estado`, `id_categoria_pk`) VALUES
-(1, 'ELECTRODOMESTICOS', '4', 'ACTIVO', '1'),
-(2, 'VIDEOJUEGOS', '9', 'ACTIVO', '1');
 
 -- --------------------------------------------------------
 
@@ -1346,14 +1277,6 @@ CREATE TABLE `marca` (
   `procentaje_comision` decimal(10,0) DEFAULT NULL,
   `estado` char(15) DEFAULT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
-
---
--- Volcado de datos para la tabla `marca`
---
-
-INSERT INTO `marca` (`id_marca_pk`, `nombre_marca`, `procentaje_comision`, `estado`) VALUES
-(1, 'NIKE', '3', 'ACTIVO'),
-(2, 'ADIDAS', '6', 'ACTIVO');
 
 -- --------------------------------------------------------
 
@@ -1419,6 +1342,13 @@ CREATE TABLE `nomina` (
   `fecha_de_corte` date DEFAULT NULL,
   `id_empresa_pk` int(11) NOT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+--
+-- Volcado de datos para la tabla `nomina`
+--
+
+INSERT INTO `nomina` (`id_nomina_pk`, `nombre_nomina`, `estado`, `fecha_inicio_pago`, `fecha_de_corte`, `id_empresa_pk`) VALUES
+(1, 'nomina1', 'ACTIVO', '2016-11-03', '2016-11-11', 1);
 
 -- --------------------------------------------------------
 
@@ -1566,7 +1496,7 @@ CREATE TABLE `pedido_factura` (
 CREATE TABLE `percepcion` (
   `id_percepcion_pk` int(11) NOT NULL,
   `tipo_percepcion` varchar(50) DEFAULT NULL,
-  `estado` varchar(25) DEFAULT NULL
+  `estado` varchar(25) DEFAULT 'ACTIVO'
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
@@ -1579,13 +1509,6 @@ CREATE TABLE `perfil` (
   `id_perfil` int(11) NOT NULL,
   `nombre_perfil` char(40) DEFAULT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
-
---
--- Volcado de datos para la tabla `perfil`
---
-
-INSERT INTO `perfil` (`id_perfil`, `nombre_perfil`) VALUES
-(1, 'administrador');
 
 -- --------------------------------------------------------
 
@@ -1602,13 +1525,6 @@ CREATE TABLE `perfil_privilegios` (
   `del` int(11) DEFAULT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
---
--- Volcado de datos para la tabla `perfil_privilegios`
---
-
-INSERT INTO `perfil_privilegios` (`id_aplicacion`, `id_perfil`, `ins`, `sel`, `upd`, `del`) VALUES
-(100, 1, 1, 1, 1, 1);
-
 -- --------------------------------------------------------
 
 --
@@ -1617,19 +1533,18 @@ INSERT INTO `perfil_privilegios` (`id_aplicacion`, `id_perfil`, `ins`, `sel`, `u
 
 CREATE TABLE `planilla_igss` (
   `id_planilla_igss_pk` int(11) NOT NULL,
-  `estado` char(10) DEFAULT 'ACTIVO',
+  `estado` varchar(10) DEFAULT 'ACTIVO',
   `porcentaje_igss` decimal(10,2) DEFAULT NULL,
   `fecha` date DEFAULT NULL,
-  `id_empresa_pk` int(11) NOT NULL,
-  `cuota_patronal` decimal(10,2) NOT NULL
+  `id_empresa_pk` int(11) NOT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 --
 -- Volcado de datos para la tabla `planilla_igss`
 --
 
-INSERT INTO `planilla_igss` (`id_planilla_igss_pk`, `estado`, `porcentaje_igss`, `fecha`, `id_empresa_pk`, `cuota_patronal`) VALUES
-(1, 'ACTIVO', '4.83', '2016-11-15', 1, '10.67');
+INSERT INTO `planilla_igss` (`id_planilla_igss_pk`, `estado`, `porcentaje_igss`, `fecha`, `id_empresa_pk`) VALUES
+(1, 'ACTIVO', '4.83', '2016-11-15', 1);
 
 -- --------------------------------------------------------
 
@@ -1646,16 +1561,6 @@ CREATE TABLE `precio` (
   `estado` char(15) DEFAULT NULL,
   `id_tprecio_pk` int(11) DEFAULT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
-
---
--- Volcado de datos para la tabla `precio`
---
-
-INSERT INTO `precio` (`id_precio`, `precio`, `id_bien_pk`, `id_categoria_pk`, `id_tamaniop_pk`, `estado`, `id_tprecio_pk`) VALUES
-(1, '300.00', 1, '1', '1', 'ACTIVO', 1),
-(2, '400.00', 2, '1', '1', 'ACTIVO', 1),
-(3, '500.00', 3, '1', '1', 'ACTIVO', 1),
-(4, '1000.00', 4, '1', '1', 'ACTIVO', 1);
 
 -- --------------------------------------------------------
 
@@ -1699,7 +1604,7 @@ CREATE TABLE `produccion` (
   `costo_mano_de_obra` char(10) DEFAULT NULL,
   `costo_materia_prima` char(10) DEFAULT NULL,
   `costo_maquinaria` char(10) DEFAULT NULL,
-  `hora_produccion` timestamp NULL DEFAULT NULL,
+  `hora_produccion` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   `fecha_produccion` date DEFAULT NULL,
   `hrs_produccion` char(10) DEFAULT NULL,
   `costo_produccion` char(10) DEFAULT NULL
@@ -1881,10 +1786,10 @@ CREATE TABLE `tipo_documento` (
 --
 
 INSERT INTO `tipo_documento` (`id_tipo_documento`, `nombre_documento`, `detalle`, `estado`) VALUES
-(1, 'Deposito', 'documento para establecer los ingresos a las cuentas del hotel san carlos', 'ACTIVO'),
-(2, 'Cheque', 'Documento para ingresar entradas y salidas de dinero en el hotel san carlos', 'ACTIVO'),
-(3, 'Nota de credito', 'Documento para presentar creditos en hotel san carlos', 'ACTIVO'),
-(4, 'Nota de debito', 'Dcoumento para presentar debitos en hotel san carlos', 'ACTIVO');
+(1, 'Deposito', 'documento para ingreso de dinero a hotel  san carlos', 'ACTIVO'),
+(2, 'Cheque', 'Documento para ingreso y egreso de dinero a hotel san carlos', 'ACTIVO'),
+(3, 'Nota de credito', 'Nota para ingresar acreditaciones en hotel san carlos', 'ACTIVO'),
+(4, 'Nota de Debito', 'Nota para ingresar todos los debitos en las cuentas de hotel san carlos', 'Activo');
 
 -- --------------------------------------------------------
 
@@ -1951,7 +1856,7 @@ CREATE TABLE `usuario` (
   `usuario` char(50) NOT NULL,
   `contrasenia` char(80) DEFAULT NULL,
   `fecha_creacion` date DEFAULT NULL,
-  `estado` char(10) DEFAULT NULL,
+  `estado` char(10) DEFAULT 'ACTIVO',
   `id_empresa_pk` int(11) DEFAULT NULL,
   `id_empleados_pk` int(11) DEFAULT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
@@ -1961,7 +1866,7 @@ CREATE TABLE `usuario` (
 --
 
 INSERT INTO `usuario` (`usuario`, `contrasenia`, `fecha_creacion`, `estado`, `id_empresa_pk`, `id_empleados_pk`) VALUES
-('usuariodbs', 'aABvAGwAYQA=', '2016-11-01', 'activo', 1, 1);
+('usuariodbs', 'aABvAGwAYQA=', '2016-11-01', 'ACTIVO', 1, 1);
 
 -- --------------------------------------------------------
 
@@ -1984,7 +1889,7 @@ CREATE TABLE `usuario_privilegios` (
 --
 
 INSERT INTO `usuario_privilegios` (`usuario`, `id_aplicacion`, `ins`, `sel`, `upd`, `del`, `id_perfil`) VALUES
-('usuariodbs', 100, 1, 1, 1, 1, 0);
+('usuariodbs', 16101, 1, 1, 1, 1, 0);
 
 --
 -- Índices para tablas volcadas
@@ -2001,26 +1906,25 @@ ALTER TABLE `aplicacion`
 --
 ALTER TABLE `asignacion_mo`
   ADD PRIMARY KEY (`id_produccion_pk`,`id_empleados_pk`),
-  ADD KEY `Ref238401` (`id_empleados_pk`),
-  ADD KEY `Ref186306` (`id_produccion_pk`);
+  ADD KEY `Refempleado401` (`id_empleados_pk`);
 
 --
 -- Indices de la tabla `bien`
 --
 ALTER TABLE `bien`
   ADD PRIMARY KEY (`id_bien_pk`,`id_categoria_pk`),
-  ADD KEY `Ref189404` (`id_medida_pk`),
-  ADD KEY `Ref98` (`id_categoria_pk`),
-  ADD KEY `Ref14425` (`id_marca_pk`),
-  ADD KEY `Ref249431` (`id_linea_pk`);
+  ADD KEY `Refmedida404` (`id_medida_pk`),
+  ADD KEY `Refmarca425` (`id_marca_pk`),
+  ADD KEY `Reflinea431` (`id_linea_pk`),
+  ADD KEY `Refcategoria8` (`id_categoria_pk`);
 
 --
 -- Indices de la tabla `bien_habitacion`
 --
 ALTER TABLE `bien_habitacion`
   ADD PRIMARY KEY (`id_bien_pk`,`id_habitacion_pk`,`id_categoria_pk`),
-  ADD KEY `Ref112` (`id_bien_pk`,`id_categoria_pk`),
-  ADD KEY `Ref2086` (`id_habitacion_pk`);
+  ADD KEY `Refbien12` (`id_bien_pk`,`id_categoria_pk`),
+  ADD KEY `Refhabitacion86` (`id_habitacion_pk`);
 
 --
 -- Indices de la tabla `bitacora`
@@ -2033,15 +1937,21 @@ ALTER TABLE `bitacora`
 --
 ALTER TABLE `bodega`
   ADD PRIMARY KEY (`id_bodega_pk`),
-  ADD KEY `Ref17432` (`id_empresa_pk`);
+  ADD KEY `Refempresa432` (`id_empresa_pk`);
 
 --
 -- Indices de la tabla `buzon`
 --
 ALTER TABLE `buzon`
   ADD PRIMARY KEY (`id_buzon_pk`),
-  ADD KEY `Ref1520` (`id_cliente_pk`),
-  ADD KEY `Ref17226` (`id_empresa_pk`);
+  ADD KEY `Refempresa226` (`id_empresa_pk`),
+  ADD KEY `Refcliente20` (`id_cliente_pk`);
+
+--
+-- Indices de la tabla `cargo_empleado`
+--
+ALTER TABLE `cargo_empleado`
+  ADD PRIMARY KEY (`id_cargo_emp_pk`);
 
 --
 -- Indices de la tabla `categoria`
@@ -2054,35 +1964,35 @@ ALTER TABLE `categoria`
 --
 ALTER TABLE `cliente`
   ADD PRIMARY KEY (`id_cliente_pk`),
-  ADD KEY `Ref153238` (`id_tipocredito_pk`),
-  ADD KEY `Ref159255` (`id_contribuyente_pk`),
-  ADD KEY `Ref152316` (`id_tprecio_pk`);
+  ADD KEY `Reftipo_credito238` (`id_tipocredito_pk`),
+  ADD KEY `Refcontribuyente255` (`id_contribuyente_pk`),
+  ADD KEY `Refempleado484` (`id_empleados_pk`),
+  ADD KEY `Reftipo_precio316` (`id_tprecio_pk`);
 
 --
 -- Indices de la tabla `compra`
 --
 ALTER TABLE `compra`
   ADD PRIMARY KEY (`id_factura_compra_pk`),
-  ADD KEY `Ref17464` (`id_empresa_pk`),
-  ADD KEY `Ref129174` (`id_pedido_compra_pk`),
-  ADD KEY `Ref123176` (`id_cuenta_pk`,`id_proveedor_pk`),
-  ADD KEY `Ref99223` (`id_forma_pk`);
+  ADD KEY `Refpedido_compra174` (`id_pedido_compra_pk`),
+  ADD KEY `Refcuenta_corriente_por_pagar176` (`id_cuenta_pk`,`id_proveedor_pk`),
+  ADD KEY `Refforma_pago223` (`id_forma_pk`),
+  ADD KEY `Refempresa464` (`id_empresa_pk`);
 
 --
 -- Indices de la tabla `com_venta`
 --
 ALTER TABLE `com_venta`
   ADD PRIMARY KEY (`id_com_venta_pk`,`id_empleados_pk`),
-  ADD KEY `Ref94452` (`id_empresa_pk`,`id_fac_empresa_pk`),
-  ADD KEY `Ref238453` (`id_empleados_pk`),
-  ADD KEY `Reffactura452` (`id_fac_empresa_pk`,`id_empresa_pk`);
+  ADD KEY `Reffactura452` (`id_fac_empresa_pk`,`id_empresa_pk`,`serie`),
+  ADD KEY `Refempleado453` (`id_empleados_pk`);
 
 --
 -- Indices de la tabla `conciliaciones`
 --
 ALTER TABLE `conciliaciones`
   ADD PRIMARY KEY (`id_conciliacion_pk`,`id_documento_pk`),
-  ADD KEY `Ref234373` (`id_documento_pk`);
+  ADD KEY `Refdocumento373` (`id_documento_pk`);
 
 --
 -- Indices de la tabla `consultaalmacenada`
@@ -2107,82 +2017,68 @@ ALTER TABLE `convertidora`
 --
 ALTER TABLE `cotizacion`
   ADD PRIMARY KEY (`id_cotizacion_pk`),
-  ADD KEY `Ref15181` (`id_cliente_pk`);
+  ADD KEY `Refcliente181` (`id_cliente_pk`);
 
 --
 -- Indices de la tabla `cotizacion_bien`
 --
 ALTER TABLE `cotizacion_bien`
   ADD PRIMARY KEY (`id_precio`,`id_detallecot_pk`),
-  ADD KEY `Ref151407` (`id_precio`),
-  ADD KEY `Ref93417` (`id_detallecot_pk`);
+  ADD KEY `Refdetalle_cotizacion417` (`id_detallecot_pk`);
 
 --
 -- Indices de la tabla `cotizacion_paquete`
 --
 ALTER TABLE `cotizacion_paquete`
   ADD PRIMARY KEY (`id_promocion_pk`,`id_detallecot_pk`),
-  ADD KEY `Ref93416` (`id_detallecot_pk`),
-  ADD KEY `Ref25124` (`id_promocion_pk`);
+  ADD KEY `Refdetalle_cotizacion416` (`id_detallecot_pk`);
 
 --
 -- Indices de la tabla `cuenta_bancaria`
 --
 ALTER TABLE `cuenta_bancaria`
   ADD PRIMARY KEY (`id_cuenta_bancaria_pk`),
-  ADD KEY `Ref17381` (`id_empresa_pk`);
+  ADD KEY `Refempresa381` (`id_empresa_pk`);
 
 --
 -- Indices de la tabla `cuenta_corriente_por_pagar`
 --
 ALTER TABLE `cuenta_corriente_por_pagar`
   ADD PRIMARY KEY (`id_cuenta_pk`,`id_proveedor_pk`),
-  ADD KEY `Ref124170` (`id_proveedor_pk`);
+  ADD KEY `Refproveedor170` (`id_proveedor_pk`);
 
 --
 -- Indices de la tabla `deducciones`
 --
 ALTER TABLE `deducciones`
   ADD PRIMARY KEY (`id_presamo_pk`),
-  ADD KEY `Ref237391` (`id_planilla_igss_pk`),
-  ADD KEY `Ref238392` (`id_empleados_pk`),
-  ADD KEY `Ref256449` (`id_detalle_impuesto_pk`);
+  ADD KEY `Refimpuestos_ley449` (`id_detalle_impuesto_pk`),
+  ADD KEY `Refplanilla_igss391` (`id_planilla_igss_pk`),
+  ADD KEY `Refempleado392` (`id_empleados_pk`);
 
 --
 -- Indices de la tabla `detalle_compra`
 --
 ALTER TABLE `detalle_compra`
   ADD PRIMARY KEY (`id_detalle_compra_pk`),
-  ADD KEY `Ref125442` (`id_factura_compra_pk`),
-  ADD KEY `Ref1466` (`id_categoria_pk`,`id_bien_pk`),
+  ADD KEY `Refcompra442` (`id_factura_compra_pk`),
   ADD KEY `Refbien466` (`id_bien_pk`,`id_categoria_pk`);
-
---
--- Indices de la tabla `detalle_com_ventas`
---
-ALTER TABLE `detalle_com_ventas`
-  ADD PRIMARY KEY (`id_detalle_com_ventas`,`id_com_venta_pk`,`id_empleados_pk`),
-  ADD KEY `Ref241395` (`id_empleados_pk`,`id_com_venta_pk`),
-  ADD KEY `Ref242445` (`id_devengos_pk`),
-  ADD KEY `Refcom_venta395` (`id_com_venta_pk`,`id_empleados_pk`);
 
 --
 -- Indices de la tabla `detalle_cotizacion`
 --
 ALTER TABLE `detalle_cotizacion`
   ADD PRIMARY KEY (`id_detallecot_pk`),
-  ADD KEY `Ref154408` (`id_detallecot_pk`,`id_precio`),
-  ADD KEY `Ref100409` (`id_promocion_pk`,`id_detallecot_pk`),
-  ADD KEY `Ref92415` (`id_cotizacion_pk`),
-  ADD KEY `Ref17461` (`id_empresa_pk`),
-  ADD KEY `Refcotizacion_paquete409` (`id_detallecot_pk`,`id_promocion_pk`);
+  ADD KEY `Refcotizacion_bien408` (`id_detallecot_pk`,`id_precio`),
+  ADD KEY `Refcotizacion_paquete409` (`id_detallecot_pk`,`id_promocion_pk`),
+  ADD KEY `Refcotizacion415` (`id_cotizacion_pk`),
+  ADD KEY `Refempresa461` (`id_empresa_pk`);
 
 --
 -- Indices de la tabla `detalle_cuenta_por_pagar`
 --
 ALTER TABLE `detalle_cuenta_por_pagar`
   ADD PRIMARY KEY (`detalle_cuenta_por_pagar_pk`),
-  ADD KEY `Ref123293` (`id_proveedor_pk`,`id_cuenta_pk`),
   ADD KEY `Refcuenta_corriente_por_pagar293` (`id_cuenta_pk`,`id_proveedor_pk`);
 
 --
@@ -2190,8 +2086,6 @@ ALTER TABLE `detalle_cuenta_por_pagar`
 --
 ALTER TABLE `detalle_dev`
   ADD PRIMARY KEY (`id_detalle_dev`),
-  ADD KEY `Ref257456` (`id_empresa_pk`,`id_fac_empresa_pk`,`id_dev`,`serie`),
-  ADD KEY `Ref1458` (`id_categoria_pk`,`id_bien_pk`),
   ADD KEY `Refdevolucion456` (`id_dev`,`id_fac_empresa_pk`,`id_empresa_pk`,`serie`),
   ADD KEY `Refbien458` (`id_bien_pk`,`id_categoria_pk`);
 
@@ -2200,25 +2094,23 @@ ALTER TABLE `detalle_dev`
 --
 ALTER TABLE `detalle_devolucion_compra`
   ADD PRIMARY KEY (`id_detalle_devolucion_pk`),
-  ADD KEY `Ref1467` (`id_categoria_pk`,`id_bien_pk`),
-  ADD KEY `Ref262481` (`id_devolucion_compra_pk`),
-  ADD KEY `Refbien467` (`id_bien_pk`,`id_categoria_pk`);
+  ADD KEY `Refbien467` (`id_bien_pk`,`id_categoria_pk`),
+  ADD KEY `Refdevolucion_compra481` (`id_devolucion_compra_pk`);
 
 --
 -- Indices de la tabla `detalle_disp_banc`
 --
 ALTER TABLE `detalle_disp_banc`
   ADD PRIMARY KEY (`id_detalle_db_pk`),
-  ADD KEY `Ref230379` (`id_disponibilidad_bancaria`),
-  ADD KEY `Ref234380` (`id_documento_pk`);
+  ADD KEY `Refdisponibilidad_bancaria379` (`id_disponibilidad_bancaria`),
+  ADD KEY `Refdocumento380` (`id_documento_pk`);
 
 --
 -- Indices de la tabla `detalle_documento`
 --
 ALTER TABLE `detalle_documento`
   ADD PRIMARY KEY (`id_detalle_pk`),
-  ADD KEY `Ref1185` (`id_bien_pk`,`id_categoria_pk`),
-  ADD KEY `Ref130187` (`no_doc`,`empresa`,`serie_doc`,`tipo_doc`),
+  ADD KEY `Refbien185` (`id_bien_pk`,`id_categoria_pk`),
   ADD KEY `Refencabezado_documento187` (`no_doc`,`serie_doc`,`tipo_doc`,`empresa`);
 
 --
@@ -2226,26 +2118,24 @@ ALTER TABLE `detalle_documento`
 --
 ALTER TABLE `detalle_documentos`
   ADD PRIMARY KEY (`id_detalle_cv_pk`),
-  ADD KEY `Ref234374` (`id_documento_pk`);
+  ADD KEY `Refdocumento374` (`id_documento_pk`);
 
 --
 -- Indices de la tabla `detalle_folio`
 --
 ALTER TABLE `detalle_folio`
   ADD PRIMARY KEY (`id_detalle_folio_pk`),
-  ADD KEY `Ref163433` (`id_folio_bien_pk`),
-  ADD KEY `Ref162434` (`id_folio_salon_pk`),
-  ADD KEY `Ref161435` (`id_folio_habitacion_pk`),
-  ADD KEY `Ref164436` (`id_folio_promocion_pk`),
-  ADD KEY `Ref33437` (`id_cuenta_pagar_pk`);
+  ADD KEY `Reffolio_bien433` (`id_folio_bien_pk`),
+  ADD KEY `Reffolio_salon434` (`id_folio_salon_pk`),
+  ADD KEY `Reffolio_habitacion435` (`id_folio_habitacion_pk`),
+  ADD KEY `Reffolio_promocion436` (`id_folio_promocion_pk`),
+  ADD KEY `Reffolio437` (`id_cuenta_pagar_pk`);
 
 --
 -- Indices de la tabla `detalle_muestreo`
 --
 ALTER TABLE `detalle_muestreo`
   ADD PRIMARY KEY (`id_encabezado`),
-  ADD KEY `Ref143215` (`id_encabezado`),
-  ADD KEY `Ref10290` (`id_bien_pk`,`id_categoria_pk`,`id_bodega_pk`),
   ADD KEY `Refproducto_bodega290` (`id_bien_pk`,`id_bodega_pk`,`id_categoria_pk`);
 
 --
@@ -2253,36 +2143,36 @@ ALTER TABLE `detalle_muestreo`
 --
 ALTER TABLE `detalle_nomina`
   ADD PRIMARY KEY (`id_dn`),
-  ADD KEY `Ref238388` (`id_empleados_pk`),
-  ADD KEY `Ref240389` (`id_nomina_pk`),
-  ADD KEY `Ref239390` (`id_presamo_pk`),
-  ADD KEY `Ref242397` (`id_devengos_pk`),
-  ADD KEY `Ref255446` (`id_percepcion_pk`),
-  ADD KEY `Ref256447` (`id_detalle_impuesto_pk`);
+  ADD KEY `Refdevengos397` (`id_devengos_pk`),
+  ADD KEY `Refpercepcion446` (`id_percepcion_pk`),
+  ADD KEY `Refimpuestos_ley447` (`id_detalle_impuesto_pk`),
+  ADD KEY `Refdetalle_prestacion493` (`id_detalle_pres_pk`),
+  ADD KEY `Refempleado388` (`id_empleados_pk`),
+  ADD KEY `Refnomina389` (`id_nomina_pk`),
+  ADD KEY `Refdeducciones390` (`id_presamo_pk`);
 
 --
 -- Indices de la tabla `detalle_pedido`
 --
 ALTER TABLE `detalle_pedido`
   ADD PRIMARY KEY (`id_detalle`),
-  ADD KEY `Ref151403` (`id_precio`),
-  ADD KEY `Ref248429` (`id_pedido_pk`);
+  ADD KEY `Refprecio403` (`id_precio`),
+  ADD KEY `Refpedido429` (`id_pedido_pk`);
 
 --
 -- Indices de la tabla `detalle_pedido_1`
 --
 ALTER TABLE `detalle_pedido_1`
   ADD PRIMARY KEY (`id_detalle_pedido_pk`,`id_encabezado_pedido_pk`),
-  ADD KEY `Ref194296` (`id_menu_pk`,`correlativo`),
-  ADD KEY `Ref190297` (`id_encabezado_pedido_pk`);
+  ADD KEY `Refmenu296` (`id_menu_pk`,`correlativo`),
+  ADD KEY `Refencabezado_pedido297` (`id_encabezado_pedido_pk`);
 
 --
 -- Indices de la tabla `detalle_pedido_compra`
 --
 ALTER TABLE `detalle_pedido_compra`
   ADD PRIMARY KEY (`id_detalle_pedido_pk`),
-  ADD KEY `Ref129441` (`id_pedido_compra_pk`),
-  ADD KEY `Ref1465` (`id_categoria_pk`,`id_bien_pk`),
+  ADD KEY `Refpedido_compra441` (`id_pedido_compra_pk`),
   ADD KEY `Refbien465` (`id_bien_pk`,`id_categoria_pk`);
 
 --
@@ -2290,16 +2180,24 @@ ALTER TABLE `detalle_pedido_compra`
 --
 ALTER TABLE `detalle_planilla_igss`
   ADD PRIMARY KEY (`id_detalle_pigss`),
-  ADD KEY `Ref237393` (`id_planilla_igss_pk`),
-  ADD KEY `Ref238394` (`id_empleados_pk`);
+  ADD KEY `Refplanilla_igss393` (`id_planilla_igss_pk`),
+  ADD KEY `Refempleado394` (`id_empleados_pk`);
+
+--
+-- Indices de la tabla `detalle_prestacion`
+--
+ALTER TABLE `detalle_prestacion`
+  ADD PRIMARY KEY (`id_detalle_pres_pk`),
+  ADD KEY `Refdevengos489` (`id_devengos_pk`),
+  ADD KEY `Refdeducciones490` (`id_presamo_pk`),
+  ADD KEY `Refempleado491` (`id_empleados_pk`),
+  ADD KEY `Refimpuestos_ley492` (`id_detalle_impuesto_pk`);
 
 --
 -- Indices de la tabla `detalle_produccion`
 --
 ALTER TABLE `detalle_produccion`
   ADD PRIMARY KEY (`correlativo`,`id_produccion_pk`),
-  ADD KEY `Ref191299` (`id_encabezado_pedido_pk`,`id_detalle_pedido_pk`),
-  ADD KEY `Ref1310` (`id_categoria_pk`,`id_bien_pk`),
   ADD KEY `Refdetalle_pedido_1299` (`id_detalle_pedido_pk`,`id_encabezado_pedido_pk`),
   ADD KEY `Refbien310` (`id_bien_pk`,`id_categoria_pk`);
 
@@ -2308,71 +2206,69 @@ ALTER TABLE `detalle_produccion`
 --
 ALTER TABLE `detalle_receta_mp`
   ADD PRIMARY KEY (`correlativo`,`id_receta_pk`),
-  ADD KEY `Ref192301` (`id_proceso_pk`),
-  ADD KEY `Ref189302` (`id_medida_pk`),
-  ADD KEY `Ref187304` (`id_receta_pk`),
-  ADD KEY `Ref1311` (`id_bien_pk`,`id_categoria_pk`);
+  ADD KEY `Refproceso301` (`id_proceso_pk`),
+  ADD KEY `Refmedida302` (`id_medida_pk`),
+  ADD KEY `Refreceta304` (`id_receta_pk`),
+  ADD KEY `Refbien311` (`id_bien_pk`,`id_categoria_pk`);
 
 --
 -- Indices de la tabla `detalle_requisicion`
 --
 ALTER TABLE `detalle_requisicion`
   ADD PRIMARY KEY (`id_detalle_requisicion_pk`),
-  ADD KEY `Ref145440` (`id_requisicion_pk`),
-  ADD KEY `Ref1220` (`id_bien_pk`,`id_categoria_pk`);
+  ADD KEY `Refrequisicion440` (`id_requisicion_pk`),
+  ADD KEY `Refbien220` (`id_bien_pk`,`id_categoria_pk`);
 
 --
 -- Indices de la tabla `deuda`
 --
 ALTER TABLE `deuda`
   ADD PRIMARY KEY (`id_deuda`),
-  ADD KEY `Ref15230` (`id_cliente_pk`),
-  ADD KEY `Ref94231` (`id_fac_empresa_pk`,`id_empresa_pk`,`serie`),
-  ADD KEY `Ref17232` (`id_empresa_pk`);
+  ADD KEY `Refcliente230` (`id_cliente_pk`),
+  ADD KEY `Reffactura231` (`id_fac_empresa_pk`,`id_empresa_pk`,`serie`),
+  ADD KEY `Refempresa232` (`id_empresa_pk`);
 
 --
 -- Indices de la tabla `devengos`
 --
 ALTER TABLE `devengos`
   ADD PRIMARY KEY (`id_devengos_pk`),
-  ADD KEY `Ref238386` (`id_empleados_pk`),
-  ADD KEY `Ref237448` (`id_planilla_igss_pk`),
-  ADD KEY `Ref256450` (`id_detalle_impuesto_pk`);
+  ADD KEY `Refplanilla_igss448` (`id_planilla_igss_pk`),
+  ADD KEY `Refimpuestos_ley450` (`id_detalle_impuesto_pk`),
+  ADD KEY `Refcom_venta485` (`id_empleados_pk`,`id_com_venta_pk`);
 
 --
 -- Indices de la tabla `devolucion`
 --
 ALTER TABLE `devolucion`
   ADD PRIMARY KEY (`id_dev`,`id_fac_empresa_pk`,`id_empresa_pk`,`serie`),
-  ADD KEY `Ref94454` (`id_empresa_pk`,`id_fac_empresa_pk`,`serie`),
-  ADD KEY `Ref15455` (`id_cliente_pk`),
-  ADD KEY `Reffactura454` (`id_fac_empresa_pk`,`id_empresa_pk`,`serie`);
+  ADD KEY `Reffactura454` (`id_fac_empresa_pk`,`id_empresa_pk`,`serie`),
+  ADD KEY `Refcliente455` (`id_cliente_pk`);
 
 --
 -- Indices de la tabla `devolucion_compra`
 --
 ALTER TABLE `devolucion_compra`
   ADD PRIMARY KEY (`id_devolucion_compra_pk`),
-  ADD KEY `Ref5469` (`id_bodega_pk`),
-  ADD KEY `Ref125473` (`id_factura_compra_pk`),
-  ADD KEY `Ref124474` (`id_proveedor_pk`);
+  ADD KEY `Refbodega469` (`id_bodega_pk`),
+  ADD KEY `Refcompra473` (`id_factura_compra_pk`),
+  ADD KEY `Refproveedor474` (`id_proveedor_pk`);
 
 --
 -- Indices de la tabla `disponibilidad_bancaria`
 --
 ALTER TABLE `disponibilidad_bancaria`
   ADD PRIMARY KEY (`id_disponibilidad_bancaria`),
-  ADD KEY `Ref232377` (`id_cuenta_bancaria_pk`),
-  ADD KEY `Ref229378` (`id_tipo_documento`);
+  ADD KEY `Refcuenta_bancaria377` (`id_cuenta_bancaria_pk`),
+  ADD KEY `Reftipo_documento378` (`id_tipo_documento`);
 
 --
 -- Indices de la tabla `documento`
 --
 ALTER TABLE `documento`
   ADD PRIMARY KEY (`id_documento_pk`),
-  ADD KEY `Ref232375` (`id_cuenta_bancaria_pk`),
-  ADD KEY `Ref229376` (`id_tipo_documento`),
-  ADD KEY `Ref123385` (`id_proveedor_pk`,`id_cuenta_pk`),
+  ADD KEY `Refcuenta_bancaria375` (`id_cuenta_bancaria_pk`),
+  ADD KEY `Reftipo_documento376` (`id_tipo_documento`),
   ADD KEY `Refcuenta_corriente_por_pagar385` (`id_cuenta_pk`,`id_proveedor_pk`);
 
 --
@@ -2380,14 +2276,16 @@ ALTER TABLE `documento`
 --
 ALTER TABLE `doc_impuesto`
   ADD PRIMARY KEY (`id_doc_imp`),
-  ADD KEY `Ref155463` (`id_impuesto_pk`);
+  ADD KEY `Refimpuesto463` (`id_impuesto_pk`);
 
 --
 -- Indices de la tabla `empleado`
 --
 ALTER TABLE `empleado`
   ADD PRIMARY KEY (`id_empleados_pk`),
-  ADD KEY `Ref17398` (`id_empresa_pk`);
+  ADD KEY `Refempresa398` (`id_empresa_pk`),
+  ADD KEY `Refcargo_empleado487` (`id_cargo_emp_pk`),
+  ADD KEY `Refjornada_trabajo488` (`id_jornada_tra_pk`);
 
 --
 -- Indices de la tabla `empresa`
@@ -2418,37 +2316,37 @@ ALTER TABLE `encabezado_pedido`
 --
 ALTER TABLE `evento`
   ADD PRIMARY KEY (`id_evento_pk`),
-  ADD KEY `Ref1552` (`id_cliente_pk`),
-  ADD KEY `Ref1953` (`id_salon_pk`);
+  ADD KEY `Refcliente52` (`id_cliente_pk`),
+  ADD KEY `Refsalon53` (`id_salon_pk`);
 
 --
 -- Indices de la tabla `factura`
 --
 ALTER TABLE `factura`
   ADD PRIMARY KEY (`id_fac_empresa_pk`,`id_empresa_pk`,`serie`),
-  ADD KEY `Ref246405` (`id_moneda`),
-  ADD KEY `Ref251462` (`id_parametros_pk`),
-  ADD KEY `Ref238483` (`id_empleados_pk`),
-  ADD KEY `Ref15126` (`id_cliente_pk`),
-  ADD KEY `Ref17241` (`id_empresa_pk`),
-  ADD KEY `Ref155246` (`id_impuesto_pk`);
+  ADD KEY `Reftipo_moneda405` (`id_moneda`),
+  ADD KEY `Refparametros_fac462` (`id_parametros_pk`),
+  ADD KEY `Refempresa241` (`id_empresa_pk`),
+  ADD KEY `Refimpuesto246` (`id_impuesto_pk`),
+  ADD KEY `Refempleado483` (`id_empleados_pk`),
+  ADD KEY `Refcliente126` (`id_cliente_pk`);
 
 --
 -- Indices de la tabla `factura documento`
 --
 ALTER TABLE `factura documento`
   ADD PRIMARY KEY (`id_fac_empresa_pk`,`id_empresa_pk`,`id_documento_pk`,`serie`),
-  ADD KEY `Ref94383` (`id_fac_empresa_pk`,`id_empresa_pk`,`serie`),
-  ADD KEY `Ref234384` (`id_documento_pk`);
+  ADD KEY `Reffactura383` (`id_fac_empresa_pk`,`id_empresa_pk`,`serie`),
+  ADD KEY `Refdocumento384` (`id_documento_pk`);
 
 --
 -- Indices de la tabla `factura_detalle`
 --
 ALTER TABLE `factura_detalle`
   ADD PRIMARY KEY (`id_fac_empresa_pk`,`id_empresa_pk`,`id_precio`),
-  ADD KEY `Ref151402` (`id_precio`),
-  ADD KEY `Ref250439` (`id_detalle_folio_pk`),
-  ADD KEY `Ref94247` (`id_fac_empresa_pk`,`id_empresa_pk`,`serie`),
+  ADD KEY `Refprecio402` (`id_precio`),
+  ADD KEY `Refdetalle_folio439` (`id_detalle_folio_pk`),
+  ADD KEY `Reffactura247` (`id_fac_empresa_pk`,`id_empresa_pk`,`serie`),
   ADD KEY `Refempresa248` (`id_empresa_pk`);
 
 --
@@ -2456,32 +2354,29 @@ ALTER TABLE `factura_detalle`
 --
 ALTER TABLE `factura_pago`
   ADD PRIMARY KEY (`id_fac_empresa_pk`,`id_forma_pk`),
-  ADD KEY `Ref94127` (`id_empresa_pk`,`id_fac_empresa_pk`,`serie`),
-  ADD KEY `Ref99128` (`id_forma_pk`),
-  ADD KEY `Reffactura127` (`id_fac_empresa_pk`,`id_empresa_pk`,`serie`);
+  ADD KEY `Reffactura127` (`id_fac_empresa_pk`,`id_empresa_pk`,`serie`),
+  ADD KEY `Refforma_pago128` (`id_forma_pk`);
 
 --
 -- Indices de la tabla `folio`
 --
 ALTER TABLE `folio`
   ADD PRIMARY KEY (`id_cuenta_pagar_pk`),
-  ADD KEY `Ref15167` (`id_cliente_pk`);
+  ADD KEY `Refcliente167` (`id_cliente_pk`);
 
 --
 -- Indices de la tabla `folio_bien`
 --
 ALTER TABLE `folio_bien`
   ADD PRIMARY KEY (`id_folio_bien_pk`),
-  ADD KEY `Ref33261` (`id_cuenta_pagar_pk`),
-  ADD KEY `Ref1262` (`id_bien_pk`,`id_categoria_pk`);
+  ADD KEY `Reffolio261` (`id_cuenta_pagar_pk`),
+  ADD KEY `Refbien262` (`id_bien_pk`,`id_categoria_pk`);
 
 --
 -- Indices de la tabla `folio_factura`
 --
 ALTER TABLE `folio_factura`
   ADD PRIMARY KEY (`id_cuenta_pagar_pk`,`id_fac_empresa_pk`,`id_empresa_pk`),
-  ADD KEY `Ref33253` (`id_cuenta_pagar_pk`),
-  ADD KEY `Ref94254` (`id_empresa_pk`,`id_fac_empresa_pk`,`serie`),
   ADD KEY `Reffactura254` (`id_fac_empresa_pk`,`id_empresa_pk`,`serie`);
 
 --
@@ -2489,24 +2384,24 @@ ALTER TABLE `folio_factura`
 --
 ALTER TABLE `folio_habitacion`
   ADD PRIMARY KEY (`id_folio_habitacion_pk`),
-  ADD KEY `Ref37424` (`id_reserhabit_pk`),
-  ADD KEY `Ref33257` (`id_cuenta_pagar_pk`);
+  ADD KEY `Refreservacion_habitacion424` (`id_reserhabit_pk`),
+  ADD KEY `Reffolio257` (`id_cuenta_pagar_pk`);
 
 --
 -- Indices de la tabla `folio_promocion`
 --
 ALTER TABLE `folio_promocion`
   ADD PRIMARY KEY (`id_folio_promocion_pk`),
-  ADD KEY `Ref33263` (`id_cuenta_pagar_pk`),
-  ADD KEY `Ref25264` (`id_promocion_pk`);
+  ADD KEY `Reffolio263` (`id_cuenta_pagar_pk`),
+  ADD KEY `Refpromocion264` (`id_promocion_pk`);
 
 --
 -- Indices de la tabla `folio_salon`
 --
 ALTER TABLE `folio_salon`
   ADD PRIMARY KEY (`id_folio_salon_pk`),
-  ADD KEY `Ref26443` (`id_evento_pk`),
-  ADD KEY `Ref33259` (`id_cuenta_pagar_pk`);
+  ADD KEY `Refevento443` (`id_evento_pk`),
+  ADD KEY `Reffolio259` (`id_cuenta_pagar_pk`);
 
 --
 -- Indices de la tabla `forma_pago`
@@ -2519,15 +2414,15 @@ ALTER TABLE `forma_pago`
 --
 ALTER TABLE `gastos_importacion`
   ADD PRIMARY KEY (`id_importacion_pk`),
-  ADD KEY `Ref125172` (`id_factura_compra_pk`);
+  ADD KEY `Refcompra172` (`id_factura_compra_pk`);
 
 --
 -- Indices de la tabla `habitacion`
 --
 ALTER TABLE `habitacion`
   ADD PRIMARY KEY (`id_habitacion_pk`),
-  ADD KEY `Ref3444` (`id_tipo_pk`),
-  ADD KEY `Ref17161` (`id_empresa_pk`);
+  ADD KEY `Reftipo_habitacion44` (`id_tipo_pk`),
+  ADD KEY `Refempresa161` (`id_empresa_pk`);
 
 --
 -- Indices de la tabla `impuesto`
@@ -2540,21 +2435,27 @@ ALTER TABLE `impuesto`
 --
 ALTER TABLE `impuestos_ley`
   ADD PRIMARY KEY (`id_detalle_impuesto_pk`),
-  ADD KEY `Ref238451` (`id_empleados_pk`);
+  ADD KEY `Refempleado451` (`id_empleados_pk`);
 
 --
 -- Indices de la tabla `invitado`
 --
 ALTER TABLE `invitado`
   ADD PRIMARY KEY (`id_invitado_pk`),
-  ADD KEY `Ref2621` (`id_evento_pk`);
+  ADD KEY `Refevento21` (`id_evento_pk`);
+
+--
+-- Indices de la tabla `jornada_trabajo`
+--
+ALTER TABLE `jornada_trabajo`
+  ADD PRIMARY KEY (`id_jornada_tra_pk`);
 
 --
 -- Indices de la tabla `linea`
 --
 ALTER TABLE `linea`
   ADD PRIMARY KEY (`id_linea_pk`),
-  ADD KEY `Ref9430` (`id_categoria_pk`);
+  ADD KEY `Refcategoria430` (`id_categoria_pk`);
 
 --
 -- Indices de la tabla `marca`
@@ -2573,18 +2474,16 @@ ALTER TABLE `medida`
 --
 ALTER TABLE `menu`
   ADD PRIMARY KEY (`id_menu_pk`,`correlativo`),
-  ADD KEY `Ref187300` (`id_receta_pk`),
-  ADD KEY `Ref151308` (`id_precio`);
+  ADD KEY `Refreceta300` (`id_receta_pk`),
+  ADD KEY `Refprecio308` (`id_precio`);
 
 --
 -- Indices de la tabla `movimiento_inventario`
 --
 ALTER TABLE `movimiento_inventario`
   ADD PRIMARY KEY (`id_movimiento_pk`),
-  ADD KEY `Ref130183` (`no_doc`,`empresa`,`serie_doc`,`tipo_doc`),
-  ADD KEY `Ref5210` (`id_bodega_pk`),
-  ADD KEY `Ref1289` (`id_categoria_pk`,`id_bien_pk`),
   ADD KEY `Refencabezado_documento183` (`no_doc`,`serie_doc`,`tipo_doc`,`empresa`),
+  ADD KEY `Refbodega210` (`id_bodega_pk`),
   ADD KEY `Refbien289` (`id_bien_pk`,`id_categoria_pk`);
 
 --
@@ -2592,46 +2491,46 @@ ALTER TABLE `movimiento_inventario`
 --
 ALTER TABLE `nomina`
   ADD PRIMARY KEY (`id_nomina_pk`),
-  ADD KEY `Ref17400` (`id_empresa_pk`);
+  ADD KEY `Refempresa400` (`id_empresa_pk`);
 
 --
 -- Indices de la tabla `obj_perdido`
 --
 ALTER TABLE `obj_perdido`
   ADD PRIMARY KEY (`id_obj_perdido_pk`),
-  ADD KEY `Ref17256` (`id_empresa_pk`);
+  ADD KEY `Refempresa256` (`id_empresa_pk`);
 
 --
 -- Indices de la tabla `operacion`
 --
 ALTER TABLE `operacion`
   ADD PRIMARY KEY (`id_operacion`),
-  ADD KEY `Ref148228` (`id_doc`),
-  ADD KEY `Ref150229` (`id_deuda`);
+  ADD KEY `Reftipo_doc_1228` (`id_doc`),
+  ADD KEY `Refdeuda229` (`id_deuda`);
 
 --
 -- Indices de la tabla `paquetes_eventos`
 --
 ALTER TABLE `paquetes_eventos`
   ADD PRIMARY KEY (`id_paquetes_salon_pk`),
-  ADD KEY `Ref2616` (`id_evento_pk`),
-  ADD KEY `Ref2517` (`id_promocion_pk`);
+  ADD KEY `Refevento16` (`id_evento_pk`),
+  ADD KEY `Refpromocion17` (`id_promocion_pk`);
 
 --
 -- Indices de la tabla `paquetes_reservacion_habitacion`
 --
 ALTER TABLE `paquetes_reservacion_habitacion`
   ADD PRIMARY KEY (`id_paquetes_reservacion_habitacion_pk`),
-  ADD KEY `Ref2518` (`id_promocion_pk`),
-  ADD KEY `Ref3719` (`id_reserhabit_pk`);
+  ADD KEY `Refpromocion18` (`id_promocion_pk`),
+  ADD KEY `Refreservacion_habitacion19` (`id_reserhabit_pk`);
 
 --
 -- Indices de la tabla `paquete_inventario`
 --
 ALTER TABLE `paquete_inventario`
   ADD PRIMARY KEY (`id_paquete_inventario`),
-  ADD KEY `Ref2580` (`id_promocion_pk`),
-  ADD KEY `Ref181` (`id_bien_pk`,`id_categoria_pk`);
+  ADD KEY `Refpromocion80` (`id_promocion_pk`),
+  ADD KEY `Refbien81` (`id_bien_pk`,`id_categoria_pk`);
 
 --
 -- Indices de la tabla `parametros_fac`
@@ -2644,31 +2543,29 @@ ALTER TABLE `parametros_fac`
 --
 ALTER TABLE `pedido`
   ADD PRIMARY KEY (`id_pedido_pk`),
-  ADD KEY `Ref15426` (`id_cliente_pk`);
+  ADD KEY `Refcliente426` (`id_cliente_pk`);
 
 --
 -- Indices de la tabla `pedido_compra`
 --
 ALTER TABLE `pedido_compra`
   ADD PRIMARY KEY (`id_pedido_compra_pk`),
-  ADD KEY `Ref124175` (`id_proveedor_pk`),
-  ADD KEY `Ref145218` (`id_requisicion_pk`);
+  ADD KEY `Refproveedor175` (`id_proveedor_pk`),
+  ADD KEY `Refrequisicion218` (`id_requisicion_pk`);
 
 --
 -- Indices de la tabla `pedido_cotizacion`
 --
 ALTER TABLE `pedido_cotizacion`
   ADD PRIMARY KEY (`id_cotizacion_pk`,`id_pedido_pk`),
-  ADD KEY `Ref248428` (`id_pedido_pk`),
-  ADD KEY `Ref92250` (`id_cotizacion_pk`);
+  ADD KEY `Refpedido428` (`id_pedido_pk`);
 
 --
 -- Indices de la tabla `pedido_factura`
 --
 ALTER TABLE `pedido_factura`
   ADD PRIMARY KEY (`id_fac_empresa_pk`,`id_empresa_pk`,`serie`,`id_pedido_pk`),
-  ADD KEY `Ref248427` (`id_pedido_pk`),
-  ADD KEY `Ref94252` (`id_empresa_pk`,`id_fac_empresa_pk`,`serie`);
+  ADD KEY `Refpedido427` (`id_pedido_pk`);
 
 --
 -- Indices de la tabla `percepcion`
@@ -2687,32 +2584,31 @@ ALTER TABLE `perfil`
 --
 ALTER TABLE `perfil_privilegios`
   ADD PRIMARY KEY (`id_aplicacion`,`id_perfil`),
-  ADD KEY `Ref266476` (`id_aplicacion`),
-  ADD KEY `Ref265477` (`id_perfil`);
+  ADD KEY `Refperfil477` (`id_perfil`);
 
 --
 -- Indices de la tabla `planilla_igss`
 --
 ALTER TABLE `planilla_igss`
   ADD PRIMARY KEY (`id_planilla_igss_pk`),
-  ADD KEY `Ref17399` (`id_empresa_pk`);
+  ADD KEY `Refempresa399` (`id_empresa_pk`);
 
 --
 -- Indices de la tabla `precio`
 --
 ALTER TABLE `precio`
   ADD PRIMARY KEY (`id_precio`),
-  ADD KEY `Ref152459` (`id_tprecio_pk`),
-  ADD KEY `Ref1235` (`id_bien_pk`,`id_categoria_pk`),
-  ADD KEY `Ref182313` (`id_tamaniop_pk`);
+  ADD KEY `Reftipo_precio459` (`id_tprecio_pk`),
+  ADD KEY `Refbien235` (`id_bien_pk`,`id_categoria_pk`),
+  ADD KEY `Reftamanio_porcion313` (`id_tamaniop_pk`);
 
 --
 -- Indices de la tabla `problema`
 --
 ALTER TABLE `problema`
   ADD PRIMARY KEY (`id_problema_pk`),
-  ADD KEY `Ref15168` (`id_cliente_pk`),
-  ADD KEY `Ref17169` (`id_empresa_pk`);
+  ADD KEY `Refempresa169` (`id_empresa_pk`),
+  ADD KEY `Refcliente168` (`id_cliente_pk`);
 
 --
 -- Indices de la tabla `proceso`
@@ -2731,18 +2627,17 @@ ALTER TABLE `produccion`
 --
 ALTER TABLE `producto_bodega`
   ADD PRIMARY KEY (`id_bien_pk`,`id_bodega_pk`,`id_categoria_pk`),
-  ADD KEY `Ref110` (`id_categoria_pk`,`id_bien_pk`),
-  ADD KEY `Ref511` (`id_bodega_pk`),
-  ADD KEY `Refbien10` (`id_bien_pk`,`id_categoria_pk`);
+  ADD KEY `Refbien10` (`id_bien_pk`,`id_categoria_pk`),
+  ADD KEY `Refbodega11` (`id_bodega_pk`);
 
 --
 -- Indices de la tabla `promocion`
 --
 ALTER TABLE `promocion`
   ADD PRIMARY KEY (`id_promocion_pk`),
-  ADD KEY `Ref19163` (`id_salon_pk`),
-  ADD KEY `Ref20165` (`id_habitacion_pk`),
-  ADD KEY `Ref1195` (`id_bien_pk`,`id_categoria_pk`);
+  ADD KEY `Refbien195` (`id_bien_pk`,`id_categoria_pk`),
+  ADD KEY `Refsalon163` (`id_salon_pk`),
+  ADD KEY `Refhabitacion165` (`id_habitacion_pk`);
 
 --
 -- Indices de la tabla `proveedor`
@@ -2767,22 +2662,22 @@ ALTER TABLE `reporteador`
 --
 ALTER TABLE `requisicion`
   ADD PRIMARY KEY (`id_requisicion_pk`),
-  ADD KEY `Ref5217` (`id_bodega_pk`);
+  ADD KEY `Refbodega217` (`id_bodega_pk`);
 
 --
 -- Indices de la tabla `reservacion_habitacion`
 --
 ALTER TABLE `reservacion_habitacion`
   ADD PRIMARY KEY (`id_reserhabit_pk`),
-  ADD KEY `Ref1546` (`id_cliente_pk`),
-  ADD KEY `Ref2047` (`id_habitacion_pk`);
+  ADD KEY `Refcliente46` (`id_cliente_pk`),
+  ADD KEY `Refhabitacion47` (`id_habitacion_pk`);
 
 --
 -- Indices de la tabla `salon`
 --
 ALTER TABLE `salon`
   ADD PRIMARY KEY (`id_salon_pk`),
-  ADD KEY `Ref17162` (`id_empresa_pk`);
+  ADD KEY `Refempresa162` (`id_empresa_pk`);
 
 --
 -- Indices de la tabla `tamanio_porcion`
@@ -2831,23 +2726,22 @@ ALTER TABLE `tipo_moneda`
 --
 ALTER TABLE `tipo_precio`
   ADD PRIMARY KEY (`id_tprecio_pk`),
-  ADD KEY `Ref151314` (`id_precio`);
+  ADD KEY `Refprecio314` (`id_precio`);
 
 --
 -- Indices de la tabla `usuario`
 --
 ALTER TABLE `usuario`
   ADD PRIMARY KEY (`usuario`),
-  ADD KEY `Ref238480` (`id_empleados_pk`);
+  ADD KEY `Refempleado480` (`id_empleados_pk`);
 
 --
 -- Indices de la tabla `usuario_privilegios`
 --
 ALTER TABLE `usuario_privilegios`
   ADD PRIMARY KEY (`usuario`,`id_aplicacion`),
-  ADD KEY `Ref265475` (`id_perfil`),
-  ADD KEY `Ref264478` (`usuario`),
-  ADD KEY `Ref266479` (`id_aplicacion`);
+  ADD KEY `Refperfil475` (`id_perfil`),
+  ADD KEY `Refaplicacion479` (`id_aplicacion`);
 
 --
 -- AUTO_INCREMENT de las tablas volcadas
@@ -2862,7 +2756,7 @@ ALTER TABLE `aplicacion`
 -- AUTO_INCREMENT de la tabla `bitacora`
 --
 ALTER TABLE `bitacora`
-  MODIFY `id_bit` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16137;
+  MODIFY `id_bit` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16102;
 --
 -- AUTO_INCREMENT de la tabla `bodega`
 --
@@ -2873,6 +2767,11 @@ ALTER TABLE `bodega`
 --
 ALTER TABLE `buzon`
   MODIFY `id_buzon_pk` int(11) NOT NULL AUTO_INCREMENT;
+--
+-- AUTO_INCREMENT de la tabla `cargo_empleado`
+--
+ALTER TABLE `cargo_empleado`
+  MODIFY `id_cargo_emp_pk` int(10) NOT NULL AUTO_INCREMENT;
 --
 -- AUTO_INCREMENT de la tabla `cliente`
 --
@@ -2888,6 +2787,11 @@ ALTER TABLE `compra`
 --
 ALTER TABLE `com_venta`
   MODIFY `id_com_venta_pk` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
+--
+-- AUTO_INCREMENT de la tabla `conciliaciones`
+--
+ALTER TABLE `conciliaciones`
+  MODIFY `id_conciliacion_pk` int(11) NOT NULL AUTO_INCREMENT;
 --
 -- AUTO_INCREMENT de la tabla `consultaalmacenada`
 --
@@ -2923,11 +2827,6 @@ ALTER TABLE `deducciones`
 --
 ALTER TABLE `detalle_compra`
   MODIFY `id_detalle_compra_pk` int(11) NOT NULL AUTO_INCREMENT;
---
--- AUTO_INCREMENT de la tabla `detalle_com_ventas`
---
-ALTER TABLE `detalle_com_ventas`
-  MODIFY `id_detalle_com_ventas` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 --
 -- AUTO_INCREMENT de la tabla `detalle_cotizacion`
 --
@@ -2992,7 +2891,12 @@ ALTER TABLE `detalle_pedido_compra`
 -- AUTO_INCREMENT de la tabla `detalle_planilla_igss`
 --
 ALTER TABLE `detalle_planilla_igss`
-  MODIFY `id_detalle_pigss` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id_detalle_pigss` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+--
+-- AUTO_INCREMENT de la tabla `detalle_prestacion`
+--
+ALTER TABLE `detalle_prestacion`
+  MODIFY `id_detalle_pres_pk` int(11) NOT NULL AUTO_INCREMENT;
 --
 -- AUTO_INCREMENT de la tabla `detalle_produccion`
 --
@@ -3037,7 +2941,7 @@ ALTER TABLE `disponibilidad_bancaria`
 -- AUTO_INCREMENT de la tabla `documento`
 --
 ALTER TABLE `documento`
-  MODIFY `id_documento_pk` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id_documento_pk` int(11) NOT NULL AUTO_INCREMENT;
 --
 -- AUTO_INCREMENT de la tabla `doc_impuesto`
 --
@@ -3047,7 +2951,7 @@ ALTER TABLE `doc_impuesto`
 -- AUTO_INCREMENT de la tabla `empleado`
 --
 ALTER TABLE `empleado`
-  MODIFY `id_empleados_pk` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id_empleados_pk` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 --
 -- AUTO_INCREMENT de la tabla `empresa`
 --
@@ -3114,20 +3018,30 @@ ALTER TABLE `habitacion`
 ALTER TABLE `impuesto`
   MODIFY `id_impuesto_pk` int(11) NOT NULL AUTO_INCREMENT;
 --
+-- AUTO_INCREMENT de la tabla `impuestos_ley`
+--
+ALTER TABLE `impuestos_ley`
+  MODIFY `id_detalle_impuesto_pk` int(11) NOT NULL AUTO_INCREMENT;
+--
 -- AUTO_INCREMENT de la tabla `invitado`
 --
 ALTER TABLE `invitado`
   MODIFY `id_invitado_pk` int(11) NOT NULL AUTO_INCREMENT;
 --
+-- AUTO_INCREMENT de la tabla `jornada_trabajo`
+--
+ALTER TABLE `jornada_trabajo`
+  MODIFY `id_jornada_tra_pk` int(11) NOT NULL AUTO_INCREMENT;
+--
 -- AUTO_INCREMENT de la tabla `linea`
 --
 ALTER TABLE `linea`
-  MODIFY `id_linea_pk` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id_linea_pk` int(11) NOT NULL AUTO_INCREMENT;
 --
 -- AUTO_INCREMENT de la tabla `marca`
 --
 ALTER TABLE `marca`
-  MODIFY `id_marca_pk` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id_marca_pk` int(11) NOT NULL AUTO_INCREMENT;
 --
 -- AUTO_INCREMENT de la tabla `medida`
 --
@@ -3147,7 +3061,7 @@ ALTER TABLE `movimiento_inventario`
 -- AUTO_INCREMENT de la tabla `nomina`
 --
 ALTER TABLE `nomina`
-  MODIFY `id_nomina_pk` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id_nomina_pk` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 --
 -- AUTO_INCREMENT de la tabla `obj_perdido`
 --
@@ -3189,10 +3103,15 @@ ALTER TABLE `pedido`
 ALTER TABLE `pedido_compra`
   MODIFY `id_pedido_compra_pk` int(11) NOT NULL AUTO_INCREMENT;
 --
+-- AUTO_INCREMENT de la tabla `percepcion`
+--
+ALTER TABLE `percepcion`
+  MODIFY `id_percepcion_pk` int(11) NOT NULL AUTO_INCREMENT;
+--
 -- AUTO_INCREMENT de la tabla `perfil`
 --
 ALTER TABLE `perfil`
-  MODIFY `id_perfil` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id_perfil` int(11) NOT NULL AUTO_INCREMENT;
 --
 -- AUTO_INCREMENT de la tabla `planilla_igss`
 --
@@ -3202,7 +3121,7 @@ ALTER TABLE `planilla_igss`
 -- AUTO_INCREMENT de la tabla `precio`
 --
 ALTER TABLE `precio`
-  MODIFY `id_precio` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id_precio` int(11) NOT NULL AUTO_INCREMENT;
 --
 -- AUTO_INCREMENT de la tabla `problema`
 --

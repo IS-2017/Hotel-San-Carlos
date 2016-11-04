@@ -47,18 +47,6 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Abrir.exe" size="644608">
-      <assemblyIdentity name="Abrir" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
-      <hash>
-        <dsig:Transforms>
-          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-        </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>lCGgZBHcRgNNK+mmqH1rVZUa5+j9JBX9IvbulUbGoaE=</dsig:DigestValue>
-      </hash>
-    </dependentAssembly>
-  </dependency>
-  <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CrystalDecisions.CrystalReports.Engine.dll" size="380928">
       <assemblyIdentity name="CrystalDecisions.CrystalReports.Engine" version="13.0.2000.0" publicKeyToken="692FBEA5521E1304" language="neutral" processorArchitecture="msil" />
       <hash>
@@ -294,19 +282,19 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>Fd+Zi+fCMzMtMV0j6E4ocCpwtSY8J3+2fNTk0cVcly0=</dsig:DigestValue>
+        <dsig:DigestValue>z1JCyodj5/UiC37FF0m11VPrQRt8tszqKfa8jk+yNYc=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Prototipo -RRHH.exe" size="8535040">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Prototipo -RRHH.exe" size="8539136">
       <assemblyIdentity name="Prototipo -RRHH" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>i8cW3lMSqAzvdoYmIMh831LKYGJeXLnu2Cgi0gkorA8=</dsig:DigestValue>
+        <dsig:DigestValue>ZufzUGRQu/kk0ewr9iusuRhhDAhJ9swtfg7bRJ8VRBU=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

@@ -37,13 +37,13 @@
             this.percepcion = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.deduccion = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.groupBox12 = new System.Windows.Forms.GroupBox();
-            this.textBox12 = new System.Windows.Forms.TextBox();
+            this.txt_fec_fin_pag_nom = new System.Windows.Forms.TextBox();
             this.groupBox11 = new System.Windows.Forms.GroupBox();
-            this.textBox11 = new System.Windows.Forms.TextBox();
+            this.txt_fec_inic_pag_nom = new System.Windows.Forms.TextBox();
             this.groupBox10 = new System.Windows.Forms.GroupBox();
             this.textBox10 = new System.Windows.Forms.TextBox();
             this.groupBox9 = new System.Windows.Forms.GroupBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.txt_perd_liquid_nom = new System.Windows.Forms.TextBox();
             this.groupBox8 = new System.Windows.Forms.GroupBox();
             this.txt_nacion_emp_nom = new System.Windows.Forms.TextBox();
             this.groupBox7 = new System.Windows.Forms.GroupBox();
@@ -53,7 +53,7 @@
             this.groupBox5 = new System.Windows.Forms.GroupBox();
             this.txt_cargo_emp_nom = new System.Windows.Forms.TextBox();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.txt_dirr_empr_nom = new System.Windows.Forms.TextBox();
             this.gpb_navegador = new System.Windows.Forms.GroupBox();
             this.btn_nuevo = new System.Windows.Forms.Button();
             this.btn_ultimo = new System.Windows.Forms.Button();
@@ -72,7 +72,7 @@
             this.txt_nom_emp_nom = new System.Windows.Forms.TextBox();
             this.dgv_datos_emp = new System.Windows.Forms.DataGridView();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txt_nom_empresa_nom = new System.Windows.Forms.TextBox();
             this.lbl_recibo_nomina = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.groupBox12.SuspendLayout();
@@ -142,7 +142,7 @@
             // 
             // groupBox12
             // 
-            this.groupBox12.Controls.Add(this.textBox12);
+            this.groupBox12.Controls.Add(this.txt_fec_fin_pag_nom);
             this.groupBox12.Location = new System.Drawing.Point(438, 381);
             this.groupBox12.Name = "groupBox12";
             this.groupBox12.Size = new System.Drawing.Size(169, 50);
@@ -150,17 +150,17 @@
             this.groupBox12.TabStop = false;
             this.groupBox12.Text = "Fec. Final de Pago";
             // 
-            // textBox12
+            // txt_fec_fin_pag_nom
             // 
-            this.textBox12.Enabled = false;
-            this.textBox12.Location = new System.Drawing.Point(6, 19);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(157, 20);
-            this.textBox12.TabIndex = 176;
+            this.txt_fec_fin_pag_nom.Enabled = false;
+            this.txt_fec_fin_pag_nom.Location = new System.Drawing.Point(6, 19);
+            this.txt_fec_fin_pag_nom.Name = "txt_fec_fin_pag_nom";
+            this.txt_fec_fin_pag_nom.Size = new System.Drawing.Size(157, 20);
+            this.txt_fec_fin_pag_nom.TabIndex = 176;
             // 
             // groupBox11
             // 
-            this.groupBox11.Controls.Add(this.textBox11);
+            this.groupBox11.Controls.Add(this.txt_fec_inic_pag_nom);
             this.groupBox11.Location = new System.Drawing.Point(253, 381);
             this.groupBox11.Name = "groupBox11";
             this.groupBox11.Size = new System.Drawing.Size(179, 50);
@@ -168,13 +168,13 @@
             this.groupBox11.TabStop = false;
             this.groupBox11.Text = "Fec. Inicio Pago:";
             // 
-            // textBox11
+            // txt_fec_inic_pag_nom
             // 
-            this.textBox11.Enabled = false;
-            this.textBox11.Location = new System.Drawing.Point(6, 19);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(167, 20);
-            this.textBox11.TabIndex = 176;
+            this.txt_fec_inic_pag_nom.Enabled = false;
+            this.txt_fec_inic_pag_nom.Location = new System.Drawing.Point(6, 19);
+            this.txt_fec_inic_pag_nom.Name = "txt_fec_inic_pag_nom";
+            this.txt_fec_inic_pag_nom.Size = new System.Drawing.Size(167, 20);
+            this.txt_fec_inic_pag_nom.TabIndex = 176;
             // 
             // groupBox10
             // 
@@ -196,7 +196,7 @@
             // 
             // groupBox9
             // 
-            this.groupBox9.Controls.Add(this.textBox9);
+            this.groupBox9.Controls.Add(this.txt_perd_liquid_nom);
             this.groupBox9.Location = new System.Drawing.Point(12, 381);
             this.groupBox9.Name = "groupBox9";
             this.groupBox9.Size = new System.Drawing.Size(235, 50);
@@ -204,13 +204,13 @@
             this.groupBox9.TabStop = false;
             this.groupBox9.Text = "Peridodo de Liquidacion";
             // 
-            // textBox9
+            // txt_perd_liquid_nom
             // 
-            this.textBox9.Enabled = false;
-            this.textBox9.Location = new System.Drawing.Point(6, 19);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(223, 20);
-            this.textBox9.TabIndex = 176;
+            this.txt_perd_liquid_nom.Enabled = false;
+            this.txt_perd_liquid_nom.Location = new System.Drawing.Point(6, 19);
+            this.txt_perd_liquid_nom.Name = "txt_perd_liquid_nom";
+            this.txt_perd_liquid_nom.Size = new System.Drawing.Size(223, 20);
+            this.txt_perd_liquid_nom.TabIndex = 176;
             // 
             // groupBox8
             // 
@@ -290,7 +290,7 @@
             // 
             // groupBox4
             // 
-            this.groupBox4.Controls.Add(this.textBox4);
+            this.groupBox4.Controls.Add(this.txt_dirr_empr_nom);
             this.groupBox4.Location = new System.Drawing.Point(12, 325);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Size = new System.Drawing.Size(270, 50);
@@ -298,13 +298,13 @@
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Direccion de la Empresa";
             // 
-            // textBox4
+            // txt_dirr_empr_nom
             // 
-            this.textBox4.Enabled = false;
-            this.textBox4.Location = new System.Drawing.Point(6, 19);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(258, 20);
-            this.textBox4.TabIndex = 176;
+            this.txt_dirr_empr_nom.Enabled = false;
+            this.txt_dirr_empr_nom.Location = new System.Drawing.Point(6, 19);
+            this.txt_dirr_empr_nom.Name = "txt_dirr_empr_nom";
+            this.txt_dirr_empr_nom.Size = new System.Drawing.Size(258, 20);
+            this.txt_dirr_empr_nom.TabIndex = 176;
             // 
             // gpb_navegador
             // 
@@ -416,6 +416,7 @@
             this.btn_siguiente.Size = new System.Drawing.Size(33, 33);
             this.btn_siguiente.TabIndex = 8;
             this.btn_siguiente.UseVisualStyleBackColor = true;
+            this.btn_siguiente.Click += new System.EventHandler(this.btn_siguiente_Click_1);
             // 
             // btn_eliminar
             // 
@@ -446,6 +447,7 @@
             this.btn_anterior.Size = new System.Drawing.Size(33, 33);
             this.btn_anterior.TabIndex = 7;
             this.btn_anterior.UseVisualStyleBackColor = true;
+            this.btn_anterior.Click += new System.EventHandler(this.btn_anterior_Click_1);
             // 
             // btn_buscar
             // 
@@ -539,7 +541,7 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.textBox1);
+            this.groupBox1.Controls.Add(this.txt_nom_empresa_nom);
             this.groupBox1.Location = new System.Drawing.Point(12, 269);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(270, 50);
@@ -547,13 +549,14 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Empresa";
             // 
-            // textBox1
+            // txt_nom_empresa_nom
             // 
-            this.textBox1.Enabled = false;
-            this.textBox1.Location = new System.Drawing.Point(6, 19);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(258, 20);
-            this.textBox1.TabIndex = 176;
+            this.txt_nom_empresa_nom.Enabled = false;
+            this.txt_nom_empresa_nom.Location = new System.Drawing.Point(6, 19);
+            this.txt_nom_empresa_nom.Name = "txt_nom_empresa_nom";
+            this.txt_nom_empresa_nom.Size = new System.Drawing.Size(258, 20);
+            this.txt_nom_empresa_nom.TabIndex = 176;
+            this.txt_nom_empresa_nom.Tag = "nombre";
             // 
             // lbl_recibo_nomina
             // 
@@ -632,13 +635,13 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn percepcion;
         private System.Windows.Forms.DataGridViewTextBoxColumn deduccion;
         private System.Windows.Forms.GroupBox groupBox12;
-        public System.Windows.Forms.TextBox textBox12;
+        public System.Windows.Forms.TextBox txt_fec_fin_pag_nom;
         private System.Windows.Forms.GroupBox groupBox11;
-        public System.Windows.Forms.TextBox textBox11;
+        public System.Windows.Forms.TextBox txt_fec_inic_pag_nom;
         private System.Windows.Forms.GroupBox groupBox10;
         public System.Windows.Forms.TextBox textBox10;
         private System.Windows.Forms.GroupBox groupBox9;
-        public System.Windows.Forms.TextBox textBox9;
+        public System.Windows.Forms.TextBox txt_perd_liquid_nom;
         private System.Windows.Forms.GroupBox groupBox8;
         public System.Windows.Forms.TextBox txt_nacion_emp_nom;
         private System.Windows.Forms.GroupBox groupBox7;
@@ -648,7 +651,7 @@
         private System.Windows.Forms.GroupBox groupBox5;
         public System.Windows.Forms.TextBox txt_cargo_emp_nom;
         private System.Windows.Forms.GroupBox groupBox4;
-        public System.Windows.Forms.TextBox textBox4;
+        public System.Windows.Forms.TextBox txt_dirr_empr_nom;
         private System.Windows.Forms.GroupBox gpb_navegador;
         private System.Windows.Forms.Button btn_nuevo;
         private System.Windows.Forms.Button btn_ultimo;
@@ -667,7 +670,7 @@
         public System.Windows.Forms.TextBox txt_nom_emp_nom;
         private System.Windows.Forms.DataGridView dgv_datos_emp;
         private System.Windows.Forms.GroupBox groupBox1;
-        public System.Windows.Forms.TextBox textBox1;
+        public System.Windows.Forms.TextBox txt_nom_empresa_nom;
         private System.Windows.Forms.Label lbl_recibo_nomina;
     }
 }
