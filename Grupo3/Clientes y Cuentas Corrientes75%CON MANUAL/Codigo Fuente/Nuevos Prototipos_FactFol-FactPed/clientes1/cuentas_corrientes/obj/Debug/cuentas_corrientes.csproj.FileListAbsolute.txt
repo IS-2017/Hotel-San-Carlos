@@ -1,0 +1,749 @@
+C:\Users\ale_\Desktop\modulo cliente\prototipos\cuentas_corrientes\cuentas_corrientes\bin\Debug\cuentas_corrientes.exe.config
+C:\Users\ale_\Desktop\modulo cliente\prototipos\cuentas_corrientes - Copy\cuentas_corrientes\bin\Debug\cuentas_corrientes.exe.config
+C:\Users\ale_\Desktop\modulos\modulo cliente\prototipos\cuentas_corrientes - Copy\cuentas_corrientes\bin\Debug\cuentas_corrientes.exe.config
+C:\Users\ale_\Desktop\modulos\modulo cliente\prototipos\cuentas_corrientes - Copy\cuentas_corrientes\bin\Debug\cuentas_corrientes.exe
+C:\Users\ale_\Desktop\modulos\modulo cliente\prototipos\cuentas_corrientes - Copy\cuentas_corrientes\bin\Debug\cuentas_corrientes.pdb
+C:\Users\ale_\Desktop\modulos\modulo cliente\prototipos\cuentas_corrientes - Copy\cuentas_corrientes\obj\Debug\cuentas_corrientes.csprojResolveAssemblyReference.cache
+C:\Users\ale_\Desktop\modulos\modulo cliente\prototipos\cuentas_corrientes - Copy\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscarPaquete.resources
+C:\Users\ale_\Desktop\modulos\modulo cliente\prototipos\cuentas_corrientes - Copy\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscarProducto.resources
+C:\Users\ale_\Desktop\modulos\modulo cliente\prototipos\cuentas_corrientes - Copy\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscarPromociones.resources
+C:\Users\ale_\Desktop\modulos\modulo cliente\prototipos\cuentas_corrientes - Copy\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmcliente.resources
+C:\Users\ale_\Desktop\modulos\modulo cliente\prototipos\cuentas_corrientes - Copy\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmCotizacion.resources
+C:\Users\ale_\Desktop\modulos\modulo cliente\prototipos\cuentas_corrientes - Copy\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmdeuda.resources
+C:\Users\ale_\Desktop\modulos\modulo cliente\prototipos\cuentas_corrientes - Copy\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmoperacion.resources
+C:\Users\ale_\Desktop\modulos\modulo cliente\prototipos\cuentas_corrientes - Copy\cuentas_corrientes\obj\Debug\cuentas_corrientes.Frm_Login.resources
+C:\Users\ale_\Desktop\modulos\modulo cliente\prototipos\cuentas_corrientes - Copy\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmmenu.resources
+C:\Users\ale_\Desktop\modulos\modulo cliente\prototipos\cuentas_corrientes - Copy\cuentas_corrientes\obj\Debug\cuentas_corrientes.Properties.Resources.resources
+C:\Users\ale_\Desktop\modulos\modulo cliente\prototipos\cuentas_corrientes - Copy\cuentas_corrientes\obj\Debug\cuentas_corrientes.csproj.GenerateResource.Cache
+C:\Users\ale_\Desktop\modulos\modulo cliente\prototipos\cuentas_corrientes - Copy\cuentas_corrientes\obj\Debug\cuentas_corrientes.exe
+C:\Users\ale_\Desktop\modulos\modulo cliente\prototipos\cuentas_corrientes - Copy\cuentas_corrientes\obj\Debug\cuentas_corrientes.pdb
+C:\Users\ale_\Desktop\modulos\modulo cliente\prototipos\cuentas_corrientes - Copy\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmbuscliente.resources
+C:\Users\ale_\Desktop\modulos\modulo cliente\prototipos\cuentas_corrientes - Copy\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscarFactura.resources
+C:\Users\ale_\Desktop\modulos\modulo cliente\prototipos\cuentas_corrientes - Copy\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscImpuesto.resources
+C:\Users\ale_\Desktop\modulos\modulo cliente\prototipos\cuentas_corrientes - Copy\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscTipoPrecio.resources
+C:\Users\ale_\Desktop\modulos\modulo cliente\prototipos\cuentas_corrientes - Copy\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmFactura.resources
+C:\Users\ale_\Desktop\modulos\modulo cliente\prototipos\cuentas_corrientes - Copy\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmFormaDePago.resources
+C:\Users\ale_\Desktop\modulos\modulo cliente\prototipos\cuentas_corrientes - Copy\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmImpuesto.resources
+C:\Users\ale_\Desktop\modulos\modulo cliente\prototipos\cuentas_corrientes - Copy\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmListadoPrecio.resources
+C:\Users\ale_\Desktop\modulos\modulo cliente\prototipos\cuentas_corrientes - Copy\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmRegistroContribuyente.resources
+C:\Users\ale_\Desktop\modulos\modulo cliente\prototipos\cuentas_corrientes - Copy\cuentas_corrientes\bin\Debug\MySql.Data.dll
+C:\Users\ale_\Desktop\modulos\modulo cliente\prototipos\cuentas_corrientes - Copy\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmTipocredito.resources
+C:\Users\ale_\Desktop\modulos\modulo cliente\prototipos\cuentas_corrientes - Copy\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscartcredi.resources
+C:\Users\ale_\Desktop\modulos\modulo cliente\prototipos\cuentas_corrientes - Copy\cuentas_corrientes\obj\Debug\cuentas_corrientes.frm_Buscartp.resources
+C:\Users\salaz\Desktop\PROYECTO HOTEL\cuentas_corrientes - Copy\cuentas_corrientes\bin\Debug\cuentas_corrientes.exe.config
+C:\Users\salaz\Desktop\PROYECTO HOTEL\cuentas_corrientes - Copy\cuentas_corrientes\obj\Debug\cuentas_corrientes.exe
+C:\Users\salaz\Desktop\PROYECTO HOTEL\cuentas_corrientes - Copy\cuentas_corrientes\obj\Debug\cuentas_corrientes.pdb
+C:\Users\salaz\Desktop\PROYECTO HOTEL\cuentas_corrientes - Copy\cuentas_corrientes\bin\Debug\cuentas_corrientes.exe
+C:\Users\salaz\Desktop\PROYECTO HOTEL\cuentas_corrientes - Copy\cuentas_corrientes\bin\Debug\cuentas_corrientes.pdb
+C:\Users\salaz\Desktop\PROYECTO HOTEL\cuentas_corrientes - Copy\cuentas_corrientes\obj\Debug\cuentas_corrientes.csprojResolveAssemblyReference.cache
+C:\Users\salaz\Desktop\PROYECTO HOTEL\cuentas_corrientes - Copy\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscarFactura.resources
+C:\Users\salaz\Desktop\PROYECTO HOTEL\cuentas_corrientes - Copy\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscarPaquete.resources
+C:\Users\salaz\Desktop\PROYECTO HOTEL\cuentas_corrientes - Copy\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscarProducto.resources
+C:\Users\salaz\Desktop\PROYECTO HOTEL\cuentas_corrientes - Copy\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscarPromociones.resources
+C:\Users\salaz\Desktop\PROYECTO HOTEL\cuentas_corrientes - Copy\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscartcredi.resources
+C:\Users\salaz\Desktop\PROYECTO HOTEL\cuentas_corrientes - Copy\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscImpuesto.resources
+C:\Users\salaz\Desktop\PROYECTO HOTEL\cuentas_corrientes - Copy\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmbuscliente.resources
+C:\Users\salaz\Desktop\PROYECTO HOTEL\cuentas_corrientes - Copy\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscTipoPrecio.resources
+C:\Users\salaz\Desktop\PROYECTO HOTEL\cuentas_corrientes - Copy\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmcliente.resources
+C:\Users\salaz\Desktop\PROYECTO HOTEL\cuentas_corrientes - Copy\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmCotizacion.resources
+C:\Users\salaz\Desktop\PROYECTO HOTEL\cuentas_corrientes - Copy\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmdeuda.resources
+C:\Users\salaz\Desktop\PROYECTO HOTEL\cuentas_corrientes - Copy\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmFactura.resources
+C:\Users\salaz\Desktop\PROYECTO HOTEL\cuentas_corrientes - Copy\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmFormaDePago.resources
+C:\Users\salaz\Desktop\PROYECTO HOTEL\cuentas_corrientes - Copy\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmImpuesto.resources
+C:\Users\salaz\Desktop\PROYECTO HOTEL\cuentas_corrientes - Copy\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmListadoPrecio.resources
+C:\Users\salaz\Desktop\PROYECTO HOTEL\cuentas_corrientes - Copy\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmoperacion.resources
+C:\Users\salaz\Desktop\PROYECTO HOTEL\cuentas_corrientes - Copy\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmTipocredito.resources
+C:\Users\salaz\Desktop\PROYECTO HOTEL\cuentas_corrientes - Copy\cuentas_corrientes\obj\Debug\cuentas_corrientes.frm_Buscartp.resources
+C:\Users\salaz\Desktop\PROYECTO HOTEL\cuentas_corrientes - Copy\cuentas_corrientes\obj\Debug\cuentas_corrientes.Frm_Login.resources
+C:\Users\salaz\Desktop\PROYECTO HOTEL\cuentas_corrientes - Copy\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmmenu.resources
+C:\Users\salaz\Desktop\PROYECTO HOTEL\cuentas_corrientes - Copy\cuentas_corrientes\obj\Debug\cuentas_corrientes.Properties.Resources.resources
+C:\Users\salaz\Desktop\PROYECTO HOTEL\cuentas_corrientes - Copy\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmRegistroContribuyente.resources
+C:\Users\salaz\Desktop\PROYECTO HOTEL\cuentas_corrientes - Copy\cuentas_corrientes\obj\Debug\cuentas_corrientes.csproj.GenerateResource.Cache
+C:\Users\ale_\Desktop\modulos\modulo cliente\prototipos\clientes1\cuentas_corrientes\bin\Debug\cuentas_corrientes.exe.config
+C:\Users\ale_\Desktop\modulos\modulo cliente\prototipos\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.exe
+C:\Users\ale_\Desktop\modulos\modulo cliente\prototipos\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.pdb
+C:\Users\ale_\Desktop\modulos\modulo cliente\prototipos\clientes1\cuentas_corrientes\bin\Debug\cuentas_corrientes.exe
+C:\Users\ale_\Desktop\modulos\modulo cliente\prototipos\clientes1\cuentas_corrientes\bin\Debug\cuentas_corrientes.pdb
+C:\Users\ale_\Desktop\modulos\modulo cliente\prototipos\clientes1\cuentas_corrientes\bin\Debug\MySql.Data.dll
+C:\Users\ale_\Desktop\modulos\modulo cliente\prototipos\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.csprojResolveAssemblyReference.cache
+C:\Users\ale_\Desktop\modulos\modulo cliente\prototipos\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscarFactura.resources
+C:\Users\ale_\Desktop\modulos\modulo cliente\prototipos\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscarPaquete.resources
+C:\Users\ale_\Desktop\modulos\modulo cliente\prototipos\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscarProducto.resources
+C:\Users\ale_\Desktop\modulos\modulo cliente\prototipos\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscarPromociones.resources
+C:\Users\ale_\Desktop\modulos\modulo cliente\prototipos\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscartcredi.resources
+C:\Users\ale_\Desktop\modulos\modulo cliente\prototipos\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscImpuesto.resources
+C:\Users\ale_\Desktop\modulos\modulo cliente\prototipos\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmbuscliente.resources
+C:\Users\ale_\Desktop\modulos\modulo cliente\prototipos\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscTipoPrecio.resources
+C:\Users\ale_\Desktop\modulos\modulo cliente\prototipos\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmcliente.resources
+C:\Users\ale_\Desktop\modulos\modulo cliente\prototipos\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmCotizacion.resources
+C:\Users\ale_\Desktop\modulos\modulo cliente\prototipos\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmdeuda.resources
+C:\Users\ale_\Desktop\modulos\modulo cliente\prototipos\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmFactura.resources
+C:\Users\ale_\Desktop\modulos\modulo cliente\prototipos\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmFormaDePago.resources
+C:\Users\ale_\Desktop\modulos\modulo cliente\prototipos\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmImpuesto.resources
+C:\Users\ale_\Desktop\modulos\modulo cliente\prototipos\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmListadoPrecio.resources
+C:\Users\ale_\Desktop\modulos\modulo cliente\prototipos\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmoperacion.resources
+C:\Users\ale_\Desktop\modulos\modulo cliente\prototipos\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmTipocredito.resources
+C:\Users\ale_\Desktop\modulos\modulo cliente\prototipos\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frm_Buscartp.resources
+C:\Users\ale_\Desktop\modulos\modulo cliente\prototipos\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.Frm_Login.resources
+C:\Users\ale_\Desktop\modulos\modulo cliente\prototipos\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmmenu.resources
+C:\Users\ale_\Desktop\modulos\modulo cliente\prototipos\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.Properties.Resources.resources
+C:\Users\ale_\Desktop\modulos\modulo cliente\prototipos\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmRegistroContribuyente.resources
+C:\Users\ale_\Desktop\modulos\modulo cliente\prototipos\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.csproj.GenerateResource.Cache
+C:\Users\ale_\Desktop\modulos\modulo cliente\prototipos\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.MDIParent1.resources
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos\clientes1\cuentas_corrientes\bin\Debug\cuentas_corrientes.exe.config
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.exe
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.pdb
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos\clientes1\cuentas_corrientes\bin\Debug\cuentas_corrientes.exe
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos\clientes1\cuentas_corrientes\bin\Debug\cuentas_corrientes.pdb
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos\clientes1\cuentas_corrientes\bin\Debug\MySql.Data.dll
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.csprojResolveAssemblyReference.cache
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscarFactura.resources
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscarPaquete.resources
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscarProducto.resources
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscarPromociones.resources
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscartcredi.resources
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscImpuesto.resources
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmbuscliente.resources
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscTipoPrecio.resources
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmcliente.resources
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmCotizacion.resources
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmdeuda.resources
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmFactura.resources
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmFormaDePago.resources
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmImpuesto.resources
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmListadoPrecio.resources
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmoperacion.resources
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmTipocredito.resources
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frm_Buscartp.resources
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.Frm_Login.resources
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmmenu.resources
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.MDIParent1.resources
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.Properties.Resources.resources
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmRegistroContribuyente.resources
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.csproj.GenerateResource.Cache
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmDataImpuesto.resources
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmDataFormaPago.resources
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmDataCliente.resources
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmDataDeuda.resources
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmDataFactura.resources
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmDataListadoPrecio.resources
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmDataOperacion.resources
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmDataTipoCredito.resources
+C:\Users\ale_\Desktop\Nuevos Prototipos\clientes1\cuentas_corrientes\bin\Debug\cuentas_corrientes.exe.config
+C:\Users\ale_\Desktop\Nuevos Prototipos\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.exe
+C:\Users\ale_\Desktop\Nuevos Prototipos\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.pdb
+C:\Users\ale_\Desktop\Nuevos Prototipos\clientes1\cuentas_corrientes\bin\Debug\cuentas_corrientes.exe
+C:\Users\ale_\Desktop\Nuevos Prototipos\clientes1\cuentas_corrientes\bin\Debug\cuentas_corrientes.pdb
+C:\Users\ale_\Desktop\Nuevos Prototipos\clientes1\cuentas_corrientes\bin\Debug\MySql.Data.dll
+C:\Users\ale_\Desktop\Nuevos Prototipos\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.csprojResolveAssemblyReference.cache
+C:\Users\ale_\Desktop\Nuevos Prototipos\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscarFactura.resources
+C:\Users\ale_\Desktop\Nuevos Prototipos\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscarPaquete.resources
+C:\Users\ale_\Desktop\Nuevos Prototipos\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscarProducto.resources
+C:\Users\ale_\Desktop\Nuevos Prototipos\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscarPromociones.resources
+C:\Users\ale_\Desktop\Nuevos Prototipos\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscartcredi.resources
+C:\Users\ale_\Desktop\Nuevos Prototipos\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscImpuesto.resources
+C:\Users\ale_\Desktop\Nuevos Prototipos\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmbuscliente.resources
+C:\Users\ale_\Desktop\Nuevos Prototipos\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscTipoPrecio.resources
+C:\Users\ale_\Desktop\Nuevos Prototipos\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmcliente.resources
+C:\Users\ale_\Desktop\Nuevos Prototipos\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmCotizacion.resources
+C:\Users\ale_\Desktop\Nuevos Prototipos\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmDataCliente.resources
+C:\Users\ale_\Desktop\Nuevos Prototipos\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmDataDeuda.resources
+C:\Users\ale_\Desktop\Nuevos Prototipos\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmDataFactura.resources
+C:\Users\ale_\Desktop\Nuevos Prototipos\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmDataFormaPago.resources
+C:\Users\ale_\Desktop\Nuevos Prototipos\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmDataImpuesto.resources
+C:\Users\ale_\Desktop\Nuevos Prototipos\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmDataListadoPrecio.resources
+C:\Users\ale_\Desktop\Nuevos Prototipos\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmDataOperacion.resources
+C:\Users\ale_\Desktop\Nuevos Prototipos\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmDataParmFact.resources
+C:\Users\ale_\Desktop\Nuevos Prototipos\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmDataTipoCredito.resources
+C:\Users\ale_\Desktop\Nuevos Prototipos\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmdeuda.resources
+C:\Users\ale_\Desktop\Nuevos Prototipos\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmFactura.resources
+C:\Users\ale_\Desktop\Nuevos Prototipos\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmFormaDePago.resources
+C:\Users\ale_\Desktop\Nuevos Prototipos\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmImpuesto.resources
+C:\Users\ale_\Desktop\Nuevos Prototipos\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmListadoPrecio.resources
+C:\Users\ale_\Desktop\Nuevos Prototipos\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmoperacion.resources
+C:\Users\ale_\Desktop\Nuevos Prototipos\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmParametrosFact.resources
+C:\Users\ale_\Desktop\Nuevos Prototipos\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmTipocredito.resources
+C:\Users\ale_\Desktop\Nuevos Prototipos\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frm_Buscartp.resources
+C:\Users\ale_\Desktop\Nuevos Prototipos\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.Frm_Login.resources
+C:\Users\ale_\Desktop\Nuevos Prototipos\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmmenu.resources
+C:\Users\ale_\Desktop\Nuevos Prototipos\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.MDIParent1.resources
+C:\Users\ale_\Desktop\Nuevos Prototipos\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.Properties.Resources.resources
+C:\Users\ale_\Desktop\Nuevos Prototipos\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmRegistroContribuyente.resources
+C:\Users\ale_\Desktop\Nuevos Prototipos\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.csproj.GenerateResource.Cache
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos2\clientes1\cuentas_corrientes\bin\Debug\cuentas_corrientes.exe.config
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos2\clientes1\cuentas_corrientes\bin\Debug\cuentas_corrientes.exe
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos2\clientes1\cuentas_corrientes\bin\Debug\cuentas_corrientes.pdb
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos2\clientes1\cuentas_corrientes\bin\Debug\MySql.Data.dll
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos2\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.csprojResolveAssemblyReference.cache
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos2\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscarFactura.resources
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos2\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscarPaquete.resources
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos2\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscarProducto.resources
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos2\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscarPromociones.resources
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos2\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscartcredi.resources
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos2\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscImpuesto.resources
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos2\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmbuscliente.resources
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos2\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscTipoPrecio.resources
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos2\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmcliente.resources
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos2\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmCotizacion.resources
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos2\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmDataCliente.resources
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos2\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmDataDeuda.resources
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos2\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmDataFactura.resources
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos2\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmDataFormaPago.resources
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos2\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmDataImpuesto.resources
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos2\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmDataListadoPrecio.resources
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos2\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmDataOperacion.resources
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos2\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmDataParmFact.resources
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos2\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmDataTipoCredito.resources
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos2\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmdeuda.resources
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos2\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmFactura.resources
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos2\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmFormaDePago.resources
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos2\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmImpuesto.resources
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos2\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmListadoPrecio.resources
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos2\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmoperacion.resources
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos2\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmParametrosFact.resources
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos2\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmTipocredito.resources
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos2\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frm_Buscartp.resources
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos2\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.Frm_Login.resources
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos2\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmmenu.resources
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos2\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.MDIParent1.resources
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos2\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.Properties.Resources.resources
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos2\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmRegistroContribuyente.resources
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos2\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.csproj.GenerateResource.Cache
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos2\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.exe
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos2\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.pdb
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos_Fact-Fol\clientes1\cuentas_corrientes\bin\Debug\cuentas_corrientes.exe.config
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos_Fact-Fol\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.exe
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos_Fact-Fol\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.pdb
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos_Fact-Fol\clientes1\cuentas_corrientes\bin\Debug\cuentas_corrientes.exe
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos_Fact-Fol\clientes1\cuentas_corrientes\bin\Debug\cuentas_corrientes.pdb
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos_Fact-Fol\clientes1\cuentas_corrientes\bin\Debug\MySql.Data.dll
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos_Fact-Fol\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.csprojResolveAssemblyReference.cache
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos_Fact-Fol\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscarFactura.resources
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos_Fact-Fol\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscarPaquete.resources
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos_Fact-Fol\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscarProducto.resources
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos_Fact-Fol\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscarPromociones.resources
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos_Fact-Fol\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscartcredi.resources
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos_Fact-Fol\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscImpuesto.resources
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos_Fact-Fol\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmbuscliente.resources
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos_Fact-Fol\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscTipoPrecio.resources
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos_Fact-Fol\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmcliente.resources
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos_Fact-Fol\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmCotizacion.resources
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos_Fact-Fol\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmDataCliente.resources
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos_Fact-Fol\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmDataDeuda.resources
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos_Fact-Fol\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmDataFactura.resources
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos_Fact-Fol\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmDataFormaPago.resources
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos_Fact-Fol\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmDataImpuesto.resources
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos_Fact-Fol\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmDataListadoPrecio.resources
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos_Fact-Fol\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmDataOperacion.resources
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos_Fact-Fol\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmDataParmFact.resources
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos_Fact-Fol\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmDataTipoCredito.resources
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos_Fact-Fol\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmdeuda.resources
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos_Fact-Fol\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmFactura.resources
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos_Fact-Fol\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmFormaDePago.resources
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos_Fact-Fol\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmImpuesto.resources
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos_Fact-Fol\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmListadoPrecio.resources
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos_Fact-Fol\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmoperacion.resources
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos_Fact-Fol\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmParametrosFact.resources
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos_Fact-Fol\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmTipocredito.resources
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos_Fact-Fol\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frm_Buscartp.resources
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos_Fact-Fol\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.Frm_Login.resources
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos_Fact-Fol\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmmenu.resources
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos_Fact-Fol\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.MDIParent1.resources
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos_Fact-Fol\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.Properties.Resources.resources
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos_Fact-Fol\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmRegistroContribuyente.resources
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos_Fact-Fol\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.csproj.GenerateResource.Cache
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos_Fact-Fol\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frm_BusFol.resources
+C:\Users\Olivia\Desktop\Octavo Semestre\Diseño de Sistemas\Segundo Proyecto\Progra\Nuevos Prototipos_Fact-Fol\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.BuscPedido.resources
+C:\Users\ALEJANDRO\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\cuentas_corrientes.exe.config
+C:\Users\ALEJANDRO\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.exe
+C:\Users\ALEJANDRO\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.pdb
+C:\Users\ALEJANDRO\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.csprojResolveAssemblyReference.cache
+C:\Users\ALEJANDRO\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.BuscPedido.resources
+C:\Users\ALEJANDRO\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscardeuda.resources
+C:\Users\ALEJANDRO\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscarFactura.resources
+C:\Users\ALEJANDRO\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscarPaquete.resources
+C:\Users\ALEJANDRO\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscarProducto.resources
+C:\Users\ALEJANDRO\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscarPromociones.resources
+C:\Users\ALEJANDRO\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscartcredi.resources
+C:\Users\ALEJANDRO\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscImpuesto.resources
+C:\Users\ALEJANDRO\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmbuscliente.resources
+C:\Users\ALEJANDRO\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscTipoPrecio.resources
+C:\Users\ALEJANDRO\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmcliente.resources
+C:\Users\ALEJANDRO\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmCotizacion.resources
+C:\Users\ALEJANDRO\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmDataCliente.resources
+C:\Users\ALEJANDRO\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmDataDeuda.resources
+C:\Users\ALEJANDRO\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmDataFactura.resources
+C:\Users\ALEJANDRO\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmDataFormaPago.resources
+C:\Users\ALEJANDRO\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmDataImpuesto.resources
+C:\Users\ALEJANDRO\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmDataListadoPrecio.resources
+C:\Users\ALEJANDRO\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmDataOperacion.resources
+C:\Users\ALEJANDRO\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmDataParmFact.resources
+C:\Users\ALEJANDRO\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmDataTipoCredito.resources
+C:\Users\ALEJANDRO\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmdeuda.resources
+C:\Users\ALEJANDRO\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmFactura.resources
+C:\Users\ALEJANDRO\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmFormaDePago.resources
+C:\Users\ALEJANDRO\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmImpuesto.resources
+C:\Users\ALEJANDRO\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmListadoPrecio.resources
+C:\Users\ALEJANDRO\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmoperacion.resources
+C:\Users\ALEJANDRO\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmParametrosFact.resources
+C:\Users\ALEJANDRO\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmPedidos.resources
+C:\Users\ALEJANDRO\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmTipocredito.resources
+C:\Users\ALEJANDRO\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frm_Buscartp.resources
+C:\Users\ALEJANDRO\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frm_BusFol.resources
+C:\Users\ALEJANDRO\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frm_cotizaciones.resources
+C:\Users\ALEJANDRO\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.Frm_Login.resources
+C:\Users\ALEJANDRO\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.MDIParent1.resources
+C:\Users\ALEJANDRO\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.Properties.Resources.resources
+C:\Users\ALEJANDRO\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmRegistroContribuyente.resources
+C:\Users\ALEJANDRO\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.csproj.GenerateResource.Cache
+C:\Users\ALEJANDRO\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\cuentas_corrientes.exe
+C:\Users\ALEJANDRO\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\cuentas_corrientes.pdb
+E:\olivia\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\cuentas_corrientes.exe.config
+E:\olivia\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.exe
+E:\olivia\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.pdb
+E:\olivia\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\cuentas_corrientes.exe
+E:\olivia\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\cuentas_corrientes.pdb
+E:\olivia\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\MySql.Data.dll
+E:\olivia\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.csprojResolveAssemblyReference.cache
+E:\olivia\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.BuscPedido.resources
+E:\olivia\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscardeuda.resources
+E:\olivia\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscarFactura.resources
+E:\olivia\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscarPaquete.resources
+E:\olivia\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscarProducto.resources
+E:\olivia\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscarPromociones.resources
+E:\olivia\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscartcredi.resources
+E:\olivia\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscImpuesto.resources
+E:\olivia\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmbuscliente.resources
+E:\olivia\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscTipoPrecio.resources
+E:\olivia\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmcliente.resources
+E:\olivia\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmCotizacion.resources
+E:\olivia\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmDataCliente.resources
+E:\olivia\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmDataDeuda.resources
+E:\olivia\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmDataFactura.resources
+E:\olivia\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmDataFormaPago.resources
+E:\olivia\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmDataImpuesto.resources
+E:\olivia\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmDataListadoPrecio.resources
+E:\olivia\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmDataOperacion.resources
+E:\olivia\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmDataParmFact.resources
+E:\olivia\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmDataTipoCredito.resources
+E:\olivia\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmdeuda.resources
+E:\olivia\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmFactura.resources
+E:\olivia\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmFormaDePago.resources
+E:\olivia\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmImpuesto.resources
+E:\olivia\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmListadoPrecio.resources
+E:\olivia\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmoperacion.resources
+E:\olivia\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmParametrosFact.resources
+E:\olivia\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmPedidos.resources
+E:\olivia\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmTipocredito.resources
+E:\olivia\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frm_Buscartp.resources
+E:\olivia\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frm_BusFol.resources
+E:\olivia\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frm_cotizaciones.resources
+E:\olivia\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.Frm_Login.resources
+E:\olivia\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.MDIParent1.resources
+E:\olivia\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.Properties.Resources.resources
+E:\olivia\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmRegistroContribuyente.resources
+E:\olivia\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.csproj.GenerateResource.Cache
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\cuentas_corrientes.exe.config
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.exe
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.pdb
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\cuentas_corrientes.exe
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\cuentas_corrientes.pdb
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\MySql.Data.dll
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\seguridad.dll
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\seguridad.pdb
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.csprojResolveAssemblyReference.cache
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.BuscPedido.resources
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscardeuda.resources
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscarFactura.resources
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscarPaquete.resources
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscarProducto.resources
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscarPromociones.resources
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscartcredi.resources
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscImpuesto.resources
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmbuscliente.resources
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscTipoPrecio.resources
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmcliente.resources
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmCotizacion.resources
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmDataCliente.resources
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmDataDeuda.resources
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmDataFactura.resources
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmDataFormaPago.resources
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmDataImpuesto.resources
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmDataListadoPrecio.resources
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmDataOperacion.resources
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmDataParmFact.resources
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmDataTipoCredito.resources
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmdeuda.resources
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmFactura.resources
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmFormaDePago.resources
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmImpuesto.resources
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmListadoPrecio.resources
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmoperacion.resources
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmParametrosFact.resources
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmPedidos.resources
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmTipocredito.resources
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frm_Buscartp.resources
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frm_BusFol.resources
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frm_cotizaciones.resources
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.Frm_Login.resources
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.MDIParent1.resources
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.Properties.Resources.resources
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmRegistroContribuyente.resources
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.csproj.GenerateResource.Cache
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.Form_login.resources
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.menu_seguridad.resources
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\Abrir.exe
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\dllconsultas.dll
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\FlashControlV71.dll
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\stdole.dll
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\Abrir.pdb
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\dllconsultas.pdb
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\FuncionesNavegador.dll
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\FuncionesNavegador.pdb
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\dll_grafica.dll
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\dll_grafica.pdb
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmbusclistaprecio.resources
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.TipoPrecio.resources
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscProdDev.resources
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.Devoluciones.resources
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmDevolucion.resources
+C:\Users\ale_\Desktop\shumo\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\cuentas_corrientes.exe.config
+C:\Users\ale_\Desktop\shumo\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.exe
+C:\Users\ale_\Desktop\shumo\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.pdb
+C:\Users\ale_\Desktop\shumo\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\cuentas_corrientes.exe
+C:\Users\ale_\Desktop\shumo\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\cuentas_corrientes.pdb
+C:\Users\ale_\Desktop\shumo\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\Abrir.exe
+C:\Users\ale_\Desktop\shumo\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\dllconsultas.dll
+C:\Users\ale_\Desktop\shumo\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\dll_grafica.dll
+C:\Users\ale_\Desktop\shumo\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\FuncionesNavegador.dll
+C:\Users\ale_\Desktop\shumo\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\MySql.Data.dll
+C:\Users\ale_\Desktop\shumo\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\seguridad.dll
+C:\Users\ale_\Desktop\shumo\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\ale_\Desktop\shumo\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\ale_\Desktop\shumo\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\ale_\Desktop\shumo\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\ale_\Desktop\shumo\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\ale_\Desktop\shumo\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\ale_\Desktop\shumo\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\ale_\Desktop\shumo\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\ale_\Desktop\shumo\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\ale_\Desktop\shumo\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\ale_\Desktop\shumo\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\ale_\Desktop\shumo\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\ale_\Desktop\shumo\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\ale_\Desktop\shumo\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\ale_\Desktop\shumo\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\ale_\Desktop\shumo\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\FlashControlV71.dll
+C:\Users\ale_\Desktop\shumo\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\ale_\Desktop\shumo\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\stdole.dll
+C:\Users\ale_\Desktop\shumo\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\ale_\Desktop\shumo\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\Abrir.pdb
+C:\Users\ale_\Desktop\shumo\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\dllconsultas.pdb
+C:\Users\ale_\Desktop\shumo\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\dll_grafica.pdb
+C:\Users\ale_\Desktop\shumo\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\FuncionesNavegador.pdb
+C:\Users\ale_\Desktop\shumo\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\seguridad.pdb
+C:\Users\ale_\Desktop\shumo\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.csprojResolveAssemblyReference.cache
+C:\Users\ale_\Desktop\shumo\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.BuscPedido.resources
+C:\Users\ale_\Desktop\shumo\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.Form_login.resources
+C:\Users\ale_\Desktop\shumo\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscardeuda.resources
+C:\Users\ale_\Desktop\shumo\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscarFactura.resources
+C:\Users\ale_\Desktop\shumo\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscarPaquete.resources
+C:\Users\ale_\Desktop\shumo\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscarProducto.resources
+C:\Users\ale_\Desktop\shumo\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscarPromociones.resources
+C:\Users\ale_\Desktop\shumo\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscartcredi.resources
+C:\Users\ale_\Desktop\shumo\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscImpuesto.resources
+C:\Users\ale_\Desktop\shumo\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmbuscliente.resources
+C:\Users\ale_\Desktop\shumo\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmbusclistaprecio.resources
+C:\Users\ale_\Desktop\shumo\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscProdDev.resources
+C:\Users\ale_\Desktop\shumo\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscTipoPrecio.resources
+C:\Users\ale_\Desktop\shumo\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmcliente.resources
+C:\Users\ale_\Desktop\shumo\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmCotizacion.resources
+C:\Users\ale_\Desktop\shumo\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmDataCliente.resources
+C:\Users\ale_\Desktop\shumo\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmDataDeuda.resources
+C:\Users\ale_\Desktop\shumo\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.Devoluciones.resources
+C:\Users\ale_\Desktop\shumo\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmDataFactura.resources
+C:\Users\ale_\Desktop\shumo\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmDataFormaPago.resources
+C:\Users\ale_\Desktop\shumo\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmDataImpuesto.resources
+C:\Users\ale_\Desktop\shumo\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmDataListadoPrecio.resources
+C:\Users\ale_\Desktop\shumo\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmDataOperacion.resources
+C:\Users\ale_\Desktop\shumo\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmDataParmFact.resources
+C:\Users\ale_\Desktop\shumo\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmDataTipoCredito.resources
+C:\Users\ale_\Desktop\shumo\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmdeuda.resources
+C:\Users\ale_\Desktop\shumo\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmDevolucion.resources
+C:\Users\ale_\Desktop\shumo\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmFactura.resources
+C:\Users\ale_\Desktop\shumo\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmFormaDePago.resources
+C:\Users\ale_\Desktop\shumo\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmImpuesto.resources
+C:\Users\ale_\Desktop\shumo\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmListadoPrecio.resources
+C:\Users\ale_\Desktop\shumo\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmoperacion.resources
+C:\Users\ale_\Desktop\shumo\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmParametrosFact.resources
+C:\Users\ale_\Desktop\shumo\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmPedidos.resources
+C:\Users\ale_\Desktop\shumo\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmTipocredito.resources
+C:\Users\ale_\Desktop\shumo\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frm_Buscartp.resources
+C:\Users\ale_\Desktop\shumo\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frm_BusFol.resources
+C:\Users\ale_\Desktop\shumo\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frm_cotizaciones.resources
+C:\Users\ale_\Desktop\shumo\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.Frm_Login.resources
+C:\Users\ale_\Desktop\shumo\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.MDIParent1.resources
+C:\Users\ale_\Desktop\shumo\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.menu_seguridad.resources
+C:\Users\ale_\Desktop\shumo\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.Properties.Resources.resources
+C:\Users\ale_\Desktop\shumo\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmRegistroContribuyente.resources
+C:\Users\ale_\Desktop\shumo\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.TipoPrecio.resources
+C:\Users\ale_\Desktop\shumo\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.csproj.GenerateResource.Cache
+C:\Users\ale_\Desktop\shumo2\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\cuentas_corrientes.exe.config
+C:\Users\ale_\Desktop\shumo2\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.exe
+C:\Users\ale_\Desktop\shumo2\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.pdb
+C:\Users\ale_\Desktop\shumo2\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.csprojResolveAssemblyReference.cache
+C:\Users\ale_\Desktop\shumo2\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.BuscPedido.resources
+C:\Users\ale_\Desktop\shumo2\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.Form_login.resources
+C:\Users\ale_\Desktop\shumo2\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscardeuda.resources
+C:\Users\ale_\Desktop\shumo2\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscarFactura.resources
+C:\Users\ale_\Desktop\shumo2\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscarPaquete.resources
+C:\Users\ale_\Desktop\shumo2\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscarProducto.resources
+C:\Users\ale_\Desktop\shumo2\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscarPromociones.resources
+C:\Users\ale_\Desktop\shumo2\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscartcredi.resources
+C:\Users\ale_\Desktop\shumo2\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscImpuesto.resources
+C:\Users\ale_\Desktop\shumo2\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmbuscliente.resources
+C:\Users\ale_\Desktop\shumo2\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmbusclistaprecio.resources
+C:\Users\ale_\Desktop\shumo2\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscProdDev.resources
+C:\Users\ale_\Desktop\shumo2\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscTipoPrecio.resources
+C:\Users\ale_\Desktop\shumo2\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmcliente.resources
+C:\Users\ale_\Desktop\shumo2\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmCotizacion.resources
+C:\Users\ale_\Desktop\shumo2\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmDataCliente.resources
+C:\Users\ale_\Desktop\shumo2\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmDataDeuda.resources
+C:\Users\ale_\Desktop\shumo2\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.Devoluciones.resources
+C:\Users\ale_\Desktop\shumo2\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmDataFactura.resources
+C:\Users\ale_\Desktop\shumo2\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmDataFormaPago.resources
+C:\Users\ale_\Desktop\shumo2\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmDataImpuesto.resources
+C:\Users\ale_\Desktop\shumo2\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmDataListadoPrecio.resources
+C:\Users\ale_\Desktop\shumo2\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmDataOperacion.resources
+C:\Users\ale_\Desktop\shumo2\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmDataParmFact.resources
+C:\Users\ale_\Desktop\shumo2\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmDataTipoCredito.resources
+C:\Users\ale_\Desktop\shumo2\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmdeuda.resources
+C:\Users\ale_\Desktop\shumo2\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmDevolucion.resources
+C:\Users\ale_\Desktop\shumo2\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmFactura.resources
+C:\Users\ale_\Desktop\shumo2\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmFormaDePago.resources
+C:\Users\ale_\Desktop\shumo2\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmImpuesto.resources
+C:\Users\ale_\Desktop\shumo2\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmListadoPrecio.resources
+C:\Users\ale_\Desktop\shumo2\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmoperacion.resources
+C:\Users\ale_\Desktop\shumo2\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmParametrosFact.resources
+C:\Users\ale_\Desktop\shumo2\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmPedidos.resources
+C:\Users\ale_\Desktop\shumo2\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmTipocredito.resources
+C:\Users\ale_\Desktop\shumo2\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frm_Buscartp.resources
+C:\Users\ale_\Desktop\shumo2\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frm_BusFol.resources
+C:\Users\ale_\Desktop\shumo2\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frm_cotizaciones.resources
+C:\Users\ale_\Desktop\shumo2\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.Frm_Login.resources
+C:\Users\ale_\Desktop\shumo2\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.MDIParent1.resources
+C:\Users\ale_\Desktop\shumo2\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.menu_seguridad.resources
+C:\Users\ale_\Desktop\shumo2\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.Properties.Resources.resources
+C:\Users\ale_\Desktop\shumo2\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmRegistroContribuyente.resources
+C:\Users\ale_\Desktop\shumo2\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.TipoPrecio.resources
+C:\Users\ale_\Desktop\shumo2\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.csproj.GenerateResource.Cache
+C:\Users\ale_\Desktop\shumo2\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\cuentas_corrientes.exe
+C:\Users\ale_\Desktop\shumo2\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\cuentas_corrientes.pdb
+C:\Users\ale_\Desktop\shumo2\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\Abrir.exe
+C:\Users\ale_\Desktop\shumo2\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\dllconsultas.dll
+C:\Users\ale_\Desktop\shumo2\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\dll_grafica.dll
+C:\Users\ale_\Desktop\shumo2\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\FuncionesNavegador.dll
+C:\Users\ale_\Desktop\shumo2\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\MySql.Data.dll
+C:\Users\ale_\Desktop\shumo2\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\seguridad.dll
+C:\Users\ale_\Desktop\shumo2\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\ale_\Desktop\shumo2\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\ale_\Desktop\shumo2\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\ale_\Desktop\shumo2\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\ale_\Desktop\shumo2\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\ale_\Desktop\shumo2\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\ale_\Desktop\shumo2\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\ale_\Desktop\shumo2\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\ale_\Desktop\shumo2\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\ale_\Desktop\shumo2\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\ale_\Desktop\shumo2\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\ale_\Desktop\shumo2\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\ale_\Desktop\shumo2\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\ale_\Desktop\shumo2\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\ale_\Desktop\shumo2\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\ale_\Desktop\shumo2\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\FlashControlV71.dll
+C:\Users\ale_\Desktop\shumo2\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\ale_\Desktop\shumo2\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\stdole.dll
+C:\Users\ale_\Desktop\shumo2\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\ale_\Desktop\shumo2\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\Abrir.pdb
+C:\Users\ale_\Desktop\shumo2\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\dllconsultas.pdb
+C:\Users\ale_\Desktop\shumo2\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\dll_grafica.pdb
+C:\Users\ale_\Desktop\shumo2\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\FuncionesNavegador.pdb
+C:\Users\ale_\Desktop\shumo2\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\seguridad.pdb
+C:\Users\ale_\Desktop\pf\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\cuentas_corrientes.exe.config
+C:\Users\ale_\Desktop\pf\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.exe
+C:\Users\ale_\Desktop\pf\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.pdb
+C:\Users\ale_\Desktop\pf\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\cuentas_corrientes.exe
+C:\Users\ale_\Desktop\pf\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\cuentas_corrientes.pdb
+C:\Users\ale_\Desktop\pf\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\Abrir.exe
+C:\Users\ale_\Desktop\pf\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\dllconsultas.dll
+C:\Users\ale_\Desktop\pf\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\dll_grafica.dll
+C:\Users\ale_\Desktop\pf\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\FuncionesNavegador.dll
+C:\Users\ale_\Desktop\pf\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\MySql.Data.dll
+C:\Users\ale_\Desktop\pf\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\seguridad.dll
+C:\Users\ale_\Desktop\pf\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\ale_\Desktop\pf\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\ale_\Desktop\pf\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\ale_\Desktop\pf\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\ale_\Desktop\pf\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\ale_\Desktop\pf\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\ale_\Desktop\pf\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\ale_\Desktop\pf\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\ale_\Desktop\pf\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\ale_\Desktop\pf\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\ale_\Desktop\pf\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\ale_\Desktop\pf\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\ale_\Desktop\pf\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\ale_\Desktop\pf\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\ale_\Desktop\pf\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\ale_\Desktop\pf\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\FlashControlV71.dll
+C:\Users\ale_\Desktop\pf\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\ale_\Desktop\pf\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\stdole.dll
+C:\Users\ale_\Desktop\pf\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\ale_\Desktop\pf\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\Abrir.pdb
+C:\Users\ale_\Desktop\pf\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\dllconsultas.pdb
+C:\Users\ale_\Desktop\pf\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\dll_grafica.pdb
+C:\Users\ale_\Desktop\pf\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\FuncionesNavegador.pdb
+C:\Users\ale_\Desktop\pf\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\seguridad.pdb
+C:\Users\ale_\Desktop\pf\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.csprojResolveAssemblyReference.cache
+C:\Users\ale_\Desktop\pf\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.BuscPedido.resources
+C:\Users\ale_\Desktop\pf\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.Form_login.resources
+C:\Users\ale_\Desktop\pf\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscardeuda.resources
+C:\Users\ale_\Desktop\pf\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscarFactura.resources
+C:\Users\ale_\Desktop\pf\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscarPaquete.resources
+C:\Users\ale_\Desktop\pf\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscarProducto.resources
+C:\Users\ale_\Desktop\pf\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscarPromociones.resources
+C:\Users\ale_\Desktop\pf\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscartcredi.resources
+C:\Users\ale_\Desktop\pf\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscImpuesto.resources
+C:\Users\ale_\Desktop\pf\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmbuscliente.resources
+C:\Users\ale_\Desktop\pf\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmbusclistaprecio.resources
+C:\Users\ale_\Desktop\pf\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscProdDev.resources
+C:\Users\ale_\Desktop\pf\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscTipoPrecio.resources
+C:\Users\ale_\Desktop\pf\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmcliente.resources
+C:\Users\ale_\Desktop\pf\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmCotizacion.resources
+C:\Users\ale_\Desktop\pf\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmDataCliente.resources
+C:\Users\ale_\Desktop\pf\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmDataDeuda.resources
+C:\Users\ale_\Desktop\pf\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.Devoluciones.resources
+C:\Users\ale_\Desktop\pf\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmDataFactura.resources
+C:\Users\ale_\Desktop\pf\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmDataFormaPago.resources
+C:\Users\ale_\Desktop\pf\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmDataImpuesto.resources
+C:\Users\ale_\Desktop\pf\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmDataListadoPrecio.resources
+C:\Users\ale_\Desktop\pf\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmDataOperacion.resources
+C:\Users\ale_\Desktop\pf\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmDataParmFact.resources
+C:\Users\ale_\Desktop\pf\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmDataTipoCredito.resources
+C:\Users\ale_\Desktop\pf\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmdeuda.resources
+C:\Users\ale_\Desktop\pf\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmDevolucion.resources
+C:\Users\ale_\Desktop\pf\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmFactura.resources
+C:\Users\ale_\Desktop\pf\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmFormaDePago.resources
+C:\Users\ale_\Desktop\pf\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmImpuesto.resources
+C:\Users\ale_\Desktop\pf\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmListadoPrecio.resources
+C:\Users\ale_\Desktop\pf\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmoperacion.resources
+C:\Users\ale_\Desktop\pf\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmParametrosFact.resources
+C:\Users\ale_\Desktop\pf\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmPedidos.resources
+C:\Users\ale_\Desktop\pf\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmTipocredito.resources
+C:\Users\ale_\Desktop\pf\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frm_Buscartp.resources
+C:\Users\ale_\Desktop\pf\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frm_BusFol.resources
+C:\Users\ale_\Desktop\pf\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frm_cotizaciones.resources
+C:\Users\ale_\Desktop\pf\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.Frm_Login.resources
+C:\Users\ale_\Desktop\pf\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.MDIParent1.resources
+C:\Users\ale_\Desktop\pf\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.menu_seguridad.resources
+C:\Users\ale_\Desktop\pf\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.Properties.Resources.resources
+C:\Users\ale_\Desktop\pf\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmRegistroContribuyente.resources
+C:\Users\ale_\Desktop\pf\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.TipoPrecio.resources
+C:\Users\ale_\Desktop\pf\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.csproj.GenerateResource.Cache
+C:\Users\salaz\Desktop\Clientes y Cuentas Corrientes\Codigo Fuente\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\cuentas_corrientes.exe.config
+C:\Users\salaz\Desktop\Clientes y Cuentas Corrientes\Codigo Fuente\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.exe
+C:\Users\salaz\Desktop\Clientes y Cuentas Corrientes\Codigo Fuente\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.pdb
+C:\Users\salaz\Desktop\Clientes y Cuentas Corrientes\Codigo Fuente\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\cuentas_corrientes.exe
+C:\Users\salaz\Desktop\Clientes y Cuentas Corrientes\Codigo Fuente\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\cuentas_corrientes.pdb
+C:\Users\salaz\Desktop\Clientes y Cuentas Corrientes\Codigo Fuente\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\Abrir.exe
+C:\Users\salaz\Desktop\Clientes y Cuentas Corrientes\Codigo Fuente\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\dllconsultas.dll
+C:\Users\salaz\Desktop\Clientes y Cuentas Corrientes\Codigo Fuente\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\dll_grafica.dll
+C:\Users\salaz\Desktop\Clientes y Cuentas Corrientes\Codigo Fuente\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\FuncionesNavegador.dll
+C:\Users\salaz\Desktop\Clientes y Cuentas Corrientes\Codigo Fuente\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\seguridad.dll
+C:\Users\salaz\Desktop\Clientes y Cuentas Corrientes\Codigo Fuente\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\salaz\Desktop\Clientes y Cuentas Corrientes\Codigo Fuente\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\salaz\Desktop\Clientes y Cuentas Corrientes\Codigo Fuente\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\salaz\Desktop\Clientes y Cuentas Corrientes\Codigo Fuente\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\salaz\Desktop\Clientes y Cuentas Corrientes\Codigo Fuente\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\salaz\Desktop\Clientes y Cuentas Corrientes\Codigo Fuente\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\salaz\Desktop\Clientes y Cuentas Corrientes\Codigo Fuente\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\salaz\Desktop\Clientes y Cuentas Corrientes\Codigo Fuente\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\salaz\Desktop\Clientes y Cuentas Corrientes\Codigo Fuente\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\salaz\Desktop\Clientes y Cuentas Corrientes\Codigo Fuente\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\salaz\Desktop\Clientes y Cuentas Corrientes\Codigo Fuente\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\salaz\Desktop\Clientes y Cuentas Corrientes\Codigo Fuente\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\salaz\Desktop\Clientes y Cuentas Corrientes\Codigo Fuente\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\salaz\Desktop\Clientes y Cuentas Corrientes\Codigo Fuente\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\salaz\Desktop\Clientes y Cuentas Corrientes\Codigo Fuente\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\salaz\Desktop\Clientes y Cuentas Corrientes\Codigo Fuente\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\FlashControlV71.dll
+C:\Users\salaz\Desktop\Clientes y Cuentas Corrientes\Codigo Fuente\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\salaz\Desktop\Clientes y Cuentas Corrientes\Codigo Fuente\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\stdole.dll
+C:\Users\salaz\Desktop\Clientes y Cuentas Corrientes\Codigo Fuente\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\salaz\Desktop\Clientes y Cuentas Corrientes\Codigo Fuente\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\Abrir.pdb
+C:\Users\salaz\Desktop\Clientes y Cuentas Corrientes\Codigo Fuente\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\dllconsultas.pdb
+C:\Users\salaz\Desktop\Clientes y Cuentas Corrientes\Codigo Fuente\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\dll_grafica.pdb
+C:\Users\salaz\Desktop\Clientes y Cuentas Corrientes\Codigo Fuente\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\FuncionesNavegador.pdb
+C:\Users\salaz\Desktop\Clientes y Cuentas Corrientes\Codigo Fuente\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\bin\Debug\seguridad.pdb
+C:\Users\salaz\Desktop\Clientes y Cuentas Corrientes\Codigo Fuente\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.csprojResolveAssemblyReference.cache
+C:\Users\salaz\Desktop\Clientes y Cuentas Corrientes\Codigo Fuente\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.BuscPedido.resources
+C:\Users\salaz\Desktop\Clientes y Cuentas Corrientes\Codigo Fuente\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.Form_login.resources
+C:\Users\salaz\Desktop\Clientes y Cuentas Corrientes\Codigo Fuente\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscardeuda.resources
+C:\Users\salaz\Desktop\Clientes y Cuentas Corrientes\Codigo Fuente\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscarFactura.resources
+C:\Users\salaz\Desktop\Clientes y Cuentas Corrientes\Codigo Fuente\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscarPaquete.resources
+C:\Users\salaz\Desktop\Clientes y Cuentas Corrientes\Codigo Fuente\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscarProducto.resources
+C:\Users\salaz\Desktop\Clientes y Cuentas Corrientes\Codigo Fuente\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscarPromociones.resources
+C:\Users\salaz\Desktop\Clientes y Cuentas Corrientes\Codigo Fuente\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscartcredi.resources
+C:\Users\salaz\Desktop\Clientes y Cuentas Corrientes\Codigo Fuente\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscImpuesto.resources
+C:\Users\salaz\Desktop\Clientes y Cuentas Corrientes\Codigo Fuente\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmbuscliente.resources
+C:\Users\salaz\Desktop\Clientes y Cuentas Corrientes\Codigo Fuente\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmbusclistaprecio.resources
+C:\Users\salaz\Desktop\Clientes y Cuentas Corrientes\Codigo Fuente\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscProdDev.resources
+C:\Users\salaz\Desktop\Clientes y Cuentas Corrientes\Codigo Fuente\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmBuscTipoPrecio.resources
+C:\Users\salaz\Desktop\Clientes y Cuentas Corrientes\Codigo Fuente\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmcliente.resources
+C:\Users\salaz\Desktop\Clientes y Cuentas Corrientes\Codigo Fuente\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmCotizacion.resources
+C:\Users\salaz\Desktop\Clientes y Cuentas Corrientes\Codigo Fuente\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmDataCliente.resources
+C:\Users\salaz\Desktop\Clientes y Cuentas Corrientes\Codigo Fuente\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmDataDeuda.resources
+C:\Users\salaz\Desktop\Clientes y Cuentas Corrientes\Codigo Fuente\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.Devoluciones.resources
+C:\Users\salaz\Desktop\Clientes y Cuentas Corrientes\Codigo Fuente\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmDataFactura.resources
+C:\Users\salaz\Desktop\Clientes y Cuentas Corrientes\Codigo Fuente\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmDataFormaPago.resources
+C:\Users\salaz\Desktop\Clientes y Cuentas Corrientes\Codigo Fuente\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmDataImpuesto.resources
+C:\Users\salaz\Desktop\Clientes y Cuentas Corrientes\Codigo Fuente\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmDataListadoPrecio.resources
+C:\Users\salaz\Desktop\Clientes y Cuentas Corrientes\Codigo Fuente\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmDataOperacion.resources
+C:\Users\salaz\Desktop\Clientes y Cuentas Corrientes\Codigo Fuente\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmDataParmFact.resources
+C:\Users\salaz\Desktop\Clientes y Cuentas Corrientes\Codigo Fuente\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmDataTipoCredito.resources
+C:\Users\salaz\Desktop\Clientes y Cuentas Corrientes\Codigo Fuente\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmdeuda.resources
+C:\Users\salaz\Desktop\Clientes y Cuentas Corrientes\Codigo Fuente\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmDevolucion.resources
+C:\Users\salaz\Desktop\Clientes y Cuentas Corrientes\Codigo Fuente\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmFactura.resources
+C:\Users\salaz\Desktop\Clientes y Cuentas Corrientes\Codigo Fuente\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmFormaDePago.resources
+C:\Users\salaz\Desktop\Clientes y Cuentas Corrientes\Codigo Fuente\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmImpuesto.resources
+C:\Users\salaz\Desktop\Clientes y Cuentas Corrientes\Codigo Fuente\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmListadoPrecio.resources
+C:\Users\salaz\Desktop\Clientes y Cuentas Corrientes\Codigo Fuente\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmoperacion.resources
+C:\Users\salaz\Desktop\Clientes y Cuentas Corrientes\Codigo Fuente\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmParametrosFact.resources
+C:\Users\salaz\Desktop\Clientes y Cuentas Corrientes\Codigo Fuente\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmPedidos.resources
+C:\Users\salaz\Desktop\Clientes y Cuentas Corrientes\Codigo Fuente\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmTipocredito.resources
+C:\Users\salaz\Desktop\Clientes y Cuentas Corrientes\Codigo Fuente\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frm_Buscartp.resources
+C:\Users\salaz\Desktop\Clientes y Cuentas Corrientes\Codigo Fuente\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frm_BusFol.resources
+C:\Users\salaz\Desktop\Clientes y Cuentas Corrientes\Codigo Fuente\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frm_cotizaciones.resources
+C:\Users\salaz\Desktop\Clientes y Cuentas Corrientes\Codigo Fuente\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.Frm_Login.resources
+C:\Users\salaz\Desktop\Clientes y Cuentas Corrientes\Codigo Fuente\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.MDIParent1.resources
+C:\Users\salaz\Desktop\Clientes y Cuentas Corrientes\Codigo Fuente\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.menu_seguridad.resources
+C:\Users\salaz\Desktop\Clientes y Cuentas Corrientes\Codigo Fuente\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.Properties.Resources.resources
+C:\Users\salaz\Desktop\Clientes y Cuentas Corrientes\Codigo Fuente\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.frmRegistroContribuyente.resources
+C:\Users\salaz\Desktop\Clientes y Cuentas Corrientes\Codigo Fuente\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.TipoPrecio.resources
+C:\Users\salaz\Desktop\Clientes y Cuentas Corrientes\Codigo Fuente\Nuevos Prototipos_FactFol-FactPed\clientes1\cuentas_corrientes\obj\Debug\cuentas_corrientes.csproj.GenerateResource.Cache

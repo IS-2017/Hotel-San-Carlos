@@ -1,0 +1,217 @@
+C:\Users\ale_\Desktop\graficador\dll_grafica\dll_grafica\obj\Debug\dll_grafica.csprojResolveAssemblyReference.cache
+C:\Users\ale_\Desktop\graficador\dll_grafica\dll_grafica\obj\Debug\Graf1.frm_grafbarra.resources
+C:\Users\ale_\Desktop\graficador\dll_grafica\dll_grafica\obj\Debug\Graf1.frm_grafhori.resources
+C:\Users\ale_\Desktop\graficador\dll_grafica\dll_grafica\obj\Debug\Graf1.frm_grafpie.resources
+C:\Users\ale_\Desktop\graficador\dll_grafica\dll_grafica\obj\Debug\Graf1.frm_menu.resources
+C:\Users\ale_\Desktop\graficador\dll_grafica\dll_grafica\obj\Debug\dll_grafica.csproj.GenerateResource.Cache
+C:\Users\ale_\Desktop\graficador\dll_grafica\dll_grafica\bin\Debug\dll_grafica.dll
+C:\Users\ale_\Desktop\graficador\dll_grafica\dll_grafica\bin\Debug\dll_grafica.pdb
+C:\Users\ale_\Desktop\graficador\dll_grafica\dll_grafica\bin\Debug\MySql.Data.dll
+C:\Users\ale_\Desktop\graficador\dll_grafica\dll_grafica\obj\Debug\dll_grafica.dll
+C:\Users\ale_\Desktop\graficador\dll_grafica\dll_grafica\obj\Debug\dll_grafica.pdb
+C:\Users\ale_\Desktop\graficador_2\dll_grafica\dll_grafica\bin\Debug\dll_grafica.dll
+C:\Users\ale_\Desktop\graficador_2\dll_grafica\dll_grafica\bin\Debug\dll_grafica.pdb
+C:\Users\ale_\Desktop\graficador_2\dll_grafica\dll_grafica\bin\Debug\MySql.Data.dll
+C:\Users\ale_\Desktop\graficador_2\dll_grafica\dll_grafica\obj\Debug\dll_grafica.csprojResolveAssemblyReference.cache
+C:\Users\ale_\Desktop\graficador_2\dll_grafica\dll_grafica\obj\Debug\Graf1.frm_grafbarra.resources
+C:\Users\ale_\Desktop\graficador_2\dll_grafica\dll_grafica\obj\Debug\Graf1.frm_grafbarraDiseño.resources
+C:\Users\ale_\Desktop\graficador_2\dll_grafica\dll_grafica\obj\Debug\Graf1.frm_grafhori.resources
+C:\Users\ale_\Desktop\graficador_2\dll_grafica\dll_grafica\obj\Debug\Graf1.frm_grafpie.resources
+C:\Users\ale_\Desktop\graficador_2\dll_grafica\dll_grafica\obj\Debug\Graf1.frm_menu.resources
+C:\Users\ale_\Desktop\graficador_2\dll_grafica\dll_grafica\obj\Debug\dll_grafica.csproj.GenerateResource.Cache
+C:\Users\ale_\Desktop\graficador_2\dll_grafica\dll_grafica\obj\Debug\dll_grafica.dll
+C:\Users\ale_\Desktop\graficador_2\dll_grafica\dll_grafica\obj\Debug\dll_grafica.pdb
+C:\Users\ale_\Desktop\graficador_2\dll_grafica\dll_grafica\obj\Debug\Graf1.frm_grafhoriDiseño.resources
+C:\Users\ale_\Desktop\graficador_2\dll_grafica\dll_grafica\obj\Debug\Graf1.frm_grafpieDiseño.resources
+C:\Users\ale_\Desktop\graficador_2\dll_grafica\dll_grafica\bin\Debug\itextsharp.dll
+C:\Users\ale_\Desktop\graficador_2\dll_grafica\dll_grafica\bin\Debug\itextsharp.pdfa.dll
+C:\Users\ale_\Desktop\graficador_2\dll_grafica\dll_grafica\obj\Debug\dll_grafica.fmr_barracomp.resources
+C:\Users\ale_\Desktop\graficador_2\dll_grafica\dll_grafica\obj\Debug\dll_grafica.frm_menu2.resources
+C:\Users\ale_\Desktop\graficador_2\dll_grafica\dll_grafica\obj\Debug\dll_grafica.frm_grafcomp.resources
+C:\Users\ale_\Desktop\graficador_2\dll_grafica\dll_grafica\obj\Debug\dll_grafica.frm_piecomp.resources
+C:\Users\ADM\Desktop\graficador_2\dll_grafica\dll_grafica\bin\Debug\dll_grafica.dll
+C:\Users\ADM\Desktop\graficador_2\dll_grafica\dll_grafica\bin\Debug\dll_grafica.pdb
+C:\Users\ADM\Desktop\graficador_2\dll_grafica\dll_grafica\bin\Debug\itextsharp.dll
+C:\Users\ADM\Desktop\graficador_2\dll_grafica\dll_grafica\bin\Debug\itextsharp.pdfa.dll
+C:\Users\ADM\Desktop\graficador_2\dll_grafica\dll_grafica\obj\Debug\dll_grafica.csprojResolveAssemblyReference.cache
+C:\Users\ADM\Desktop\graficador_2\dll_grafica\dll_grafica\obj\Debug\dll_grafica.fmr_barracomp.resources
+C:\Users\ADM\Desktop\graficador_2\dll_grafica\dll_grafica\obj\Debug\Graf1.frm_grafbarra.resources
+C:\Users\ADM\Desktop\graficador_2\dll_grafica\dll_grafica\obj\Debug\Graf1.frm_grafbarraDiseño.resources
+C:\Users\ADM\Desktop\graficador_2\dll_grafica\dll_grafica\obj\Debug\dll_grafica.frm_grafcomp.resources
+C:\Users\ADM\Desktop\graficador_2\dll_grafica\dll_grafica\obj\Debug\Graf1.frm_grafhori.resources
+C:\Users\ADM\Desktop\graficador_2\dll_grafica\dll_grafica\obj\Debug\Graf1.frm_grafhoriDiseño.resources
+C:\Users\ADM\Desktop\graficador_2\dll_grafica\dll_grafica\obj\Debug\Graf1.frm_grafpie.resources
+C:\Users\ADM\Desktop\graficador_2\dll_grafica\dll_grafica\obj\Debug\Graf1.frm_grafpieDiseño.resources
+C:\Users\ADM\Desktop\graficador_2\dll_grafica\dll_grafica\obj\Debug\Graf1.frm_menu.resources
+C:\Users\ADM\Desktop\graficador_2\dll_grafica\dll_grafica\obj\Debug\dll_grafica.frm_menu2.resources
+C:\Users\ADM\Desktop\graficador_2\dll_grafica\dll_grafica\obj\Debug\dll_grafica.frm_piecomp.resources
+C:\Users\ADM\Desktop\graficador_2\dll_grafica\dll_grafica\obj\Debug\dll_grafica.csproj.GenerateResource.Cache
+C:\Users\ADM\Desktop\graficador_2\dll_grafica\dll_grafica\obj\Debug\dll_grafica.dll
+C:\Users\ADM\Desktop\graficador_2\dll_grafica\dll_grafica\obj\Debug\dll_grafica.pdb
+D:\graficador_2\dll_grafica\dll_grafica\bin\Debug\dll_grafica.dll
+D:\graficador_2\dll_grafica\dll_grafica\bin\Debug\dll_grafica.pdb
+D:\graficador_2\dll_grafica\dll_grafica\bin\Debug\itextsharp.dll
+D:\graficador_2\dll_grafica\dll_grafica\bin\Debug\itextsharp.pdfa.dll
+D:\graficador_2\dll_grafica\dll_grafica\obj\Debug\dll_grafica.csprojResolveAssemblyReference.cache
+D:\graficador_2\dll_grafica\dll_grafica\obj\Debug\dll_grafica.fmr_barracomp.resources
+D:\graficador_2\dll_grafica\dll_grafica\obj\Debug\Graf1.frm_grafbarra.resources
+D:\graficador_2\dll_grafica\dll_grafica\obj\Debug\Graf1.frm_grafbarraDiseño.resources
+D:\graficador_2\dll_grafica\dll_grafica\obj\Debug\dll_grafica.frm_grafcomp.resources
+D:\graficador_2\dll_grafica\dll_grafica\obj\Debug\Graf1.frm_grafhori.resources
+D:\graficador_2\dll_grafica\dll_grafica\obj\Debug\Graf1.frm_grafhoriDiseño.resources
+D:\graficador_2\dll_grafica\dll_grafica\obj\Debug\Graf1.frm_grafpie.resources
+D:\graficador_2\dll_grafica\dll_grafica\obj\Debug\Graf1.frm_grafpieDiseño.resources
+D:\graficador_2\dll_grafica\dll_grafica\obj\Debug\Graf1.frm_menu.resources
+D:\graficador_2\dll_grafica\dll_grafica\obj\Debug\dll_grafica.frm_menu2.resources
+D:\graficador_2\dll_grafica\dll_grafica\obj\Debug\dll_grafica.frm_piecomp.resources
+D:\graficador_2\dll_grafica\dll_grafica\obj\Debug\dll_grafica.csproj.GenerateResource.Cache
+D:\graficador_2\dll_grafica\dll_grafica\obj\Debug\dll_grafica.dll
+D:\graficador_2\dll_grafica\dll_grafica\obj\Debug\dll_grafica.pdb
+C:\Users\salaz\Desktop\graficador_2\dll_grafica\dll_grafica\bin\Debug\dll_grafica.dll
+C:\Users\salaz\Desktop\graficador_2\dll_grafica\dll_grafica\bin\Debug\dll_grafica.pdb
+C:\Users\salaz\Desktop\graficador_2\dll_grafica\dll_grafica\bin\Debug\itextsharp.dll
+C:\Users\salaz\Desktop\graficador_2\dll_grafica\dll_grafica\bin\Debug\itextsharp.pdfa.dll
+C:\Users\salaz\Desktop\graficador_2\dll_grafica\dll_grafica\obj\Debug\dll_grafica.fmr_barracomp.resources
+C:\Users\salaz\Desktop\graficador_2\dll_grafica\dll_grafica\obj\Debug\Graf1.frm_grafbarra.resources
+C:\Users\salaz\Desktop\graficador_2\dll_grafica\dll_grafica\obj\Debug\Graf1.frm_grafbarraDiseño.resources
+C:\Users\salaz\Desktop\graficador_2\dll_grafica\dll_grafica\obj\Debug\dll_grafica.frm_grafcomp.resources
+C:\Users\salaz\Desktop\graficador_2\dll_grafica\dll_grafica\obj\Debug\Graf1.frm_grafhori.resources
+C:\Users\salaz\Desktop\graficador_2\dll_grafica\dll_grafica\obj\Debug\Graf1.frm_grafhoriDiseño.resources
+C:\Users\salaz\Desktop\graficador_2\dll_grafica\dll_grafica\obj\Debug\Graf1.frm_grafpie.resources
+C:\Users\salaz\Desktop\graficador_2\dll_grafica\dll_grafica\obj\Debug\Graf1.frm_grafpieDiseño.resources
+C:\Users\salaz\Desktop\graficador_2\dll_grafica\dll_grafica\obj\Debug\Graf1.frm_menu.resources
+C:\Users\salaz\Desktop\graficador_2\dll_grafica\dll_grafica\obj\Debug\dll_grafica.frm_menu2.resources
+C:\Users\salaz\Desktop\graficador_2\dll_grafica\dll_grafica\obj\Debug\dll_grafica.frm_piecomp.resources
+C:\Users\salaz\Desktop\graficador_2\dll_grafica\dll_grafica\obj\Debug\dll_grafica.csproj.GenerateResource.Cache
+C:\Users\salaz\Desktop\graficador_2\dll_grafica\dll_grafica\obj\Debug\dll_grafica.dll
+C:\Users\salaz\Desktop\graficador_2\dll_grafica\dll_grafica\obj\Debug\dll_grafica.pdb
+C:\Users\salaz\Desktop\graficador_2\dll_grafica\dll_grafica\obj\Debug\dll_grafica.frm_prueba.resources
+D:\Merlyn c\Desktop\Poyecto Final - Graficador\graficador_2\dll_grafica\dll_grafica\bin\Debug\dll_grafica.dll
+D:\Merlyn c\Desktop\Poyecto Final - Graficador\graficador_2\dll_grafica\dll_grafica\bin\Debug\dll_grafica.pdb
+D:\Merlyn c\Desktop\Poyecto Final - Graficador\graficador_2\dll_grafica\dll_grafica\bin\Debug\itextsharp.dll
+D:\Merlyn c\Desktop\Poyecto Final - Graficador\graficador_2\dll_grafica\dll_grafica\bin\Debug\itextsharp.pdfa.dll
+D:\Merlyn c\Desktop\Poyecto Final - Graficador\graficador_2\dll_grafica\dll_grafica\obj\Debug\dll_grafica.fmr_barracomp.resources
+D:\Merlyn c\Desktop\Poyecto Final - Graficador\graficador_2\dll_grafica\dll_grafica\obj\Debug\Graf1.frm_grafbarra.resources
+D:\Merlyn c\Desktop\Poyecto Final - Graficador\graficador_2\dll_grafica\dll_grafica\obj\Debug\Graf1.frm_grafbarraDiseño.resources
+D:\Merlyn c\Desktop\Poyecto Final - Graficador\graficador_2\dll_grafica\dll_grafica\obj\Debug\dll_grafica.frm_grafcomp.resources
+D:\Merlyn c\Desktop\Poyecto Final - Graficador\graficador_2\dll_grafica\dll_grafica\obj\Debug\Graf1.frm_grafhori.resources
+D:\Merlyn c\Desktop\Poyecto Final - Graficador\graficador_2\dll_grafica\dll_grafica\obj\Debug\Graf1.frm_grafhoriDiseño.resources
+D:\Merlyn c\Desktop\Poyecto Final - Graficador\graficador_2\dll_grafica\dll_grafica\obj\Debug\Graf1.frm_grafpie.resources
+D:\Merlyn c\Desktop\Poyecto Final - Graficador\graficador_2\dll_grafica\dll_grafica\obj\Debug\Graf1.frm_grafpieDiseño.resources
+D:\Merlyn c\Desktop\Poyecto Final - Graficador\graficador_2\dll_grafica\dll_grafica\obj\Debug\Graf1.frm_menu.resources
+D:\Merlyn c\Desktop\Poyecto Final - Graficador\graficador_2\dll_grafica\dll_grafica\obj\Debug\dll_grafica.frm_menu2.resources
+D:\Merlyn c\Desktop\Poyecto Final - Graficador\graficador_2\dll_grafica\dll_grafica\obj\Debug\dll_grafica.frm_piecomp.resources
+D:\Merlyn c\Desktop\Poyecto Final - Graficador\graficador_2\dll_grafica\dll_grafica\obj\Debug\dll_grafica.frm_prueba.resources
+D:\Merlyn c\Desktop\Poyecto Final - Graficador\graficador_2\dll_grafica\dll_grafica\obj\Debug\dll_grafica.csproj.GenerateResource.Cache
+D:\Merlyn c\Desktop\Poyecto Final - Graficador\graficador_2\dll_grafica\dll_grafica\obj\Debug\dll_grafica.dll
+D:\Merlyn c\Desktop\Poyecto Final - Graficador\graficador_2\dll_grafica\dll_grafica\obj\Debug\dll_grafica.pdb
+C:\Users\salaz\Desktop\graficador_2\dll_grafica\dll_grafica\obj\Debug\dll_grafica.Properties.Resources.resources
+C:\Users\ADM\Desktop\graficador_2\dll_grafica\dll_grafica\obj\Debug\dll_grafica.frm_prueba.resources
+C:\Users\ADM\Desktop\graficador_2\dll_grafica\dll_grafica\obj\Debug\dll_grafica.Properties.Resources.resources
+C:\Users\ale_\Desktop\graficador_2\dll_grafica\dll_grafica\obj\Debug\dll_grafica.frm_prueba.resources
+C:\Users\ale_\Desktop\graficador_2\dll_grafica\dll_grafica\obj\Debug\dll_grafica.Properties.Resources.resources
+C:\Users\ale_\Desktop\ObjetoComun_graficador\graficador_2\dll_grafica\dll_grafica\obj\Debug\dll_grafica.csprojResolveAssemblyReference.cache
+C:\Users\ale_\Desktop\ObjetoComun_graficador\graficador_2\dll_grafica\dll_grafica\obj\Debug\dll_grafica.fmr_barracomp.resources
+C:\Users\ale_\Desktop\ObjetoComun_graficador\graficador_2\dll_grafica\dll_grafica\obj\Debug\Graf1.frm_grafbarra.resources
+C:\Users\ale_\Desktop\ObjetoComun_graficador\graficador_2\dll_grafica\dll_grafica\obj\Debug\Graf1.frm_grafbarraDiseño.resources
+C:\Users\ale_\Desktop\ObjetoComun_graficador\graficador_2\dll_grafica\dll_grafica\obj\Debug\dll_grafica.frm_grafcomp.resources
+C:\Users\ale_\Desktop\ObjetoComun_graficador\graficador_2\dll_grafica\dll_grafica\obj\Debug\Graf1.frm_grafhori.resources
+C:\Users\ale_\Desktop\ObjetoComun_graficador\graficador_2\dll_grafica\dll_grafica\obj\Debug\Graf1.frm_grafhoriDiseño.resources
+C:\Users\ale_\Desktop\ObjetoComun_graficador\graficador_2\dll_grafica\dll_grafica\obj\Debug\Graf1.frm_grafpie.resources
+C:\Users\ale_\Desktop\ObjetoComun_graficador\graficador_2\dll_grafica\dll_grafica\obj\Debug\Graf1.frm_grafpieDiseño.resources
+C:\Users\ale_\Desktop\ObjetoComun_graficador\graficador_2\dll_grafica\dll_grafica\obj\Debug\Graf1.frm_menu.resources
+C:\Users\ale_\Desktop\ObjetoComun_graficador\graficador_2\dll_grafica\dll_grafica\obj\Debug\dll_grafica.frm_menu2.resources
+C:\Users\ale_\Desktop\ObjetoComun_graficador\graficador_2\dll_grafica\dll_grafica\obj\Debug\dll_grafica.frm_piecomp.resources
+C:\Users\ale_\Desktop\ObjetoComun_graficador\graficador_2\dll_grafica\dll_grafica\obj\Debug\dll_grafica.frm_prueba.resources
+C:\Users\ale_\Desktop\ObjetoComun_graficador\graficador_2\dll_grafica\dll_grafica\obj\Debug\dll_grafica.Properties.Resources.resources
+C:\Users\ale_\Desktop\ObjetoComun_graficador\graficador_2\dll_grafica\dll_grafica\obj\Debug\dll_grafica.csproj.GenerateResource.Cache
+C:\Users\ale_\Desktop\ObjetoComun_graficador\graficador_2\dll_grafica\dll_grafica\obj\Debug\dll_grafica.dll
+C:\Users\ale_\Desktop\ObjetoComun_graficador\graficador_2\dll_grafica\dll_grafica\obj\Debug\dll_grafica.pdb
+C:\Users\ale_\Desktop\ObjetoComun_graficador\graficador_2\dll_grafica\dll_grafica\bin\Debug\dll_grafica.dll
+C:\Users\ale_\Desktop\ObjetoComun_graficador\graficador_2\dll_grafica\dll_grafica\bin\Debug\dll_grafica.pdb
+C:\Users\ale_\Desktop\ObjetoComun_graficador\graficador_2\dll_grafica\dll_grafica\bin\Debug\itextsharp.dll
+C:\Users\ale_\Desktop\ObjetoComun_graficador\graficador_2\dll_grafica\dll_grafica\bin\Debug\itextsharp.pdfa.dll
+C:\Users\ale_\Desktop\ObjetoComun_graficador\graficador_2\dll_grafica\dll_grafica\bin\Debug\MySql.Data.dll
+C:\Users\salaz\Desktop\ObjetoComun_graficador\graficador_2\dll_grafica\dll_grafica\bin\Debug\dll_grafica.dll
+C:\Users\salaz\Desktop\ObjetoComun_graficador\graficador_2\dll_grafica\dll_grafica\bin\Debug\dll_grafica.pdb
+C:\Users\salaz\Desktop\ObjetoComun_graficador\graficador_2\dll_grafica\dll_grafica\bin\Debug\itextsharp.dll
+C:\Users\salaz\Desktop\ObjetoComun_graficador\graficador_2\dll_grafica\dll_grafica\bin\Debug\itextsharp.pdfa.dll
+C:\Users\salaz\Desktop\ObjetoComun_graficador\graficador_2\dll_grafica\dll_grafica\obj\Debug\dll_grafica.fmr_barracomp.resources
+C:\Users\salaz\Desktop\ObjetoComun_graficador\graficador_2\dll_grafica\dll_grafica\obj\Debug\Graf1.frm_grafbarra.resources
+C:\Users\salaz\Desktop\ObjetoComun_graficador\graficador_2\dll_grafica\dll_grafica\obj\Debug\Graf1.frm_grafbarraDiseño.resources
+C:\Users\salaz\Desktop\ObjetoComun_graficador\graficador_2\dll_grafica\dll_grafica\obj\Debug\dll_grafica.frm_grafcomp.resources
+C:\Users\salaz\Desktop\ObjetoComun_graficador\graficador_2\dll_grafica\dll_grafica\obj\Debug\Graf1.frm_grafhori.resources
+C:\Users\salaz\Desktop\ObjetoComun_graficador\graficador_2\dll_grafica\dll_grafica\obj\Debug\Graf1.frm_grafhoriDiseño.resources
+C:\Users\salaz\Desktop\ObjetoComun_graficador\graficador_2\dll_grafica\dll_grafica\obj\Debug\Graf1.frm_grafpie.resources
+C:\Users\salaz\Desktop\ObjetoComun_graficador\graficador_2\dll_grafica\dll_grafica\obj\Debug\Graf1.frm_grafpieDiseño.resources
+C:\Users\salaz\Desktop\ObjetoComun_graficador\graficador_2\dll_grafica\dll_grafica\obj\Debug\Graf1.frm_menu.resources
+C:\Users\salaz\Desktop\ObjetoComun_graficador\graficador_2\dll_grafica\dll_grafica\obj\Debug\dll_grafica.frm_menu2.resources
+C:\Users\salaz\Desktop\ObjetoComun_graficador\graficador_2\dll_grafica\dll_grafica\obj\Debug\dll_grafica.frm_piecomp.resources
+C:\Users\salaz\Desktop\ObjetoComun_graficador\graficador_2\dll_grafica\dll_grafica\obj\Debug\dll_grafica.frm_prueba.resources
+C:\Users\salaz\Desktop\ObjetoComun_graficador\graficador_2\dll_grafica\dll_grafica\obj\Debug\dll_grafica.Properties.Resources.resources
+C:\Users\salaz\Desktop\ObjetoComun_graficador\graficador_2\dll_grafica\dll_grafica\obj\Debug\dll_grafica.csproj.GenerateResource.Cache
+C:\Users\salaz\Desktop\ObjetoComun_graficador\graficador_2\dll_grafica\dll_grafica\obj\Debug\dll_grafica.dll
+C:\Users\salaz\Desktop\ObjetoComun_graficador\graficador_2\dll_grafica\dll_grafica\obj\Debug\dll_grafica.pdb
+C:\Users\salaz\Desktop\ObjetoComun_graficador\graficador_2\dll_grafica\dll_grafica\obj\Debug\dll_grafica.csprojResolveAssemblyReference.cache
+C:\Users\ale_\Desktop\ObjetoComun_graficador\graficador_2\dll_grafica\dll_grafica\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\ale_\Desktop\ObjetoComun_graficador\graficador_2\dll_grafica\dll_grafica\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\ale_\Desktop\ObjetoComun_graficador\graficador_2\dll_grafica\dll_grafica\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\ale_\Desktop\ObjetoComun_graficador\graficador_2\dll_grafica\dll_grafica\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\ale_\Desktop\ObjetoComun_graficador\graficador_2\dll_grafica\dll_grafica\bin\Debug\FlashControlV71.dll
+C:\Users\ale_\Desktop\ObjetoComun_graficador\graficador_2\dll_grafica\dll_grafica\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\ale_\Desktop\ObjetoComun_graficador\graficador_2\dll_grafica\dll_grafica\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\ale_\Desktop\ObjetoComun_graficador\graficador_2\dll_grafica\dll_grafica\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\ale_\Desktop\ObjetoComun_graficador\graficador_2\dll_grafica\dll_grafica\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\ale_\Desktop\ObjetoComun_graficador\graficador_2\dll_grafica\dll_grafica\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\ale_\Desktop\ObjetoComun_graficador\graficador_2\dll_grafica\dll_grafica\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\ale_\Desktop\ObjetoComun_graficador\graficador_2\dll_grafica\dll_grafica\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\ale_\Desktop\ObjetoComun_graficador\graficador_2\dll_grafica\dll_grafica\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\ale_\Desktop\ObjetoComun_graficador\graficador_2\dll_grafica\dll_grafica\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\ale_\Desktop\ObjetoComun_graficador\graficador_2\dll_grafica\dll_grafica\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\ale_\Desktop\ObjetoComun_graficador\graficador_2\dll_grafica\dll_grafica\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\ale_\Desktop\ObjetoComun_graficador\graficador_2\dll_grafica\dll_grafica\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\ale_\Desktop\ObjetoComun_graficador\graficador_2\dll_grafica\dll_grafica\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\ale_\Desktop\ObjetoComun_graficador\graficador_2\dll_grafica\dll_grafica\bin\Debug\stdole.dll
+C:\Users\ale_\Desktop\ObjetoComun_graficador\graficador_2\dll_grafica\dll_grafica\bin\Debug\seguridad.pdb
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\graficador_2\dll_grafica\dll_grafica\bin\Debug\dll_grafica.dll
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\graficador_2\dll_grafica\dll_grafica\bin\Debug\dll_grafica.pdb
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\graficador_2\dll_grafica\dll_grafica\bin\Debug\itextsharp.dll
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\graficador_2\dll_grafica\dll_grafica\bin\Debug\itextsharp.pdfa.dll
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\graficador_2\dll_grafica\dll_grafica\bin\Debug\MySql.Data.dll
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\graficador_2\dll_grafica\dll_grafica\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\graficador_2\dll_grafica\dll_grafica\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\graficador_2\dll_grafica\dll_grafica\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\graficador_2\dll_grafica\dll_grafica\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\graficador_2\dll_grafica\dll_grafica\bin\Debug\FlashControlV71.dll
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\graficador_2\dll_grafica\dll_grafica\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\graficador_2\dll_grafica\dll_grafica\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\graficador_2\dll_grafica\dll_grafica\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\graficador_2\dll_grafica\dll_grafica\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\graficador_2\dll_grafica\dll_grafica\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\graficador_2\dll_grafica\dll_grafica\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\graficador_2\dll_grafica\dll_grafica\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\graficador_2\dll_grafica\dll_grafica\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\graficador_2\dll_grafica\dll_grafica\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\graficador_2\dll_grafica\dll_grafica\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\graficador_2\dll_grafica\dll_grafica\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\graficador_2\dll_grafica\dll_grafica\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\graficador_2\dll_grafica\dll_grafica\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\graficador_2\dll_grafica\dll_grafica\bin\Debug\stdole.dll
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\graficador_2\dll_grafica\dll_grafica\bin\Debug\seguridad.pdb
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\graficador_2\dll_grafica\dll_grafica\obj\Debug\dll_grafica.csprojResolveAssemblyReference.cache
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\graficador_2\dll_grafica\dll_grafica\obj\Debug\dll_grafica.fmr_barracomp.resources
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\graficador_2\dll_grafica\dll_grafica\obj\Debug\Graf1.frm_grafbarra.resources
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\graficador_2\dll_grafica\dll_grafica\obj\Debug\Graf1.frm_grafbarraDiseño.resources
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\graficador_2\dll_grafica\dll_grafica\obj\Debug\dll_grafica.frm_grafcomp.resources
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\graficador_2\dll_grafica\dll_grafica\obj\Debug\Graf1.frm_grafhori.resources
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\graficador_2\dll_grafica\dll_grafica\obj\Debug\Graf1.frm_grafhoriDiseño.resources
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\graficador_2\dll_grafica\dll_grafica\obj\Debug\Graf1.frm_grafpie.resources
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\graficador_2\dll_grafica\dll_grafica\obj\Debug\Graf1.frm_grafpieDiseño.resources
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\graficador_2\dll_grafica\dll_grafica\obj\Debug\Graf1.frm_menu.resources
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\graficador_2\dll_grafica\dll_grafica\obj\Debug\dll_grafica.frm_menu2.resources
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\graficador_2\dll_grafica\dll_grafica\obj\Debug\dll_grafica.frm_piecomp.resources
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\graficador_2\dll_grafica\dll_grafica\obj\Debug\dll_grafica.frm_prueba.resources
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\graficador_2\dll_grafica\dll_grafica\obj\Debug\dll_grafica.Properties.Resources.resources
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\graficador_2\dll_grafica\dll_grafica\obj\Debug\dll_grafica.csproj.GenerateResource.Cache
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\graficador_2\dll_grafica\dll_grafica\obj\Debug\dll_grafica.dll
+C:\Users\ale_\Desktop\Nuevos Prototipos_FactFol-FactPed\clientes1\graficador_2\dll_grafica\dll_grafica\obj\Debug\dll_grafica.pdb
