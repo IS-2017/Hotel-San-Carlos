@@ -37,6 +37,7 @@
             this.lbl_tipo_sueldo = new System.Windows.Forms.Label();
             this.txt_dtp_fecha_egre_emp = new System.Windows.Forms.TextBox();
             this.txt_dtp_fecha_ingr_emp = new System.Windows.Forms.TextBox();
+            this.txt_estado = new System.Windows.Forms.TextBox();
             this.txt_img_final = new System.Windows.Forms.TextBox();
             this.txt_nom_img = new System.Windows.Forms.TextBox();
             this.txt_direc_img = new System.Windows.Forms.TextBox();
@@ -49,10 +50,13 @@
             this.txt_sueldo_emp = new System.Windows.Forms.TextBox();
             this.btn_examinar_pic_emp = new System.Windows.Forms.Button();
             this.lbl_sueldo_emp = new System.Windows.Forms.Label();
+            this.txt_comision = new System.Windows.Forms.TextBox();
             this.txt_telef_emp = new System.Windows.Forms.TextBox();
+            this.lbl_comision = new System.Windows.Forms.Label();
             this.lbl_cargo_emp = new System.Windows.Forms.Label();
             this.cbo_cargo_emp = new System.Windows.Forms.ComboBox();
             this.lbl_gener_emp = new System.Windows.Forms.Label();
+            this.cbo_empresa = new System.Windows.Forms.ComboBox();
             this.cbo_gener_emp = new System.Windows.Forms.ComboBox();
             this.lbl_estad_civ_emp = new System.Windows.Forms.Label();
             this.cbo_estad_civ_emp = new System.Windows.Forms.ComboBox();
@@ -101,7 +105,6 @@
             this.toolTip11 = new System.Windows.Forms.ToolTip(this.components);
             this.lbl_cod_emp = new System.Windows.Forms.Label();
             this.txt_cod_emp = new System.Windows.Forms.TextBox();
-            this.txt_estado = new System.Windows.Forms.TextBox();
             this.gpb_regist_emp.SuspendLayout();
             this.gpb_navegador.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pic_empleado)).BeginInit();
@@ -128,10 +131,13 @@
             this.gpb_regist_emp.Controls.Add(this.txt_sueldo_emp);
             this.gpb_regist_emp.Controls.Add(this.btn_examinar_pic_emp);
             this.gpb_regist_emp.Controls.Add(this.lbl_sueldo_emp);
+            this.gpb_regist_emp.Controls.Add(this.txt_comision);
             this.gpb_regist_emp.Controls.Add(this.txt_telef_emp);
+            this.gpb_regist_emp.Controls.Add(this.lbl_comision);
             this.gpb_regist_emp.Controls.Add(this.lbl_cargo_emp);
             this.gpb_regist_emp.Controls.Add(this.cbo_cargo_emp);
             this.gpb_regist_emp.Controls.Add(this.lbl_gener_emp);
+            this.gpb_regist_emp.Controls.Add(this.cbo_empresa);
             this.gpb_regist_emp.Controls.Add(this.cbo_gener_emp);
             this.gpb_regist_emp.Controls.Add(this.lbl_estad_civ_emp);
             this.gpb_regist_emp.Controls.Add(this.cbo_estad_civ_emp);
@@ -163,11 +169,12 @@
             // 
             // txt_empresa
             // 
-            this.txt_empresa.Location = new System.Drawing.Point(159, 269);
+            this.txt_empresa.Location = new System.Drawing.Point(358, 269);
             this.txt_empresa.Name = "txt_empresa";
-            this.txt_empresa.Size = new System.Drawing.Size(215, 24);
+            this.txt_empresa.Size = new System.Drawing.Size(46, 24);
             this.txt_empresa.TabIndex = 185;
             this.txt_empresa.Tag = "id_empresa_pk";
+            this.txt_empresa.Visible = false;
             // 
             // lbl_empresa
             // 
@@ -182,17 +189,18 @@
             // 
             // txt_tipo_sueldo
             // 
-            this.txt_tipo_sueldo.Location = new System.Drawing.Point(159, 239);
+            this.txt_tipo_sueldo.Location = new System.Drawing.Point(159, 242);
             this.txt_tipo_sueldo.Name = "txt_tipo_sueldo";
             this.txt_tipo_sueldo.Size = new System.Drawing.Size(215, 24);
             this.txt_tipo_sueldo.TabIndex = 179;
             this.txt_tipo_sueldo.Tag = "tipo_sueldo";
+            this.txt_tipo_sueldo.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_tipo_sueldo_KeyPress);
             // 
             // lbl_tipo_sueldo
             // 
             this.lbl_tipo_sueldo.AutoSize = true;
             this.lbl_tipo_sueldo.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_tipo_sueldo.Location = new System.Drawing.Point(6, 239);
+            this.lbl_tipo_sueldo.Location = new System.Drawing.Point(6, 242);
             this.lbl_tipo_sueldo.Name = "lbl_tipo_sueldo";
             this.lbl_tipo_sueldo.Size = new System.Drawing.Size(111, 18);
             this.lbl_tipo_sueldo.TabIndex = 178;
@@ -217,18 +225,28 @@
             this.txt_dtp_fecha_ingr_emp.Tag = "fecha_ingreso";
             this.txt_dtp_fecha_ingr_emp.Visible = false;
             // 
+            // txt_estado
+            // 
+            this.txt_estado.Location = new System.Drawing.Point(714, 281);
+            this.txt_estado.Name = "txt_estado";
+            this.txt_estado.Size = new System.Drawing.Size(28, 24);
+            this.txt_estado.TabIndex = 175;
+            this.txt_estado.Tag = "estado";
+            this.txt_estado.Text = "ACTIVO";
+            this.txt_estado.Visible = false;
+            // 
             // txt_img_final
             // 
-            this.txt_img_final.Location = new System.Drawing.Point(519, 263);
+            this.txt_img_final.Location = new System.Drawing.Point(680, 281);
             this.txt_img_final.Name = "txt_img_final";
             this.txt_img_final.Size = new System.Drawing.Size(28, 24);
             this.txt_img_final.TabIndex = 175;
-            this.txt_img_final.Tag = "genero";
+            this.txt_img_final.Tag = "";
             this.txt_img_final.Visible = false;
             // 
             // txt_nom_img
             // 
-            this.txt_nom_img.Location = new System.Drawing.Point(485, 263);
+            this.txt_nom_img.Location = new System.Drawing.Point(646, 281);
             this.txt_nom_img.Name = "txt_nom_img";
             this.txt_nom_img.Size = new System.Drawing.Size(28, 24);
             this.txt_nom_img.TabIndex = 175;
@@ -237,16 +255,16 @@
             // 
             // txt_direc_img
             // 
-            this.txt_direc_img.Location = new System.Drawing.Point(451, 263);
+            this.txt_direc_img.Location = new System.Drawing.Point(612, 281);
             this.txt_direc_img.Name = "txt_direc_img";
             this.txt_direc_img.Size = new System.Drawing.Size(28, 24);
             this.txt_direc_img.TabIndex = 175;
-            this.txt_direc_img.Tag = "genero";
+            this.txt_direc_img.Tag = "";
             this.txt_direc_img.Visible = false;
             // 
             // txt_cbo_gener_emp
             // 
-            this.txt_cbo_gener_emp.Location = new System.Drawing.Point(515, 201);
+            this.txt_cbo_gener_emp.Location = new System.Drawing.Point(514, 236);
             this.txt_cbo_gener_emp.Name = "txt_cbo_gener_emp";
             this.txt_cbo_gener_emp.Size = new System.Drawing.Size(28, 24);
             this.txt_cbo_gener_emp.TabIndex = 175;
@@ -333,6 +351,7 @@
             this.txt_sueldo_emp.Size = new System.Drawing.Size(215, 24);
             this.txt_sueldo_emp.TabIndex = 92;
             this.txt_sueldo_emp.Tag = "sueldo";
+            this.txt_sueldo_emp.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_sueldo_emp_KeyPress);
             // 
             // btn_examinar_pic_emp
             // 
@@ -356,13 +375,36 @@
             this.lbl_sueldo_emp.TabIndex = 91;
             this.lbl_sueldo_emp.Text = "Sueldo:";
             // 
+            // txt_comision
+            // 
+            this.txt_comision.Location = new System.Drawing.Point(549, 179);
+            this.txt_comision.Name = "txt_comision";
+            this.txt_comision.Size = new System.Drawing.Size(215, 24);
+            this.txt_comision.TabIndex = 90;
+            this.txt_comision.Tag = "telefono";
+            this.txt_comision.Visible = false;
+            this.txt_comision.TextChanged += new System.EventHandler(this.txt_comision_TextChanged);
+            this.txt_comision.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_comision_KeyPress);
+            // 
             // txt_telef_emp
             // 
-            this.txt_telef_emp.Location = new System.Drawing.Point(549, 173);
+            this.txt_telef_emp.Location = new System.Drawing.Point(548, 208);
             this.txt_telef_emp.Name = "txt_telef_emp";
             this.txt_telef_emp.Size = new System.Drawing.Size(215, 24);
             this.txt_telef_emp.TabIndex = 90;
             this.txt_telef_emp.Tag = "telefono";
+            this.txt_telef_emp.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_telef_emp_KeyPress);
+            // 
+            // lbl_comision
+            // 
+            this.lbl_comision.AutoSize = true;
+            this.lbl_comision.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_comision.Location = new System.Drawing.Point(416, 182);
+            this.lbl_comision.Name = "lbl_comision";
+            this.lbl_comision.Size = new System.Drawing.Size(76, 18);
+            this.lbl_comision.TabIndex = 89;
+            this.lbl_comision.Text = "Comision:";
+            this.lbl_comision.Visible = false;
             // 
             // lbl_cargo_emp
             // 
@@ -378,27 +420,36 @@
             // 
             this.cbo_cargo_emp.FormattingEnabled = true;
             this.cbo_cargo_emp.Items.AddRange(new object[] {
-            "1",
-            "2",
-            "3",
-            "4",
-            "5",
-            "6"});
+            "Compras",
+            "Recepcion",
+            "RRHH",
+            "Ventas"});
             this.cbo_cargo_emp.Location = new System.Drawing.Point(549, 146);
             this.cbo_cargo_emp.Name = "cbo_cargo_emp";
             this.cbo_cargo_emp.Size = new System.Drawing.Size(200, 26);
             this.cbo_cargo_emp.TabIndex = 88;
             this.cbo_cargo_emp.Tag = "";
+            this.cbo_cargo_emp.SelectedIndexChanged += new System.EventHandler(this.cbo_cargo_emp_SelectedIndexChanged);
             // 
             // lbl_gener_emp
             // 
             this.lbl_gener_emp.AutoSize = true;
             this.lbl_gener_emp.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_gener_emp.Location = new System.Drawing.Point(417, 199);
+            this.lbl_gener_emp.Location = new System.Drawing.Point(416, 234);
             this.lbl_gener_emp.Name = "lbl_gener_emp";
             this.lbl_gener_emp.Size = new System.Drawing.Size(62, 18);
             this.lbl_gener_emp.TabIndex = 87;
             this.lbl_gener_emp.Text = "Genero:";
+            // 
+            // cbo_empresa
+            // 
+            this.cbo_empresa.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbo_empresa.FormattingEnabled = true;
+            this.cbo_empresa.Location = new System.Drawing.Point(159, 269);
+            this.cbo_empresa.Name = "cbo_empresa";
+            this.cbo_empresa.Size = new System.Drawing.Size(193, 26);
+            this.cbo_empresa.TabIndex = 86;
+            this.cbo_empresa.Tag = "";
             // 
             // cbo_gener_emp
             // 
@@ -407,7 +458,7 @@
             this.cbo_gener_emp.Items.AddRange(new object[] {
             "Masculino",
             "Femenino"});
-            this.cbo_gener_emp.Location = new System.Drawing.Point(549, 199);
+            this.cbo_gener_emp.Location = new System.Drawing.Point(548, 234);
             this.cbo_gener_emp.Name = "cbo_gener_emp";
             this.cbo_gener_emp.Size = new System.Drawing.Size(193, 26);
             this.cbo_gener_emp.TabIndex = 86;
@@ -455,6 +506,7 @@
             this.txt_edad_emp.Size = new System.Drawing.Size(79, 24);
             this.txt_edad_emp.TabIndex = 81;
             this.txt_edad_emp.Tag = "edad";
+            this.txt_edad_emp.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_edad_emp_KeyPress);
             // 
             // lbl_edad_emp
             // 
@@ -483,6 +535,7 @@
             this.txt_carne_igss_emp.Size = new System.Drawing.Size(215, 24);
             this.txt_carne_igss_emp.TabIndex = 75;
             this.txt_carne_igss_emp.Tag = "no_afiliacion_igss";
+            this.txt_carne_igss_emp.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_carne_igss_emp_KeyPress);
             // 
             // lbl_carne_igss_emp
             // 
@@ -577,6 +630,7 @@
             this.txt_dpi_emp.Size = new System.Drawing.Size(215, 24);
             this.txt_dpi_emp.TabIndex = 63;
             this.txt_dpi_emp.Tag = "dpi";
+            this.txt_dpi_emp.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_dpi_emp_KeyPress);
             // 
             // txt_nomb_emp
             // 
@@ -585,12 +639,13 @@
             this.txt_nomb_emp.Size = new System.Drawing.Size(215, 24);
             this.txt_nomb_emp.TabIndex = 50;
             this.txt_nomb_emp.Tag = "nombre";
+            this.txt_nomb_emp.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_nomb_emp_KeyPress);
             // 
             // lbl_telef_emp
             // 
             this.lbl_telef_emp.AutoSize = true;
             this.lbl_telef_emp.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_telef_emp.Location = new System.Drawing.Point(417, 173);
+            this.lbl_telef_emp.Location = new System.Drawing.Point(416, 208);
             this.lbl_telef_emp.Name = "lbl_telef_emp";
             this.lbl_telef_emp.Size = new System.Drawing.Size(70, 18);
             this.lbl_telef_emp.TabIndex = 52;
@@ -856,16 +911,6 @@
             this.txt_cod_emp.TabIndex = 171;
             this.txt_cod_emp.Visible = false;
             // 
-            // txt_estado
-            // 
-            this.txt_estado.Location = new System.Drawing.Point(553, 263);
-            this.txt_estado.Name = "txt_estado";
-            this.txt_estado.Size = new System.Drawing.Size(28, 24);
-            this.txt_estado.TabIndex = 175;
-            this.txt_estado.Tag = "estado";
-            this.txt_estado.Text = "ACTIVO";
-            this.txt_estado.Visible = false;
-            // 
             // Empleados
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -967,5 +1012,8 @@
         public System.Windows.Forms.Label lbl_cod_emp;
         public System.Windows.Forms.TextBox txt_cod_emp;
         private System.Windows.Forms.TextBox txt_estado;
+        public System.Windows.Forms.TextBox txt_comision;
+        public System.Windows.Forms.Label lbl_comision;
+        public System.Windows.Forms.ComboBox cbo_empresa;
     }
 }
