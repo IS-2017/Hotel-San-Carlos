@@ -116,11 +116,39 @@ namespace Prototipo__RRHH
                 Editar = false;
                 fn.ActivarControles(gpb_regist_emp);
                 fn.LimpiarComponentes(gpb_regist_emp);
+                llenarempresa();
             }
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
             }
+        }
+
+
+
+        public void llenarempresa()
+        {
+            //se realiza la conexión a la base de datos
+            Conexionmysql.ObtenerConexion();
+            //se inicia un DataSet
+            DataSet ds = new DataSet();
+            //se indica la consulta en sql
+            String Query = "select distinct id_empresa_pk,nombre,direccion,region from empresa";
+            OdbcDataAdapter dad = new OdbcDataAdapter(Query, Conexionmysql.ObtenerConexion());
+            //se indica con quu tabla se llena
+            dad.Fill(ds, "id_empresa_pk");
+            cbo_empresa.DataSource = ds.Tables[0].DefaultView;
+            //indicamos el valor de los miembros
+            cbo_empresa.ValueMember = ("id_empresa_pk");
+            //se indica el valor a desplegar en el combobox
+            DataTable dt = ds.Tables[0];
+            dt.Columns.Add("NewColumn", typeof(string));
+            foreach (DataRow dr in dt.Rows)
+            {
+                dr["nombre"] = dr["nombre"].ToString() + " - " + dr["direccion"].ToString() + " - " + dr["region"].ToString();
+            }
+            cbo_empresa.DataSource = dt;
+            cbo_empresa.DisplayMember = "nombre";
         }
 
         private void btn_cancelar_Click(object sender, EventArgs e)
@@ -193,7 +221,8 @@ namespace Prototipo__RRHH
                 txt_dtp_fecha_egre_emp.Text = dtp_fecha_egre_emp.Value.ToString("yyyy-MM-dd");
                 txt_cbo_cargo_emp.Text = cbo_cargo_emp.Text;
                 txt_cbo_gener_emp.Text = cbo_gener_emp.Text;
-
+                txt_empresa.Text = cbo_empresa.SelectedValue.ToString();
+                txt_estado.Text = "ACTIVO";
                 TextBox[] textbox = { txt_nomb_emp, txt_dtp_fecha_nacim, txt_edad_emp, txt_dpi_emp, txt_cbo_nacional_emp, txt_cbo_estad_civ_emp, txt_carne_igss_emp, txt_sueldo_emp, txt_tipo_sueldo, txt_empresa, txt_dtp_fecha_ingr_emp, txt_dtp_fecha_egre_emp, txt_direc_emp, txt_cbo_cargo_emp, txt_telef_emp, txt_cbo_gener_emp, txt_nom_img, txt_estado };
                 DataTable datos = fn.construirDataTable(textbox);
                 if (datos.Rows.Count == 0)
@@ -256,6 +285,7 @@ namespace Prototipo__RRHH
                 this.txt_telef_emp.Text = this.dg.CurrentRow.Cells[2].Value.ToString();
                 this.txt_nom_img.Text = this.dg.CurrentRow.Cells[17].Value.ToString();
                 this.txt_empresa.Text = this.dg.CurrentRow.Cells[18].Value.ToString();
+                llenarempresa();
                 this.txt_cbo_gener_emp.Text = this.dg.CurrentRow.Cells[4].Value.ToString(); cbo_gener_emp.Text = txt_cbo_gener_emp.Text;
                 fn.ActivarControles(gpb_regist_emp);
                 string direc = txt_nom_img.Text;
@@ -419,6 +449,173 @@ namespace Prototipo__RRHH
             this.txt_nom_img.Text = this.dg.CurrentRow.Cells[17].Value.ToString();
             string direc = txt_nom_img.Text;
             pic_empleado.ImageLocation = @"C:\empleados\" + direc;
+        }
+
+        private void cbo_cargo_emp_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            string a = (string)cbo_cargo_emp.SelectedItem;
+            //MessageBox.Show(a);
+            if (a == "Ventas")
+            {
+                txt_comision.Visible = true;
+                lbl_comision.Visible = true;
+            }
+            else {
+                txt_comision.Visible = false;
+                lbl_comision.Visible = false;
+            }
+        }
+
+
+        public void validacion_sololetras(KeyPressEventArgs e)
+        {
+            try
+            {
+                if (Char.IsLetter(e.KeyChar))
+                {
+                    e.Handled = false;
+                }
+                else if (Char.IsControl(e.KeyChar))
+                {
+                    e.Handled = false;
+                }
+                else if (Char.IsSeparator(e.KeyChar))
+                {
+                    e.Handled = false;
+                }
+                else
+                {
+                    e.Handled = true;
+                    MessageBox.Show("Llene el campo con letras", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
+            }
+            catch
+            {
+                // MessageBox.Show("Llene el campo", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+        }
+
+        public void validacion_solonumeros(KeyPressEventArgs e)
+        {
+            try
+            {
+                if (Char.IsNumber(e.KeyChar))
+                {
+                    e.Handled = false;
+
+                }
+                else if (Char.IsControl(e.KeyChar))
+                {
+                    e.Handled = false;
+                }
+                else if (Char.IsSeparator(e.KeyChar))
+                {
+                    e.Handled = false;
+                }
+                else
+                {
+                    e.Handled = true;
+                    MessageBox.Show("Llene el campo con numeros", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
+            }
+            catch
+            {
+                //MessageBox.Show("Llene el campo ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+
+        }
+
+        public void validacion_solonumerocondosdecimales(KeyPressEventArgs e, TextBox textbox)
+        {
+            try
+            {
+                if (e.KeyChar == 8)
+                {
+                    e.Handled = false;
+                    return;
+                }
+
+
+                bool IsDec = false;
+                int nroDec = 0;
+
+                for (int i = 0; i < textbox.Text.Length; i++)
+                {
+                    if (textbox.Text[i] == '.')
+                        IsDec = true;
+
+                    if (IsDec && nroDec++ >= 2)
+                    {
+                        e.Handled = true;
+                        return;
+                    }
+                }
+
+                if (e.KeyChar >= 48 && e.KeyChar <= 57)
+                {
+                    e.Handled = false;
+                }
+                else if (e.KeyChar == 46)
+                {
+                    e.Handled = (IsDec) ? true : false;
+                }
+                else
+                {
+                    MessageBox.Show("Llene el campo con numeros", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    e.Handled = true;
+                }
+
+            }
+            catch
+            {
+                //MessageBox.Show("Llene el campo ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+
+        }
+
+        private void txt_nomb_emp_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            validacion_sololetras(e);
+        }
+
+        private void txt_edad_emp_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            validacion_solonumeros(e);
+        }
+
+        private void txt_dpi_emp_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            validacion_solonumeros(e);
+        }
+
+        private void txt_carne_igss_emp_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            validacion_solonumeros(e);
+        }
+
+        private void txt_sueldo_emp_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            validacion_solonumerocondosdecimales(e, txt_sueldo_emp);
+        }
+
+        private void txt_tipo_sueldo_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            validacion_sololetras(e);
+        }
+
+        private void txt_comision_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            validacion_solonumerocondosdecimales(e, txt_comision);
+        }
+
+        private void txt_telef_emp_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            validacion_solonumeros(e);
+        }
+
+        private void txt_comision_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
