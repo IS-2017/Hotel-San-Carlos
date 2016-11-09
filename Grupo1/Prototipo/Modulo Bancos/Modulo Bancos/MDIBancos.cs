@@ -16,7 +16,7 @@ namespace Modulo_Bancos
         private int childFormNumber = 0;
         Busqueda_Documento busc_doc;
         Documento doc;
-        Cheque_Voucher che_Vo;
+        Buscar_Cheque che_Vo;
         Conciliacion_Bancaria con_ban;
         Disponibilidad_bancaria disp_ban;
         Tipo_Documento tip_doc;
@@ -136,7 +136,7 @@ namespace Modulo_Bancos
         {
             if (che_Vo == null)
             {
-                che_Vo = new Cheque_Voucher();
+                che_Vo = new Buscar_Cheque();
                 che_Vo.MdiParent = this;
                 che_Vo.FormClosed += new FormClosedEventHandler(cheque_voucher_FormClosed);
                 che_Vo.Show();
@@ -160,6 +160,7 @@ namespace Modulo_Bancos
             //form_app_UD = null;
             form_hist = null;
             form_infouser = null;
+            kar_doc = null;
             // form_log = null;
             MdiClient Chld;
             foreach (Control crtl in this.Controls)
@@ -433,12 +434,12 @@ namespace Modulo_Bancos
             {
                 kar_doc = new Kardex_Bancos();
                 kar_doc.MdiParent = this;
-                kar_doc.FormClosed += new FormClosedEventHandler(kardex_FormClosed);
+                kar_doc.FormClosed += new FormClosedEventHandler(FormKardexBancos_FormClosed);
                 kar_doc.Show();
             }
         }
 
-        void kardex_FormClosed(object sender, EventArgs e)
+        public void FormKardexBancos_FormClosed(object sender, FormClosedEventArgs e)
         {
             kar_doc = null;
         }

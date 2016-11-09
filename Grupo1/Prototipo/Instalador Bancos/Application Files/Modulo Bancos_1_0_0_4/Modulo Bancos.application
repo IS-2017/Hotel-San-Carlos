@@ -7,14 +7,14 @@
     <framework targetVersion="4.5.1" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="Application Files\Modulo Bancos_1_0_0_4\Modulo Bancos.exe.manifest" size="19577">
+    <dependentAssembly dependencyType="install" codebase="Application Files\Modulo Bancos_1_0_0_4\Modulo Bancos.exe.manifest" size="20006">
       <assemblyIdentity name="Modulo Bancos.exe" version="1.0.0.4" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>n7XHhCEhuNjPEwUE+ggqIEe/46+EO/x8cuVruuZEz4M=</dsig:DigestValue>
+        <dsig:DigestValue>XRJQM2gsD72538unbGWgEqVsMHf3rWtXuYy2GPtQGKY=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

@@ -102,17 +102,30 @@ namespace Modulo_Bancos
 
 
                 bool IsDec = false;
-                int nroDec = 0;
+                int nroDec1 = 0,nroDec= 0;
 
                 for (int i = 0; i < textbox.Text.Length; i++)
                 {
+                    if(textbox.Text[i] != '.' && !IsDec)
+                    {
+                        nroDec++;
+                    }
                     if (textbox.Text[i] == '.')
                         IsDec = true;
-
-                    if (IsDec && nroDec++ >= 2)
+                    if (nroDec >=7 || IsDec && nroDec1++ >=2)
                     {
-                        e.Handled = true;
-                        return;
+                        if(nroDec >= 7)
+                        {
+                            MessageBox.Show("El numero no puede ser mayor a 7 digitos", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                            e.Handled = true;
+                            return;
+                        }
+                        else
+                        {
+                            MessageBox.Show("El numero no puede tener mas de dos numeros despues del punto", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                            e.Handled = true;
+                            return;
+                        }
                     }
                 }
 
@@ -587,6 +600,7 @@ namespace Modulo_Bancos
             fn.ActivarControles(gpb_navegador);
             txt_descripcion_che.Enabled = true; txt_descripcion_dep.Enabled = true; txt_descripcion_nc.Enabled = true; txt_descripcion_nb.Enabled = true;
             txt_destinatario_che.Enabled = true; txt_destinatario_dep.Enabled = true; txt_destinatario_nc.Enabled = true; txt_destinatario_nb.Enabled = true;
+            dateTimePicker1.Enabled = true; dateTimePicker2.Enabled =true; dateTimePicker3.Enabled = true; dateTimePicker4.Enabled = true;
             txt_monto_nb.Enabled = true; txt_monto_nc.Enabled = true; txt_monto_dep.Enabled = true; txt_monto_che.Enabled = true;
             txt_no_documento_che.Enabled = true; txt_no_documento_nb.Enabled = true; txt_no_documento_nc.Enabled = true; txt_no_documento_dep.Enabled = true;
             cbo_conciliado_che.Enabled = true; cbo_conciliado_nc.Enabled = true; cbo_conciliado_nb.Enabled = true; cbo_conciliado_dep.Enabled = true;
@@ -599,7 +613,7 @@ namespace Modulo_Bancos
             }
             else
             {
-                if (tabControl.SelectedTab == tabPage1)
+                if (tabControl.SelectedTab == tabPage2)
                 {
                     txt_descripcion_che.Text = ""; txt_conciliado_che.Text = ""; txt_cuenta_bancaria_che.Text = ""; txt_destinatario_che.Text = ""; txt_fecha_che.Text = ""; txt_monto_che.Text = ""; txt_no_documento_che.Text = "";
                 }
@@ -997,7 +1011,8 @@ namespace Modulo_Bancos
         {
             Editar = false;
             txt_descripcion_che.Enabled = false; txt_descripcion_dep.Enabled = false; txt_descripcion_nc.Enabled = false; txt_descripcion_nb.Enabled = false;
-            txt_destinatario_che.Enabled = true; txt_destinatario_dep.Enabled = true; txt_destinatario_nc.Enabled = false; txt_destinatario_nb.Enabled = false;
+            txt_destinatario_che.Enabled = false; txt_destinatario_dep.Enabled = false; txt_destinatario_nc.Enabled = false; txt_destinatario_nb.Enabled = false;
+            dateTimePicker1.Enabled = false; dateTimePicker2.Enabled = false; dateTimePicker3.Enabled = false; dateTimePicker4.Enabled = false;
             txt_monto_nb.Enabled = false; txt_monto_nc.Enabled = false; txt_monto_dep.Enabled = false; txt_monto_che.Enabled = false;
             txt_no_documento_che.Enabled = false; txt_no_documento_nb.Enabled = false; txt_no_documento_nc.Enabled = false; txt_no_documento_dep.Enabled = false;
             cbo_conciliado_che.Enabled = false; cbo_conciliado_nc.Enabled = false; cbo_conciliado_nb.Enabled = false; cbo_conciliado_dep.Enabled = false;

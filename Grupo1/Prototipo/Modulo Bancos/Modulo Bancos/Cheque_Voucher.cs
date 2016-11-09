@@ -9,15 +9,20 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.Odbc;
 using FuncionesNavegador;
+using seguridad;
+
 namespace Modulo_Bancos
 {
     public partial class Cheque_Voucher : Form
     {
-        CapaNegocio fn = new CapaNegocio();
+        private static string id_form = "16201";
+        FuncionesNavegador.CapaNegocio fn = new FuncionesNavegador.CapaNegocio();
         String Codigo;
         Boolean Editar = false;
         String atributo;
         DataGridView data;
+        bitacora bita = new bitacora();
+        DataTable seg = seguridad.ObtenerPermisos.Permisos(seguridad.Conexion.User, id_form);
         public Cheque_Voucher()
         {
             InitializeComponent();
@@ -31,11 +36,14 @@ namespace Modulo_Bancos
         
         private void Cheque_Voucher_Load(object sender, EventArgs e)
         {
+            fn.desactivarPermiso(seg, btn_guardar, btn_eliminar, btn_editar, btn_nuevo, btn_cancelar, btn_actualizar, btn_buscar, btn_anterior, btn_siguiente, btn_primero, btn_ultimo);
             fn.InhabilitarComponentes(gpb_cheque_v);
             fn.InhabilitarComponentes(this);
             dataGridView1.Enabled = false;
             llenardocuemnto();
             dataGridView1.Columns[1].Visible = false;
+            txt_cantidad_h.MaxLength = 9;
+            txt_cantida.MaxLength = 9;
         }
         int id;
         int id2;
@@ -156,41 +164,48 @@ namespace Modulo_Bancos
             dataGridView1.Rows[0].Cells[0].Value = id;
             dataGridView1.Rows[0].Cells[2].Value = cadena1;
             dataGridView1.Rows[0].Cells[4].Value = cadena2;
+            txt_empresa.Enabled = false;
+            txt_monto.Enabled = false;
+            txt_cuenta.Enabled = false;
         }
 
         private void button3_Click_1(object sender, EventArgs e)
         {
-            if (dato == 1)
-            {
-                dataGridView1.Rows.Add(1);
-                dataGridView1.Rows[cont2].Cells[1].Value = "X";
-                dataGridView1.Rows[cont2].Cells[2].Value = txt_detalle.Text;
-                dataGridView1.Rows[cont2].Cells[3].Value = Convert.ToDecimal(txt_cantida.Text);
-                dataGridView1.Rows[cont2].Cells[4].Value = Convert.ToDecimal(txt_cantidad_h.Text);
-                txt_cantida.Text = "0";
-                txt_cantidad_h.Text = "0";
-                txt_detalle.Text = "";
-                cont2++;
-                radioButton1.Checked = false;
-                txt_cantida.Enabled = true;
-                txt_cantidad_h.Enabled = true;
-            } else if  (dato==2)
-            {
-                decimal x = 0;
-                dataGridView1.Rows.Add(1);
-                dataGridView1.Rows[cont2].Cells[1].Value = "X";
-                dataGridView1.Rows[cont2].Cells[2].Value = txt_detalle.Text;
-                dataGridView1.Rows[cont2].Cells[3].Value = Convert.ToDecimal(txt_cantida.Text);
-                dataGridView1.Rows[cont2].Cells[4].Value = Convert.ToDecimal(txt_cantidad_h.Text);
-                x = Convert.ToDecimal(dataGridView1.Rows[0].Cells[4].Value) - Convert.ToDecimal(dataGridView1.Rows[cont2].Cells[4].Value);
-                dataGridView1.Rows[0].Cells[4].Value = x;
-                txt_cantida.Text = "0";
-                txt_cantidad_h.Text = "0";
-                txt_detalle.Text = "";
-                cont2++;
-                radioButton2.Checked = false;
-                txt_cantida.Enabled = true;
-                txt_cantidad_h.Enabled = true;
+            if (txt_ref.Text=="" || txt_cantidad_h.Text==""||txt_cantida.Text=="") {
+            }
+            else {
+                if (dato == 1)
+                {
+                    dataGridView1.Rows.Add(1);
+                    dataGridView1.Rows[cont2].Cells[1].Value = "X";
+                    dataGridView1.Rows[cont2].Cells[2].Value = txt_detalle.Text;
+                    dataGridView1.Rows[cont2].Cells[3].Value = Convert.ToDecimal(txt_cantida.Text);
+                    dataGridView1.Rows[cont2].Cells[4].Value = Convert.ToDecimal(txt_cantidad_h.Text);
+                    txt_cantida.Text = "0";
+                    txt_cantidad_h.Text = "0";
+                    txt_detalle.Text = "";
+                    cont2++;
+                    radioButton1.Checked = false;
+                    txt_cantida.Enabled = true;
+                    txt_cantidad_h.Enabled = true;
+                } else if (dato == 2)
+                {
+                    decimal x = 0;
+                    dataGridView1.Rows.Add(1);
+                    dataGridView1.Rows[cont2].Cells[1].Value = "X";
+                    dataGridView1.Rows[cont2].Cells[2].Value = txt_detalle.Text;
+                    dataGridView1.Rows[cont2].Cells[3].Value = Convert.ToDecimal(txt_cantida.Text);
+                    dataGridView1.Rows[cont2].Cells[4].Value = Convert.ToDecimal(txt_cantidad_h.Text);
+                    x = Convert.ToDecimal(dataGridView1.Rows[0].Cells[4].Value) - Convert.ToDecimal(dataGridView1.Rows[cont2].Cells[4].Value);
+                    dataGridView1.Rows[0].Cells[4].Value = x;
+                    txt_cantida.Text = "0";
+                    txt_cantidad_h.Text = "0";
+                    txt_detalle.Text = "";
+                    cont2++;
+                    radioButton2.Checked = false;
+                    txt_cantida.Enabled = true;
+                    txt_cantidad_h.Enabled = true;
+                }
             }
         }
 
@@ -227,7 +242,8 @@ namespace Modulo_Bancos
 
         private void btn_guardar_Click(object sender, EventArgs e)
         {
-            
+                DataRow permiso = seg.Rows[0];
+                int insertar = Convert.ToInt32(permiso[0]);
                 if (cambio == "INSERTAR")
                 {
                     for (int fila = 0; fila < dataGridView1.RowCount - 1; fila++)
@@ -235,7 +251,7 @@ namespace Modulo_Bancos
                         if (Convert.ToString(dataGridView1.Rows[fila].Cells[1].Value) != "X")
                         {
                             
-                            //MessageBox.Show("YA ESTA REGISTRADO");
+                            MessageBox.Show("YA ESTA REGISTRADO");
                         }
                          else if (Convert.ToString(dataGridView1.Rows[fila].Cells[1].Value) == "X")
                         {
@@ -246,7 +262,6 @@ namespace Modulo_Bancos
                             textBox2.Text = Convert.ToString(dataGridView1.Rows[fila].Cells[2].Value);
                             textBox3.Text = Convert.ToString(dataGridView1.Rows[fila].Cells[3].Value);
                             textBox4.Text = Convert.ToString(dataGridView1.Rows[fila].Cells[4].Value);
-                            CapaNegocio fn = new CapaNegocio();
                             TextBox[] textbox = { textBox1, textBox2, textBox3, textBox4, textBox5, txt_ref };
                             DataTable datos = fn.construirDataTable(textbox);
                             if (datos.Rows.Count == 0)
@@ -260,10 +275,17 @@ namespace Modulo_Bancos
                                     if (Editar)
                                     {
                                         fn.modificar(datos, tabla, atributo, Codigo);
+                                        bita.Modificar("Se modifico el detalle del documento numero: " + cbo_doc.SelectedValue.ToString(), "detalle_documentos");
+                                        if (insertar == 0)
+                                        {
+                                            btn_guardar.Enabled = false;
+                                        }
                                     }
                                     else
                                     {
+                                        //bita.Insertar("Insercion de detalle del documento con el numero: " + cbo_doc.Text, "detalle_documentos");
                                         fn.insertar(datos, tabla);
+                                        bita.Insertar("Se inserto el detalle del documento numero: " + cbo_doc.SelectedValue.ToString(), "detalle_documentos");
                                     }
                                     fn.LimpiarComponentes(this);
                                 
@@ -281,7 +303,6 @@ namespace Modulo_Bancos
                     textBox2.Text = txt_detalle.Text;
                     textBox3.Text = txt_cantida.Text;
                     textBox4.Text = txt_cantidad_h.Text;
-                    CapaNegocio fn = new CapaNegocio();
                     TextBox[] textbox = { textBox2, textBox3, textBox4 };
                     DataTable datos = fn.construirDataTable(textbox);
                     if (datos.Rows.Count == 0)
@@ -291,6 +312,7 @@ namespace Modulo_Bancos
                     else
                     {
                         string tabla = "detalle_documentos";
+                        //bita.Modificar("Modificacion del detalle el numero: " + txt_detalle.Text, "detalle_documentos");
                         fn.modificar(datos, tabla, atributo, Codigo);
                         fn.LimpiarComponentes(this);
                         cambio = "INSERTAR";
@@ -441,7 +463,7 @@ namespace Modulo_Bancos
             OdbcCommand Query = new OdbcCommand();
             OdbcConnection Conexion;
             OdbcDataReader consultar;
-            string sql = "dsn=hotelsancarlos;server=localhost;user id=root;database=hotelsancarlos;password=";
+            string sql = "dsn=hotelsancarlos;server=localhost;database=hotelsancarlos; uid=root; pwd=;";
             Conexion = new OdbcConnection();
             Conexion.ConnectionString = sql;
             Conexion.Open();
@@ -477,7 +499,7 @@ namespace Modulo_Bancos
             OdbcCommand Query = new OdbcCommand();
             OdbcConnection Conexion;
             OdbcDataReader consultar;
-            string sql = "dsn=hotelsancarlos;server=localhost;user id=root;database=hotelsancarlos;password=";
+            string sql = "dsn=hotelsancarlos;server=localhost;database=hotelsancarlos; uid=root; pwd=;";
             Conexion = new OdbcConnection();
             Conexion.ConnectionString = sql;
             Conexion.Open();
@@ -554,11 +576,12 @@ namespace Modulo_Bancos
                     if (resultado == DialogResult.Yes)
                     {
 
-                        CapaNegocio fn = new CapaNegocio();
                         string tabla = "detalle_documentos";
                         fn.eliminar(tabla, atributo2, codigo2);
+                        bita.Eliminar("Se elimino un detalle ", "detalle_documentos");
+                        //bita.Eliminar("Eliminacion del detalle del documento con el numero: " + codigo2, "documento");
 
-                    }
+                    } 
                 } else if (codigo2 == "X")
                 {
                     int fil = dataGridView1.CurrentRow.Index;
@@ -572,7 +595,53 @@ namespace Modulo_Bancos
                 MessageBox.Show("No se ha seleccionado ningun registro a eliminar", "Favor Verificar", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+        public void validacion_solonumerocondosdecimales(KeyPressEventArgs e, TextBox textbox)
+        {
+            try
+            {
+                if (e.KeyChar == 8)
+                {
+                    e.Handled = false;
+                    return;
+                }
 
+
+                bool IsDec = false;
+                int nroDec = 0;
+
+                for (int i = 0; i < textbox.Text.Length; i++)
+                {
+                    if (textbox.Text[i] == '.')
+                        IsDec = true;
+
+                    if (IsDec && nroDec++ >= 2)
+                    {
+                        e.Handled = true;
+                        return;
+                    }
+                }
+
+                if (e.KeyChar >= 48 && e.KeyChar <= 57)
+                {
+                    e.Handled = false;
+                }
+                else if (e.KeyChar == 46)
+                {
+                    e.Handled = (IsDec) ? true : false;
+                }
+                else
+                {
+                    MessageBox.Show("Llene el campo con numeros", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    e.Handled = true;
+                }
+
+            }
+            catch
+            {
+                //MessageBox.Show("Llene el campo ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+
+        }
         private void btn_anterior_Click(object sender, EventArgs e)
         {
             fn.Anterior(data);
@@ -591,6 +660,26 @@ namespace Modulo_Bancos
         private void btn_ultimo_Click(object sender, EventArgs e)
         {
             fn.Ultimo(data);
+        }
+
+        private void txt_cantida_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            validacion_solonumerocondosdecimales(e, txt_cantida);
+        }
+
+        private void txt_cantidad_h_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txt_cantidad_h_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            validacion_solonumerocondosdecimales(e, txt_cantidad_h);
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }

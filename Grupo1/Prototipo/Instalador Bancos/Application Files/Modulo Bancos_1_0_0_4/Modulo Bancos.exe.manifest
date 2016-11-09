@@ -42,11 +42,6 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
-      <assemblyIdentity name="log4net" version="1.2.10.0" publicKeyToken="692FBEA5521E1304" language="neutral" processorArchitecture="amd64" />
-    </dependentAssembly>
-  </dependency>
-  <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CrystalDecisions.CrystalReports.Engine.dll" size="376832">
       <assemblyIdentity name="CrystalDecisions.CrystalReports.Engine" version="13.0.2000.0" publicKeyToken="692FBEA5521E1304" language="neutral" processorArchitecture="msil" />
       <hash>
@@ -275,14 +270,19 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Modulo Bancos.exe" size="1600512">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="log4net.dll" size="237568">
+      <assemblyIdentity name="log4net" version="1.2.10.0" publicKeyToken="692FBEA5521E1304" language="neutral" processorArchitecture="amd64" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Modulo Bancos.exe" size="1803264">
       <assemblyIdentity name="Modulo Bancos" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>MTOpAGs/j/zxnM6ZgkZNeeQ0G314OGSpFTHYKYga+EA=</dsig:DigestValue>
+        <dsig:DigestValue>DRAs7OxXYmswRlb5rNZAJgmgSmH9u0Nq4JPuddt/gBM=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -322,13 +322,22 @@
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="Modulo Bancos.exe.config" size="186">
+  <file name="Modulo Bancos.exe.config" size="222">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>E5pe1Moh3SVgq+7c6PIBn640UkkP2CXKbE7OhyMoiNs=</dsig:DigestValue>
+      <dsig:DigestValue>uZlWjVc4NStbL751OjvTFeNv82oy9pQLnnd657/1wcE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Modulo Bancos.pdb" size="232960">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>jITXwj9b1Kjy7bvZNoWbepfMe4pxV+T+UizwePxoJ7c=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>

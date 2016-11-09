@@ -14,7 +14,7 @@
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <TargetFrameworkProfile />
     <IsWebBootstrapper>false</IsWebBootstrapper>
-    <PublishUrl>C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Prototipo\Sextra Entrega\Instalador Bancos\</PublishUrl>
+    <PublishUrl>C:\Users\ottog\Desktop\Proyecto Hotel San Carlos\Prototipo\Octava entrega\Instalador\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
     <UpdateEnabled>false</UpdateEnabled>
@@ -24,7 +24,7 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
-    <ApplicationRevision>2</ApplicationRevision>
+    <ApplicationRevision>5</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
@@ -61,15 +61,22 @@
   <PropertyGroup>
     <SignManifests>false</SignManifests>
   </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>Modulo Bancos_ClaveTemporal.pfx</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Abrir, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\Abrir.exe</HintPath>
-    </Reference>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
     <Reference Include="dllconsultas, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>bin\Debug\dllconsultas.dll</HintPath>
     </Reference>
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
     <Reference Include="FuncionesNavegador, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>bin\Debug\FuncionesNavegador.dll</HintPath>
@@ -80,6 +87,8 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -92,6 +101,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Ayuda.cs" />
+    <Compile Include="Buscar_Cheque.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Buscar_Cheque.Designer.cs">
+      <DependentUpon>Buscar_Cheque.cs</DependentUpon>
+    </Compile>
     <Compile Include="Busqueda Documento.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -128,6 +143,20 @@
     <Compile Include="Form_login.designer.cs">
       <DependentUpon>Form_login.cs</DependentUpon>
     </Compile>
+    <Compile Include="Kardex.cs">
+      <DependentUpon>Kardex.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Kardex.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Kardex.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="KardexDocumentos.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>KardexDocumentos.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Kardex_Bancos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -149,6 +178,9 @@
       <DependentUpon>Tipo_Documento.cs</DependentUpon>
     </Compile>
     <Compile Include="Validar.cs" />
+    <EmbeddedResource Include="Buscar_Cheque.resx">
+      <DependentUpon>Buscar_Cheque.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Busqueda Documento.resx">
       <DependentUpon>Busqueda Documento.cs</DependentUpon>
     </EmbeddedResource>
@@ -166,6 +198,10 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form_login.resx">
       <DependentUpon>Form_login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KardexDocumentos.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>KardexDocumentos.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Kardex_Bancos.resx">
       <DependentUpon>Kardex_Bancos.cs</DependentUpon>
@@ -186,6 +222,17 @@
     <EmbeddedResource Include="Tipo_Documento.resx">
       <DependentUpon>Tipo_Documento.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="Kardex.xsc">
+      <DependentUpon>Kardex.xsd</DependentUpon>
+    </None>
+    <None Include="Kardex.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Kardex.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Kardex.xss">
+      <DependentUpon>Kardex.xsd</DependentUpon>
+    </None>
     <None Include="Modulo Bancos_ClaveTemporal.pfx" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -217,6 +264,31 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <PublishFile Include="log4net">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>False</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Modulo Bancos.pdb">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

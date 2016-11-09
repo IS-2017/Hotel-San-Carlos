@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Disponibilidad_bancaria));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.btn_nuevo = new System.Windows.Forms.Button();
             this.btn_ultimo = new System.Windows.Forms.Button();
@@ -44,6 +44,8 @@
             this.btn_cancelar = new System.Windows.Forms.Button();
             this.gpb_cheque_v = new System.Windows.Forms.GroupBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.cbo_saldo_nc = new System.Windows.Forms.ComboBox();
+            this.cbo_saldo_c = new System.Windows.Forms.ComboBox();
             this.cbo_tp_doct = new System.Windows.Forms.ComboBox();
             this.dtg_disp_bancaria = new System.Windows.Forms.DataGridView();
             this.lbl_empre = new System.Windows.Forms.Label();
@@ -55,8 +57,6 @@
             this.lbl_fecha = new System.Windows.Forms.Label();
             this.lbl_referido = new System.Windows.Forms.Label();
             this.button3 = new System.Windows.Forms.Button();
-            this.cbo_saldo_c = new System.Windows.Forms.ComboBox();
-            this.cbo_saldo_nc = new System.Windows.Forms.ComboBox();
             this.groupBox1.SuspendLayout();
             this.gpb_cheque_v.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtg_disp_bancaria)).BeginInit();
@@ -76,7 +76,7 @@
             this.groupBox1.Controls.Add(this.btn_actualizar);
             this.groupBox1.Controls.Add(this.btn_cancelar);
             this.groupBox1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.ForeColor = System.Drawing.Color.White;
+            this.groupBox1.ForeColor = System.Drawing.Color.Black;
             this.groupBox1.Location = new System.Drawing.Point(84, 12);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(636, 100);
@@ -265,7 +265,7 @@
             this.gpb_cheque_v.Controls.Add(this.lbl_fecha);
             this.gpb_cheque_v.Controls.Add(this.lbl_referido);
             this.gpb_cheque_v.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gpb_cheque_v.ForeColor = System.Drawing.Color.White;
+            this.gpb_cheque_v.ForeColor = System.Drawing.Color.Black;
             this.gpb_cheque_v.Location = new System.Drawing.Point(34, 129);
             this.gpb_cheque_v.Name = "gpb_cheque_v";
             this.gpb_cheque_v.Size = new System.Drawing.Size(762, 318);
@@ -276,12 +276,34 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.ForeColor = System.Drawing.Color.Black;
             this.label1.Location = new System.Drawing.Point(26, 79);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(168, 21);
             this.label1.TabIndex = 17;
             this.label1.Text = "Tipo de documento:";
+            // 
+            // cbo_saldo_nc
+            // 
+            this.cbo_saldo_nc.FormattingEnabled = true;
+            this.cbo_saldo_nc.Items.AddRange(new object[] {
+            "Tipo de documentos"});
+            this.cbo_saldo_nc.Location = new System.Drawing.Point(606, 116);
+            this.cbo_saldo_nc.Name = "cbo_saldo_nc";
+            this.cbo_saldo_nc.Size = new System.Drawing.Size(111, 29);
+            this.cbo_saldo_nc.TabIndex = 16;
+            this.cbo_saldo_nc.SelectedIndexChanged += new System.EventHandler(this.cbo_tp_doct_SelectedIndexChanged);
+            // 
+            // cbo_saldo_c
+            // 
+            this.cbo_saldo_c.FormattingEnabled = true;
+            this.cbo_saldo_c.Items.AddRange(new object[] {
+            "Tipo de documentos"});
+            this.cbo_saldo_c.Location = new System.Drawing.Point(209, 116);
+            this.cbo_saldo_c.Name = "cbo_saldo_c";
+            this.cbo_saldo_c.Size = new System.Drawing.Size(174, 29);
+            this.cbo_saldo_c.TabIndex = 16;
+            this.cbo_saldo_c.SelectedIndexChanged += new System.EventHandler(this.cbo_tp_doct_SelectedIndexChanged);
             // 
             // cbo_tp_doct
             // 
@@ -296,9 +318,9 @@
             // 
             // dtg_disp_bancaria
             // 
-            dataGridViewCellStyle5.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.dtg_disp_bancaria.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.dtg_disp_bancaria.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             this.dtg_disp_bancaria.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dtg_disp_bancaria.GridColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.dtg_disp_bancaria.Location = new System.Drawing.Point(30, 162);
@@ -309,7 +331,7 @@
             // lbl_empre
             // 
             this.lbl_empre.AutoSize = true;
-            this.lbl_empre.ForeColor = System.Drawing.Color.White;
+            this.lbl_empre.ForeColor = System.Drawing.Color.Black;
             this.lbl_empre.Location = new System.Drawing.Point(26, 33);
             this.lbl_empre.Name = "lbl_empre";
             this.lbl_empre.Size = new System.Drawing.Size(64, 21);
@@ -330,7 +352,7 @@
             // lbl_ctn_bac
             // 
             this.lbl_ctn_bac.AutoSize = true;
-            this.lbl_ctn_bac.ForeColor = System.Drawing.Color.White;
+            this.lbl_ctn_bac.ForeColor = System.Drawing.Color.Black;
             this.lbl_ctn_bac.Location = new System.Drawing.Point(327, 33);
             this.lbl_ctn_bac.Name = "lbl_ctn_bac";
             this.lbl_ctn_bac.Size = new System.Drawing.Size(145, 21);
@@ -351,7 +373,7 @@
             // lbl_mt
             // 
             this.lbl_mt.AutoSize = true;
-            this.lbl_mt.ForeColor = System.Drawing.Color.White;
+            this.lbl_mt.ForeColor = System.Drawing.Color.Black;
             this.lbl_mt.Location = new System.Drawing.Point(389, 119);
             this.lbl_mt.Name = "lbl_mt";
             this.lbl_mt.Size = new System.Drawing.Size(211, 21);
@@ -368,7 +390,7 @@
             // lbl_fecha
             // 
             this.lbl_fecha.AutoSize = true;
-            this.lbl_fecha.ForeColor = System.Drawing.Color.White;
+            this.lbl_fecha.ForeColor = System.Drawing.Color.Black;
             this.lbl_fecha.Location = new System.Drawing.Point(408, 79);
             this.lbl_fecha.Name = "lbl_fecha";
             this.lbl_fecha.Size = new System.Drawing.Size(59, 21);
@@ -378,7 +400,7 @@
             // lbl_referido
             // 
             this.lbl_referido.AutoSize = true;
-            this.lbl_referido.ForeColor = System.Drawing.Color.White;
+            this.lbl_referido.ForeColor = System.Drawing.Color.Black;
             this.lbl_referido.Location = new System.Drawing.Point(26, 119);
             this.lbl_referido.Name = "lbl_referido";
             this.lbl_referido.Size = new System.Drawing.Size(187, 21);
@@ -395,37 +417,18 @@
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
-            // cbo_saldo_c
-            // 
-            this.cbo_saldo_c.FormattingEnabled = true;
-            this.cbo_saldo_c.Items.AddRange(new object[] {
-            "Tipo de documentos"});
-            this.cbo_saldo_c.Location = new System.Drawing.Point(209, 116);
-            this.cbo_saldo_c.Name = "cbo_saldo_c";
-            this.cbo_saldo_c.Size = new System.Drawing.Size(174, 29);
-            this.cbo_saldo_c.TabIndex = 16;
-            this.cbo_saldo_c.SelectedIndexChanged += new System.EventHandler(this.cbo_tp_doct_SelectedIndexChanged);
-            // 
-            // cbo_saldo_nc
-            // 
-            this.cbo_saldo_nc.FormattingEnabled = true;
-            this.cbo_saldo_nc.Items.AddRange(new object[] {
-            "Tipo de documentos"});
-            this.cbo_saldo_nc.Location = new System.Drawing.Point(606, 116);
-            this.cbo_saldo_nc.Name = "cbo_saldo_nc";
-            this.cbo_saldo_nc.Size = new System.Drawing.Size(111, 29);
-            this.cbo_saldo_nc.TabIndex = 16;
-            this.cbo_saldo_nc.SelectedIndexChanged += new System.EventHandler(this.cbo_tp_doct_SelectedIndexChanged);
-            // 
             // Disponibilidad_bancaria
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
+            this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(832, 516);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.gpb_cheque_v);
+            this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(848, 555);
+            this.MinimumSize = new System.Drawing.Size(848, 555);
             this.Name = "Disponibilidad_bancaria";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Disponibilidad_bancaria";
