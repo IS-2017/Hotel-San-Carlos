@@ -1,0 +1,8 @@
+use hotelsancarlos;
+
+create table reporteador(
+id_reporteador int(11) primary key auto_increment not null,
+
+nombre varchar(25),
+
+ubicacion varchar(200));
