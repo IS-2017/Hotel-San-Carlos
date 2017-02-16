@@ -30,6 +30,10 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Conciliacion_Bancaria));
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.lbl_fecha = new System.Windows.Forms.Label();
+            this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
@@ -44,10 +48,6 @@
             this.btn_buscar = new System.Windows.Forms.Button();
             this.btn_actualizar = new System.Windows.Forms.Button();
             this.btn_cancelar = new System.Windows.Forms.Button();
-            this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.lbl_fecha = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
             this.groupBox2.SuspendLayout();
             this.panel1.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -67,6 +67,48 @@
             this.groupBox2.TabIndex = 169;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Conciliacion Bancaria";
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(300, 83);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(87, 39);
+            this.button1.TabIndex = 40;
+            this.button1.Text = "Conciliar";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Location = new System.Drawing.Point(364, 38);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(285, 26);
+            this.dateTimePicker1.TabIndex = 39;
+            // 
+            // lbl_fecha
+            // 
+            this.lbl_fecha.AutoSize = true;
+            this.lbl_fecha.ForeColor = System.Drawing.Color.Black;
+            this.lbl_fecha.Location = new System.Drawing.Point(296, 43);
+            this.lbl_fecha.Name = "lbl_fecha";
+            this.lbl_fecha.Size = new System.Drawing.Size(58, 20);
+            this.lbl_fecha.TabIndex = 38;
+            this.lbl_fecha.Text = "Fecha:";
+            // 
+            // checkedListBox1
+            // 
+            this.checkedListBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(105)))), ((int)(((byte)(143)))));
+            this.checkedListBox1.ForeColor = System.Drawing.Color.White;
+            this.checkedListBox1.FormattingEnabled = true;
+            this.checkedListBox1.Items.AddRange(new object[] {
+            "ND001",
+            "NC002",
+            "Cheque001",
+            "CV001",
+            "...."});
+            this.checkedListBox1.Location = new System.Drawing.Point(28, 25);
+            this.checkedListBox1.Name = "checkedListBox1";
+            this.checkedListBox1.Size = new System.Drawing.Size(205, 340);
+            this.checkedListBox1.TabIndex = 0;
             // 
             // label1
             // 
@@ -271,53 +313,11 @@
             this.btn_cancelar.TabIndex = 5;
             this.btn_cancelar.UseVisualStyleBackColor = true;
             // 
-            // checkedListBox1
-            // 
-            this.checkedListBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(105)))), ((int)(((byte)(143)))));
-            this.checkedListBox1.ForeColor = System.Drawing.Color.White;
-            this.checkedListBox1.FormattingEnabled = true;
-            this.checkedListBox1.Items.AddRange(new object[] {
-            "ND001",
-            "NC002",
-            "Cheque001",
-            "CV001",
-            "...."});
-            this.checkedListBox1.Location = new System.Drawing.Point(28, 25);
-            this.checkedListBox1.Name = "checkedListBox1";
-            this.checkedListBox1.Size = new System.Drawing.Size(205, 340);
-            this.checkedListBox1.TabIndex = 0;
-            // 
-            // dateTimePicker1
-            // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(364, 38);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(285, 26);
-            this.dateTimePicker1.TabIndex = 39;
-            // 
-            // lbl_fecha
-            // 
-            this.lbl_fecha.AutoSize = true;
-            this.lbl_fecha.ForeColor = System.Drawing.Color.White;
-            this.lbl_fecha.Location = new System.Drawing.Point(296, 43);
-            this.lbl_fecha.Name = "lbl_fecha";
-            this.lbl_fecha.Size = new System.Drawing.Size(58, 20);
-            this.lbl_fecha.TabIndex = 38;
-            this.lbl_fecha.Text = "Fecha:";
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(300, 83);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(87, 39);
-            this.button1.TabIndex = 40;
-            this.button1.Text = "Conciliar";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
             // Conciliacion_Bancaria
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(105)))), ((int)(((byte)(143)))));
+            this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(915, 514);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.label1);

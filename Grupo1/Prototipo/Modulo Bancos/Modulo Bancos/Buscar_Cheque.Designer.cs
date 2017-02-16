@@ -243,7 +243,11 @@
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.groupBox1);
+            this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(806, 530);
+            this.MinimumSize = new System.Drawing.Size(806, 530);
             this.Name = "Buscar_Cheque";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Buscar_Cheque";
             this.Load += new System.EventHandler(this.Buscar_Cheque_Load);
             this.groupBox1.ResumeLayout(false);

@@ -38,7 +38,7 @@ namespace Modulo_Bancos
             OdbcCommand Query = new OdbcCommand();
             OdbcConnection Conexion;
             OdbcDataReader consultar;
-            string sql = "dsn=hotelsancarlos;server=localhost;user id=root;database=hotelsancarlos;password=";
+            string sql = "dsn=hotelsancarlos;server=localhost;database=hotelsancarlos; uid=root; pwd=;";
             Conexion = new OdbcConnection();
             Conexion.ConnectionString = sql;
             Conexion.Open();
@@ -67,7 +67,7 @@ namespace Modulo_Bancos
             OdbcCommand Query = new OdbcCommand();
             OdbcConnection Conexion;
             OdbcDataReader consultar;
-            string sql = "dsn=hotelsancarlos;server=localhost;user id=root;database=hotelsancarlos;password=";
+            string sql = "dsn=hotelsancarlos;server=localhost;database=hotelsancarlos; uid=root; pwd=;";
             Conexion = new OdbcConnection();
             Conexion.ConnectionString = sql;
             Conexion.Open();

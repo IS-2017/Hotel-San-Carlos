@@ -174,7 +174,7 @@
             this.btn_nuevo.Location = new System.Drawing.Point(17, 21);
             this.btn_nuevo.Name = "btn_nuevo";
             this.btn_nuevo.Size = new System.Drawing.Size(65, 65);
-            this.btn_nuevo.TabIndex = 0;
+            this.btn_nuevo.TabIndex = 1;
             this.toolTip1.SetToolTip(this.btn_nuevo, "Nuevo");
             this.btn_nuevo.UseVisualStyleBackColor = true;
             this.btn_nuevo.Click += new System.EventHandler(this.btn_nuevo_Click);
@@ -376,7 +376,7 @@
             // 
             // tabPage1
             // 
-            this.tabPage1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
+            this.tabPage1.BackColor = System.Drawing.SystemColors.Control;
             this.tabPage1.Controls.Add(this.txt_tipo_documento_dep);
             this.tabPage1.Controls.Add(this.txt_cuenta_bancaria_dep);
             this.tabPage1.Controls.Add(this.label5);
@@ -395,6 +395,7 @@
             this.tabPage1.Controls.Add(this.txt_destinatario_dep);
             this.tabPage1.Controls.Add(this.lbl_no_documento);
             this.tabPage1.Controls.Add(this.txt_no_documento_dep);
+            this.tabPage1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.tabPage1.Location = new System.Drawing.Point(4, 29);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
@@ -425,7 +426,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label5.Location = new System.Drawing.Point(2, 55);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(132, 20);
@@ -439,19 +440,20 @@
             this.cbo_cuenta_bancaria_dep.Location = new System.Drawing.Point(142, 51);
             this.cbo_cuenta_bancaria_dep.Name = "cbo_cuenta_bancaria_dep";
             this.cbo_cuenta_bancaria_dep.Size = new System.Drawing.Size(203, 28);
-            this.cbo_cuenta_bancaria_dep.TabIndex = 50;
+            this.cbo_cuenta_bancaria_dep.TabIndex = 3;
             // 
             // cbo_conciliado_dep
             // 
             this.cbo_conciliado_dep.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbo_conciliado_dep.FormattingEnabled = true;
+            this.cbo_conciliado_dep.ItemHeight = 20;
             this.cbo_conciliado_dep.Items.AddRange(new object[] {
             "Conciliado",
             "No Conciliado"});
             this.cbo_conciliado_dep.Location = new System.Drawing.Point(138, 136);
             this.cbo_conciliado_dep.Name = "cbo_conciliado_dep";
             this.cbo_conciliado_dep.Size = new System.Drawing.Size(207, 28);
-            this.cbo_conciliado_dep.TabIndex = 49;
+            this.cbo_conciliado_dep.TabIndex = 5;
             // 
             // txt_fecha_dep
             // 
@@ -474,7 +476,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label4.Location = new System.Drawing.Point(35, 138);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(86, 20);
@@ -485,7 +487,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label3.Location = new System.Drawing.Point(36, 96);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(96, 20);
@@ -498,7 +500,7 @@
             this.txt_descripcion_dep.Location = new System.Drawing.Point(138, 93);
             this.txt_descripcion_dep.Name = "txt_descripcion_dep";
             this.txt_descripcion_dep.Size = new System.Drawing.Size(207, 26);
-            this.txt_descripcion_dep.TabIndex = 44;
+            this.txt_descripcion_dep.TabIndex = 4;
             this.txt_descripcion_dep.Tag = "descripcion";
             this.txt_descripcion_dep.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_descripcion_dep_KeyPress);
             // 
@@ -507,14 +509,14 @@
             this.txt_monto_dep.Location = new System.Drawing.Point(450, 94);
             this.txt_monto_dep.Name = "txt_monto_dep";
             this.txt_monto_dep.Size = new System.Drawing.Size(126, 26);
-            this.txt_monto_dep.TabIndex = 39;
+            this.txt_monto_dep.TabIndex = 8;
             this.txt_monto_dep.Tag = "valor_total";
             this.txt_monto_dep.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_monto_dep_KeyPress);
             // 
             // lbl_mt
             // 
             this.lbl_mt.AutoSize = true;
-            this.lbl_mt.ForeColor = System.Drawing.Color.White;
+            this.lbl_mt.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lbl_mt.Location = new System.Drawing.Point(386, 97);
             this.lbl_mt.Name = "lbl_mt";
             this.lbl_mt.Size = new System.Drawing.Size(58, 20);
@@ -526,13 +528,13 @@
             this.dateTimePicker1.Location = new System.Drawing.Point(415, 11);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(285, 26);
-            this.dateTimePicker1.TabIndex = 37;
+            this.dateTimePicker1.TabIndex = 6;
             this.dateTimePicker1.Tag = "fecha";
             // 
             // lbl_fecha
             // 
             this.lbl_fecha.AutoSize = true;
-            this.lbl_fecha.ForeColor = System.Drawing.Color.White;
+            this.lbl_fecha.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lbl_fecha.Location = new System.Drawing.Point(355, 16);
             this.lbl_fecha.Name = "lbl_fecha";
             this.lbl_fecha.Size = new System.Drawing.Size(58, 20);
@@ -542,7 +544,7 @@
             // lbl_referido
             // 
             this.lbl_referido.AutoSize = true;
-            this.lbl_referido.ForeColor = System.Drawing.Color.White;
+            this.lbl_referido.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lbl_referido.Location = new System.Drawing.Point(355, 55);
             this.lbl_referido.Name = "lbl_referido";
             this.lbl_referido.Size = new System.Drawing.Size(89, 20);
@@ -554,14 +556,14 @@
             this.txt_destinatario_dep.Location = new System.Drawing.Point(450, 52);
             this.txt_destinatario_dep.Name = "txt_destinatario_dep";
             this.txt_destinatario_dep.Size = new System.Drawing.Size(250, 26);
-            this.txt_destinatario_dep.TabIndex = 34;
+            this.txt_destinatario_dep.TabIndex = 7;
             this.txt_destinatario_dep.Tag = "destinatario";
             this.txt_destinatario_dep.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_destinatario_dep_KeyPress);
             // 
             // lbl_no_documento
             // 
             this.lbl_no_documento.AutoSize = true;
-            this.lbl_no_documento.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lbl_no_documento.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.lbl_no_documento.Location = new System.Drawing.Point(15, 14);
             this.lbl_no_documento.Name = "lbl_no_documento";
             this.lbl_no_documento.Size = new System.Drawing.Size(120, 20);
@@ -573,13 +575,13 @@
             this.txt_no_documento_dep.Location = new System.Drawing.Point(142, 11);
             this.txt_no_documento_dep.Name = "txt_no_documento_dep";
             this.txt_no_documento_dep.Size = new System.Drawing.Size(129, 26);
-            this.txt_no_documento_dep.TabIndex = 31;
+            this.txt_no_documento_dep.TabIndex = 2;
             this.txt_no_documento_dep.Tag = "no_documento";
             this.txt_no_documento_dep.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_no_documento_dep_KeyPress);
             // 
             // tabPage2
             // 
-            this.tabPage2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
+            this.tabPage2.BackColor = System.Drawing.SystemColors.Control;
             this.tabPage2.Controls.Add(this.txt_tipo_documento_che);
             this.tabPage2.Controls.Add(this.txt_cuenta_bancaria_che);
             this.tabPage2.Controls.Add(this.label1);
@@ -598,6 +600,7 @@
             this.tabPage2.Controls.Add(this.txt_destinatario_che);
             this.tabPage2.Controls.Add(this.label10);
             this.tabPage2.Controls.Add(this.txt_no_documento_che);
+            this.tabPage2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.tabPage2.Location = new System.Drawing.Point(4, 29);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
@@ -627,7 +630,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label1.Location = new System.Drawing.Point(4, 79);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(132, 20);
@@ -638,10 +641,11 @@
             // 
             this.cbo_cuenta_bancaria_che.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbo_cuenta_bancaria_che.FormattingEnabled = true;
+            this.cbo_cuenta_bancaria_che.ItemHeight = 20;
             this.cbo_cuenta_bancaria_che.Location = new System.Drawing.Point(144, 75);
             this.cbo_cuenta_bancaria_che.Name = "cbo_cuenta_bancaria_che";
             this.cbo_cuenta_bancaria_che.Size = new System.Drawing.Size(203, 28);
-            this.cbo_cuenta_bancaria_che.TabIndex = 68;
+            this.cbo_cuenta_bancaria_che.TabIndex = 3;
             this.cbo_cuenta_bancaria_che.Tag = "id_cuenta_bancaria_pk";
             // 
             // cbo_conciliado_che
@@ -654,7 +658,7 @@
             this.cbo_conciliado_che.Location = new System.Drawing.Point(140, 160);
             this.cbo_conciliado_che.Name = "cbo_conciliado_che";
             this.cbo_conciliado_che.Size = new System.Drawing.Size(207, 28);
-            this.cbo_conciliado_che.TabIndex = 67;
+            this.cbo_conciliado_che.TabIndex = 5;
             // 
             // txt_fecha_che
             // 
@@ -677,7 +681,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label2.Location = new System.Drawing.Point(37, 162);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(86, 20);
@@ -688,7 +692,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label6.Location = new System.Drawing.Point(38, 120);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(96, 20);
@@ -701,7 +705,7 @@
             this.txt_descripcion_che.Location = new System.Drawing.Point(140, 117);
             this.txt_descripcion_che.Name = "txt_descripcion_che";
             this.txt_descripcion_che.Size = new System.Drawing.Size(207, 26);
-            this.txt_descripcion_che.TabIndex = 62;
+            this.txt_descripcion_che.TabIndex = 4;
             this.txt_descripcion_che.Tag = "descripcion";
             this.txt_descripcion_che.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_descripcion_che_KeyPress);
             // 
@@ -710,14 +714,14 @@
             this.txt_monto_che.Location = new System.Drawing.Point(452, 118);
             this.txt_monto_che.Name = "txt_monto_che";
             this.txt_monto_che.Size = new System.Drawing.Size(126, 26);
-            this.txt_monto_che.TabIndex = 61;
+            this.txt_monto_che.TabIndex = 8;
             this.txt_monto_che.Tag = "valor_total";
             this.txt_monto_che.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_monto_che_KeyPress);
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.ForeColor = System.Drawing.Color.White;
+            this.label7.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label7.Location = new System.Drawing.Point(388, 121);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(58, 20);
@@ -729,13 +733,13 @@
             this.dateTimePicker2.Location = new System.Drawing.Point(417, 35);
             this.dateTimePicker2.Name = "dateTimePicker2";
             this.dateTimePicker2.Size = new System.Drawing.Size(285, 26);
-            this.dateTimePicker2.TabIndex = 59;
+            this.dateTimePicker2.TabIndex = 6;
             this.dateTimePicker2.Tag = "fecha";
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.ForeColor = System.Drawing.Color.White;
+            this.label8.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label8.Location = new System.Drawing.Point(357, 40);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(58, 20);
@@ -745,7 +749,7 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.ForeColor = System.Drawing.Color.White;
+            this.label9.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label9.Location = new System.Drawing.Point(357, 79);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(89, 20);
@@ -757,14 +761,14 @@
             this.txt_destinatario_che.Location = new System.Drawing.Point(452, 76);
             this.txt_destinatario_che.Name = "txt_destinatario_che";
             this.txt_destinatario_che.Size = new System.Drawing.Size(250, 26);
-            this.txt_destinatario_che.TabIndex = 56;
+            this.txt_destinatario_che.TabIndex = 7;
             this.txt_destinatario_che.Tag = "destinatario";
             this.txt_destinatario_che.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_destinatario_che_KeyPress);
             // 
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label10.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label10.Location = new System.Drawing.Point(17, 38);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(120, 20);
@@ -776,13 +780,13 @@
             this.txt_no_documento_che.Location = new System.Drawing.Point(144, 35);
             this.txt_no_documento_che.Name = "txt_no_documento_che";
             this.txt_no_documento_che.Size = new System.Drawing.Size(129, 26);
-            this.txt_no_documento_che.TabIndex = 54;
+            this.txt_no_documento_che.TabIndex = 2;
             this.txt_no_documento_che.Tag = "no_documento";
             this.txt_no_documento_che.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_no_documento_che_KeyPress);
             // 
             // tabPage3
             // 
-            this.tabPage3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
+            this.tabPage3.BackColor = System.Drawing.SystemColors.Control;
             this.tabPage3.Controls.Add(this.txt_cuenta_corriente_nc);
             this.tabPage3.Controls.Add(this.cbo_cuenta_corriente_nc);
             this.tabPage3.Controls.Add(this.label18);
@@ -804,6 +808,7 @@
             this.tabPage3.Controls.Add(this.txt_destinatario_nc);
             this.tabPage3.Controls.Add(this.label17);
             this.tabPage3.Controls.Add(this.txt_no_documento_nc);
+            this.tabPage3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.tabPage3.Location = new System.Drawing.Point(4, 29);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Size = new System.Drawing.Size(728, 267);
@@ -823,6 +828,7 @@
             // 
             this.cbo_cuenta_corriente_nc.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbo_cuenta_corriente_nc.FormattingEnabled = true;
+            this.cbo_cuenta_corriente_nc.ItemHeight = 20;
             this.cbo_cuenta_corriente_nc.Items.AddRange(new object[] {
             "Conciliado",
             "No Conciliado"});
@@ -835,7 +841,8 @@
             // label18
             // 
             this.label18.AutoSize = true;
-            this.label18.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label18.BackColor = System.Drawing.SystemColors.Control;
+            this.label18.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label18.Location = new System.Drawing.Point(2, 206);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(134, 20);
@@ -865,7 +872,8 @@
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label11.BackColor = System.Drawing.SystemColors.Control;
+            this.label11.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label11.Location = new System.Drawing.Point(4, 79);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(132, 20);
@@ -876,15 +884,17 @@
             // 
             this.cbo_cuenta_bancaria_nc.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbo_cuenta_bancaria_nc.FormattingEnabled = true;
+            this.cbo_cuenta_bancaria_nc.ItemHeight = 20;
             this.cbo_cuenta_bancaria_nc.Location = new System.Drawing.Point(144, 75);
             this.cbo_cuenta_bancaria_nc.Name = "cbo_cuenta_bancaria_nc";
             this.cbo_cuenta_bancaria_nc.Size = new System.Drawing.Size(203, 28);
-            this.cbo_cuenta_bancaria_nc.TabIndex = 68;
+            this.cbo_cuenta_bancaria_nc.TabIndex = 3;
             // 
             // cbo_conciliado_nc
             // 
             this.cbo_conciliado_nc.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbo_conciliado_nc.FormattingEnabled = true;
+            this.cbo_conciliado_nc.ItemHeight = 20;
             this.cbo_conciliado_nc.Items.AddRange(new object[] {
             "Conciliado",
             "No Conciliado"});
@@ -914,7 +924,8 @@
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label12.BackColor = System.Drawing.SystemColors.Control;
+            this.label12.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label12.Location = new System.Drawing.Point(48, 163);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(86, 20);
@@ -925,7 +936,8 @@
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label13.BackColor = System.Drawing.SystemColors.Control;
+            this.label13.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label13.Location = new System.Drawing.Point(38, 120);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(96, 20);
@@ -938,7 +950,7 @@
             this.txt_descripcion_nc.Location = new System.Drawing.Point(140, 117);
             this.txt_descripcion_nc.Name = "txt_descripcion_nc";
             this.txt_descripcion_nc.Size = new System.Drawing.Size(207, 26);
-            this.txt_descripcion_nc.TabIndex = 62;
+            this.txt_descripcion_nc.TabIndex = 4;
             this.txt_descripcion_nc.Tag = "descripcion";
             this.txt_descripcion_nc.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_descripcion_nc_KeyPress);
             // 
@@ -947,14 +959,15 @@
             this.txt_monto_nc.Location = new System.Drawing.Point(452, 118);
             this.txt_monto_nc.Name = "txt_monto_nc";
             this.txt_monto_nc.Size = new System.Drawing.Size(126, 26);
-            this.txt_monto_nc.TabIndex = 61;
+            this.txt_monto_nc.TabIndex = 9;
             this.txt_monto_nc.Tag = "valor_total";
             this.txt_monto_nc.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_monto_nc_KeyPress);
             // 
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.ForeColor = System.Drawing.Color.White;
+            this.label14.BackColor = System.Drawing.SystemColors.Control;
+            this.label14.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label14.Location = new System.Drawing.Point(388, 121);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(58, 20);
@@ -966,13 +979,14 @@
             this.dateTimePicker3.Location = new System.Drawing.Point(417, 35);
             this.dateTimePicker3.Name = "dateTimePicker3";
             this.dateTimePicker3.Size = new System.Drawing.Size(285, 26);
-            this.dateTimePicker3.TabIndex = 59;
+            this.dateTimePicker3.TabIndex = 7;
             this.dateTimePicker3.Tag = "fecha";
             // 
             // label15
             // 
             this.label15.AutoSize = true;
-            this.label15.ForeColor = System.Drawing.Color.White;
+            this.label15.BackColor = System.Drawing.SystemColors.Control;
+            this.label15.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label15.Location = new System.Drawing.Point(357, 40);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(58, 20);
@@ -982,7 +996,8 @@
             // label16
             // 
             this.label16.AutoSize = true;
-            this.label16.ForeColor = System.Drawing.Color.White;
+            this.label16.BackColor = System.Drawing.SystemColors.Control;
+            this.label16.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label16.Location = new System.Drawing.Point(357, 79);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(89, 20);
@@ -994,14 +1009,15 @@
             this.txt_destinatario_nc.Location = new System.Drawing.Point(452, 76);
             this.txt_destinatario_nc.Name = "txt_destinatario_nc";
             this.txt_destinatario_nc.Size = new System.Drawing.Size(250, 26);
-            this.txt_destinatario_nc.TabIndex = 56;
+            this.txt_destinatario_nc.TabIndex = 8;
             this.txt_destinatario_nc.Tag = "destinatario";
             this.txt_destinatario_nc.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_destinatario_nc_KeyPress);
             // 
             // label17
             // 
             this.label17.AutoSize = true;
-            this.label17.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label17.BackColor = System.Drawing.SystemColors.Control;
+            this.label17.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label17.Location = new System.Drawing.Point(17, 38);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(120, 20);
@@ -1013,13 +1029,13 @@
             this.txt_no_documento_nc.Location = new System.Drawing.Point(144, 35);
             this.txt_no_documento_nc.Name = "txt_no_documento_nc";
             this.txt_no_documento_nc.Size = new System.Drawing.Size(129, 26);
-            this.txt_no_documento_nc.TabIndex = 54;
+            this.txt_no_documento_nc.TabIndex = 2;
             this.txt_no_documento_nc.Tag = "no_documento";
             this.txt_no_documento_nc.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_no_documento_nc_KeyPress);
             // 
             // tabPage4
             // 
-            this.tabPage4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
+            this.tabPage4.BackColor = System.Drawing.SystemColors.Control;
             this.tabPage4.Controls.Add(this.txt_id_proveedor_nb);
             this.tabPage4.Controls.Add(this.cbo_id_proveedor_pk_nb);
             this.tabPage4.Controls.Add(this.label27);
@@ -1044,7 +1060,7 @@
             this.tabPage4.Controls.Add(this.txt_destinatario_nb);
             this.tabPage4.Controls.Add(this.label26);
             this.tabPage4.Controls.Add(this.txt_no_documento_nb);
-            this.tabPage4.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.tabPage4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.tabPage4.Location = new System.Drawing.Point(4, 29);
             this.tabPage4.Name = "tabPage4";
             this.tabPage4.Size = new System.Drawing.Size(728, 267);
@@ -1070,13 +1086,14 @@
             this.cbo_id_proveedor_pk_nb.Location = new System.Drawing.Point(453, 101);
             this.cbo_id_proveedor_pk_nb.Name = "cbo_id_proveedor_pk_nb";
             this.cbo_id_proveedor_pk_nb.Size = new System.Drawing.Size(250, 28);
-            this.cbo_id_proveedor_pk_nb.TabIndex = 97;
+            this.cbo_id_proveedor_pk_nb.TabIndex = 9;
             this.cbo_id_proveedor_pk_nb.Tag = "id_proveedor_pk";
             // 
             // label27
             // 
             this.label27.AutoSize = true;
-            this.label27.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label27.BackColor = System.Drawing.SystemColors.Control;
+            this.label27.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label27.Location = new System.Drawing.Point(362, 107);
             this.label27.Name = "label27";
             this.label27.Size = new System.Drawing.Size(85, 20);
@@ -1097,6 +1114,7 @@
             // 
             this.cbo_cuenta_corriente_nb.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbo_cuenta_corriente_nb.FormattingEnabled = true;
+            this.cbo_cuenta_corriente_nb.ItemHeight = 20;
             this.cbo_cuenta_corriente_nb.Items.AddRange(new object[] {
             "Conciliado",
             "No Conciliado"});
@@ -1109,7 +1127,8 @@
             // label19
             // 
             this.label19.AutoSize = true;
-            this.label19.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label19.BackColor = System.Drawing.SystemColors.Control;
+            this.label19.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label19.Location = new System.Drawing.Point(3, 190);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(134, 20);
@@ -1139,7 +1158,8 @@
             // label20
             // 
             this.label20.AutoSize = true;
-            this.label20.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label20.BackColor = System.Drawing.SystemColors.Control;
+            this.label20.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label20.Location = new System.Drawing.Point(5, 63);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(132, 20);
@@ -1153,12 +1173,13 @@
             this.cbo_cuenta_bancaria_nb.Location = new System.Drawing.Point(145, 59);
             this.cbo_cuenta_bancaria_nb.Name = "cbo_cuenta_bancaria_nb";
             this.cbo_cuenta_bancaria_nb.Size = new System.Drawing.Size(203, 28);
-            this.cbo_cuenta_bancaria_nb.TabIndex = 89;
+            this.cbo_cuenta_bancaria_nb.TabIndex = 3;
             // 
             // cbo_conciliado_nb
             // 
             this.cbo_conciliado_nb.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbo_conciliado_nb.FormattingEnabled = true;
+            this.cbo_conciliado_nb.ItemHeight = 20;
             this.cbo_conciliado_nb.Items.AddRange(new object[] {
             "Conciliado",
             "No Conciliado"});
@@ -1188,7 +1209,8 @@
             // label21
             // 
             this.label21.AutoSize = true;
-            this.label21.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label21.BackColor = System.Drawing.SystemColors.Control;
+            this.label21.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label21.Location = new System.Drawing.Point(49, 147);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(86, 20);
@@ -1199,7 +1221,8 @@
             // label22
             // 
             this.label22.AutoSize = true;
-            this.label22.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label22.BackColor = System.Drawing.SystemColors.Control;
+            this.label22.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label22.Location = new System.Drawing.Point(39, 104);
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(96, 20);
@@ -1212,7 +1235,7 @@
             this.txt_descripcion_nb.Location = new System.Drawing.Point(141, 101);
             this.txt_descripcion_nb.Name = "txt_descripcion_nb";
             this.txt_descripcion_nb.Size = new System.Drawing.Size(207, 26);
-            this.txt_descripcion_nb.TabIndex = 83;
+            this.txt_descripcion_nb.TabIndex = 4;
             this.txt_descripcion_nb.Tag = "descripcion";
             this.txt_descripcion_nb.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_descripcion_nb_KeyPress);
             // 
@@ -1221,14 +1244,15 @@
             this.txt_monto_nb.Location = new System.Drawing.Point(486, 141);
             this.txt_monto_nb.Name = "txt_monto_nb";
             this.txt_monto_nb.Size = new System.Drawing.Size(217, 26);
-            this.txt_monto_nb.TabIndex = 82;
+            this.txt_monto_nb.TabIndex = 10;
             this.txt_monto_nb.Tag = "valor_total";
             this.txt_monto_nb.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_monton_nb_KeyPress);
             // 
             // label23
             // 
             this.label23.AutoSize = true;
-            this.label23.ForeColor = System.Drawing.Color.White;
+            this.label23.BackColor = System.Drawing.SystemColors.Control;
+            this.label23.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label23.Location = new System.Drawing.Point(434, 144);
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(58, 20);
@@ -1240,13 +1264,14 @@
             this.dateTimePicker4.Location = new System.Drawing.Point(418, 19);
             this.dateTimePicker4.Name = "dateTimePicker4";
             this.dateTimePicker4.Size = new System.Drawing.Size(285, 26);
-            this.dateTimePicker4.TabIndex = 80;
+            this.dateTimePicker4.TabIndex = 7;
             this.dateTimePicker4.Tag = "fecha";
             // 
             // label24
             // 
             this.label24.AutoSize = true;
-            this.label24.ForeColor = System.Drawing.Color.White;
+            this.label24.BackColor = System.Drawing.SystemColors.Control;
+            this.label24.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label24.Location = new System.Drawing.Point(358, 24);
             this.label24.Name = "label24";
             this.label24.Size = new System.Drawing.Size(58, 20);
@@ -1256,7 +1281,8 @@
             // label25
             // 
             this.label25.AutoSize = true;
-            this.label25.ForeColor = System.Drawing.Color.White;
+            this.label25.BackColor = System.Drawing.SystemColors.Control;
+            this.label25.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label25.Location = new System.Drawing.Point(358, 63);
             this.label25.Name = "label25";
             this.label25.Size = new System.Drawing.Size(89, 20);
@@ -1268,14 +1294,15 @@
             this.txt_destinatario_nb.Location = new System.Drawing.Point(453, 60);
             this.txt_destinatario_nb.Name = "txt_destinatario_nb";
             this.txt_destinatario_nb.Size = new System.Drawing.Size(250, 26);
-            this.txt_destinatario_nb.TabIndex = 77;
+            this.txt_destinatario_nb.TabIndex = 8;
             this.txt_destinatario_nb.Tag = "destinatario";
             this.txt_destinatario_nb.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_destinatario_nb_KeyPress);
             // 
             // label26
             // 
             this.label26.AutoSize = true;
-            this.label26.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label26.BackColor = System.Drawing.SystemColors.Control;
+            this.label26.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label26.Location = new System.Drawing.Point(18, 22);
             this.label26.Name = "label26";
             this.label26.Size = new System.Drawing.Size(120, 20);
@@ -1287,7 +1314,7 @@
             this.txt_no_documento_nb.Location = new System.Drawing.Point(145, 19);
             this.txt_no_documento_nb.Name = "txt_no_documento_nb";
             this.txt_no_documento_nb.Size = new System.Drawing.Size(129, 26);
-            this.txt_no_documento_nb.TabIndex = 75;
+            this.txt_no_documento_nb.TabIndex = 2;
             this.txt_no_documento_nb.Tag = "no_documento";
             this.txt_no_documento_nb.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_no_documento_nb_KeyPress);
             // 
@@ -1305,13 +1332,12 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(171)))), ((int)(((byte)(171)))), ((int)(((byte)(171)))));
+            this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(791, 489);
             this.Controls.Add(this.gpb_datos_documentos);
             this.Controls.Add(this.lbl_documento);
             this.Controls.Add(this.gpb_navegador);
             this.MaximizeBox = false;
-            this.MinimizeBox = false;
             this.Name = "Documento";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Documento";

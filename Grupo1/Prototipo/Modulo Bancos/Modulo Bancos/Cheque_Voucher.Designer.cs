@@ -125,7 +125,7 @@
             this.btn_nuevo.Location = new System.Drawing.Point(17, 25);
             this.btn_nuevo.Name = "btn_nuevo";
             this.btn_nuevo.Size = new System.Drawing.Size(65, 65);
-            this.btn_nuevo.TabIndex = 0;
+            this.btn_nuevo.TabIndex = 1;
             this.btn_nuevo.UseVisualStyleBackColor = true;
             this.btn_nuevo.Click += new System.EventHandler(this.btn_nuevo_Click);
             // 
@@ -141,7 +141,7 @@
             this.btn_ultimo.Location = new System.Drawing.Point(565, 53);
             this.btn_ultimo.Name = "btn_ultimo";
             this.btn_ultimo.Size = new System.Drawing.Size(33, 33);
-            this.btn_ultimo.TabIndex = 10;
+            this.btn_ultimo.TabIndex = 24;
             this.btn_ultimo.UseVisualStyleBackColor = true;
             this.btn_ultimo.Click += new System.EventHandler(this.btn_ultimo_Click);
             // 
@@ -157,7 +157,7 @@
             this.btn_guardar.Location = new System.Drawing.Point(88, 19);
             this.btn_guardar.Name = "btn_guardar";
             this.btn_guardar.Size = new System.Drawing.Size(65, 65);
-            this.btn_guardar.TabIndex = 1;
+            this.btn_guardar.TabIndex = 15;
             this.btn_guardar.UseVisualStyleBackColor = true;
             this.btn_guardar.Click += new System.EventHandler(this.btn_guardar_Click);
             // 
@@ -173,7 +173,7 @@
             this.btn_primero.Location = new System.Drawing.Point(529, 53);
             this.btn_primero.Name = "btn_primero";
             this.btn_primero.Size = new System.Drawing.Size(33, 33);
-            this.btn_primero.TabIndex = 9;
+            this.btn_primero.TabIndex = 23;
             this.btn_primero.UseVisualStyleBackColor = true;
             this.btn_primero.Click += new System.EventHandler(this.btn_primero_Click);
             // 
@@ -189,7 +189,7 @@
             this.btn_editar.Location = new System.Drawing.Point(159, 19);
             this.btn_editar.Name = "btn_editar";
             this.btn_editar.Size = new System.Drawing.Size(65, 65);
-            this.btn_editar.TabIndex = 2;
+            this.btn_editar.TabIndex = 16;
             this.btn_editar.UseVisualStyleBackColor = true;
             this.btn_editar.Click += new System.EventHandler(this.btn_editar_Click);
             // 
@@ -205,7 +205,7 @@
             this.btn_siguiente.Location = new System.Drawing.Point(565, 18);
             this.btn_siguiente.Name = "btn_siguiente";
             this.btn_siguiente.Size = new System.Drawing.Size(33, 33);
-            this.btn_siguiente.TabIndex = 8;
+            this.btn_siguiente.TabIndex = 22;
             this.btn_siguiente.UseVisualStyleBackColor = true;
             this.btn_siguiente.Click += new System.EventHandler(this.btn_siguiente_Click);
             // 
@@ -221,7 +221,7 @@
             this.btn_eliminar.Location = new System.Drawing.Point(230, 19);
             this.btn_eliminar.Name = "btn_eliminar";
             this.btn_eliminar.Size = new System.Drawing.Size(65, 65);
-            this.btn_eliminar.TabIndex = 3;
+            this.btn_eliminar.TabIndex = 17;
             this.btn_eliminar.UseVisualStyleBackColor = true;
             this.btn_eliminar.Click += new System.EventHandler(this.btn_eliminar_Click);
             // 
@@ -237,7 +237,7 @@
             this.btn_anterior.Location = new System.Drawing.Point(529, 18);
             this.btn_anterior.Name = "btn_anterior";
             this.btn_anterior.Size = new System.Drawing.Size(33, 33);
-            this.btn_anterior.TabIndex = 7;
+            this.btn_anterior.TabIndex = 21;
             this.btn_anterior.UseVisualStyleBackColor = true;
             this.btn_anterior.Click += new System.EventHandler(this.btn_anterior_Click);
             // 
@@ -253,7 +253,7 @@
             this.btn_buscar.Location = new System.Drawing.Point(301, 18);
             this.btn_buscar.Name = "btn_buscar";
             this.btn_buscar.Size = new System.Drawing.Size(65, 65);
-            this.btn_buscar.TabIndex = 4;
+            this.btn_buscar.TabIndex = 18;
             this.btn_buscar.UseVisualStyleBackColor = true;
             // 
             // btn_actualizar
@@ -268,7 +268,7 @@
             this.btn_actualizar.Location = new System.Drawing.Point(443, 19);
             this.btn_actualizar.Name = "btn_actualizar";
             this.btn_actualizar.Size = new System.Drawing.Size(65, 65);
-            this.btn_actualizar.TabIndex = 6;
+            this.btn_actualizar.TabIndex = 20;
             this.btn_actualizar.UseVisualStyleBackColor = true;
             this.btn_actualizar.Click += new System.EventHandler(this.btn_actualizar_Click);
             // 
@@ -284,7 +284,7 @@
             this.btn_cancelar.Location = new System.Drawing.Point(372, 18);
             this.btn_cancelar.Name = "btn_cancelar";
             this.btn_cancelar.Size = new System.Drawing.Size(65, 65);
-            this.btn_cancelar.TabIndex = 5;
+            this.btn_cancelar.TabIndex = 19;
             this.btn_cancelar.UseVisualStyleBackColor = true;
             this.btn_cancelar.Click += new System.EventHandler(this.btn_cancelar_Click);
             // 
@@ -331,7 +331,9 @@
             this.txt_cantidad_h.Location = new System.Drawing.Point(466, 231);
             this.txt_cantidad_h.Name = "txt_cantidad_h";
             this.txt_cantidad_h.Size = new System.Drawing.Size(64, 27);
-            this.txt_cantidad_h.TabIndex = 65;
+            this.txt_cantidad_h.TabIndex = 12;
+            this.txt_cantidad_h.TextChanged += new System.EventHandler(this.txt_cantidad_h_TextChanged);
+            this.txt_cantidad_h.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_cantidad_h_KeyPress);
             // 
             // radioButton2
             // 
@@ -339,7 +341,7 @@
             this.radioButton2.Location = new System.Drawing.Point(462, 202);
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(76, 25);
-            this.radioButton2.TabIndex = 64;
+            this.radioButton2.TabIndex = 11;
             this.radioButton2.TabStop = true;
             this.radioButton2.Text = "Haber";
             this.radioButton2.UseVisualStyleBackColor = true;
@@ -351,7 +353,7 @@
             this.radioButton1.Location = new System.Drawing.Point(390, 202);
             this.radioButton1.Name = "radioButton1";
             this.radioButton1.Size = new System.Drawing.Size(71, 25);
-            this.radioButton1.TabIndex = 63;
+            this.radioButton1.TabIndex = 9;
             this.radioButton1.TabStop = true;
             this.radioButton1.Text = "Debe";
             this.radioButton1.UseVisualStyleBackColor = true;
@@ -369,37 +371,45 @@
             this.dataGridView1.EditMode = System.Windows.Forms.DataGridViewEditMode.EditOnEnter;
             this.dataGridView1.Location = new System.Drawing.Point(23, 264);
             this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.ReadOnly = true;
             this.dataGridView1.Size = new System.Drawing.Size(710, 150);
             this.dataGridView1.TabIndex = 62;
+            this.dataGridView1.TabStop = false;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // id_documento_pk
             // 
             this.id_documento_pk.HeaderText = "id_documento_pk";
             this.id_documento_pk.Name = "id_documento_pk";
+            this.id_documento_pk.ReadOnly = true;
             this.id_documento_pk.Width = 160;
             // 
             // id_detalle_cv_pk
             // 
             this.id_detalle_cv_pk.HeaderText = "id_detalle_cv_pk";
             this.id_detalle_cv_pk.Name = "id_detalle_cv_pk";
+            this.id_detalle_cv_pk.ReadOnly = true;
             this.id_detalle_cv_pk.Width = 5;
             // 
             // detalle
             // 
             this.detalle.HeaderText = "detalle";
             this.detalle.Name = "detalle";
+            this.detalle.ReadOnly = true;
             this.detalle.Width = 250;
             // 
             // debe
             // 
             this.debe.HeaderText = "debe";
             this.debe.Name = "debe";
+            this.debe.ReadOnly = true;
             this.debe.Width = 125;
             // 
             // haber
             // 
             this.haber.HeaderText = "haber";
             this.haber.Name = "haber";
+            this.haber.ReadOnly = true;
             this.haber.Width = 125;
             // 
             // textBox5
@@ -452,12 +462,13 @@
             this.txt_cantida.Location = new System.Drawing.Point(395, 230);
             this.txt_cantida.Name = "txt_cantida";
             this.txt_cantida.Size = new System.Drawing.Size(65, 27);
-            this.txt_cantida.TabIndex = 56;
+            this.txt_cantida.TabIndex = 10;
+            this.txt_cantida.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_cantida_KeyPress);
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.ForeColor = System.Drawing.Color.Black;
             this.label3.Location = new System.Drawing.Point(300, 232);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(87, 21);
@@ -469,7 +480,7 @@
             this.button3.Location = new System.Drawing.Point(544, 217);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(93, 36);
-            this.button3.TabIndex = 54;
+            this.button3.TabIndex = 13;
             this.button3.Text = "Agregar";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click_1);
@@ -479,7 +490,7 @@
             this.txt_detalle.Location = new System.Drawing.Point(87, 199);
             this.txt_detalle.Name = "txt_detalle";
             this.txt_detalle.Size = new System.Drawing.Size(293, 27);
-            this.txt_detalle.TabIndex = 53;
+            this.txt_detalle.TabIndex = 8;
             this.txt_detalle.Tag = "";
             // 
             // label2
@@ -497,7 +508,7 @@
             this.button1.Location = new System.Drawing.Point(643, 216);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(97, 37);
-            this.button1.TabIndex = 49;
+            this.button1.TabIndex = 14;
             this.button1.Text = "GENERAR";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click_1);
@@ -507,14 +518,14 @@
             this.txt_cuenta.Location = new System.Drawing.Point(159, 113);
             this.txt_cuenta.Name = "txt_cuenta";
             this.txt_cuenta.Size = new System.Drawing.Size(222, 27);
-            this.txt_cuenta.TabIndex = 48;
+            this.txt_cuenta.TabIndex = 6;
             // 
             // txt_empresa
             // 
             this.txt_empresa.Location = new System.Drawing.Point(94, 69);
             this.txt_empresa.Name = "txt_empresa";
             this.txt_empresa.Size = new System.Drawing.Size(287, 27);
-            this.txt_empresa.TabIndex = 47;
+            this.txt_empresa.TabIndex = 4;
             // 
             // cbo_doc
             // 
@@ -522,7 +533,7 @@
             this.cbo_doc.Location = new System.Drawing.Point(148, 21);
             this.cbo_doc.Name = "cbo_doc";
             this.cbo_doc.Size = new System.Drawing.Size(121, 29);
-            this.cbo_doc.TabIndex = 46;
+            this.cbo_doc.TabIndex = 2;
             this.cbo_doc.SelectedIndexChanged += new System.EventHandler(this.cbo_doc_SelectedIndexChanged);
             // 
             // lbl_empre
@@ -560,7 +571,7 @@
             this.txt_monto.Location = new System.Drawing.Point(382, 20);
             this.txt_monto.Name = "txt_monto";
             this.txt_monto.Size = new System.Drawing.Size(100, 27);
-            this.txt_monto.TabIndex = 8;
+            this.txt_monto.TabIndex = 3;
             // 
             // lbl_mt
             // 
@@ -577,7 +588,7 @@
             this.dateTimePicker1.Location = new System.Drawing.Point(478, 67);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(277, 27);
-            this.dateTimePicker1.TabIndex = 6;
+            this.dateTimePicker1.TabIndex = 5;
             this.dateTimePicker1.Tag = "fecha";
             // 
             // lbl_fecha
@@ -605,7 +616,7 @@
             this.txt_ref.Location = new System.Drawing.Point(121, 160);
             this.txt_ref.Name = "txt_ref";
             this.txt_ref.Size = new System.Drawing.Size(259, 27);
-            this.txt_ref.TabIndex = 2;
+            this.txt_ref.TabIndex = 7;
             this.txt_ref.Tag = "nombre_cuenta";
             // 
             // Cheque_Voucher
@@ -617,7 +628,11 @@
             this.Controls.Add(this.gpb_cheque_v);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label1);
+            this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(816, 640);
+            this.MinimumSize = new System.Drawing.Size(816, 640);
             this.Name = "Cheque_Voucher";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Cheque_Voucher";
             this.Load += new System.EventHandler(this.Cheque_Voucher_Load);
             this.groupBox1.ResumeLayout(false);
